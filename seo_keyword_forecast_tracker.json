@@ -1,0 +1,3274 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "2.1.0-closed-loop",
+  "updatedAt": "2026-11-09T23:02:11.646Z",
+  "trackingCadence": "bi-weekly",
+  "storeDomain": "https://printswithpassion.com",
+  "storewideMetrics": {
+    "baselineGsc28dImpressions": 1750,
+    "baselineGsc28dClicks": 28,
+    "baselineSubmittedUrls": 28865,
+    "baselineIndexedUrls": 1023,
+    "baselineIndexRate": 0.0354
+  },
+  "keywords": [
+    {
+      "id": "KW-001",
+      "keyword": "xxl desk mat uk",
+      "targetUrl": "/collections/desk-mats",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 1800,
+      "keywordDifficulty": 42,
+      "estimatedTimeToRankDays": 75,
+      "serpLandscape": {
+        "topCompetitors": [
+          "kineticlabs.com",
+          "deskr.co",
+          "amazon.co.uk",
+          "overclockers.co.uk"
+        ],
+        "weakSpotsInTop10": 2,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "image_pack",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 85,
+        "clicks28d": 2,
+        "ctr": 0.0235,
+        "averagePosition": 18.4
+      },
+      "targets": {
+        "targetPosition30d": 14,
+        "targetPosition60d": 9.5,
+        "targetPosition90d": 6,
+        "targetMonthlyClicks": 65
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 92,
+        "clicks28d": 3,
+        "ctr": 0.0326,
+        "averagePosition": 16.8,
+        "ga4Views28d": 68,
+        "ga4AddToCarts28d": 6,
+        "ga4Purchases28d": 2,
+        "ga4RevenueGbp28d": 74.98
+      },
+      "strikeZoneStatus": "Climbing (Pos 16–25)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-001-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with kineticlabs.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 85,
+            "clicks28d": 2,
+            "ctr": 0.0235,
+            "averagePosition": 18.4
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "attributionDelta": {
+            "deltaPosition": 1.6,
+            "deltaCtrBp": 91,
+            "deltaClicks28d": 1,
+            "deltaImpressions28d": 7
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-001-52495",
+          "timestamp": "2026-11-08T17:29:12.495Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 16.8) Competitor Spec Title/Meta upgrade for \"xxl desk mat uk\"",
+          "previousTitle": "Desk Mats — 4mm XXL (90x40cm / 80x30cm) | Free Shipping",
+          "newTitle": "XXL Desk Mat UK | 900x400x4mm (35.4\"x15.7\") Stitched Pad",
+          "previousMeta": "Upgrade with Extended Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads. 15% Off 2+ (STUDIO15) + Free Tracked Shipping.",
+          "newMeta": "XXL Desk Mat UK engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm sizes.",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T17:29:12.495Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-08T17:29:12.495Z"
+    },
+    {
+      "id": "KW-002",
+      "keyword": "90x40 desk mat",
+      "targetUrl": "/collections/desk-mats",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 1200,
+      "keywordDifficulty": 34,
+      "estimatedTimeToRankDays": 60,
+      "serpLandscape": {
+        "topCompetitors": [
+          "kineticlabs.com",
+          "currys.co.uk",
+          "amazon.co.uk"
+        ],
+        "weakSpotsInTop10": 3,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "organic_products"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 62,
+        "clicks28d": 1,
+        "ctr": 0.0161,
+        "averagePosition": 16.2
+      },
+      "targets": {
+        "targetPosition30d": 12,
+        "targetPosition60d": 8,
+        "targetPosition90d": 5,
+        "targetMonthlyClicks": 50
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 92,
+        "clicks28d": 3,
+        "ctr": 0.0326,
+        "averagePosition": 16.8,
+        "ga4Views28d": 68,
+        "ga4AddToCarts28d": 6,
+        "ga4Purchases28d": 2,
+        "ga4RevenueGbp28d": 74.98
+      },
+      "strikeZoneStatus": "Climbing (Pos 16–25)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-002-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with kineticlabs.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 62,
+            "clicks28d": 1,
+            "ctr": 0.0161,
+            "averagePosition": 16.2
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "attributionDelta": {
+            "deltaPosition": -0.6,
+            "deltaCtrBp": 165,
+            "deltaClicks28d": 2,
+            "deltaImpressions28d": 30
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-002-52496",
+          "timestamp": "2026-11-08T17:29:12.495Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 16.8) Competitor Spec Title/Meta upgrade for \"xxl desk mat uk\"",
+          "previousTitle": "Desk Mats — 4mm XXL (90x40cm / 80x30cm) | Free Shipping",
+          "newTitle": "XXL Desk Mat UK | 900x400x4mm (35.4\"x15.7\") Stitched Pad",
+          "previousMeta": "Upgrade with Extended Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads. 15% Off 2+ (STUDIO15) + Free Tracked Shipping.",
+          "newMeta": "XXL Desk Mat UK engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm sizes.",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T17:29:12.495Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-08T17:29:12.495Z"
+    },
+    {
+      "id": "KW-003",
+      "keyword": "desk mat for ikea karlby",
+      "targetUrl": "/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 720,
+      "keywordDifficulty": 22,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "reddit.com/r/desksetup",
+          "ikeahackers.net",
+          "youtube.com"
+        ],
+        "weakSpotsInTop10": 5,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 45,
+        "clicks28d": 3,
+        "ctr": 0.0667,
+        "averagePosition": 11.2
+      },
+      "targets": {
+        "targetPosition30d": 5,
+        "targetPosition60d": 3,
+        "targetPosition90d": 2,
+        "targetMonthlyClicks": 45
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 54,
+          "clicks28d": 4,
+          "ctr": 0.0741,
+          "averagePosition": 9.6,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 54,
+          "clicks28d": 4,
+          "ctr": 0.0741,
+          "averagePosition": 9.6,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 54,
+        "clicks28d": 4,
+        "ctr": 0.0741,
+        "averagePosition": 9.6,
+        "ga4Views28d": 38,
+        "ga4AddToCarts28d": 2,
+        "ga4Purchases28d": 1,
+        "ga4RevenueGbp28d": 39.99
+      },
+      "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-003-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with reddit.com/r/desksetup spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 45,
+            "clicks28d": 3,
+            "ctr": 0.0667,
+            "averagePosition": 11.2
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 54,
+            "clicks28d": 4,
+            "ctr": 0.0741,
+            "averagePosition": 9.6,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 1
+          },
+          "attributionDelta": {
+            "deltaPosition": 1.6,
+            "deltaCtrBp": 74,
+            "deltaClicks28d": 1,
+            "deltaImpressions28d": 9
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-003-55205",
+          "timestamp": "2026-11-09T03:37:35.204Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 9.6) summary/CTR upgrade for \"desk mat for ikea karlby\"",
+          "previousTitle": "Best Desk Setup Accessories for IKEA Karlby & Lagkapten Desks UK (2026 Sizing & Styling Guide)",
+          "newTitle": "Best Desk Setup Accessories for IKEA Karlby & Lagkapten Desks UK (2026 Sizing & Styling Guide)",
+          "previousMeta": "Complete 2026 UK sizing and styling guide for IKEA Karlby (186×63 cm &amp; 246×63 cm), IKEA Lagkapten (120×60 cm &amp; 140×60 cm), Mittzon, and Secretlab Magnus Pro desks—comparing 60×35 cm XL vs 80×40 cm XXL extended desk mats, keyboard layouts, and above-desk canvas wall art.",
+          "newMeta": "Desk Mat For Ikea Karlby engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-09",
+            "impressions28d": 54,
+            "clicks28d": 4,
+            "ctr": 0.0741,
+            "averagePosition": 9.6,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 1
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 54,
+            "clicks28d": 4,
+            "ctr": 0.0741,
+            "averagePosition": 9.6,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 1
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-09T03:37:35.204Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-09T03:37:35.204Z"
+    },
+    {
+      "id": "KW-004",
+      "keyword": "desk mat thickness 2mm vs 4mm",
+      "targetUrl": "/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 480,
+      "keywordDifficulty": 18,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "switchandclick.com",
+          "reddit.com/r/mechanicalkeyboards"
+        ],
+        "weakSpotsInTop10": 6,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 94,
+        "clicks28d": 4,
+        "ctr": 0.0426,
+        "averagePosition": 9.8
+      },
+      "targets": {
+        "targetPosition30d": 4,
+        "targetPosition60d": 2,
+        "targetPosition90d": 1,
+        "targetMonthlyClicks": 40
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 108,
+          "clicks28d": 6,
+          "ctr": 0.0556,
+          "averagePosition": 8.2,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 108,
+          "clicks28d": 6,
+          "ctr": 0.0556,
+          "averagePosition": 8.2,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 108,
+        "clicks28d": 6,
+        "ctr": 0.0556,
+        "averagePosition": 8.2,
+        "ga4Views28d": 44,
+        "ga4AddToCarts28d": 3,
+        "ga4Purchases28d": 1,
+        "ga4RevenueGbp28d": 63.98
+      },
+      "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-004-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with switchandclick.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 94,
+            "clicks28d": 4,
+            "ctr": 0.0426,
+            "averagePosition": 9.8
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 108,
+            "clicks28d": 6,
+            "ctr": 0.0556,
+            "averagePosition": 8.2,
+            "ga4AddToCarts28d": 3,
+            "ga4Purchases28d": 1
+          },
+          "attributionDelta": {
+            "deltaPosition": 1.6,
+            "deltaCtrBp": 130,
+            "deltaClicks28d": 2,
+            "deltaImpressions28d": 14
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-004-52020",
+          "timestamp": "2026-11-08T17:29:12.020Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 8.2) summary/CTR upgrade for \"desk mat thickness 2mm vs 4mm\"",
+          "previousTitle": "Desk Mat Thickness Guide: 2mm vs 3mm vs 4mm vs 5mm Compared for UK Workstations",
+          "newTitle": "Desk Mat Thickness Guide: 2mm vs 3mm vs 4mm vs 5mm Compared for UK Workstations",
+          "previousMeta": "Explore 2mm, 3mm, 4mm, and 5mm desk mat thickness comparison for UK workstations. Acoustic dampening, wrist comfort, and mouse sensor precision tested.",
+          "newMeta": "Desk Mat Thickness 2mm Vs 4mm engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & ",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 108,
+            "clicks28d": 6,
+            "ctr": 0.0556,
+            "averagePosition": 8.2,
+            "ga4AddToCarts28d": 3,
+            "ga4Purchases28d": 1
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 108,
+            "clicks28d": 6,
+            "ctr": 0.0556,
+            "averagePosition": 8.2,
+            "ga4AddToCarts28d": 3,
+            "ga4Purchases28d": 1
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T17:29:12.020Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-08T17:29:12.020Z"
+    },
+    {
+      "id": "KW-005",
+      "keyword": "japanese wave desk mat",
+      "targetUrl": "/collections/japanese-anime-desk-mats",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 650,
+      "keywordDifficulty": 28,
+      "estimatedTimeToRankDays": 45,
+      "serpLandscape": {
+        "topCompetitors": [
+          "etsy.com",
+          "deskr.co",
+          "amazon.co.uk"
+        ],
+        "weakSpotsInTop10": 4,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "image_pack"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 38,
+        "clicks28d": 1,
+        "ctr": 0.0263,
+        "averagePosition": 14.5
+      },
+      "targets": {
+        "targetPosition30d": 9,
+        "targetPosition60d": 6,
+        "targetPosition90d": 3,
+        "targetMonthlyClicks": 35
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 46,
+          "clicks28d": 2,
+          "ctr": 0.0435,
+          "averagePosition": 12.9,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 46,
+          "clicks28d": 2,
+          "ctr": 0.0435,
+          "averagePosition": 12.9,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 46,
+        "clicks28d": 2,
+        "ctr": 0.0435,
+        "averagePosition": 12.9,
+        "ga4Views28d": 54,
+        "ga4AddToCarts28d": 5,
+        "ga4Purchases28d": 1,
+        "ga4RevenueGbp28d": 39.99
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-005-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with etsy.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 38,
+            "clicks28d": 1,
+            "ctr": 0.0263,
+            "averagePosition": 14.5
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 46,
+            "clicks28d": 2,
+            "ctr": 0.0435,
+            "averagePosition": 12.9,
+            "ga4AddToCarts28d": 5,
+            "ga4Purchases28d": 1
+          },
+          "attributionDelta": {
+            "deltaPosition": 1.6,
+            "deltaCtrBp": 172,
+            "deltaClicks28d": 1,
+            "deltaImpressions28d": 8
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-005-56092",
+          "timestamp": "2026-11-09T03:37:36.092Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 12.9) Competitor Spec Title/Meta upgrade for \"japanese wave desk mat\"",
+          "previousTitle": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
+          "newTitle": "Japanese Wave Desk Mat | 900x400x4mm (35.4\"x15.7\") Stitched Pad",
+          "previousMeta": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats in 4mm thick XXL (90x40cm / 80x30cm). High-density micro-weave cloth with precision anti-fray stitched edges.",
+          "newMeta": "Japanese Wave Desk Mat engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-09",
+            "impressions28d": 46,
+            "clicks28d": 2,
+            "ctr": 0.0435,
+            "averagePosition": 12.9,
+            "ga4AddToCarts28d": 5,
+            "ga4Purchases28d": 1
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 46,
+            "clicks28d": 2,
+            "ctr": 0.0435,
+            "averagePosition": 12.9,
+            "ga4AddToCarts28d": 5,
+            "ga4Purchases28d": 1
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-09T03:37:36.092Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-09T03:37:36.092Z"
+    },
+    {
+      "id": "KW-006",
+      "keyword": "extended mouse pad 800x400",
+      "targetUrl": "/collections/desk-mats",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 590,
+      "keywordDifficulty": 31,
+      "estimatedTimeToRankDays": 60,
+      "serpLandscape": {
+        "topCompetitors": [
+          "scan.co.uk",
+          "amazon.co.uk",
+          "overclockers.co.uk"
+        ],
+        "weakSpotsInTop10": 3,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "popular_products"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 29,
+        "clicks28d": 0,
+        "ctr": 0,
+        "averagePosition": 21
+      },
+      "targets": {
+        "targetPosition30d": 15,
+        "targetPosition60d": 10,
+        "targetPosition90d": 6,
+        "targetMonthlyClicks": 25
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 92,
+        "clicks28d": 3,
+        "ctr": 0.0326,
+        "averagePosition": 16.8,
+        "ga4Views28d": 68,
+        "ga4AddToCarts28d": 6,
+        "ga4Purchases28d": 2,
+        "ga4RevenueGbp28d": 74.98
+      },
+      "strikeZoneStatus": "Climbing (Pos 16–25)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-006-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with scan.co.uk spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 29,
+            "clicks28d": 0,
+            "ctr": 0,
+            "averagePosition": 21
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "attributionDelta": {
+            "deltaPosition": 4.2,
+            "deltaCtrBp": 326,
+            "deltaClicks28d": 3,
+            "deltaImpressions28d": 63
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-006-52496",
+          "timestamp": "2026-11-08T17:29:12.495Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 16.8) Competitor Spec Title/Meta upgrade for \"xxl desk mat uk\"",
+          "previousTitle": "Desk Mats — 4mm XXL (90x40cm / 80x30cm) | Free Shipping",
+          "newTitle": "XXL Desk Mat UK | 900x400x4mm (35.4\"x15.7\") Stitched Pad",
+          "previousMeta": "Upgrade with Extended Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads. 15% Off 2+ (STUDIO15) + Free Tracked Shipping.",
+          "newMeta": "XXL Desk Mat UK engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm sizes.",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T17:29:12.495Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-08T17:29:12.495Z"
+    },
+    {
+      "id": "KW-007",
+      "keyword": "stretched canvas wall art uk",
+      "targetUrl": "/collections/canvas-prints",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Canvas Wall Art",
+      "estimatedMsv": 1400,
+      "keywordDifficulty": 48,
+      "estimatedTimeToRankDays": 90,
+      "serpLandscape": {
+        "topCompetitors": [
+          "wallfillers.co.uk",
+          "wayfair.co.uk",
+          "canvasdesign.co.uk"
+        ],
+        "weakSpotsInTop10": 1,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "image_pack"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 71,
+        "clicks28d": 1,
+        "ctr": 0.0141,
+        "averagePosition": 24.5
+      },
+      "targets": {
+        "targetPosition30d": 18,
+        "targetPosition60d": 12,
+        "targetPosition90d": 7,
+        "targetMonthlyClicks": 40
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 79,
+          "clicks28d": 2,
+          "ctr": 0.0253,
+          "averagePosition": 21.4,
+          "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 79,
+          "clicks28d": 2,
+          "ctr": 0.0253,
+          "averagePosition": 21.4,
+          "notes": "Climbing (Pos 16–25)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 79,
+        "clicks28d": 2,
+        "ctr": 0.0253,
+        "averagePosition": 21.4,
+        "ga4Views28d": 49,
+        "ga4AddToCarts28d": 4,
+        "ga4Purchases28d": 1,
+        "ga4RevenueGbp28d": 64.99
+      },
+      "strikeZoneStatus": "Climbing (Pos 16–25)",
+      "titleCooldownActive": false,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-007-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with wallfillers.co.uk spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 71,
+            "clicks28d": 1,
+            "ctr": 0.0141,
+            "averagePosition": 24.5
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 79,
+            "clicks28d": 2,
+            "ctr": 0.0253,
+            "averagePosition": 21.4,
+            "ga4AddToCarts28d": 4,
+            "ga4Purchases28d": 1
+          },
+          "attributionDelta": {
+            "deltaPosition": 3.1,
+            "deltaCtrBp": 112,
+            "deltaClicks28d": 1,
+            "deltaImpressions28d": 8
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        }
+      ]
+    },
+    {
+      "id": "KW-008",
+      "keyword": "large canvas wall art above sofa",
+      "targetUrl": "/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Canvas Wall Art",
+      "estimatedMsv": 880,
+      "keywordDifficulty": 26,
+      "estimatedTimeToRankDays": 45,
+      "serpLandscape": {
+        "topCompetitors": [
+          "wallfillers.co.uk",
+          "houzz.co.uk",
+          "pinterest.co.uk"
+        ],
+        "weakSpotsInTop10": 4,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "image_pack",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 52,
+        "clicks28d": 2,
+        "ctr": 0.0385,
+        "averagePosition": 12.1
+      },
+      "targets": {
+        "targetPosition30d": 8,
+        "targetPosition60d": 4,
+        "targetPosition90d": 2,
+        "targetMonthlyClicks": 55
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 61,
+          "clicks28d": 3,
+          "ctr": 0.0492,
+          "averagePosition": 10.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 61,
+          "clicks28d": 3,
+          "ctr": 0.0492,
+          "averagePosition": 10.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 61,
+        "clicks28d": 3,
+        "ctr": 0.0492,
+        "averagePosition": 10.8,
+        "ga4Views28d": 29,
+        "ga4AddToCarts28d": 2,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-008-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with wallfillers.co.uk spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 52,
+            "clicks28d": 2,
+            "ctr": 0.0385,
+            "averagePosition": 12.1
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 61,
+            "clicks28d": 3,
+            "ctr": 0.0492,
+            "averagePosition": 10.8,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 1.3,
+            "deltaCtrBp": 107,
+            "deltaClicks28d": 1,
+            "deltaImpressions28d": 9
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-008-54622",
+          "timestamp": "2026-11-08T17:29:14.622Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 10.8) summary/CTR upgrade for \"large canvas wall art above sofa\"",
+          "previousTitle": "How to Choose the Right Canvas Wall Art Size Above a UK Sofa or Bed (CM & Inch Chart)",
+          "newTitle": "How to Choose the Right Canvas Wall Art Size Above a UK Sofa or Bed (CM & Inch Chart)",
+          "previousMeta": "Complete UK interior design sizing guide for hanging 24×16 inch (60×40 cm) and 30×20 inch (76×50 cm) stretched canvas wall art above UK sofas and beds.",
+          "newMeta": "Large Canvas Wall Art Above Sofa printed on 400gsm matte cotton-poly canvas over 1.25\" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sofa/bed width",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 61,
+            "clicks28d": 3,
+            "ctr": 0.0492,
+            "averagePosition": 10.8,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 61,
+            "clicks28d": 3,
+            "ctr": 0.0492,
+            "averagePosition": 10.8,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T17:29:14.622Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-08T17:29:14.622Z"
+    },
+    {
+      "id": "KW-009",
+      "keyword": "canvas wall art hanging height 57 inch rule",
+      "targetUrl": "/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Canvas Wall Art",
+      "estimatedMsv": 410,
+      "keywordDifficulty": 16,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "apartmenttherapy.com",
+          "thespruce.com"
+        ],
+        "weakSpotsInTop10": 5,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 64,
+        "clicks28d": 3,
+        "ctr": 0.0469,
+        "averagePosition": 7.4
+      },
+      "targets": {
+        "targetPosition30d": 4,
+        "targetPosition60d": 2,
+        "targetPosition90d": 1,
+        "targetMonthlyClicks": 40
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 72,
+          "clicks28d": 4,
+          "ctr": 0.0556,
+          "averagePosition": 6.8,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 72,
+          "clicks28d": 4,
+          "ctr": 0.0556,
+          "averagePosition": 6.8,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 72,
+        "clicks28d": 4,
+        "ctr": 0.0556,
+        "averagePosition": 6.8,
+        "ga4Views28d": 34,
+        "ga4AddToCarts28d": 1,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-009-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with apartmenttherapy.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 64,
+            "clicks28d": 3,
+            "ctr": 0.0469,
+            "averagePosition": 7.4
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 72,
+            "clicks28d": 4,
+            "ctr": 0.0556,
+            "averagePosition": 6.8,
+            "ga4AddToCarts28d": 1,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0.6,
+            "deltaCtrBp": 87,
+            "deltaClicks28d": 1,
+            "deltaImpressions28d": 8
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-009-54113",
+          "timestamp": "2026-11-08T17:29:14.113Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 6.8) summary/CTR upgrade for \"canvas wall art hanging height 57 inch rule\"",
+          "previousTitle": "Hallway, Home Office & Bedroom Canvas Wall Art Placement Height Guide UK (57-Inch Gallery Rule)",
+          "newTitle": "Hallway, Home Office & Bedroom Canvas Wall Art Placement Height Guide UK (57-Inch Gallery Rule)",
+          "previousMeta": "Master the 57-inch (145 cm) gallery hanging rule for UK hallways, home offices &amp; bedrooms. Exact CM &amp; inch heights for 60x40cm and 76x50cm canvases.",
+          "newMeta": "Canvas Wall Art Hanging Height 57 Inch Rule printed on 400gsm matte cotton-poly canvas over 1.25\" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sof",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 72,
+            "clicks28d": 4,
+            "ctr": 0.0556,
+            "averagePosition": 6.8,
+            "ga4AddToCarts28d": 1,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 72,
+            "clicks28d": 4,
+            "ctr": 0.0556,
+            "averagePosition": 6.8,
+            "ga4AddToCarts28d": 1,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T17:29:14.113Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-08T17:29:14.113Z"
+    },
+    {
+      "id": "KW-010",
+      "keyword": "minimalist bauhaus canvas print",
+      "targetUrl": "/collections/abstract-minimalist-bauhaus-canvas-wall-art",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Canvas Wall Art",
+      "estimatedMsv": 520,
+      "keywordDifficulty": 29,
+      "estimatedTimeToRankDays": 45,
+      "serpLandscape": {
+        "topCompetitors": [
+          "etsy.com",
+          "desenio.co.uk",
+          "akuahome.co.uk"
+        ],
+        "weakSpotsInTop10": 3,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "image_pack"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 33,
+        "clicks28d": 1,
+        "ctr": 0.0303,
+        "averagePosition": 15.8
+      },
+      "targets": {
+        "targetPosition30d": 10,
+        "targetPosition60d": 6,
+        "targetPosition90d": 3,
+        "targetMonthlyClicks": 30
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 39,
+          "clicks28d": 1,
+          "ctr": 0.0256,
+          "averagePosition": 14.2,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 39,
+          "clicks28d": 1,
+          "ctr": 0.0256,
+          "averagePosition": 14.2,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 39,
+        "clicks28d": 1,
+        "ctr": 0.0256,
+        "averagePosition": 14.2,
+        "ga4Views28d": 27,
+        "ga4AddToCarts28d": 2,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-010-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with etsy.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 33,
+            "clicks28d": 1,
+            "ctr": 0.0303,
+            "averagePosition": 15.8
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 39,
+            "clicks28d": 1,
+            "ctr": 0.0256,
+            "averagePosition": 14.2,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 1.6,
+            "deltaCtrBp": -47,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 6
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-010-57908",
+          "timestamp": "2026-11-09T03:37:37.908Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 14.2) Competitor Spec Title/Meta upgrade for \"minimalist bauhaus canvas print\"",
+          "previousTitle": "Abstract, Minimalist & Bauhaus Geometric Canvas Wall Art",
+          "newTitle": "Minimalist Bauhaus Canvas Print | 1.25\" Pine Framed Canvas (CM & I",
+          "previousMeta": "Abstract, Minimalist & Bauhaus Geometric Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Archival 380gsm cotton canvas and kiln-dried European pine frames.",
+          "newMeta": "Minimalist Bauhaus Canvas Print printed on 400gsm matte cotton-poly canvas over 1.25\" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sofa/bed width ",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-09",
+            "impressions28d": 39,
+            "clicks28d": 1,
+            "ctr": 0.0256,
+            "averagePosition": 14.2,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 39,
+            "clicks28d": 1,
+            "ctr": 0.0256,
+            "averagePosition": 14.2,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-09T03:37:37.908Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-09T03:37:37.908Z"
+    },
+    {
+      "id": "KW-011",
+      "keyword": "mechanical keyboard acoustics desk mat",
+      "targetUrl": "/blogs/news/mechanical-keyboard-desk-mat-acoustics-sizing-uk-guide",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 390,
+      "keywordDifficulty": 19,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "switchandclick.com",
+          "keyboardsexpert.com",
+          "reddit.com"
+        ],
+        "weakSpotsInTop10": 6,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 48,
+        "clicks28d": 2,
+        "ctr": 0.0417,
+        "averagePosition": 8.9
+      },
+      "targets": {
+        "targetPosition30d": 5,
+        "targetPosition60d": 2,
+        "targetPosition90d": 1,
+        "targetMonthlyClicks": 35
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 48,
+          "clicks28d": 2,
+          "ctr": 0.0417,
+          "averagePosition": 8.9,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 48,
+          "clicks28d": 2,
+          "ctr": 0.0417,
+          "averagePosition": 8.9,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 48,
+        "clicks28d": 2,
+        "ctr": 0.0417,
+        "averagePosition": 8.9,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-011-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with switchandclick.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 48,
+            "clicks28d": 2,
+            "ctr": 0.0417,
+            "averagePosition": 8.9
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 48,
+            "clicks28d": 2,
+            "ctr": 0.0417,
+            "averagePosition": 8.9,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-011-55658",
+          "timestamp": "2026-11-09T03:37:35.658Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 8.9) summary/CTR upgrade for \"mechanical keyboard acoustics desk mat\"",
+          "previousTitle": "Mechanical Keyboard Desk Mat Sizing & Acoustic Dampening: 3mm vs 4mm Thickness, Mouse Glide & Sound Absorption (2026 Guide)",
+          "newTitle": "Mechanical Keyboard Desk Mat Sizing & Acoustic Dampening: 3mm vs 4mm Thickness, Mouse Glide & Sound Absorption (2026 Guide)",
+          "previousMeta": "Complete UK mechanical keyboard desk pad guide: Discover how desk mat thickness (3mm vs 4mm) dampens switch keystroke reverberation by up to -7 dB, compare 60%, 75%, TKL, and Full-size layouts against XL and XXL mats, and simulate your setup.",
+          "newMeta": "Mechanical Keyboard Acoustics Desk Mat engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 8",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-09",
+            "impressions28d": 48,
+            "clicks28d": 2,
+            "ctr": 0.0417,
+            "averagePosition": 8.9,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 48,
+            "clicks28d": 2,
+            "ctr": 0.0417,
+            "averagePosition": 8.9,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-09T03:37:35.658Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-09T03:37:35.658Z"
+    },
+    {
+      "id": "KW-012",
+      "keyword": "how to clean stitched desk mat",
+      "targetUrl": "/blogs/news/how-to-clean-wash-extended-gaming-desk-mat-uk",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 620,
+      "keywordDifficulty": 21,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "wikihow.com",
+          "pcgamer.com",
+          "reddit.com"
+        ],
+        "weakSpotsInTop10": 5,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask",
+          "video"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 81,
+        "clicks28d": 4,
+        "ctr": 0.0494,
+        "averagePosition": 9.1
+      },
+      "targets": {
+        "targetPosition30d": 5,
+        "targetPosition60d": 3,
+        "targetPosition90d": 2,
+        "targetMonthlyClicks": 50
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 81,
+          "clicks28d": 4,
+          "ctr": 0.0494,
+          "averagePosition": 9.1,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 81,
+          "clicks28d": 4,
+          "ctr": 0.0494,
+          "averagePosition": 9.1,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 81,
+        "clicks28d": 4,
+        "ctr": 0.0494,
+        "averagePosition": 9.1,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-012-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with wikihow.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 81,
+            "clicks28d": 4,
+            "ctr": 0.0494,
+            "averagePosition": 9.1
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 81,
+            "clicks28d": 4,
+            "ctr": 0.0494,
+            "averagePosition": 9.1,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-012-53662",
+          "timestamp": "2026-11-08T17:29:13.662Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 9.1) summary/CTR upgrade for \"how to clean stitched desk mat\"",
+          "previousTitle": "How to Clean & Wash an Extended Gaming Desk Mat UK Without Fraying Stitched Edges (2026 Guide)",
+          "newTitle": "How to Clean & Wash an Extended Gaming Desk Mat UK Without Fraying Stitched Edges (2026 Guide)",
+          "previousMeta": "Step-by-step UK guide to hand-washing and deep cleaning XL &amp; XXL cloth gaming desk mats safely without fraying stitched edges or ruining rubber backing.",
+          "newMeta": "How To Clean Stitched Desk Mat engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm &",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 81,
+            "clicks28d": 4,
+            "ctr": 0.0494,
+            "averagePosition": 9.1,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 81,
+            "clicks28d": 4,
+            "ctr": 0.0494,
+            "averagePosition": 9.1,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T17:29:13.662Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-08T17:29:13.662Z"
+    },
+    {
+      "id": "KW-013",
+      "keyword": "mechanical keyboard desk mat",
+      "targetUrl": "/collections/desk-mats",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 950,
+      "keywordDifficulty": 38,
+      "estimatedTimeToRankDays": 60,
+      "serpLandscape": {
+        "topCompetitors": [
+          "kineticlabs.com",
+          "deskr.co",
+          "mechboards.co.uk"
+        ],
+        "weakSpotsInTop10": 2,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "image_pack"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 42,
+        "clicks28d": 1,
+        "ctr": 0.0238,
+        "averagePosition": 19.3
+      },
+      "targets": {
+        "targetPosition30d": 14,
+        "targetPosition60d": 9,
+        "targetPosition90d": 5,
+        "targetMonthlyClicks": 45
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 92,
+        "clicks28d": 3,
+        "ctr": 0.0326,
+        "averagePosition": 16.8,
+        "ga4Views28d": 68,
+        "ga4AddToCarts28d": 6,
+        "ga4Purchases28d": 2,
+        "ga4RevenueGbp28d": 74.98
+      },
+      "strikeZoneStatus": "Climbing (Pos 16–25)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-013-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with kineticlabs.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 42,
+            "clicks28d": 1,
+            "ctr": 0.0238,
+            "averagePosition": 19.3
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "attributionDelta": {
+            "deltaPosition": 2.5,
+            "deltaCtrBp": 88,
+            "deltaClicks28d": 2,
+            "deltaImpressions28d": 50
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-013-52496",
+          "timestamp": "2026-11-08T17:29:12.495Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 16.8) Competitor Spec Title/Meta upgrade for \"xxl desk mat uk\"",
+          "previousTitle": "Desk Mats — 4mm XXL (90x40cm / 80x30cm) | Free Shipping",
+          "newTitle": "XXL Desk Mat UK | 900x400x4mm (35.4\"x15.7\") Stitched Pad",
+          "previousMeta": "Upgrade with Extended Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads. 15% Off 2+ (STUDIO15) + Free Tracked Shipping.",
+          "newMeta": "XXL Desk Mat UK engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm sizes.",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 6,
+            "ga4Purchases28d": 2
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T17:29:12.495Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-08T17:29:12.495Z"
+    },
+    {
+      "id": "KW-014",
+      "keyword": "stretched canvas vs framed prints uk",
+      "targetUrl": "/blogs/news/stretched-canvas-vs-framed-prints-uk-comparison",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Canvas Wall Art",
+      "estimatedMsv": 340,
+      "keywordDifficulty": 17,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "theprintspace.co.uk",
+          "hellocanvas.co.uk"
+        ],
+        "weakSpotsInTop10": 5,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 36,
+        "clicks28d": 1,
+        "ctr": 0.0278,
+        "averagePosition": 11.4
+      },
+      "targets": {
+        "targetPosition30d": 6,
+        "targetPosition60d": 3,
+        "targetPosition90d": 2,
+        "targetMonthlyClicks": 30
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 36,
+          "clicks28d": 1,
+          "ctr": 0.0278,
+          "averagePosition": 11.4,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 36,
+          "clicks28d": 1,
+          "ctr": 0.0278,
+          "averagePosition": 11.4,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 36,
+        "clicks28d": 1,
+        "ctr": 0.0278,
+        "averagePosition": 11.4,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-014-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with theprintspace.co.uk spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 36,
+            "clicks28d": 1,
+            "ctr": 0.0278,
+            "averagePosition": 11.4
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 36,
+            "clicks28d": 1,
+            "ctr": 0.0278,
+            "averagePosition": 11.4,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-014-16247",
+          "timestamp": "2026-11-09T18:38:36.247Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 11.4) summary/CTR upgrade for \"stretched canvas vs framed prints uk\"",
+          "previousTitle": "Stretched Canvas vs Framed Prints: Glare, Durability & Acoustic Benefits for Modern Rooms (2026)",
+          "newTitle": "Stretched Canvas vs Framed Prints: Glare, Durability & Acoustic Benefits for Modern Rooms (2026)",
+          "previousMeta": "Stretched canvas vs framed glass prints for UK homes: Discover glare reduction, durability, acoustic absorption, and lightweight wall hanging benefits.",
+          "newMeta": "Stretched Canvas Vs Framed Prints UK printed on 400gsm matte cotton-poly canvas over 1.25\" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sofa/bed w",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-09",
+            "impressions28d": 36,
+            "clicks28d": 1,
+            "ctr": 0.0278,
+            "averagePosition": 11.4,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 36,
+            "clicks28d": 1,
+            "ctr": 0.0278,
+            "averagePosition": 11.4,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-09T18:38:36.247Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-09T18:38:36.247Z"
+    },
+    {
+      "id": "KW-015",
+      "keyword": "ultrawide desk mat 900x400",
+      "targetUrl": "/blogs/news/dual-monitor-ultrawide-desk-setup-mat-sizing-uk",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 510,
+      "keywordDifficulty": 24,
+      "estimatedTimeToRankDays": 45,
+      "serpLandscape": {
+        "topCompetitors": [
+          "reddit.com/r/ultrawidemasterrace",
+          "amazon.co.uk"
+        ],
+        "weakSpotsInTop10": 4,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 28,
+        "clicks28d": 1,
+        "ctr": 0.0357,
+        "averagePosition": 13.8
+      },
+      "targets": {
+        "targetPosition30d": 8,
+        "targetPosition60d": 5,
+        "targetPosition90d": 3,
+        "targetMonthlyClicks": 35
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 28,
+          "clicks28d": 1,
+          "ctr": 0.0357,
+          "averagePosition": 13.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 28,
+          "clicks28d": 1,
+          "ctr": 0.0357,
+          "averagePosition": 13.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 28,
+        "clicks28d": 1,
+        "ctr": 0.0357,
+        "averagePosition": 13.8,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-015-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with reddit.com/r/ultrawidemasterrace spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 28,
+            "clicks28d": 1,
+            "ctr": 0.0357,
+            "averagePosition": 13.8
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 28,
+            "clicks28d": 1,
+            "ctr": 0.0357,
+            "averagePosition": 13.8,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-015-18514",
+          "timestamp": "2026-11-09T18:38:38.514Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 13.8) summary/CTR upgrade for \"ultrawide desk mat 900x400\"",
+          "previousTitle": "Dual Monitor & Ultrawide Desk Setup Proportions: Best XL & XXL Desk Mat Layouts (2026 Guide)",
+          "newTitle": "Dual Monitor & Ultrawide Desk Setup Proportions: Best XL & XXL Desk Mat Layouts (2026 Guide)",
+          "previousMeta": "Comprehensive 2026 UK multi-monitor desk sizing guide: Comparing dual 24\", dual 27\", 34\" ultrawide, and 49\" super ultrawide monitors across IKEA Karlby (186×63 cm) and Lagkapten worktops with 60×35 cm XL vs 80×40 cm XXL extended desk mats.",
+          "newMeta": "Ultrawide Desk Mat 900x400 engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-09",
+            "impressions28d": 28,
+            "clicks28d": 1,
+            "ctr": 0.0357,
+            "averagePosition": 13.8,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 28,
+            "clicks28d": 1,
+            "ctr": 0.0357,
+            "averagePosition": 13.8,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-09T18:38:38.514Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-09T18:38:38.514Z"
+    },
+    {
+      "id": "KW-016",
+      "keyword": "cyberpunk desk mat 900x400",
+      "targetUrl": "/collections/cyberpunk-neon-gaming-desk-mats",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 450,
+      "keywordDifficulty": 25,
+      "estimatedTimeToRankDays": 45,
+      "serpLandscape": {
+        "topCompetitors": [
+          "etsy.com",
+          "deskr.co",
+          "amazon.co.uk"
+        ],
+        "weakSpotsInTop10": 4,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "image_pack"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 22,
+        "clicks28d": 0,
+        "ctr": 0,
+        "averagePosition": 17.1
+      },
+      "targets": {
+        "targetPosition30d": 11,
+        "targetPosition60d": 7,
+        "targetPosition90d": 4,
+        "targetMonthlyClicks": 25
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 28,
+          "clicks28d": 1,
+          "ctr": 0.0357,
+          "averagePosition": 14.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 28,
+          "clicks28d": 1,
+          "ctr": 0.0357,
+          "averagePosition": 14.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 28,
+        "clicks28d": 1,
+        "ctr": 0.0357,
+        "averagePosition": 14.8,
+        "ga4Views28d": 31,
+        "ga4AddToCarts28d": 3,
+        "ga4Purchases28d": 1,
+        "ga4RevenueGbp28d": 34.99
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": false,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-016-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with etsy.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 22,
+            "clicks28d": 0,
+            "ctr": 0,
+            "averagePosition": 17.1
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 28,
+            "clicks28d": 1,
+            "ctr": 0.0357,
+            "averagePosition": 14.8,
+            "ga4AddToCarts28d": 3,
+            "ga4Purchases28d": 1
+          },
+          "attributionDelta": {
+            "deltaPosition": 2.3,
+            "deltaCtrBp": 357,
+            "deltaClicks28d": 1,
+            "deltaImpressions28d": 6
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        }
+      ]
+    },
+    {
+      "id": "KW-017",
+      "keyword": "mountain landscape canvas wall art",
+      "targetUrl": "/collections/nature-landscape-canvas-prints",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Canvas Wall Art",
+      "estimatedMsv": 680,
+      "keywordDifficulty": 32,
+      "estimatedTimeToRankDays": 60,
+      "serpLandscape": {
+        "topCompetitors": [
+          "wallfillers.co.uk",
+          "desenio.co.uk",
+          "etsy.com"
+        ],
+        "weakSpotsInTop10": 3,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "image_pack"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 31,
+        "clicks28d": 0,
+        "ctr": 0,
+        "averagePosition": 22.3
+      },
+      "targets": {
+        "targetPosition30d": 16,
+        "targetPosition60d": 10,
+        "targetPosition90d": 5,
+        "targetMonthlyClicks": 30
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 36,
+          "clicks28d": 1,
+          "ctr": 0.0278,
+          "averagePosition": 19.8,
+          "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 36,
+          "clicks28d": 1,
+          "ctr": 0.0278,
+          "averagePosition": 19.8,
+          "notes": "Climbing (Pos 16–25)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 36,
+        "clicks28d": 1,
+        "ctr": 0.0278,
+        "averagePosition": 19.8,
+        "ga4Views28d": 22,
+        "ga4AddToCarts28d": 1,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Climbing (Pos 16–25)",
+      "titleCooldownActive": false,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-017-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with wallfillers.co.uk spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 31,
+            "clicks28d": 0,
+            "ctr": 0,
+            "averagePosition": 22.3
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 36,
+            "clicks28d": 1,
+            "ctr": 0.0278,
+            "averagePosition": 19.8,
+            "ga4AddToCarts28d": 1,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 2.5,
+            "deltaCtrBp": 278,
+            "deltaClicks28d": 1,
+            "deltaImpressions28d": 5
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-017-65397",
+          "timestamp": "2026-11-08T17:29:25.397Z",
+          "changeType": "INTERNAL_LINK_SCULPT",
+          "summary": "Injected contextual hub link from /blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed -> /collections/nature-landscape-canvas-prints (\"Mountain Landscape Canvas Wall Art\")",
+          "previousTitle": null,
+          "newTitle": null,
+          "previousMeta": null,
+          "newMeta": null,
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 36,
+            "clicks28d": 1,
+            "ctr": 0.0278,
+            "averagePosition": 19.8,
+            "ga4AddToCarts28d": 1,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 36,
+            "clicks28d": 1,
+            "ctr": 0.0278,
+            "averagePosition": 19.8,
+            "ga4AddToCarts28d": 1,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-017-10005",
+          "timestamp": "2026-11-08T19:11:50.005Z",
+          "changeType": "INTERNAL_LINK_SCULPT",
+          "summary": "Injected contextual hub link from /blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule -> /collections/nature-landscape-canvas-prints (\"Mountain Landscape Canvas Wall Art\")",
+          "previousTitle": null,
+          "newTitle": null,
+          "previousMeta": null,
+          "newMeta": null,
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 36,
+            "clicks28d": 1,
+            "ctr": 0.0278,
+            "averagePosition": 19.8,
+            "ga4AddToCarts28d": 1,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 36,
+            "clicks28d": 1,
+            "ctr": 0.0278,
+            "averagePosition": 19.8,
+            "ga4AddToCarts28d": 1,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T19:11:50.005Z",
+      "lastModifiedType": "INTERNAL_LINK_SCULPT"
+    },
+    {
+      "id": "KW-018",
+      "keyword": "tkl keyboard desk mat",
+      "targetUrl": "/blogs/news/uk-desk-mat-size-guide-60x35-xl-vs-80x40-xxl-compared",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 430,
+      "keywordDifficulty": 20,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "reddit.com",
+          "kineticlabs.com"
+        ],
+        "weakSpotsInTop10": 5,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 39,
+        "clicks28d": 1,
+        "ctr": 0.0256,
+        "averagePosition": 10.6
+      },
+      "targets": {
+        "targetPosition30d": 6,
+        "targetPosition60d": 3,
+        "targetPosition90d": 2,
+        "targetMonthlyClicks": 35
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 39,
+          "clicks28d": 1,
+          "ctr": 0.0256,
+          "averagePosition": 10.6,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 39,
+          "clicks28d": 1,
+          "ctr": 0.0256,
+          "averagePosition": 10.6,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 39,
+        "clicks28d": 1,
+        "ctr": 0.0256,
+        "averagePosition": 10.6,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-018-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with reddit.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 39,
+            "clicks28d": 1,
+            "ctr": 0.0256,
+            "averagePosition": 10.6
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 39,
+            "clicks28d": 1,
+            "ctr": 0.0256,
+            "averagePosition": 10.6,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-018-15062",
+          "timestamp": "2026-11-09T18:38:35.061Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 10.6) summary/CTR upgrade for \"tkl keyboard desk mat\"",
+          "previousTitle": "UK Desk Mat Size Guide (2026): 60×35 cm XL vs 80×40 cm XXL Extended Mouse Pads Compared",
+          "newTitle": "UK Desk Mat Size Guide (2026): 60×35 cm XL vs 80×40 cm XXL Extended Mouse Pads Compared",
+          "previousMeta": "Compare 60×35 cm (23.6×13.8 inch) XL vs 80×40 cm (31.5×15.5 inch) XXL extended desk mats for UK &amp; IKEA desks, mechanical keyboards, and mouse sweep space.",
+          "newMeta": "TKL Keyboard Desk Mat engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm ",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-09",
+            "impressions28d": 39,
+            "clicks28d": 1,
+            "ctr": 0.0256,
+            "averagePosition": 10.6,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 39,
+            "clicks28d": 1,
+            "ctr": 0.0256,
+            "averagePosition": 10.6,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-09T18:38:35.061Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-09T18:38:35.061Z"
+    },
+    {
+      "id": "KW-019",
+      "keyword": "great wave desk mat 900x400",
+      "targetUrl": "/products/the-great-wave-of-kanagawa-xxl-desk-mat",
+      "pageType": "product",
+      "intent": "transactional",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 380,
+      "keywordDifficulty": 23,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "amazon.co.uk",
+          "etsy.com"
+        ],
+        "weakSpotsInTop10": 4,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "rich_snippets"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 44,
+        "clicks28d": 2,
+        "ctr": 0.0455,
+        "averagePosition": 11.8
+      },
+      "targets": {
+        "targetPosition30d": 7,
+        "targetPosition60d": 4,
+        "targetPosition90d": 2,
+        "targetMonthlyClicks": 30
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 44,
+          "clicks28d": 2,
+          "ctr": 0.0455,
+          "averagePosition": 11.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 44,
+          "clicks28d": 2,
+          "ctr": 0.0455,
+          "averagePosition": 11.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 44,
+        "clicks28d": 2,
+        "ctr": 0.0455,
+        "averagePosition": 11.8,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": false,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-019-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with amazon.co.uk spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 44,
+            "clicks28d": 2,
+            "ctr": 0.0455,
+            "averagePosition": 11.8
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 44,
+            "clicks28d": 2,
+            "ctr": 0.0455,
+            "averagePosition": 11.8,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ]
+    },
+    {
+      "id": "KW-020",
+      "keyword": "topographic desk pad monochrome",
+      "targetUrl": "/products/monochrome-topographic-contour-desk-mat",
+      "pageType": "product",
+      "intent": "transactional",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 520,
+      "keywordDifficulty": 27,
+      "estimatedTimeToRankDays": 45,
+      "serpLandscape": {
+        "topCompetitors": [
+          "deskr.co",
+          "amazon.co.uk"
+        ],
+        "weakSpotsInTop10": 3,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "rich_snippets"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 25,
+        "clicks28d": 1,
+        "ctr": 0.04,
+        "averagePosition": 14.1
+      },
+      "targets": {
+        "targetPosition30d": 9,
+        "targetPosition60d": 5,
+        "targetPosition90d": 3,
+        "targetMonthlyClicks": 35
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 25,
+          "clicks28d": 1,
+          "ctr": 0.04,
+          "averagePosition": 14.1,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 25,
+          "clicks28d": 1,
+          "ctr": 0.04,
+          "averagePosition": 14.1,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 25,
+        "clicks28d": 1,
+        "ctr": 0.04,
+        "averagePosition": 14.1,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": false,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-020-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with deskr.co spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 25,
+            "clicks28d": 1,
+            "ctr": 0.04,
+            "averagePosition": 14.1
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 25,
+            "clicks28d": 1,
+            "ctr": 0.04,
+            "averagePosition": 14.1,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ]
+    },
+    {
+      "id": "KW-021",
+      "keyword": "large panoramic canvas print uk",
+      "targetUrl": "/collections/canvas-prints",
+      "pageType": "collection",
+      "intent": "transactional",
+      "substrate": "Canvas Wall Art",
+      "estimatedMsv": 760,
+      "keywordDifficulty": 36,
+      "estimatedTimeToRankDays": 60,
+      "serpLandscape": {
+        "topCompetitors": [
+          "wallfillers.co.uk",
+          "photobox.co.uk"
+        ],
+        "weakSpotsInTop10": 2,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "image_pack"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 19,
+        "clicks28d": 0,
+        "ctr": 0,
+        "averagePosition": 26.8
+      },
+      "targets": {
+        "targetPosition30d": 19,
+        "targetPosition60d": 12,
+        "targetPosition90d": 7,
+        "targetMonthlyClicks": 25
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 79,
+          "clicks28d": 2,
+          "ctr": 0.0253,
+          "averagePosition": 21.4,
+          "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 79,
+          "clicks28d": 2,
+          "ctr": 0.0253,
+          "averagePosition": 21.4,
+          "notes": "Climbing (Pos 16–25)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 79,
+        "clicks28d": 2,
+        "ctr": 0.0253,
+        "averagePosition": 21.4,
+        "ga4Views28d": 49,
+        "ga4AddToCarts28d": 4,
+        "ga4Purchases28d": 1,
+        "ga4RevenueGbp28d": 64.99
+      },
+      "strikeZoneStatus": "Climbing (Pos 16–25)",
+      "titleCooldownActive": false,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-021-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with wallfillers.co.uk spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 19,
+            "clicks28d": 0,
+            "ctr": 0,
+            "averagePosition": 26.8
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 79,
+            "clicks28d": 2,
+            "ctr": 0.0253,
+            "averagePosition": 21.4,
+            "ga4AddToCarts28d": 4,
+            "ga4Purchases28d": 1
+          },
+          "attributionDelta": {
+            "deltaPosition": 5.4,
+            "deltaCtrBp": 253,
+            "deltaClicks28d": 2,
+            "deltaImpressions28d": 60
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        }
+      ]
+    },
+    {
+      "id": "KW-022",
+      "keyword": "living room canvas art colour matching",
+      "targetUrl": "/blogs/news/living-room-canvas-wall-art-colour-palette-matching-uk",
+      "pageType": "article",
+      "intent": "commercial_investigation",
+      "substrate": "Canvas Wall Art",
+      "estimatedMsv": 320,
+      "keywordDifficulty": 15,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "idealhome.co.uk",
+          "pinterest.co.uk"
+        ],
+        "weakSpotsInTop10": 6,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 21,
+        "clicks28d": 1,
+        "ctr": 0.0476,
+        "averagePosition": 8.5
+      },
+      "targets": {
+        "targetPosition30d": 5,
+        "targetPosition60d": 2,
+        "targetPosition90d": 1,
+        "targetMonthlyClicks": 30
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 21,
+          "clicks28d": 1,
+          "ctr": 0.0476,
+          "averagePosition": 8.5,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 21,
+          "clicks28d": 1,
+          "ctr": 0.0476,
+          "averagePosition": 8.5,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 21,
+        "clicks28d": 1,
+        "ctr": 0.0476,
+        "averagePosition": 8.5,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
+      "titleCooldownActive": false,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-022-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with idealhome.co.uk spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 21,
+            "clicks28d": 1,
+            "ctr": 0.0476,
+            "averagePosition": 8.5
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 21,
+            "clicks28d": 1,
+            "ctr": 0.0476,
+            "averagePosition": 8.5,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ]
+    },
+    {
+      "id": "KW-023",
+      "keyword": "desk setup accessories uk",
+      "targetUrl": "/collections/desk-accessories",
+      "pageType": "collection",
+      "intent": "commercial_investigation",
+      "substrate": "Desk Mats",
+      "estimatedMsv": 840,
+      "keywordDifficulty": 35,
+      "estimatedTimeToRankDays": 60,
+      "serpLandscape": {
+        "topCompetitors": [
+          "groovemade.com",
+          "amazon.co.uk"
+        ],
+        "weakSpotsInTop10": 2,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "popular_products"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 35,
+        "clicks28d": 1,
+        "ctr": 0.0286,
+        "averagePosition": 17.5
+      },
+      "targets": {
+        "targetPosition30d": 13,
+        "targetPosition60d": 8,
+        "targetPosition90d": 5,
+        "targetMonthlyClicks": 40
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 35,
+          "clicks28d": 1,
+          "ctr": 0.0286,
+          "averagePosition": 17.5,
+          "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 35,
+          "clicks28d": 1,
+          "ctr": 0.0286,
+          "averagePosition": 17.5,
+          "notes": "Climbing (Pos 16–25)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 35,
+        "clicks28d": 1,
+        "ctr": 0.0286,
+        "averagePosition": 17.5,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Climbing (Pos 16–25)",
+      "titleCooldownActive": false,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-023-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with groovemade.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 35,
+            "clicks28d": 1,
+            "ctr": 0.0286,
+            "averagePosition": 17.5
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 35,
+            "clicks28d": 1,
+            "ctr": 0.0286,
+            "averagePosition": 17.5,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-023-66191",
+          "timestamp": "2026-11-08T17:29:26.191Z",
+          "changeType": "INTERNAL_LINK_SCULPT",
+          "summary": "Injected contextual hub link from /blogs/news/uk-desk-mat-size-guide-60x35-xl-vs-80x40-xxl-compared -> /collections/desk-accessories (\"Desk Setup Accessories Uk\")",
+          "previousTitle": null,
+          "newTitle": null,
+          "previousMeta": null,
+          "newMeta": null,
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 35,
+            "clicks28d": 1,
+            "ctr": 0.0286,
+            "averagePosition": 17.5,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 35,
+            "clicks28d": 1,
+            "ctr": 0.0286,
+            "averagePosition": 17.5,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-023-10598",
+          "timestamp": "2026-11-08T19:11:50.598Z",
+          "changeType": "INTERNAL_LINK_SCULPT",
+          "summary": "Injected contextual hub link from /blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide -> /collections/desk-accessories (\"Desk Setup Accessories Uk\")",
+          "previousTitle": null,
+          "newTitle": null,
+          "previousMeta": null,
+          "newMeta": null,
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 35,
+            "clicks28d": 1,
+            "ctr": 0.0286,
+            "averagePosition": 17.5,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 35,
+            "clicks28d": 1,
+            "ctr": 0.0286,
+            "averagePosition": 17.5,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-08T19:11:50.598Z",
+      "lastModifiedType": "INTERNAL_LINK_SCULPT"
+    },
+    {
+      "id": "KW-024",
+      "keyword": "gallery wrap canvas 38mm deep",
+      "targetUrl": "/products/alpine-fog-forest-stretched-canvas-print",
+      "pageType": "product",
+      "intent": "transactional",
+      "substrate": "Canvas Wall Art",
+      "estimatedMsv": 290,
+      "keywordDifficulty": 18,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "canvasdesign.co.uk",
+          "wallfillers.co.uk"
+        ],
+        "weakSpotsInTop10": 5,
+        "serpFeaturesPresent": [
+          "shopping_graph",
+          "rich_snippets"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 15,
+        "clicks28d": 1,
+        "ctr": 0.0667,
+        "averagePosition": 12.3
+      },
+      "targets": {
+        "targetPosition30d": 7,
+        "targetPosition60d": 4,
+        "targetPosition90d": 2,
+        "targetMonthlyClicks": 25
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 15,
+          "clicks28d": 1,
+          "ctr": 0.0667,
+          "averagePosition": 12.3,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 15,
+          "clicks28d": 1,
+          "ctr": 0.0667,
+          "averagePosition": 12.3,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 15,
+        "clicks28d": 1,
+        "ctr": 0.0667,
+        "averagePosition": 12.3,
+        "ga4Views28d": 0,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
+      "titleCooldownActive": false,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-024-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with canvasdesign.co.uk spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 15,
+            "clicks28d": 1,
+            "ctr": 0.0667,
+            "averagePosition": 12.3
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 15,
+            "clicks28d": 1,
+            "ctr": 0.0667,
+            "averagePosition": 12.3,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ]
+    },
+    {
+      "id": "KW-025",
+      "keyword": "desk setup hardware compatibility guide",
+      "targetUrl": "/pages/desk-setup-hardware-compatibility-guide",
+      "pageType": "page",
+      "intent": "commercial_investigation",
+      "substrate": "Ecosystem",
+      "estimatedMsv": 460,
+      "keywordDifficulty": 20,
+      "estimatedTimeToRankDays": 30,
+      "serpLandscape": {
+        "topCompetitors": [
+          "ikea.com",
+          "reddit.com"
+        ],
+        "weakSpotsInTop10": 4,
+        "serpFeaturesPresent": [
+          "featured_snippet",
+          "people_also_ask"
+        ]
+      },
+      "baseline": {
+        "recordedAt": "2026-11-08",
+        "impressions28d": 27,
+        "clicks28d": 1,
+        "ctr": 0.037,
+        "averagePosition": 10.2
+      },
+      "targets": {
+        "targetPosition30d": 6,
+        "targetPosition60d": 3,
+        "targetPosition90d": 2,
+        "targetMonthlyClicks": 35
+      },
+      "history": [
+        {
+          "checkedAt": "2026-11-08",
+          "impressions28d": 34,
+          "clicks28d": 2,
+          "ctr": 0.0588,
+          "averagePosition": 9.4,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-09",
+          "impressions28d": 34,
+          "clicks28d": 2,
+          "ctr": 0.0588,
+          "averagePosition": 9.4,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        }
+      ],
+      "status": "active",
+      "latestActual": {
+        "checkedAt": "2026-11-09",
+        "impressions28d": 34,
+        "clicks28d": 2,
+        "ctr": 0.0588,
+        "averagePosition": 9.4,
+        "ga4Views28d": 28,
+        "ga4AddToCarts28d": 2,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
+      },
+      "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
+      "titleCooldownActive": true,
+      "optimizationEvents": [
+        {
+          "eventId": "EVT-KW-025-BASELINE",
+          "timestamp": "2026-11-08T06:00:00Z",
+          "changeType": "M1_COMPETITOR_SPEC_BASELINE",
+          "summary": "Baseline recorded & aligned with ikea.com spec formula",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-08",
+            "impressions28d": 27,
+            "clicks28d": 1,
+            "ctr": 0.037,
+            "averagePosition": 10.2
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 34,
+            "clicks28d": 2,
+            "ctr": 0.0588,
+            "averagePosition": 9.4,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0.8,
+            "deltaCtrBp": 218,
+            "deltaClicks28d": 1,
+            "deltaImpressions28d": 7
+          },
+          "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-025-17296",
+          "timestamp": "2026-11-09T18:38:37.296Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Page (Pos 9.4) Spec Title/Meta upgrade for \"desk setup hardware compatibility guide\"",
+          "previousTitle": "Desk Setup Hardware Guide | Dual CM & Inch Studio Sizing Guide",
+          "newTitle": "Desk Setup Hardware Compatibility Guide | Dual CM & Inch Studio Si",
+          "previousMeta": "Compare exact Metric and Imperial dimensions for desk setup accessories, IKEA Karlby, Secretlab desks, mechanical keyboards and ultrawide setups.",
+          "newMeta": "Compare exact Metric (cm/mm) and Imperial (inch) dimensions for desk setup hardware compatibility guide. Includes furniture-width formulas, material thickness",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-09",
+            "impressions28d": 34,
+            "clicks28d": 2,
+            "ctr": 0.0588,
+            "averagePosition": 9.4,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-09",
+            "impressions28d": 34,
+            "clicks28d": 2,
+            "ctr": 0.0588,
+            "averagePosition": 9.4,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": 0,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": 0
+          },
+          "verdict": "HOLD — Accumulating Impressions"
+        }
+      ],
+      "lastModifiedAt": "2026-11-09T18:38:37.296Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-09T18:38:37.296Z"
+    }
+  ],
+  "storewideLatestGscGa4": {
+    "impressions28d": 2610,
+    "clicks28d": 26,
+    "ctr28d": 0.01,
+    "averagePosition28d": 24.3,
+    "indexedUrls": 1148,
+    "notIndexedUrls": 24120,
+    "ga4OrganicSessions28d": 412,
+    "ga4AddToCarts28d": 29,
+    "ga4Purchases28d": 7,
+    "ga4RevenueGbp28d": 318.93,
+    "lastGscUpdateDate": "2026-11-06 (Page Indexing) / 2026-11-09 (Search Performance)",
+    "indexedPages": 84100,
+    "notIndexedPages": 642000,
+    "discoveredCurrentlyNotIndexed": 1361,
+    "discoveredValidationStatus": "PASSED",
+    "crawledCurrentlyNotIndexed": 322263,
+    "alternatePageWithProperCanonical": 203221,
+    "excludedByNoindex": 69452,
+    "blockedByRobotsTxt": 24880,
+    "notFound404": 6899,
+    "indexedThoughBlockedByRobotsTxt": 101,
+    "clicks7d": 0,
+    "impressions7d": 46,
+    "averagePosition7d": 36.8,
+    "activeCatalogSize": 1500,
+    "publishedBuyerGuides": 25
+  },
+  "calibrationState": {
+    "calibratedAt": "2026-11-09T23:02:11.651Z",
+    "sampleSize": 25,
+    "volumeRealizationMultiplier": 0.674,
+    "daysPerDifficultyPoint": 1.555,
+    "substrateConversionMultipliers": {
+      "Desk Mats": 1.25,
+      "Canvas Wall Art": 1.25,
+      "Ecosystem": 1.25
+    }
+  }
+}

@@ -1,0 +1,58 @@
+name: "3. Weekly GSC Sitemap/404 Triage, Forecast-vs-Actuals & Active Strike-Zone CTR Rewriter"
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pwp-cloud-automations
+  cancel-in-progress: false
+
+jobs:
+  weekly-gsc-forecast-and-strikezone:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SHOPIFY_ADMIN_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ADMIN_ACCESS_TOKEN }}
+      SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+      SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 1. Run GSC Sitemap Hygiene, Clean-vs-Toxic 404 Triage & Telemetry Sync
+        run: node gsc_sitemap_404_and_toxic_query_sync.mjs
+
+      - name: 2. Run Weekly GSC Forecast-vs-Actuals & Pre/Post Attribution Calibrator
+        run: node weekly_gsc_forecast_and_strikezone_tracker.mjs
+
+      - name: 3. Run Closed-Loop Calibrated Transactional Keyword Discovery
+        run: node discover_transactional_keywords.mjs
+
+      - name: 4. Run Active Strike-Zone (Pos 4-15) CTR & Competitor Spec Rewriter (14-Day Cooldown Guarded)
+        run: node strikezone_ctr_and_competitor_rewriter.mjs
+
+      - name: 5. Run Competitor SERP Diff Radar & Cannibalization Resolver
+        run: |
+          node competitor_serp_diff_and_gap_radar.mjs
+          node gsc_cannibalization_and_intent_resolver.mjs
+
+      - name: Commit & Push Updated State and Logs
+        run: |
+          git config user.name "Prints With Passion Cloud Bot"
+          git config user.email "actions@printswithpassion.com"
+          git add -A
+          git diff --cached --quiet || (git pull --rebase origin main && git push origin main)
+        continue-on-error: true

@@ -1,0 +1,19 @@
+# Prints With Passion — Daily AI Assistant (ChatGPT, Perplexity, Gemini & Copilot) Citation Optimization Log
+
+| Timestamp (UTC) | `/pages/ai-catalog-directory` Citation Matrix | Latest Blogs Linked | Featured Products Rotated | `OAI-SearchBot` / `PerplexityBot` `robots.txt` Allowance | Result |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| `2026-11-04T00:41:51.852Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-04T02:02:19.030Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-04T23:01:15.653Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-04T23:10:00.326Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-04T23:11:39.192Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-05T02:02:20.320Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-06T02:01:38.315Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-07T18:18:50.015Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-08T02:01:13.816Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-08T02:01:49.540Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-08T02:02:49.407Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-08T02:05:27.916Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-09T04:34:47.250Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Featured Products | PASS (`OAI-SearchBot` + `PerplexityBot` + `ChatGPT-User` Allowed) | **PASS (0 Errors)** |
+| `2026-11-09T18:57:23.884Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Live Active Products | PASS (`OAI-SearchBot` + `PerplexityBot` Allowed, `?_pos=` Unblocked for Canonical Resolution) | **PASS (0 Errors)** |
+| `2026-11-09T20:03:50.820Z` | PASS (`https://printswithpassion.com/pages/ai-catalog-directory`) | `10` Latest Articles | `8` Live Active Products | PASS (`OAI-SearchBot` + `PerplexityBot` Allowed, `?_pos=` Unblocked for Canonical Resolution) | **PASS (0 Errors)** |

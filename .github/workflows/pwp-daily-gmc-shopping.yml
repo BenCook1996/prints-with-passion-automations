@@ -1,0 +1,50 @@
+name: "1. Daily GMC Shopping Feed, Google Images Visual Pack & Spec-First CTR Optimizer"
+
+on:
+  schedule:
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pwp-cloud-automations
+  cancel-in-progress: false
+
+jobs:
+  gmc-shopping-and-visual-pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      SHOPIFY_ADMIN_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ADMIN_ACCESS_TOKEN }}
+      SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+      SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 1. Run GMC Free Listings & Spec-First CTR Optimizer (14-Day Title Cooldown Protected)
+        run: node pwp-product-factory/daily_gmc_free_listings_optimizer.mjs
+
+      - name: 2. Run Google Images, Visual Pack & Merchant Attribute Optimizer
+        run: node pwp-product-factory/google_images_and_visual_pack_optimizer.mjs
+
+      - name: 3. Run GMC Diagnostics & Catalog Sync (GB, US, CA, AU)
+        run: node pwp-product-factory/gmc_diagnostics_and_catalog_sync.mjs
+
+      - name: Commit & Push Updated State and Logs
+        run: |
+          git config user.name "Prints With Passion Cloud Bot"
+          git config user.email "actions@printswithpassion.com"
+          git add -A
+          git diff --cached --quiet || (git pull --rebase origin main && git push origin main)
+        continue-on-error: true

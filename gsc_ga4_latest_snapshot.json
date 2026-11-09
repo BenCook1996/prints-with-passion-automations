@@ -1,0 +1,155 @@
+{
+  "capturedAt": "2026-11-09T19:02:03.721Z",
+  "gscProperty": "https://printswithpassion.com/",
+  "ga4PropertyId": "363520144",
+  "storewideSummary": {
+    "impressions28d": 2610,
+    "clicks28d": 26,
+    "ctr28d": 0.01,
+    "averagePosition28d": 24.3,
+    "indexedUrls": 1148,
+    "notIndexedUrls": 24120,
+    "ga4OrganicSessions28d": 412,
+    "ga4AddToCarts28d": 29,
+    "ga4Purchases28d": 7,
+    "ga4RevenueGbp28d": 318.93,
+    "lastGscUpdateDate": "2026-11-06 (Page Indexing) / 2026-11-09 (Search Performance)",
+    "indexedPages": 84100,
+    "notIndexedPages": 642000,
+    "discoveredCurrentlyNotIndexed": 1361,
+    "discoveredValidationStatus": "PASSED",
+    "crawledCurrentlyNotIndexed": 322263,
+    "alternatePageWithProperCanonical": 203221,
+    "excludedByNoindex": 69452,
+    "blockedByRobotsTxt": 24880,
+    "notFound404": 6899,
+    "indexedThoughBlockedByRobotsTxt": 101,
+    "clicks7d": 0,
+    "impressions7d": 46,
+    "averagePosition7d": 36.8,
+    "activeCatalogSize": 1500,
+    "publishedBuyerGuides": 25
+  },
+  "byUrl": {
+    "/collections/desk-mats": {
+      "impressions28d": 92,
+      "clicks28d": 3,
+      "ctr": 0.0326,
+      "averagePosition": 16.8,
+      "ga4Views28d": 68,
+      "ga4AddToCarts28d": 6,
+      "ga4Purchases28d": 2,
+      "ga4RevenueGbp28d": 74.98
+    },
+    "/collections/japanese-anime-desk-mats": {
+      "impressions28d": 46,
+      "clicks28d": 2,
+      "ctr": 0.0435,
+      "averagePosition": 12.9,
+      "ga4Views28d": 54,
+      "ga4AddToCarts28d": 5,
+      "ga4Purchases28d": 1,
+      "ga4RevenueGbp28d": 39.99
+    },
+    "/collections/cyberpunk-neon-gaming-desk-mats": {
+      "impressions28d": 28,
+      "clicks28d": 1,
+      "ctr": 0.0357,
+      "averagePosition": 14.8,
+      "ga4Views28d": 31,
+      "ga4AddToCarts28d": 3,
+      "ga4Purchases28d": 1,
+      "ga4RevenueGbp28d": 34.99
+    },
+    "/collections/canvas-prints": {
+      "impressions28d": 79,
+      "clicks28d": 2,
+      "ctr": 0.0253,
+      "averagePosition": 21.4,
+      "ga4Views28d": 49,
+      "ga4AddToCarts28d": 4,
+      "ga4Purchases28d": 1,
+      "ga4RevenueGbp28d": 64.99
+    },
+    "/collections/abstract-minimalist-bauhaus-canvas-wall-art": {
+      "impressions28d": 39,
+      "clicks28d": 1,
+      "ctr": 0.0256,
+      "averagePosition": 14.2,
+      "ga4Views28d": 27,
+      "ga4AddToCarts28d": 2,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
+    },
+    "/collections/nature-landscape-canvas-prints": {
+      "impressions28d": 36,
+      "clicks28d": 1,
+      "ctr": 0.0278,
+      "averagePosition": 19.8,
+      "ga4Views28d": 22,
+      "ga4AddToCarts28d": 1,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
+    },
+    "/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide": {
+      "impressions28d": 54,
+      "clicks28d": 4,
+      "ctr": 0.0741,
+      "averagePosition": 9.6,
+      "ga4Views28d": 38,
+      "ga4AddToCarts28d": 2,
+      "ga4Purchases28d": 1,
+      "ga4RevenueGbp28d": 39.99
+    },
+    "/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk": {
+      "impressions28d": 108,
+      "clicks28d": 6,
+      "ctr": 0.0556,
+      "averagePosition": 8.2,
+      "ga4Views28d": 44,
+      "ga4AddToCarts28d": 3,
+      "ga4Purchases28d": 1,
+      "ga4RevenueGbp28d": 63.98
+    },
+    "/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed": {
+      "impressions28d": 61,
+      "clicks28d": 3,
+      "ctr": 0.0492,
+      "averagePosition": 10.8,
+      "ga4Views28d": 29,
+      "ga4AddToCarts28d": 2,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
+    },
+    "/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule": {
+      "impressions28d": 72,
+      "clicks28d": 4,
+      "ctr": 0.0556,
+      "averagePosition": 6.8,
+      "ga4Views28d": 34,
+      "ga4AddToCarts28d": 1,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
+    },
+    "/pages/desk-size-visualizer": {
+      "impressions28d": 58,
+      "clicks28d": 4,
+      "ctr": 0.069,
+      "averagePosition": 6.9,
+      "ga4Views28d": 62,
+      "ga4AddToCarts28d": 5,
+      "ga4Purchases28d": 1,
+      "ga4RevenueGbp28d": 54.99
+    },
+    "/pages/desk-setup-hardware-compatibility-guide": {
+      "impressions28d": 34,
+      "clicks28d": 2,
+      "ctr": 0.0588,
+      "averagePosition": 9.4,
+      "ga4Views28d": 28,
+      "ga4AddToCarts28d": 2,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
+    }
+  }
+}

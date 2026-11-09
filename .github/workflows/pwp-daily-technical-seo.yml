@@ -1,0 +1,61 @@
+name: "2. Daily Technical SEO, Uniqueness/Lint Gate, 404 Self-Healer & AI Citation Audit"
+
+on:
+  schedule:
+    - cron: '30 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pwp-cloud-automations
+  cancel-in-progress: false
+
+jobs:
+  daily-technical-seo-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      SHOPIFY_ADMIN_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ADMIN_ACCESS_TOKEN }}
+      SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+      SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 0. Sync GSC & GA4 Telemetry via Google Cloud Service Account API
+        run: node gsc_ga4_gmc_cloud_sync.mjs
+
+      - name: 1. Run Catalog Uniqueness, IP/Brand Handle & SEO Lint Sanitizer
+        run: node catalog_uniqueness_and_seo_lint_gate.mjs
+
+      - name: 2. Run Clean-vs-Toxic 404 Redirect Healer & Handle Sanitizer
+        run: node ga4_cro_and_404_healer.mjs
+
+      - name: 3. Run AI Citation Optimizer & Link QA
+        run: |
+          node daily_ai_assistant_citation_optimizer.mjs
+          node audit_keyword_queue_and_ai_citations.mjs
+
+      - name: 4. Run Technical SEO, Lean-Payload (<750KB) & Schema Audit
+        run: node technical_seo_audit.mjs
+
+      - name: 5. Verify 48 Smart Sub-Collections Inventory
+        run: node verify_40_subcollections_counts.mjs
+
+      - name: Commit & Push Updated State and Logs
+        run: |
+          git config user.name "Prints With Passion Cloud Bot"
+          git config user.email "actions@printswithpassion.com"
+          git add -A
+          git diff --cached --quiet || (git pull --rebase origin main && git push origin main)
+        continue-on-error: true

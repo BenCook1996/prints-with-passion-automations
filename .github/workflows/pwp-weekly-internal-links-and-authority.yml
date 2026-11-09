@@ -1,0 +1,53 @@
+name: "4. Weekly Active Internal Link Sculptor, SEO Lint Sanitizer, Interactive Visualizer & Earned Authority"
+
+on:
+  schedule:
+    - cron: '0 6 * * 3'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pwp-cloud-automations
+  cancel-in-progress: false
+
+jobs:
+  weekly-internal-links-and-authority:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      SHOPIFY_ADMIN_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ADMIN_ACCESS_TOKEN }}
+      SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+      SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 1. Run Active Hub-and-Spoke Internal Link Equity Sculptor
+        run: node internal_link_equity_sculptor.mjs
+
+      - name: 2. Run Active Catalog Uniqueness & SEO Lint Sanitizer
+        run: node catalog_uniqueness_and_seo_lint_gate.mjs
+
+      - name: 3. Run Interactive Size Visualizer & Furniture-Fit Calculator SEO Expander
+        run: node interactive_tool_seo_magnet_updater.mjs
+
+      - name: 4. Run Review Rich-Snippet & White-Hat Earned Authority Tracker
+        run: node review_schema_and_earned_authority_tracker.mjs
+
+      - name: Commit & Push Updated State and Logs
+        run: |
+          git config user.name "Prints With Passion Cloud Bot"
+          git config user.email "actions@printswithpassion.com"
+          git add -A
+          git diff --cached --quiet || (git pull --rebase origin main && git push origin main)
+        continue-on-error: true

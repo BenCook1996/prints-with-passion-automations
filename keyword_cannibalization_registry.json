@@ -1,0 +1,3647 @@
+{
+  "lastSyncedAt": "2026-11-09T18:38:16.466Z",
+  "protectedCollections": {
+    "japanese-anime-desk-mats": {
+      "url": "/collections/japanese-anime-desk-mats",
+      "productType": "Desk Mats",
+      "themeTag": "Japanese & Asian Art",
+      "headKeywords": [
+        "japanese anime desk mats",
+        "japanese, samurai, sakura & ukiyo-e extended desk mats",
+        "japanese samurai sakura"
+      ],
+      "requiredAnchorTexts": [
+        "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
+        "Japanese & Asian Art Desk Mats",
+        "custom japanese, samurai, sakura & ukiyo-e extended desk mats"
+      ]
+    },
+    "cyberpunk-neon-gaming-desk-mats": {
+      "url": "/collections/cyberpunk-neon-gaming-desk-mats",
+      "productType": "Desk Mats",
+      "themeTag": "Sci-Fi & Cyberpunk",
+      "headKeywords": [
+        "cyberpunk neon gaming desk mats",
+        "sci-fi, cyberpunk & synthwave xxl gaming desk mats",
+        "sci cyberpunk synthwave"
+      ],
+      "requiredAnchorTexts": [
+        "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
+        "Sci-Fi & Cyberpunk Desk Mats",
+        "custom sci-fi, cyberpunk & synthwave xxl gaming desk mats"
+      ]
+    },
+    "space-galaxy-nebula-desk-mats": {
+      "url": "/collections/space-galaxy-nebula-desk-mats",
+      "productType": "Desk Mats",
+      "themeTag": "Space & Cosmic",
+      "headKeywords": [
+        "space galaxy nebula desk mats",
+        "space, galaxy, nebula & astronaut extended desk mats",
+        "space galaxy nebula"
+      ],
+      "requiredAnchorTexts": [
+        "Space, Galaxy, Nebula & Astronaut Extended Desk Mats",
+        "Space & Cosmic Desk Mats",
+        "custom space, galaxy, nebula & astronaut extended desk mats"
+      ]
+    },
+    "fantasy-dragon-mythology-desk-mats": {
+      "url": "/collections/fantasy-dragon-mythology-desk-mats",
+      "productType": "Desk Mats",
+      "themeTag": "Fantasy & Mythology",
+      "headKeywords": [
+        "fantasy dragon mythology desk mats",
+        "fantasy, dragons, dark mythic & rpg gaming desk mats",
+        "fantasy dragons dark"
+      ],
+      "requiredAnchorTexts": [
+        "Fantasy, Dragons, Dark Mythic & RPG Gaming Desk Mats",
+        "Fantasy & Mythology Desk Mats",
+        "custom fantasy, dragons, dark mythic & rpg gaming desk mats"
+      ]
+    },
+    "nature-mountain-forest-desk-mats": {
+      "url": "/collections/nature-mountain-forest-desk-mats",
+      "productType": "Desk Mats",
+      "themeTag": "Nature & Landscapes",
+      "headKeywords": [
+        "nature mountain forest desk mats",
+        "nature, alpine mountain & forest landscape desk mats",
+        "nature alpine mountain"
+      ],
+      "requiredAnchorTexts": [
+        "Nature, Alpine Mountain & Forest Landscape Desk Mats",
+        "Nature & Landscapes Desk Mats",
+        "custom nature, alpine mountain & forest landscape desk mats"
+      ]
+    },
+    "minimalist-abstract-geometric-desk-mats": {
+      "url": "/collections/minimalist-abstract-geometric-desk-mats",
+      "productType": "Desk Mats",
+      "themeTag": "Abstract & Geometric",
+      "headKeywords": [
+        "minimalist abstract geometric desk mats",
+        "minimalist, abstract, bauhaus & topographic desk mats",
+        "minimalist abstract bauhaus"
+      ],
+      "requiredAnchorTexts": [
+        "Minimalist, Abstract, Bauhaus & Topographic Desk Mats",
+        "Abstract & Geometric Desk Mats",
+        "custom minimalist, abstract, bauhaus & topographic desk mats"
+      ]
+    },
+    "animals-wildlife-pet-desk-mats": {
+      "url": "/collections/animals-wildlife-pet-desk-mats",
+      "productType": "Desk Mats",
+      "themeTag": "Animals & Wildlife",
+      "headKeywords": [
+        "animals wildlife pet desk mats",
+        "animals, wildlife, cats & dogs extended desk mats",
+        "animals wildlife cats"
+      ],
+      "requiredAnchorTexts": [
+        "Animals, Wildlife, Cats & Dogs Extended Desk Mats",
+        "Animals & Wildlife Desk Mats",
+        "custom animals, wildlife, cats & dogs extended desk mats"
+      ]
+    },
+    "retro-vintage-synthwave-desk-mats": {
+      "url": "/collections/retro-vintage-synthwave-desk-mats",
+      "productType": "Desk Mats",
+      "themeTag": "Retro & Vintage",
+      "headKeywords": [
+        "retro vintage synthwave desk mats",
+        "retro, 80s vaporwave & vintage arcade gaming desk mats",
+        "retro 80s vaporwave"
+      ],
+      "requiredAnchorTexts": [
+        "Retro, 80s Vaporwave & Vintage Arcade Gaming Desk Mats",
+        "Retro & Vintage Desk Mats",
+        "custom retro, 80s vaporwave & vintage arcade gaming desk mats"
+      ]
+    },
+    "nature-mountain-landscape-canvas-wall-art": {
+      "url": "/collections/nature-mountain-landscape-canvas-wall-art",
+      "productType": "Canvas Wall Art",
+      "themeTag": "Nature & Landscapes",
+      "headKeywords": [
+        "nature mountain landscape canvas wall art",
+        "nature, alpine mountain & scenic landscape canvas wall art",
+        "nature alpine mountain"
+      ],
+      "requiredAnchorTexts": [
+        "Nature, Alpine Mountain & Scenic Landscape Canvas Wall Art",
+        "Nature & Landscapes Canvas Wall Art",
+        "custom nature, alpine mountain & scenic landscape canvas wall art"
+      ]
+    },
+    "botanical-floral-coastal-canvas-wall-art": {
+      "url": "/collections/botanical-floral-coastal-canvas-wall-art",
+      "productType": "Canvas Wall Art",
+      "themeTag": "Botanical & Floral",
+      "headKeywords": [
+        "botanical floral coastal canvas wall art",
+        "botanical, floral garden & coastal canvas wall art",
+        "botanical floral garden"
+      ],
+      "requiredAnchorTexts": [
+        "Botanical, Floral Garden & Coastal Canvas Wall Art",
+        "Botanical & Floral Canvas Wall Art",
+        "custom botanical, floral garden & coastal canvas wall art"
+      ]
+    },
+    "abstract-minimalist-bauhaus-canvas-wall-art": {
+      "url": "/collections/abstract-minimalist-bauhaus-canvas-wall-art",
+      "productType": "Canvas Wall Art",
+      "themeTag": "Abstract & Geometric",
+      "headKeywords": [
+        "abstract minimalist bauhaus canvas wall art",
+        "abstract, minimalist & bauhaus geometric canvas wall art",
+        "abstract minimalist bauhaus"
+      ],
+      "requiredAnchorTexts": [
+        "Abstract, Minimalist & Bauhaus Geometric Canvas Wall Art",
+        "Abstract & Geometric Canvas Wall Art",
+        "custom abstract, minimalist & bauhaus geometric canvas wall art"
+      ]
+    },
+    "japanese-ukiyo-e-zen-canvas-wall-art": {
+      "url": "/collections/japanese-ukiyo-e-zen-canvas-wall-art",
+      "productType": "Canvas Wall Art",
+      "themeTag": "Japanese & Asian Art",
+      "headKeywords": [
+        "japanese ukiyo e zen canvas wall art",
+        "japanese ukiyo-e, samurai & sakura blossom canvas wall art",
+        "japanese ukiyo samurai"
+      ],
+      "requiredAnchorTexts": [
+        "Japanese Ukiyo-e, Samurai & Sakura Blossom Canvas Wall Art",
+        "Japanese & Asian Art Canvas Wall Art",
+        "custom japanese ukiyo-e, samurai & sakura blossom canvas wall art"
+      ]
+    },
+    "animals-wildlife-equestrian-canvas-wall-art": {
+      "url": "/collections/animals-wildlife-equestrian-canvas-wall-art",
+      "productType": "Canvas Wall Art",
+      "themeTag": "Animals & Wildlife",
+      "headKeywords": [
+        "animals wildlife equestrian canvas wall art",
+        "animals, wildlife, highland cow & pet portrait canvas art",
+        "animals wildlife highland"
+      ],
+      "requiredAnchorTexts": [
+        "Animals, Wildlife, Highland Cow & Pet Portrait Canvas Art",
+        "Animals & Wildlife Canvas Wall Art",
+        "custom animals, wildlife, highland cow & pet portrait canvas art"
+      ]
+    },
+    "world-travel-city-skyline-canvas-wall-art": {
+      "url": "/collections/world-travel-city-skyline-canvas-wall-art",
+      "productType": "Canvas Wall Art",
+      "themeTag": "World Travel & Cities",
+      "headKeywords": [
+        "world travel city skyline canvas wall art",
+        "world travel, city skylines & architectural canvas wall art",
+        "world travel city"
+      ],
+      "requiredAnchorTexts": [
+        "World Travel, City Skylines & Architectural Canvas Wall Art",
+        "World Travel & Cities Canvas Wall Art",
+        "custom world travel, city skylines & architectural canvas wall art"
+      ]
+    },
+    "space-cosmic-astronomy-canvas-wall-art": {
+      "url": "/collections/space-cosmic-astronomy-canvas-wall-art",
+      "productType": "Canvas Wall Art",
+      "themeTag": "Space & Cosmic",
+      "headKeywords": [
+        "space cosmic astronomy canvas wall art",
+        "space, deep-field nebula & celestial canvas wall art",
+        "space deep field"
+      ],
+      "requiredAnchorTexts": [
+        "Space, Deep-Field Nebula & Celestial Canvas Wall Art",
+        "Space & Cosmic Canvas Wall Art",
+        "custom space, deep-field nebula & celestial canvas wall art"
+      ]
+    },
+    "sci-fi-cyberpunk-neon-canvas-wall-art": {
+      "url": "/collections/sci-fi-cyberpunk-neon-canvas-wall-art",
+      "productType": "Canvas Wall Art",
+      "themeTag": "Sci-Fi & Cyberpunk",
+      "headKeywords": [
+        "sci fi cyberpunk neon canvas wall art",
+        "sci-fi, cyberpunk & neon futuristic canvas wall art",
+        "sci cyberpunk neon"
+      ],
+      "requiredAnchorTexts": [
+        "Sci-Fi, Cyberpunk & Neon Futuristic Canvas Wall Art",
+        "Sci-Fi & Cyberpunk Canvas Wall Art",
+        "custom sci-fi, cyberpunk & neon futuristic canvas wall art"
+      ]
+    },
+    "botanical-floral-garden-cushion-covers": {
+      "url": "/collections/botanical-floral-garden-cushion-covers",
+      "productType": "Cushion Covers",
+      "themeTag": "Nature & Landscapes",
+      "headKeywords": [
+        "botanical floral garden cushion covers",
+        "botanical, vintage floral & nature square cushion covers",
+        "botanical vintage floral"
+      ],
+      "requiredAnchorTexts": [
+        "Botanical, Vintage Floral & Nature Square Cushion Covers",
+        "Nature & Landscapes Cushion Covers",
+        "custom botanical, vintage floral & nature square cushion covers"
+      ]
+    },
+    "abstract-geometric-bauhaus-cushion-covers": {
+      "url": "/collections/abstract-geometric-bauhaus-cushion-covers",
+      "productType": "Cushion Covers",
+      "themeTag": "Abstract & Geometric",
+      "headKeywords": [
+        "abstract geometric bauhaus cushion covers",
+        "abstract, geometric, bauhaus & mid-century cushion covers",
+        "abstract geometric bauhaus"
+      ],
+      "requiredAnchorTexts": [
+        "Abstract, Geometric, Bauhaus & Mid-Century Cushion Covers",
+        "Abstract & Geometric Cushion Covers",
+        "custom abstract, geometric, bauhaus & mid-century cushion covers"
+      ]
+    },
+    "animals-wildlife-woodland-cushion-covers": {
+      "url": "/collections/animals-wildlife-woodland-cushion-covers",
+      "productType": "Cushion Covers",
+      "themeTag": "Animals & Wildlife",
+      "headKeywords": [
+        "animals wildlife woodland cushion covers",
+        "animals, woodland wildlife & pet portrait cushion covers",
+        "animals woodland wildlife"
+      ],
+      "requiredAnchorTexts": [
+        "Animals, Woodland Wildlife & Pet Portrait Cushion Covers",
+        "Animals & Wildlife Cushion Covers",
+        "custom animals, woodland wildlife & pet portrait cushion covers"
+      ]
+    },
+    "space-celestial-galaxy-cushion-covers": {
+      "url": "/collections/space-celestial-galaxy-cushion-covers",
+      "productType": "Cushion Covers",
+      "themeTag": "Space & Cosmic",
+      "headKeywords": [
+        "space celestial galaxy cushion covers",
+        "celestial, moon phase & cosmic galaxy cushion covers",
+        "celestial moon phase"
+      ],
+      "requiredAnchorTexts": [
+        "Celestial, Moon Phase & Cosmic Galaxy Cushion Covers",
+        "Space & Cosmic Cushion Covers",
+        "custom celestial, moon phase & cosmic galaxy cushion covers"
+      ]
+    },
+    "fantasy-mythology-gothic-cushion-covers": {
+      "url": "/collections/fantasy-mythology-gothic-cushion-covers",
+      "productType": "Cushion Covers",
+      "themeTag": "Fantasy & Mythology",
+      "headKeywords": [
+        "fantasy mythology gothic cushion covers",
+        "fantasy, dark academia, mythology & gothic cushion covers",
+        "fantasy dark academia"
+      ],
+      "requiredAnchorTexts": [
+        "Fantasy, Dark Academia, Mythology & Gothic Cushion Covers",
+        "Fantasy & Mythology Cushion Covers",
+        "custom fantasy, dark academia, mythology & gothic cushion covers"
+      ]
+    },
+    "japanese-asian-art-cushion-covers": {
+      "url": "/collections/japanese-asian-art-cushion-covers",
+      "productType": "Cushion Covers",
+      "themeTag": "Japanese & Asian Art",
+      "headKeywords": [
+        "japanese asian art cushion covers",
+        "japanese wave, koi, sakura & zen accent cushion covers",
+        "japanese wave koi"
+      ],
+      "requiredAnchorTexts": [
+        "Japanese Wave, Koi, Sakura & Zen Accent Cushion Covers",
+        "Japanese & Asian Art Cushion Covers",
+        "custom japanese wave, koi, sakura & zen accent cushion covers"
+      ]
+    },
+    "world-travel-mediterranean-cushion-covers": {
+      "url": "/collections/world-travel-mediterranean-cushion-covers",
+      "productType": "Cushion Covers",
+      "themeTag": "World Travel & Cities",
+      "headKeywords": [
+        "world travel mediterranean cushion covers",
+        "world travel, coastal villa & european city cushion covers",
+        "world travel coastal"
+      ],
+      "requiredAnchorTexts": [
+        "World Travel, Coastal Villa & European City Cushion Covers",
+        "World Travel & Cities Cushion Covers",
+        "custom world travel, coastal villa & european city cushion covers"
+      ]
+    },
+    "retro-vintage-pop-art-cushion-covers": {
+      "url": "/collections/retro-vintage-pop-art-cushion-covers",
+      "productType": "Cushion Covers",
+      "themeTag": "Retro & Vintage",
+      "headKeywords": [
+        "retro vintage pop art cushion covers",
+        "retro, vintage poster & mid-century pop art cushion covers",
+        "retro vintage poster"
+      ],
+      "requiredAnchorTexts": [
+        "Retro, Vintage Poster & Mid-Century Pop Art Cushion Covers",
+        "Retro & Vintage Cushion Covers",
+        "custom retro, vintage poster & mid-century pop art cushion covers"
+      ]
+    },
+    "nature-mountain-cabin-throw-blankets": {
+      "url": "/collections/nature-mountain-cabin-throw-blankets",
+      "productType": "Throw Blankets",
+      "themeTag": "Nature & Landscapes",
+      "headKeywords": [
+        "nature mountain cabin throw blankets",
+        "nature, alpine cabin, forest & scenic plush throw blankets",
+        "nature alpine cabin"
+      ],
+      "requiredAnchorTexts": [
+        "Nature, Alpine Cabin, Forest & Scenic Plush Throw Blankets",
+        "Nature & Landscapes Throw Blankets",
+        "custom nature, alpine cabin, forest & scenic plush throw blankets"
+      ]
+    },
+    "abstract-boho-kilim-throw-blankets": {
+      "url": "/collections/abstract-boho-kilim-throw-blankets",
+      "productType": "Throw Blankets",
+      "themeTag": "Abstract & Geometric",
+      "headKeywords": [
+        "abstract boho kilim throw blankets",
+        "abstract, boho kilim, tartan & geometric plush throw blankets",
+        "abstract boho kilim"
+      ],
+      "requiredAnchorTexts": [
+        "Abstract, Boho Kilim, Tartan & Geometric Plush Throw Blankets",
+        "Abstract & Geometric Throw Blankets",
+        "custom abstract, boho kilim, tartan & geometric plush throw blankets"
+      ]
+    },
+    "space-starry-night-galaxy-throw-blankets": {
+      "url": "/collections/space-starry-night-galaxy-throw-blankets",
+      "productType": "Throw Blankets",
+      "themeTag": "Space & Cosmic",
+      "headKeywords": [
+        "space starry night galaxy throw blankets",
+        "space, starry night, constellation & galaxy throw blankets",
+        "space starry night"
+      ],
+      "requiredAnchorTexts": [
+        "Space, Starry Night, Constellation & Galaxy Throw Blankets",
+        "Space & Cosmic Throw Blankets",
+        "custom space, starry night, constellation & galaxy throw blankets"
+      ]
+    },
+    "animals-wildlife-cozy-throw-blankets": {
+      "url": "/collections/animals-wildlife-cozy-throw-blankets",
+      "productType": "Throw Blankets",
+      "themeTag": "Animals & Wildlife",
+      "headKeywords": [
+        "animals wildlife cozy throw blankets",
+        "animals, wildlife, cats, dogs & woodland plush throw blankets",
+        "animals wildlife cats"
+      ],
+      "requiredAnchorTexts": [
+        "Animals, Wildlife, Cats, Dogs & Woodland Plush Throw Blankets",
+        "Animals & Wildlife Throw Blankets",
+        "custom animals, wildlife, cats, dogs & woodland plush throw blankets"
+      ]
+    },
+    "fantasy-dragon-mythic-throw-blankets": {
+      "url": "/collections/fantasy-dragon-mythic-throw-blankets",
+      "productType": "Throw Blankets",
+      "themeTag": "Fantasy & Mythology",
+      "headKeywords": [
+        "fantasy dragon mythic throw blankets",
+        "fantasy, dragon, celestial tarot & mythic throw blankets",
+        "fantasy dragon celestial"
+      ],
+      "requiredAnchorTexts": [
+        "Fantasy, Dragon, Celestial Tarot & Mythic Throw Blankets",
+        "Fantasy & Mythology Throw Blankets",
+        "custom fantasy, dragon, celestial tarot & mythic throw blankets"
+      ]
+    },
+    "sci-fi-cyberpunk-gamer-throw-blankets": {
+      "url": "/collections/sci-fi-cyberpunk-gamer-throw-blankets",
+      "productType": "Throw Blankets",
+      "themeTag": "Sci-Fi & Cyberpunk",
+      "headKeywords": [
+        "sci fi cyberpunk gamer throw blankets",
+        "sci-fi, cyberpunk & neon gaming room plush throw blankets",
+        "sci cyberpunk neon"
+      ],
+      "requiredAnchorTexts": [
+        "Sci-Fi, Cyberpunk & Neon Gaming Room Plush Throw Blankets",
+        "Sci-Fi & Cyberpunk Throw Blankets",
+        "custom sci-fi, cyberpunk & neon gaming room plush throw blankets"
+      ]
+    },
+    "world-travel-paris-european-throw-blankets": {
+      "url": "/collections/world-travel-paris-european-throw-blankets",
+      "productType": "Throw Blankets",
+      "themeTag": "World Travel & Cities",
+      "headKeywords": [
+        "world travel paris european throw blankets",
+        "world travel, paris sunset & cityscape plush throw blankets",
+        "world travel paris"
+      ],
+      "requiredAnchorTexts": [
+        "World Travel, Paris Sunset & Cityscape Plush Throw Blankets",
+        "World Travel & Cities Throw Blankets",
+        "custom world travel, paris sunset & cityscape plush throw blankets"
+      ]
+    },
+    "japanese-sakura-oriental-throw-blankets": {
+      "url": "/collections/japanese-sakura-oriental-throw-blankets",
+      "productType": "Throw Blankets",
+      "themeTag": "Japanese & Asian Art",
+      "headKeywords": [
+        "japanese sakura oriental throw blankets",
+        "japanese sakura, great wave & oriental plush throw blankets",
+        "japanese sakura great"
+      ],
+      "requiredAnchorTexts": [
+        "Japanese Sakura, Great Wave & Oriental Plush Throw Blankets",
+        "Japanese & Asian Art Throw Blankets",
+        "custom japanese sakura, great wave & oriental plush throw blankets"
+      ]
+    },
+    "coastal-ocean-botanical-bath-mats": {
+      "url": "/collections/coastal-ocean-botanical-bath-mats",
+      "productType": "Bath Mats",
+      "themeTag": "Nature & Landscapes",
+      "headKeywords": [
+        "coastal ocean botanical bath mats",
+        "coastal ocean, tropical leaf & nature memory foam bath mats",
+        "coastal ocean tropical"
+      ],
+      "requiredAnchorTexts": [
+        "Coastal Ocean, Tropical Leaf & Nature Memory Foam Bath Mats",
+        "Nature & Landscapes Bath Mats",
+        "custom coastal ocean, tropical leaf & nature memory foam bath mats"
+      ]
+    },
+    "minimalist-abstract-stone-bath-mats": {
+      "url": "/collections/minimalist-abstract-stone-bath-mats",
+      "productType": "Bath Mats",
+      "themeTag": "Abstract & Geometric",
+      "headKeywords": [
+        "minimalist abstract stone bath mats",
+        "minimalist, abstract terrazzo & geometric memory foam bath mats",
+        "minimalist abstract terrazzo"
+      ],
+      "requiredAnchorTexts": [
+        "Minimalist, Abstract Terrazzo & Geometric Memory Foam Bath Mats",
+        "Abstract & Geometric Bath Mats",
+        "custom minimalist, abstract terrazzo & geometric memory foam bath mats"
+      ]
+    },
+    "animals-wildlife-whimsical-bath-mats": {
+      "url": "/collections/animals-wildlife-whimsical-bath-mats",
+      "productType": "Bath Mats",
+      "themeTag": "Animals & Wildlife",
+      "headKeywords": [
+        "animals wildlife whimsical bath mats",
+        "animals, whimsical cat, frog & wildlife memory foam bath mats",
+        "animals whimsical cat"
+      ],
+      "requiredAnchorTexts": [
+        "Animals, Whimsical Cat, Frog & Wildlife Memory Foam Bath Mats",
+        "Animals & Wildlife Bath Mats",
+        "custom animals, whimsical cat, frog & wildlife memory foam bath mats"
+      ]
+    },
+    "celestial-space-moon-bath-mats": {
+      "url": "/collections/celestial-space-moon-bath-mats",
+      "productType": "Bath Mats",
+      "themeTag": "Space & Cosmic",
+      "headKeywords": [
+        "celestial space moon bath mats",
+        "celestial moon, starry night & cosmic memory foam bath mats",
+        "celestial moon starry"
+      ],
+      "requiredAnchorTexts": [
+        "Celestial Moon, Starry Night & Cosmic Memory Foam Bath Mats",
+        "Space & Cosmic Bath Mats",
+        "custom celestial moon, starry night & cosmic memory foam bath mats"
+      ]
+    },
+    "fantasy-gothic-witchy-bath-mats": {
+      "url": "/collections/fantasy-gothic-witchy-bath-mats",
+      "productType": "Bath Mats",
+      "themeTag": "Fantasy & Mythology",
+      "headKeywords": [
+        "fantasy gothic witchy bath mats",
+        "fantasy, celestial moth, gothic & enchanted memory foam bath mats",
+        "fantasy celestial moth"
+      ],
+      "requiredAnchorTexts": [
+        "Fantasy, Celestial Moth, Gothic & Enchanted Memory Foam Bath Mats",
+        "Fantasy & Mythology Bath Mats",
+        "custom fantasy, celestial moth, gothic & enchanted memory foam bath mats"
+      ]
+    },
+    "sci-fi-neon-cyberpunk-bath-mats": {
+      "url": "/collections/sci-fi-neon-cyberpunk-bath-mats",
+      "productType": "Bath Mats",
+      "themeTag": "Sci-Fi & Cyberpunk",
+      "headKeywords": [
+        "sci fi neon cyberpunk bath mats",
+        "sci-fi, neon cyberpunk & futuristic memory foam bath mats",
+        "sci neon cyberpunk"
+      ],
+      "requiredAnchorTexts": [
+        "Sci-Fi, Neon Cyberpunk & Futuristic Memory Foam Bath Mats",
+        "Sci-Fi & Cyberpunk Bath Mats",
+        "custom sci-fi, neon cyberpunk & futuristic memory foam bath mats"
+      ]
+    },
+    "japanese-zen-onsen-bath-mats": {
+      "url": "/collections/japanese-zen-onsen-bath-mats",
+      "productType": "Bath Mats",
+      "themeTag": "Japanese & Asian Art",
+      "headKeywords": [
+        "japanese zen onsen bath mats",
+        "japanese koi, great wave & zen sanctuary memory foam bath mats",
+        "japanese koi great"
+      ],
+      "requiredAnchorTexts": [
+        "Japanese Koi, Great Wave & Zen Sanctuary Memory Foam Bath Mats",
+        "Japanese & Asian Art Bath Mats",
+        "custom japanese koi, great wave & zen sanctuary memory foam bath mats"
+      ]
+    },
+    "retro-vintage-funky-bath-mats": {
+      "url": "/collections/retro-vintage-funky-bath-mats",
+      "productType": "Bath Mats",
+      "themeTag": "Retro & Vintage",
+      "headKeywords": [
+        "retro vintage funky bath mats",
+        "retro 70s groovy, checkerboard & vintage memory foam bath mats",
+        "retro 70s groovy"
+      ],
+      "requiredAnchorTexts": [
+        "Retro 70s Groovy, Checkerboard & Vintage Memory Foam Bath Mats",
+        "Retro & Vintage Bath Mats",
+        "custom retro 70s groovy, checkerboard & vintage memory foam bath mats"
+      ]
+    },
+    "japanese-anime-graphic-t-shirts": {
+      "url": "/collections/japanese-anime-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "themeTag": "Japanese & Asian Art",
+      "headKeywords": [
+        "japanese anime graphic t shirts",
+        "japanese ukiyo-e, samurai & sakura graphic cotton t-shirts",
+        "japanese ukiyo samurai"
+      ],
+      "requiredAnchorTexts": [
+        "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
+        "Japanese & Asian Art Graphic T-Shirts",
+        "custom japanese ukiyo-e, samurai & sakura graphic cotton t-shirts"
+      ]
+    },
+    "cyberpunk-sci-fi-graphic-t-shirts": {
+      "url": "/collections/cyberpunk-sci-fi-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "themeTag": "Sci-Fi & Cyberpunk",
+      "headKeywords": [
+        "cyberpunk sci fi graphic t shirts",
+        "sci-fi, cyberpunk & neon futuristic graphic cotton t-shirts",
+        "sci cyberpunk neon"
+      ],
+      "requiredAnchorTexts": [
+        "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
+        "Sci-Fi & Cyberpunk Graphic T-Shirts",
+        "custom sci-fi, cyberpunk & neon futuristic graphic cotton t-shirts"
+      ]
+    },
+    "space-galaxy-graphic-t-shirts": {
+      "url": "/collections/space-galaxy-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "themeTag": "Space & Cosmic",
+      "headKeywords": [
+        "space galaxy graphic t shirts",
+        "space, astronaut, nebula & celestial graphic cotton t-shirts",
+        "space astronaut nebula"
+      ],
+      "requiredAnchorTexts": [
+        "Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts",
+        "Space & Cosmic Graphic T-Shirts",
+        "custom space, astronaut, nebula & celestial graphic cotton t-shirts"
+      ]
+    },
+    "retro-synthwave-graphic-t-shirts": {
+      "url": "/collections/retro-synthwave-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "themeTag": "Retro & Vintage",
+      "headKeywords": [
+        "retro synthwave graphic t shirts",
+        "retro 80s synthwave, vintage & abstract graphic cotton t-shirts",
+        "retro 80s synthwave"
+      ],
+      "requiredAnchorTexts": [
+        "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
+        "Retro & Vintage Graphic T-Shirts",
+        "custom retro 80s synthwave, vintage & abstract graphic cotton t-shirts"
+      ]
+    },
+    "japanese-ukiyo-e-graphic-hoodies": {
+      "url": "/collections/japanese-ukiyo-e-graphic-hoodies",
+      "productType": "Hoodies",
+      "themeTag": "Japanese & Asian Art",
+      "headKeywords": [
+        "japanese ukiyo e graphic hoodies",
+        "japanese samurai, great wave & sakura heavyweight hoodies",
+        "japanese samurai great"
+      ],
+      "requiredAnchorTexts": [
+        "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
+        "Japanese & Asian Art Hoodies",
+        "custom japanese samurai, great wave & sakura heavyweight hoodies"
+      ]
+    },
+    "cyberpunk-neon-graphic-hoodies": {
+      "url": "/collections/cyberpunk-neon-graphic-hoodies",
+      "productType": "Hoodies",
+      "themeTag": "Sci-Fi & Cyberpunk",
+      "headKeywords": [
+        "cyberpunk neon graphic hoodies",
+        "sci-fi, cyberpunk & neon streetwear heavyweight hoodies",
+        "sci cyberpunk neon"
+      ],
+      "requiredAnchorTexts": [
+        "Sci-Fi, Cyberpunk & Neon Streetwear Heavyweight Hoodies",
+        "Sci-Fi & Cyberpunk Hoodies",
+        "custom sci-fi, cyberpunk & neon streetwear heavyweight hoodies"
+      ]
+    },
+    "fantasy-dragon-graphic-hoodies": {
+      "url": "/collections/fantasy-dragon-graphic-hoodies",
+      "productType": "Hoodies",
+      "themeTag": "Fantasy & Mythology",
+      "headKeywords": [
+        "fantasy dragon graphic hoodies",
+        "fantasy, dragon, gothic & mythology heavyweight hoodies",
+        "fantasy dragon gothic"
+      ],
+      "requiredAnchorTexts": [
+        "Fantasy, Dragon, Gothic & Mythology Heavyweight Hoodies",
+        "Fantasy & Mythology Hoodies",
+        "custom fantasy, dragon, gothic & mythology heavyweight hoodies"
+      ]
+    },
+    "nature-mountain-graphic-hoodies": {
+      "url": "/collections/nature-mountain-graphic-hoodies",
+      "productType": "Hoodies",
+      "themeTag": "Nature & Landscapes",
+      "headKeywords": [
+        "nature mountain graphic hoodies",
+        "nature, mountain landscape & wildlife heavyweight hoodies",
+        "nature mountain landscape"
+      ],
+      "requiredAnchorTexts": [
+        "Nature, Mountain Landscape & Wildlife Heavyweight Hoodies",
+        "Nature & Landscapes Hoodies",
+        "custom nature, mountain landscape & wildlife heavyweight hoodies"
+      ]
+    }
+  },
+  "publishedBlogIndex": [
+    {
+      "handle": "uk-desk-mat-size-guide-60x35-xl-vs-80x40-xxl-compared",
+      "title": "uk desk mat size guide 60x35 xl vs 80x40 xxl compared",
+      "normalizedStems": [
+        "desk",
+        "mat",
+        "size",
+        "60x35",
+        "80x40",
+        "xxl"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed",
+      "title": "how to choose canvas wall art size above uk sofa or bed",
+      "normalizedStems": [
+        "choose",
+        "canvas",
+        "wall",
+        "art",
+        "size",
+        "above",
+        "sofa",
+        "bed"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "throw-blanket-size-guide-uk-small-medium-large-compared",
+      "title": "throw blanket size guide uk small medium large compared",
+      "normalizedStems": [
+        "throw",
+        "blanket",
+        "size",
+        "small",
+        "medium",
+        "large"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+      "title": "best desk setup accessories ikea karlby lagkapten uk guide",
+      "normalizedStems": [
+        "desk",
+        "setup",
+        "accessories",
+        "ikea",
+        "karlby",
+        "lagkapten"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "mechanical-keyboard-desk-mat-pairing-guide-uk",
+      "title": "mechanical keyboard desk mat pairing guide uk",
+      "normalizedStems": [
+        "mechanical",
+        "keyboard",
+        "desk",
+        "mat",
+        "pairing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "cyberpunk-fantasy-gaming-desk-setup-ideas-uk",
+      "title": "cyberpunk fantasy gaming desk setup ideas uk",
+      "normalizedStems": [
+        "cyberpunk",
+        "fantasy",
+        "gaming",
+        "desk",
+        "setup",
+        "ideas"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "world-landmark-travel-canvas-wall-art-styling-uk",
+      "title": "world landmark travel canvas wall art styling uk",
+      "normalizedStems": [
+        "world",
+        "landmark",
+        "travel",
+        "canvas",
+        "wall",
+        "art",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
+      "title": "canvas wall art hanging height guide uk 57 inch rule",
+      "normalizedStems": [
+        "canvas",
+        "wall",
+        "art",
+        "hanging",
+        "height",
+        "inch",
+        "rule"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "how-to-style-throw-blanket-on-sofa-uk-guide",
+      "title": "how to style throw blanket on sofa uk guide",
+      "normalizedStems": [
+        "style",
+        "throw",
+        "blanket",
+        "sofa"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "fleece-throw-blanket-care-warmth-guide-uk",
+      "title": "fleece throw blanket care warmth guide uk",
+      "normalizedStems": [
+        "fleece",
+        "throw",
+        "blanket",
+        "care",
+        "warmth"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "how-to-mix-match-patterned-cushion-covers-sofa-uk",
+      "title": "how to mix match patterned cushion covers sofa uk",
+      "normalizedStems": [
+        "mix",
+        "match",
+        "patterned",
+        "cushion",
+        "covers",
+        "sofa"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "cushion-cover-size-guide-uk-40x40-vs-45x45-insert-tips",
+      "title": "cushion cover size guide uk 40x40 vs 45x45 insert tips",
+      "normalizedStems": [
+        "cushion",
+        "cover",
+        "size",
+        "40x40",
+        "45x45",
+        "insert",
+        "tips"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "how-to-style-unisex-graphic-t-shirts-uk-fit-guide",
+      "title": "how to style unisex graphic t shirts uk fit guide",
+      "normalizedStems": [
+        "style",
+        "unisex",
+        "graphic",
+        "shirts",
+        "fit"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "best-gifts-for-gamers-remote-workers-homeowners-uk",
+      "title": "best gifts for gamers remote workers homeowners uk",
+      "normalizedStems": [
+        "gifts",
+        "gamers",
+        "remote",
+        "workers",
+        "homeowners"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "dual-monitor-ultrawide-desk-setup-mat-sizing-uk",
+      "title": "dual monitor ultrawide desk setup mat sizing uk",
+      "normalizedStems": [
+        "dual",
+        "monitor",
+        "ultrawide",
+        "desk",
+        "setup",
+        "mat",
+        "sizing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "sofa-cushion-throw-blanket-sizing-uk-styling-guide",
+      "title": "sofa cushion throw blanket sizing uk styling guide",
+      "normalizedStems": [
+        "sofa",
+        "cushion",
+        "throw",
+        "blanket",
+        "sizing",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "mechanical-keyboard-desk-mat-acoustics-sizing-uk-guide",
+      "title": "mechanical keyboard desk mat acoustics sizing uk guide",
+      "normalizedStems": [
+        "mechanical",
+        "keyboard",
+        "desk",
+        "mat",
+        "acoustics",
+        "sizing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "how-to-clean-wash-extended-gaming-desk-mat-uk",
+      "title": "how to clean wash extended gaming desk mat uk",
+      "normalizedStems": [
+        "clean",
+        "wash",
+        "extended",
+        "gaming",
+        "desk",
+        "mat"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "ikea-karlby-alex-drawer-gaming-desk-setup-mat-guide-uk",
+      "title": "ikea karlby alex drawer gaming desk setup mat guide uk",
+      "normalizedStems": [
+        "ikea",
+        "karlby",
+        "alex",
+        "drawer",
+        "gaming",
+        "desk",
+        "setup",
+        "mat"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "stretched-canvas-vs-framed-prints-uk-comparison",
+      "title": "stretched canvas vs framed prints uk comparison",
+      "normalizedStems": [
+        "stretched",
+        "canvas",
+        "framed",
+        "prints",
+        "comparison"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "european-cityscape-canvas-wall-art-styling-uk",
+      "title": "european cityscape canvas wall art styling uk",
+      "normalizedStems": [
+        "european",
+        "cityscape",
+        "canvas",
+        "wall",
+        "art",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "end-of-bed-throw-blanket-sizing-guide-uk",
+      "title": "end of bed throw blanket sizing guide uk",
+      "normalizedStems": [
+        "end",
+        "bed",
+        "throw",
+        "blanket",
+        "sizing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "bohemian-botanical-tartan-throw-blanket-styling-uk",
+      "title": "bohemian botanical tartan throw blanket styling uk",
+      "normalizedStems": [
+        "bohemian",
+        "botanical",
+        "tartan",
+        "throw",
+        "blanket",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "mediterranean-moroccan-tile-cushion-covers-styling-uk",
+      "title": "mediterranean moroccan tile cushion covers styling uk",
+      "normalizedStems": [
+        "mediterranean",
+        "moroccan",
+        "tile",
+        "cushion",
+        "covers",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "odd-vs-even-sofa-cushion-arrangement-rule-uk",
+      "title": "odd vs even sofa cushion arrangement rule uk",
+      "normalizedStems": [
+        "odd",
+        "even",
+        "sofa",
+        "cushion",
+        "arrangement",
+        "rule"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "how-to-wash-care-dtg-graphic-t-shirts-uk",
+      "title": "how to wash care dtg graphic t shirts uk",
+      "normalizedStems": [
+        "wash",
+        "care",
+        "dtg",
+        "graphic",
+        "shirts"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "uk-student-room-rental-flat-decor-guide",
+      "title": "uk student room rental flat decor guide",
+      "normalizedStems": [
+        "student",
+        "room",
+        "rental",
+        "flat",
+        "decor"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "cable-management-rgb-routing-desk-mat-uk",
+      "title": "cable management rgb routing desk mat uk",
+      "normalizedStems": [
+        "cable",
+        "management",
+        "rgb",
+        "routing",
+        "desk",
+        "mat"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+      "title": "desk mat thickness guide 2mm vs 3mm vs 4mm uk",
+      "normalizedStems": [
+        "desk",
+        "mat",
+        "thickness",
+        "2mm",
+        "3mm",
+        "4mm"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "japanese-zen-cherry-blossom-canvas-wall-art-uk",
+      "title": "japanese zen cherry blossom canvas wall art uk",
+      "normalizedStems": [
+        "japanese",
+        "zen",
+        "cherry",
+        "blossom",
+        "canvas",
+        "wall",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "gallery-wall-grid-vs-salon-hang-spacing-guide-uk",
+      "title": "gallery wall grid vs salon hang spacing guide uk",
+      "normalizedStems": [
+        "gallery",
+        "wall",
+        "grid",
+        "salon",
+        "hang",
+        "spacing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "reading-nook-desk-chair-throw-blanket-styling-uk",
+      "title": "reading nook desk chair throw blanket styling uk",
+      "normalizedStems": [
+        "reading",
+        "nook",
+        "desk",
+        "chair",
+        "throw",
+        "blanket",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "how-to-wash-coral-fleece-throw-blankets-uk-care",
+      "title": "how to wash coral fleece throw blankets uk care",
+      "normalizedStems": [
+        "wash",
+        "coral",
+        "fleece",
+        "throw",
+        "blankets",
+        "care"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "karate-chop-cushion-duck-feather-inserts-uk-guide",
+      "title": "karate chop cushion duck feather inserts uk guide",
+      "normalizedStems": [
+        "karate",
+        "chop",
+        "cushion",
+        "duck",
+        "feather",
+        "inserts"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "monochrome-black-accent-cushion-styling-guide-uk",
+      "title": "monochrome black accent cushion styling guide uk",
+      "normalizedStems": [
+        "monochrome",
+        "black",
+        "accent",
+        "cushion",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "oversized-vs-regular-graphic-tee-styling-uk",
+      "title": "oversized vs regular graphic tee styling uk",
+      "normalizedStems": [
+        "oversized",
+        "regular",
+        "graphic",
+        "tee",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "under-100-living-room-makeover-cushions-throws-art-uk",
+      "title": "under 100 living room makeover cushions throws art uk",
+      "normalizedStems": [
+        "100",
+        "living",
+        "room",
+        "makeover",
+        "cushions",
+        "throws",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "ergonomic-wrist-rest-vs-flat-desk-mat-uk",
+      "title": "ergonomic wrist rest vs flat desk mat uk",
+      "normalizedStems": [
+        "ergonomic",
+        "wrist",
+        "rest",
+        "flat",
+        "desk",
+        "mat"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "compact-desk-mat-100cm-120cm-desk-uk",
+      "title": "compact desk mat 100cm 120cm desk uk",
+      "normalizedStems": [
+        "compact",
+        "desk",
+        "mat",
+        "100cm",
+        "120cm",
+        "desk"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "bedroom-headboard-canvas-wall-art-sizing-uk",
+      "title": "bedroom headboard canvas wall art sizing uk",
+      "normalizedStems": [
+        "bedroom",
+        "headboard",
+        "canvas",
+        "wall",
+        "art",
+        "sizing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "botanical-landscape-canvas-art-victorian-hallways-uk",
+      "title": "botanical landscape canvas art victorian hallways uk",
+      "normalizedStems": [
+        "botanical",
+        "landscape",
+        "canvas",
+        "art",
+        "victorian",
+        "hallways"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "sherpa-vs-fleece-blanket-warmth-gsm-uk",
+      "title": "sherpa vs fleece blanket warmth gsm uk",
+      "normalizedStems": [
+        "sherpa",
+        "fleece",
+        "blanket",
+        "warmth",
+        "gsm"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "corner-sectional-sofa-throw-blanket-styling-uk",
+      "title": "corner sectional sofa throw blanket styling uk",
+      "normalizedStems": [
+        "corner",
+        "sectional",
+        "sofa",
+        "throw",
+        "blanket",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "sage-green-botanical-cushion-styling-grey-sofa-uk",
+      "title": "sage green botanical cushion styling grey sofa uk",
+      "normalizedStems": [
+        "sage",
+        "green",
+        "botanical",
+        "cushion",
+        "styling",
+        "grey",
+        "sofa"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "velvet-vs-faux-suede-cushion-covers-uk",
+      "title": "velvet vs faux suede cushion covers uk",
+      "normalizedStems": [
+        "velvet",
+        "faux",
+        "suede",
+        "cushion",
+        "covers"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "heavyweight-vs-softstyle-cotton-t-shirts-uk",
+      "title": "heavyweight vs softstyle cotton t shirts uk",
+      "normalizedStems": [
+        "heavyweight",
+        "softstyle",
+        "cotton",
+        "shirts"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "creative-home-office-battlestation-makeover-under-120-uk",
+      "title": "creative home office battlestation makeover under 120 uk",
+      "normalizedStems": [
+        "creative",
+        "home",
+        "office",
+        "battlestation",
+        "makeover",
+        "120"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "cloth-vs-glass-desk-mat-mouse-sensor-tracking-uk",
+      "title": "cloth vs glass desk mat mouse sensor tracking uk",
+      "normalizedStems": [
+        "cloth",
+        "glass",
+        "desk",
+        "mat",
+        "mouse",
+        "sensor",
+        "tracking"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "how-to-flatten-rolled-desk-mat-curling-edges-uk",
+      "title": "how to flatten rolled desk mat curling edges uk",
+      "normalizedStems": [
+        "flatten",
+        "rolled",
+        "desk",
+        "mat",
+        "curling",
+        "edges"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "dining-room-canvas-wall-art-sizing-uk",
+      "title": "dining room canvas wall art sizing uk",
+      "normalizedStems": [
+        "dining",
+        "room",
+        "canvas",
+        "wall",
+        "art",
+        "sizing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "acoustic-wall-art-reducing-echo-uk-living-rooms",
+      "title": "acoustic wall art reducing echo uk living rooms",
+      "normalizedStems": [
+        "acoustic",
+        "wall",
+        "art",
+        "reducing",
+        "echo",
+        "living",
+        "rooms"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "waffle-vs-coral-fleece-throw-blankets-uk",
+      "title": "waffle vs coral fleece throw blankets uk",
+      "normalizedStems": [
+        "waffle",
+        "coral",
+        "fleece",
+        "throw",
+        "blankets"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "protect-boucle-velvet-armchairs-throw-blankets-uk",
+      "title": "protect boucle velvet armchairs throw blankets uk",
+      "normalizedStems": [
+        "protect",
+        "boucle",
+        "velvet",
+        "armchairs",
+        "throw",
+        "blankets"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "navy-mustard-cushion-cover-pairing-guide-uk",
+      "title": "navy mustard cushion cover pairing guide uk",
+      "normalizedStems": [
+        "navy",
+        "mustard",
+        "cushion",
+        "cover",
+        "pairing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "hidden-zipper-vs-envelope-cushion-covers-uk",
+      "title": "hidden zipper vs envelope cushion covers uk",
+      "normalizedStems": [
+        "hidden",
+        "zipper",
+        "envelope",
+        "cushion",
+        "covers"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "cyberpunk-sci-fi-graphic-tee-streetwear-uk",
+      "title": "cyberpunk sci fi graphic tee streetwear uk",
+      "normalizedStems": [
+        "cyberpunk",
+        "sci",
+        "graphic",
+        "tee",
+        "streetwear"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "minimalist-japandi-bedroom-aesthetic-under-150-uk",
+      "title": "minimalist japandi bedroom aesthetic under 150 uk",
+      "normalizedStems": [
+        "minimalist",
+        "japandi",
+        "bedroom",
+        "aesthetic",
+        "150"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "corner-l-shape-desk-mat-dual-monitor-setup-uk",
+      "title": "corner l shape desk mat dual monitor setup uk",
+      "normalizedStems": [
+        "corner",
+        "shape",
+        "desk",
+        "mat",
+        "dual",
+        "monitor",
+        "setup"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "spill-proof-water-resistant-desk-mat-care-uk",
+      "title": "spill proof water resistant desk mat care uk",
+      "normalizedStems": [
+        "spill",
+        "proof",
+        "water",
+        "resistant",
+        "desk",
+        "mat",
+        "care"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "kitchen-breakfast-nook-canvas-wall-art-uk",
+      "title": "kitchen breakfast nook canvas wall art uk",
+      "normalizedStems": [
+        "kitchen",
+        "breakfast",
+        "nook",
+        "canvas",
+        "wall",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "staircase-gallery-wall-hanging-rake-angle-uk",
+      "title": "staircase gallery wall hanging rake angle uk",
+      "normalizedStems": [
+        "staircase",
+        "gallery",
+        "wall",
+        "hanging",
+        "rake",
+        "angle"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "weighted-vs-plush-fleece-throw-blankets-uk",
+      "title": "weighted vs plush fleece throw blankets uk",
+      "normalizedStems": [
+        "weighted",
+        "plush",
+        "fleece",
+        "throw",
+        "blankets"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "garden-patio-firepit-throw-blankets-uk",
+      "title": "garden patio firepit throw blankets uk",
+      "normalizedStems": [
+        "garden",
+        "patio",
+        "firepit",
+        "throw",
+        "blankets"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "terracotta-olive-green-cushion-cover-pairing-uk",
+      "title": "terracotta olive green cushion cover pairing uk",
+      "normalizedStems": [
+        "terracotta",
+        "olive",
+        "green",
+        "cushion",
+        "cover",
+        "pairing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "faux-suede-vs-microfibre-cushion-covers-uk",
+      "title": "faux suede vs microfibre cushion covers uk",
+      "normalizedStems": [
+        "faux",
+        "suede",
+        "microfibre",
+        "cushion",
+        "covers"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "vintage-japanese-anime-kaiju-graphic-t-shirts-uk",
+      "title": "vintage japanese anime kaiju graphic t shirts uk",
+      "normalizedStems": [
+        "vintage",
+        "japanese",
+        "anime",
+        "kaiju",
+        "graphic",
+        "shirts"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "dark-academia-home-office-makeover-under-140-uk",
+      "title": "dark academia home office makeover under 140 uk",
+      "normalizedStems": [
+        "dark",
+        "academia",
+        "home",
+        "office",
+        "makeover",
+        "140"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "standing-desk-anti-fatigue-vs-extended-mat-uk",
+      "title": "standing desk anti fatigue vs extended mat uk",
+      "normalizedStems": [
+        "standing",
+        "desk",
+        "anti",
+        "fatigue",
+        "extended",
+        "mat"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "felt-vs-rubber-desk-mats-keystroke-acoustics-uk",
+      "title": "felt vs rubber desk mats keystroke acoustics uk",
+      "normalizedStems": [
+        "felt",
+        "rubber",
+        "desk",
+        "mats",
+        "keystroke",
+        "acoustics"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "home-library-reading-alcove-canvas-wall-art-uk",
+      "title": "home library reading alcove canvas wall art uk",
+      "normalizedStems": [
+        "home",
+        "library",
+        "reading",
+        "alcove",
+        "canvas",
+        "wall",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "panoramic-canvas-wall-art-chimney-breast-uk",
+      "title": "panoramic canvas wall art chimney breast uk",
+      "normalizedStems": [
+        "panoramic",
+        "canvas",
+        "wall",
+        "art",
+        "chimney",
+        "breast"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "chunky-knit-vs-smooth-coral-fleece-throws-uk",
+      "title": "chunky knit vs smooth coral fleece throws uk",
+      "normalizedStems": [
+        "chunky",
+        "knit",
+        "smooth",
+        "coral",
+        "fleece",
+        "throws"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "accent-armchair-throw-blanket-drape-styling-uk",
+      "title": "accent armchair throw blanket drape styling uk",
+      "normalizedStems": [
+        "accent",
+        "armchair",
+        "throw",
+        "blanket",
+        "drape",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "jewel-tone-emerald-sapphire-cushion-styling-uk",
+      "title": "jewel tone emerald sapphire cushion styling uk",
+      "normalizedStems": [
+        "jewel",
+        "tone",
+        "emerald",
+        "sapphire",
+        "cushion",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "french-country-farmhouse-cushion-combinations-uk",
+      "title": "french country farmhouse cushion combinations uk",
+      "normalizedStems": [
+        "french",
+        "country",
+        "farmhouse",
+        "cushion",
+        "combinations"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "celestial-constellation-astrology-graphic-tees-uk",
+      "title": "celestial constellation astrology graphic tees uk",
+      "normalizedStems": [
+        "celestial",
+        "constellation",
+        "astrology",
+        "graphic",
+        "tees"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "warm-minimalist-japandi-living-room-makeover-under-135-uk",
+      "title": "warm minimalist japandi living room makeover under 135 uk",
+      "normalizedStems": [
+        "warm",
+        "minimalist",
+        "japandi",
+        "living",
+        "room",
+        "makeover",
+        "135"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "macbook-mac-mini-desk-mat-setup-uk-sizing-guide",
+      "title": "macbook mac mini desk mat setup uk sizing guide",
+      "normalizedStems": [
+        "macbook",
+        "mac",
+        "mini",
+        "desk",
+        "mat",
+        "setup",
+        "sizing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "desk-mat-vs-mouse-pad-fps-gaming-glide-stopping-power-uk",
+      "title": "desk mat vs mouse pad fps gaming glide stopping power uk",
+      "normalizedStems": [
+        "desk",
+        "mat",
+        "mouse",
+        "pad",
+        "fps",
+        "gaming",
+        "glide",
+        "stopping",
+        "power"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "scandinavian-neutral-canvas-wall-art-white-living-rooms-uk",
+      "title": "scandinavian neutral canvas wall art white living rooms uk",
+      "normalizedStems": [
+        "scandinavian",
+        "neutral",
+        "canvas",
+        "wall",
+        "art",
+        "white",
+        "living",
+        "rooms"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "home-office-video-call-background-wall-art-uk-guide",
+      "title": "home office video call background wall art uk guide",
+      "normalizedStems": [
+        "home",
+        "office",
+        "video",
+        "call",
+        "background",
+        "wall",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "hypoallergenic-pet-friendly-throw-blankets-uk-care-guide",
+      "title": "hypoallergenic pet friendly throw blankets uk care guide",
+      "normalizedStems": [
+        "hypoallergenic",
+        "pet",
+        "friendly",
+        "throw",
+        "blankets",
+        "care"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "neutral-cream-beige-greige-throw-blanket-layering-uk",
+      "title": "neutral cream beige greige throw blanket layering uk",
+      "normalizedStems": [
+        "neutral",
+        "cream",
+        "beige",
+        "greige",
+        "throw",
+        "blanket",
+        "layering"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "botanical-leaf-floral-cushion-cover-styling-uk-guide",
+      "title": "botanical leaf floral cushion cover styling uk guide",
+      "normalizedStems": [
+        "botanical",
+        "leaf",
+        "floral",
+        "cushion",
+        "cover",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "geometric-mid-century-modern-cushion-covers-uk-styling",
+      "title": "geometric mid century modern cushion covers uk styling",
+      "normalizedStems": [
+        "geometric",
+        "mid",
+        "century",
+        "modern",
+        "cushion",
+        "covers",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "retro-gaming-cyberpunk-graphic-t-shirt-styling-uk",
+      "title": "retro gaming cyberpunk graphic t shirt styling uk",
+      "normalizedStems": [
+        "retro",
+        "gaming",
+        "cyberpunk",
+        "graphic",
+        "shirt",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "creative-home-studio-makeover-under-145-uk-decor-guide",
+      "title": "creative home studio makeover under 145 uk decor guide",
+      "normalizedStems": [
+        "creative",
+        "home",
+        "studio",
+        "makeover",
+        "145",
+        "decor"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "curved-ultrawide-monitor-desk-mat-proportions-uk",
+      "title": "curved ultrawide monitor desk mat proportions uk",
+      "normalizedStems": [
+        "curved",
+        "ultrawide",
+        "monitor",
+        "desk",
+        "mat",
+        "proportions"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "leatherette-vs-micro-woven-cloth-desk-mats-uk",
+      "title": "leatherette vs micro woven cloth desk mats uk",
+      "normalizedStems": [
+        "leatherette",
+        "micro",
+        "woven",
+        "cloth",
+        "desk",
+        "mats"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "coastal-nautical-landscape-canvas-art-uk-styling",
+      "title": "coastal nautical landscape canvas art uk styling",
+      "normalizedStems": [
+        "coastal",
+        "nautical",
+        "landscape",
+        "canvas",
+        "art",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "split-diptych-triptych-canvas-hanging-guide-uk",
+      "title": "split diptych triptych canvas hanging guide uk",
+      "normalizedStems": [
+        "split",
+        "diptych",
+        "triptych",
+        "canvas",
+        "hanging"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "firepit-garden-conservatory-throw-blankets-uk",
+      "title": "firepit garden conservatory throw blankets uk",
+      "normalizedStems": [
+        "firepit",
+        "garden",
+        "conservatory",
+        "throw",
+        "blankets"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "bed-runner-drape-vs-full-fold-throw-blanket-uk",
+      "title": "bed runner drape vs full fold throw blanket uk",
+      "normalizedStems": [
+        "bed",
+        "runner",
+        "drape",
+        "full",
+        "fold",
+        "throw",
+        "blanket"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "velvet-tartan-plaid-cushion-combinations-uk",
+      "title": "velvet tartan plaid cushion combinations uk",
+      "normalizedStems": [
+        "velvet",
+        "tartan",
+        "plaid",
+        "cushion",
+        "combinations"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "monochrome-abstract-striped-cushion-cover-styling-uk",
+      "title": "monochrome abstract striped cushion cover styling uk",
+      "normalizedStems": [
+        "monochrome",
+        "abstract",
+        "striped",
+        "cushion",
+        "cover",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "heavyweight-vs-softstyle-streetwear-graphic-tees-uk",
+      "title": "heavyweight vs softstyle streetwear graphic tees uk",
+      "normalizedStems": [
+        "heavyweight",
+        "softstyle",
+        "streetwear",
+        "graphic",
+        "tees"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "industrial-loft-warehouse-makeover-under-140-uk",
+      "title": "industrial loft warehouse makeover under 140 uk",
+      "normalizedStems": [
+        "industrial",
+        "loft",
+        "warehouse",
+        "makeover",
+        "140"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "cable-cutout-monitor-arm-desk-mat-placement-uk",
+      "title": "cable cutout monitor arm desk mat placement uk",
+      "normalizedStems": [
+        "cable",
+        "cutout",
+        "monitor",
+        "arm",
+        "desk",
+        "mat",
+        "placement"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "small-space-studio-desk-mat-styling-uk-ikea-micke",
+      "title": "small space studio desk mat styling uk ikea micke",
+      "normalizedStems": [
+        "small",
+        "space",
+        "studio",
+        "desk",
+        "mat",
+        "styling",
+        "ikea",
+        "micke"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "black-white-architectural-canvas-wall-art-uk",
+      "title": "black white architectural canvas wall art uk",
+      "normalizedStems": [
+        "black",
+        "white",
+        "architectural",
+        "canvas",
+        "wall",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "home-gym-fitness-studio-canvas-wall-art-uk",
+      "title": "home gym fitness studio canvas wall art uk",
+      "normalizedStems": [
+        "home",
+        "gym",
+        "fitness",
+        "studio",
+        "canvas",
+        "wall",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "velvet-vs-coral-fleece-throw-blankets-uk",
+      "title": "velvet vs coral fleece throw blankets uk",
+      "normalizedStems": [
+        "velvet",
+        "coral",
+        "fleece",
+        "throw",
+        "blankets"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "how-to-wash-dry-large-fleece-throw-blankets-uk",
+      "title": "how to wash dry large fleece throw blankets uk",
+      "normalizedStems": [
+        "wash",
+        "dry",
+        "large",
+        "fleece",
+        "throw",
+        "blankets"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "boho-macrame-aztec-geometric-cushion-covers-uk",
+      "title": "boho macrame aztec geometric cushion covers uk",
+      "normalizedStems": [
+        "boho",
+        "macrame",
+        "aztec",
+        "geometric",
+        "cushion",
+        "covers"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "faux-leather-sofa-cushion-slipping-solutions-uk",
+      "title": "faux leather sofa cushion slipping solutions uk",
+      "normalizedStems": [
+        "faux",
+        "leather",
+        "sofa",
+        "cushion",
+        "slipping",
+        "solutions"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "vintage-band-vs-cyberpunk-graphic-tees-uk",
+      "title": "vintage band vs cyberpunk graphic tees uk",
+      "normalizedStems": [
+        "vintage",
+        "band",
+        "cyberpunk",
+        "graphic",
+        "tees"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "scottish-highlands-snug-makeover-under-135-uk",
+      "title": "scottish highlands snug makeover under 135 uk",
+      "normalizedStems": [
+        "scottish",
+        "highlands",
+        "snug",
+        "makeover",
+        "135"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "white-minimalist-desk-mat-cleaning-uk",
+      "title": "white minimalist desk mat cleaning uk",
+      "normalizedStems": [
+        "white",
+        "minimalist",
+        "desk",
+        "mat",
+        "cleaning"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "glass-desk-mouse-tracking-static-protection-uk",
+      "title": "glass desk mouse tracking static protection uk",
+      "normalizedStems": [
+        "glass",
+        "desk",
+        "mouse",
+        "tracking",
+        "static",
+        "protection"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "cottagecore-english-countryside-canvas-wall-art-uk",
+      "title": "cottagecore english countryside canvas wall art uk",
+      "normalizedStems": [
+        "cottagecore",
+        "english",
+        "countryside",
+        "canvas",
+        "wall",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "panoramic-canvas-above-fireplace-mantel-uk",
+      "title": "panoramic canvas above fireplace mantel uk",
+      "normalizedStems": [
+        "panoramic",
+        "canvas",
+        "above",
+        "fireplace",
+        "mantel"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "picnic-outdoor-throw-blankets-uk-guide",
+      "title": "picnic outdoor throw blankets uk guide",
+      "normalizedStems": [
+        "picnic",
+        "outdoor",
+        "throw",
+        "blankets"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "weighted-blanket-covers-vs-coral-fleece-uk",
+      "title": "weighted blanket covers vs coral fleece uk",
+      "normalizedStems": [
+        "weighted",
+        "blanket",
+        "covers",
+        "coral",
+        "fleece"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "william-morris-arts-crafts-cushion-styling-uk",
+      "title": "william morris arts crafts cushion styling uk",
+      "normalizedStems": [
+        "william",
+        "morris",
+        "arts",
+        "crafts",
+        "cushion",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "memory-foam-vs-duck-down-cushion-inserts-uk",
+      "title": "memory foam vs duck down cushion inserts uk",
+      "normalizedStems": [
+        "memory",
+        "foam",
+        "duck",
+        "down",
+        "cushion",
+        "inserts"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "dtg-vs-screen-printing-t-shirts-uk-guide",
+      "title": "dtg vs screen printing t shirts uk guide",
+      "normalizedStems": [
+        "dtg",
+        "screen",
+        "printing",
+        "shirts"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "japanese-wabi-sabi-office-makeover-under-140-uk",
+      "title": "japanese wabi sabi office makeover under 140 uk",
+      "normalizedStems": [
+        "japanese",
+        "wabi",
+        "sabi",
+        "office",
+        "makeover",
+        "140"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "split-keyboard-desk-mat-layouts-uk",
+      "title": "split keyboard desk mat layouts uk",
+      "normalizedStems": [
+        "split",
+        "keyboard",
+        "desk",
+        "mat",
+        "layouts"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "humidity-mould-prevention-desk-mats-uk",
+      "title": "humidity mould prevention desk mats uk",
+      "normalizedStems": [
+        "humidity",
+        "mould",
+        "prevention",
+        "desk",
+        "mats"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "japandi-monochrome-canvas-wall-art-uk",
+      "title": "japandi monochrome canvas wall art uk",
+      "normalizedStems": [
+        "japandi",
+        "monochrome",
+        "canvas",
+        "wall",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "high-ceiling-victorian-wall-art-sizing-uk",
+      "title": "high ceiling victorian wall art sizing uk",
+      "normalizedStems": [
+        "high",
+        "ceiling",
+        "victorian",
+        "wall",
+        "art",
+        "sizing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "velvet-microfibre-fleece-throw-blankets-uk",
+      "title": "velvet microfibre fleece throw blankets uk",
+      "normalizedStems": [
+        "velvet",
+        "microfibre",
+        "fleece",
+        "throw",
+        "blankets"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "rolled-throw-blanket-basket-styling-uk",
+      "title": "rolled throw blanket basket styling uk",
+      "normalizedStems": [
+        "rolled",
+        "throw",
+        "blanket",
+        "basket",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "double-sided-cushion-covers-uk-benefits",
+      "title": "double sided cushion covers uk benefits",
+      "normalizedStems": [
+        "double",
+        "sided",
+        "cushion",
+        "covers",
+        "benefits"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "greige-taupe-neutral-cushion-styling-uk",
+      "title": "greige taupe neutral cushion styling uk",
+      "normalizedStems": [
+        "greige",
+        "taupe",
+        "neutral",
+        "cushion",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "ring-spun-vs-combed-cotton-t-shirts-uk",
+      "title": "ring spun vs combed cotton t shirts uk",
+      "normalizedStems": [
+        "ring",
+        "spun",
+        "combed",
+        "cotton",
+        "shirts"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "autumn-hygge-snug-makeover-under-130-uk",
+      "title": "autumn hygge snug makeover under 130 uk",
+      "normalizedStems": [
+        "autumn",
+        "hygge",
+        "snug",
+        "makeover",
+        "130"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "laptop-riser-monitor-desk-mat-layouts-uk",
+      "title": "laptop riser monitor desk mat layouts uk",
+      "normalizedStems": [
+        "laptop",
+        "riser",
+        "monitor",
+        "desk",
+        "mat",
+        "layouts"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "white-walnut-desk-mat-styling-uk",
+      "title": "white walnut desk mat styling uk",
+      "normalizedStems": [
+        "white",
+        "walnut",
+        "desk",
+        "mat",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "nordic-landscape-canvas-wall-art-uk",
+      "title": "nordic landscape canvas wall art uk",
+      "normalizedStems": [
+        "nordic",
+        "landscape",
+        "canvas",
+        "wall",
+        "art"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "canvas-edge-wrap-profiles-uk-guide",
+      "title": "canvas edge wrap profiles uk guide",
+      "normalizedStems": [
+        "canvas",
+        "edge",
+        "wrap",
+        "profiles"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "chaise-longue-daybed-throw-blanket-drapes-uk",
+      "title": "chaise longue daybed throw blanket drapes uk",
+      "normalizedStems": [
+        "chaise",
+        "longue",
+        "daybed",
+        "throw",
+        "blanket",
+        "drapes"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "anti-static-fleece-blanket-washing-uk",
+      "title": "anti static fleece blanket washing uk",
+      "normalizedStems": [
+        "anti",
+        "static",
+        "fleece",
+        "blanket",
+        "washing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "teal-burnt-orange-cushion-styling-uk",
+      "title": "teal burnt orange cushion styling uk",
+      "normalizedStems": [
+        "teal",
+        "burnt",
+        "orange",
+        "cushion",
+        "styling"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "conservatory-sunroom-cushion-cover-care-uk",
+      "title": "conservatory sunroom cushion cover care uk",
+      "normalizedStems": [
+        "conservatory",
+        "sunroom",
+        "cushion",
+        "cover",
+        "care"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "broad-shoulders-graphic-tee-sizing-uk",
+      "title": "broad shoulders graphic tee sizing uk",
+      "normalizedStems": [
+        "broad",
+        "shoulders",
+        "graphic",
+        "tee",
+        "sizing"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "reading-alcove-bay-window-makeover-under-125-uk",
+      "title": "reading alcove bay window makeover under 125 uk",
+      "normalizedStems": [
+        "reading",
+        "alcove",
+        "bay",
+        "window",
+        "makeover",
+        "125"
+      ],
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "handle": "abstract-geometric-canvas-wall-art-for-modern-dining-room-24x36",
+      "title": "Abstract & Geometric Canvas Wall Art for Modern Dining Room 24x36: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "abstract",
+        "geometric",
+        "canvas",
+        "wall",
+        "art",
+        "modern",
+        "dining",
+        "room",
+        "24x36",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "abstract",
+        "geometric",
+        "canvas",
+        "wall",
+        "art",
+        "modern",
+        "dining",
+        "room",
+        "24x36"
+      ],
+      "primarySubCollection": "abstract-minimalist-bauhaus-canvas-wall-art",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "best-24x36-japanese-ukiyo-e-canvas-wall-art-for-home-office-video-backdrop",
+      "title": "Best 24x36 Japanese Ukiyo-E Canvas Wall Art for Home Office Video Backdrop: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "24x36",
+        "japanese",
+        "ukiyo",
+        "canvas",
+        "wall",
+        "art",
+        "home",
+        "office",
+        "video",
+        "backdrop",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "24x36",
+        "japanese",
+        "ukiyo",
+        "canvas",
+        "wall",
+        "art",
+        "home",
+        "office",
+        "video",
+        "backdrop"
+      ],
+      "primarySubCollection": "japanese-ukiyo-e-zen-canvas-wall-art",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall",
+      "title": "Best 24x36 Highland Cow Wildlife Canvas Wall Art for Dark Green Accent Wall: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "24x36",
+        "highland",
+        "cow",
+        "wildlife",
+        "canvas",
+        "wall",
+        "art",
+        "dark",
+        "green",
+        "accent",
+        "wall",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "24x36",
+        "highland",
+        "cow",
+        "wildlife",
+        "canvas",
+        "wall",
+        "art",
+        "dark",
+        "green",
+        "accent",
+        "wall"
+      ],
+      "primarySubCollection": "animals-wildlife-equestrian-canvas-wall-art",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "best-24x36-tokyo-neon-street-skyline-canvas-wall-art-for-modern-dining-room",
+      "title": "Best 24x36 Tokyo Neon Street Skyline Canvas Wall Art for Modern Dining Room: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "24x36",
+        "tokyo",
+        "neon",
+        "street",
+        "skyline",
+        "canvas",
+        "wall",
+        "art",
+        "modern",
+        "dining",
+        "room",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "24x36",
+        "tokyo",
+        "neon",
+        "street",
+        "skyline",
+        "canvas",
+        "wall",
+        "art",
+        "modern",
+        "dining",
+        "room"
+      ],
+      "primarySubCollection": "world-travel-city-skyline-canvas-wall-art",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "cosmic-galaxy-astronaut-canvas-wall-art-above-king-size-bed-24x36",
+      "title": "Cosmic Galaxy Astronaut Canvas Wall Art Above King Size Bed 24x36: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "cosmic",
+        "galaxy",
+        "astronaut",
+        "canvas",
+        "wall",
+        "art",
+        "above",
+        "king",
+        "size",
+        "bed",
+        "24x36",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "cosmic",
+        "galaxy",
+        "astronaut",
+        "canvas",
+        "wall",
+        "art",
+        "above",
+        "king",
+        "size",
+        "bed",
+        "24x36"
+      ],
+      "primarySubCollection": "space-cosmic-astronomy-canvas-wall-art",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "best-24x36-cyberpunk-neon-city-canvas-wall-art-for-apartment-feature-wall",
+      "title": "Best 24x36 Cyberpunk Neon City Canvas Wall Art for Apartment Feature Wall: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "24x36",
+        "cyberpunk",
+        "neon",
+        "city",
+        "canvas",
+        "wall",
+        "art",
+        "apartment",
+        "feature",
+        "wall",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "24x36",
+        "cyberpunk",
+        "neon",
+        "city",
+        "canvas",
+        "wall",
+        "art",
+        "apartment",
+        "feature",
+        "wall"
+      ],
+      "primarySubCollection": "sci-fi-cyberpunk-neon-canvas-wall-art",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "best-45x45-misty-alpine-mountain-forest-cushion-cover-for-cognac-leather-sofa",
+      "title": "Best 45x45 Misty Alpine Mountain Forest Cushion Cover for Cognac Leather Sofa: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "45x45",
+        "misty",
+        "alpine",
+        "mountain",
+        "forest",
+        "cushion",
+        "cover",
+        "cognac",
+        "leather",
+        "sofa",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "45x45",
+        "misty",
+        "alpine",
+        "mountain",
+        "forest",
+        "cushion",
+        "cover",
+        "cognac",
+        "leather",
+        "sofa"
+      ],
+      "primarySubCollection": "botanical-floral-garden-cushion-covers",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "best-45x45-abstract-geometric-cushion-cover-for-grey-sectional-couch",
+      "title": "Best 45x45 Abstract & Geometric Cushion Cover for Grey Sectional Couch: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "45x45",
+        "abstract",
+        "geometric",
+        "cushion",
+        "cover",
+        "grey",
+        "sectional",
+        "couch",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "45x45",
+        "abstract",
+        "geometric",
+        "cushion",
+        "cover",
+        "grey",
+        "sectional",
+        "couch"
+      ],
+      "primarySubCollection": "abstract-geometric-bauhaus-cushion-covers",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "best-45x45-highland-cow-wildlife-cushion-cover-for-mid-century-accent-chair",
+      "title": "Best 45x45 Highland Cow Wildlife Cushion Cover for Mid Century Accent Chair: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "45x45",
+        "highland",
+        "cow",
+        "wildlife",
+        "cushion",
+        "cover",
+        "mid",
+        "century",
+        "accent",
+        "chair",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "45x45",
+        "highland",
+        "cow",
+        "wildlife",
+        "cushion",
+        "cover",
+        "mid",
+        "century",
+        "accent",
+        "chair"
+      ],
+      "primarySubCollection": "animals-wildlife-woodland-cushion-covers",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "best-45x45-deep-space-nebula-cushion-cover-for-velvet-living-room-sofa",
+      "title": "Best 45x45 Deep Space Nebula Cushion Cover for Velvet Living Room Sofa: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "45x45",
+        "deep",
+        "space",
+        "nebula",
+        "cushion",
+        "cover",
+        "velvet",
+        "living",
+        "room",
+        "sofa",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "45x45",
+        "deep",
+        "space",
+        "nebula",
+        "cushion",
+        "cover",
+        "velvet",
+        "living",
+        "room",
+        "sofa"
+      ],
+      "primarySubCollection": "space-celestial-galaxy-cushion-covers",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "handle": "best-45x45-mythic-dragon-dark-fantasy-cushion-cover-for-king-bed-pillow",
+      "title": "Best 45x45 Mythic Dragon Dark Fantasy Cushion Cover for King Bed Pillow Layering: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "45x45",
+        "mythic",
+        "dragon",
+        "dark",
+        "fantasy",
+        "cushion",
+        "cover",
+        "king",
+        "bed",
+        "pillow",
+        "layering",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "45x45",
+        "mythic",
+        "dragon",
+        "dark",
+        "fantasy",
+        "cushion",
+        "cover",
+        "king",
+        "bed",
+        "pillow"
+      ],
+      "primarySubCollection": "fantasy-mythology-gothic-cushion-covers",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-45x45-japanese-ukiyo-e-cushion-cover-for-reading-nook-armchair",
+      "title": "Best 45x45 Japanese Ukiyo-E Cushion Cover for Reading Nook Armchair: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "45x45",
+        "japanese",
+        "ukiyo",
+        "cushion",
+        "cover",
+        "reading",
+        "nook",
+        "armchair",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "45x45",
+        "japanese",
+        "ukiyo",
+        "cushion",
+        "cover",
+        "reading",
+        "nook",
+        "armchair"
+      ],
+      "primarySubCollection": "japanese-asian-art-cushion-covers",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-45x45-tokyo-neon-street-skyline-cushion-cover-for-neutral-linen-sofa",
+      "title": "Best 45x45 Tokyo Neon Street Skyline Cushion Cover for Neutral Linen Sofa: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "45x45",
+        "tokyo",
+        "neon",
+        "street",
+        "skyline",
+        "cushion",
+        "cover",
+        "neutral",
+        "linen",
+        "sofa",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "45x45",
+        "tokyo",
+        "neon",
+        "street",
+        "skyline",
+        "cushion",
+        "cover",
+        "neutral",
+        "linen",
+        "sofa"
+      ],
+      "primarySubCollection": "world-travel-mediterranean-cushion-covers",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-45x45-80s-retro-synthwave-sunset-cushion-cover-for-boho-living-room",
+      "title": "Best 45x45 80s Retro Synthwave Sunset Cushion Cover for Boho Living Room: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "45x45",
+        "80s",
+        "retro",
+        "synthwave",
+        "sunset",
+        "cushion",
+        "cover",
+        "boho",
+        "living",
+        "room",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "45x45",
+        "80s",
+        "retro",
+        "synthwave",
+        "sunset",
+        "cushion",
+        "cover",
+        "boho",
+        "living",
+        "room"
+      ],
+      "primarySubCollection": "retro-vintage-pop-art-cushion-covers",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-50x60-misty-alpine-mountain-forest-throw-blanket-for-leather-couch",
+      "title": "Best 50x60 Misty Alpine Mountain Forest Throw Blanket for Leather Couch Drape: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "50x60",
+        "misty",
+        "alpine",
+        "mountain",
+        "forest",
+        "throw",
+        "blanket",
+        "leather",
+        "couch",
+        "drape",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "50x60",
+        "misty",
+        "alpine",
+        "mountain",
+        "forest",
+        "throw",
+        "blanket",
+        "leather",
+        "couch"
+      ],
+      "primarySubCollection": "nature-mountain-cabin-throw-blankets",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-50x60-abstract-geometric-throw-blanket-for-cozy-reading-nook",
+      "title": "Best 50x60 Abstract & Geometric Throw Blanket for Cozy Reading Nook: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "50x60",
+        "abstract",
+        "geometric",
+        "throw",
+        "blanket",
+        "cozy",
+        "reading",
+        "nook",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "50x60",
+        "abstract",
+        "geometric",
+        "throw",
+        "blanket",
+        "cozy",
+        "reading",
+        "nook"
+      ],
+      "primarySubCollection": "abstract-boho-kilim-throw-blankets",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-50x60-deep-space-nebula-throw-blanket-for-queen-and-king-bed-layering",
+      "title": "Best 50x60 Deep Space Nebula Throw Blanket for Queen and King Bed Layering: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "50x60",
+        "deep",
+        "space",
+        "nebula",
+        "throw",
+        "blanket",
+        "queen",
+        "king",
+        "bed",
+        "layering",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "50x60",
+        "deep",
+        "space",
+        "nebula",
+        "throw",
+        "blanket",
+        "queen",
+        "king",
+        "bed",
+        "layering"
+      ],
+      "primarySubCollection": "space-starry-night-galaxy-throw-blankets",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-50x60-highland-cow-wildlife-throw-blanket-for-home-theater-room",
+      "title": "Best 50x60 Highland Cow Wildlife Throw Blanket for Home Theater Room: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "50x60",
+        "highland",
+        "cow",
+        "wildlife",
+        "throw",
+        "blanket",
+        "home",
+        "theater",
+        "room",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "50x60",
+        "highland",
+        "cow",
+        "wildlife",
+        "throw",
+        "blanket",
+        "home",
+        "theater",
+        "room"
+      ],
+      "primarySubCollection": "animals-wildlife-cozy-throw-blankets",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-50x60-mythic-dragon-dark-fantasy-throw-blanket-for-gaming-chair-warmth",
+      "title": "Best 50x60 Mythic Dragon Dark Fantasy Throw Blanket for Gaming Chair Warmth: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "50x60",
+        "mythic",
+        "dragon",
+        "dark",
+        "fantasy",
+        "throw",
+        "blanket",
+        "gaming",
+        "chair",
+        "warmth",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "50x60",
+        "mythic",
+        "dragon",
+        "dark",
+        "fantasy",
+        "throw",
+        "blanket",
+        "gaming",
+        "chair",
+        "warmth"
+      ],
+      "primarySubCollection": "fantasy-dragon-mythic-throw-blankets",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-50x60-cyberpunk-neon-city-throw-blanket-for-cabin-living-room-sofa",
+      "title": "Best 50x60 Cyberpunk Neon City Throw Blanket for Cabin Living Room Sofa: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "50x60",
+        "cyberpunk",
+        "neon",
+        "city",
+        "throw",
+        "blanket",
+        "cabin",
+        "living",
+        "room",
+        "sofa",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "50x60",
+        "cyberpunk",
+        "neon",
+        "city",
+        "throw",
+        "blanket",
+        "cabin",
+        "living",
+        "room",
+        "sofa"
+      ],
+      "primarySubCollection": "sci-fi-cyberpunk-gamer-throw-blankets",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "handle": "best-60x80-amalfi-coast-mediterranean-plush-fleece-blanket-for-home-thea",
+      "title": "Best 60x80 Amalfi Coast Mediterranean Plush Fleece Blanket for Home Theater Room: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "60x80",
+        "amalfi",
+        "coast",
+        "mediterranean",
+        "plush",
+        "fleece",
+        "blanket",
+        "home",
+        "theater",
+        "room",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "60x80",
+        "amalfi",
+        "coast",
+        "mediterranean",
+        "plush",
+        "fleece",
+        "blanket",
+        "home",
+        "thea"
+      ],
+      "primarySubCollection": "world-travel-paris-european-throw-blankets",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "handle": "best-60x80-crimson-samurai-sakura-plush-fleece-blanket-for-gaming-chair",
+      "title": "Best 60x80 Crimson Samurai Sakura Plush Fleece Blanket for Gaming Chair Warmth: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "60x80",
+        "crimson",
+        "samurai",
+        "sakura",
+        "plush",
+        "fleece",
+        "blanket",
+        "gaming",
+        "chair",
+        "warmth",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "60x80",
+        "crimson",
+        "samurai",
+        "sakura",
+        "plush",
+        "fleece",
+        "blanket",
+        "gaming",
+        "chair"
+      ],
+      "primarySubCollection": "japanese-sakura-oriental-throw-blankets",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "handle": "best-misty-alpine-mountain-forest-memory-foam-bath-mat-vs-generic-memory",
+      "title": "Best Misty Alpine Mountain Forest Memory Foam Bath Mat vs Generic Memory Foam Bath Mat for Walk in Shower Exit: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "misty",
+        "alpine",
+        "mountain",
+        "forest",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "walk",
+        "shower",
+        "exit",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "misty",
+        "alpine",
+        "mountain",
+        "forest",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory"
+      ],
+      "primarySubCollection": "coastal-ocean-botanical-bath-mats",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "handle": "best-abstract-geometric-memory-foam-bath-mat-vs-generic-memory-foam-bath",
+      "title": "Best Abstract & Geometric Memory Foam Bath Mat vs Generic Memory Foam Bath Mat for Double Sink Bathroom Vanity: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "abstract",
+        "geometric",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "double",
+        "sink",
+        "bathroom",
+        "vanity",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "abstract",
+        "geometric",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory",
+        "foam",
+        "bath"
+      ],
+      "primarySubCollection": "minimalist-abstract-stone-bath-mats",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "handle": "best-highland-cow-wildlife-memory-foam-bath-mat-vs-generic-memory-foam-b",
+      "title": "Best Highland Cow Wildlife Memory Foam Bath Mat vs Generic Memory Foam Bath Mat for Small Apartment Bathroom: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "highland",
+        "cow",
+        "wildlife",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "small",
+        "apartment",
+        "bathroom",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "highland",
+        "cow",
+        "wildlife",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory",
+        "foam"
+      ],
+      "primarySubCollection": "animals-wildlife-whimsical-bath-mats",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "handle": "best-deep-space-nebula-memory-foam-bath-mat-vs-generic-memory-foam-bath",
+      "title": "Best Deep Space Nebula Memory Foam Bath Mat vs Generic Memory Foam Bath Mat for Dark Slate Tile Floor: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "deep",
+        "space",
+        "nebula",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "dark",
+        "slate",
+        "tile",
+        "floor",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "deep",
+        "space",
+        "nebula",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory",
+        "foam",
+        "bath"
+      ],
+      "primarySubCollection": "celestial-space-moon-bath-mats",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "handle": "best-mythic-dragon-dark-fantasy-memory-foam-bath-mat-vs-generic-memory-f",
+      "title": "Best Mythic Dragon Dark Fantasy Memory Foam Bath Mat vs Generic Memory Foam Bath Mat for Freestanding Soaking Tub: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "mythic",
+        "dragon",
+        "dark",
+        "fantasy",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "freestanding",
+        "soaking",
+        "tub",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "mythic",
+        "dragon",
+        "dark",
+        "fantasy",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "generic",
+        "memory"
+      ],
+      "primarySubCollection": "fantasy-gothic-witchy-bath-mats",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "handle": "best-24x17-cyberpunk-neon-city-memory-foam-bath-mat-for-modern-spa-bathr",
+      "title": "Best 24x17 Cyberpunk Neon City Memory Foam Bath Mat for Modern Spa Bathroom: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "24x17",
+        "cyberpunk",
+        "neon",
+        "city",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "modern",
+        "spa",
+        "bathroom",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "24x17",
+        "cyberpunk",
+        "neon",
+        "city",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "modern",
+        "spa",
+        "bathr"
+      ],
+      "primarySubCollection": "sci-fi-neon-cyberpunk-bath-mats",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "handle": "best-24x17-japanese-ukiyo-e-memory-foam-bath-mat-for-guest-bathroom-make",
+      "title": "Best 24x17 Japanese Ukiyo-E Memory Foam Bath Mat for Guest Bathroom Makeover: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "24x17",
+        "japanese",
+        "ukiyo",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "guest",
+        "bathroom",
+        "makeover",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "24x17",
+        "japanese",
+        "ukiyo",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "guest",
+        "bathroom",
+        "make"
+      ],
+      "primarySubCollection": "japanese-zen-onsen-bath-mats",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "handle": "best-24x17-80s-retro-synthwave-sunset-memory-foam-bath-mat-for-white-mar",
+      "title": "Best 24x17 80s Retro Synthwave Sunset Memory Foam Bath Mat for White Marble Tile Floor: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "normalizedStems": [
+        "24x17",
+        "80s",
+        "retro",
+        "synthwave",
+        "sunset",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "white",
+        "marble",
+        "tile",
+        "floor",
+        "dual",
+        "inch",
+        "sizing",
+        "spec",
+        "24x17",
+        "80s",
+        "retro",
+        "synthwave",
+        "sunset",
+        "memory",
+        "foam",
+        "bath",
+        "mat",
+        "white",
+        "mar"
+      ],
+      "primarySubCollection": "retro-vintage-funky-bath-mats",
+      "publishedAt": "2026-11-08"
+    }
+  ],
+  "assignedKeywordLocks": {
+    "abstract-geometric-canvas-wall-art-for-modern-dining-room-24x36": {
+      "clusterId": "kw_abstract_minimalist_bauhaus_canvas_wall_art_2",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "abstract-geometric-canvas-wall-art-for-modern-dining-room-24x36",
+      "subCollectionHandle": "abstract-minimalist-bauhaus-canvas-wall-art"
+    },
+    "best-24x36-japanese-ukiyo-e-canvas-wall-art-for-home-office-video-backdrop": {
+      "clusterId": "kw_japanese_ukiyo_e_zen_canvas_wall_art_1",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "best-24x36-japanese-ukiyo-e-canvas-wall-art-for-home-office-video-backdrop",
+      "subCollectionHandle": "japanese-ukiyo-e-zen-canvas-wall-art"
+    },
+    "best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall": {
+      "clusterId": "kw_animals_wildlife_equestrian_canvas_wall_art_1",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall",
+      "subCollectionHandle": "animals-wildlife-equestrian-canvas-wall-art"
+    },
+    "best-24x36-tokyo-neon-street-skyline-canvas-wall-art-for-modern-dining-room": {
+      "clusterId": "kw_world_travel_city_skyline_canvas_wall_art_1",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "best-24x36-tokyo-neon-street-skyline-canvas-wall-art-for-modern-dining-room",
+      "subCollectionHandle": "world-travel-city-skyline-canvas-wall-art"
+    },
+    "cosmic-galaxy-astronaut-canvas-wall-art-above-king-size-bed-24x36": {
+      "clusterId": "kw_space_cosmic_astronomy_canvas_wall_art_2",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "cosmic-galaxy-astronaut-canvas-wall-art-above-king-size-bed-24x36",
+      "subCollectionHandle": "space-cosmic-astronomy-canvas-wall-art"
+    },
+    "best-24x36-cyberpunk-neon-city-canvas-wall-art-for-apartment-feature-wall": {
+      "clusterId": "kw_sci_fi_cyberpunk_neon_canvas_wall_art_1",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "best-24x36-cyberpunk-neon-city-canvas-wall-art-for-apartment-feature-wall",
+      "subCollectionHandle": "sci-fi-cyberpunk-neon-canvas-wall-art"
+    },
+    "best-45x45-misty-alpine-mountain-forest-cushion-cover-for-cognac-leather-sofa": {
+      "clusterId": "kw_botanical_floral_garden_cushion_covers_1",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "best-45x45-misty-alpine-mountain-forest-cushion-cover-for-cognac-leather-sofa",
+      "subCollectionHandle": "botanical-floral-garden-cushion-covers"
+    },
+    "best-45x45-abstract-geometric-cushion-cover-for-grey-sectional-couch": {
+      "clusterId": "kw_abstract_geometric_bauhaus_cushion_covers_1",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "best-45x45-abstract-geometric-cushion-cover-for-grey-sectional-couch",
+      "subCollectionHandle": "abstract-geometric-bauhaus-cushion-covers"
+    },
+    "best-45x45-highland-cow-wildlife-cushion-cover-for-mid-century-accent-chair": {
+      "clusterId": "kw_animals_wildlife_woodland_cushion_covers_1",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "best-45x45-highland-cow-wildlife-cushion-cover-for-mid-century-accent-chair",
+      "subCollectionHandle": "animals-wildlife-woodland-cushion-covers"
+    },
+    "best-45x45-deep-space-nebula-cushion-cover-for-velvet-living-room-sofa": {
+      "clusterId": "kw_space_celestial_galaxy_cushion_covers_1",
+      "assignedDate": "2026-11-05",
+      "articleHandle": "best-45x45-deep-space-nebula-cushion-cover-for-velvet-living-room-sofa",
+      "subCollectionHandle": "space-celestial-galaxy-cushion-covers"
+    },
+    "best-45x45-mythic-dragon-dark-fantasy-cushion-cover-for-king-bed-pillow": {
+      "clusterId": "kw_fantasy_mythology_gothic_cushion_covers_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-45x45-mythic-dragon-dark-fantasy-cushion-cover-for-king-bed-pillow",
+      "subCollectionHandle": "fantasy-mythology-gothic-cushion-covers"
+    },
+    "best-45x45-japanese-ukiyo-e-cushion-cover-for-reading-nook-armchair": {
+      "clusterId": "kw_japanese_asian_art_cushion_covers_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-45x45-japanese-ukiyo-e-cushion-cover-for-reading-nook-armchair",
+      "subCollectionHandle": "japanese-asian-art-cushion-covers"
+    },
+    "best-45x45-tokyo-neon-street-skyline-cushion-cover-for-neutral-linen-sofa": {
+      "clusterId": "kw_world_travel_mediterranean_cushion_covers_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-45x45-tokyo-neon-street-skyline-cushion-cover-for-neutral-linen-sofa",
+      "subCollectionHandle": "world-travel-mediterranean-cushion-covers"
+    },
+    "best-45x45-80s-retro-synthwave-sunset-cushion-cover-for-boho-living-room": {
+      "clusterId": "kw_retro_vintage_pop_art_cushion_covers_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-45x45-80s-retro-synthwave-sunset-cushion-cover-for-boho-living-room",
+      "subCollectionHandle": "retro-vintage-pop-art-cushion-covers"
+    },
+    "best-50x60-misty-alpine-mountain-forest-throw-blanket-for-leather-couch": {
+      "clusterId": "kw_nature_mountain_cabin_throw_blankets_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-50x60-misty-alpine-mountain-forest-throw-blanket-for-leather-couch",
+      "subCollectionHandle": "nature-mountain-cabin-throw-blankets"
+    },
+    "best-50x60-abstract-geometric-throw-blanket-for-cozy-reading-nook": {
+      "clusterId": "kw_abstract_boho_kilim_throw_blankets_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-50x60-abstract-geometric-throw-blanket-for-cozy-reading-nook",
+      "subCollectionHandle": "abstract-boho-kilim-throw-blankets"
+    },
+    "best-50x60-deep-space-nebula-throw-blanket-for-queen-and-king-bed-layering": {
+      "clusterId": "kw_space_starry_night_galaxy_throw_blankets_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-50x60-deep-space-nebula-throw-blanket-for-queen-and-king-bed-layering",
+      "subCollectionHandle": "space-starry-night-galaxy-throw-blankets"
+    },
+    "best-50x60-highland-cow-wildlife-throw-blanket-for-home-theater-room": {
+      "clusterId": "kw_animals_wildlife_cozy_throw_blankets_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-50x60-highland-cow-wildlife-throw-blanket-for-home-theater-room",
+      "subCollectionHandle": "animals-wildlife-cozy-throw-blankets"
+    },
+    "best-50x60-mythic-dragon-dark-fantasy-throw-blanket-for-gaming-chair-warmth": {
+      "clusterId": "kw_fantasy_dragon_mythic_throw_blankets_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-50x60-mythic-dragon-dark-fantasy-throw-blanket-for-gaming-chair-warmth",
+      "subCollectionHandle": "fantasy-dragon-mythic-throw-blankets"
+    },
+    "best-50x60-cyberpunk-neon-city-throw-blanket-for-cabin-living-room-sofa": {
+      "clusterId": "kw_sci_fi_cyberpunk_gamer_throw_blankets_1",
+      "assignedDate": "2026-11-06",
+      "articleHandle": "best-50x60-cyberpunk-neon-city-throw-blanket-for-cabin-living-room-sofa",
+      "subCollectionHandle": "sci-fi-cyberpunk-gamer-throw-blankets"
+    },
+    "best-60x80-amalfi-coast-mediterranean-plush-fleece-blanket-for-home-thea": {
+      "clusterId": "kw_world_travel_paris_european_throw_blankets_3",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-60x80-amalfi-coast-mediterranean-plush-fleece-blanket-for-home-thea",
+      "subCollectionHandle": "world-travel-paris-european-throw-blankets"
+    },
+    "best-60x80-crimson-samurai-sakura-plush-fleece-blanket-for-gaming-chair": {
+      "clusterId": "kw_japanese_sakura_oriental_throw_blankets_4",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-60x80-crimson-samurai-sakura-plush-fleece-blanket-for-gaming-chair",
+      "subCollectionHandle": "japanese-sakura-oriental-throw-blankets"
+    },
+    "best-misty-alpine-mountain-forest-memory-foam-bath-mat-vs-generic-memory": {
+      "clusterId": "kw_coastal_ocean_botanical_bath_mats_3",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-misty-alpine-mountain-forest-memory-foam-bath-mat-vs-generic-memory",
+      "subCollectionHandle": "coastal-ocean-botanical-bath-mats"
+    },
+    "best-abstract-geometric-memory-foam-bath-mat-vs-generic-memory-foam-bath": {
+      "clusterId": "kw_minimalist_abstract_stone_bath_mats_3",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-abstract-geometric-memory-foam-bath-mat-vs-generic-memory-foam-bath",
+      "subCollectionHandle": "minimalist-abstract-stone-bath-mats"
+    },
+    "best-highland-cow-wildlife-memory-foam-bath-mat-vs-generic-memory-foam-b": {
+      "clusterId": "kw_animals_wildlife_whimsical_bath_mats_3",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-highland-cow-wildlife-memory-foam-bath-mat-vs-generic-memory-foam-b",
+      "subCollectionHandle": "animals-wildlife-whimsical-bath-mats"
+    },
+    "best-deep-space-nebula-memory-foam-bath-mat-vs-generic-memory-foam-bath": {
+      "clusterId": "kw_celestial_space_moon_bath_mats_3",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-deep-space-nebula-memory-foam-bath-mat-vs-generic-memory-foam-bath",
+      "subCollectionHandle": "celestial-space-moon-bath-mats"
+    },
+    "best-mythic-dragon-dark-fantasy-memory-foam-bath-mat-vs-generic-memory-f": {
+      "clusterId": "kw_fantasy_gothic_witchy_bath_mats_3",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-mythic-dragon-dark-fantasy-memory-foam-bath-mat-vs-generic-memory-f",
+      "subCollectionHandle": "fantasy-gothic-witchy-bath-mats"
+    },
+    "best-24x17-cyberpunk-neon-city-memory-foam-bath-mat-for-modern-spa-bathr": {
+      "clusterId": "kw_sci_fi_neon_cyberpunk_bath_mats_1",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-24x17-cyberpunk-neon-city-memory-foam-bath-mat-for-modern-spa-bathr",
+      "subCollectionHandle": "sci-fi-neon-cyberpunk-bath-mats"
+    },
+    "best-24x17-japanese-ukiyo-e-memory-foam-bath-mat-for-guest-bathroom-make": {
+      "clusterId": "kw_japanese_zen_onsen_bath_mats_1",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-24x17-japanese-ukiyo-e-memory-foam-bath-mat-for-guest-bathroom-make",
+      "subCollectionHandle": "japanese-zen-onsen-bath-mats"
+    },
+    "best-24x17-80s-retro-synthwave-sunset-memory-foam-bath-mat-for-white-mar": {
+      "clusterId": "kw_retro_vintage_funky_bath_mats_1",
+      "assignedDate": "2026-11-08",
+      "articleHandle": "best-24x17-80s-retro-synthwave-sunset-memory-foam-bath-mat-for-white-mar",
+      "subCollectionHandle": "retro-vintage-funky-bath-mats"
+    }
+  }
+}

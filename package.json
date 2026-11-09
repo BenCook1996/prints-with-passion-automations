@@ -1,0 +1,13 @@
+{
+  "name": "prints-with-passion-automations",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Prints With Passion — 24/7 Cloud SEO, Google Merchant Center, Google Images & Conversion Automations",
+  "scripts": {
+    "gmc-daily": "node pwp-product-factory/daily_gmc_free_listings_optimizer.mjs && node pwp-product-factory/google_images_and_visual_pack_optimizer.mjs && node pwp-product-factory/gmc_diagnostics_and_catalog_sync.mjs",
+    "seo-daily": "node gsc_ga4_gmc_cloud_sync.mjs && node catalog_uniqueness_and_seo_lint_gate.mjs && node ga4_cro_and_404_healer.mjs && node daily_ai_assistant_citation_optimizer.mjs && node audit_keyword_queue_and_ai_citations.mjs && node technical_seo_audit.mjs && node verify_40_subcollections_counts.mjs",
+    "gsc-weekly": "node gsc_sitemap_404_and_toxic_query_sync.mjs && node weekly_gsc_forecast_and_strikezone_tracker.mjs && node discover_transactional_keywords.mjs && node strikezone_ctr_and_competitor_rewriter.mjs && node competitor_serp_diff_and_gap_radar.mjs && node gsc_cannibalization_and_intent_resolver.mjs",
+    "links-weekly": "node internal_link_equity_sculptor.mjs && node catalog_uniqueness_and_seo_lint_gate.mjs && node interactive_tool_seo_magnet_updater.mjs && node review_schema_and_earned_authority_tracker.mjs"
+  }
+}
