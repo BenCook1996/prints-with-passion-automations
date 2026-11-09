@@ -54,5 +54,8 @@ jobs:
           git config user.name "Prints With Passion Cloud Bot"
           git config user.email "actions@printswithpassion.com"
           git add -A
-          git diff --cached --quiet || (git pull --rebase origin main && git push origin main)
-        continue-on-error: true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(cloud-gsc): update weekly GSC forecast & Strike-Zone logs"
+            git pull --rebase origin main
+            git push origin main
+          fi
