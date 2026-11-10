@@ -51,3 +51,9 @@ select_products_for_articles.mjs
 selected_products.json
 active_products.json
 cloud-gsc-ga4-gmc-sync.mjs
+
+# Google Cloud Service Account keys
+.gcp-service-account.json
+*.service-account.json
+sweepr-*.json
+
