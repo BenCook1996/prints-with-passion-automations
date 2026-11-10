@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-10T01:19:24.711Z",
+  "capturedAt": "2026-11-10T12:53:58.728Z",
   "gscRows": [
     {
       "keys": [
@@ -937,10 +937,10 @@
   "gscProperty": "https://printswithpassion.com/",
   "ga4PropertyId": "363520144",
   "storewideSummary": {
-    "impressions28d": 236,
+    "impressions28d": 238,
     "clicks28d": 3,
-    "ctr28d": 0.0127,
-    "averagePosition28d": 30.72,
+    "ctr28d": 0.0126,
+    "averagePosition28d": 30.68,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -959,8 +959,8 @@
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
     "clicks7d": 0,
-    "impressions7d": 46,
-    "averagePosition7d": 36.85,
+    "impressions7d": 48,
+    "averagePosition7d": 36.44,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
@@ -970,7 +970,7 @@
       "clicks28d": 3,
       "ctr": 0.0326,
       "averagePosition": 16.8,
-      "ga4Views28d": 24,
+      "ga4Views28d": 25,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -990,7 +990,7 @@
       "clicks28d": 1,
       "ctr": 0.0357,
       "averagePosition": 14.8,
-      "ga4Views28d": 9,
+      "ga4Views28d": 14,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1000,7 +1000,7 @@
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 106,
+      "ga4Views28d": 127,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1010,7 +1010,7 @@
       "clicks28d": 1,
       "ctr": 0.0256,
       "averagePosition": 14.2,
-      "ga4Views28d": 22,
+      "ga4Views28d": 25,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1106,7 +1106,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 17.32,
-      "ga4Views28d": 75,
+      "ga4Views28d": 90,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1144,7 +1144,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 9,
-      "ga4Views28d": 97,
+      "ga4Views28d": 117,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1190,7 +1190,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 61.8,
-      "ga4Views28d": 36,
+      "ga4Views28d": 44,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1454,10 +1454,10 @@
       "averagePosition": 74
     },
     "/en-fr/blogs/news/tagged/edwardian-living-room": {
-      "impressions28d": 1,
+      "impressions28d": 2,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 35
+      "averagePosition": 26
     },
     "/en-fr/blogs/news/uk-student-room-rental-flat-decor-guide": {
       "impressions28d": 1,
@@ -2100,6 +2100,12 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 1.67
+    },
+    "/products/atacama-desert-in-chile-geyser-blasts-iii-memory-foam-bath-mat": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 37
     }
   }
 }
