@@ -1,12 +1,946 @@
 {
-  "capturedAt": "2026-11-09T19:02:03.721Z",
+  "capturedAt": "2026-11-10T01:02:40.009Z",
+  "gscRows": [
+    {
+      "keys": [
+        "4walled",
+        "https://printswithpassion.com/en-es/pages/free-4k-wallpapers"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "5 disney princesses",
+        "https://printswithpassion.com/en-cy/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 90
+    },
+    {
+      "keys": [
+        "cuadro jack nicholson",
+        "https://printswithpassion.com/de-at/products/jack-nichiolson-gallery-wrapped-stretched-canvas-wall-art-24-16"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 45.42857142857143
+    },
+    {
+      "keys": [
+        "curated edwardian print collection",
+        "https://printswithpassion.com/en-fr/blogs/news/tagged/edwardian-living-room"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "keys": [
+        "custom digital printed laundry bag usa",
+        "https://printswithpassion.com/collections/laundry-bags"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 64
+    },
+    {
+      "keys": [
+        "custom rubber keymats uk",
+        "https://printswithpassion.com/en-fr/blogs/news/felt-vs-rubber-desk-mats-keystroke-acoustics-uk"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 74
+    },
+    {
+      "keys": [
+        "cyber eclipse",
+        "https://printswithpassion.com/products/digital-eclipse-cyber-city-t-shirt?_pos=22&_sid=6363eede9&_ss=r"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 75
+    },
+    {
+      "keys": [
+        "decorator for university",
+        "https://printswithpassion.com/en-fr/blogs/news/uk-student-room-rental-flat-decor-guide"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 48
+    },
+    {
+      "keys": [
+        "exclusive art prints on clothing",
+        "https://printswithpassion.com/en-us"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 86.5
+    },
+    {
+      "keys": [
+        "fujifilm hoodie",
+        "https://printswithpassion.com/products/moody-sunrise-hoodie-fujifilm-collection?variant=54967707238773&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "george clooney hat",
+        "https://printswithpassion.com/products/clooney-crown-the-ultimate-george-clooney-baseball-cap?variant=54935333306741&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "graphic printed dog collars",
+        "https://printswithpassion.com/collections/dog-collars"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 66.4
+    },
+    {
+      "keys": [
+        "größe kleidung",
+        "https://printswithpassion.com/de-ch/pages/size-guide"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 72
+    },
+    {
+      "keys": [
+        "größen kleidung",
+        "https://printswithpassion.com/de-ch/pages/size-guide"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 64
+    },
+    {
+      "keys": [
+        "how to display throws on a sofa",
+        "https://printswithpassion.com/en-us/blogs/news/how-to-style-throw-blanket-on-sofa-uk-guide"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 98
+    },
+    {
+      "keys": [
+        "how to drape a throw on a sofa",
+        "https://printswithpassion.com/en-us/blogs/news/how-to-style-throw-blanket-on-sofa-uk-guide"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 78
+    },
+    {
+      "keys": [
+        "lego hoodie adult",
+        "https://printswithpassion.com/products/making-it-ideal-for-all-seasons-makes-a-great-gift-for-any-occasion?variant=49143104471351&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "made with passion",
+        "https://printswithpassion.com/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 72
+    },
+    {
+      "keys": [
+        "manufacturer rubber keymats uk",
+        "https://printswithpassion.com/en-fr/blogs/news/felt-vs-rubber-desk-mats-keystroke-acoustics-uk"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 74
+    },
+    {
+      "keys": [
+        "megan fox hoodies",
+        "https://printswithpassion.com/products/megan-fox-graphic-unisex-college-hoodie?variant=55372474974581&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "mouse lips",
+        "https://printswithpassion.com/en-gr/products/luscious-lips-mouse-pad-playful-and-unique?_pos=76&_sid=061e66b50&_ss=r"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 75
+    },
+    {
+      "keys": [
+        "nightscapes fine art prints",
+        "https://printswithpassion.com/en-gr/products/mountain-nightscape-gallery-wrapped-stretched-canvas-wall-art-24-16?_pos=401&_sid=25f31431c&_ss=r"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 66
+    },
+    {
+      "keys": [
+        "printed duffel bag",
+        "https://printswithpassion.com/collections/duffle-bags"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 90
+    },
+    {
+      "keys": [
+        "printed duffle bag",
+        "https://printswithpassion.com/collections/duffle-bags"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 92.5
+    },
+    {
+      "keys": [
+        "printed duffle bags",
+        "https://printswithpassion.com/collections/duffle-bags"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 87
+    },
+    {
+      "keys": [
+        "printed laundry bags",
+        "https://printswithpassion.com/collections/laundry-bags"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 85.2
+    },
+    {
+      "keys": [
+        "printed with passion gainesville",
+        "https://printswithpassion.com/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.666666666666668
+    },
+    {
+      "keys": [
+        "prints merch",
+        "https://printswithpassion.com/en-us"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 92
+    },
+    {
+      "keys": [
+        "rammstein handtuch",
+        "https://printswithpassion.com/en-pl/products/make-a-statement-this-summer-with-the-rammstein-patch-graphic-beach-towel-featuring-vibrant-colors-and-bold-designs?_pos=57&_sid=3ee7a772c&_ss=r"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "keys": [
+        "raspa rugs",
+        "https://printswithpassion.com/en-cy/products/sapa-countryside-painting-round-rug"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 84
+    },
+    {
+      "keys": [
+        "rihanna cap",
+        "https://printswithpassion.com/products/rihanna-watercolor-dreams-cap?variant=54934745612661&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "robert de niro hat",
+        "https://printswithpassion.com/products/de-niro-signature-cap?variant=54934699442549&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/bottle-opener"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/bottles"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/clothing"
+      ],
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 3.727272727272727
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/coastal-ocean-botanical-bath-mats"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/makeup-bags"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/phone-cases"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/plush-blankets"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 5.666666666666667
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/posters"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/wall-art"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/collections/yoga-mats"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/de-at/pages/delivery-return"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/de-at/products/maldives-blue-glass-sea-hoodie"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/de-at/products/sossusvlei-namibia-adventure-bottle"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/de-de/products/aitutaki-paradise-unveiled"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-cy/products/luxury-olivachloey-animal-skin-mat"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-cy/products/radiant-kylie-beauty-in-motion"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-cy/products/seaside-serenity-coastal-city-mug"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-es/collections/canvas-prints?page=25"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-fr/products/ahsoka-tano-star-wars-blanket"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-fr/products/buy-reflective-pyramid-mirror-poster"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-fr/products/retro-anime-vibes-coffee-mug"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 3.6666666666666665
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-fr/products/winston-churchill-cigar-tee-shirt"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-it/products/force-filled-obi-wan-rug"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.333333333333333
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-it/products/star-wars-bath-mat-ezra"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-pl/products/amsterdam-canals-painted-hoodie"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-pl/products/mirror-maze-reflective-dimensions-canvas"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 4.666666666666666
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-pt/products/maldives-blue-glass-mouse-pad"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/en-us"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 1.3333333333333333
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/pages/delivery-return"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/pages/free-4k-wallpapers"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.666666666666667
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/policies/privacy-policy"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/policies/shipping-policy"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/aitutaki-cook-islands-oasis-bottle"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.6
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/beyonce-merch-hoodie"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/copy-of-fiji-mask-art-beach-towel"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/copy-of-retro-camper-van-jigsaw-puzzle"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/copy-of-tom-hardy-jigsaw-puzzle-kit"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/discover-fijis-dazzling-underwater-treasures"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/katara?_pos=994&_sid=df51dc308&_ss=r"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 1.3333333333333333
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/legendary-messi-dribble-mouse-pad"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 6.916666666666667
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/luxurious-krissy-lynn-bed-cover"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/mongolian-gerbil-mouse-pad-adorable-gerbil-art"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/shyla-stylez-classic-tee"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/sossusvlei-namibia-dunes-jigsaw-puzzle"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/sossusvlei-namibia-sand-dunes-sleeve"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/sossusvlei-sand-dunes-round-rug"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/sossusvlei-sandstorm-round-rug"
+      ],
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/stewart-island-glow-hoodie"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/surreal-s-vhs-mouse-pad"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 9.428571428571429
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/products/tiger-woods-masterpiece-mouse-pad"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "site:printswithpassion.com",
+        "https://printswithpassion.com/search"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "solid surfaces for student accommodation",
+        "https://printswithpassion.com/en-be/blogs/news/uk-student-room-rental-flat-decor-guide"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 69
+    },
+    {
+      "keys": [
+        "spreadshirt größentabelle",
+        "https://printswithpassion.com/de-ch/pages/size-guide"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "keys": [
+        "tile print bath mat",
+        "https://printswithpassion.com/en-cy/products/copy-of-tile-pattern-bath-mat?_pos=70&_sid=9fa335f21&_ss=r"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 19
+    },
+    {
+      "keys": [
+        "travelers hoodie",
+        "https://printswithpassion.com/en-pl/products/traveler-hoodie-timeless-comfort?_pos=175&_sid=5e8f86b8f&_ss=r"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 95
+    },
+    {
+      "keys": [
+        "where to buy zendaya hat",
+        "https://printswithpassion.com/products/zendaya-watercolor-dreams-baseball-cap?variant=54935248241013&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "where to buy zendaya hat",
+        "https://printswithpassion.com/products/zendaya-watercolor-dreams-baseball-cap?variant=54935248470389&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "zendaya hat buy",
+        "https://printswithpassion.com/products/zendaya-watercolor-dreams-baseball-cap?variant=54935247847797&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "zendaya hat to buy",
+        "https://printswithpassion.com/products/zendaya-watercolor-dreams-baseball-cap?variant=54935248470389&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "zendaya hat where to buy",
+        "https://printswithpassion.com/products/zendaya-watercolor-dreams-baseball-cap?variant=54935248470389&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 1.5
+    }
+  ],
+  "ga4Summary": {},
+  "gmcSummary": {},
   "gscProperty": "https://printswithpassion.com/",
   "ga4PropertyId": "363520144",
   "storewideSummary": {
-    "impressions28d": 2610,
-    "clicks28d": 26,
-    "ctr28d": 0.01,
-    "averagePosition28d": 24.3,
+    "impressions28d": 236,
+    "clicks28d": 3,
+    "ctr28d": 0.0127,
+    "averagePosition28d": 30.72,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -26,7 +960,7 @@
     "indexedThoughBlockedByRobotsTxt": 101,
     "clicks7d": 0,
     "impressions7d": 46,
-    "averagePosition7d": 36.8,
+    "averagePosition7d": 36.85,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
@@ -150,6 +1084,1002 @@
       "ga4AddToCarts28d": 2,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
+    },
+    "/en-us": {
+      "impressions28d": 17,
+      "clicks28d": 2,
+      "ctr": 0.1176,
+      "averagePosition": 17.18
+    },
+    "/products/pitt-perfect-cap-channeling-brads-cool-factor": {
+      "impressions28d": 1,
+      "clicks28d": 1,
+      "ctr": 1,
+      "averagePosition": 4
+    },
+    "/": {
+      "impressions28d": 28,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 17.32
+    },
+    "/blogs/news/best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 5
+    },
+    "/blogs/news/from-scoundrels-to-soldiers-the-impact-of-non-force-users-on-the-rebellion": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 29
+    },
+    "/cart": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7
+    },
+    "/collections/apparel": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 8
+    },
+    "/collections/blankets": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9
+    },
+    "/collections/bottle-opener": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 5
+    },
+    "/collections/bottles": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/collections/clothing": {
+      "impressions28d": 12,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 4.25
+    },
+    "/collections/coastal-ocean-botanical-bath-mats": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 8
+    },
+    "/collections/dog-collars": {
+      "impressions28d": 10,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 66.4
+    },
+    "/collections/duffle-bags": {
+      "impressions28d": 4,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 90.5
+    },
+    "/collections/hoodies": {
+      "impressions28d": 10,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 61.8
+    },
+    "/collections/laundry-bags": {
+      "impressions28d": 6,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 81.67
+    },
+    "/collections/makeup-bags": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9
+    },
+    "/collections/phone-cases": {
+      "impressions28d": 13,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/collections/plush-blankets": {
+      "impressions28d": 12,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 5.67
+    },
+    "/collections/posters": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7
+    },
+    "/collections/wall-art": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7
+    },
+    "/collections/yoga-mats": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 6
+    },
+    "/de-at/pages/delivery-return": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/de-at/products/jack-nichiolson-gallery-wrapped-stretched-canvas-wall-art-24-16": {
+      "impressions28d": 7,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 45.43
+    },
+    "/de-at/products/maldives-blue-glass-sea-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/de-at/products/sossusvlei-namibia-adventure-bottle": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 6.5
+    },
+    "/de-ch/pages/size-guide": {
+      "impressions28d": 5,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 60
+    },
+    "/de-de/products/aitutaki-paradise-unveiled": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 4
+    },
+    "/de-de/products/copy-of-churchills-war-room-desk-mat": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 71
+    },
+    "/de-de/products/keep-your-drink-cold-with-shrek-can-cooler": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/en-be/blogs/news/uk-student-room-rental-flat-decor-guide": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 69
+    },
+    "/en-be/products/trek-into-the-wilds-of-patagonia-in-chile-v-stretched-canvas-wall-art": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 39
+    },
+    "/en-ca/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 4
+    },
+    "/en-ca/blogs/news/tagged/graphic-t-shirt-fabric-guide": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7
+    },
+    "/en-ca/blogs/news/tagged/softstyle-ring-spun-cotton": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 30
+    },
+    "/en-ca/policies/refund-policy": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/en-cy/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 90
+    },
+    "/en-cy/products/autumn-foliage-wildflowers-botanical-plush-fleece-throw-blanket": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 93
+    },
+    "/en-cy/products/colorful-spyro-watercolor-tee": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/en-cy/products/copy-of-george-michael-neon-dreams-watercolor-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 11
+    },
+    "/en-cy/products/copy-of-tile-pattern-bath-mat": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 19
+    },
+    "/en-cy/products/darth-maul-power-mouse-pad": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 55.33
+    },
+    "/en-cy/products/drogba-goal-celebration-pillowcase": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 77
+    },
+    "/en-cy/products/galactic-tie-fighter-hoodie-join-the-dark-side": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 8
+    },
+    "/en-cy/products/glowing-lightbulb-hoodie-illuminate-your-style": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 45
+    },
+    "/en-cy/products/inspirational-typographic-mouse-pad": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 28
+    },
+    "/en-cy/products/luxury-olivachloey-animal-skin-mat": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/en-cy/products/radiant-kylie-beauty-in-motion": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 8
+    },
+    "/en-cy/products/sapa-countryside-painting-round-rug": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 84
+    },
+    "/en-cy/products/seaside-serenity-coastal-city-mug": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 4
+    },
+    "/en-cy/products/sultry-seduction-of-shyla-stylez": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/en-cy/products/supercharged-magnetic-water-bottle": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 20
+    },
+    "/en-cy/products/twilight-splendor-mouse-pad": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 96
+    },
+    "/en-es/collections/canvas-prints": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 5
+    },
+    "/en-es/pages/free-4k-wallpapers": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 12
+    },
+    "/en-es/products/moonlit-starry-night-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 62
+    },
+    "/en-es/products/starry-eyed-explorer-tee": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 49
+    },
+    "/en-fr/blogs/news/felt-vs-rubber-desk-mats-keystroke-acoustics-uk": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 74
+    },
+    "/en-fr/blogs/news/tagged/edwardian-living-room": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 35
+    },
+    "/en-fr/blogs/news/uk-student-room-rental-flat-decor-guide": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 48
+    },
+    "/en-fr/products/ahsoka-tano-star-wars-blanket": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/en-fr/products/alpine-adventure-coaster-swiss-delight": {
+      "impressions28d": 4,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9
+    },
+    "/en-fr/products/ancient-tree-runes-canvas-art": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 49
+    },
+    "/en-fr/products/buy-reflective-pyramid-mirror-poster": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 28.5
+    },
+    "/en-fr/products/galactic-adventure-drinking-bottle": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 61
+    },
+    "/en-fr/products/mo-salah-liverpool-blanket-watercolor-dream": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 63
+    },
+    "/en-fr/products/retro-anime-vibes-coffee-mug": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3.67
+    },
+    "/en-fr/products/winston-churchill-cigar-tee-shirt": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 6.67
+    },
+    "/en-gr/products/luscious-lips-mouse-pad-playful-and-unique": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 75
+    },
+    "/en-gr/products/mountain-nightscape-gallery-wrapped-stretched-canvas-wall-art-24-16": {
+      "impressions28d": 4,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 66
+    },
+    "/en-it/products/force-filled-obi-wan-rug": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7.33
+    },
+    "/en-it/products/star-wars-bath-mat-ezra": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/en-it/products/sunset-wave-beach-blanket-cozy-ocean-bliss": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 50
+    },
+    "/en-it/products/unique-hourglass-design-t-shirt-stream": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 43
+    },
+    "/en-pl/products/amsterdam-canals-painted-hoodie": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7.5
+    },
+    "/en-pl/products/copy-of-antarctic-expedition-iceberg-research-vessel-phone-case": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 92
+    },
+    "/en-pl/products/dalmatian-delight-mouse-pad": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 41
+    },
+    "/en-pl/products/ferret-leaf-vector-mouse-pad": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 57
+    },
+    "/en-pl/products/heart-of-africas-vibrant-soul": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 74
+    },
+    "/en-pl/products/kung-fu-panda-graphic-unisex-college-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/en-pl/products/make-a-statement-this-summer-with-the-rammstein-patch-graphic-beach-towel-featuring-vibrant-colors-and-bold-designs": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 28
+    },
+    "/en-pl/products/mirror-maze-reflective-dimensions-canvas": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 4.67
+    },
+    "/en-pl/products/parallel-universe-mirror-canvas-print": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 56
+    },
+    "/en-pl/products/tesla-titan-hoodie-elon-musk": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/en-pl/products/traveler-hoodie-timeless-comfort": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 95
+    },
+    "/en-pl/products/vintage-vibes-lana-del-rey-desk-mat": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 15
+    },
+    "/en-pt/products/maldives-blue-glass-mouse-pad": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7
+    },
+    "/en-sk/products/part-man-part-machine-all-cop-a-robocop-t-shirt": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 53
+    },
+    "/en-us/blogs/news/how-to-style-throw-blanket-on-sofa-uk-guide": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 88
+    },
+    "/en-us/collections/all/Printswithpassion": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 5
+    },
+    "/en-us/products/comfortable-and-stylish-8": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/en-us/products/love-struck-hoodie-minimalist-hearts": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 56
+    },
+    "/en-us/products/shine-bright-illuminating-darkness-tee": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9
+    },
+    "/en-us/products/swiss-alps-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 11
+    },
+    "/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 58
+    },
+    "/fr-ca/blogs/news/tagged/mechanical-keyboards": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 70
+    },
+    "/pages/delivery-return": {
+      "impressions28d": 5,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/pages/free-4k-wallpapers": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 5.67
+    },
+    "/policies/privacy-policy": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/policies/shipping-policy": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7
+    },
+    "/products/aitutaki-cook-islands-oasis-bottle": {
+      "impressions28d": 5,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 8.6
+    },
+    "/products/beyonce-merch-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/products/brasilian-pride-flag-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/british-pride-union-jack-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/clooney-crown-the-ultimate-george-clooney-baseball-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/commander-in-chief-cap-the-barack-obama-edition": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/copy-of-alpine-peak-adventure-cap": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 43
+    },
+    "/products/copy-of-caesar-neon-dream-baseball-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 4
+    },
+    "/products/copy-of-classic-diner-tote-bag": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/copy-of-fiji-mask-art-beach-towel": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 8
+    },
+    "/products/copy-of-leos-legacy-lionel-messi-signature-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/copy-of-lost-city-explorer-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/copy-of-retro-camper-van-jigsaw-puzzle": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 6.33
+    },
+    "/products/copy-of-star-wars-millennium-falcon-embroidered-baseball-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/copy-of-sun-moon-mandala-tote-bag": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/copy-of-tom-hardy-jigsaw-puzzle-kit": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9
+    },
+    "/products/copy-of-wild-tasmanian-wilderness-wildlife-baseball-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/cozy-cloud-plush-blanket": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 49
+    },
+    "/products/cr7-juventus-king-of-turin": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/de-niro-signature-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/digital-eclipse-cyber-city-t-shirt": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 75
+    },
+    "/products/discover-fijis-dazzling-underwater-treasures": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9
+    },
+    "/products/endless-desert-road-sign-t-shirt": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/explorers-amazon-adventure-baseball-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/forest-wind-spirits-tshirt-nature": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 45
+    },
+    "/products/free-spirits-flight-a-bohemian-feather-rhapsody": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 57
+    },
+    "/products/galapagos-explorer-baseball-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/george-michael-neon-dreams-watercolor-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 11
+    },
+    "/products/green-lantern-graphic-unisex-college-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/green-skull-biohazard-hoodie-toxic-chic": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/katara": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1.33
+    },
+    "/products/king-mufasa-majestic-lion-portrait": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 52
+    },
+    "/products/kylie-jenner-graphic-unisex-college-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/products/legendary-messi-dribble-mouse-pad": {
+      "impressions28d": 12,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 6.92
+    },
+    "/products/leonardo-da-vinci-in-his-renaissance-graphic-unisex-softstyle-t-shirt": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/leos-legendary-cap-lionel-messi-signature-collection": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/lion-king-hoodie-hyper-realism-elegance": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/products/liquid-metal-silver-waves-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/logan-paul-legendary-coffee-mug": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 11
+    },
+    "/products/luxurious-krissy-lynn-bed-cover": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/products/making-it-ideal-for-all-seasons-makes-a-great-gift-for-any-occasion": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3.67
+    },
+    "/products/maui-island-paradise-baseball-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/megan-fox-graphic-unisex-college-hoodie": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7
+    },
+    "/products/mongolian-gerbil-mouse-pad-adorable-gerbil-art": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9.5
+    },
+    "/products/moody-sunrise-hoodie-fujifilm-collection": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/prehistoric-dominion-the-mighty-t-rex-roars": {
+      "impressions28d": 7,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/products/pyramids-of-giza-egypt-gallery-wrapped-stretched-canvas-wall-art-24-16": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 45
+    },
+    "/products/race-day-retro-michael-schumacher-baseball-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/repeating-pattern-various-wildflowers-vector-illustrat-graphic-unisex-softstyle-t-shirt": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/rihanna-watercolor-dreams-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 4
+    },
+    "/products/serpent-coiled-around-burning-sun-graphic-unisex-college-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/products/shyla-stylez-classic-tee": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 6.33
+    },
+    "/products/shyla-stylez-sultry-superstar-seduction": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/products/sossusvlei-namibia-dunes-jigsaw-puzzle": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9
+    },
+    "/products/sossusvlei-namibia-sand-dunes-sleeve": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/products/sossusvlei-sand-dunes-round-rug": {
+      "impressions28d": 8,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 8
+    },
+    "/products/sossusvlei-sandstorm-round-rug": {
+      "impressions28d": 11,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 5
+    },
+    "/products/speed-demon-lamborghini-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/stewart-island-glow-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 5
+    },
+    "/products/surreal-s-vhs-mouse-pad": {
+      "impressions28d": 7,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9.43
+    },
+    "/products/the-leo-signature-cap": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/tiger-woods-masterpiece-mouse-pad": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9
+    },
+    "/products/whimsical-maple-leaf-magic-shirt": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/woody-toy-story-shirt": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/zendaya-watercolor-dreams-baseball-cap": {
+      "impressions28d": 6,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1.17
+    },
+    "/search": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1.67
     }
   }
 }
