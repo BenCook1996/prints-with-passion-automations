@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-10T01:09:08.973Z",
+  "capturedAt": "2026-11-10T01:19:24.711Z",
   "gscRows": [
     {
       "keys": [
@@ -990,17 +990,17 @@
       "clicks28d": 1,
       "ctr": 0.0357,
       "averagePosition": 14.8,
-      "ga4Views28d": 31,
-      "ga4AddToCarts28d": 3,
-      "ga4Purchases28d": 1,
-      "ga4RevenueGbp28d": 34.99
+      "ga4Views28d": 9,
+      "ga4AddToCarts28d": 0,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
     },
     "/collections/canvas-prints": {
       "impressions28d": 79,
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 103,
+      "ga4Views28d": 106,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1010,7 +1010,7 @@
       "clicks28d": 1,
       "ctr": 0.0256,
       "averagePosition": 14.2,
-      "ga4Views28d": 21,
+      "ga4Views28d": 22,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1144,7 +1144,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 9,
-      "ga4Views28d": 92,
+      "ga4Views28d": 97,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
