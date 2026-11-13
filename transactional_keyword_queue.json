@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T12:04:28.933Z",
+  "generatedAt": "2026-11-13T12:32:39.520Z",
   "scoringVersion": "2.0.0-multi-agent",
   "summary": {
     "totalCandidatesEvaluated": 289,
@@ -9,6 +9,78 @@
   },
   "bySubCollection": {
     "japanese-anime-desk-mats": [
+      {
+        "clusterId": "kw_japanese_anime_desk_mats_1",
+        "subCollectionHandle": "japanese-anime-desk-mats",
+        "subCollectionUrl": "/collections/japanese-anime-desk-mats",
+        "productType": "Desk Mats",
+        "themeTag": "Japanese & Asian Art",
+        "primaryKeyword": "best 90x40 japanese ukiyo-e desk mat for walnut desk",
+        "keyword": "best 90x40 japanese ukiyo-e desk mat for walnut desk",
+        "shortAnchor": "Japanese Ukiyo-E 90x40 Desk Mat",
+        "recommendedSlug": "best-90x40-japanese-ukiyo-e-desk-mat-for-walnut-desk",
+        "recommendedTitle": "Best 90x40 Japanese Ukiyo-E Desk Mat for Walnut Desk: Dual CM & Inch Sizing & Spec Guide (2026)",
+        "collectionAnchorText": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
+        "targetUrl": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
+        "intentType": "transactional_setup_comparison",
+        "opportunityScore": 90.4,
+        "transactionalScore": 98,
+        "competitionScore": 18,
+        "forecastEstimates": {
+          "estimatedMonthlyVolume": 765,
+          "keywordDifficultyScore": 18,
+          "estimatedDaysToRank": 30,
+          "substrateMultiplier": 1,
+          "volumeRealizationMultiplier": 1
+        },
+        "scores": {
+          "compositeOpportunityScore": 90.4,
+          "demandScore": 90,
+          "transactionalIntentScore": 98,
+          "lowCompetitionScore": 82
+        },
+        "secondaryLongTailModifiers": [
+          "90x40 japanese ukiyo-e desk mat for walnut desk",
+          "great wave kanagawa extended mouse pad for secretlab magnus",
+          "washable archival japanese ukiyo-e desk mat with free tracked shipping"
+        ],
+        "buyerFaqQuestions": [
+          {
+            "question": "What size Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats fits best for walnut desk in CM and Inches?",
+            "answerHint": "Our 90x40 cm (36x18\") and 80x30 cm (31.5x11.8\") studio proportions are engineered to span 60%–75% of your walnut desk footprint, ensuring balanced visual symmetry and ergonomic clearance."
+          },
+          {
+            "question": "How does Prints With Passion construct its Japanese & Asian Art Desk Mats?",
+            "answerHint": "Every piece uses 4mm natural rubber base + 360° anti-fray stitched micro-weave cloth (£24.99–£38.99 · Free Tracked Shipping) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
+          },
+          {
+            "question": "Can I pair Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats with matching room decor and save on multi-item studio sets?",
+            "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
+          }
+        ],
+        "serpGapAnalysis": {
+          "engine": "structural_heuristic",
+          "exactModifierTitleMatchesInTop10": 0,
+          "weakForumCountInTop10": 0,
+          "missingDualUnitSpecsInSerp": true,
+          "missingMaterialGsmOrThicknessInSerp": true,
+          "topCompetitorTitles": [],
+          "competitorWeaknesses": [
+            "0/10 competing titles combine \"japanese ukiyo-e\" + \"for walnut desk\" with dual CM & Inch sizing tables",
+            "Top forum/marketplace threads omit 4mm natural rubber base + 360° anti-fray stitched micro-weave cloth construction specs"
+          ]
+        },
+        "modifiers": {
+          "size": "90x40 cm (36x18\") & 80x30 cm (31.5x11.8\")",
+          "hardwareCompatibility": "Walnut Desk",
+          "roomPlacement": "Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
+          "wallpaperQuery": "Japanese Ukiyo-E 4K UHD 3840×2160 & 21:9 Ultrawide 3440×1440 Battlestation Wallpaper",
+          "pinterestAesthetic": "Japanese Ukiyo-E — Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
+          "gmcTitleBadge": "XXL 90×40cm 4mm Stitched Gaming Desk Mat & Mouse Pad"
+        },
+        "status": "queued",
+        "assignedArticleHandle": null
+      },
       {
         "clusterId": "kw_japanese_anime_desk_mats_4",
         "subCollectionHandle": "japanese-anime-desk-mats",
@@ -152,85 +224,85 @@
         },
         "status": "queued",
         "assignedArticleHandle": null
-      },
+      }
+    ],
+    "cyberpunk-neon-gaming-desk-mats": [
       {
-        "clusterId": "kw_japanese_anime_desk_mats_1",
-        "subCollectionHandle": "japanese-anime-desk-mats",
-        "subCollectionUrl": "/collections/japanese-anime-desk-mats",
+        "clusterId": "kw_cyberpunk_neon_gaming_desk_mats_1",
+        "subCollectionHandle": "cyberpunk-neon-gaming-desk-mats",
+        "subCollectionUrl": "/collections/cyberpunk-neon-gaming-desk-mats",
         "productType": "Desk Mats",
-        "themeTag": "Japanese & Asian Art",
-        "primaryKeyword": "best 90x40 japanese ukiyo-e desk mat for walnut desk",
-        "keyword": "best 90x40 japanese ukiyo-e desk mat for walnut desk",
-        "shortAnchor": "Japanese Ukiyo-E 90x40 Desk Mat",
-        "recommendedSlug": "best-90x40-japanese-ukiyo-e-desk-mat-for-walnut-desk",
-        "recommendedTitle": "Best 90x40 Japanese Ukiyo-E Desk Mat for Walnut Desk: Dual CM & Inch Sizing & Spec Guide (2026)",
-        "collectionAnchorText": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
-        "targetUrl": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
+        "themeTag": "Sci-Fi & Cyberpunk",
+        "primaryKeyword": "best 90x40 cyberpunk neon city desk mat for ikea karlby setup",
+        "keyword": "best 90x40 cyberpunk neon city desk mat for ikea karlby setup",
+        "shortAnchor": "Cyberpunk Neon City 90x40 Desk Mat",
+        "recommendedSlug": "best-90x40-cyberpunk-neon-city-desk-mat-for-ikea-karlby-setup",
+        "recommendedTitle": "Best 90x40 Cyberpunk Neon City Desk Mat for Ikea Karlby Setup: Dual CM & Inch Sizing & Spec Guide (2026)",
+        "collectionAnchorText": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
+        "targetUrl": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 89.5,
+        "opportunityScore": 90.2,
         "transactionalScore": 98,
-        "competitionScore": 21,
+        "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 765,
-          "keywordDifficultyScore": 21,
-          "estimatedDaysToRank": 35,
+          "estimatedMonthlyVolume": 739,
+          "keywordDifficultyScore": 14,
+          "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 89.5,
-          "demandScore": 90,
+          "compositeOpportunityScore": 90.2,
+          "demandScore": 86,
           "transactionalIntentScore": 98,
-          "lowCompetitionScore": 79
+          "lowCompetitionScore": 86
         },
         "secondaryLongTailModifiers": [
-          "90x40 japanese ukiyo-e desk mat for walnut desk",
-          "great wave kanagawa extended mouse pad for secretlab magnus",
-          "washable archival japanese ukiyo-e desk mat with free tracked shipping"
+          "90x40 cyberpunk neon city desk mat for ikea karlby setup",
+          "futuristic synthwave extended mouse pad for dual monitor setup",
+          "washable archival cyberpunk neon city desk mat with free tracked shipping"
         ],
         "buyerFaqQuestions": [
           {
-            "question": "What size Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats fits best for walnut desk in CM and Inches?",
-            "answerHint": "Our 90x40 cm (36x18\") and 80x30 cm (31.5x11.8\") studio proportions are engineered to span 60%–75% of your walnut desk footprint, ensuring balanced visual symmetry and ergonomic clearance."
+            "question": "What size Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats fits best for ikea karlby setup in CM and Inches?",
+            "answerHint": "Our 90x40 cm (36x18\") and 80x30 cm (31.5x11.8\") studio proportions are engineered to span 60%–75% of your ikea karlby setup footprint, ensuring balanced visual symmetry and ergonomic clearance."
           },
           {
-            "question": "How does Prints With Passion construct its Japanese & Asian Art Desk Mats?",
+            "question": "How does Prints With Passion construct its Sci-Fi & Cyberpunk Desk Mats?",
             "answerHint": "Every piece uses 4mm natural rubber base + 360° anti-fray stitched micro-weave cloth (£24.99–£38.99 · Free Tracked Shipping) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
           },
           {
-            "question": "Can I pair Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats with matching room decor and save on multi-item studio sets?",
+            "question": "Can I pair Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats with matching room decor and save on multi-item studio sets?",
             "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
           }
         ],
         "serpGapAnalysis": {
           "engine": "yahoo_ssr_live",
           "exactModifierTitleMatchesInTop10": 0,
-          "weakForumCountInTop10": 2,
+          "weakForumCountInTop10": 3,
           "missingDualUnitSpecsInSerp": true,
           "missingMaterialGsmOrThicknessInSerp": true,
           "topCompetitorTitles": [
-            "etsy.com: Ukiyo E Desk Mat - Etsy",
-            "etsy.com: Japanese Ukiyo E Mat - Etsy",
-            "epicdesignpads.com: Japanese Ukiyo-e Desk Pad, Hokusai Wave Design, Edo ..."
+            "amazon.com: Amazon.com: Cyberpunk Desk Mat",
+            "etsy.com: Cyber City Desk Mat - Etsy",
+            "etsy.com: Cyberpunk Neon Desk Mat - Etsy"
           ],
           "competitorWeaknesses": [
-            "0/10 competing titles combine \"japanese ukiyo-e\" + \"for walnut desk\" with dual CM & Inch sizing tables",
+            "0/10 competing titles combine \"cyberpunk neon city\" + \"for ikea karlby setup\" with dual CM & Inch sizing tables",
             "Top forum/marketplace threads omit 4mm natural rubber base + 360° anti-fray stitched micro-weave cloth construction specs"
           ]
         },
         "modifiers": {
           "size": "90x40 cm (36x18\") & 80x30 cm (31.5x11.8\")",
-          "hardwareCompatibility": "Walnut Desk",
+          "hardwareCompatibility": "Ikea Karlby Setup",
           "roomPlacement": "Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
-          "wallpaperQuery": "Japanese Ukiyo-E 4K UHD 3840×2160 & 21:9 Ultrawide 3440×1440 Battlestation Wallpaper",
-          "pinterestAesthetic": "Japanese Ukiyo-E — Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
+          "wallpaperQuery": "Cyberpunk Neon City 4K UHD 3840×2160 & 21:9 Ultrawide 3440×1440 Battlestation Wallpaper",
+          "pinterestAesthetic": "Cyberpunk Neon City — Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
           "gmcTitleBadge": "XXL 90×40cm 4mm Stitched Gaming Desk Mat & Mouse Pad"
         },
         "status": "queued",
         "assignedArticleHandle": null
-      }
-    ],
-    "cyberpunk-neon-gaming-desk-mats": [
+      },
       {
         "clusterId": "kw_cyberpunk_neon_gaming_desk_mats_4",
         "subCollectionHandle": "cyberpunk-neon-gaming-desk-mats",
@@ -367,82 +439,6 @@
         "modifiers": {
           "size": "90x40 cm (36x18\") & 80x30 cm (31.5x11.8\")",
           "hardwareCompatibility": "Home Office Setup",
-          "roomPlacement": "Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
-          "wallpaperQuery": "Cyberpunk Neon City 4K UHD 3840×2160 & 21:9 Ultrawide 3440×1440 Battlestation Wallpaper",
-          "pinterestAesthetic": "Cyberpunk Neon City — Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
-          "gmcTitleBadge": "XXL 90×40cm 4mm Stitched Gaming Desk Mat & Mouse Pad"
-        },
-        "status": "queued",
-        "assignedArticleHandle": null
-      },
-      {
-        "clusterId": "kw_cyberpunk_neon_gaming_desk_mats_1",
-        "subCollectionHandle": "cyberpunk-neon-gaming-desk-mats",
-        "subCollectionUrl": "/collections/cyberpunk-neon-gaming-desk-mats",
-        "productType": "Desk Mats",
-        "themeTag": "Sci-Fi & Cyberpunk",
-        "primaryKeyword": "best 90x40 cyberpunk neon city desk mat for ikea karlby setup",
-        "keyword": "best 90x40 cyberpunk neon city desk mat for ikea karlby setup",
-        "shortAnchor": "Cyberpunk Neon City 90x40 Desk Mat",
-        "recommendedSlug": "best-90x40-cyberpunk-neon-city-desk-mat-for-ikea-karlby-setup",
-        "recommendedTitle": "Best 90x40 Cyberpunk Neon City Desk Mat for Ikea Karlby Setup: Dual CM & Inch Sizing & Spec Guide (2026)",
-        "collectionAnchorText": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
-        "targetUrl": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
-        "intentType": "transactional_setup_comparison",
-        "opportunityScore": 88.1,
-        "transactionalScore": 98,
-        "competitionScore": 21,
-        "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
-          "keywordDifficultyScore": 21,
-          "estimatedDaysToRank": 35,
-          "substrateMultiplier": 1,
-          "volumeRealizationMultiplier": 1
-        },
-        "scores": {
-          "compositeOpportunityScore": 88.1,
-          "demandScore": 86,
-          "transactionalIntentScore": 98,
-          "lowCompetitionScore": 79
-        },
-        "secondaryLongTailModifiers": [
-          "90x40 cyberpunk neon city desk mat for ikea karlby setup",
-          "futuristic synthwave extended mouse pad for dual monitor setup",
-          "washable archival cyberpunk neon city desk mat with free tracked shipping"
-        ],
-        "buyerFaqQuestions": [
-          {
-            "question": "What size Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats fits best for ikea karlby setup in CM and Inches?",
-            "answerHint": "Our 90x40 cm (36x18\") and 80x30 cm (31.5x11.8\") studio proportions are engineered to span 60%–75% of your ikea karlby setup footprint, ensuring balanced visual symmetry and ergonomic clearance."
-          },
-          {
-            "question": "How does Prints With Passion construct its Sci-Fi & Cyberpunk Desk Mats?",
-            "answerHint": "Every piece uses 4mm natural rubber base + 360° anti-fray stitched micro-weave cloth (£24.99–£38.99 · Free Tracked Shipping) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
-          },
-          {
-            "question": "Can I pair Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats with matching room decor and save on multi-item studio sets?",
-            "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
-          }
-        ],
-        "serpGapAnalysis": {
-          "engine": "yahoo_ssr_live",
-          "exactModifierTitleMatchesInTop10": 0,
-          "weakForumCountInTop10": 2,
-          "missingDualUnitSpecsInSerp": true,
-          "missingMaterialGsmOrThicknessInSerp": true,
-          "topCompetitorTitles": [
-            "amazon.com: Amazon.com: Cyberpunk Desk Mat",
-            "epicdesignpads.com: Neon Nexus &ndash; Cyberpunk City Gaming Desk Mat, XL Mouse Pad ...",
-            "epicdesignpads.com: Cyberpunk City Desk Mat - Neon Anime Aesthetic &ndash; Epic Design Pads"
-          ],
-          "competitorWeaknesses": [
-            "0/10 competing titles combine \"cyberpunk neon city\" + \"for ikea karlby setup\" with dual CM & Inch sizing tables",
-            "Top forum/marketplace threads omit 4mm natural rubber base + 360° anti-fray stitched micro-weave cloth construction specs"
-          ]
-        },
-        "modifiers": {
-          "size": "90x40 cm (36x18\") & 80x30 cm (31.5x11.8\")",
-          "hardwareCompatibility": "Ikea Karlby Setup",
           "roomPlacement": "Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
           "wallpaperQuery": "Cyberpunk Neon City 4K UHD 3840×2160 & 21:9 Ultrawide 3440×1440 Battlestation Wallpaper",
           "pinterestAesthetic": "Cyberpunk Neon City — Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
@@ -10807,34 +10803,34 @@
       "assignedArticleHandle": null
     },
     {
-      "clusterId": "kw_japanese_anime_desk_mats_4",
+      "clusterId": "kw_japanese_anime_desk_mats_1",
       "subCollectionHandle": "japanese-anime-desk-mats",
       "subCollectionUrl": "/collections/japanese-anime-desk-mats",
       "productType": "Desk Mats",
       "themeTag": "Japanese & Asian Art",
-      "primaryKeyword": "best 80x40 crimson samurai sakura extended mouse pad for mechanical keyboard acoustics",
-      "keyword": "best 80x40 crimson samurai sakura extended mouse pad for mechanical keyboard acoustics",
+      "primaryKeyword": "best 90x40 japanese ukiyo-e desk mat for walnut desk",
+      "keyword": "best 90x40 japanese ukiyo-e desk mat for walnut desk",
       "shortAnchor": "Japanese Ukiyo-E 90x40 Desk Mat",
-      "recommendedSlug": "best-80x40-crimson-samurai-sakura-extended-mouse-pad-for-mechanical-keyb",
-      "recommendedTitle": "Best 80x40 Crimson Samurai Sakura Extended Mouse Pad for Mechanical Keyboard Acoustics: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "recommendedSlug": "best-90x40-japanese-ukiyo-e-desk-mat-for-walnut-desk",
+      "recommendedTitle": "Best 90x40 Japanese Ukiyo-E Desk Mat for Walnut Desk: Dual CM & Inch Sizing & Spec Guide (2026)",
       "collectionAnchorText": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
       "targetUrl": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
       "intentType": "transactional_setup_comparison",
-      "opportunityScore": 90.2,
+      "opportunityScore": 90.4,
       "transactionalScore": 98,
-      "competitionScore": 14,
+      "competitionScore": 18,
       "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
-        "keywordDifficultyScore": 14,
-        "estimatedDaysToRank": 23,
+        "estimatedMonthlyVolume": 765,
+        "keywordDifficultyScore": 18,
+        "estimatedDaysToRank": 30,
         "substrateMultiplier": 1,
         "volumeRealizationMultiplier": 1
       },
       "scores": {
-        "compositeOpportunityScore": 90.2,
-        "demandScore": 86,
+        "compositeOpportunityScore": 90.4,
+        "demandScore": 90,
         "transactionalIntentScore": 98,
-        "lowCompetitionScore": 86
+        "lowCompetitionScore": 82
       },
       "secondaryLongTailModifiers": [
         "90x40 japanese ukiyo-e desk mat for walnut desk",
@@ -10843,8 +10839,8 @@
       ],
       "buyerFaqQuestions": [
         {
-          "question": "What size Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats fits best for mechanical keyboard acoustics in CM and Inches?",
-          "answerHint": "Our 90x40 cm (36x18\") and 80x30 cm (31.5x11.8\") studio proportions are engineered to span 60%–75% of your mechanical keyboard acoustics footprint, ensuring balanced visual symmetry and ergonomic clearance."
+          "question": "What size Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats fits best for walnut desk in CM and Inches?",
+          "answerHint": "Our 90x40 cm (36x18\") and 80x30 cm (31.5x11.8\") studio proportions are engineered to span 60%–75% of your walnut desk footprint, ensuring balanced visual symmetry and ergonomic clearance."
         },
         {
           "question": "How does Prints With Passion construct its Japanese & Asian Art Desk Mats?",
@@ -10856,20 +10852,20 @@
         }
       ],
       "serpGapAnalysis": {
-        "engine": "cached_or_structural",
+        "engine": "structural_heuristic",
         "exactModifierTitleMatchesInTop10": 0,
-        "weakForumCountInTop10": 4,
+        "weakForumCountInTop10": 0,
         "missingDualUnitSpecsInSerp": true,
         "missingMaterialGsmOrThicknessInSerp": true,
         "topCompetitorTitles": [],
         "competitorWeaknesses": [
-          "0/10 competing titles combine \"japanese ukiyo-e\" + \"for mechanical keyboard acoustics\" with dual CM & Inch sizing tables",
+          "0/10 competing titles combine \"japanese ukiyo-e\" + \"for walnut desk\" with dual CM & Inch sizing tables",
           "Top forum/marketplace threads omit 4mm natural rubber base + 360° anti-fray stitched micro-weave cloth construction specs"
         ]
       },
       "modifiers": {
         "size": "90x40 cm (36x18\") & 80x30 cm (31.5x11.8\")",
-        "hardwareCompatibility": "Mechanical Keyboard Acoustics",
+        "hardwareCompatibility": "Walnut Desk",
         "roomPlacement": "Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
         "wallpaperQuery": "Japanese Ukiyo-E 4K UHD 3840×2160 & 21:9 Ultrawide 3440×1440 Battlestation Wallpaper",
         "pinterestAesthetic": "Japanese Ukiyo-E — Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
@@ -10879,16 +10875,16 @@
       "assignedArticleHandle": null
     },
     {
-      "clusterId": "kw_cyberpunk_neon_gaming_desk_mats_4",
+      "clusterId": "kw_cyberpunk_neon_gaming_desk_mats_1",
       "subCollectionHandle": "cyberpunk-neon-gaming-desk-mats",
       "subCollectionUrl": "/collections/cyberpunk-neon-gaming-desk-mats",
       "productType": "Desk Mats",
       "themeTag": "Sci-Fi & Cyberpunk",
-      "primaryKeyword": "best 80x40 mecha sci-fi neon extended mouse pad for ultrawide monitor desk",
-      "keyword": "best 80x40 mecha sci-fi neon extended mouse pad for ultrawide monitor desk",
+      "primaryKeyword": "best 90x40 cyberpunk neon city desk mat for ikea karlby setup",
+      "keyword": "best 90x40 cyberpunk neon city desk mat for ikea karlby setup",
       "shortAnchor": "Cyberpunk Neon City 90x40 Desk Mat",
-      "recommendedSlug": "best-80x40-mecha-sci-fi-neon-extended-mouse-pad-for-ultrawide-monitor-de",
-      "recommendedTitle": "Best 80x40 Mecha Sci-Fi Neon Extended Mouse Pad for Ultrawide Monitor Desk: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "recommendedSlug": "best-90x40-cyberpunk-neon-city-desk-mat-for-ikea-karlby-setup",
+      "recommendedTitle": "Best 90x40 Cyberpunk Neon City Desk Mat for Ikea Karlby Setup: Dual CM & Inch Sizing & Spec Guide (2026)",
       "collectionAnchorText": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
       "targetUrl": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
       "intentType": "transactional_setup_comparison",
@@ -10915,8 +10911,8 @@
       ],
       "buyerFaqQuestions": [
         {
-          "question": "What size Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats fits best for ultrawide monitor desk in CM and Inches?",
-          "answerHint": "Our 90x40 cm (36x18\") and 80x30 cm (31.5x11.8\") studio proportions are engineered to span 60%–75% of your ultrawide monitor desk footprint, ensuring balanced visual symmetry and ergonomic clearance."
+          "question": "What size Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats fits best for ikea karlby setup in CM and Inches?",
+          "answerHint": "Our 90x40 cm (36x18\") and 80x30 cm (31.5x11.8\") studio proportions are engineered to span 60%–75% of your ikea karlby setup footprint, ensuring balanced visual symmetry and ergonomic clearance."
         },
         {
           "question": "How does Prints With Passion construct its Sci-Fi & Cyberpunk Desk Mats?",
@@ -10928,20 +10924,24 @@
         }
       ],
       "serpGapAnalysis": {
-        "engine": "cached_or_structural",
+        "engine": "yahoo_ssr_live",
         "exactModifierTitleMatchesInTop10": 0,
-        "weakForumCountInTop10": 4,
+        "weakForumCountInTop10": 3,
         "missingDualUnitSpecsInSerp": true,
         "missingMaterialGsmOrThicknessInSerp": true,
-        "topCompetitorTitles": [],
+        "topCompetitorTitles": [
+          "amazon.com: Amazon.com: Cyberpunk Desk Mat",
+          "etsy.com: Cyber City Desk Mat - Etsy",
+          "etsy.com: Cyberpunk Neon Desk Mat - Etsy"
+        ],
         "competitorWeaknesses": [
-          "0/10 competing titles combine \"cyberpunk neon city\" + \"for ultrawide monitor desk\" with dual CM & Inch sizing tables",
+          "0/10 competing titles combine \"cyberpunk neon city\" + \"for ikea karlby setup\" with dual CM & Inch sizing tables",
           "Top forum/marketplace threads omit 4mm natural rubber base + 360° anti-fray stitched micro-weave cloth construction specs"
         ]
       },
       "modifiers": {
         "size": "90x40 cm (36x18\") & 80x30 cm (31.5x11.8\")",
-        "hardwareCompatibility": "Ultrawide Monitor Desk",
+        "hardwareCompatibility": "Ikea Karlby Setup",
         "roomPlacement": "Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
         "wallpaperQuery": "Cyberpunk Neon City 4K UHD 3840×2160 & 21:9 Ultrawide 3440×1440 Battlestation Wallpaper",
         "pinterestAesthetic": "Cyberpunk Neon City — Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
@@ -14119,7 +14119,7 @@
       "compositeScore": 92
     },
     {
-      "query": "best 80x40 crimson samurai sakura extended mouse pad for mechanical keyboard acoustics",
+      "query": "best 90x40 japanese ukiyo-e desk mat for walnut desk",
       "subCollectionHandle": "japanese-anime-desk-mats",
       "productType": "Desk Mats",
       "recommendedDimension": "90x40 cm (36x18\") or 80x30 cm (31.5x11.8\")",
@@ -14127,13 +14127,13 @@
       "targetCollectionUrl": "/collections/japanese-anime-desk-mats",
       "targetCollectionAnchor": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
       "matchingBlogUrl": "/blogs/news/felt-vs-rubber-desk-mats-keystroke-acoustics-uk",
-      "plannedBlogSlug": "/blogs/news/best-80x40-crimson-samurai-sakura-extended-mouse-pad-for-mechanical-keyb",
-      "serpWeakSpotsInTop10": 4,
+      "plannedBlogSlug": "/blogs/news/best-90x40-japanese-ukiyo-e-desk-mat-for-walnut-desk",
+      "serpWeakSpotsInTop10": 0,
       "exactTitleMatchesInTop10": 0,
-      "compositeScore": 90.2
+      "compositeScore": 90.4
     },
     {
-      "query": "best 80x40 mecha sci-fi neon extended mouse pad for ultrawide monitor desk",
+      "query": "best 90x40 cyberpunk neon city desk mat for ikea karlby setup",
       "subCollectionHandle": "cyberpunk-neon-gaming-desk-mats",
       "productType": "Desk Mats",
       "recommendedDimension": "90x40 cm (36x18\") or 80x30 cm (31.5x11.8\")",
@@ -14141,8 +14141,8 @@
       "targetCollectionUrl": "/collections/cyberpunk-neon-gaming-desk-mats",
       "targetCollectionAnchor": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
       "matchingBlogUrl": "/blogs/news/cyberpunk-fantasy-gaming-desk-setup-ideas-uk",
-      "plannedBlogSlug": "/blogs/news/best-80x40-mecha-sci-fi-neon-extended-mouse-pad-for-ultrawide-monitor-de",
-      "serpWeakSpotsInTop10": 4,
+      "plannedBlogSlug": "/blogs/news/best-90x40-cyberpunk-neon-city-desk-mat-for-ikea-karlby-setup",
+      "serpWeakSpotsInTop10": 3,
       "exactTitleMatchesInTop10": 0,
       "compositeScore": 90.2
     },

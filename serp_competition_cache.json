@@ -156,35 +156,31 @@
     ]
   },
   "best 90x40 japanese ukiyo-e desk mat for walnut desk": {
-    "checkedAt": "2026-11-04T23:09:40.607Z",
-    "engine": "yahoo_ssr_live",
-    "organicCount": 7,
+    "checkedAt": "2026-11-13T12:32:33.919Z",
+    "engine": "structural_heuristic",
+    "organicCount": 0,
     "exactModifierTitleMatches": 0,
     "fullTitleMatches": 0,
     "ugcForumCount": 0,
-    "marketplaceListingCount": 2,
+    "marketplaceListingCount": 0,
     "giantExactCount": 0,
-    "serpWeaknessScore": 79,
-    "topCompetitorTitles": [
-      "etsy.com: Ukiyo E Desk Mat - Etsy",
-      "etsy.com: Japanese Ukiyo E Mat - Etsy",
-      "epicdesignpads.com: Japanese Ukiyo-e Desk Pad, Hokusai Wave Design, Edo ..."
-    ]
+    "serpWeaknessScore": 82,
+    "topCompetitorTitles": []
   },
   "best 90x40 cyberpunk neon city desk mat for ikea karlby setup": {
-    "checkedAt": "2026-11-04T23:09:41.695Z",
+    "checkedAt": "2026-11-13T12:32:35.105Z",
     "engine": "yahoo_ssr_live",
     "organicCount": 7,
     "exactModifierTitleMatches": 0,
     "fullTitleMatches": 0,
     "ugcForumCount": 0,
-    "marketplaceListingCount": 2,
+    "marketplaceListingCount": 3,
     "giantExactCount": 0,
-    "serpWeaknessScore": 79,
+    "serpWeaknessScore": 86,
     "topCompetitorTitles": [
       "amazon.com: Amazon.com: Cyberpunk Desk Mat",
-      "epicdesignpads.com: Neon Nexus &ndash; Cyberpunk City Gaming Desk Mat, XL Mouse Pad ...",
-      "epicdesignpads.com: Cyberpunk City Desk Mat - Neon Anime Aesthetic &ndash; Epic Design Pads"
+      "etsy.com: Cyber City Desk Mat - Etsy",
+      "etsy.com: Cyberpunk Neon Desk Mat - Etsy"
     ]
   },
   "best 90x40 deep space nebula desk mat for white standing desk": {

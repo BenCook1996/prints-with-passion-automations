@@ -1,5 +1,5 @@
 # Prints With Passion — Automated Transactional Keyword Research & Low-Competition SERP Log
-**Last Run:** 2026-11-11T12:04:28.933Z
+**Last Run:** 2026-11-13T12:32:39.520Z
 **Candidates Evaluated:** 289 | **Smart Sub-Collections Covered:** 48/48 | **Live SERP Inspections:** 10
 
 ## Top 15 Low-Competition Transactional Keyword Opportunities
@@ -8,8 +8,8 @@
 | 1 | `best heavyweight deep space nebula graphic t-shirt for everyday studio streetwear` | `space-galaxy-graphic-t-shirts` | Graphic T-Shirts | **93.8** | 86 | 98 | 98 | 0/10 |
 | 2 | `best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit` | `retro-synthwave-graphic-t-shirts` | Graphic T-Shirts | **92.3** | 86 | 98 | 93 | 0/10 |
 | 3 | `best 90x40 80s retro synthwave sunset desk mat for home office setup` | `retro-vintage-synthwave-desk-mats` | Desk Mats | **92** | 81 | 98 | 98 | 0/10 |
-| 4 | `best 80x40 crimson samurai sakura extended mouse pad for mechanical keyboard acoustics` | `japanese-anime-desk-mats` | Desk Mats | **90.2** | 86 | 98 | 86 | 0/10 |
-| 5 | `best 80x40 mecha sci-fi neon extended mouse pad for ultrawide monitor desk` | `cyberpunk-neon-gaming-desk-mats` | Desk Mats | **90.2** | 86 | 98 | 86 | 0/10 |
+| 4 | `best 90x40 japanese ukiyo-e desk mat for walnut desk` | `japanese-anime-desk-mats` | Desk Mats | **90.4** | 90 | 98 | 82 | 0/10 |
+| 5 | `best 90x40 cyberpunk neon city desk mat for ikea karlby setup` | `cyberpunk-neon-gaming-desk-mats` | Desk Mats | **90.2** | 86 | 98 | 86 | 0/10 |
 | 6 | `best japanese ukiyo-e heavyweight graphic hoodie vs generic heavyweight graphic hoodie for autumn winter streetwear layering` | `japanese-ukiyo-e-graphic-hoodies` | Hoodies | **90.2** | 86 | 98 | 86 | 0/10 |
 | 7 | `best cyberpunk neon city heavyweight graphic hoodie vs generic heavyweight graphic hoodie for cozy gaming studio loungewear` | `cyberpunk-neon-graphic-hoodies` | Hoodies | **90.2** | 86 | 98 | 86 | 0/10 |
 | 8 | `best mythic dragon dark fantasy heavyweight graphic hoodie vs generic heavyweight graphic hoodie for relaxed drop shoulder fit` | `fantasy-dragon-graphic-hoodies` | Hoodies | **90.2** | 86 | 98 | 86 | 0/10 |

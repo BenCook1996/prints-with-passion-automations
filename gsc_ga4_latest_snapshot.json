@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-12T13:08:01.067Z",
+  "capturedAt": "2026-11-13T12:32:30.415Z",
   "gscRows": [
     {
       "keys": [
@@ -937,10 +937,10 @@
   "gscProperty": "https://printswithpassion.com/",
   "ga4PropertyId": "363520144",
   "storewideSummary": {
-    "impressions28d": 225,
-    "clicks28d": 3,
-    "ctr28d": 0.0133,
-    "averagePosition28d": 31.99,
+    "impressions28d": 218,
+    "clicks28d": 2,
+    "ctr28d": 0.0092,
+    "averagePosition28d": 32.17,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -959,8 +959,8 @@
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
     "clicks7d": 0,
-    "impressions7d": 49,
-    "averagePosition7d": 33.22,
+    "impressions7d": 37,
+    "averagePosition7d": 33.3,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
@@ -1102,10 +1102,10 @@
       "averagePosition": 4
     },
     "/": {
-      "impressions28d": 27,
+      "impressions28d": 25,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 17.56,
+      "averagePosition": 15.68,
       "ga4Views28d": 388,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
@@ -1180,10 +1180,10 @@
       "averagePosition": 66.4
     },
     "/collections/duffle-bags": {
-      "impressions28d": 4,
+      "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 90.5
+      "averagePosition": 89.67
     },
     "/collections/hoodies": {
       "impressions28d": 9,
