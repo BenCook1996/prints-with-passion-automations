@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-14T11:41:20.391Z",
+  "capturedAt": "2026-11-14T16:57:40.479Z",
   "gscRows": [
     {
       "keys": [
@@ -937,10 +937,10 @@
   "gscProperty": "https://printswithpassion.com/",
   "ga4PropertyId": "363520144",
   "storewideSummary": {
-    "impressions28d": 212,
+    "impressions28d": 216,
     "clicks28d": 2,
-    "ctr28d": 0.0094,
-    "averagePosition28d": 32.57,
+    "ctr28d": 0.0093,
+    "averagePosition28d": 32.94,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -959,8 +959,8 @@
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
     "clicks7d": 0,
-    "impressions7d": 34,
-    "averagePosition7d": 34.88,
+    "impressions7d": 38,
+    "averagePosition7d": 36.74,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
@@ -970,10 +970,28 @@
       "clicks28d": 3,
       "ctr": 0.0326,
       "averagePosition": 16.8,
-      "ga4Views28d": 37,
+      "ga4Views28d": 38,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:56:21.752Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-26T21:24:25Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/desk-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-ch/collections/desk-mats?page=2",
+          "/blogs/news/the-economics-of-the-outer-rim",
+          "/collections/all/Cat?page=56",
+          "/products/belfast-nightscape-canvas-print-for-urban-landscape-lovers?pr_prod_strat=e5_desc&pr_rec_id=bb73f4d7f&pr_rec_pid=8278466953527&pr_ref_pid=8276793688375&pr_seq=uniform"
+        ]
+      }
     },
     "/collections/japanese-anime-desk-mats": {
       "impressions28d": 46,
@@ -983,17 +1001,49 @@
       "ga4Views28d": 54,
       "ga4AddToCarts28d": 5,
       "ga4Purchases28d": 1,
-      "ga4RevenueGbp28d": 39.99
+      "ga4RevenueGbp28d": 39.99,
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:57:13.773Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-03T22:23:39Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/collections/nature-mountain-cabin-throw-blankets"
+        ]
+      }
     },
     "/collections/cyberpunk-neon-gaming-desk-mats": {
       "impressions28d": 28,
       "clicks28d": 1,
       "ctr": 0.0357,
       "averagePosition": 14.8,
-      "ga4Views28d": 16,
+      "ga4Views28d": 17,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:57:20.516Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-03T22:25:43Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-dragon-mythology-desk-mats",
+          "/blogs/news/white-walnut-desk-mat-styling-uk"
+        ]
+      }
     },
     "/collections/canvas-prints": {
       "impressions28d": 79,
@@ -1003,14 +1053,32 @@
       "ga4Views28d": 171,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:56:15.158Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-30T00:40:04Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/canvas-prints",
+        "userCanonical": "https://printswithpassion.com/collections/canvas-prints",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/de-de/collections/canvas-prints?page=30",
+          "/fr-ch/products/albert-einstein-at-a-chalkboard-filled-w-iii-square-cushion-cover",
+          "/en-be/collections/canvas-prints",
+          "/sitemap_collections_1.xml"
+        ]
+      }
     },
     "/collections/abstract-minimalist-bauhaus-canvas-wall-art": {
       "impressions28d": 39,
       "clicks28d": 1,
       "ctr": 0.0256,
       "averagePosition": 14.2,
-      "ga4Views28d": 44,
+      "ga4Views28d": 45,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1086,10 +1154,10 @@
       "ga4RevenueGbp28d": 0
     },
     "/en-us": {
-      "impressions28d": 16,
+      "impressions28d": 17,
       "clicks28d": 2,
-      "ctr": 0.125,
-      "averagePosition": 23,
+      "ctr": 0.1176,
+      "averagePosition": 21.76,
       "ga4Views28d": 68,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
@@ -1106,10 +1174,28 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 15.68,
-      "ga4Views28d": 476,
+      "ga4Views28d": 481,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:56:08.614Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-12T11:59:05Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/",
+        "userCanonical": "https://printswithpassion.com/",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/de-at/collections/vendors?page=8",
+          "/de-at/collections/vendors?q=Printify.atom",
+          "/de-de/products/copy-of-artisan-tiles-bath-mat?_pos=2&_sid=f051b69eb&_ss=r",
+          "/sk-sk/apps/tracktor"
+        ]
+      }
     },
     "/blogs/news/best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall": {
       "impressions28d": 1,
@@ -1137,7 +1223,26 @@
       "ga4Views28d": 16,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:56:47.677Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-30T11:34:25Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/apparel",
+        "userCanonical": "https://printswithpassion.com/collections/apparel",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-cy/collections/t-shirts",
+          "/en-de/collections/t-shirts",
+          "/en-ca/products/albert-einstein-at-a-chalkboard-filled-w-iii-square-cushion-cover",
+          "/sitemap_collections_1.xml",
+          "/"
+        ]
+      }
     },
     "/collections/blankets": {
       "impressions28d": 1,
@@ -1147,7 +1252,25 @@
       "ga4Views28d": 165,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:56:34.659Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-30T10:15:00Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/blankets",
+        "userCanonical": "https://printswithpassion.com/collections/blankets",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/fr-ca/products/albert-einstein-at-a-chalkboard-filled-w-iii-square-cushion-cover",
+          "/de-ch/collections/blankets?page=2",
+          "/collections/all?constraint=Versatile%20Hoodie",
+          "/products/copy-of-sorcerer-supreme-phone-case-using-a-title-associated-with-dr-strange-avoiding-direct-name?variant=49201199841591&currency=GBP"
+        ]
+      }
     },
     "/collections/bottle-opener": {
       "impressions28d": 1,
@@ -1685,7 +1808,24 @@
       "impressions28d": 5,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 3
+      "averagePosition": 3,
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:57:07.365Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-31T13:42:24Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/pages/delivery-return",
+        "userCanonical": "https://printswithpassion.com/pages/delivery-return",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/blogs/news/tagged/diptych-canvas-layout",
+          "/products/hong-kong-victoria-harbour-neon-skyline-xxl-extended-desk-mat",
+          "/?page=8&q=Printify"
+        ]
+      }
     },
     "/pages/free-4k-wallpapers": {
       "impressions28d": 3,
@@ -2100,7 +2240,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 1.67,
-      "ga4Views28d": 11,
+      "ga4Views28d": 20,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2146,6 +2286,336 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 50
+    },
+    "/blogs/news/gallery-wall-layout-canvas-art-sizing-uk-guide": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 89
+    },
+    "/collections/animals-wildlife-cozy-throw-blankets": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 61
+    },
+    "/nl-nl/products/sunken-tower-rising-from-the-ocean-ii-square-cushion-cover": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 58
+    },
+    "/collections/pillow-cases": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:56:28.175Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-31T17:56:03Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/pillow-cases",
+        "userCanonical": "https://printswithpassion.com/collections/pillow-cases",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/fr-ch/collections/pillow-cases",
+          "/en-be/collections/pillow-cases",
+          "/products/ink-swirl-tiger-art-poster",
+          "/products/and-gold-abstract-design-that-will-make-you-stand-out-on-the-beach-whether-youre-lounging-by-the-pool-or-catching-some-waves-in-the-ocean?variant=55127866802549&country=GB&currency=GBP"
+        ]
+      },
+      "ga4Views28d": 157,
+      "ga4AddToCarts28d": 0,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
+    },
+    "/collections/bath-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:56:41.129Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-02T06:59:13Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/bath-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/de-ch/collections/bath-mats",
+          "/en-ca/collections/bath-mats?page=2",
+          "/en-de/collections/bath-mats",
+          "/products/planet-themed-ice-cream-cone-mug",
+          "/"
+        ]
+      },
+      "ga4Views28d": 69,
+      "ga4AddToCarts28d": 0,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
+    },
+    "/pages/uk-product-catalog": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:56:54.109Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-29T04:27:35Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/pages/uk-product-catalog",
+        "userCanonical": "https://printswithpassion.com/pages/uk-product-catalog",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-nl/pages/uk-product-catalog"
+        ]
+      }
+    },
+    "/pages/about-us": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:57:00.745Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
+    },
+    "/collections/space-galaxy-nebula-desk-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:57:27.108Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-05T08:09:04Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/space-galaxy-nebula-desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/space-galaxy-nebula-desk-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/pages/desk-setup-hardware-compatibility-guide"
+        ]
+      },
+      "ga4Views28d": 59,
+      "ga4AddToCarts28d": 0,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
+    },
+    "/collections/fantasy-dragon-mythology-desk-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:57:33.413Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/animals-wildlife-equestrian-canvas-wall-art",
+          "/collections/space-cosmic-astronomy-canvas-wall-art"
+        ]
+      }
+    },
+    "/collections/nature-mountain-forest-desk-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-14T16:57:39.828Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:46:48Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/nature-mountain-forest-desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/nature-mountain-forest-desk-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/collections/coastal-ocean-botanical-bath-mats"
+        ]
+      }
     }
+  },
+  "urlInspectionHealth": {
+    "lastRunAt": "2026-11-14T16:57:39.828Z",
+    "cursor": 15,
+    "batchSize": 15,
+    "totalInspected": 15,
+    "submittedAndIndexedCount": 13,
+    "discoveredNotIndexedCount": 1,
+    "crawledNotIndexedCount": 0,
+    "urlUnknownCount": 1,
+    "otherCount": 0,
+    "errorCount": 0,
+    "canonicalOverridesCount": 0,
+    "indexedRatio": 0.8667,
+    "indexedRatioDisplay": "86.7%",
+    "coverageBreakdown": {
+      "Submitted and indexed": 13,
+      "URL is unknown to Google": 1,
+      "Discovered - currently not indexed": 1
+    },
+    "canonicalOverrides": [],
+    "batchResults": [
+      {
+        "url": "https://printswithpassion.com/",
+        "path": "/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-12T11:59:05Z",
+        "googleCanonical": "https://printswithpassion.com/",
+        "userCanonical": "https://printswithpassion.com/"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/canvas-prints",
+        "path": "/collections/canvas-prints",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-30T00:40:04Z",
+        "googleCanonical": "https://printswithpassion.com/collections/canvas-prints",
+        "userCanonical": "https://printswithpassion.com/collections/canvas-prints"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/desk-mats",
+        "path": "/collections/desk-mats",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-26T21:24:25Z",
+        "googleCanonical": "https://printswithpassion.com/collections/desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/desk-mats"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/pillow-cases",
+        "path": "/collections/pillow-cases",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-31T17:56:03Z",
+        "googleCanonical": "https://printswithpassion.com/collections/pillow-cases",
+        "userCanonical": "https://printswithpassion.com/collections/pillow-cases"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/blankets",
+        "path": "/collections/blankets",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-30T10:15:00Z",
+        "googleCanonical": "https://printswithpassion.com/collections/blankets",
+        "userCanonical": "https://printswithpassion.com/collections/blankets"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/bath-mats",
+        "path": "/collections/bath-mats",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-02T06:59:13Z",
+        "googleCanonical": "https://printswithpassion.com/collections/bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/bath-mats"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/apparel",
+        "path": "/collections/apparel",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-30T11:34:25Z",
+        "googleCanonical": "https://printswithpassion.com/collections/apparel",
+        "userCanonical": "https://printswithpassion.com/collections/apparel"
+      },
+      {
+        "url": "https://printswithpassion.com/pages/uk-product-catalog",
+        "path": "/pages/uk-product-catalog",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-29T04:27:35Z",
+        "googleCanonical": "https://printswithpassion.com/pages/uk-product-catalog",
+        "userCanonical": "https://printswithpassion.com/pages/uk-product-catalog"
+      },
+      {
+        "url": "https://printswithpassion.com/pages/about-us",
+        "path": "/pages/about-us",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/pages/delivery-return",
+        "path": "/pages/delivery-return",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-31T13:42:24Z",
+        "googleCanonical": "https://printswithpassion.com/pages/delivery-return",
+        "userCanonical": "https://printswithpassion.com/pages/delivery-return"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
+        "path": "/collections/japanese-anime-desk-mats",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-03T22:23:39Z",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-anime-desk-mats"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
+        "path": "/collections/cyberpunk-neon-gaming-desk-mats",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-03T22:25:43Z",
+        "googleCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/space-galaxy-nebula-desk-mats",
+        "path": "/collections/space-galaxy-nebula-desk-mats",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-05T08:09:04Z",
+        "googleCanonical": "https://printswithpassion.com/collections/space-galaxy-nebula-desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/space-galaxy-nebula-desk-mats"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/fantasy-dragon-mythology-desk-mats",
+        "path": "/collections/fantasy-dragon-mythology-desk-mats",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/collections/nature-mountain-forest-desk-mats",
+        "path": "/collections/nature-mountain-forest-desk-mats",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:46:48Z",
+        "googleCanonical": "https://printswithpassion.com/collections/nature-mountain-forest-desk-mats",
+        "userCanonical": "https://printswithpassion.com/collections/nature-mountain-forest-desk-mats"
+      }
+    ]
   }
 }
