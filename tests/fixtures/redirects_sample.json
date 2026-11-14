@@ -1,0 +1,152 @@
+[
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-1",
+    "path": "/collections/dog-collars",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-2",
+    "path": "/collections/laundry-bags",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-3",
+    "path": "/collections/duffle-bags",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-4",
+    "path": "/collections/clutch-bags",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-5",
+    "path": "/collections/phone-cases",
+    "target": "/collections/desk-mats"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-6",
+    "path": "/collections/beach-towels",
+    "target": "/collections/bath-mats"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-7",
+    "path": "/collections/mugs",
+    "target": "/collections/canvas-prints"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-8",
+    "path": "/collections/journals",
+    "target": "/collections/canvas-prints"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-9",
+    "path": "/collections/wall-tapestry",
+    "target": "/collections/canvas-prints"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-10",
+    "path": "/collections/puzzles",
+    "target": "/collections/canvas-prints"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-11",
+    "path": "/collections/shoes",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-12",
+    "path": "/collections/hats",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-13",
+    "path": "/collections/bottles",
+    "target": "/collections/canvas-prints"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-14",
+    "path": "/collections/tote-bags",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-15",
+    "path": "/collections/suitcases",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-16",
+    "path": "/collections/yoga-mats",
+    "target": "/collections/bath-mats"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-17",
+    "path": "/collections/makeup-bags",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-18",
+    "path": "/collections/coasters",
+    "target": "/collections/desk-mats"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-19",
+    "path": "/collections/pet-mat",
+    "target": "/collections/bath-mats"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-20",
+    "path": "/collections/bottle-opener",
+    "target": "/collections/canvas-prints"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-21",
+    "path": "/collections/pet-bowls",
+    "target": "/collections/bath-mats"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-22",
+    "path": "/collections/bags",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-23",
+    "path": "/collections/bags-1",
+    "target": "/collections/apparel"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-24",
+    "path": "/collections/pets-animals",
+    "target": "/collections/canvas-prints"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-25",
+    "path": "/collections/can-cooler",
+    "target": "/collections/canvas-prints"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-26",
+    "path": "/collections/posters",
+    "target": "/collections/canvas-prints"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-27",
+    "path": "/collections/rugs",
+    "target": "/collections/bath-mats"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/legacy-28",
+    "path": "/collections/mousepads",
+    "target": "/collections/desk-mats"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/prod-1",
+    "path": "/products/neon-throw-blanket-tropical-nights",
+    "target": "/products/neon-throw-blanket-tropical-nights-good-times"
+  },
+  {
+    "id": "gid://shopify/UrlRedirect/prod-2",
+    "path": "/products/japanese-wave-hoodie-cotton",
+    "target": "/products/japanese-wave-hoodie-cotton-black"
+  }
+]

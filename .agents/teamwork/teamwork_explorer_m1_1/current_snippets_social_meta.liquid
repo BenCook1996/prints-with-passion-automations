@@ -1,0 +1,74 @@
+{%- assign og_title = page_title | default: shop.name -%}
+{%- assign og_url = canonical_url | default: shop.url -%}
+{%- assign og_type = 'website' -%}
+{%- assign og_description = page_description | default: shop.description | default: shop.name -%}
+{%- if settings.social_share_image -%}
+  {% capture og_image_tags %}<meta property="og:image" content="https:{{ settings.social_share_image | default: page_image | img_url: '1200x1200' }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="1200"><meta property="og:image:alt" content="{{ og_title | strip_html | escape }}">{% endcapture %}
+  {% capture og_image_secure_url_tags %}<meta property="og:image:secure_url" content="https:{{ settings.social_share_image | default: page_image | img_url: '1200x1200' }}">{% endcapture %}
+{%- endif -%}
+{%- if template.name == 'product' -%}
+  {%- assign og_title = product.title | strip_html -%}
+  {%- assign og_type = 'product' -%}
+  {%- if product.media.size > 0 -%}
+    {% capture og_image_tags %}{% for media in product.media limit:4 -%}<meta property="og:image" content="https:{{ media | img_url: '1200x1200' }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="1200"><meta property="og:image:alt" content="{{ media.alt | default: og_title | strip_html | escape }}">{% endfor -%}{% endcapture -%}
+    {% capture og_image_secure_url_tags %}{% for media in product.media limit:4 -%}<meta property="og:image:secure_url" content="https:{{ media | img_url: '1200x1200' }}">{% endfor -%}{% endcapture -%}
+  {%- endif -%}
+{%- elsif template.name == 'article' -%}
+  {%- assign og_title = article.title | strip_html -%}
+  {%- assign og_type = 'article' -%}
+  {%- assign og_description = page_description | default: article.excerpt_or_content | strip_html -%}
+  {%- if article.image -%}
+    {% capture og_image_tags %}<meta property="og:image" content="https:{{ article.image | img_url: '1200x1200' }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="1200"><meta property="og:image:alt" content="{{ article.image.alt | default: og_title | strip_html | escape }}">{% endcapture %}
+    {% capture og_image_secure_url_tags %}<meta property="og:image:secure_url" content="https:{{ article.image | img_url: '1200x1200' }}">{% endcapture %}
+  {%- endif -%}
+{%- elsif template.name == 'collection' -%}
+  {%- assign og_title = collection.title | strip_html -%}
+  {%- assign og_type = 'product.group' -%}
+  {%- if collection.image -%}
+    {% capture og_image_tags %}<meta property="og:image" content="https:{{ collection.image | img_url: '1200x1200' }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="1200"><meta property="og:image:alt" content="{{ collection.image.alt | default: og_title | strip_html | escape }}">{% endcapture %}
+    {% capture og_image_secure_url_tags %}<meta property="og:image:secure_url" content="https:{{ collection.image | img_url: '1200x1200' }}">{% endcapture %}
+  {%- endif -%}
+{%- elsif template.name == 'password' -%}
+  {%- assign og_title = shop.name -%}
+  {%- assign og_url = shop.url -%}
+  {%- assign og_description = shop.description | default: shop.name -%}
+{%- endif -%}
+{%- assign og_lang = request.locale.iso_code | split: '-' | first | default: 'en' -%}
+{%- assign og_country = localization.country.iso_code | default: 'GB' -%}
+<meta property="og:site_name" content="{{ shop.name | escape }}">
+<meta property="og:url" content="{{ og_url }}">
+<meta property="og:title" content="{{ og_title | strip_html | escape }}">
+<meta property="og:type" content="{{ og_type }}">
+<meta property="og:description" content="{{ og_description | strip_html | strip | replace: '&amp;', '&' | escape }}">
+<meta property="og:locale" content="{{ og_lang }}_{{ og_country }}">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="en_CA">
+<meta property="og:locale:alternate" content="fr_CA">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="de_CH">
+<meta property="og:locale:alternate" content="fr_CH">
+<meta property="og:locale:alternate" content="nl_BE">
+<meta property="og:locale:alternate" content="fr_BE">
+<meta property="og:locale:alternate" content="nl_NL">
+{%- if template.name == 'product' -%}
+  {%- assign cur_v = product.selected_or_first_available_variant -%}
+  <meta property="og:price:amount" content="{{ cur_v.price | divided_by: 100 }}.{{ cur_v.price | modulo: 100 | prepend: '00' | slice: -2, 2 }}">
+  <meta property="og:price:currency" content="{{ cart.currency.iso_code | default: 'GBP' }}">
+  {%- if cur_v.compare_at_price > cur_v.price -%}
+  <meta property="og:price:standard_amount" content="{{ cur_v.compare_at_price | divided_by: 100 }}.{{ cur_v.compare_at_price | modulo: 100 | prepend: '00' | slice: -2, 2 }}">
+  {%- endif -%}
+{%- endif -%}
+{{ og_image_tags }}
+{{ og_image_secure_url_tags }}
+{%- unless settings.social_twitter == blank -%}
+<meta name="twitter:site" content="{{ settings.social_twitter | split: 'twitter.com/' | last | prepend: '@' }}">
+{%- endunless -%}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ og_title | strip_html | escape }}">
+<meta name="twitter:description" content="{{ og_description | strip_html | strip | replace: '&amp;', '&' | escape }}">
+<script>
+  theme.AssetsLoaderSettings = 'ZEdobGFXVXVRWE56WlhSelRHOWhaR1Z5TG5Wd2FHOWhaQ0E5SUhSeWRXVTdDblJvWlcxbExrRnpjMlYwYzB4dllXUmxjaTVzYTJGa1RXRnVkV0ZzYUhsUGFpQTlJSFJ5ZFdVN0NuUm9aVzFsTGtGemMyVjBjMHh2WVdSbGNpNWhjM2x1WTFOMFlYUjFjeUE5SUdaaGFITmxPdz09';
+</script>

@@ -1,0 +1,103 @@
+{
+  "collection": {
+    "id": "gid://shopify/Collection/441651298615",
+    "handle": "avada-upsell-best-sellers",
+    "title": "AVADA Upsell - Best Sellers",
+    "resourcePublications": {
+      "nodes": [
+        {
+          "isPublished": true,
+          "publication": {
+            "id": "gid://shopify/Publication/243046449463",
+            "name": "Buy Button"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "id": "gid://shopify/Publication/124388507959",
+            "name": "Online Store"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "id": "gid://shopify/Publication/124414984503",
+            "name": "Facebook & Instagram"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "id": "gid://shopify/Publication/124416229687",
+            "name": "Shop"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "id": "gid://shopify/Publication/124416393527",
+            "name": "Google & YouTube"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "id": "gid://shopify/Publication/124423962935",
+            "name": "Amazon Channel - CED"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "id": "gid://shopify/Publication/145699471671",
+            "name": "Pinterest"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "id": "gid://shopify/Publication/216645796151",
+            "name": "TikTok"
+          }
+        }
+      ]
+    }
+  },
+  "publications": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Publication/124388507959",
+        "name": "Online Store"
+      },
+      {
+        "id": "gid://shopify/Publication/124414984503",
+        "name": "Facebook & Instagram"
+      },
+      {
+        "id": "gid://shopify/Publication/124416229687",
+        "name": "Shop"
+      },
+      {
+        "id": "gid://shopify/Publication/124416393527",
+        "name": "Google & YouTube"
+      },
+      {
+        "id": "gid://shopify/Publication/124423962935",
+        "name": "Amazon Channel - CED"
+      },
+      {
+        "id": "gid://shopify/Publication/145699471671",
+        "name": "Pinterest"
+      },
+      {
+        "id": "gid://shopify/Publication/216645796151",
+        "name": "TikTok"
+      },
+      {
+        "id": "gid://shopify/Publication/243046449463",
+        "name": "Buy Button"
+      }
+    ]
+  }
+}

@@ -1,0 +1,618 @@
+{
+  "timestamp": "2026-11-14T15:02:05.696Z",
+  "totalChecks": 339,
+  "passedChecks": 339,
+  "failedChecks": 0,
+  "failures": [],
+  "pagesAudited": [
+    {
+      "handle": "contact-us",
+      "h1Count": 1,
+      "h1Texts": [
+        "Contact Us"
+      ],
+      "title": "Contact Prints With Passion | UK Customer Care Support",
+      "titleLength": 54,
+      "description": "Contact Prints With Passion UK customer care team for order inquiries, bespoke sizing and delivery tracking. Free tracked UK delivery on all art and decor.",
+      "descriptionLength": 155
+    },
+    {
+      "handle": "size-guide",
+      "h1Count": 1,
+      "h1Texts": [
+        "Size Guide"
+      ],
+      "title": "Official Size Guide (CM & Inches) | Prints With Passion",
+      "titleLength": 55,
+      "description": "Complete UK and US size guide for framed canvas prints, XXL desk mats, cushion covers, throw blankets and bath mats in both metric (cm) and imperial (inches).",
+      "descriptionLength": 158
+    },
+    {
+      "handle": "privacy-policy",
+      "h1Count": 1,
+      "h1Texts": [
+        "Privacy Policy"
+      ],
+      "title": "Privacy Policy & Data Security | Prints With Passion",
+      "titleLength": 52,
+      "description": "Read the Prints With Passion privacy policy and data security standards. Learn how we protect your personal information, cookies and transactional privacy.",
+      "descriptionLength": 155
+    },
+    {
+      "handle": "data-sharing-opt-out",
+      "h1Count": 1,
+      "h1Texts": [
+        "Your Privacy Choices"
+      ],
+      "title": "Your Privacy Choices & Opt-Out | Prints With Passion",
+      "titleLength": 52,
+      "description": "Manage your privacy choices, cookie preferences and personal data sharing opt-out options in compliance with UK GDPR and international privacy legislation.",
+      "descriptionLength": 155
+    },
+    {
+      "handle": "about-us",
+      "h1Count": 1,
+      "h1Texts": [
+        "About Us"
+      ],
+      "title": "About Prints With Passion | UK Archival Art & Decor Studio",
+      "titleLength": 58,
+      "description": "Discover Prints With Passion: our independent UK print studio dedicated to archival framed canvas wall art, 4mm XXL desk mats and bespoke home decor.",
+      "descriptionLength": 149
+    },
+    {
+      "handle": "delivery-return",
+      "h1Count": 1,
+      "h1Texts": [
+        "Delivery & Returns"
+      ],
+      "title": "Delivery & Returns Policy | 100% Free UK Tracked Shipping",
+      "titleLength": 57,
+      "description": "Learn about our delivery and returns policy: 100% free Royal Mail tracked shipping across the UK, 30-day guarantee and secure protective studio packaging.",
+      "descriptionLength": 154
+    },
+    {
+      "handle": "desk-size-visualizer",
+      "h1Count": 1,
+      "h1Texts": [
+        "UK Desk Mat, Keyboard & Wall Art Size Visualizer (CM & Inches)"
+      ],
+      "title": "UK Desk Mat & Wall Art Size Visualizer | CM & Inches",
+      "titleLength": 52,
+      "description": "Interactive visualizer: preview 60×35cm, 80×40cm and 90×40cm XXL desk mats, mechanical keyboards and framed canvas prints across popular UK workspace setups.",
+      "descriptionLength": 157
+    },
+    {
+      "handle": "free-4k-wallpapers",
+      "h1Count": 1,
+      "h1Texts": [
+        "Free 4K Desktop & Setup Wallpapers (CC-BY 4.0 Vault)"
+      ],
+      "title": "Free 4K Desktop & Setup Wallpapers | Prints With Passion",
+      "titleLength": 56,
+      "description": "Download free 4K ultra-high-definition desktop and dual-monitor wallpapers matching our archival canvas prints and XXL desk mats. Licensed CC-BY 4.0.",
+      "descriptionLength": 149
+    },
+    {
+      "handle": "uk-product-catalog",
+      "h1Count": 1,
+      "h1Texts": [
+        "UK Home Decor, Desk Mat & Wall Art Catalog Directory"
+      ],
+      "title": "UK Catalog Directory: Wall Art, Desk Mats & Home Decor",
+      "titleLength": 54,
+      "description": "Explore the complete Prints With Passion UK catalog directory: 48 studio collections of framed canvas wall art, XXL desk mats, cushions and fleece throws.",
+      "descriptionLength": 154
+    },
+    {
+      "handle": "xxl-extended-gaming-desk-mats-uk-guide",
+      "h1Count": 1,
+      "h1Texts": [
+        "XXL Extended Gaming Desk Mats UK (80×40 cm): Complete Setup & Buyer’s Guide"
+      ],
+      "title": "XXL Extended Gaming Desk Mats UK (80×40cm) Setup Guide",
+      "titleLength": 54,
+      "description": "UK buyer guide for XXL 80×40cm extended gaming desk mats: 4mm thick natural rubber base, micro-weave cloth and anti-fray stitching. Free UK delivery.",
+      "descriptionLength": 149
+    },
+    {
+      "handle": "stretched-canvas-wall-art-uk-guide",
+      "h1Count": 1,
+      "h1Texts": [
+        "Gallery-Wrapped Stretched Canvas Wall Art UK (24×16 in): Interior Styling Guide"
+      ],
+      "title": "Gallery Stretched Canvas Wall Art UK (24×16 in) Guide",
+      "titleLength": 53,
+      "description": "Explore our UK styling guide for 24×16 inch gallery-wrapped canvas prints: 400gsm cotton-poly blend on 1.25 inch European pine frames with free UK shipping.",
+      "descriptionLength": 156
+    },
+    {
+      "handle": "double-sided-square-cushion-covers-uk-guide",
+      "h1Count": 1,
+      "h1Texts": [
+        "Double-Sided Square Cushion Covers UK (40×40 cm): Sofa & Bedroom Styling Guide"
+      ],
+      "title": "Double-Sided Cushion Covers UK (40×40cm) Styling Guide",
+      "titleLength": 54,
+      "description": "Interior styling guide for 40×40cm double-sided faux-suede cushion covers in the UK: vibrant colourfast prints, concealed zips and free tracked delivery.",
+      "descriptionLength": 153
+    },
+    {
+      "handle": "plush-coral-fleece-throw-blankets-uk-guide",
+      "h1Count": 1,
+      "h1Texts": [
+        "Ultra-Soft Plush Coral Fleece Throw Blankets UK (50×60 in): Sofa & Bed Guide"
+      ],
+      "title": "Plush Coral Fleece Throw Blankets UK (50×60 in) Guide",
+      "titleLength": 53,
+      "description": "UK home guide for 50×60 inch ultra-soft coral fleece throw blankets: lightweight warmth, hypoallergenic microfiber and machine washable with free delivery.",
+      "descriptionLength": 155
+    },
+    {
+      "handle": "luxury-memory-foam-bath-mats-uk-guide",
+      "h1Count": 1,
+      "h1Texts": [
+        "Luxury Non-Slip Memory Foam Bath Mats UK (61×43 cm): Modern Bathroom Guide"
+      ],
+      "title": "Luxury Memory Foam Bath Mats UK (61×43cm) Bathroom Guide",
+      "titleLength": 56,
+      "description": "UK bathroom decor guide for 61×43cm memory foam bath mats: quick-dry microfiber surface, high-density foam cushioning and non-slip rubber safety backing.",
+      "descriptionLength": 153
+    },
+    {
+      "handle": "cyberpunk-sci-fi-desk-mats-wall-art-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Sci-Fi, Cyberpunk & Neon Synthwave Desk Mats, Canvas Art & Home Decor UK"
+      ],
+      "title": "Cyberpunk & Sci-Fi Desk Mats & Wall Art UK Setup Guide",
+      "titleLength": 54,
+      "description": "UK guide to sci-fi, synthwave and neon cyberpunk desk mats and matching canvas wall art: high-contrast aesthetic workspace decor with free UK shipping.",
+      "descriptionLength": 151
+    },
+    {
+      "handle": "japanese-ukiyo-e-anime-desk-mats-wall-art-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Japanese Ukiyo-e, Samurai & Anime Aesthetic Desk Mats, Canvas Prints & Decor UK"
+      ],
+      "title": "Japanese Ukiyo-e & Anime Desk Mats & Canvas Art UK Guide",
+      "titleLength": 56,
+      "description": "UK styling guide for Japanese anime, Great Wave ukiyo-e and samurai XXL desk mats and canvas prints: premium archival craft with free tracked UK shipping.",
+      "descriptionLength": 154
+    },
+    {
+      "handle": "space-cosmic-nebula-desk-mats-wall-art-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Space, Cosmic Nebula & Astronomy Desk Mats, Stretched Canvas & Home Decor UK"
+      ],
+      "title": "Space & Cosmic Nebula Desk Mats & Canvas Wall Art UK",
+      "titleLength": 52,
+      "description": "UK astronomy guide for deep space, cosmic nebula and celestial desk mats and canvas prints: high-resolution astrophotography with free tracked UK shipping.",
+      "descriptionLength": 155
+    },
+    {
+      "handle": "fantasy-mythology-gothic-desk-mats-wall-art-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Fantasy, Dragon, Mythology & Dark Gothic Desk Mats, Canvas Art & Home Decor UK"
+      ],
+      "title": "Fantasy & Gothic Desk Mats & Canvas Wall Art UK Guide",
+      "titleLength": 53,
+      "description": "UK decor guide for dark fantasy, dragon, mythology and gothic aesthetic desk mats, fleece throws and framed canvas wall art with free tracked UK shipping.",
+      "descriptionLength": 154
+    },
+    {
+      "handle": "botanical-floral-nature-wall-art-cushions-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Botanical, Floral & Forest Landscape Canvas Wall Art, Cushions & Bath Mats UK"
+      ],
+      "title": "Botanical & Floral Canvas Wall Art & Cushions UK Guide",
+      "titleLength": 54,
+      "description": "UK interior guide for botanical, forest landscape and floral canvas prints, velvet cushions and bath mats: biophilic styling with free tracked UK shipping.",
+      "descriptionLength": 155
+    },
+    {
+      "handle": "wildlife-animal-art-cushions-blankets-wall-art-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Animals & Wildlife Art Collection UK: Lion, Wolf, Bird & Marine Canvas, Throws & Cushions"
+      ],
+      "title": "Wildlife & Animal Canvas Art, Cushions & Blankets UK",
+      "titleLength": 52,
+      "description": "Explore UK animal and wildlife art: lion, wolf, stag and bird archival canvas prints, fleece throws and luxury cushion covers with free tracked UK shipping.",
+      "descriptionLength": 156
+    },
+    {
+      "handle": "abstract-geometric-minimalist-wall-art-decor-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Abstract, Sacred Geometry & Minimalist Line Art Canvas, Desk Mats & Cushions UK"
+      ],
+      "title": "Abstract & Minimalist Canvas Wall Art & Desk Mats UK",
+      "titleLength": 52,
+      "description": "UK styling guide for abstract geometry, Bauhaus minimalist line art canvas prints and XXL desk mats: contemporary modern decor with free tracked UK shipping.",
+      "descriptionLength": 157
+    },
+    {
+      "handle": "retro-vintage-pop-art-wall-art-desk-mats-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Retro, Vintage 80s Vaporwave & Pop Art Desk Mats, Canvas Prints & Home Decor UK"
+      ],
+      "title": "Retro 80s Vaporwave & Pop Art Desk Mats & Wall Art UK",
+      "titleLength": 53,
+      "description": "UK guide to vintage 80s vaporwave, arcade and pop art desk mats and stretched canvas prints: nostalgic retro gaming workspaces with free tracked UK shipping.",
+      "descriptionLength": 157
+    },
+    {
+      "handle": "world-landmarks-cityscape-travel-wall-art-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "World Landmarks, London, Tokyo & Paris Cityscape Canvas Wall Art & Cushions UK"
+      ],
+      "title": "World Landmarks & Cityscape Canvas Wall Art UK Guide",
+      "titleLength": 52,
+      "description": "UK interior styling guide for London, Tokyo and Paris cityscape canvas wall art prints and velvet cushion covers: architectural decor with free shipping.",
+      "descriptionLength": 153
+    },
+    {
+      "handle": "matching-home-office-desk-mat-and-canvas-sets-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Matching Home Office Desk Mat & Canvas Wall Art Sets UK: Cohesive Workspace Styling"
+      ],
+      "title": "Matching Home Office Desk Mat & Canvas Art Sets UK Guide",
+      "titleLength": 56,
+      "description": "UK workspace guide for pairing 80x40cm XXL desk mats with matching 24x16 inch stretched canvas prints: cohesive office setups with free tracked UK shipping.",
+      "descriptionLength": 156
+    },
+    {
+      "handle": "living-room-sofa-cushion-throw-blanket-canvas-pairing-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Living Room Colour Pairing Guide UK: Matching Cushion Covers, Throw Blankets & Canvas Art"
+      ],
+      "title": "Living Room Cushion, Blanket & Canvas Pairing Guide UK",
+      "titleLength": 54,
+      "description": "UK interior colour pairing guide for matching 40×40cm cushion covers, 50×60 in fleece throw blankets and canvas wall art: style a cohesive modern lounge.",
+      "descriptionLength": 153
+    },
+    {
+      "handle": "bedroom-sanctuary-throw-blanket-cushion-wall-art-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Bedroom Sanctuary Decor Guide UK: Plush Fleece Throws, Accent Cushions & Statement Art"
+      ],
+      "title": "Bedroom Sanctuary Decor Guide: Throws, Cushions & Art UK",
+      "titleLength": 56,
+      "description": "UK bedroom sanctuary guide: create restful spaces with plush fleece throw blankets, accent cushion covers and calming canvas wall art. Free UK delivery.",
+      "descriptionLength": 152
+    },
+    {
+      "handle": "modern-uk-bathroom-makeover-memory-foam-bath-mats",
+      "h1Count": 1,
+      "h1Texts": [
+        "Modern UK Bathroom Makeover Guide: Statement Memory Foam Bath Mats & Spa Styling"
+      ],
+      "title": "Modern UK Bathroom Makeover: Memory Foam Bath Mats Guide",
+      "titleLength": 56,
+      "description": "UK modern bathroom guide: upgrade your space with luxury non-slip memory foam bath mats, coordinated colour palettes and spa styling with free delivery.",
+      "descriptionLength": 152
+    },
+    {
+      "handle": "gaming-room-pc-setup-lighting-desk-mat-wall-art-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Ultimate UK Gaming Room & Streaming Setup Guide: XXL Desk Mats, Canvas Art & Throws"
+      ],
+      "title": "UK Gaming Room PC Setup Guide: XXL Desk Mats & Wall Art",
+      "titleLength": 55,
+      "description": "UK battlestation guide for gaming PC setups: pairing RGB ambient lighting with XXL stitched desk mats, canvas wall art and warm fleece throw blankets.",
+      "descriptionLength": 150
+    },
+    {
+      "handle": "home-decor-desk-mat-care-washing-maintenance-guide-uk",
+      "h1Count": 1,
+      "h1Texts": [
+        "Complete UK Care & Washing Guide: Cleaning Desk Mats, Fleece Throws, Cushions & Bath Mats"
+      ],
+      "title": "UK Desk Mat & Home Decor Washing & Care Guide | PWP",
+      "titleLength": 51,
+      "description": "Complete UK care and washing guide: clean 4mm stitched desk mats, machine wash fleece throws, refresh velvet cushions and maintain memory foam bath mats.",
+      "descriptionLength": 153
+    },
+    {
+      "handle": "vip-loyalty-program",
+      "h1Count": 1,
+      "h1Texts": [
+        "Prints With Passion VIP — Official Loyalty Program (Club Member)"
+      ],
+      "title": "Prints With Passion VIP Loyalty Program | Studio Club",
+      "titleLength": 53,
+      "description": "Join the Prints With Passion VIP Club: unlock exclusive collector discounts, early access to new art drops and loyalty rewards with free tracked UK shipping.",
+      "descriptionLength": 157
+    },
+    {
+      "handle": "us-shipping-and-sizing-guide",
+      "h1Count": 1,
+      "h1Texts": [
+        "US Shipping, Local USA Print Fulfillment & Imperial Sizing Guide (Inches)"
+      ],
+      "title": "US Shipping, Local Fulfillment & Imperial Sizing Guide",
+      "titleLength": 54,
+      "description": "USA buyer guide: local USA print fulfillment, rapid courier delivery and imperial size conversions (inches) for canvas wall art prints and XXL desk mats.",
+      "descriptionLength": 153
+    },
+    {
+      "handle": "ai-catalog-directory",
+      "h1Count": 1,
+      "h1Texts": [
+        "Studio Catalog, Sizing & AI Discovery Index (50 Curated Collections)"
+      ],
+      "title": "Studio Catalog, Sizing & AI Discovery Index | PWP",
+      "titleLength": 49,
+      "description": "Browse the Prints With Passion AI discovery index: 48 thematic collections of framed canvas prints, XXL gaming desk mats, cushions and home accessories.",
+      "descriptionLength": 152
+    },
+    {
+      "handle": "studio-lookbook-social-feed",
+      "h1Count": 1,
+      "h1Texts": [
+        "Studio Lookbook, Room Inspiration & Pinterest Feed Hub"
+      ],
+      "title": "Studio Lookbook, Room Inspiration & Pinterest Feed Hub",
+      "titleLength": 54,
+      "description": "Explore the Prints With Passion studio lookbook: curated workspace inspiration, customer styling photos and trending Pinterest aesthetic gallery ideas.",
+      "descriptionLength": 151
+    },
+    {
+      "handle": "desk-setup-hardware-compatibility-guide",
+      "h1Count": 1,
+      "h1Texts": [
+        "Desk Mat & Wall Art Hardware Compatibility Guide (IKEA Karlby, Secretlab, Keychron & Ultrawide)"
+      ],
+      "title": "Desk Mat Hardware Compatibility Guide (IKEA & Secretlab)",
+      "titleLength": 56,
+      "description": "UK hardware sizing guide for IKEA Karlby, Secretlab Magnus and Keychron setups: calculate exact desk clearances for XXL desk mats and mechanical boards.",
+      "descriptionLength": 152
+    },
+    {
+      "handle": "studio-quality-vs-generic-prints",
+      "h1Count": 1,
+      "h1Texts": [
+        "Prints With Passion Studio Standard vs. Generic 2mm Pads & Rolled Posters (Full Spec Comparison)"
+      ],
+      "title": "Studio Quality vs Generic 2mm Mats & Rolled Prints Guide",
+      "titleLength": 56,
+      "description": "Full specification guide comparing Prints With Passion 4mm stitched desk mats and 1.25 in pine canvas prints against generic 2mm pads and rolled posters.",
+      "descriptionLength": 153
+    },
+    {
+      "handle": "trade-and-bulk-orders",
+      "h1Count": 1,
+      "h1Texts": [
+        "B2B Corporate Workspaces, Interior Staging & Bulk Trade Orders (15%–35% Off)"
+      ],
+      "title": "B2B Trade & Bulk Orders (15%–35% Off) | Prints With Passion",
+      "titleLength": 59,
+      "description": "B2B trade program for interior stagers, corporate workspaces, boutique hotels and esports lounges: volume discounts up to 35% with free tracked UK shipping.",
+      "descriptionLength": 156
+    }
+  ],
+  "articlesAudited": [
+    {
+      "handle": "uk-desk-mat-size-guide-60x35-xl-vs-80x40-xxl-compared",
+      "h1Count": 1,
+      "title": "UK Desk Mat Size Guide: 60×35 XL vs 80×40 XXL | PWP Studio",
+      "description": "Compare 60x35 cm XL and 80x40 cm XXL extended desk mats for UK setups. Explore exact desk dimensions, keyboard clearance, mouse glide and free UK shipping.",
+      "descriptionLength": 155,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed",
+      "h1Count": 1,
+      "title": "Canvas Wall Art Sizing Above a UK Sofa or Bed | PWP Studio",
+      "description": "Learn how to choose the perfect canvas wall art size above a UK sofa or bed. Discover ideal proportions, metric sizing charts and free tracked UK delivery.",
+      "descriptionLength": 155,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+      "h1Count": 1,
+      "title": "Best Desk Accessories for IKEA Karlby & Lagkapten Desks UK",
+      "description": "Discover the best desk setup accessories for IKEA Karlby and Lagkapten desks in the UK. Pair XXL desk mats with cable management and free tracked delivery.",
+      "descriptionLength": 155,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "mechanical-keyboard-desk-mat-pairing-guide-uk",
+      "h1Count": 1,
+      "title": "Mechanical Keyboard Desk Mat Pairing Guide: 60%, TKL, Full",
+      "description": "Find the ideal desk mat size for 60%, 75%, TKL and full-size mechanical keyboards. Explore acoustic dampening, mouse clearance and free tracked UK shipping.",
+      "descriptionLength": 156,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
+      "h1Count": 1,
+      "title": "Canvas Wall Art Hanging Height Guide: 57-Inch Rule | PWP",
+      "description": "Master the 57-inch gallery rule for hanging canvas wall art in UK hallways, offices, and bedrooms. Learn exact eye-level placement and get free UK shipping.",
+      "descriptionLength": 156,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "best-gifts-for-gamers-remote-workers-homeowners-uk",
+      "h1Count": 1,
+      "title": "Best Gifts for Gamers & Remote Workers Under £65 | UK Guide",
+      "description": "Explore curated gifts for UK gamers, remote workers and new homeowners under £40 to £65. Choose archival canvas art and XXL desk mats with free UK shipping.",
+      "descriptionLength": 156,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "dual-monitor-ultrawide-desk-setup-mat-sizing-uk",
+      "h1Count": 1,
+      "title": "Dual Monitor & Ultrawide Desk Setup: Best XXL Desk Mat Sizes",
+      "description": "Plan the ideal dual monitor or ultrawide desk setup with XL and XXL desk mats. Discover balanced workstation layouts, cable clearance and free UK shipping.",
+      "descriptionLength": 155,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "how-to-clean-wash-extended-gaming-desk-mat-uk",
+      "h1Count": 1,
+      "title": "How to Clean an Extended Gaming Desk Mat Safely | UK Guide",
+      "description": "Learn how to clean and wash an extended gaming desk mat without fraying stitched edges. Follow our step-by-step washing, drying and care guide for UK desks.",
+      "descriptionLength": 156,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "ikea-karlby-alex-drawer-gaming-desk-setup-mat-guide-uk",
+      "h1Count": 1,
+      "title": "IKEA Karlby & Alex Drawer Desk Setup: XXL Desk Mat Guide",
+      "description": "Build the ultimate IKEA Karlby and Alex drawer desk setup. Discover best-fit XXL desk mat proportions, clean cable routing tips and free tracked UK delivery.",
+      "descriptionLength": 157,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "stretched-canvas-vs-framed-prints-uk-comparison",
+      "h1Count": 1,
+      "title": "Stretched Canvas vs Framed Prints: Glare & Acoustics Guide",
+      "description": "Compare stretched canvas wall art vs framed prints for modern UK rooms. Review glare reduction, durability, acoustic benefits and free tracked UK shipping.",
+      "descriptionLength": 155,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "uk-student-room-rental-flat-decor-guide",
+      "h1Count": 1,
+      "title": "UK Student Room & Rental Flat Decor Guide | Zero-Damage Art",
+      "description": "Decorate UK university student rooms and rented flats without deposit deductions. Explore damage-free canvas hanging, XXL desk mats and free UK shipping.",
+      "descriptionLength": 153,
+      "hasCrosslinkCard": false
+    },
+    {
+      "handle": "mechanical-keyboard-desk-mat-acoustics-sizing-uk-guide",
+      "h1Count": 1,
+      "title": "Mechanical Keyboard Desk Mat Acoustics & Sizing | PWP Guide",
+      "description": "Understand mechanical keyboard desk mat acoustics and sizing. Compare 3mm vs 4mm natural rubber thickness, sound absorption, mouse glide and free delivery.",
+      "descriptionLength": 155,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "cable-management-rgb-routing-desk-mat-uk",
+      "h1Count": 1,
+      "title": "Desk Mat Cable Management & RGB Routing Guide | UK Setups",
+      "description": "Achieve a clean battlestation with our UK desk mat cable management and RGB routing guide. Conceal wires, protect desk surfaces and enjoy free UK shipping.",
+      "descriptionLength": 155,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+      "h1Count": 1,
+      "title": "Desk Mat Thickness Guide: 2mm, 3mm, 4mm & 5mm Compared | PWP",
+      "description": "Compare 2mm, 3mm, 4mm, and 5mm desk mat thicknesses for UK workstations. Evaluate wrist support, keyboard dampening, mouse glide and free UK shipping.",
+      "descriptionLength": 150,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "gallery-wall-grid-vs-salon-hang-spacing-guide-uk",
+      "h1Count": 1,
+      "title": "Gallery Wall Grid vs Salon Hang: Spacing & Sizing | PWP",
+      "description": "Compare gallery wall grid layouts with asymmetric salon hangs. Learn frame spacing, metric sizing rules, wall alignment and get free tracked UK delivery.",
+      "descriptionLength": 153,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "ergonomic-wrist-rest-vs-flat-desk-mat-uk",
+      "h1Count": 1,
+      "title": "Ergonomic Wrist Rest vs Flat Extended Desk Mat: RSI Guide",
+      "description": "Compare ergonomic wrist rests against flat extended desk mats to prevent wrist strain. Discover typing posture tips, 4mm cushioning and free UK shipping.",
+      "descriptionLength": 153,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "home-office-standing-desk-mat-sizing-uk-guide",
+      "h1Count": 1,
+      "title": "Home Office Standing Desk Mat Sizing & Setup Guide | PWP",
+      "description": "Select the ideal desk mat size for UK height-adjustable standing desks. Discover anti-slip rubber base specs, cable routing tips and free tracked delivery.",
+      "descriptionLength": 155,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "gallery-wall-layout-canvas-art-sizing-uk-guide",
+      "h1Count": 1,
+      "title": "Gallery Wall Layout & Canvas Sizing: Eye-Level Rules | PWP",
+      "description": "Plan a striking living room gallery wall with our canvas art sizing guide. Master eye-level placement rules, frame spacing formulas and free UK shipping.",
+      "descriptionLength": 153,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "uk-mouse-pad-vs-extended-desk-mat-gaming-work-guide",
+      "h1Count": 1,
+      "title": "Mouse Pad vs Extended XXL Desk Mat: DPI & Ergonomics Guide",
+      "description": "Compare standard mouse pads with extended XXL desk mats. Discover optical sensor DPI accuracy, wrist ergonomics, surface protection and free UK shipping.",
+      "descriptionLength": 153,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "cloth-vs-glass-desk-mat-mouse-sensor-tracking-uk",
+      "h1Count": 1,
+      "title": "Cloth vs Glass Desk Mats: Mouse Sensor Tracking & DPI Guide",
+      "description": "Compare optical mouse sensor tracking on micro-woven cloth vs glass desk mats. Learn DPI control differences, stopping power, glide and free UK shipping.",
+      "descriptionLength": 153,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "how-to-flatten-rolled-desk-mat-curling-edges-uk",
+      "h1Count": 1,
+      "title": "How to Flatten a Rolled Desk Mat Fast Without Heat Damage",
+      "description": "Learn how to flatten a rolled desk mat fast without heat damage. Eliminate curling edges using reverse rolling and heavy books with our UK setup care tips.",
+      "descriptionLength": 155,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "spill-proof-water-resistant-desk-mat-care-uk",
+      "h1Count": 1,
+      "title": "Spill-Proof & Water-Resistant Desk Mats: Stain Care Guide",
+      "description": "Care for spill-proof and water-resistant extended desk mats. Discover easy methods to clean coffee and drink spills without stains, plus free UK shipping.",
+      "descriptionLength": 154,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "mid-century-modern-home-office-living-room-styling-uk-guide",
+      "h1Count": 1,
+      "title": "Mid-Century Modern Office & Living Room Styling Guide | PWP",
+      "description": "Style a mid-century modern home office and living room. Coordinate warm walnut desks, geometric velvet cushions, XXL mats and archival canvas wall art.",
+      "descriptionLength": 151,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "biophilic-home-office-living-room-styling-guide",
+      "h1Count": 1,
+      "title": "Biophilic Office & Living Room Styling Guide | PWP Studio",
+      "description": "Design a biophilic home office and living room sanctuary. Pair botanical canvas wall art, forest green XXL desk mats and nature decor with free UK shipping.",
+      "descriptionLength": 156,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "japanese-ukiyo-e-asian-art-zen-styling-guide",
+      "h1Count": 1,
+      "title": "Japanese Ukiyo-e & Asian Art Zen Styling Guide | PWP Studio",
+      "description": "Curate a serene sanctuary with Japanese Ukiyo-e and Asian zen decor. Pair traditional woodblock canvas prints, calligraphy desk mats and free UK shipping.",
+      "descriptionLength": 154,
+      "hasCrosslinkCard": true
+    },
+    {
+      "handle": "abstract-minimalist-bauhaus-styling-guide",
+      "h1Count": 1,
+      "title": "Abstract Minimalist & Bauhaus Styling Guide | PWP Studio",
+      "description": "Explore Bauhaus geometric design and abstract minimalist interior styling. Balance modernist canvas wall art with XXL desk mats and free tracked delivery.",
+      "descriptionLength": 154,
+      "hasCrosslinkCard": true
+    }
+  ],
+  "catalogAudit": null,
+  "footerAudit": null,
+  "verdict": "APPROVE"
+}

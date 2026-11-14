@@ -1,0 +1,2491 @@
+{
+  "timestamp": "2026-11-14T15:53:35.125Z",
+  "mode": "dry-run",
+  "options": {
+    "tier": "all",
+    "feature": "all",
+    "pacingMs": 250,
+    "bail": false
+  },
+  "summary": {
+    "total": 245,
+    "passed": 245,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 2.96
+  },
+  "tiers": {
+    "tier1": {
+      "total": 115,
+      "passed": 115,
+      "failed": 0
+    },
+    "tier2": {
+      "total": 115,
+      "passed": 115,
+      "failed": 0
+    },
+    "tier3": {
+      "total": 10,
+      "passed": 10,
+      "failed": 0
+    },
+    "tier4": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0
+    }
+  },
+  "results": [
+    {
+      "testNum": 1,
+      "id": "T1-F01-01",
+      "name": "Homepage Title Length",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 2,
+      "id": "T1-F01-02",
+      "name": "Homepage Title Exact Match",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 3,
+      "id": "T1-F01-03",
+      "name": "Homepage Meta Description Length",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 4,
+      "id": "T1-F01-04",
+      "name": "Homepage Meta Description Plain Text",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 5,
+      "id": "T1-F01-05",
+      "name": "Homepage Meta Description Merch Audit",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 6,
+      "id": "T1-F02-01",
+      "name": "Homepage Semantic H1 Count",
+      "tier": 1,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 7,
+      "id": "T1-F02-02",
+      "name": "Logo Brand Badge Demotion",
+      "tier": 1,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 8,
+      "id": "T1-F02-03",
+      "name": "Commercial H1 Intent",
+      "tier": 1,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 9,
+      "id": "T1-F02-04",
+      "name": "No Nested H1s in Header",
+      "tier": 1,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 10,
+      "id": "T1-F02-05",
+      "name": "H1 Accessibility Visibility",
+      "tier": 1,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 11,
+      "id": "T1-F03-01",
+      "name": "Absence of Leading Slash Concat",
+      "tier": 1,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 12,
+      "id": "T1-F03-02",
+      "name": "Customer Auth Link Target",
+      "tier": 1,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 13,
+      "id": "T1-F03-03",
+      "name": "Customer Auth Link HTTP Status",
+      "tier": 1,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 14,
+      "id": "T1-F03-04",
+      "name": "Header Mobile Auth Link",
+      "tier": 1,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 15,
+      "id": "T1-F03-05",
+      "name": "Header Desktop Auth Link",
+      "tier": 1,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 16,
+      "id": "T1-F04-01",
+      "name": "Homepage Contact Typo Audit",
+      "tier": 1,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 17,
+      "id": "T1-F04-02",
+      "name": "Homepage Correct Email Presence",
+      "tier": 1,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 18,
+      "id": "T1-F04-03",
+      "name": "Delivery Return Page Email Typo",
+      "tier": 1,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 19,
+      "id": "T1-F04-04",
+      "name": "Delivery Return Correct Email",
+      "tier": 1,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 20,
+      "id": "T1-F04-05",
+      "name": "Shop Support Email Settings",
+      "tier": 1,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 21,
+      "id": "T1-F05-01",
+      "name": "Homepage Hub Snippet Presence",
+      "tier": 1,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 22,
+      "id": "T1-F05-02",
+      "name": "48 Sub-Collections on Homepage",
+      "tier": 1,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 23,
+      "id": "T1-F05-03",
+      "name": "Canvas Prints Parent Hub",
+      "tier": 1,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 24,
+      "id": "T1-F05-04",
+      "name": "Desk Mats Parent Hub",
+      "tier": 1,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 25,
+      "id": "T1-F05-05",
+      "name": "Click Depth Assertion",
+      "tier": 1,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 26,
+      "id": "T1-F06-01",
+      "name": "Legacy Dog Collars Deletion",
+      "tier": 1,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 27,
+      "id": "T1-F06-02",
+      "name": "Legacy Laundry Bags Deletion",
+      "tier": 1,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 7,
+      "error": null
+    },
+    {
+      "testNum": 28,
+      "id": "T1-F06-03",
+      "name": "Legacy Clutch Bags Deletion",
+      "tier": 1,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 5,
+      "error": null
+    },
+    {
+      "testNum": 29,
+      "id": "T1-F06-04",
+      "name": "Frontpage Collection Preserved",
+      "tier": 1,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 30,
+      "id": "T1-F06-05",
+      "name": "Zero Legacy Collections in Sitemap",
+      "tier": 1,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 31,
+      "id": "T1-F07-01",
+      "name": "301 Redirect Dog Collars",
+      "tier": 1,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 32,
+      "id": "T1-F07-02",
+      "name": "301 Redirect Posters",
+      "tier": 1,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 33,
+      "id": "T1-F07-03",
+      "name": "301 Redirect Rugs",
+      "tier": 1,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 34,
+      "id": "T1-F07-04",
+      "name": "301 Redirect Mousepads",
+      "tier": 1,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 35,
+      "id": "T1-F07-05",
+      "name": "301 Destination Health",
+      "tier": 1,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 36,
+      "id": "T1-F08-01",
+      "name": "AVADA Sitemap Absence",
+      "tier": 1,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 37,
+      "id": "T1-F08-02",
+      "name": "AVADA Publication Status",
+      "tier": 1,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 6,
+      "error": null
+    },
+    {
+      "testNum": 38,
+      "id": "T1-F08-03",
+      "name": "AVADA Meta Robots Tag",
+      "tier": 1,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 39,
+      "id": "T1-F08-04",
+      "name": "AVADA Internal Link Exclusion",
+      "tier": 1,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 40,
+      "id": "T1-F08-05",
+      "name": "Zero Noindex In Sitemap Rule",
+      "tier": 1,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 41,
+      "id": "T1-F09-01",
+      "name": "Blog Guide Redirect Deletion",
+      "tier": 1,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 42,
+      "id": "T1-F09-02",
+      "name": "Blog Guide HTTP 200",
+      "tier": 1,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 43,
+      "id": "T1-F09-03",
+      "name": "Blog Guide Content Body",
+      "tier": 1,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 44,
+      "id": "T1-F09-04",
+      "name": "Blog Guide Publication State",
+      "tier": 1,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 45,
+      "id": "T1-F09-05",
+      "name": "Blog Guide In Sitemap",
+      "tier": 1,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 46,
+      "id": "T1-F10-01",
+      "name": "Zero %20 in Redirect Targets",
+      "tier": 1,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 5,
+      "error": null
+    },
+    {
+      "testNum": 47,
+      "id": "T1-F10-02",
+      "name": "Zero Unescaped Spaces in Targets",
+      "tier": 1,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 6,
+      "error": null
+    },
+    {
+      "testNum": 48,
+      "id": "T1-F10-03",
+      "name": "Neon Blanket Redirect Cleanliness",
+      "tier": 1,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 6,
+      "error": null
+    },
+    {
+      "testNum": 49,
+      "id": "T1-F10-04",
+      "name": "Abstract Hoodie Redirect Cleanliness",
+      "tier": 1,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 5,
+      "error": null
+    },
+    {
+      "testNum": 50,
+      "id": "T1-F10-05",
+      "name": "All Redirect Targets HTTP 200",
+      "tier": 1,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 5,
+      "error": null
+    },
+    {
+      "testNum": 51,
+      "id": "T1-F11-01",
+      "name": "Active Collections Non-Null Title",
+      "tier": 1,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 52,
+      "id": "T1-F11-02",
+      "name": "Active Collection Title Length",
+      "tier": 1,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 53,
+      "id": "T1-F11-03",
+      "name": "Active Collection Title Min Length",
+      "tier": 1,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 7,
+      "error": null
+    },
+    {
+      "testNum": 54,
+      "id": "T1-F11-04",
+      "name": "No Ellipsis Truncation in Titles",
+      "tier": 1,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 55,
+      "id": "T1-F11-05",
+      "name": "Commercial Substrate Modifier Check",
+      "tier": 1,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 56,
+      "id": "T1-F12-01",
+      "name": "Collection Description Length",
+      "tier": 1,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 57,
+      "id": "T1-F12-02",
+      "name": "Zero &quot; in Collection Description",
+      "tier": 1,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 58,
+      "id": "T1-F12-03",
+      "name": "Zero &amp;quot; in Live Collection HTML",
+      "tier": 1,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 59,
+      "id": "T1-F12-04",
+      "name": "No \"Transform with\" Template Cliché",
+      "tier": 1,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 60,
+      "id": "T1-F12-05",
+      "name": "No \"Elevate with\" Template Cliché",
+      "tier": 1,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 61,
+      "id": "T1-F13-01",
+      "name": "Japanese Anime Desk Mats Plural",
+      "tier": 1,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 62,
+      "id": "T1-F13-02",
+      "name": "Japanese Anime Desk Mats Length",
+      "tier": 1,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 63,
+      "id": "T1-F13-03",
+      "name": "Bauhaus Canvas Wall Art Completeness",
+      "tier": 1,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 64,
+      "id": "T1-F13-04",
+      "name": "Bauhaus Canvas Wall Art Length",
+      "tier": 1,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 65,
+      "id": "T1-F13-05",
+      "name": "Specific Collections Description Sanity",
+      "tier": 1,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 66,
+      "id": "T1-F14-01",
+      "name": "Guide Pages H1 Count",
+      "tier": 1,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 67,
+      "id": "T1-F14-02",
+      "name": "Stretched Canvas Guide H1 Count",
+      "tier": 1,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 68,
+      "id": "T1-F14-03",
+      "name": "All 36 Pages H1 Count Audit",
+      "tier": 1,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 12,
+      "error": null
+    },
+    {
+      "testNum": 69,
+      "id": "T1-F14-04",
+      "name": "Zero &amp; In Heading Text",
+      "tier": 1,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 70,
+      "id": "T1-F14-05",
+      "name": "Inner Body Heading Demoted to H2",
+      "tier": 1,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 71,
+      "id": "T1-F15-01",
+      "name": "36 Pages Title Length",
+      "tier": 1,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 72,
+      "id": "T1-F15-02",
+      "name": "36 Pages Description Length",
+      "tier": 1,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 73,
+      "id": "T1-F15-03",
+      "name": "No Breadcrumb Meta Description",
+      "tier": 1,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 74,
+      "id": "T1-F15-04",
+      "name": "Catalog Hub Links 36 Pages",
+      "tier": 1,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 75,
+      "id": "T1-F15-05",
+      "name": "4 Previously Unindexed Pages Linked",
+      "tier": 1,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 76,
+      "id": "T1-F16-01",
+      "name": "Desk Mat Size Guide Title",
+      "tier": 1,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 77,
+      "id": "T1-F16-02",
+      "name": "25 Blog Articles Title Length",
+      "tier": 1,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 5,
+      "error": null
+    },
+    {
+      "testNum": 78,
+      "id": "T1-F16-03",
+      "name": "25 Blog Articles Meta Description",
+      "tier": 1,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 79,
+      "id": "T1-F16-04",
+      "name": "Links to 8 Uncrawled Articles",
+      "tier": 1,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 80,
+      "id": "T1-F16-05",
+      "name": "Links to 14 Uncrawled Collections",
+      "tier": 1,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 81,
+      "id": "T1-F17-01",
+      "name": "GSC Sitemaps GET Before PUT",
+      "tier": 1,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 82,
+      "id": "T1-F17-02",
+      "name": "Skip Healthy Sitemaps",
+      "tier": 1,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 83,
+      "id": "T1-F17-03",
+      "name": "PUT On Missing Sitemap",
+      "tier": 1,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 84,
+      "id": "T1-F17-04",
+      "name": "PUT On Errored Sitemap",
+      "tier": 1,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 85,
+      "id": "T1-F17-05",
+      "name": "LastSubmitted Preservation",
+      "tier": 1,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 86,
+      "id": "T1-F18-01",
+      "name": "Rotating URL Inspection Batch Size",
+      "tier": 1,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 87,
+      "id": "T1-F18-02",
+      "name": "Inspection API Rate Limiting",
+      "tier": 1,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 217,
+      "error": null
+    },
+    {
+      "testNum": 88,
+      "id": "T1-F18-03",
+      "name": "Coverage State Logging",
+      "tier": 1,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 203,
+      "error": null
+    },
+    {
+      "testNum": 89,
+      "id": "T1-F18-04",
+      "name": "Indexing Ratio Calculation",
+      "tier": 1,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 204,
+      "error": null
+    },
+    {
+      "testNum": 90,
+      "id": "T1-F18-05",
+      "name": "Rotating Cursor Advancement",
+      "tier": 1,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 91,
+      "id": "T1-F19-01",
+      "name": "Title Under 60 Chars Function",
+      "tier": 1,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 92,
+      "id": "T1-F19-02",
+      "name": "Word-Boundary Preservation",
+      "tier": 1,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 93,
+      "id": "T1-F19-03",
+      "name": "Trailing Punctuation Stripping",
+      "tier": 1,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 94,
+      "id": "T1-F19-04",
+      "name": "Collection Category Plural Guard",
+      "tier": 1,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 95,
+      "id": "T1-F19-05",
+      "name": "14-Day Cooldown Check",
+      "tier": 1,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 96,
+      "id": "T1-F20-01",
+      "name": "Lint Gate Entity Detection",
+      "tier": 1,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 97,
+      "id": "T1-F20-02",
+      "name": "Lint Gate Grammar Detection",
+      "tier": 1,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 98,
+      "id": "T1-F20-03",
+      "name": "Lint Gate Truncated Title Detection",
+      "tier": 1,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 99,
+      "id": "T1-F20-04",
+      "name": "Lint Gate 0-Product Detection",
+      "tier": 1,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 100,
+      "id": "T1-F20-05",
+      "name": "Clean Catalog Pass",
+      "tier": 1,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 101,
+      "id": "T1-F21-01",
+      "name": "E2E Runner Invocation",
+      "tier": 1,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 182,
+      "error": null
+    },
+    {
+      "testNum": 102,
+      "id": "T1-F21-02",
+      "name": "CLI Flag --tier=1",
+      "tier": 1,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 103,
+      "id": "T1-F21-03",
+      "name": "CLI Flag --feature=21",
+      "tier": 1,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 191,
+      "error": null
+    },
+    {
+      "testNum": 104,
+      "id": "T1-F21-04",
+      "name": "CLI Flag --json",
+      "tier": 1,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 193,
+      "error": null
+    },
+    {
+      "testNum": 105,
+      "id": "T1-F21-05",
+      "name": "CLI Flag --verbose",
+      "tier": 1,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 207,
+      "error": null
+    },
+    {
+      "testNum": 106,
+      "id": "T1-F22-01",
+      "name": "Graceful Timeout Handling",
+      "tier": 1,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 107,
+      "id": "T1-F22-02",
+      "name": "Shopify 429 Backoff",
+      "tier": 1,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 108,
+      "id": "T1-F22-03",
+      "name": "Malformed HTML Handling",
+      "tier": 1,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 109,
+      "id": "T1-F22-04",
+      "name": "Unicode Punctuation Handling",
+      "tier": 1,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 110,
+      "id": "T1-F22-05",
+      "name": "Pacing Concurrency Throttle",
+      "tier": 1,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 111,
+      "id": "T1-F23-01",
+      "name": "Git Working Tree Cleanliness",
+      "tier": 1,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 114,
+      "error": null
+    },
+    {
+      "testNum": 112,
+      "id": "T1-F23-02",
+      "name": "Commit Message Convention",
+      "tier": 1,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 113,
+      "id": "T1-F23-03",
+      "name": "Remote Branch Alignment",
+      "tier": 1,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 91,
+      "error": null
+    },
+    {
+      "testNum": 114,
+      "id": "T1-F23-04",
+      "name": "GitHub Workflow Success",
+      "tier": 1,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 115,
+      "id": "T1-F23-05",
+      "name": "Walkthrough Documentation Updated",
+      "tier": 1,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 116,
+      "id": "T2-F01-01",
+      "name": "Homepage Title Exact 60 Chars Boundary",
+      "tier": 2,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 117,
+      "id": "T2-F01-02",
+      "name": "Homepage Title 61 Chars Boundary Rejection",
+      "tier": 2,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 118,
+      "id": "T2-F01-03",
+      "name": "Homepage Meta Description 139 Chars Boundary Underflow",
+      "tier": 2,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 119,
+      "id": "T2-F01-04",
+      "name": "Homepage Meta Description Exact 158 Chars Boundary Upper Limit",
+      "tier": 2,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 120,
+      "id": "T2-F01-05",
+      "name": "Homepage Meta Description 159 Chars Boundary Overflow",
+      "tier": 2,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 121,
+      "id": "T2-F02-01",
+      "name": "Zero H1 Elements Boundary Detection",
+      "tier": 2,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 122,
+      "id": "T2-F02-02",
+      "name": "Three H1 Elements Boundary Detection",
+      "tier": 2,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 123,
+      "id": "T2-F02-03",
+      "name": "H1 Tag with Nested SVG/Span Markup",
+      "tier": 2,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 124,
+      "id": "T2-F02-04",
+      "name": "H1 Hidden with Inline CSS display:none",
+      "tier": 2,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 125,
+      "id": "T2-F02-05",
+      "name": "H1 with HTML Entity in Title",
+      "tier": 2,
+      "feature": 2,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 126,
+      "id": "T2-F03-01",
+      "name": "Auth Link with Multiple Leading Slashes",
+      "tier": 2,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 127,
+      "id": "T2-F03-02",
+      "name": "Auth Link with Query Parameters",
+      "tier": 2,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 128,
+      "id": "T2-F03-03",
+      "name": "Protocol-Relative Auth Link Structure",
+      "tier": 2,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 129,
+      "id": "T2-F03-04",
+      "name": "Auth Link with Trailing Slash",
+      "tier": 2,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 130,
+      "id": "T2-F03-05",
+      "name": "Internationalized Auth Link Subfolder",
+      "tier": 2,
+      "feature": 3,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 131,
+      "id": "T2-F04-01",
+      "name": "Quad-S Email Typo Boundary Detection",
+      "tier": 2,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 132,
+      "id": "T2-F04-02",
+      "name": "Mixed Case Email Normalization",
+      "tier": 2,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 133,
+      "id": "T2-F04-03",
+      "name": "Email in JSON-LD Schema Inspection",
+      "tier": 2,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 134,
+      "id": "T2-F04-04",
+      "name": "Email in Anchor Title or Alt Attributes",
+      "tier": 2,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 135,
+      "id": "T2-F04-05",
+      "name": "Encoded Mailto Link Decoding",
+      "tier": 2,
+      "feature": 4,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 136,
+      "id": "T2-F05-01",
+      "name": "Sub-Collection with 0 Products Guard",
+      "tier": 2,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 137,
+      "id": "T2-F05-02",
+      "name": "Sub-Collection with Long Handle (50+ chars)",
+      "tier": 2,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 138,
+      "id": "T2-F05-03",
+      "name": "Hub Snippet Included Twice in Layout Deduplication",
+      "tier": 2,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 139,
+      "id": "T2-F05-04",
+      "name": "Hub Snippet on Pagination Page 2",
+      "tier": 2,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 140,
+      "id": "T2-F05-05",
+      "name": "Hub Links Missing Leading Slash Guard",
+      "tier": 2,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 141,
+      "id": "T2-F06-01",
+      "name": "Collection Already Deleted Handled Gracefully",
+      "tier": 2,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 142,
+      "id": "T2-F06-02",
+      "name": "Collection with Active Inventory Halts Deletion",
+      "tier": 2,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 143,
+      "id": "T2-F06-03",
+      "name": "Frontpage Collection Deletion Attempt Skipped",
+      "tier": 2,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 144,
+      "id": "T2-F06-04",
+      "name": "Collection ID Malformed Handled Gracefully",
+      "tier": 2,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 145,
+      "id": "T2-F06-05",
+      "name": "Concurrent Collection Deletion Pacing",
+      "tier": 2,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 146,
+      "id": "T2-F07-01",
+      "name": "Redirect Source with Query String",
+      "tier": 2,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 147,
+      "id": "T2-F07-02",
+      "name": "Redirect Target Same as Source Circular Loop Guard",
+      "tier": 2,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 148,
+      "id": "T2-F07-03",
+      "name": "Redirect Chain Detection (A -> B -> C)",
+      "tier": 2,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 149,
+      "id": "T2-F07-04",
+      "name": "Redirect Case Sensitivity Normalization",
+      "tier": 2,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 150,
+      "id": "T2-F07-05",
+      "name": "Redirect on Deactivated Subfolder",
+      "tier": 2,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 151,
+      "id": "T2-F08-01",
+      "name": "AVADA Collection Re-Published by App Detection",
+      "tier": 2,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 152,
+      "id": "T2-F08-02",
+      "name": "AVADA Collection Visited Directly Serves Noindex",
+      "tier": 2,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 153,
+      "id": "T2-F08-03",
+      "name": "AVADA Collection in Custom Menu Flagged",
+      "tier": 2,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 154,
+      "id": "T2-F08-04",
+      "name": "Multiple Publications Active Check",
+      "tier": 2,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 155,
+      "id": "T2-F08-05",
+      "name": "AVADA Collection with 0 Products Handled Cleanly",
+      "tier": 2,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 156,
+      "id": "T2-F09-01",
+      "name": "Blog Guide URL with Trailing Slash",
+      "tier": 2,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 157,
+      "id": "T2-F09-02",
+      "name": "Blog Article Tag Filtering URL",
+      "tier": 2,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 158,
+      "id": "T2-F09-03",
+      "name": "Blog Article Re-Added to Redirects Blocked",
+      "tier": 2,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 159,
+      "id": "T2-F09-04",
+      "name": "Blog Article Body with Raw Markdown Flagged",
+      "tier": 2,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 160,
+      "id": "T2-F09-05",
+      "name": "Blog Article Unpublished State Alert",
+      "tier": 2,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 161,
+      "id": "T2-F10-01",
+      "name": "Target with Multiple Consecutive %20",
+      "tier": 2,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 162,
+      "id": "T2-F10-02",
+      "name": "Target with Mixed Escaped and Raw Spaces",
+      "tier": 2,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 163,
+      "id": "T2-F10-03",
+      "name": "Target with %2F Encoded Slashes",
+      "tier": 2,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 164,
+      "id": "T2-F10-04",
+      "name": "Target with Hash Anchor Preserved",
+      "tier": 2,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 165,
+      "id": "T2-F10-05",
+      "name": "Target with Non-Ascii Unicode Characters",
+      "tier": 2,
+      "feature": 10,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 166,
+      "id": "T2-F11-01",
+      "name": "Title with Exactly 60 Characters Accepted",
+      "tier": 2,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 167,
+      "id": "T2-F11-02",
+      "name": "Title with Exactly 29 Characters Flagged",
+      "tier": 2,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 168,
+      "id": "T2-F11-03",
+      "name": "Title with Double Quotes Counting",
+      "tier": 2,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 169,
+      "id": "T2-F11-04",
+      "name": "Title with Em Dash and Multiplier Unicode Chars",
+      "tier": 2,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 170,
+      "id": "T2-F11-05",
+      "name": "Title with All Uppercase Text Flagged",
+      "tier": 2,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 171,
+      "id": "T2-F12-01",
+      "name": "Description with Exactly 140 Characters Lower Boundary",
+      "tier": 2,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 172,
+      "id": "T2-F12-02",
+      "name": "Description with Exactly 158 Characters Upper Boundary",
+      "tier": 2,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 173,
+      "id": "T2-F12-03",
+      "name": "Description with Metric & Imperial Units Rendering",
+      "tier": 2,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 174,
+      "id": "T2-F12-04",
+      "name": "Description Ending Without Punctuation Flagged",
+      "tier": 2,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 175,
+      "id": "T2-F12-05",
+      "name": "Description with Non-Breaking Space Normalized",
+      "tier": 2,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 176,
+      "id": "T2-F13-01",
+      "name": "Japanese Anime Desk Mats Singularity Caught",
+      "tier": 2,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 177,
+      "id": "T2-F13-02",
+      "name": "Bauhaus Canvas Delimiter Cut Stripped",
+      "tier": 2,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 178,
+      "id": "T2-F13-03",
+      "name": "Specific Collection Description 139 Chars Flagged",
+      "tier": 2,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 179,
+      "id": "T2-F13-04",
+      "name": "Specific Collection Description 159 Chars Flagged",
+      "tier": 2,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 180,
+      "id": "T2-F13-05",
+      "name": "Re-running Title Rewriter on Bauhaus Cooldown Respected",
+      "tier": 2,
+      "feature": 13,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 181,
+      "id": "T2-F14-01",
+      "name": "Page with Nested H1 inside Article/Section Converted to H2",
+      "tier": 2,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 182,
+      "id": "T2-F14-02",
+      "name": "Page with H1 having HTML Attributes Converted Preserving Attrs",
+      "tier": 2,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 183,
+      "id": "T2-F14-03",
+      "name": "Page with Self-Closing or Malformed H1 Handled",
+      "tier": 2,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 184,
+      "id": "T2-F14-04",
+      "name": "Page with Ampersand in H1 Text Double Escape Prevention",
+      "tier": 2,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 185,
+      "id": "T2-F14-05",
+      "name": "Page with Multiple H1s Converted to H2s in Order",
+      "tier": 2,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 186,
+      "id": "T2-F15-01",
+      "name": "Page Description 144 Chars Boundary Flagged",
+      "tier": 2,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 187,
+      "id": "T2-F15-02",
+      "name": "Page Description 158 Chars Accepted",
+      "tier": 2,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 188,
+      "id": "T2-F15-03",
+      "name": "Page with Missing Meta Description Flagged",
+      "tier": 2,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 189,
+      "id": "T2-F15-04",
+      "name": "Page Title with Exactly 60 Chars Accepted",
+      "tier": 2,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 190,
+      "id": "T2-F15-05",
+      "name": "Catalog Hub Linking Self Handled Cleanly",
+      "tier": 2,
+      "feature": 15,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 191,
+      "id": "T2-F16-01",
+      "name": "Blog Title Ending in Incomplete Word Caught",
+      "tier": 2,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 192,
+      "id": "T2-F16-02",
+      "name": "Blog Title with Parentheses at 60 Chars Safe",
+      "tier": 2,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 193,
+      "id": "T2-F16-03",
+      "name": "Blog Post with 0 Outbound Links Flagged",
+      "tier": 2,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 194,
+      "id": "T2-F16-04",
+      "name": "Blog Post Linking 404 URL Caught",
+      "tier": 2,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 195,
+      "id": "T2-F16-05",
+      "name": "Reciprocal Linking Between 2 Articles Verified",
+      "tier": 2,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 196,
+      "id": "T2-F17-01",
+      "name": "GSC Sitemaps API Returns 403 Forbidden Handled",
+      "tier": 2,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 197,
+      "id": "T2-F17-02",
+      "name": "GSC Sitemaps API Returns Empty List",
+      "tier": 2,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 198,
+      "id": "T2-F17-03",
+      "name": "Sitemap URL with Encoded Parameters Handled",
+      "tier": 2,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 199,
+      "id": "T2-F17-04",
+      "name": "GSC Returns Warning Status Handled",
+      "tier": 2,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 200,
+      "id": "T2-F17-05",
+      "name": "Daily Execution Timing Idempotency",
+      "tier": 2,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 201,
+      "id": "T2-F18-01",
+      "name": "URL Inspection Returns 404 in Index Recorded",
+      "tier": 2,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 202,
+      "id": "T2-F18-02",
+      "name": "URL Inspection Quota Exceeded (429) Handled",
+      "tier": 2,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 203,
+      "id": "T2-F18-03",
+      "name": "URL with Non-Standard Google Canonical Flagged",
+      "tier": 2,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 204,
+      "id": "T2-F18-04",
+      "name": "Inspection Queue Reaches End Wraps Around",
+      "tier": 2,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 205,
+      "id": "T2-F18-05",
+      "name": "Inspection Target Not in Sitemap Alerted",
+      "tier": 2,
+      "feature": 18,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 206,
+      "id": "T2-F19-01",
+      "name": "Input Title Exactly 60 Chars Unmodified",
+      "tier": 2,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 207,
+      "id": "T2-F19-02",
+      "name": "Input Title 61 Chars with Long Last Word Safe Break",
+      "tier": 2,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 208,
+      "id": "T2-F19-03",
+      "name": "Input Title with No Spaces (Single Token) Safe Slice",
+      "tier": 2,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 209,
+      "id": "T2-F19-04",
+      "name": "Input with HTML Entities Decoded Before Measuring",
+      "tier": 2,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 210,
+      "id": "T2-F19-05",
+      "name": "Input with Punctuation at Boundary Stripped",
+      "tier": 2,
+      "feature": 19,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 211,
+      "id": "T2-F20-01",
+      "name": "Lint Gate Empty String in Description Caught",
+      "tier": 2,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 212,
+      "id": "T2-F20-02",
+      "name": "Lint Gate Single Product Collection Flagged for Growth",
+      "tier": 2,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 213,
+      "id": "T2-F20-03",
+      "name": "Lint Gate AI Cliche in Title Caught",
+      "tier": 2,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 214,
+      "id": "T2-F20-04",
+      "name": "Lint Gate Special Trademark in Handle Flagged",
+      "tier": 2,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 215,
+      "id": "T2-F20-05",
+      "name": "Lint Gate Large Catalog Batch Pagination",
+      "tier": 2,
+      "feature": 20,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 216,
+      "id": "T2-F21-01",
+      "name": "E2E Runner with Non-Existent Tier Rejection",
+      "tier": 2,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 201,
+      "error": null
+    },
+    {
+      "testNum": 217,
+      "id": "T2-F21-02",
+      "name": "E2E Runner with Non-Existent Feature Rejection",
+      "tier": 2,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 206,
+      "error": null
+    },
+    {
+      "testNum": 218,
+      "id": "T2-F21-03",
+      "name": "E2E Runner with --bail Flag Behavior",
+      "tier": 2,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 252,
+      "error": null
+    },
+    {
+      "testNum": 219,
+      "id": "T2-F21-04",
+      "name": "E2E Runner Offline Mode Completes Without Network",
+      "tier": 2,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 244,
+      "error": null
+    },
+    {
+      "testNum": 220,
+      "id": "T2-F21-05",
+      "name": "E2E Runner Report Path Missing Directory Creation",
+      "tier": 2,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 221,
+      "id": "T2-F22-01",
+      "name": "Network Socket Reset Retries Up to 3 Times",
+      "tier": 2,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 222,
+      "id": "T2-F22-02",
+      "name": "Shopify 503 Service Unavailable Backoff",
+      "tier": 2,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 223,
+      "id": "T2-F22-03",
+      "name": "Response Body Exceeding 10MB Bounded",
+      "tier": 2,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 224,
+      "id": "T2-F22-04",
+      "name": "HTTP 301 Redirect Loop Aborted After 5 Hops",
+      "tier": 2,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 225,
+      "id": "T2-F22-05",
+      "name": "Malformed JSON in GraphQL Error Logged Cleanly",
+      "tier": 2,
+      "feature": 22,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 226,
+      "id": "T2-F23-01",
+      "name": "Git Push Rejected Non-Fast-Forward Rebase Recovery",
+      "tier": 2,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 227,
+      "id": "T2-F23-02",
+      "name": "GitHub CLI Not Authenticated Error Message",
+      "tier": 2,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 228,
+      "id": "T2-F23-03",
+      "name": "Workflow Execution Timeout Limits Respected",
+      "tier": 2,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 229,
+      "id": "T2-F23-04",
+      "name": "Dirty Files in Submodule Cleared",
+      "tier": 2,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 230,
+      "id": "T2-F23-05",
+      "name": "Branch Mismatch in CI Trigger Blocked",
+      "tier": 2,
+      "feature": 23,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 231,
+      "id": "T3-PAIR-01",
+      "name": "Legacy Collection Deletion with Pre-Established 301 Redirects",
+      "tier": 3,
+      "feature": 6,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 232,
+      "id": "T3-PAIR-02",
+      "name": "Unpublishing AVADA Collection vs GSC Sitemap Idempotency",
+      "tier": 3,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "testNum": 233,
+      "id": "T3-PAIR-03",
+      "name": "Legacy 301 Redirect Collision Resolution on Published Blog Guide",
+      "tier": 3,
+      "feature": 9,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 234,
+      "id": "T3-PAIR-04",
+      "name": "Rewriting Collection Titles with Boundary Safe Truncator & Plural Guard",
+      "tier": 3,
+      "feature": 11,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    },
+    {
+      "testNum": 235,
+      "id": "T3-PAIR-05",
+      "name": "Rewritten Collection Descriptions Pass Storewide SEO Lint Gate",
+      "tier": 3,
+      "feature": 12,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 236,
+      "id": "T3-PAIR-06",
+      "name": "Curated Studio Hub Links Match Canonical Repaired Handles with Zero Hops",
+      "tier": 3,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 237,
+      "id": "T3-PAIR-07",
+      "name": "Page Inner H1 Demotion Combined with Page SEO Metadata & Hub Linking",
+      "tier": 3,
+      "feature": 14,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 238,
+      "id": "T3-PAIR-08",
+      "name": "Contextual Internal Links in Articles Resolve to Active Curated Hub Collections",
+      "tier": 3,
+      "feature": 16,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    },
+    {
+      "testNum": 239,
+      "id": "T3-PAIR-09",
+      "name": "Full Integrated Homepage Theme Overhaul Verification",
+      "tier": 3,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 240,
+      "id": "T3-PAIR-10",
+      "name": "Combined Cloud Sync Sitemap Verification and Rotating URL Inspection",
+      "tier": 3,
+      "feature": 17,
+      "pass": true,
+      "durationMs": 104,
+      "error": null
+    },
+    {
+      "testNum": 241,
+      "id": "T4-SCEN-01",
+      "name": "Googlebot Smartphone Discovery Crawl Simulation",
+      "tier": 4,
+      "feature": 21,
+      "pass": true,
+      "durationMs": 7,
+      "error": null
+    },
+    {
+      "testNum": 242,
+      "id": "T4-SCEN-02",
+      "name": "Google Search SERP Snippet Preview Simulation",
+      "tier": 4,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 243,
+      "id": "T4-SCEN-03",
+      "name": "Googlebot Discontinued URL Prune Simulation",
+      "tier": 4,
+      "feature": 7,
+      "pass": true,
+      "durationMs": 14,
+      "error": null
+    },
+    {
+      "testNum": 244,
+      "id": "T4-SCEN-04",
+      "name": "Human Shopper Live Storefront Navigation Journey",
+      "tier": 4,
+      "feature": 5,
+      "pass": true,
+      "durationMs": 2,
+      "error": null
+    },
+    {
+      "testNum": 245,
+      "id": "T4-SCEN-05",
+      "name": "Full Sitemap XML Schema & Entity Validation",
+      "tier": 4,
+      "feature": 8,
+      "pass": true,
+      "durationMs": 1,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-11-14T14:24:27.721Z",
+  "overallVerdict": "APPROVE",
+  "allSensitive": true,
+  "allFixturesRestored": true,
+  "scenariosTestedCount": 10,
+  "scenariosPassedCount": 10,
+  "results": [
+    {
+      "scenarioId": "MUT-01",
+      "name": "Extra H1 Tag in Homepage HTML DOM",
+      "feature": "F2",
+      "expectedFailingTest": "T1-F02-01",
+      "mutateExitCode": 1,
+      "notOkCount": 2,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    },
+    {
+      "scenarioId": "MUT-02",
+      "name": "Malformed Customer Auth URL with Leading Slash Concat",
+      "feature": "F3",
+      "expectedFailingTest": "T1-F03-01",
+      "mutateExitCode": 1,
+      "notOkCount": 2,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    },
+    {
+      "scenarioId": "MUT-03",
+      "name": "Quadruple-s Contact Email Typo on Homepage",
+      "feature": "F4",
+      "expectedFailingTest": "T1-F04-01",
+      "mutateExitCode": 1,
+      "notOkCount": 2,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    },
+    {
+      "scenarioId": "MUT-04",
+      "name": "Curated Collections Hub Snippet Removed from Homepage",
+      "feature": "F5",
+      "expectedFailingTest": "T1-F05-01",
+      "mutateExitCode": 1,
+      "notOkCount": 1,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    },
+    {
+      "scenarioId": "MUT-05",
+      "name": "Literal %20 Encoded Space in Shopify Redirect Target",
+      "feature": "F10",
+      "expectedFailingTest": "T1-F10-01",
+      "mutateExitCode": 1,
+      "notOkCount": 1,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    },
+    {
+      "scenarioId": "MUT-06",
+      "name": "Collection Description Length Underflow (<140 chars)",
+      "feature": "F12",
+      "expectedFailingTest": "T1-F12-01",
+      "mutateExitCode": 1,
+      "notOkCount": 1,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    },
+    {
+      "scenarioId": "MUT-07",
+      "name": "Unescaped &quot; HTML Entity in Collection Description",
+      "feature": "F12",
+      "expectedFailingTest": "T1-F12-02",
+      "mutateExitCode": 1,
+      "notOkCount": 2,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    },
+    {
+      "scenarioId": "MUT-08",
+      "name": "Ellipsis Truncation in Collection Title in Catalog JSON",
+      "feature": "F11",
+      "expectedFailingTest": "T1-F11-04",
+      "mutateExitCode": 1,
+      "notOkCount": 1,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    },
+    {
+      "scenarioId": "MUT-09",
+      "name": "Pillar Page Meta Description Underflow (<145 chars)",
+      "feature": "F15",
+      "expectedFailingTest": "T1-F15-02",
+      "mutateExitCode": 1,
+      "notOkCount": 1,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    },
+    {
+      "scenarioId": "MUT-10",
+      "name": "Delisted AVADA Collection Leaked into Sitemap XML",
+      "feature": "Tier 4 Scenario 5",
+      "expectedFailingTest": "T4-SCEN-05",
+      "mutateExitCode": 1,
+      "notOkCount": 1,
+      "caughtTarget": true,
+      "cleanExitCode": 0,
+      "cleanPassed": true,
+      "sensitive": true
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "sections": {
+    "1586280477165": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "home_builder_HhUtjg": {
+      "type": "home-builder",
+      "blocks": {
+        "pwp_curatorial_hero": {
+          "type": "custom_html",
+          "settings": {
+            "page_content": "",
+            "liquid": "{%- assign pwp_country = localization.country.iso_code | default: 'US' -%}\n{%- assign pwp_country_name = localization.country.name | default: 'United States' -%}\n{%- assign pwp_currency = cart.currency.iso_code | default: shop.currency -%}\n{%- assign p_canvas = all_products['majestic-alpine-peak-misty-valley-stretched-canvas-wall-art'] -%}\n{%- assign p_throw = all_products['majestic-alpine-peak-misty-valley-plush-throw-blanket'] -%}\n{%- assign p_cushion = all_products['majestic-alpine-peak-misty-valley-square-cushion-cover'] -%}\n{%- assign pwp_use_metric = false -%}\n{%- if pwp_country == 'DE' or pwp_country == 'FR' or pwp_country == 'ES' or pwp_country == 'IT' or pwp_country == 'NL' or pwp_country == 'CH' or pwp_country == 'AT' or pwp_country == 'BE' or pwp_country == 'PL' or pwp_country == 'SE' or pwp_country == 'DK' or pwp_country == 'FI' or pwp_country == 'PT' -%}\n  {%- assign pwp_use_metric = true -%}\n{%- endif -%}\n{%- capture pwp_canvas_dim -%}{%- if pwp_use_metric -%}60 × 40 cm{%- else -%}24″ × 16″{%- endif -%}{%- endcapture -%}\n{%- capture pwp_throw_dim -%}{%- if pwp_use_metric -%}130 × 150 cm{%- else -%}50″ × 60″{%- endif -%}{%- endcapture -%}\n{%- capture pwp_cushion_dim -%}{%- if pwp_use_metric -%}40 × 40 cm{%- else -%}16″ × 16″{%- endif -%}{%- endcapture -%}\n{%- capture pwp_studio_badge -%}\n  {%- case pwp_country -%}\n    {%- when 'GB' -%}🇬🇧 UK Studio Edition &middot; Printed Locally in the UK &middot; 3–5 Day Free Tracked Delivery ({{ pwp_currency }})\n    {%- when 'US' -%}🇺🇸 US Studio Edition &middot; Printed Locally in the USA &middot; 4–7 Day Free Tracked Delivery ({{ pwp_currency }})\n    {%- when 'CA' -%}🇨🇦 Canada Studio Edition &middot; Printed Locally in Canada &middot; 4–8 Day Free Tracked Delivery ({{ pwp_currency }})\n    {%- when 'AU' or 'NZ' -%}🇦🇺 Australia Studio Edition &middot; Local Regional Production &middot; 4–8 Day Free Delivery ({{ pwp_currency }})\n    {%- when 'CH' -%}🇨🇭 Switzerland Edition &middot; Priority Tracked Delivery to {{ pwp_country_name }} ({{ pwp_currency }})\n    {%- else -%}🇪🇺 {{ pwp_country_name }} Edition &middot; Local Regional Print Studio &middot; 4–7 Day Free Tracked Delivery ({{ pwp_currency }})\n  {%- endcase -%}\n{%- endcapture -%}\n{%- capture pwp_delivery_window -%}\n  {%- case pwp_country -%}\n    {%- when 'GB' -%}3–5 Days\n    {%- when 'US' -%}4–7 Days\n    {%- else -%}4–8 Days\n  {%- endcase -%}\n{%- endcapture -%}\n<section class=\"pwp-gallery-hero\" aria-label=\"Featured Exhibition & Curatorial Stage\" data-pwp-country=\"{{ pwp_country }}\" data-pwp-currency=\"{{ pwp_currency }}\" data-pwp-metric=\"{{ pwp_use_metric }}\">\n  <div class=\"pwp-gallery-hero__container\">\n    <div class=\"pwp-gallery-hero__grid\">\n      <!-- Left Column: Editorial Gallery Minimalist Copy & Fitts's Law CTAs -->\n      <div class=\"pwp-gallery-hero__copy\">\n        <div id=\"pwp-geo-studio-badge\" class=\"pwp-geo-studio-pill\">\n          {{ pwp_studio_badge | strip }}\n        <\/div>\n        <h1 class=\"pwp-gallery-hero__title\">Art built for quiet rooms<\/h1>\n        <p class=\"pwp-gallery-hero__lead\">\n          Museum-grade 400gsm cotton canvas, extended desk mats, and woven home textiles—printed to order with archival 12-color pigment inks across our UK, US, Canadian, and European studios.\n        <\/p>\n        <div class=\"pwp-gallery-hero__cta-row\">\n          <a href=\"#shopify-section-1586282516064\" class=\"pwp-btn-primary\">Explore Curated Works<\/a>\n          <a href=\"\/collections\/canvas-prints\" class=\"pwp-btn-secondary\">Shop Canvas Wall Art<\/a>\n        <\/div>\n        <div class=\"pwp-gallery-hero__specs\">\n          <div>\n            <span class=\"pwp-spec-val\">400 gsm<\/span>\n            <span class=\"pwp-spec-lbl\">Archival Cotton-Poly Canvas<\/span>\n          <\/div>\n          <div>\n            <span id=\"pwp-spec-delivery-days\" class=\"pwp-spec-val\">{{ pwp_delivery_window | strip }}<\/span>\n            <span id=\"pwp-spec-delivery-region\" class=\"pwp-spec-lbl\">Tracked Local Studio ({{ pwp_country }})<\/span>\n          <\/div>\n          <div>\n            <span class=\"pwp-spec-val\">Free<\/span>\n            <span class=\"pwp-spec-lbl\">Shipping &amp; 14-Day Returns<\/span>\n          <\/div>\n        <\/div>\n      <\/div>\n\n      <!-- Right Column: Curatorial Split-Curtain, 3x Optical Weave Loupe & 3-Substrate Suite -->\n      <div class=\"pwp-gallery-hero__stage\">\n        <div class=\"pwp-curatorial-box\">\n          <div class=\"pwp-curatorial-top\">\n            <div class=\"pwp-plaque-meta\">\n              <strong id=\"pwp-hero-plaque-title\">Plate I · Stretched Canvas ({{ pwp_canvas_dim }})<\/strong>\n              <span id=\"pwp-hero-plaque-bp\">BP #1159 · {{ p_canvas.price | default: 5799 | money }}<\/span>\n            <\/div>\n            <div class=\"pwp-mode-pills\" role=\"group\" aria-label=\"Inspection Mode\">\n              <button type=\"button\" class=\"pwp-mode-chip is-active\" data-pwp-mode=\"split\">50\/50 Split Curtain<\/button>\n              <button type=\"button\" class=\"pwp-mode-chip\" data-pwp-mode=\"room\">In-Room Scale<\/button>\n              <button type=\"button\" class=\"pwp-mode-chip\" data-pwp-mode=\"studio\">Studio Print<\/button>\n              <button type=\"button\" class=\"pwp-mode-chip\" data-pwp-mode=\"loupe\">🔍 3× Weave Loupe<\/button>\n            <\/div>\n          <\/div>\n\n          <div id=\"pwp-hero-stage-frame\" class=\"pwp-stage-frame\" style=\"--pwp-split: 52%;\">\n            <div class=\"pwp-stage-layer pwp-stage-layer--room\">\n              <img\n                id=\"pwp-hero-img-room\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=1200\"\n                srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=600 600w, https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=900 900w, https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=1400 1400w\"\n                sizes=\"(max-width: 767px) 96vw, (max-width: 1200px) 92vw, 720px\"\n                alt=\"Majestic Alpine Peak & Misty Valley — In-Room Scale View\"\n                fetchpriority=\"high\"\n                decoding=\"async\"\n                width=\"1200\"\n                height=\"800\"\n              >\n            <\/div>\n            <div id=\"pwp-hero-layer-front\" class=\"pwp-stage-layer pwp-stage-layer--front\">\n              <img\n                id=\"pwp-hero-img-front\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-front.jpg?v=1793315311&width=1200\"\n                srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-front.jpg?v=1793315311&width=600 600w, https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-front.jpg?v=1793315311&width=900 900w, https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-front.jpg?v=1793315311&width=1400 1400w\"\n                sizes=\"(max-width: 767px) 96vw, (max-width: 1200px) 92vw, 720px\"\n                alt=\"Majestic Alpine Peak & Misty Valley — Studio Print Detail View\"\n                fetchpriority=\"high\"\n                decoding=\"async\"\n                width=\"1200\"\n                height=\"800\"\n              >\n            <\/div>\n\n            <div id=\"pwp-hero-split-handle\" class=\"pwp-split-handle\" role=\"slider\" aria-label=\"Compare In-Room Scale and Studio Print Detail\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"52\" tabindex=\"0\">\n              <div class=\"pwp-split-knob\">↔<\/div>\n            <\/div>\n\n            <span id=\"pwp-hero-tag-left\" class=\"pwp-corner-tag pwp-corner-tag--left\">In-Room Scale<\/span>\n            <span id=\"pwp-hero-tag-right\" class=\"pwp-corner-tag pwp-corner-tag--right\">Studio Print Detail<\/span>\n\n            <div id=\"pwp-hero-loupe-lens\" class=\"pwp-loupe-lens\" data-loupe-bg=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-front.jpg?v=1793315311&width=2048\">\n              <span class=\"pwp-loupe-label\">3.0× Archival Pigment &amp; Weave Detail<\/span>\n            <\/div>\n          <\/div>\n\n          <div class=\"pwp-curatorial-bottom\">\n            <div class=\"pwp-suite-header\">\n              <span class=\"pwp-suite-caption\">Curated Room Suite · Preview “Majestic Alpine Peak” Across 3 Matching Mediums:<\/span>\n              <span id=\"pwp-hero-modality-hint\" class=\"pwp-suite-hint\">Drag slider above or select a substrate below<\/span>\n            <\/div>\n            <div class=\"pwp-suite-grid\" role=\"group\" aria-label=\"Switch Artwork Substrate\">\n              <button\n                type=\"button\"\n                class=\"pwp-suite-btn is-active\"\n                data-pwp-suite=\"canvas\"\n                data-title=\"Plate I · Stretched Canvas ({{ pwp_canvas_dim }})\"\n                data-bp=\"BP #1159 · {{ p_canvas.price | default: 5799 | money }}\"\n                data-room=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313\"\n                data-front=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-front.jpg?v=1793315311\"\n                data-url=\"\/products\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art\"\n                data-cta=\"View Canvas Edition →\"\n              >\n                <span class=\"pwp-suite-btn__top\"><span>1. Stretched Canvas<\/span> <span>{{ p_canvas.price | default: 5799 | money }}<\/span><\/span>\n                <span class=\"pwp-suite-btn__sub\">{{ pwp_canvas_dim }} · 400gsm Pine Wrap<\/span>\n              <\/button>\n              <button\n                type=\"button\"\n                class=\"pwp-suite-btn\"\n                data-pwp-suite=\"throw\"\n                data-title=\"Plate II · Plush Coral Throw ({{ pwp_throw_dim }})\"\n                data-bp=\"BP #1337 · {{ p_throw.price | default: 4699 | money }}\"\n                data-room=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-plush-throw-blanket-context.jpg?v=1793315455\"\n                data-front=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-plush-throw-blanket-front.jpg?v=1793315455\"\n                data-url=\"\/products\/majestic-alpine-peak-misty-valley-plush-throw-blanket\"\n                data-cta=\"View Throw Blanket →\"\n              >\n                <span class=\"pwp-suite-btn__top\"><span>2. Plush Coral Throw<\/span> <span>{{ p_throw.price | default: 4699 | money }}<\/span><\/span>\n                <span class=\"pwp-suite-btn__sub\">{{ pwp_throw_dim }} · 300gsm Soft Fleece<\/span>\n              <\/button>\n              <button\n                type=\"button\"\n                class=\"pwp-suite-btn\"\n                data-pwp-suite=\"cushion\"\n                data-title=\"Plate III · Spun-Poly Cushion ({{ pwp_cushion_dim }})\"\n                data-bp=\"BP #1001 · {{ p_cushion.price | default: 2999 | money }}\"\n                data-room=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-square-cushion-cover-context.jpg?v=1793315391\"\n                data-front=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/majestic-alpine-peak-misty-valley-square-cushion-cover-front.jpg?v=1793315390\"\n                data-url=\"\/products\/majestic-alpine-peak-misty-valley-square-cushion-cover\"\n                data-cta=\"View Cushion Edition →\"\n              >\n                <span class=\"pwp-suite-btn__top\"><span>3. Spun-Poly Cushion<\/span> <span>{{ p_cushion.price | default: 2999 | money }}<\/span><\/span>\n                <span class=\"pwp-suite-btn__sub\">{{ pwp_cushion_dim }} · Double-Sided Weave<\/span>\n              <\/button>\n              <a id=\"pwp-hero-suite-cta\" href=\"\/products\/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art\" class=\"pwp-suite-action-link\">\n                View Canvas Edition →\n              <\/a>\n            <\/div>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/section>",
+            "size_of_column": "12"
+          }
+        }
+      },
+      "block_order": [
+        "pwp_curatorial_hero"
+      ],
+      "settings": {
+        "title": "",
+        "container": "fullwidth",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": true,
+        "precedence": "",
+        "customization_class": "pwp-hero-section-wrapper"
+      }
+    },
+    "1586280453180": {
+      "type": "home-builder",
+      "blocks": {
+        "1586280489479": {
+          "type": "promobox",
+          "settings": {
+            "url": "\/collections\/desk-mats",
+            "image": "shopify:\/\/shop_images\/3673704461202716016_2048.jpg",
+            "image_size": 900,
+            "image_mobile": "shopify:\/\/shop_images\/3673704461202716016_2048.jpg",
+            "image_mobile_size": 600,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.15,
+            "text_line_1": "EXTENDED DESK MATS",
+            "text_line_2": "",
+            "text_line_3": "",
+            "style": "7",
+            "button_1": "Shop Desk Mats",
+            "button_1_url": "\/collections\/desk-mats",
+            "color_button_type_1": "default",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default-transparent",
+            "list_1": "",
+            "custom_html": "",
+            "video_external_url": "",
+            "video_mp4_url": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "type": "type-1-curtain-2",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 30,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "center",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        },
+        "1586280492143": {
+          "type": "promobox",
+          "settings": {
+            "url": "\/collections\/canvas-prints",
+            "image": "shopify:\/\/shop_images\/7788904848538688941_2048.jpg",
+            "image_size": 900,
+            "image_mobile": "shopify:\/\/shop_images\/7788904848538688941_2048.jpg",
+            "image_mobile_size": 600,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.15,
+            "text_line_1": "CANVAS WALL ART",
+            "text_line_2": "",
+            "text_line_3": "",
+            "style": "7",
+            "button_1": "Shop Canvases",
+            "button_1_url": "\/collections\/canvas-prints",
+            "color_button_type_1": "default",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default-transparent",
+            "list_1": "",
+            "custom_html": "",
+            "video_external_url": "",
+            "video_mp4_url": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "type": "type-1-curtain-2",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 30,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "center",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        },
+        "1586280494368": {
+          "type": "promobox",
+          "settings": {
+            "url": "\/collections\/blankets",
+            "image": "shopify:\/\/shop_images\/16537157304732727045_2048.jpg",
+            "image_size": 900,
+            "image_mobile": "shopify:\/\/shop_images\/16537157304732727045_2048.jpg",
+            "image_mobile_size": 600,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.15,
+            "text_line_1": "THROW BLANKETS",
+            "text_line_2": "",
+            "text_line_3": "",
+            "style": "7",
+            "button_1": "Shop Blankets",
+            "button_1_url": "\/collections\/blankets",
+            "color_button_type_1": "default",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default-transparent",
+            "list_1": "",
+            "custom_html": "",
+            "video_external_url": "",
+            "video_mp4_url": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "type": "type-1-curtain-2",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 30,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "center",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        },
+        "promobox_VBKna7": {
+          "type": "promobox",
+          "settings": {
+            "url": "\/collections\/home-living",
+            "image": "shopify:\/\/shop_images\/mockup_11554e2f-4ca9-4732-aef8-6fdc32bc94d7.jpg",
+            "image_size": 900,
+            "image_mobile_size": 600,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.15,
+            "text_line_1": "HOME & LIVING",
+            "text_line_2": "",
+            "text_line_3": "",
+            "style": "7",
+            "button_1": "Shop Home Decor",
+            "button_1_url": "\/collections\/home-living",
+            "color_button_type_1": "default",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_external_url": "",
+            "video_mp4_url": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "type": "type-1-curtain-2",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": "",
+            "image_mobile": "shopify:\/\/shop_images\/mockup_11554e2f-4ca9-4732-aef8-6fdc32bc94d7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1586280492143",
+        "1586280489479",
+        "1586280494368",
+        "promobox_VBKna7"
+      ],
+      "settings": {
+        "title": "",
+        "container": "boxed",
+        "size_of_columns": "2",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "preset_1",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "1586282646707": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 40,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "1586282516064": {
+      "type": "sorting-collections",
+      "blocks": {
+        "collection_zxQkwh": {
+          "type": "collection",
+          "settings": {
+            "title": "Extended Desk Mats",
+            "collection": "desk-mats"
+          }
+        },
+        "collection_canvas": {
+          "type": "collection",
+          "settings": {
+            "title": "Canvas Wall Art",
+            "collection": "canvas-prints"
+          }
+        },
+        "1586282526457": {
+          "type": "collection",
+          "settings": {
+            "title": "Cushion Covers",
+            "collection": "pillow-cases"
+          }
+        },
+        "collection_blankets": {
+          "type": "collection",
+          "settings": {
+            "title": "Throw Blankets",
+            "collection": "blankets"
+          }
+        },
+        "collection_bathmats": {
+          "type": "collection",
+          "settings": {
+            "title": "Bath Mats",
+            "collection": "bath-mats"
+          }
+        },
+        "collection_WNmqHd": {
+          "type": "collection",
+          "settings": {
+            "title": "Graphic T-Shirts",
+            "collection": "apparel"
+          }
+        },
+        "collection_hoodies": {
+          "type": "collection",
+          "settings": {
+            "title": "Graphic Hoodies",
+            "collection": "hoodies"
+          }
+        }
+      },
+      "block_order": [
+        "collection_canvas",
+        "collection_zxQkwh",
+        "collection_blankets",
+        "1586282526457",
+        "collection_bathmats",
+        "collection_WNmqHd",
+        "collection_hoodies"
+      ],
+      "settings": {
+        "size_of_columns": "4",
+        "max_count": 12,
+        "show_btn_more_products": true
+      }
+    },
+    "1586282852274": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 20,
+        "margin_bottom": 0,
+        "margin_top_mobile": 10,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "1586282860739": {
+      "type": "home-builder",
+      "blocks": {
+        "custom_html_kjRFzm": {
+          "type": "custom_html",
+          "settings": {
+            "page_content": "",
+            "liquid": "<section class=\"pwp-craft-section\">\n  <div class=\"pwp-craft-grid\">\n    <div>\n      <h2 class=\"pwp-craft-title\">Five tactile substrates<\/h2>\n      <p class=\"pwp-craft-sub\">\n        Every artwork in the Prints With Passion archive is color-profiled specifically for its physical medium—from matte museum canvas to high-density neoprene desk mats.\n      <\/p>\n      <div class=\"pwp-craft-cards\">\n        <div class=\"pwp-craft-card\">\n          <h3>Stretched Canvas (BP #1159)<\/h3>\n          <p>Finely textured 400gsm poly-cotton blend hand-stretched over kiln-dried 1.25″ FSC pine stretcher bars with mirrored gallery edges.<\/p>\n        <\/div>\n        <div class=\"pwp-craft-card\">\n          <h3>XXL Desk Mats (BP #975)<\/h3>\n          <p>Generous 80 × 40 cm &amp; 60 × 35 cm workspace footprint with 4mm natural rubber grip and color-matched anti-fray perimeter stitching.<\/p>\n        <\/div>\n        <div class=\"pwp-craft-card\">\n          <h3>Plush Fleece Throws (BP #1337)<\/h3>\n          <p>300gsm ultra-soft brushed coral fleece engineered for high-saturation dye sublimation that never stiffens the pile.<\/p>\n        <\/div>\n        <div class=\"pwp-craft-card\">\n          <h3>Cushions &amp; Bath Mats<\/h3>\n          <p>Double-sided spun-polyester cushion covers (#1001) and quick-dry memory foam bath mats (#254) with SBR anti-slip backing.<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n    <div>\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/5039\/1863\/files\/vibrant-prismatic-color-waves-abstract-plush-throw-blanket-context.jpg?v=1793315456\"\n        alt=\"Vibrant Prismatic Color Waves Plush Throw Blanket in Living Room\"\n        class=\"pwp-craft-img\"\n        loading=\"lazy\"\n        width=\"900\"\n        height=\"675\"\n      >\n    <\/div>\n  <\/div>\n<\/section>",
+            "size_of_column": "12"
+          }
+        }
+      },
+      "block_order": [
+        "custom_html_kjRFzm"
+      ],
+      "settings": {
+        "title": "",
+        "container": "boxed",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "preset_1",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "1586283266986": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 45,
+        "margin_bottom": 0,
+        "margin_top_mobile": 35,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "1586283282255": {
+      "type": "carousel-products",
+      "blocks": {
+        "1586283286719": {
+          "type": "collection",
+          "settings": {
+            "title": "FEATURED HOME & LIVING",
+            "collection": "home-living"
+          }
+        }
+      },
+      "block_order": [
+        "1586283286719"
+      ],
+      "settings": {
+        "show_title": true,
+        "container": "boxed",
+        "size_of_columns": "4",
+        "max_count": 10,
+        "autoplay": true,
+        "speed": 7,
+        "infinite": true,
+        "arrows": true,
+        "bullets": true
+      }
+    },
+    "1586567788223": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 50,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "2bc40db4-0cb9-484f-a0d1-342b2d6c6521": {
+      "type": "ticker",
+      "blocks": {
+        "template--15610339590196__2bc40db4-0cb9-484f-a0d1-342b2d6c6521-168805459036ae8de9-0": {
+          "type": "content",
+          "settings": {
+            "text": "<p>🇬🇧🇺🇸🇨🇦🇪🇺🇨🇭 Free Tracked Delivery Across UK, USA, Canada &amp; Europe • Locally Printed to Order • Clear CM &amp; Inch Sizing 🇬🇧🇺🇸🇨🇦🇪🇺🇨🇭<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15610339590196__2bc40db4-0cb9-484f-a0d1-342b2d6c6521-168805459036ae8de9-0"
+      ],
+      "settings": {
+        "container": "fullwidth",
+        "show_separator": false,
+        "referral": "left",
+        "speed": 3,
+        "color_bg": "",
+        "color_text": "",
+        "customization_class": ""
+      }
+    }
+  },
+  "order": [
+    "1586280477165",
+    "home_builder_HhUtjg",
+    "1586280453180",
+    "1586282646707",
+    "1586282516064",
+    "1586282852274",
+    "1586282860739",
+    "1586283266986",
+    "1586283282255",
+    "1586567788223",
+    "2bc40db4-0cb9-484f-a0d1-342b2d6c6521"
+  ]
+}

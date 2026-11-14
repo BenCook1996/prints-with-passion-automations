@@ -1,0 +1,15 @@
+<{{ tag | default: 'div' }} class="logo pwp-gallery-logo-wrap m-0">
+  <a href="{{ routes.root_url }}" class="pwp-gallery-logo-link" aria-label="{{ shop.name }} — Archival Print Studio">
+    <span class="pwp-gallery-logo-seal" aria-hidden="true">
+      <span class="pwp-gallery-logo-seal__inner">P</span>
+      <span class="pwp-gallery-logo-seal__corner"></span>
+    </span>
+    <span class="pwp-gallery-logo-text">
+      <span class="pwp-gallery-logo-wordmark">{{ shop.name }}</span>
+      <span class="pwp-gallery-logo-sub">ARCHIVAL PRINT STUDIO</span>
+    </span>
+    {%- if uploaded_logo_meta -%}
+      <meta itemprop="logo" content="{{ settings.logo_image | img_url: '420x' | prepend: 'https:' }}">
+    {%- endif -%}
+  </a>
+</{{ tag | default: 'div' }}>

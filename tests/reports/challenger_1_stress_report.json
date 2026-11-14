@@ -1,0 +1,1493 @@
+{
+  "timestamp": "2026-11-14T16:35:44.578Z",
+  "targetArea1": {
+    "name": "Live storefront HTTP status codes and single commercial <h1> count",
+    "passed": 41,
+    "failed": 0,
+    "tests": [
+      {
+        "id": "TA1-HOMEPAGE-_",
+        "name": "homepage [/]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 555,
+          "h1Count": 1,
+          "h1Texts": [
+            "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-PARENT_COLLECTION-_collections_canvas_prints",
+        "name": "parent_collection [/collections/canvas-prints]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 690,
+          "h1Count": 1,
+          "h1Texts": [
+            "Canvas Wall Art"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-PARENT_COLLECTION-_collections_desk_mats",
+        "name": "parent_collection [/collections/desk-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 307,
+          "h1Count": 1,
+          "h1Texts": [
+            "Extended Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-PARENT_COLLECTION-_collections_pillow_cases",
+        "name": "parent_collection [/collections/pillow-cases]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 464,
+          "h1Count": 1,
+          "h1Texts": [
+            "Cushion Covers"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-PARENT_COLLECTION-_collections_blankets",
+        "name": "parent_collection [/collections/blankets]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 331,
+          "h1Count": 1,
+          "h1Texts": [
+            "Plush Throw Blankets"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-PARENT_COLLECTION-_collections_bath_mats",
+        "name": "parent_collection [/collections/bath-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 319,
+          "h1Count": 1,
+          "h1Texts": [
+            "Memory Foam Bath Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-PARENT_COLLECTION-_collections_apparel",
+        "name": "parent_collection [/collections/apparel]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 470,
+          "h1Count": 1,
+          "h1Texts": [
+            "Graphic T-Shirts"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_japanese_anime_desk_mats",
+        "name": "sub_collection [/collections/japanese-anime-desk-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 332,
+          "h1Count": 1,
+          "h1Texts": [
+            "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_cyberpunk_neon_gaming_desk_mats",
+        "name": "sub_collection [/collections/cyberpunk-neon-gaming-desk-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 303,
+          "h1Count": 1,
+          "h1Texts": [
+            "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_space_galaxy_nebula_desk_mats",
+        "name": "sub_collection [/collections/space-galaxy-nebula-desk-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 331,
+          "h1Count": 1,
+          "h1Texts": [
+            "Space, Galaxy, Nebula & Astronaut Extended Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_fantasy_dragon_mythology_desk_mats",
+        "name": "sub_collection [/collections/fantasy-dragon-mythology-desk-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 293,
+          "h1Count": 1,
+          "h1Texts": [
+            "Fantasy, Dragons, Dark Mythic & RPG Gaming Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_nature_mountain_forest_desk_mats",
+        "name": "sub_collection [/collections/nature-mountain-forest-desk-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 311,
+          "h1Count": 1,
+          "h1Texts": [
+            "Nature, Alpine Mountain & Forest Landscape Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_minimalist_abstract_geometric_desk_mats",
+        "name": "sub_collection [/collections/minimalist-abstract-geometric-desk-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 350,
+          "h1Count": 1,
+          "h1Texts": [
+            "Minimalist, Abstract, Bauhaus & Topographic Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_animals_wildlife_pet_desk_mats",
+        "name": "sub_collection [/collections/animals-wildlife-pet-desk-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 371,
+          "h1Count": 1,
+          "h1Texts": [
+            "Animals, Wildlife, Cats & Dogs Extended Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_retro_vintage_synthwave_desk_mats",
+        "name": "sub_collection [/collections/retro-vintage-synthwave-desk-mats]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 274,
+          "h1Count": 1,
+          "h1Texts": [
+            "Retro, 80s Vaporwave & Vintage Arcade Gaming Desk Mats"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_nature_mountain_landscape_canvas_wall_art",
+        "name": "sub_collection [/collections/nature-mountain-landscape-canvas-wall-art]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 584,
+          "h1Count": 1,
+          "h1Texts": [
+            "Nature, Alpine Mountain & Scenic Landscape Canvas Wall Art"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_botanical_floral_coastal_canvas_wall_art",
+        "name": "sub_collection [/collections/botanical-floral-coastal-canvas-wall-art]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 305,
+          "h1Count": 1,
+          "h1Texts": [
+            "Botanical, Floral Garden & Coastal Canvas Wall Art"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_abstract_minimalist_bauhaus_canvas_wall_art",
+        "name": "sub_collection [/collections/abstract-minimalist-bauhaus-canvas-wall-art]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 862,
+          "h1Count": 1,
+          "h1Texts": [
+            "Abstract, Minimalist & Bauhaus Geometric Canvas Wall Art"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-SUB_COLLECTION-_collections_japanese_ukiyo_e_zen_canvas_wall_art",
+        "name": "sub_collection [/collections/japanese-ukiyo-e-zen-canvas-wall-art]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 492,
+          "h1Count": 1,
+          "h1Texts": [
+            "Japanese Ukiyo-e, Samurai & Sakura Blossom Canvas Wall Art"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-STANDARD_PAGE-_pages_delivery_return",
+        "name": "standard_page [/pages/delivery-return]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 1032,
+          "h1Count": 1,
+          "h1Texts": [
+            "Delivery & Returns"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-STANDARD_PAGE-_pages_contact_us",
+        "name": "standard_page [/pages/contact-us]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 425,
+          "h1Count": 1,
+          "h1Texts": [
+            "Contact Us"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-STANDARD_PAGE-_pages_about_us",
+        "name": "standard_page [/pages/about-us]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 554,
+          "h1Count": 1,
+          "h1Texts": [
+            "About Us"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-STANDARD_PAGE-_pages_privacy_policy",
+        "name": "standard_page [/pages/privacy-policy]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 397,
+          "h1Count": 1,
+          "h1Texts": [
+            "Privacy Policy"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-STANDARD_PAGE-_pages_uk_product_catalog",
+        "name": "standard_page [/pages/uk-product-catalog]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 433,
+          "h1Count": 1,
+          "h1Texts": [
+            "UK Home Decor, Desk Mat & Wall Art Catalog Directory"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-STANDARD_PAGE-_pages_size_guide",
+        "name": "standard_page [/pages/size-guide]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 493,
+          "h1Count": 1,
+          "h1Texts": [
+            "Size Guide"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-GUIDE_PAGE-_pages_xxl_extended_gaming_desk_mats_uk_guide",
+        "name": "guide_page [/pages/xxl-extended-gaming-desk-mats-uk-guide]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 298,
+          "h1Count": 1,
+          "h1Texts": [
+            "XXL Extended Gaming Desk Mats UK (80×40 cm): Complete Setup & Buyer’s Guide"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-GUIDE_PAGE-_pages_stretched_canvas_wall_art_uk_guide",
+        "name": "guide_page [/pages/stretched-canvas-wall-art-uk-guide]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 493,
+          "h1Count": 1,
+          "h1Texts": [
+            "Gallery-Wrapped Stretched Canvas Wall Art UK (24×16 in): Interior Styling Guide"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-GUIDE_PAGE-_pages_double_sided_square_cushion_covers_uk_guide",
+        "name": "guide_page [/pages/double-sided-square-cushion-covers-uk-guide]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 534,
+          "h1Count": 1,
+          "h1Texts": [
+            "Double-Sided Square Cushion Covers UK (40×40 cm): Sofa & Bedroom Styling Guide"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-GUIDE_PAGE-_pages_plush_coral_fleece_throw_blankets_uk_guide",
+        "name": "guide_page [/pages/plush-coral-fleece-throw-blankets-uk-guide]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 550,
+          "h1Count": 1,
+          "h1Texts": [
+            "Ultra-Soft Plush Coral Fleece Throw Blankets UK (50×60 in): Sofa & Bed Guide"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-GUIDE_PAGE-_pages_luxury_memory_foam_bath_mats_uk_guide",
+        "name": "guide_page [/pages/luxury-memory-foam-bath-mats-uk-guide]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 318,
+          "h1Count": 1,
+          "h1Texts": [
+            "Luxury Non-Slip Memory Foam Bath Mats UK (61×43 cm): Modern Bathroom Guide"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-GUIDE_PAGE-_pages_japanese_ukiyo_e_anime_desk_mats_wall_art_uk",
+        "name": "guide_page [/pages/japanese-ukiyo-e-anime-desk-mats-wall-art-uk]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 530,
+          "h1Count": 1,
+          "h1Texts": [
+            "Japanese Ukiyo-e, Samurai & Anime Aesthetic Desk Mats, Canvas Prints & Decor UK"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-GUIDE_PAGE-_pages_cyberpunk_sci_fi_desk_mats_wall_art_uk",
+        "name": "guide_page [/pages/cyberpunk-sci-fi-desk-mats-wall-art-uk]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 304,
+          "h1Count": 1,
+          "h1Texts": [
+            "Sci-Fi, Cyberpunk & Neon Synthwave Desk Mats, Canvas Art & Home Decor UK"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-BLOG_ARTICLE-_blogs_news_uk_student_room_rental_flat_decor_guide",
+        "name": "blog_article [/blogs/news/uk-student-room-rental-flat-decor-guide]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 378,
+          "h1Count": 1,
+          "h1Texts": [
+            "UK Student Room & Rental Flat Decor Guide: Zero-Damage Styling"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-BLOG_ARTICLE-_blogs_news_uk_desk_mat_size_guide_60x35_xl_vs_80x40_xxl_compared",
+        "name": "blog_article [/blogs/news/uk-desk-mat-size-guide-60x35-xl-vs-80x40-xxl-compared]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 522,
+          "h1Count": 1,
+          "h1Texts": [
+            "UK Desk Mat Size Guide: 60×35 cm XL vs 80×40 cm XXL Compared"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-BLOG_ARTICLE-_blogs_news_how_to_choose_canvas_wall_art_size_above_uk_sofa_or_bed",
+        "name": "blog_article [/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed]: HTTP 200 and exactly 1 commercial <h1> with 0 rogue <h1> in header/drawer/footer",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "latencyMs": 368,
+          "h1Count": 1,
+          "h1Texts": [
+            "How to Choose the Right Canvas Wall Art Size Above a UK Sofa or Bed"
+          ],
+          "headerHasH1": false,
+          "footerHasH1": false,
+          "drawerHasH1": false,
+          "hasMeaningfulH1": true
+        }
+      },
+      {
+        "id": "TA1-LEGACY_REDIRECT-_collections_dog_collars",
+        "name": "Legacy redirect /collections/dog-collars returns 301 (location: /collections/animals-wildlife) and destination renders exactly 1 H1",
+        "passed": true,
+        "details": {
+          "directStatus": 301,
+          "location": "/collections/animals-wildlife",
+          "followedStatus": 200,
+          "h1Count": 1,
+          "h1Texts": [
+            "Animals, Wildlife & Pet Portrait Art Collection"
+          ]
+        }
+      },
+      {
+        "id": "TA1-LEGACY_REDIRECT-_collections_wall_tapestry",
+        "name": "Legacy redirect /collections/wall-tapestry returns 301 (location: /collections/canvas-prints) and destination renders exactly 1 H1",
+        "passed": true,
+        "details": {
+          "directStatus": 301,
+          "location": "/collections/canvas-prints",
+          "followedStatus": 200,
+          "h1Count": 1,
+          "h1Texts": [
+            "Canvas Wall Art"
+          ]
+        }
+      },
+      {
+        "id": "TA1-LEGACY_REDIRECT-_collections_laundry_bags",
+        "name": "Legacy redirect /collections/laundry-bags returns 301 (location: /collections/apparel) and destination renders exactly 1 H1",
+        "passed": true,
+        "details": {
+          "directStatus": 301,
+          "location": "/collections/apparel",
+          "followedStatus": 200,
+          "h1Count": 1,
+          "h1Texts": [
+            "Graphic T-Shirts"
+          ]
+        }
+      },
+      {
+        "id": "TA1-LEGACY_REDIRECT-_collections_shoes",
+        "name": "Legacy redirect /collections/shoes returns 301 (location: /collections/apparel) and destination renders exactly 1 H1",
+        "passed": true,
+        "details": {
+          "directStatus": 301,
+          "location": "/collections/apparel",
+          "followedStatus": 200,
+          "h1Count": 1,
+          "h1Texts": [
+            "Graphic T-Shirts"
+          ]
+        }
+      },
+      {
+        "id": "TA1-LEGACY_REDIRECT-_collections_phone_cases",
+        "name": "Legacy redirect /collections/phone-cases returns 301 (location: /collections/home-living) and destination renders exactly 1 H1",
+        "passed": true,
+        "details": {
+          "directStatus": 301,
+          "location": "/collections/home-living",
+          "followedStatus": 200,
+          "h1Count": 1,
+          "h1Texts": [
+            "Home & Living"
+          ]
+        }
+      },
+      {
+        "id": "TA1-LEGACY_REDIRECT-_collections_beach_towels",
+        "name": "Legacy redirect /collections/beach-towels returns 301 (location: /collections/bath-mats) and destination renders exactly 1 H1",
+        "passed": true,
+        "details": {
+          "directStatus": 301,
+          "location": "/collections/bath-mats",
+          "followedStatus": 200,
+          "h1Count": 1,
+          "h1Texts": [
+            "Memory Foam Bath Mats"
+          ]
+        }
+      }
+    ]
+  },
+  "targetArea2": {
+    "name": "Double-escaped entities in HTML, JSON-LD, metadata, and catalogs",
+    "passed": 60,
+    "failed": 0,
+    "tests": [
+      {
+        "id": "TA2-HTML-_-TITLE",
+        "name": "Page [/] <title> is free of double-escaped entities: \"Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_-META-DESC",
+        "name": "Page [/] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Shop archival framed canvas wall art (1.25&quot; pine bars), 4mm XXL stitched gaming desk mats, velv...",
+          "length": 168,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_-SOCIAL-TAGS",
+        "name": "Page [/] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "Stylish Wall Art, Hoodies, T-Shirts &amp; More | Perfect Decor &amp; Accessori",
+          "twTitle": "Stylish Wall Art, Hoodies, T-Shirts &amp; More | Perfect Decor &amp; Accessori",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_-JSONLD",
+        "name": "Page [/] JSON-LD blocks (3) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 3,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_canvas_prints-TITLE",
+        "name": "Page [/collections/canvas-prints] <title> is free of double-escaped entities: \"Framed Canvas Wall Art | Archival Prints | PWP Studio\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "Framed Canvas Wall Art | Archival Prints | PWP Studio",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_canvas_prints-META-DESC",
+        "name": "Page [/collections/canvas-prints] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Shop archival canvas wall art printed on 400gsm cotton-poly canvas with 32mm pine stretcher bars and...",
+          "length": 153,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_canvas_prints-SOCIAL-TAGS",
+        "name": "Page [/collections/canvas-prints] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "Canvas Wall Art",
+          "twTitle": "Canvas Wall Art",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_canvas_prints-JSONLD",
+        "name": "Page [/collections/canvas-prints] JSON-LD blocks (4) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 4,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_japanese_anime_desk_mats-TITLE",
+        "name": "Page [/collections/japanese-anime-desk-mats] <title> is free of double-escaped entities: \"Japanese Anime &amp; Gaming Desk Mats | 4mm XXL Mouse Pads\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "Japanese Anime &amp; Gaming Desk Mats | 4mm XXL Mouse Pads",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_japanese_anime_desk_mats-META-DESC",
+        "name": "Page [/collections/japanese-anime-desk-mats] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Shop Japanese anime, samurai and ukiyo-e XXL gaming desk mats featuring 4mm non-slip rubber, stitche...",
+          "length": 151,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_japanese_anime_desk_mats-SOCIAL-TAGS",
+        "name": "Page [/collections/japanese-anime-desk-mats] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "Japanese, Samurai, Sakura &amp; Ukiyo-e Extended Desk Mats",
+          "twTitle": "Japanese, Samurai, Sakura &amp; Ukiyo-e Extended Desk Mats",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_japanese_anime_desk_mats-JSONLD",
+        "name": "Page [/collections/japanese-anime-desk-mats] JSON-LD blocks (4) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 4,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_abstract_minimalist_bauhaus_canvas_wall_art-TITLE",
+        "name": "Page [/collections/abstract-minimalist-bauhaus-canvas-wall-art] <title> is free of double-escaped entities: \"Bauhaus &amp; Minimalist Canvas Wall Art | Framed Art Prints\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "Bauhaus &amp; Minimalist Canvas Wall Art | Framed Art Prints",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_abstract_minimalist_bauhaus_canvas_wall_art-META-DESC",
+        "name": "Page [/collections/abstract-minimalist-bauhaus-canvas-wall-art] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Abstract, minimalist and Bauhaus geometric canvas wall art on 400gsm cotton-poly canvas over 32mm pi...",
+          "length": 155,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_abstract_minimalist_bauhaus_canvas_wall_art-SOCIAL-TAGS",
+        "name": "Page [/collections/abstract-minimalist-bauhaus-canvas-wall-art] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "Abstract, Minimalist &amp; Bauhaus Geometric Canvas Wall Art",
+          "twTitle": "Abstract, Minimalist &amp; Bauhaus Geometric Canvas Wall Art",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_abstract_minimalist_bauhaus_canvas_wall_art-JSONLD",
+        "name": "Page [/collections/abstract-minimalist-bauhaus-canvas-wall-art] JSON-LD blocks (4) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 4,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_desk_mats-TITLE",
+        "name": "Page [/collections/desk-mats] <title> is free of double-escaped entities: \"XXL Gaming Desk Mats &amp; Large Mouse Pads | 4mm Stitched\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "XXL Gaming Desk Mats &amp; Large Mouse Pads | 4mm Stitched",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_desk_mats-META-DESC",
+        "name": "Page [/collections/desk-mats] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Precision XXL gaming desk mats engineered with 4mm non-slip rubber, 360° anti-fray stitched borders ...",
+          "length": 151,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_desk_mats-SOCIAL-TAGS",
+        "name": "Page [/collections/desk-mats] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "Extended Desk Mats",
+          "twTitle": "Extended Desk Mats",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_collections_desk_mats-JSONLD",
+        "name": "Page [/collections/desk-mats] JSON-LD blocks (4) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 4,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_delivery_return-TITLE",
+        "name": "Page [/pages/delivery-return] <title> is free of double-escaped entities: \"Delivery &amp; Returns Policy | 100% Free UK Tracked Shipping\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "Delivery &amp; Returns Policy | 100% Free UK Tracked Shipping",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_delivery_return-META-DESC",
+        "name": "Page [/pages/delivery-return] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Learn about our delivery and returns policy: 100% free Royal Mail tracked shipping across the UK, 30...",
+          "length": 154,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_delivery_return-SOCIAL-TAGS",
+        "name": "Page [/pages/delivery-return] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "Delivery &amp; Returns Policy | 100% Free UK Tracked Shipping",
+          "twTitle": "Delivery &amp; Returns Policy | 100% Free UK Tracked Shipping",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_delivery_return-JSONLD",
+        "name": "Page [/pages/delivery-return] JSON-LD blocks (2) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 2,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_contact_us-TITLE",
+        "name": "Page [/pages/contact-us] <title> is free of double-escaped entities: \"Contact Prints With Passion | UK Customer Care Support\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "Contact Prints With Passion | UK Customer Care Support",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_contact_us-META-DESC",
+        "name": "Page [/pages/contact-us] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Contact Prints With Passion UK customer care team for order inquiries, bespoke sizing and delivery t...",
+          "length": 155,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_contact_us-SOCIAL-TAGS",
+        "name": "Page [/pages/contact-us] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "Contact Prints With Passion | UK Customer Care Support",
+          "twTitle": "Contact Prints With Passion | UK Customer Care Support",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_contact_us-JSONLD",
+        "name": "Page [/pages/contact-us] JSON-LD blocks (2) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 2,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_about_us-TITLE",
+        "name": "Page [/pages/about-us] <title> is free of double-escaped entities: \"About Prints With Passion | UK Archival Art &amp; Decor Studio\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "About Prints With Passion | UK Archival Art &amp; Decor Studio",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_about_us-META-DESC",
+        "name": "Page [/pages/about-us] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Discover Prints With Passion: our independent UK print studio dedicated to archival framed canvas wa...",
+          "length": 149,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_about_us-SOCIAL-TAGS",
+        "name": "Page [/pages/about-us] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "About Prints With Passion | UK Archival Art &amp; Decor Studio",
+          "twTitle": "About Prints With Passion | UK Archival Art &amp; Decor Studio",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_about_us-JSONLD",
+        "name": "Page [/pages/about-us] JSON-LD blocks (2) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 2,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_privacy_policy-TITLE",
+        "name": "Page [/pages/privacy-policy] <title> is free of double-escaped entities: \"Privacy Policy &amp; Data Security | Prints With Passion\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "Privacy Policy &amp; Data Security | Prints With Passion",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_privacy_policy-META-DESC",
+        "name": "Page [/pages/privacy-policy] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Read the Prints With Passion privacy policy and data security standards. Learn how we protect your p...",
+          "length": 155,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_privacy_policy-SOCIAL-TAGS",
+        "name": "Page [/pages/privacy-policy] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "Privacy Policy &amp; Data Security | Prints With Passion",
+          "twTitle": "Privacy Policy &amp; Data Security | Prints With Passion",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_privacy_policy-JSONLD",
+        "name": "Page [/pages/privacy-policy] JSON-LD blocks (2) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 2,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_xxl_extended_gaming_desk_mats_uk_guide-TITLE",
+        "name": "Page [/pages/xxl-extended-gaming-desk-mats-uk-guide] <title> is free of double-escaped entities: \"XXL Extended Gaming Desk Mats UK (80×40cm) Setup Guide\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "XXL Extended Gaming Desk Mats UK (80×40cm) Setup Guide",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_xxl_extended_gaming_desk_mats_uk_guide-META-DESC",
+        "name": "Page [/pages/xxl-extended-gaming-desk-mats-uk-guide] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "UK buyer guide for XXL 80×40cm extended gaming desk mats: 4mm thick natural rubber base, micro-weave...",
+          "length": 149,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_xxl_extended_gaming_desk_mats_uk_guide-SOCIAL-TAGS",
+        "name": "Page [/pages/xxl-extended-gaming-desk-mats-uk-guide] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "XXL Extended Gaming Desk Mats UK (80×40cm) Setup Guide",
+          "twTitle": "XXL Extended Gaming Desk Mats UK (80×40cm) Setup Guide",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_xxl_extended_gaming_desk_mats_uk_guide-JSONLD",
+        "name": "Page [/pages/xxl-extended-gaming-desk-mats-uk-guide] JSON-LD blocks (3) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 3,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_blogs_news_uk_student_room_rental_flat_decor_guide-TITLE",
+        "name": "Page [/blogs/news/uk-student-room-rental-flat-decor-guide] <title> is free of double-escaped entities: \"UK Student Room &amp; Rental Flat Decor Guide | Zero-Damage Art\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "UK Student Room &amp; Rental Flat Decor Guide | Zero-Damage Art",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_blogs_news_uk_student_room_rental_flat_decor_guide-META-DESC",
+        "name": "Page [/blogs/news/uk-student-room-rental-flat-decor-guide] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Decorate UK university student rooms and rented flats without deposit deductions. Explore damage-fre...",
+          "length": 153,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_blogs_news_uk_student_room_rental_flat_decor_guide-SOCIAL-TAGS",
+        "name": "Page [/blogs/news/uk-student-room-rental-flat-decor-guide] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "UK Student Room &amp; Rental Flat Decor Guide: Zero-Damage Styling",
+          "twTitle": "UK Student Room &amp; Rental Flat Decor Guide: Zero-Damage Styling",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_blogs_news_uk_student_room_rental_flat_decor_guide-JSONLD",
+        "name": "Page [/blogs/news/uk-student-room-rental-flat-decor-guide] JSON-LD blocks (4) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 4,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_uk_product_catalog-TITLE",
+        "name": "Page [/pages/uk-product-catalog] <title> is free of double-escaped entities: \"UK Catalog Directory: Wall Art, Desk Mats &amp; Home Decor\"",
+        "passed": true,
+        "details": {
+          "rawTitle": "UK Catalog Directory: Wall Art, Desk Mats &amp; Home Decor",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_uk_product_catalog-META-DESC",
+        "name": "Page [/pages/uk-product-catalog] meta description is free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "rawDesc": "Explore the complete Prints With Passion UK catalog directory: 48 studio collections of framed canva...",
+          "length": 154,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_uk_product_catalog-SOCIAL-TAGS",
+        "name": "Page [/pages/uk-product-catalog] social meta tags free of double-escaped entities",
+        "passed": true,
+        "details": {
+          "ogTitle": "UK Catalog Directory: Wall Art, Desk Mats &amp; Home Decor",
+          "twTitle": "UK Catalog Directory: Wall Art, Desk Mats &amp; Home Decor",
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-HTML-_pages_uk_product_catalog-JSONLD",
+        "name": "Page [/pages/uk-product-catalog] JSON-LD blocks (3) parse cleanly with zero entity defects",
+        "passed": true,
+        "details": {
+          "blockCount": 3,
+          "parseErrors": [],
+          "entityDefects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-active_products_json",
+        "name": "Audit file [active_products.json] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "active_products.json",
+          "sizeBytes": 5291822,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-curated_catalog_json",
+        "name": "Audit file [curated_catalog.json] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "curated_catalog.json",
+          "sizeBytes": 1895459,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-phase2_40_subcollections_json",
+        "name": "Audit file [phase2_40_subcollections.json] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "phase2_40_subcollections.json",
+          "sizeBytes": 14565,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-selected_products_json",
+        "name": "Audit file [selected_products.json] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "selected_products.json",
+          "sizeBytes": 23316,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-transactional_keyword_queue_json",
+        "name": "Audit file [transactional_keyword_queue.json] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "transactional_keyword_queue.json",
+          "sizeBytes": 866400,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-tests_fixtures_collections_sample_json",
+        "name": "Audit file [tests/fixtures/collections_sample.json] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "tests/fixtures/collections_sample.json",
+          "sizeBytes": 50898,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-tests_fixtures_pages_sample_json",
+        "name": "Audit file [tests/fixtures/pages_sample.json] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "tests/fixtures/pages_sample.json",
+          "sizeBytes": 29185,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-tests_fixtures_articles_sample_json",
+        "name": "Audit file [tests/fixtures/articles_sample.json] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "tests/fixtures/articles_sample.json",
+          "sizeBytes": 27999,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-snippets_head_liquid",
+        "name": "Audit file [snippets/head.liquid] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "snippets/head.liquid",
+          "sizeBytes": 118183,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-snippets_pwp_curated_collections_hub_liquid",
+        "name": "Audit file [snippets/pwp-curated-collections-hub.liquid] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "snippets/pwp-curated-collections-hub.liquid",
+          "sizeBytes": 20676,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-sections_header_liquid",
+        "name": "Audit file [sections/header.liquid] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "sections/header.liquid",
+          "sizeBytes": 248477,
+          "defects": []
+        }
+      },
+      {
+        "id": "TA2-CODEBASE-layout_theme_liquid",
+        "name": "Audit file [layout/theme.liquid] for double-escaped entities and entity artifacts",
+        "passed": true,
+        "details": {
+          "file": "layout/theme.liquid",
+          "sizeBytes": 14860,
+          "defects": []
+        }
+      }
+    ]
+  },
+  "targetArea5": {
+    "name": "48-Collection Hub and Unindexed Page Link Accessibility",
+    "passed": 15,
+    "failed": 0,
+    "tests": [
+      {
+        "id": "TA5-HUB-CONTAINER-PRESENCE",
+        "name": "Homepage renders .pwp-curated-hub / .pwp-curated-collections-hub container",
+        "passed": true,
+        "details": {
+          "hubContainerFound": true
+        }
+      },
+      {
+        "id": "TA5-HUB-LINK-COUNT",
+        "name": "Curated hub contains exactly 48 smart sub-collection links (found 48) and 6 parent links",
+        "passed": true,
+        "details": {
+          "subCollectionCount": 48,
+          "parentCount": 6,
+          "totalLinks": 54
+        }
+      },
+      {
+        "id": "TA5-HUB-SUBCOLLECTIONS-HTTP-HEALTH",
+        "name": "All 48 sub-collections return HTTP 200, valid anchor text, and clean hrefs",
+        "passed": true,
+        "details": {
+          "totalTested": 48,
+          "brokenHrefsCount": 0,
+          "brokenHrefs": [],
+          "non200Count": 0,
+          "non200Subcollections": [],
+          "emptyAnchorCount": 0,
+          "emptyAnchorTexts": [],
+          "highLatencyCount": 0
+        }
+      },
+      {
+        "id": "TA5-PARENT-HUB-_collections_canvas_prints",
+        "name": "Parent collection [/collections/canvas-prints] renders Curated Collections Hub snippet",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "hasHub": true
+        }
+      },
+      {
+        "id": "TA5-PARENT-HUB-_collections_desk_mats",
+        "name": "Parent collection [/collections/desk-mats] renders Curated Collections Hub snippet",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "hasHub": true
+        }
+      },
+      {
+        "id": "TA5-PARENT-HUB-_collections_pillow_cases",
+        "name": "Parent collection [/collections/pillow-cases] renders Curated Collections Hub snippet",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "hasHub": true
+        }
+      },
+      {
+        "id": "TA5-PARENT-HUB-_collections_blankets",
+        "name": "Parent collection [/collections/blankets] renders Curated Collections Hub snippet",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "hasHub": true
+        }
+      },
+      {
+        "id": "TA5-PARENT-HUB-_collections_bath_mats",
+        "name": "Parent collection [/collections/bath-mats] renders Curated Collections Hub snippet",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "hasHub": true
+        }
+      },
+      {
+        "id": "TA5-PARENT-HUB-_collections_apparel",
+        "name": "Parent collection [/collections/apparel] renders Curated Collections Hub snippet",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "hasHub": true
+        }
+      },
+      {
+        "id": "TA5-STANDARD-_pages_delivery_return",
+        "name": "Page [/pages/delivery-return] (Delivery & Returns) is reachable, HTTP 200, indexable, and has single H1",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "isIndexable": true,
+          "robotsContent": "",
+          "xRobotsTag": "",
+          "canonicalHref": "https://printswithpassion.com/pages/delivery-return",
+          "hasCanonical": true,
+          "linkedFromHomepage": true,
+          "linkedFromCatalog": true,
+          "isReachable": true,
+          "h1Count": 1,
+          "requiredByPrompt": true
+        }
+      },
+      {
+        "id": "TA5-STANDARD-_pages_contact_us",
+        "name": "Page [/pages/contact-us] (Contact Us) is reachable, HTTP 200, indexable, and has single H1",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "isIndexable": true,
+          "robotsContent": "",
+          "xRobotsTag": "",
+          "canonicalHref": "https://printswithpassion.com/pages/contact-us",
+          "hasCanonical": true,
+          "linkedFromHomepage": true,
+          "linkedFromCatalog": true,
+          "isReachable": true,
+          "h1Count": 1,
+          "requiredByPrompt": true
+        }
+      },
+      {
+        "id": "TA5-STANDARD-_pages_privacy_policy",
+        "name": "Page [/pages/privacy-policy] (Privacy Policy) is reachable, HTTP 200, indexable, and has single H1",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "isIndexable": true,
+          "robotsContent": "",
+          "xRobotsTag": "",
+          "canonicalHref": "https://printswithpassion.com/pages/privacy-policy",
+          "hasCanonical": true,
+          "linkedFromHomepage": false,
+          "linkedFromCatalog": true,
+          "isReachable": true,
+          "h1Count": 1,
+          "requiredByPrompt": true
+        }
+      },
+      {
+        "id": "TA5-STANDARD-_pages_faqs",
+        "name": "Page [/pages/faqs] (FAQs (Prompt Specific)) is reachable, HTTP 200, indexable, and has single H1",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "isIndexable": true,
+          "robotsContent": "",
+          "xRobotsTag": "",
+          "canonicalHref": "https://printswithpassion.com/pages/delivery-return",
+          "hasCanonical": true,
+          "linkedFromHomepage": false,
+          "linkedFromCatalog": false,
+          "isReachable": true,
+          "h1Count": 1,
+          "requiredByPrompt": true
+        }
+      },
+      {
+        "id": "TA5-STANDARD-_pages_our_story",
+        "name": "Page [/pages/our-story] (Our Story (Prompt Specific)) is reachable, HTTP 200, indexable, and has single H1",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "isIndexable": true,
+          "robotsContent": "",
+          "xRobotsTag": "",
+          "canonicalHref": "https://printswithpassion.com/pages/about-us",
+          "hasCanonical": true,
+          "linkedFromHomepage": false,
+          "linkedFromCatalog": false,
+          "isReachable": true,
+          "h1Count": 1,
+          "requiredByPrompt": true
+        }
+      },
+      {
+        "id": "TA5-STANDARD-_pages_about_us",
+        "name": "Page [/pages/about-us] (About Us (Canonical Store Counterpart)) is reachable, HTTP 200, indexable, and has single H1",
+        "passed": true,
+        "details": {
+          "status": 200,
+          "isIndexable": true,
+          "robotsContent": "",
+          "xRobotsTag": "",
+          "canonicalHref": "https://printswithpassion.com/pages/about-us",
+          "hasCanonical": true,
+          "linkedFromHomepage": true,
+          "linkedFromCatalog": true,
+          "isReachable": true,
+          "h1Count": 1,
+          "requiredByPrompt": false
+        }
+      }
+    ]
+  },
+  "summary": {
+    "total": 116,
+    "passed": 116,
+    "failed": 0,
+    "verdict": "APPROVE",
+    "durationSeconds": "96.54"
+  }
+}

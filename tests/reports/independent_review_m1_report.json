@@ -1,0 +1,142 @@
+{
+  "timestamp": "2026-11-13T01:25:16.241Z",
+  "liveChecks": {
+    "homepageStatus": 200,
+    "homepageTitle": {
+      "raw": "Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion",
+      "length": 65,
+      "exactMatch": true,
+      "under60Chars": false
+    },
+    "homepageMetaDescription": {
+      "raw": "Shop archival framed canvas wall art (1.25&quot; pine bars), 4mm XXL stitched gaming desk mats, velvet cushion covers, plush throw blankets &amp; memory foam bath mats.",
+      "length": 168,
+      "containsQuotEntity": true,
+      "containsAmpEntity": true,
+      "within140to158": false,
+      "merchandiseClean": true
+    },
+    "h1Count": 1,
+    "h1Texts": [
+      "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+    ],
+    "logoTagIsH1": false,
+    "malformedAuthCount": 0,
+    "homepageEmailTypoCount": 0,
+    "homepageHubRendered": true,
+    "deliveryReturnStatus": 200,
+    "deliveryReturnTypoCount": 0,
+    "deliveryReturnCorrectCount": 10,
+    "parentCollections": {
+      "canvas-prints": {
+        "status": 200,
+        "hubPresent": true,
+        "subCollectionsFound": 48,
+        "totalSubCollections": 48
+      },
+      "desk-mats": {
+        "status": 200,
+        "hubPresent": true,
+        "subCollectionsFound": 48,
+        "totalSubCollections": 48
+      },
+      "pillow-cases": {
+        "status": 200,
+        "hubPresent": true,
+        "subCollectionsFound": 48,
+        "totalSubCollections": 48
+      },
+      "blankets": {
+        "status": 200,
+        "hubPresent": true,
+        "subCollectionsFound": 48,
+        "totalSubCollections": 48
+      },
+      "bath-mats": {
+        "status": 200,
+        "hubPresent": true,
+        "subCollectionsFound": 48,
+        "totalSubCollections": 48
+      },
+      "apparel": {
+        "status": 200,
+        "hubPresent": true,
+        "subCollectionsFound": 48,
+        "totalSubCollections": 48
+      }
+    },
+    "subCollectionNegativeChecks": {
+      "nature-mountain-landscape-canvas-wall-art": {
+        "status": 200,
+        "hubPresent": false,
+        "pass": true
+      },
+      "japanese-anime-desk-mats": {
+        "status": 200,
+        "hubPresent": false,
+        "pass": true
+      },
+      "botanical-floral-garden-cushion-covers": {
+        "status": 200,
+        "hubPresent": false,
+        "pass": true
+      }
+    }
+  },
+  "apiChecks": {
+    "page703779766645": {
+      "title": "Delivery & Returns",
+      "handle": "delivery-return",
+      "updatedAt": "2026-11-13T01:14:04Z",
+      "typosInBody": 0,
+      "correctInBody": 2
+    },
+    "themeAssets": {
+      "snippets/head.liquid": {
+        "size": 118268,
+        "updatedAt": "2026-11-13T01:14:06+00:00"
+      },
+      "sections/header.liquid": {
+        "size": 248477,
+        "updatedAt": "2026-11-13T01:14:07+00:00"
+      },
+      "templates/index.json": {
+        "size": 29230,
+        "updatedAt": "2026-11-13T01:14:08+00:00"
+      },
+      "snippets/pwp-curated-collections-hub.liquid": {
+        "size": 20648,
+        "updatedAt": "2026-11-13T01:14:09+00:00"
+      },
+      "layout/theme.liquid": {
+        "size": 14860,
+        "updatedAt": "2026-11-13T01:14:10+00:00"
+      }
+    },
+    "shopSettings": {
+      "email": "printswithpasssionbc@gmail.com",
+      "customer_email": "printswithpasssionbc@gmail.com",
+      "hasTypo": true
+    }
+  },
+  "edgeCaseChecks": {
+    "hubHasE2eClass": true
+  },
+  "discrepancies": [
+    {
+      "item": "Homepage Title Length",
+      "severity": "MAJOR",
+      "detail": "Title length is 65 chars (exceeds 60-char SERP boundary limit requested in R1 / SCOPE.md)"
+    },
+    {
+      "item": "Homepage Meta Description HTML Entities",
+      "severity": "MAJOR",
+      "detail": "Meta description contains unescaped entity '&quot;' (raw length 168 exceeds 158 max SERP limit)"
+    },
+    {
+      "item": "Shop Admin Customer Email Setting",
+      "severity": "MINOR",
+      "detail": "Shopify shop.customer_email still contains typo \"printswithpasssionbc@gmail.com\" (requires Admin UI Store details update)"
+    }
+  ]
+}

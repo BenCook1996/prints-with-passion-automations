@@ -32,6 +32,66 @@ function formatDateYmd(daysAgo) {
   return d.toISOString().slice(0, 10);
 }
 
+/**
+ * Assembles a deduplicated, deterministic pool of priority URLs for rotating inspection.
+ * Encompasses root/category hubs, key pages, 48 smart sub-collections, guides, and products.
+ *
+ * @param {Array<string|object>} subcollections - Subcollection handles or objects with handle
+ * @param {Array<string>} knownUrls - Known URL paths or full URLs from snapshot.byUrl
+ * @returns {Array<string>} Deduplicated array of absolute URLs
+ */
+export function buildPriorityInspectionPool(subcollections = [], knownUrls = []) {
+  const seed = [
+    'https://printswithpassion.com/',
+    'https://printswithpassion.com/collections/canvas-prints',
+    'https://printswithpassion.com/collections/desk-mats',
+    'https://printswithpassion.com/collections/pillow-cases',
+    'https://printswithpassion.com/collections/blankets',
+    'https://printswithpassion.com/collections/bath-mats',
+    'https://printswithpassion.com/collections/apparel',
+    'https://printswithpassion.com/pages/uk-product-catalog',
+    'https://printswithpassion.com/pages/about-us',
+    'https://printswithpassion.com/pages/delivery-return'
+  ];
+
+  const subColUrls = (subcollections || []).map(sc => {
+    const handle = typeof sc === 'string' ? sc : sc?.handle;
+    if (!handle) return '';
+    return handle.startsWith('http') ? handle : `https://printswithpassion.com/collections/${handle}`;
+  }).filter(Boolean);
+
+  const cleanKnown = (knownUrls || [])
+    .filter(u => typeof u === 'string' && u.trim().length > 0)
+    .map(u => u.startsWith('http') ? u : `https://printswithpassion.com${u.startsWith('/') ? u : '/' + u}`)
+    .map(u => u.replace(/&amp;/g, '&'));
+
+  return [...new Set([...seed, ...subColUrls, ...cleanKnown])];
+}
+
+/**
+ * Performs a single URL inspection via GSC Search Console API (urlInspection/index:inspect).
+ *
+ * @param {string} token - Google OAuth access token
+ * @param {string} siteUrl - GSC site URL identifier (e.g. https://printswithpassion.com/)
+ * @param {string} inspectionUrl - Target URL to inspect
+ * @returns {Promise<object>} Inspection result JSON
+ */
+export async function inspectUrl(token, siteUrl, inspectionUrl) {
+  const res = await fetch('https://searchconsole.googleapis.com/v1/urlInspection/index:inspect', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ inspectionUrl, siteUrl })
+  });
+  if (!res.ok) {
+    const txt = await res.text().catch(() => '');
+    throw new Error(`HTTP ${res.status}: ${txt.slice(0, 180)}`);
+  }
+  return res.json();
+}
+
 async function resolveGscSiteUrl(token) {
   const res = await fetch('https://www.googleapis.com/webmasters/v3/sites', {
     headers: { Authorization: `Bearer ${token}` }
@@ -76,7 +136,10 @@ export async function runGscGa4CloudSync() {
   const encodedSite = encodeURIComponent(siteUrl);
   let gscUpdated = false;
   let sitemapsSynced = 0;
+  let sitemapsSubmitted = 0;
+  let sitemapsPreserved = 0;
   let staleSitemapsDeleted = 0;
+  let urlsInspectedCount = 0;
 
   // 1. GSC 28d & 7d Search Analytics Query
   try {
@@ -145,7 +208,7 @@ export async function runGscGa4CloudSync() {
     console.warn(`[gsc_ga4_gmc_cloud_sync] GSC Search Analytics warning: ${err.message}`);
   }
 
-  // 2. GSC Sitemaps API Sync (GET / DELETE stale / PUT live child sitemaps)
+  // 2. GSC Sitemaps API Sync (GET / DELETE stale / Idempotent PUT)
   try {
     const liveSmXml = await (await fetch('https://printswithpassion.com/sitemap.xml')).text();
     const liveChildSitemaps = [...liveSmXml.matchAll(/<loc>([^<]+)<\/loc>/gi)].map(m => m[1].trim());
@@ -154,10 +217,17 @@ export async function runGscGa4CloudSync() {
     const listRes = await fetch(`https://www.googleapis.com/webmasters/v3/sites/${encodedSite}/sitemaps`, {
       headers: { Authorization: `Bearer ${token}` }
     });
+
     if (listRes.ok) {
       const listJson = await listRes.json();
+      const existingMap = new Map();
       for (const sm of (listJson.sitemap || [])) {
-        if (sm.path && !desiredSet.has(sm.path)) {
+        if (sm.path) {
+          existingMap.set(sm.path, sm);
+          existingMap.set(sm.path.replace(/&amp;/g, '&'), sm);
+        }
+        const isDesired = desiredSet.has(sm.path) || desiredSet.has(sm.path.replace(/&amp;/g, '&'));
+        if (sm.path && !isDesired) {
           const delRes = await fetch(
             `https://www.googleapis.com/webmasters/v3/sites/${encodedSite}/sitemaps/${encodeURIComponent(sm.path)}`,
             { method: 'DELETE', headers: { Authorization: `Bearer ${token}` } }
@@ -165,17 +235,161 @@ export async function runGscGa4CloudSync() {
           if (delRes.ok) staleSitemapsDeleted++;
         }
       }
-    }
 
-    for (const smUrl of desiredSet) {
-      const putRes = await fetch(
-        `https://www.googleapis.com/webmasters/v3/sites/${encodedSite}/sitemaps/${encodeURIComponent(smUrl)}`,
-        { method: 'PUT', headers: { Authorization: `Bearer ${token}` } }
-      );
-      if (putRes.ok) sitemapsSynced++;
+      for (const smUrl of desiredSet) {
+        const existing = existingMap.get(smUrl) || existingMap.get(smUrl.replace(/&amp;/g, '&'));
+        const errorCount = Number(existing?.errors || 0);
+        const needsPut = !existing || errorCount > 0;
+        if (needsPut) {
+          const putRes = await fetch(
+            `https://www.googleapis.com/webmasters/v3/sites/${encodedSite}/sitemaps/${encodeURIComponent(smUrl)}`,
+            { method: 'PUT', headers: { Authorization: `Bearer ${token}` } }
+          );
+          if (putRes.ok) {
+            sitemapsSubmitted++;
+            sitemapsSynced++;
+          }
+        } else {
+          sitemapsPreserved++;
+        }
+      }
+    } else {
+      console.warn(`[gsc_ga4_gmc_cloud_sync] Failed to GET sitemaps list (HTTP ${listRes.status}). Skipping PUTs to preserve LastSubmitted dates.`);
     }
   } catch (err) {
     console.warn(`[gsc_ga4_gmc_cloud_sync] GSC Sitemaps API warning: ${err.message}`);
+  }
+
+  // 3. Rotating URL Inspection Health Tracking (15 priority URLs per run, >=200ms pacing)
+  try {
+    let subcollections = [];
+    const subColFile = path.join(WORKSPACE, 'phase2_40_subcollections.json');
+    if (fs.existsSync(subColFile)) {
+      try {
+        subcollections = JSON.parse(fs.readFileSync(subColFile, 'utf8'));
+      } catch {}
+    }
+
+    const knownUrls = Object.keys(snapshot.byUrl || {}).map(p => `https://printswithpassion.com${p.startsWith('/') ? p : '/' + p}`);
+    const pool = buildPriorityInspectionPool(subcollections, knownUrls);
+
+    if (pool.length > 0) {
+      const batchSize = Math.min(15, pool.length);
+      const cursor = Number(snapshot.urlInspectionHealth?.cursor || 0) % pool.length;
+      const batchUrls = [];
+      for (let i = 0; i < batchSize; i++) {
+        batchUrls.push(pool[(cursor + i) % pool.length]);
+      }
+      const nextCursor = (cursor + batchSize) % pool.length;
+
+      let submittedAndIndexedCount = 0;
+      let discoveredNotIndexedCount = 0;
+      let crawledNotIndexedCount = 0;
+      let urlUnknownCount = 0;
+      let otherCount = 0;
+      let errorCount = 0;
+      const coverageBreakdown = {};
+      const canonicalOverrides = [];
+      const batchResults = [];
+
+      for (let i = 0; i < batchUrls.length; i++) {
+        const u = batchUrls[i];
+        try {
+          const data = await inspectUrl(token, siteUrl, u);
+          const idx = data?.inspectionResult?.indexStatusResult || {};
+          const cov = idx.coverageState || 'UNKNOWN';
+          coverageBreakdown[cov] = (coverageBreakdown[cov] || 0) + 1;
+
+          if (cov === 'Submitted and indexed') {
+            submittedAndIndexedCount++;
+          } else if (cov === 'Discovered - currently not indexed') {
+            discoveredNotIndexedCount++;
+          } else if (cov === 'Crawled - currently not indexed') {
+            crawledNotIndexedCount++;
+          } else if (cov.toLowerCase().includes('unknown')) {
+            urlUnknownCount++;
+          } else {
+            otherCount++;
+          }
+
+          const uObj = new URL(u);
+          const pathKey = uObj.pathname || '/';
+          const isCanonOverride = Boolean(
+            idx.googleCanonical && idx.userCanonical && idx.googleCanonical !== idx.userCanonical
+          );
+          if (isCanonOverride) {
+            canonicalOverrides.push({
+              url: u,
+              userCanonical: idx.userCanonical,
+              googleCanonical: idx.googleCanonical
+            });
+          }
+
+          snapshot.byUrl = snapshot.byUrl || {};
+          snapshot.byUrl[pathKey] = {
+            ...(snapshot.byUrl[pathKey] || {}),
+            urlInspection: {
+              inspectedAt: new Date().toISOString(),
+              verdict: idx.verdict || 'UNKNOWN',
+              coverageState: cov,
+              robotsTxtState: idx.robotsTxtState || 'UNKNOWN',
+              indexingState: idx.indexingState || 'UNKNOWN',
+              lastCrawlTime: idx.lastCrawlTime || 'NEVER',
+              pageFetchState: idx.pageFetchState || 'UNKNOWN',
+              googleCanonical: idx.googleCanonical || null,
+              userCanonical: idx.userCanonical || null,
+              canonicalOverride: isCanonOverride,
+              referringUrls: (idx.referringUrls || []).map(r => r.replace('https://printswithpassion.com', ''))
+            }
+          };
+
+          batchResults.push({
+            url: u,
+            path: pathKey,
+            verdict: idx.verdict || 'UNKNOWN',
+            coverageState: cov,
+            indexingState: idx.indexingState || 'UNKNOWN',
+            lastCrawlTime: idx.lastCrawlTime || 'NEVER',
+            googleCanonical: idx.googleCanonical || null,
+            userCanonical: idx.userCanonical || null
+          });
+        } catch (err) {
+          errorCount++;
+          otherCount++;
+          console.warn(`[gsc_ga4_gmc_cloud_sync] URL inspection failed for ${u}: ${err.message}`);
+        }
+
+        urlsInspectedCount++;
+        if (i < batchUrls.length - 1) {
+          await new Promise(r => setTimeout(r, 200));
+        }
+      }
+
+      const totalInspected = batchUrls.length;
+      const indexedRatio = totalInspected > 0 ? Number((submittedAndIndexedCount / totalInspected).toFixed(4)) : 0;
+      const indexedRatioDisplay = `${(indexedRatio * 100).toFixed(1)}%`;
+
+      snapshot.urlInspectionHealth = {
+        lastRunAt: new Date().toISOString(),
+        cursor: nextCursor,
+        batchSize,
+        totalInspected,
+        submittedAndIndexedCount,
+        discoveredNotIndexedCount,
+        crawledNotIndexedCount,
+        urlUnknownCount,
+        otherCount,
+        errorCount,
+        canonicalOverridesCount: canonicalOverrides.length,
+        indexedRatio,
+        indexedRatioDisplay,
+        coverageBreakdown,
+        canonicalOverrides,
+        batchResults
+      };
+    }
+  } catch (err) {
+    console.warn(`[gsc_ga4_gmc_cloud_sync] URL Inspection Health warning: ${err.message}`);
   }
 
   // 3. GA4 Data API v1beta (Property 363520144)
@@ -230,8 +444,17 @@ export async function runGscGa4CloudSync() {
 
   snapshot.capturedAt = new Date().toISOString();
   fs.writeFileSync(SNAPSHOT_PATH, JSON.stringify(snapshot, null, 2), 'utf8');
-  console.log(`[gsc_ga4_gmc_cloud_sync] Complete: GSC=${gscUpdated} | SitemapsSynced=${sitemapsSynced} (StaleDeleted=${staleSitemapsDeleted}) | GA4=${ga4Updated}`);
-  return { synced: gscUpdated || ga4Updated, sitemapsSynced, staleSitemapsDeleted, snapshot };
+  console.log(`[gsc_ga4_gmc_cloud_sync] Complete: GSC=${gscUpdated} | SitemapsSubmitted=${sitemapsSubmitted} | SitemapsPreserved=${sitemapsPreserved} (StaleDeleted=${staleSitemapsDeleted}) | UrlsInspected=${urlsInspectedCount} | GA4=${ga4Updated}`);
+  return {
+    synced: gscUpdated || ga4Updated || urlsInspectedCount > 0,
+    sitemapsSynced,
+    sitemapsSubmitted,
+    sitemapsPreserved,
+    staleSitemapsDeleted,
+    urlsInspectedCount,
+    urlInspectionHealth: snapshot.urlInspectionHealth,
+    snapshot
+  };
 }
 
 export async function syncGmcCatalogViaContentApi(activeProductsMap) {

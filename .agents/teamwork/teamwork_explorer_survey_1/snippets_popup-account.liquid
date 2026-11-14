@@ -1,0 +1,187 @@
+{% capture popups_style_base_html %}
+    {%- assign popup_account_login_btn_type = 'secondary' -%}
+    {%- assign popup_account_signup_btn_type = 'secondary' -%}
+    {%- assign popup_account_register_btn_type = 'secondary' -%}
+    {%- assign popup_account_account_btn_type = 'default' -%}
+    {%- assign popup_account_checkout_btn_type = 'secondary' -%}
+    {%- assign popup_account_subscription_btn_type = 'default' -%}
+
+    {%- if settings.layout_settings_file == 'skin-1' -%}
+        {%- assign popup_account_login_btn_type = 'default' -%}
+        {%- assign popup_account_signup_btn_type = 'default' -%}
+        {%- assign popup_account_register_btn_type = 'default' -%}
+        {%- assign popup_account_account_btn_type = 'secondary' -%}
+        {%- assign popup_account_checkout_btn_type = 'default' -%}
+        {%- assign popup_account_subscription_btn_type = 'secondary' -%}
+    {%- endif -%}
+    
+    {% render 'css-style-button' with class, class: '.popup-account__btn-login', type: popup_account_login_btn_type %}
+    {% render 'css-style-button' with class, class: '.popup-account__btn-signup', type: popup_account_signup_btn_type %}
+    {% render 'css-style-button' with class, class: '.popup-account__btn-register', type: popup_account_register_btn_type %}
+    {% render 'css-style-button' with class, class: '.popup-account__btn-account', type: popup_account_account_btn_type %}
+    {% render 'css-style-button' with class, class: '.popup-account__btn-checkout', type: popup_account_checkout_btn_type %}
+    {% render 'css-style-button' with class, class: '.popup-account__btn-subscription', type: popup_account_subscription_btn_type %}
+{% endcapture %}
+<div class="popup-account py-25 px-20 js-popup-account" data-popup-content>
+    {%- if customer -%}
+        <div class="popup-account__authorized">
+            <div class="popup-account__head d-flex align-items-center mb-15">
+                <h5 class="m-0">{{ 'general.popups.account.authorized.title' | t: name: customer.first_name }}</h5>
+                <i class="popup-account__close ml-auto cursor-pointer" data-js-popup-close>{% render 'icon-theme-164' %}</i>
+            </div>
+            <a href="/account" class="popup-account__btn-account btn btn--full mb-10">{{ "general.popups.account.authorized.account" | t }}</a>
+            <a href="{{ routes.root_url }}{% if routes.root_url != '/' %}/{% endif %}checkout" class="popup-account__btn-checkout btn btn--full mb-20">{{ "general.popups.account.authorized.checkout" | t }}</a>
+            <a href="/account/logout" class="btn-link">{{ "general.popups.account.authorized.log_out" | t }}</a>
+            {%- if settings.account_popup_show_subscription -%}
+                <hr class="my-15"/>
+                <div class="popup-account__head d-flex align-items-center mb-10">
+                    <h5 class="m-0">{{ 'general.popups.account.newsletter.title' | t: name: customer.first_name }}</h5>
+                </div>
+                <div>
+                    <p class="mb-15">{{ 'general.popups.account.newsletter.paragraph' | t }}</p>
+                </div>
+                <div class="d-flex flex-column">
+                    {%- if settings.subscription_show_confirmation_checkbox -%}
+                        <input id="Popup-Account-Subscription-checkbox" type="checkbox" class="d-none input-checkbox-disable-trigger" name="footer_subscription">
+                        <label for="Popup-Account-Subscription-checkbox" class="footer__subscription-checkbox subscription-checkbox input-checkbox input-checkbox--input-out position-relative d-inline-flex align-items-start mt-10 cursor-pointer">
+                            <span class="position-relative d-block mt-0 mr-10 border"><i class="d-none">{% render 'icon-theme-146' %}</i></span>
+                            <span>{{ 'general.form.subscription.checkbox_html' | t }}</span>
+                        </label>
+                        <div class="input-checkbox-disable-trigger-error subscription-checkbox-error d-none mt-10">
+                            <div class="note note--error mb-5">
+                                <ul>
+                                    <li>{{ 'general.form.subscription.checkbox_error' | t }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    {%- endif -%}
+                    {%- if settings.subscription_method == 'shopify' -%}
+                        {% form 'customer', id: null, class: 'subscription-form' %}
+                            <div>
+                                <input type="hidden" name="contact[tags]" value="newsletter">
+                                <label for="PopupAccountSubscribe" class="label-required">{{ 'general.popups.account.newsletter.email.title' | t }}</label>
+                                <input type="email" name="contact[email]" id="PopupAccountSubscribe"{% if form.errors %} class="input--error"{% endif %} placeholder="{{ 'general.popups.account.newsletter.email.placeholder' | t }}" required="required">
+                                <input type="submit" class="popup-account__btn-subscription input-checkbox-disable-body btn btn--full" name="commit" value="{{ "general.popups.account.newsletter.button" | t }}">
+                            </div>
+                        {% endform %}
+                    {%- elsif settings.subscription_method == 'mailchimp' -%}
+                        <form action="{{ settings.subscription_mailchimp_form_action }}" method="post" target="_blank" class="subscription-form ">
+                            <div>
+                                <label for="PopupAccountSubscribe" class="label-required">{{ 'general.popups.account.newsletter.email.title' | t }}</label>
+                                <input type="email" name="EMAIL" id="PopupAccountSubscribe" placeholder="{{ 'general.popups.account.newsletter.email.placeholder' | t }}" required="required">
+                            </div>
+                            <input type="submit" class="popup-account__btn-subscription input-checkbox-disable-body btn btn--full" value="{{ "general.popups.account.newsletter.button" | t }}">
+                        </form>
+                    {%- endif -%}
+                </div>
+            {%- endif -%}
+        </div>
+    {%- else -%}
+        <div class="popup-account__login">
+            <div class="popup-account__head d-flex align-items-center mb-10">
+                <h5 class="m-0">{{ 'general.popups.account.login.title' | t }}</h5>
+                <i class="popup-account__close ml-auto cursor-pointer" data-js-popup-close>{% render 'icon-theme-164' %}</i>
+            </div>
+            {% form 'customer_login', id: 'popup_customer_login', class: 'form-group--type-inline mb-15' %}
+                <div>
+                    <label for="PopupCustomerEmail" class="label-required">{{ 'general.popups.account.login.email.title' | t }}</label>
+                    <input type="email" name="customer[email]" id="PopupCustomerEmail" class="{% if form.errors contains 'email' %}input-error{% endif %}" placeholder="{{ 'general.popups.account.login.email.placeholder' | t }}" spellcheck="false" autocomplete="off" autocapitalize="off" required="required">
+                </div>
+                {%- if form.password_needed -%}
+                    <div>
+                        <label for="PopupCustomerPassword" class="label-required">{{ 'general.popups.account.login.password.title' | t }}</label>
+                        <input type="password" name="customer[password]" autocomplete="on" id="PopupCustomerPassword" class="{% if form.errors contains 'password' %}input-error{% endif %}" placeholder="{{ 'general.popups.account.login.password.placeholder' | t }}" required="required">
+                    </div>
+                {%- endif -%}
+                {% include 'form-get-message' %}
+                <input type="submit" class="popup-account__btn-login btn btn--full mb-20" value="{{ 'general.popups.account.login.button' | t }}">
+                <div class="mb-15">
+                    <span class="popup-account__return-to-store btn-link" data-js-popup-close>{{ 'general.popups.account.return_to_store' | t }}</span>
+                </div>
+                <div class="mb-10">
+                    {%- if form.password_needed -%}
+                        <a href="/account/login/#recover" class="btn-link js-button-block-visibility" data-block-link="#recover" data-action="open" data-action-close-popup="account">{{ 'general.popups.account.login.forgot_password' | t }}</a>
+                    {%- endif -%}
+                </div>
+            {% endform %}
+            <hr class="my-15"/>
+            <div class="popup-account__head d-flex align-items-center mb-10">
+                <h5 class="m-0">{{ 'general.popups.account.sign-up.title' | t }}</h5>
+            </div>
+            <div>
+                {% include 'parse-page-html-content' with default_page, default_page: 'include-popup-account', page_content: settings.account_popup_sign_up_info_page_content %}
+            </div>
+            <a href="/account/register" class="popup-account__btn-register btn btn--full mb-20 js-popup-account-show-sign-up" data-js-trigger-id="popup-button-sign-up">{{ 'general.popups.account.sign-up.button' | t }}</a>
+        </div>
+        <div class="popup-account__sign-up d-none-important">
+            <div class="popup-account__head d-flex align-items-center mb-10">
+                <h5 class="m-0">{{ 'general.popups.account.sign-up.title' | t }}</h5>
+                <i class="popup-account__close ml-auto cursor-pointer" data-js-popup-close>{% render 'icon-theme-164' %}</i>
+            </div>
+            {% form 'create_customer', id: 'popup_create_customer' %}
+                {{ form.errors | default_errors }}
+                <div>
+                    <label for="PopupCustomerEmail" class="label-required">{{ 'general.popups.account.sign-up.first_name.title' | t }}</label>
+                    <input type="text" name="customer[first_name]" id="PopupFirstName" placeholder="{{ 'general.popups.account.sign-up.first_name.placeholder' | t }}"{% if form.first_name %} value="{{ form.first_name }}"{% endif %} required="required">
+                </div>
+                <div>
+                    <label for="PopupCustomerEmail" class="label-required">{{ 'general.popups.account.sign-up.last_name.title' | t }}</label>
+                    <input type="text" name="customer[last_name]" id="PopupLastName" placeholder="{{ 'general.popups.account.sign-up.last_name.placeholder' | t }}"{% if form.last_name %} value="{{ form.last_name }}"{% endif %} required="required">
+                </div>
+                <div>
+                    <label for="PopupCustomerEmail" class="label-required">{{ 'general.popups.account.sign-up.email.title' | t }}</label>
+                    <input type="email" name="customer[email]" id="PopupEmail" class="{% if form.errors contains 'email' %}input-error{% endif %}" placeholder="{{ 'general.popups.account.sign-up.email.placeholder' | t }}" value="{% if form.email %}{{ form.email }}{% endif %}" spellcheck="false" autocomplete="off" autocapitalize="off" required="required">
+                </div>
+                <div>
+                    <label for="PopupCustomerPassword" class="label-required">{{ 'general.popups.account.sign-up.password.title' | t }}</label>
+                    <input type="password" name="customer[password]" autocomplete="on" id="PopupCreatePassword" class="{% if form.errors contains 'password' %}input-error{% endif %}" placeholder="{{ 'general.popups.account.sign-up.password.placeholder' | t }}" required="required">
+                </div>
+                <input type="submit" class="popup-account__btn-signup btn btn--full mb-20" value="{{ 'general.popups.account.sign-up.button' | t }}">
+                <div class="mb-15">
+                    <span class="popup-account__return-to-store btn-link" data-js-popup-close>{{ 'general.popups.account.return_to_store' | t }}</span>
+                </div>
+            {% endform %}
+        </div>
+    {%- endif -%}
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'css-style-button' with class: '.popup-account__btn-login' type:
+    popup_account_login_btn_type %}"
+  to: "{% render 'css-style-button' with class, class: '.popup-account__btn-login',
+    type: popup_account_login_btn_type %}"
+  position: 927..1041
+- from: "{% render 'css-style-button' with class: '.popup-account__btn-signup' type:
+    popup_account_signup_btn_type %}"
+  to: "{% render 'css-style-button' with class, class: '.popup-account__btn-signup',
+    type: popup_account_signup_btn_type %}"
+  position: 1047..1163
+- from: "{% render 'css-style-button' with class: '.popup-account__btn-register' type:
+    popup_account_register_btn_type %}"
+  to: "{% render 'css-style-button' with class, class: '.popup-account__btn-register',
+    type: popup_account_register_btn_type %}"
+  position: 1169..1289
+- from: "{% render 'css-style-button' with class: '.popup-account__btn-account' type:
+    popup_account_account_btn_type %}"
+  to: "{% render 'css-style-button' with class, class: '.popup-account__btn-account',
+    type: popup_account_account_btn_type %}"
+  position: 1295..1413
+- from: "{% render 'css-style-button' with class: '.popup-account__btn-checkout' type:
+    popup_account_checkout_btn_type %}"
+  to: "{% render 'css-style-button' with class, class: '.popup-account__btn-checkout',
+    type: popup_account_checkout_btn_type %}"
+  position: 1419..1539
+- from: "{% render 'css-style-button' with class: '.popup-account__btn-subscription'
+    type: popup_account_subscription_btn_type %}"
+  to: "{% render 'css-style-button' with class, class: '.popup-account__btn-subscription',
+    type: popup_account_subscription_btn_type %}"
+  position: 1545..1673
+- from: "{% include 'parse-page-html-content' with default_page: 'include-popup-account'
+    page_content: settings.account_popup_sign_up_info_page_content %}"
+  to: "{% include 'parse-page-html-content' with default_page, default_page: 'include-popup-account',
+    page_content: settings.account_popup_sign_up_info_page_content %}"
+  position: 8998..9158
+{%- endcomment -%}

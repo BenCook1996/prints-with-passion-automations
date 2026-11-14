@@ -1,0 +1,529 @@
+{
+  "headingTests": [
+    {
+      "testName": "Single H1 under desktopChrome",
+      "pass": true,
+      "details": {
+        "ua": "desktopChrome",
+        "h1Count": 1,
+        "h1Texts": [
+          "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+        ]
+      }
+    },
+    {
+      "testName": "Commercial Intent in H1 under desktopChrome",
+      "pass": true,
+      "details": {
+        "ua": "desktopChrome",
+        "text": "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+      }
+    },
+    {
+      "testName": "Logo not H1 under desktopChrome",
+      "pass": true,
+      "details": {
+        "ua": "desktopChrome",
+        "logoIsH1": false
+      }
+    },
+    {
+      "testName": "Single H1 under googlebotDesktop",
+      "pass": true,
+      "details": {
+        "ua": "googlebotDesktop",
+        "h1Count": 1,
+        "h1Texts": [
+          "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+        ]
+      }
+    },
+    {
+      "testName": "Commercial Intent in H1 under googlebotDesktop",
+      "pass": true,
+      "details": {
+        "ua": "googlebotDesktop",
+        "text": "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+      }
+    },
+    {
+      "testName": "Logo not H1 under googlebotDesktop",
+      "pass": true,
+      "details": {
+        "ua": "googlebotDesktop",
+        "logoIsH1": false
+      }
+    },
+    {
+      "testName": "Single H1 under googlebotSmartphone",
+      "pass": true,
+      "details": {
+        "ua": "googlebotSmartphone",
+        "h1Count": 1,
+        "h1Texts": [
+          "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+        ]
+      }
+    },
+    {
+      "testName": "Commercial Intent in H1 under googlebotSmartphone",
+      "pass": true,
+      "details": {
+        "ua": "googlebotSmartphone",
+        "text": "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+      }
+    },
+    {
+      "testName": "Logo not H1 under googlebotSmartphone",
+      "pass": true,
+      "details": {
+        "ua": "googlebotSmartphone",
+        "logoIsH1": false
+      }
+    },
+    {
+      "testName": "Single H1 under mobileSafari",
+      "pass": true,
+      "details": {
+        "ua": "mobileSafari",
+        "h1Count": 1,
+        "h1Texts": [
+          "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+        ]
+      }
+    },
+    {
+      "testName": "Commercial Intent in H1 under mobileSafari",
+      "pass": true,
+      "details": {
+        "ua": "mobileSafari",
+        "text": "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+      }
+    },
+    {
+      "testName": "Logo not H1 under mobileSafari",
+      "pass": true,
+      "details": {
+        "ua": "mobileSafari",
+        "logoIsH1": false
+      }
+    },
+    {
+      "testName": "Single H1 under bingbot",
+      "pass": true,
+      "details": {
+        "ua": "bingbot",
+        "h1Count": 1,
+        "h1Texts": [
+          "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+        ]
+      }
+    },
+    {
+      "testName": "Commercial Intent in H1 under bingbot",
+      "pass": true,
+      "details": {
+        "ua": "bingbot",
+        "text": "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+      }
+    },
+    {
+      "testName": "Logo not H1 under bingbot",
+      "pass": true,
+      "details": {
+        "ua": "bingbot",
+        "logoIsH1": false
+      }
+    }
+  ],
+  "titleMetaTests": [
+    {
+      "testName": "Exactly one <title> tag on homepage",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "titles": [
+          "Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion"
+        ]
+      }
+    },
+    {
+      "testName": "Homepage title exact match to spec",
+      "pass": true,
+      "details": {
+        "actual": "Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion",
+        "expected": "Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion"
+      }
+    },
+    {
+      "testName": "Homepage title length audit",
+      "pass": true,
+      "details": {
+        "titleLength": 65,
+        "rawLength": 65,
+        "note": "The exact spec title string requested is 65 chars, though prompt mentioned <= 60 chars"
+      }
+    },
+    {
+      "testName": "Exactly one <meta name=\"description\"> tag",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "tags": [
+          "<meta name=\"description\" content=\"Shop archival framed canvas wall art (1.25&quot; pine bars), 4mm XXL stitched gaming desk mats, velvet cushion covers, plush throw blankets &amp; memory foam bath mats.\">"
+        ]
+      }
+    },
+    {
+      "testName": "Meta description content matches spec",
+      "pass": true,
+      "details": {
+        "actual": "Shop archival framed canvas wall art (1.25\" pine bars), 4mm XXL stitched gaming desk mats, velvet cushion covers, plush throw blankets & memory foam bath mats.",
+        "expected": "Shop archival framed canvas wall art (1.25\" pine bars), 4mm XXL stitched gaming desk mats, velvet cushion covers, plush throw blankets & memory foam bath mats."
+      }
+    },
+    {
+      "testName": "Meta description plain length audit",
+      "pass": "WARN",
+      "details": {
+        "plainLength": 159,
+        "rawContentLength": 168,
+        "charCount": 159,
+        "in140to158Range": false
+      }
+    },
+    {
+      "testName": "Meta description no double-escaping (&amp;quot;)",
+      "pass": true,
+      "details": {
+        "hasDoubleEscaped": false
+      }
+    },
+    {
+      "testName": "Meta description free of discontinued merchandise",
+      "pass": true,
+      "details": {
+        "foundDiscontinued": []
+      }
+    },
+    {
+      "testName": "OG metadata present",
+      "pass": true,
+      "details": {
+        "ogTitle": "Stylish Wall Art, Hoodies, T-Shirts &amp;amp; More | Perfect Decor &amp;amp; Accessori",
+        "ogDesc": "Shop stylish wall art, hoodies, t-shirts, posters, makeup bags, desk mats, puzzles, duvet covers, and pillowcases. Perfect decor &amp; accessories. www.printswithpassion.com"
+      }
+    }
+  ],
+  "authLinkTests": [
+    {
+      "testName": "Zero malformed href=\"/https:...\" crawl traps",
+      "pass": true,
+      "details": {
+        "foundMalformedLinks": []
+      }
+    },
+    {
+      "testName": "Customer authentication links correctly formed",
+      "pass": true,
+      "details": {
+        "sampleAuthLinks": [
+          "https://printswithpassion.com/customer_authentication/redirect?locale=en&region_country=US",
+          "https://printswithpassion.com/customer_authentication/redirect?locale=en&region_country=US",
+          "https://printswithpassion.com/customer_authentication/redirect?locale=en&region_country=US",
+          "/account/login/#recover",
+          "/account/register"
+        ],
+        "malformedAuthLinks": []
+      }
+    },
+    {
+      "testName": "Sampled header navigation links return healthy HTTP status (no 404s)",
+      "pass": false,
+      "details": {
+        "testedCount": 15,
+        "brokenHeaderLinks": [
+          {
+            "link": "/collections/canvas-prints",
+            "status": 429
+          },
+          {
+            "link": "/collections/nature-landscapes",
+            "status": 429
+          },
+          {
+            "link": "/collections/japanese-asian-art",
+            "status": 429
+          },
+          {
+            "link": "/collections/world-travel-cities",
+            "status": 429
+          },
+          {
+            "link": "/collections/space-cosmic",
+            "status": 429
+          },
+          {
+            "link": "/collections/sci-fi-cyberpunk",
+            "status": 429
+          },
+          {
+            "link": "/collections/home-living",
+            "status": 429
+          },
+          {
+            "link": "/collections/blankets",
+            "status": 429
+          },
+          {
+            "link": "/collections/pillow-cases",
+            "status": 429
+          }
+        ]
+      }
+    }
+  ],
+  "typoTests": [
+    {
+      "testName": "Zero email typos on Homepage (Desktop)",
+      "pass": true,
+      "details": {
+        "url": "/",
+        "typos": []
+      }
+    },
+    {
+      "testName": "Zero typos inside modals on Homepage (Desktop)",
+      "pass": true,
+      "details": {
+        "modalsAudited": 20,
+        "modalTypoCount": 0
+      }
+    },
+    {
+      "testName": "Zero email typos on Homepage (Mobile)",
+      "pass": true,
+      "details": {
+        "url": "/",
+        "typos": []
+      }
+    },
+    {
+      "testName": "Zero typos inside modals on Homepage (Mobile)",
+      "pass": true,
+      "details": {
+        "modalsAudited": 20,
+        "modalTypoCount": 0
+      }
+    },
+    {
+      "testName": "Zero email typos on Delivery & Return Page",
+      "pass": true,
+      "details": {
+        "url": "/pages/delivery-return",
+        "typos": []
+      }
+    },
+    {
+      "testName": "Correct email present on Delivery & Return",
+      "pass": true,
+      "details": {
+        "occurrences": 10
+      }
+    },
+    {
+      "testName": "Zero typos inside modals on Delivery & Return Page",
+      "pass": true,
+      "details": {
+        "modalsAudited": 21,
+        "modalTypoCount": 0
+      }
+    },
+    {
+      "testName": "Zero email typos on Parent Collection Canvas Prints",
+      "pass": true,
+      "details": {
+        "url": "/collections/canvas-prints",
+        "typos": []
+      }
+    },
+    {
+      "testName": "Zero typos inside modals on Parent Collection Canvas Prints",
+      "pass": true,
+      "details": {
+        "modalsAudited": 0,
+        "modalTypoCount": 0
+      }
+    }
+  ],
+  "hubPositiveTests": [
+    {
+      "testName": "Hub snippet renders on Homepage (/)",
+      "pass": true,
+      "details": {
+        "hasHub": true
+      }
+    },
+    {
+      "testName": "All 48 smart subcollections linked on Homepage (/)",
+      "pass": true,
+      "details": {
+        "totalExpected": 48,
+        "linkedCount": 48,
+        "missingSubs": []
+      }
+    },
+    {
+      "testName": "Hub snippet renders on /collections/canvas-prints",
+      "pass": false,
+      "details": {
+        "hasHub": false
+      }
+    },
+    {
+      "testName": "All 48 smart subcollections linked on /collections/canvas-prints",
+      "pass": false,
+      "details": {
+        "totalExpected": 48,
+        "linkedCount": 0,
+        "missingCount": 48
+      }
+    },
+    {
+      "testName": "Hub snippet renders on /collections/desk-mats",
+      "pass": false,
+      "details": {
+        "hasHub": false
+      }
+    },
+    {
+      "testName": "All 48 smart subcollections linked on /collections/desk-mats",
+      "pass": false,
+      "details": {
+        "totalExpected": 48,
+        "linkedCount": 0,
+        "missingCount": 48
+      }
+    },
+    {
+      "testName": "Hub snippet renders on /collections/pillow-cases",
+      "pass": false,
+      "details": {
+        "hasHub": false
+      }
+    },
+    {
+      "testName": "All 48 smart subcollections linked on /collections/pillow-cases",
+      "pass": false,
+      "details": {
+        "totalExpected": 48,
+        "linkedCount": 0,
+        "missingCount": 48
+      }
+    },
+    {
+      "testName": "Hub snippet renders on /collections/blankets",
+      "pass": false,
+      "details": {
+        "hasHub": false
+      }
+    },
+    {
+      "testName": "All 48 smart subcollections linked on /collections/blankets",
+      "pass": false,
+      "details": {
+        "totalExpected": 48,
+        "linkedCount": 0,
+        "missingCount": 48
+      }
+    },
+    {
+      "testName": "Hub snippet renders on /collections/bath-mats",
+      "pass": false,
+      "details": {
+        "hasHub": false
+      }
+    },
+    {
+      "testName": "All 48 smart subcollections linked on /collections/bath-mats",
+      "pass": false,
+      "details": {
+        "totalExpected": 48,
+        "linkedCount": 0,
+        "missingCount": 48
+      }
+    },
+    {
+      "testName": "Hub snippet renders on /collections/apparel",
+      "pass": false,
+      "details": {
+        "hasHub": false
+      }
+    },
+    {
+      "testName": "All 48 smart subcollections linked on /collections/apparel",
+      "pass": false,
+      "details": {
+        "totalExpected": 48,
+        "linkedCount": 0,
+        "missingCount": 48
+      }
+    }
+  ],
+  "hubNegativeTests": [
+    {
+      "testName": "Hub does NOT render on subcollection: /collections/nature-mountain-landscape-canvas-wall-art",
+      "pass": true,
+      "details": {
+        "path": "/collections/nature-mountain-landscape-canvas-wall-art",
+        "renderedHub": false
+      }
+    },
+    {
+      "testName": "Hub does NOT render on subcollection: /collections/japanese-anime-desk-mats",
+      "pass": true,
+      "details": {
+        "path": "/collections/japanese-anime-desk-mats",
+        "renderedHub": false
+      }
+    },
+    {
+      "testName": "Hub does NOT render on subcollection: /collections/william-morris-pillow-cases",
+      "pass": true,
+      "details": {
+        "path": "/collections/william-morris-pillow-cases",
+        "renderedHub": false
+      }
+    },
+    {
+      "testName": "Hub does NOT render on page: /pages/delivery-return",
+      "pass": true,
+      "details": {
+        "path": "/pages/delivery-return",
+        "renderedHub": false
+      }
+    },
+    {
+      "testName": "Hub does NOT render on page: /pages/uk-product-catalog",
+      "pass": true,
+      "details": {
+        "path": "/pages/uk-product-catalog",
+        "renderedHub": false
+      }
+    },
+    {
+      "testName": "Hub does NOT render on blog-hub: /blogs/news",
+      "pass": true,
+      "details": {
+        "path": "/blogs/news",
+        "renderedHub": false
+      }
+    }
+  ],
+  "summary": {
+    "total": 56,
+    "passed": 43,
+    "failed": 13,
+    "warnings": 0
+  }
+}

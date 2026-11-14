@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-11-13T01:22:20.626Z",
+  "testsRun": 95,
+  "testsPassed": 89,
+  "testsFailed": 6,
+  "failures": [
+    {
+      "message": "Meta description length is between 140 and 165 characters (Length: 168)",
+      "metadata": {
+        "length": 168
+      }
+    },
+    {
+      "message": "All 48 smart sub-collection landing pages return HTTP 200 OK (Unhealthy: 12)",
+      "metadata": {
+        "unhealthySubcollections": [
+          {
+            "handle": "sci-fi-neon-cyberpunk-bath-mats",
+            "status": 429
+          },
+          {
+            "handle": "fantasy-gothic-witchy-bath-mats",
+            "status": 429
+          },
+          {
+            "handle": "retro-vintage-funky-bath-mats",
+            "status": 429
+          },
+          {
+            "handle": "cyberpunk-sci-fi-graphic-t-shirts",
+            "status": 429
+          },
+          {
+            "handle": "japanese-zen-onsen-bath-mats",
+            "status": 429
+          },
+          {
+            "handle": "japanese-anime-graphic-t-shirts",
+            "status": 429
+          },
+          {
+            "handle": "japanese-ukiyo-e-graphic-hoodies",
+            "status": 429
+          },
+          {
+            "handle": "nature-mountain-graphic-hoodies",
+            "status": 429
+          },
+          {
+            "handle": "retro-synthwave-graphic-t-shirts",
+            "status": 429
+          },
+          {
+            "handle": "fantasy-dragon-graphic-hoodies",
+            "status": 429
+          },
+          {
+            "handle": "space-galaxy-graphic-t-shirts",
+            "status": 429
+          },
+          {
+            "handle": "cyberpunk-neon-graphic-hoodies",
+            "status": 429
+          }
+        ]
+      }
+    },
+    {
+      "message": "Hub section heading on /collections/desk-mats uses semantic <h2>",
+      "metadata": {
+        "parent": "desk-mats"
+      }
+    },
+    {
+      "message": "Hub section heading on /collections/pillow-cases uses semantic <h2>",
+      "metadata": {
+        "parent": "pillow-cases"
+      }
+    },
+    {
+      "message": "Hub section heading on /collections/blankets uses semantic <h2>",
+      "metadata": {
+        "parent": "blankets"
+      }
+    },
+    {
+      "message": "Hub section heading on /collections/apparel uses semantic <h2>",
+      "metadata": {
+        "parent": "apparel"
+      }
+    }
+  ],
+  "details": {
+    "headings": {
+      "desktopChrome": {
+        "h1Count": 1,
+        "h1Texts": [
+          "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+        ]
+      },
+      "googlebotDesktop": {
+        "h1Count": 1,
+        "h1Texts": [
+          "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+        ]
+      },
+      "googlebotMobile": {
+        "h1Count": 1,
+        "h1Texts": [
+          "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+        ]
+      },
+      "mobileSafari": {
+        "h1Count": 1,
+        "h1Texts": [
+          "Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats"
+        ]
+      }
+    },
+    "titles": [
+      "Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion"
+    ],
+    "metaDescriptions": [
+      "Shop archival framed canvas wall art (1.25&quot; pine bars), 4mm XXL stitched gaming desk mats, velvet cushion covers, plush throw blankets &amp; memory foam bath mats."
+    ],
+    "authLinks": [
+      "https://printswithpassion.com/customer_authentication/redirect?locale=en&region_country=US",
+      "https://printswithpassion.com/customer_authentication/redirect?locale=en&region_country=US",
+      "https://printswithpassion.com/customer_authentication/redirect?locale=en&region_country=US",
+      "/account/login/#recover",
+      "/account/register"
+    ]
+  }
+}

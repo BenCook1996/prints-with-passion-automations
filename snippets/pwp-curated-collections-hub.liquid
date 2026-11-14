@@ -1,0 +1,338 @@
+{%- comment -%}
+  Prints With Passion — 48 Curated Studio Collections Directory Hub
+  Snippet: snippets/pwp-curated-collections-hub.liquid
+  Target Theme: gid://shopify/OnlineStoreTheme/177936466293 (2025-theme|OPT)
+
+  Places all 48 smart sub-collections at Click Depth 1 from Homepage and Parent Collections.
+  Renders conditionally on template.name == 'index' or the 6 parent collection handles:
+  - /collections/canvas-prints (8)
+  - /collections/desk-mats (8)
+  - /collections/pillow-cases (8)
+  - /collections/blankets (8)
+  - /collections/bath-mats (8)
+  - /collections/apparel (8)
+{%- endcomment -%}
+
+<style>
+  .pwp-curated-hub {
+    background: #111110;
+    color: #E4E4E7;
+    padding: 56px 24px 64px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    border-top: 1px solid #27272A;
+    border-bottom: 1px solid #27272A;
+  }
+  .pwp-curated-hub__container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .pwp-curated-hub__header {
+    margin-bottom: 36px;
+    text-align: left;
+  }
+  .pwp-curated-hub__eyebrow {
+    color: #C85A32;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 8px;
+  }
+  .pwp-curated-hub__title {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin: 0 0 10px 0;
+  }
+  .pwp-curated-hub__subtitle {
+    color: #A1A1AA;
+    font-size: 14.5px;
+    line-height: 1.6;
+    max-width: 780px;
+    margin: 0;
+  }
+  .pwp-curated-hub__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  @media (max-width: 1024px) {
+    .pwp-curated-hub__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  }
+  @media (max-width: 640px) {
+    .pwp-curated-hub {
+      padding: 40px 16px 48px;
+    }
+    .pwp-curated-hub__title {
+      font-size: 22px;
+    }
+    .pwp-curated-hub__grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  }
+  .pwp-curated-hub__card {
+    background: #18181B;
+    border: 1px solid #27272A;
+    border-radius: 8px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .pwp-curated-hub__card:hover {
+    border-color: #3F3F46;
+  }
+  .pwp-curated-hub__card--active {
+    border-color: #C85A32;
+    box-shadow: 0 0 0 1px #C85A32 inset;
+  }
+  .pwp-curated-hub__card-header {
+    border-bottom: 1px solid #27272A;
+    padding-bottom: 14px;
+    margin-bottom: 16px;
+  }
+  .pwp-curated-hub__card-title {
+    margin: 0 0 6px 0;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .pwp-curated-hub__parent-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.15s ease;
+  }
+  .pwp-curated-hub__parent-link:hover,
+  .pwp-curated-hub__parent-link:focus {
+    color: #C85A32;
+    text-decoration: underline;
+  }
+  .pwp-curated-hub__arrow {
+    color: #C85A32;
+    font-weight: 700;
+    transition: transform 0.15s ease;
+  }
+  .pwp-curated-hub__parent-link:hover .pwp-curated-hub__arrow {
+    transform: translateX(3px);
+  }
+  .pwp-curated-hub__spec {
+    color: #71717A;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .pwp-curated-hub__active-badge {
+    display: inline-block;
+    background: rgba(200, 90, 50, 0.15);
+    color: #C85A32;
+    border: 1px solid #C85A32;
+    border-radius: 4px;
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 2px 6px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .pwp-curated-hub__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+  }
+  .pwp-curated-hub__item {
+    margin: 0;
+    padding: 0;
+  }
+  .pwp-curated-hub__sub-link {
+    color: #D4D4D8;
+    text-decoration: none;
+    font-size: 13.5px;
+    line-height: 1.45;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    padding: 3px 0;
+    transition: color 0.15s ease, padding-left 0.15s ease;
+  }
+  .pwp-curated-hub__sub-link:before {
+    content: "•";
+    color: #C85A32;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  .pwp-curated-hub__sub-link:hover,
+  .pwp-curated-hub__sub-link:focus {
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding-left: 3px;
+  }
+</style>
+
+<section class="pwp-curated-hub pwp-curated-collections-hub" aria-labelledby="pwp-curated-hub-heading">
+  <div class="pwp-curated-hub__container">
+    <div class="pwp-curated-hub__header">
+      <div class="pwp-curated-hub__eyebrow">Archival Print Studio Architecture</div>
+      <h2 id="pwp-curated-hub-heading" class="pwp-curated-hub__title">Shop All 48 Curated Studio Collections</h2>
+      <p class="pwp-curated-hub__subtitle">Explore specialized aesthetic editions across solid pine framed canvas, 4mm XXL stitched gaming desk mats, double-sided velvet cushions, plush coral fleece throws, memory foam bath mats &amp; heavyweight graphic apparel.</p>
+    </div>
+
+    <div class="pwp-curated-hub__grid">
+      <!-- 1. Canvas Wall Art (8 Collections) -->
+      <article class="pwp-curated-hub__card{% if collection.handle == 'canvas-prints' %} pwp-curated-hub__card--active{% endif %}">
+        <header class="pwp-curated-hub__card-header">
+          <h3 class="pwp-curated-hub__card-title">
+            <a href="/collections/canvas-prints" class="pwp-curated-hub__parent-link">
+              <span>Canvas Wall Art</span>
+              {% if collection.handle == 'canvas-prints' %}<span class="pwp-curated-hub__active-badge">Active</span>{% endif %}
+              <span class="pwp-curated-hub__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </h3>
+          <div class="pwp-curated-hub__spec">Archival 1.25" Pine Bars &bull; 8&times;10" to 24&times;36" (CM &amp; Inch) &bull; 375 Prints</div>
+        </header>
+        <ul class="pwp-curated-hub__list" role="list">
+          <li class="pwp-curated-hub__item"><a href="/collections/nature-mountain-landscape-canvas-wall-art" class="pwp-curated-hub__sub-link">Nature, Alpine Mountain &amp; Scenic Landscape Canvas Wall Art</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/botanical-floral-coastal-canvas-wall-art" class="pwp-curated-hub__sub-link">Botanical, Floral Garden &amp; Coastal Canvas Wall Art</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/abstract-minimalist-bauhaus-canvas-wall-art" class="pwp-curated-hub__sub-link">Abstract, Minimalist &amp; Bauhaus Geometric Canvas Wall Art</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/japanese-ukiyo-e-zen-canvas-wall-art" class="pwp-curated-hub__sub-link">Japanese Ukiyo-e, Samurai &amp; Sakura Blossom Canvas Wall Art</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/animals-wildlife-equestrian-canvas-wall-art" class="pwp-curated-hub__sub-link">Animals, Wildlife, Highland Cow &amp; Pet Portrait Canvas Art</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/world-travel-city-skyline-canvas-wall-art" class="pwp-curated-hub__sub-link">World Travel, City Skylines &amp; Architectural Canvas Wall Art</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/space-cosmic-astronomy-canvas-wall-art" class="pwp-curated-hub__sub-link">Space, Deep-Field Nebula &amp; Celestial Canvas Wall Art</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/sci-fi-cyberpunk-neon-canvas-wall-art" class="pwp-curated-hub__sub-link">Sci-Fi, Cyberpunk &amp; Neon Futuristic Canvas Wall Art</a></li>
+        </ul>
+      </article>
+
+      <!-- 2. XXL Extended Desk Mats (8 Collections) -->
+      <article class="pwp-curated-hub__card{% if collection.handle == 'desk-mats' %} pwp-curated-hub__card--active{% endif %}">
+        <header class="pwp-curated-hub__card-header">
+          <h3 class="pwp-curated-hub__card-title">
+            <a href="/collections/desk-mats" class="pwp-curated-hub__parent-link">
+              <span>Extended Desk Mats</span>
+              {% if collection.handle == 'desk-mats' %}<span class="pwp-curated-hub__active-badge">Active</span>{% endif %}
+              <span class="pwp-curated-hub__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </h3>
+          <div class="pwp-curated-hub__spec">4mm Heavyweight Neoprene &bull; Anti-Fray Stitched Edge &bull; 900&times;400mm &bull; 375 Mats</div>
+        </header>
+        <ul class="pwp-curated-hub__list" role="list">
+          <li class="pwp-curated-hub__item"><a href="/collections/japanese-anime-desk-mats" class="pwp-curated-hub__sub-link">Japanese, Samurai, Sakura &amp; Ukiyo-e Extended Desk Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/cyberpunk-neon-gaming-desk-mats" class="pwp-curated-hub__sub-link">Sci-Fi, Cyberpunk &amp; Synthwave XXL Gaming Desk Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/space-galaxy-nebula-desk-mats" class="pwp-curated-hub__sub-link">Space, Galaxy, Nebula &amp; Astronaut Extended Desk Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/fantasy-dragon-mythology-desk-mats" class="pwp-curated-hub__sub-link">Fantasy, Dragons, Dark Mythic &amp; RPG Gaming Desk Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/nature-mountain-forest-desk-mats" class="pwp-curated-hub__sub-link">Nature, Alpine Mountain &amp; Forest Landscape Desk Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/minimalist-abstract-geometric-desk-mats" class="pwp-curated-hub__sub-link">Minimalist, Abstract, Bauhaus &amp; Topographic Desk Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/animals-wildlife-pet-desk-mats" class="pwp-curated-hub__sub-link">Animals, Wildlife, Cats &amp; Dogs Extended Desk Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/retro-vintage-synthwave-desk-mats" class="pwp-curated-hub__sub-link">Retro, 80s Vaporwave &amp; Vintage Arcade Gaming Desk Mats</a></li>
+        </ul>
+      </article>
+
+      <!-- 3. Velvet Cushion Covers (8 Collections) -->
+      <article class="pwp-curated-hub__card{% if collection.handle == 'pillow-cases' %} pwp-curated-hub__card--active{% endif %}">
+        <header class="pwp-curated-hub__card-header">
+          <h3 class="pwp-curated-hub__card-title">
+            <a href="/collections/pillow-cases" class="pwp-curated-hub__parent-link">
+              <span>Cushion Covers</span>
+              {% if collection.handle == 'pillow-cases' %}<span class="pwp-curated-hub__active-badge">Active</span>{% endif %}
+              <span class="pwp-curated-hub__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </h3>
+          <div class="pwp-curated-hub__spec">Double-Sided Studio Velvet &bull; Concealed Zipper &bull; 45&times;45cm (18&times;18") &bull; 270 Pillows</div>
+        </header>
+        <ul class="pwp-curated-hub__list" role="list">
+          <li class="pwp-curated-hub__item"><a href="/collections/botanical-floral-garden-cushion-covers" class="pwp-curated-hub__sub-link">Botanical, Vintage Floral &amp; Nature Square Cushion Covers</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/abstract-geometric-bauhaus-cushion-covers" class="pwp-curated-hub__sub-link">Abstract, Geometric, Bauhaus &amp; Mid-Century Cushion Covers</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/animals-wildlife-woodland-cushion-covers" class="pwp-curated-hub__sub-link">Animals, Woodland Wildlife &amp; Pet Portrait Cushion Covers</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/space-celestial-galaxy-cushion-covers" class="pwp-curated-hub__sub-link">Celestial, Moon Phase &amp; Cosmic Galaxy Cushion Covers</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/fantasy-mythology-gothic-cushion-covers" class="pwp-curated-hub__sub-link">Fantasy, Dark Academia, Mythology &amp; Gothic Cushion Covers</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/japanese-asian-art-cushion-covers" class="pwp-curated-hub__sub-link">Japanese Wave, Koi, Sakura &amp; Zen Accent Cushion Covers</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/world-travel-mediterranean-cushion-covers" class="pwp-curated-hub__sub-link">World Travel, Coastal Villa &amp; European City Cushion Covers</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/retro-vintage-pop-art-cushion-covers" class="pwp-curated-hub__sub-link">Retro, Vintage Poster &amp; Mid-Century Pop Art Cushion Covers</a></li>
+        </ul>
+      </article>
+
+      <!-- 4. Plush Throw Blankets (8 Collections) -->
+      <article class="pwp-curated-hub__card{% if collection.handle == 'blankets' %} pwp-curated-hub__card--active{% endif %}">
+        <header class="pwp-curated-hub__card-header">
+          <h3 class="pwp-curated-hub__card-title">
+            <a href="/collections/blankets" class="pwp-curated-hub__parent-link">
+              <span>Plush Throw Blankets</span>
+              {% if collection.handle == 'blankets' %}<span class="pwp-curated-hub__active-badge">Active</span>{% endif %}
+              <span class="pwp-curated-hub__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </h3>
+          <div class="pwp-curated-hub__spec">300 GSM Ultra-Soft Coral Fleece &bull; Hemmed Edge &bull; 50&times;60" &amp; 60&times;80" &bull; 270 Blankets</div>
+        </header>
+        <ul class="pwp-curated-hub__list" role="list">
+          <li class="pwp-curated-hub__item"><a href="/collections/nature-mountain-cabin-throw-blankets" class="pwp-curated-hub__sub-link">Nature, Alpine Cabin, Forest &amp; Scenic Plush Throw Blankets</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/abstract-boho-kilim-throw-blankets" class="pwp-curated-hub__sub-link">Abstract, Boho Kilim, Tartan &amp; Geometric Plush Throw Blankets</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/space-starry-night-galaxy-throw-blankets" class="pwp-curated-hub__sub-link">Space, Starry Night, Constellation &amp; Galaxy Throw Blankets</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/animals-wildlife-cozy-throw-blankets" class="pwp-curated-hub__sub-link">Animals, Wildlife, Cats, Dogs &amp; Woodland Plush Throw Blankets</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/fantasy-dragon-mythic-throw-blankets" class="pwp-curated-hub__sub-link">Fantasy, Dragon, Celestial Tarot &amp; Mythic Throw Blankets</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/sci-fi-cyberpunk-gamer-throw-blankets" class="pwp-curated-hub__sub-link">Sci-Fi, Cyberpunk &amp; Neon Gaming Room Plush Throw Blankets</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/world-travel-paris-european-throw-blankets" class="pwp-curated-hub__sub-link">World Travel, Paris Sunset &amp; Cityscape Plush Throw Blankets</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/japanese-sakura-oriental-throw-blankets" class="pwp-curated-hub__sub-link">Japanese Sakura, Great Wave &amp; Oriental Plush Throw Blankets</a></li>
+        </ul>
+      </article>
+
+      <!-- 5. Memory Foam Bath Mats (8 Collections) -->
+      <article class="pwp-curated-hub__card{% if collection.handle == 'bath-mats' %} pwp-curated-hub__card--active{% endif %}">
+        <header class="pwp-curated-hub__card-header">
+          <h3 class="pwp-curated-hub__card-title">
+            <a href="/collections/bath-mats" class="pwp-curated-hub__parent-link">
+              <span>Memory Foam Bath Mats</span>
+              {% if collection.handle == 'bath-mats' %}<span class="pwp-curated-hub__active-badge">Active</span>{% endif %}
+              <span class="pwp-curated-hub__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </h3>
+          <div class="pwp-curated-hub__spec">High-Density Memory Foam &bull; Non-Slip Skid Backing &bull; 17&times;24" &amp; 20&times;30" &bull; 120 Mats</div>
+        </header>
+        <ul class="pwp-curated-hub__list" role="list">
+          <li class="pwp-curated-hub__item"><a href="/collections/coastal-ocean-botanical-bath-mats" class="pwp-curated-hub__sub-link">Coastal Ocean, Tropical Leaf &amp; Nature Memory Foam Bath Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/minimalist-abstract-stone-bath-mats" class="pwp-curated-hub__sub-link">Minimalist, Abstract Terrazzo &amp; Geometric Memory Foam Bath Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/animals-wildlife-whimsical-bath-mats" class="pwp-curated-hub__sub-link">Animals, Whimsical Cat, Frog &amp; Wildlife Memory Foam Bath Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/celestial-space-moon-bath-mats" class="pwp-curated-hub__sub-link">Celestial Moon, Starry Night &amp; Cosmic Memory Foam Bath Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/fantasy-gothic-witchy-bath-mats" class="pwp-curated-hub__sub-link">Fantasy, Celestial Moth, Gothic &amp; Enchanted Memory Foam Bath Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/sci-fi-neon-cyberpunk-bath-mats" class="pwp-curated-hub__sub-link">Sci-Fi, Neon Cyberpunk &amp; Futuristic Memory Foam Bath Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/japanese-zen-onsen-bath-mats" class="pwp-curated-hub__sub-link">Japanese Koi, Great Wave &amp; Zen Sanctuary Memory Foam Bath Mats</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/retro-vintage-funky-bath-mats" class="pwp-curated-hub__sub-link">Retro 70s Groovy, Checkerboard &amp; Vintage Memory Foam Bath Mats</a></li>
+        </ul>
+      </article>
+
+      <!-- 6. Graphic Apparel (8 Collections: 4 Tees, 4 Hoodies) -->
+      <article class="pwp-curated-hub__card{% if collection.handle == 'apparel' %} pwp-curated-hub__card--active{% endif %}">
+        <header class="pwp-curated-hub__card-header">
+          <h3 class="pwp-curated-hub__card-title">
+            <a href="/collections/apparel" class="pwp-curated-hub__parent-link">
+              <span>Graphic Apparel</span>
+              {% if collection.handle == 'apparel' %}<span class="pwp-curated-hub__active-badge">Active</span>{% endif %}
+              <span class="pwp-curated-hub__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </h3>
+          <div class="pwp-curated-hub__spec">Heavyweight Ringspun Cotton &bull; Unisex S&ndash;3XL &bull; Studio DTG Print &bull; 45 Garments</div>
+        </header>
+        <ul class="pwp-curated-hub__list" role="list">
+          <li class="pwp-curated-hub__item"><a href="/collections/japanese-anime-graphic-t-shirts" class="pwp-curated-hub__sub-link">Japanese Ukiyo-e, Samurai &amp; Sakura Graphic Cotton T-Shirts</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/cyberpunk-sci-fi-graphic-t-shirts" class="pwp-curated-hub__sub-link">Sci-Fi, Cyberpunk &amp; Neon Futuristic Graphic Cotton T-Shirts</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/space-galaxy-graphic-t-shirts" class="pwp-curated-hub__sub-link">Space, Astronaut, Nebula &amp; Celestial Graphic Cotton T-Shirts</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/retro-synthwave-graphic-t-shirts" class="pwp-curated-hub__sub-link">Retro 80s Synthwave, Vintage &amp; Abstract Graphic Cotton T-Shirts</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/japanese-ukiyo-e-graphic-hoodies" class="pwp-curated-hub__sub-link">Japanese Samurai, Great Wave &amp; Sakura Heavyweight Hoodies</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/cyberpunk-neon-graphic-hoodies" class="pwp-curated-hub__sub-link">Sci-Fi, Cyberpunk &amp; Neon Streetwear Heavyweight Hoodies</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/fantasy-dragon-graphic-hoodies" class="pwp-curated-hub__sub-link">Fantasy, Dragon, Gothic &amp; Mythology Heavyweight Hoodies</a></li>
+          <li class="pwp-curated-hub__item"><a href="/collections/nature-mountain-graphic-hoodies" class="pwp-curated-hub__sub-link">Nature, Mountain Landscape &amp; Wildlife Heavyweight Hoodies</a></li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>

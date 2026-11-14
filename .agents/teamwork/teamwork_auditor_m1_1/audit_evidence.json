@@ -1,0 +1,150 @@
+{
+  "staticChecks": {
+    "snippets/head.liquid title & meta override": {
+      "passed": true,
+      "details": "Found index template override block"
+    },
+    "sections/header.liquid logo demotion": {
+      "passed": true,
+      "details": "main_logo_tag set to 'div' on index"
+    },
+    "sections/header.liquid auth link leading slash removed": {
+      "passed": true,
+      "details": "Leading slash cleanly removed"
+    },
+    "templates/index.json commercial H1 headline": {
+      "passed": true,
+      "details": "Commercial keywords present in hero H1"
+    },
+    "snippets/pwp-curated-collections-hub.liquid contains all 48 subs": {
+      "passed": true,
+      "details": "Hub contains all 48 sub-collections"
+    },
+    "layout/theme.liquid hub render guard": {
+      "passed": true,
+      "details": "Hub rendered on index and 6 parent collections"
+    }
+  },
+  "remoteThemeChecks": {
+    "Remote snippets/head.liquid deployed": {
+      "passed": true,
+      "details": "Size 118268 bytes, contains index title override"
+    },
+    "Remote sections/header.liquid deployed": {
+      "passed": true,
+      "details": "Size 248477 bytes, logo demoted and auth URL fixed"
+    },
+    "Remote templates/index.json deployed": {
+      "passed": true,
+      "details": "Size 29230 bytes, contains commercial hero H1"
+    },
+    "Remote snippets/pwp-curated-collections-hub.liquid deployed": {
+      "passed": true,
+      "details": "Size 20648 bytes, all 48 sub-collections verified"
+    },
+    "Remote layout/theme.liquid deployed": {
+      "passed": true,
+      "details": "Size 14860 bytes, hub rendering active"
+    }
+  },
+  "adminApiChecks": {
+    "Page 703779766645 delivery-return email typo": {
+      "passed": true,
+      "details": "Typos: 0, Correct emails: 2, updatedAt: 2026-11-13T01:14:04Z"
+    },
+    "Smart sub-collections exist in Admin catalog": {
+      "passed": true,
+      "details": "Sample sub-collections confirmed active in Shopify DB"
+    }
+  },
+  "storefrontChecks": {
+    "Homepage HTTP 200 OK": {
+      "passed": true,
+      "details": "Status code: 200"
+    },
+    "Homepage <title> exact match": {
+      "passed": true,
+      "details": "Live: \"Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion\" (Length: 65) | Expected: \"Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion\""
+    },
+    "Homepage <meta name=\"description\">": {
+      "passed": true,
+      "details": "Live: \"Shop archival framed canvas wall art (1.25&quot; pine bars), 4mm XXL stitched gaming desk mats, velvet cushion covers, plush throw blankets &amp; memory foam bath mats.\" (Length: 168)"
+    },
+    "Homepage strictly single semantic H1": {
+      "passed": true,
+      "details": "Found 1 H1 tags: [Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats]"
+    },
+    "Homepage H1 commercial keywords": {
+      "passed": true,
+      "details": "H1 text: \"Art built for quiet rooms &mdash; Archival Framed Canvas Wall Art &amp; XXL Desk Mats\""
+    },
+    "Homepage logo demoted to div (not h1)": {
+      "passed": true,
+      "details": "Logo rendered as div"
+    },
+    "Homepage customer auth links valid": {
+      "passed": true,
+      "details": "Found 0 malformed auth links"
+    },
+    "Homepage email typo absent": {
+      "passed": true,
+      "details": "Found 0 occurrences of typo on /"
+    },
+    "Homepage 48 curated collections hub present": {
+      "passed": true,
+      "details": "Hub rendered, 48/48 sub-collections present"
+    },
+    "/pages/delivery-return HTTP 200 OK": {
+      "passed": true,
+      "details": "Status code: 200"
+    },
+    "/pages/delivery-return typo cured": {
+      "passed": true,
+      "details": "Typos: 0, Correct email occurrences: 10"
+    },
+    "/collections/canvas-prints hub directory": {
+      "passed": true,
+      "details": "Status 200, Hub present: true, Sub-collections present: 48/48"
+    },
+    "/collections/desk-mats hub directory": {
+      "passed": true,
+      "details": "Status 200, Hub present: true, Sub-collections present: 48/48"
+    },
+    "/collections/pillow-cases hub directory": {
+      "passed": true,
+      "details": "Status 200, Hub present: true, Sub-collections present: 48/48"
+    },
+    "/collections/blankets hub directory": {
+      "passed": true,
+      "details": "Status 200, Hub present: true, Sub-collections present: 48/48"
+    },
+    "/collections/bath-mats hub directory": {
+      "passed": true,
+      "details": "Status 200, Hub present: true, Sub-collections present: 48/48"
+    },
+    "/collections/apparel hub directory": {
+      "passed": true,
+      "details": "Status 200, Hub present: true, Sub-collections present: 48/48"
+    },
+    "Negative check: sub-collection excludes hub": {
+      "passed": true,
+      "details": "Hub correctly suppressed on sub-collection"
+    }
+  },
+  "adversarialChecks": {
+    "Sub-collection reachability sampling (6 categories)": {
+      "passed": true,
+      "details": "Sampled 6 sub-collections across all 6 categories, non-200 responses: 0"
+    },
+    "Meta description free of double-escaped entities": {
+      "passed": true,
+      "details": "Clean entity encoding verified"
+    },
+    "Homepage indexable & canonical URL valid": {
+      "passed": true,
+      "details": "Noindex: false, Canonical: https://printswithpassion.com/"
+    }
+  },
+  "verdict": "CLEAN",
+  "failures": []
+}

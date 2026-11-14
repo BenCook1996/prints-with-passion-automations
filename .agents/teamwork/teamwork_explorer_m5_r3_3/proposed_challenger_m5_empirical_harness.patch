@@ -1,0 +1,5 @@
+--- tests/challenger_m5_empirical_harness.mjs
++++ tests/challenger_m5_empirical_harness.mjs
+@@ -63,1 +63,1 @@
+-const trailingDelimiters = /[\s\-_|&:,;/\\~+([\]]+$/;
++const trailingDelimiters = /[\s\-_|&:,;/\\~+(\[]+$/;

@@ -1,0 +1,135 @@
+{%- comment -%}
+  Prints With Passion — Clean Standard 4-Column Footer Navigation
+  Replaces 119-link directory with streamlined, high-signal 18-link architecture.
+  Modeled after Kinetic Labs and Akua Home competitor benchmarks.
+{%- endcomment -%}
+
+<style>
+  .pwp-site-footer {
+    background: #111110;
+    color: #E4E4E7;
+    padding: 48px 24px 32px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    border-top: 1px solid #27272A;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .pwp-footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .pwp-footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 36px;
+    margin-bottom: 40px;
+  }
+  @media (max-width: 900px) {
+    .pwp-footer-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+    }
+  }
+  @media (max-width: 540px) {
+    .pwp-footer-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+  .pwp-footer-col h3.pwp-footer-title {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 0 0 16px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #C85A32;
+    display: inline-block;
+  }
+  .pwp-footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .pwp-footer-links li {
+    margin-bottom: 10px;
+  }
+  .pwp-footer-links a {
+    color: #A1A1AA;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+    display: inline-block;
+  }
+  .pwp-footer-links a:hover,
+  .pwp-footer-links a:focus {
+    color: #FFFFFF;
+    text-decoration: underline;
+  }
+  .pwp-footer-bottom {
+    border-top: 1px solid #27272A;
+    padding-top: 24px;
+    text-align: center;
+    color: #71717A;
+    font-size: 12.5px;
+  }
+  .pwp-footer-bottom p {
+    margin: 0;
+  }
+</style>
+
+<footer class="pwp-site-footer" role="contentinfo">
+  <div class="pwp-footer-container">
+    <div class="pwp-footer-grid">
+      <!-- Column 1: Curated Collections -->
+      <nav class="pwp-footer-col" aria-labelledby="footer-col-shop">
+        <h3 id="footer-col-shop" class="pwp-footer-title">Shop Curated</h3>
+        <ul class="pwp-footer-links">
+          <li><a href="/collections/desk-mats">XXL Desk Mats &amp; Gaming Pads</a></li>
+          <li><a href="/collections/japanese-anime-desk-mats">Japanese &amp; Anime Desk Mats</a></li>
+          <li><a href="/collections/cyberpunk-neon-gaming-desk-mats">Cyberpunk &amp; Sci-Fi Mats</a></li>
+          <li><a href="/collections/canvas-prints">Stretched Canvas Wall Art</a></li>
+          <li><a href="/collections/abstract-minimalist-bauhaus-canvas-wall-art">Bauhaus &amp; Minimalist Prints</a></li>
+        </ul>
+      </nav>
+
+      <!-- Column 2: Setup Guides & Sizing -->
+      <nav class="pwp-footer-col" aria-labelledby="footer-col-guides">
+        <h3 id="footer-col-guides" class="pwp-footer-title">Setup Guides &amp; Sizing</h3>
+        <ul class="pwp-footer-links">
+          <li><a href="/blogs/news/uk-desk-mat-size-guide-60x35-xl-vs-80x40-xxl-compared">Desk Mat Size Guide (80x40 vs 90x40)</a></li>
+          <li><a href="/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk">Desk Mat Thickness (2mm vs 4mm)</a></li>
+          <li><a href="/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed">Canvas Sizing Above Sofa</a></li>
+          <li><a href="/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule">The 57-Inch Hanging Height Rule</a></li>
+          <li><a href="/blogs/news/how-to-clean-wash-extended-gaming-desk-mat-uk">How to Clean &amp; Wash Desk Mats</a></li>
+        </ul>
+      </nav>
+
+      <!-- Column 3: Customer Care -->
+      <nav class="pwp-footer-col" aria-labelledby="footer-col-support">
+        <h3 id="footer-col-support" class="pwp-footer-title">Customer Care</h3>
+        <ul class="pwp-footer-links">
+          <li><a href="/policies/shipping-policy">UK &amp; International Delivery</a></li>
+          <li><a href="/policies/refund-policy">30-Day Money-Back Guarantee</a></li>
+          <li><a href="/pages/delivery-return">Track Your Shipment</a></li>
+          <li><a href="/pages/contact-us">Contact Studio Support</a></li>
+        </ul>
+      </nav>
+
+      <!-- Column 4: Studio & Standards -->
+      <nav class="pwp-footer-col" aria-labelledby="footer-col-about">
+        <h3 id="footer-col-about" class="pwp-footer-title">Studio &amp; Standards</h3>
+        <ul class="pwp-footer-links">
+          <li><a href="/pages/about-us">About Prints With Passion</a></li>
+          <li><a href="/pages/studio-quality-vs-generic-prints">FSC Pine &amp; Pure Cotton Canvas</a></li>
+          <li><a href="/policies/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/policies/terms-of-service">Terms of Service</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="pwp-footer-bottom">
+      <p>&copy; {{ 'now' | date: '%Y' }} Prints With Passion. Handcrafted in the UK. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

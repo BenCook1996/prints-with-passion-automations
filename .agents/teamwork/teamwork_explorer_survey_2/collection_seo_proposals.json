@@ -1,0 +1,698 @@
+[
+  {
+    "handle": "frontpage",
+    "id": "gid://shopify/Collection/437768978743",
+    "currentTitle": "Ultimate Collection of Wall Art, Hoodies, T-Shirts & Accessories",
+    "proposedTitle": "Canvas Wall Art, XXL Desk Mats & Home Decor | Prints With Passion",
+    "proposedTitleLen": 65,
+    "currentDesc": "Explore our ultimate collection featuring stylish wall art for living rooms and bathrooms, graphic hoodies, custom hoodies, and cool hoodies for women. Shop vintage posters, music posters, makeup bags, desk mats, jigsaw puzzles for adults, pillow covers, and more. Find your perfect accessory today!",
+    "proposedDesc": "Shop archival framed canvas wall art (1.25\" pine bars), 4mm XXL stitched gaming desk mats, velvet cushion covers, plush throw blankets & memory foam bath mats.",
+    "proposedDescLen": 159
+  },
+  {
+    "handle": "canvas-prints",
+    "id": "gid://shopify/Collection/437811249463",
+    "currentTitle": null,
+    "proposedTitle": "Framed Canvas Wall Art | Archival Prints | Prints With Passion",
+    "proposedTitleLen": 62,
+    "currentDesc": "Transform with Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare with 380gsm cotton canvas and European pine frames.",
+    "proposedDesc": "Shop archival framed canvas wall art printed on 400gsm cotton-poly canvas over 1.25\" kiln-dried European pine stretcher bars. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 165
+  },
+  {
+    "handle": "apparel",
+    "id": "gid://shopify/Collection/438563340599",
+    "currentTitle": null,
+    "proposedTitle": "Graphic T-Shirts & Heavyweight Studio Apparel | Prints With Passion",
+    "proposedTitleLen": 67,
+    "currentDesc": "Wear with Graphic T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "proposedDesc": "Heavyweight 100% combed cotton graphic t-shirts and streetwear apparel with sharp DTG gallery prints and reinforced hems. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 161
+  },
+  {
+    "handle": "avada-upsell-best-sellers",
+    "id": "gid://shopify/Collection/441651298615",
+    "action": "UNPUBLISH_FROM_ONLINE_STORE",
+    "notes": "Unpublish from Online Store publication gid://shopify/Publication/124388507959 so it exits sitemap_collections_1.xml"
+  },
+  {
+    "handle": "hoodies",
+    "id": "gid://shopify/Collection/480381698359",
+    "currentTitle": null,
+    "proposedTitle": "Heavyweight Graphic Hoodies (310 GSM) | Prints With Passion",
+    "proposedTitleLen": 59,
+    "currentDesc": "Graphic Hoodies in heavyweight 310 GSM fleece (S–3XL). Premium double-lined hood, reinforced ribbed cuffs, and long-lasting gallery-grade graphic prints.",
+    "proposedDesc": "Heavyweight 310 GSM fleece graphic hoodies with double-lined hoods, pouch pockets & gallery DTG artwork. Built for comfort. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 163
+  },
+  {
+    "handle": "pillow-cases",
+    "id": "gid://shopify/Collection/484418388279",
+    "currentTitle": null,
+    "proposedTitle": "Velvet Cushion Covers (45×45cm) | Double-Sided Throw Pillows",
+    "proposedTitleLen": 60,
+    "currentDesc": "Elevate with Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "proposedDesc": "Double-sided 45×45cm (18×18\") velvet cushion covers with concealed zipper & vibrant gallery prints. Refresh sofas, armchairs & beds. Free tracked UK delivery.",
+    "proposedDescLen": 158
+  },
+  {
+    "handle": "bath-mats",
+    "id": "gid://shopify/Collection/484716085559",
+    "currentTitle": null,
+    "proposedTitle": "Non-Slip Memory Foam Bath Mats | Ultra-Absorbent Bathroom Rugs",
+    "proposedTitleLen": 62,
+    "currentDesc": "Refresh with Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "proposedDesc": "High-density memory foam bath mats with non-slip backing and fast-drying microfibre fleece in 60×40cm & 80×50cm sizes. Free tracked UK delivery on every order.",
+    "proposedDescLen": 159
+  },
+  {
+    "handle": "desk-mats",
+    "id": "gid://shopify/Collection/486063046967",
+    "currentTitle": "XXL Desk Mat UK | 900x400x4mm (35.4\"x15.7\") Stitched Pad",
+    "proposedTitle": "XXL Gaming Desk Mats & Extended Mouse Pads | 4mm Stitched Mats",
+    "proposedTitleLen": 62,
+    "currentDesc": "XXL Desk Mat UK engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm sizes.",
+    "proposedDesc": "Precision XXL extended gaming desk mats engineered with 4mm natural rubber, 360° anti-fray stitched edges & micro-woven speed cloth. Free tracked UK delivery.",
+    "proposedDescLen": 158
+  },
+  {
+    "handle": "blankets",
+    "id": "gid://shopify/Collection/486148210999",
+    "currentTitle": null,
+    "proposedTitle": "Plush Throw Blankets | 300 GSM Fleece Throws | Prints With Passion",
+    "proposedTitleLen": 66,
+    "currentDesc": "Style with Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "proposedDesc": "Ultra-soft 300 GSM plush coral fleece throw blankets available in 50×60\" & 60×80\". Machine washable warmth for beds & living rooms. Free tracked UK delivery.",
+    "proposedDescLen": 157
+  },
+  {
+    "handle": "clothing",
+    "id": "gid://shopify/Collection/494964932919",
+    "currentTitle": null,
+    "proposedTitle": "Graphic T-Shirts & Heavyweight Studio Apparel | Prints With Passion",
+    "proposedTitleLen": 67,
+    "currentDesc": "Upgrade with Clothing & Apparel (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Heavyweight 100% combed cotton graphic t-shirts and streetwear apparel with sharp DTG gallery prints and reinforced hems. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 161
+  },
+  {
+    "handle": "home-living",
+    "id": "gid://shopify/Collection/495985787191",
+    "currentTitle": null,
+    "proposedTitle": "Home Decor, Cushions, Blankets & Desk Mats | Prints With Passion",
+    "proposedTitleLen": 64,
+    "currentDesc": "Upgrade with Home & Living (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Discover premium home living decor: 4mm XXL gaming desk mats, framed pine canvas wall art, velvet cushion covers & fleece throws. Free tracked UK delivery.",
+    "proposedDescLen": 155
+  },
+  {
+    "handle": "all-products",
+    "id": "gid://shopify/Collection/692334100853",
+    "currentTitle": null,
+    "proposedTitle": "Home Decor, Cushions, Blankets & Desk Mats | Prints With Passion",
+    "proposedTitleLen": 64,
+    "currentDesc": "Upgrade with All Products (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Discover premium home living decor: 4mm XXL gaming desk mats, framed pine canvas wall art, velvet cushion covers & fleece throws. Free tracked UK delivery.",
+    "proposedDescLen": 155
+  },
+  {
+    "handle": "t-shirts",
+    "id": "gid://shopify/Collection/730277806453",
+    "currentTitle": null,
+    "proposedTitle": "Graphic T-Shirts & Heavyweight Studio Apparel | Prints With Passion",
+    "proposedTitleLen": 67,
+    "currentDesc": "Wear Graphic T-Shirts in heavyweight combed cotton (S–3XL). Breathable, gallery-grade print clarity with reinforced double-needle collar and pre-shrunk fabric.",
+    "proposedDesc": "Heavyweight 100% combed cotton graphic t-shirts and streetwear apparel with sharp DTG gallery prints and reinforced hems. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 161
+  },
+  {
+    "handle": "nature-landscapes",
+    "id": "gid://shopify/Collection/730285310325",
+    "currentTitle": null,
+    "proposedTitle": "Nature, Landscapes & Botanical Art Art & Decor | PWP",
+    "proposedTitleLen": 52,
+    "currentDesc": "Upgrade with Nature, Landscapes & Botanical Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Explore the Nature, Landscapes & Botanical Art studio collection: framed pine canvas prints, 4mm XXL desk mats, velvet cushions & plush throws. Free tracked UK delivery.",
+    "proposedDescLen": 169
+  },
+  {
+    "handle": "sci-fi-cyberpunk",
+    "id": "gid://shopify/Collection/730285343093",
+    "currentTitle": null,
+    "proposedTitle": "Sci-Fi, Cyberpunk & Neon Futuristic Art & Decor | PWP",
+    "proposedTitleLen": 53,
+    "currentDesc": "Upgrade with Sci-Fi, Cyberpunk & Neon Futuristic Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Explore the Sci-Fi, Cyberpunk & Neon Futuristic Art studio collection: framed pine canvas prints, 4mm XXL desk mats, velvet cushions & plush throws. Free tracked UK delivery.",
+    "proposedDescLen": 174
+  },
+  {
+    "handle": "space-cosmic",
+    "id": "gid://shopify/Collection/730285375861",
+    "currentTitle": null,
+    "proposedTitle": "Space, Galaxy, Nebula & Celestial A Art & Decor | PWP",
+    "proposedTitleLen": 53,
+    "currentDesc": "Upgrade with Space, Galaxy, Nebula & Celestial Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Explore the Space, Galaxy, Nebula & Celestial Art studio collection: framed pine canvas prints, 4mm XXL desk mats, velvet cushions & plush throws. Free tracked UK delivery.",
+    "proposedDescLen": 172
+  },
+  {
+    "handle": "animals-wildlife",
+    "id": "gid://shopify/Collection/730285408629",
+    "currentTitle": null,
+    "proposedTitle": "Animals, Wildlife & Pet Portrait Ar Art & Decor | PWP",
+    "proposedTitleLen": 53,
+    "currentDesc": "Upgrade with Animals, Wildlife & Pet Portrait Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Explore the Animals, Wildlife & Pet Portrait Art studio collection: framed pine canvas prints, 4mm XXL desk mats, velvet cushions & plush throws. Free tracked UK delivery.",
+    "proposedDescLen": 171
+  },
+  {
+    "handle": "abstract-geometric",
+    "id": "gid://shopify/Collection/730285441397",
+    "currentTitle": null,
+    "proposedTitle": "Abstract, Minimalist & Bauhaus Geom Art & Decor | PWP",
+    "proposedTitleLen": 53,
+    "currentDesc": "Upgrade with Abstract, Minimalist & Bauhaus Geometric Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Explore the Abstract, Minimalist & Bauhaus Geometric studio collection: framed pine canvas prints, 4mm XXL desk mats, velvet cushions & plush throws. Free tracked UK delivery.",
+    "proposedDescLen": 175
+  },
+  {
+    "handle": "fantasy-mythology",
+    "id": "gid://shopify/Collection/730285474165",
+    "currentTitle": null,
+    "proposedTitle": "Fantasy, Mythology, Dragons & Dark  Art & Decor | PWP",
+    "proposedTitleLen": 53,
+    "currentDesc": "Upgrade with Fantasy, Mythology, Dragons & Dark Academia Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Explore the Fantasy, Mythology, Dragons & Dark Academia studio collection: framed pine canvas prints, 4mm XXL desk mats, velvet cushions & plush throws. Free tracked UK delivery.",
+    "proposedDescLen": 178
+  },
+  {
+    "handle": "world-travel-cities",
+    "id": "gid://shopify/Collection/730285539701",
+    "currentTitle": null,
+    "proposedTitle": "World Travel, City Skylines & Archi Art & Decor | PWP",
+    "proposedTitleLen": 53,
+    "currentDesc": "Upgrade with World Travel, City Skylines & Architectural Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Explore the World Travel, City Skylines & Architectural Art studio collection: framed pine canvas prints, 4mm XXL desk mats, velvet cushions & plush throws. Free tracked UK delivery.",
+    "proposedDescLen": 182
+  },
+  {
+    "handle": "retro-vintage",
+    "id": "gid://shopify/Collection/730285572469",
+    "currentTitle": null,
+    "proposedTitle": "Retro, 80s Synthwave & Vintage Post Art & Decor | PWP",
+    "proposedTitleLen": 53,
+    "currentDesc": "Upgrade with Retro, 80s Synthwave & Vintage Poster Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Explore the Retro, 80s Synthwave & Vintage Poster Art studio collection: framed pine canvas prints, 4mm XXL desk mats, velvet cushions & plush throws. Free tracked UK delivery.",
+    "proposedDescLen": 176
+  },
+  {
+    "handle": "japanese-asian-art",
+    "id": "gid://shopify/Collection/730285605237",
+    "currentTitle": null,
+    "proposedTitle": "Japanese Ukiyo-e, Samurai, Sakura & Art & Decor | PWP",
+    "proposedTitleLen": 53,
+    "currentDesc": "Upgrade with Japanese Ukiyo-e, Samurai, Sakura & Zen Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "proposedDesc": "Explore the Japanese Ukiyo-e, Samurai, Sakura & Zen Art studio collection: framed pine canvas prints, 4mm XXL desk mats, velvet cushions & plush throws. Free tracked UK delivery.",
+    "proposedDescLen": 178
+  },
+  {
+    "handle": "japanese-anime-desk-mats",
+    "id": "gid://shopify/Collection/730428473717",
+    "currentTitle": "Japanese Wave Desk Mat | 900x400x4mm (35.4\"x15.7\") Stitched Pad",
+    "proposedTitle": "Japanese Anime & Ukiyo-e Desk Mats | 4mm XXL Gaming Pads",
+    "proposedTitleLen": 56,
+    "currentDesc": "Japanese Wave Desk Mat engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm",
+    "proposedDesc": "Japanese anime, samurai, sakura blossom & Great Wave XXL gaming desk mats with 4mm non-slip rubber and stitched borders. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 160
+  },
+  {
+    "handle": "cyberpunk-neon-gaming-desk-mats",
+    "id": "gid://shopify/Collection/730428506485",
+    "currentTitle": null,
+    "proposedTitle": "Sci-Fi, Cyberpunk & Synthwave XXL Desk Mats | 4mm Pads",
+    "proposedTitleLen": 54,
+    "currentDesc": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats in 4mm thick XXL (90x40cm / 80x30cm). High-density micro-weave cloth with precision anti-fray stitched edges.",
+    "proposedDesc": "Shop Sci-Fi, Cyberpunk & Synthwave extended desk mats engineered with 4mm high-density natural rubber, anti-fray stitched edges & smooth glide cloth. Free tracked UK delivery.",
+    "proposedDescLen": 175
+  },
+  {
+    "handle": "space-galaxy-nebula-desk-mats",
+    "id": "gid://shopify/Collection/730428539253",
+    "currentTitle": null,
+    "proposedTitle": "Space, Galaxy, Nebula & Astronau XXL Desk Mats | 4mm Pads",
+    "proposedTitleLen": 57,
+    "currentDesc": "Upgrade with Space, Galaxy, Nebula & Astronaut Extended Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "proposedDesc": "Shop Space, Galaxy, Nebula & Astronaut extended desk mats engineered with 4mm high-density natural rubber, anti-fray stitched edges & smooth glide cloth. Free tracked UK delivery.",
+    "proposedDescLen": 179
+  },
+  {
+    "handle": "fantasy-dragon-mythology-desk-mats",
+    "id": "gid://shopify/Collection/730428572021",
+    "currentTitle": null,
+    "proposedTitle": "Fantasy, Dragons, Dark Mythic &  XXL Desk Mats | 4mm Pads",
+    "proposedTitleLen": 57,
+    "currentDesc": "Upgrade with Fantasy, Dragons, Dark Mythic & RPG Gaming Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "proposedDesc": "Shop Fantasy, Dragons, Dark Mythic & RPG Gaming extended desk mats engineered with 4mm high-density natural rubber, anti-fray stitched edges & smooth glide cloth. Free tracked UK delivery.",
+    "proposedDescLen": 188
+  },
+  {
+    "handle": "nature-mountain-forest-desk-mats",
+    "id": "gid://shopify/Collection/730428604789",
+    "currentTitle": null,
+    "proposedTitle": "Nature, Alpine Mountain & Forest XXL Desk Mats | 4mm Pads",
+    "proposedTitleLen": 57,
+    "currentDesc": "Upgrade with Nature, Alpine Mountain & Forest Landscape Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "proposedDesc": "Shop Nature, Alpine Mountain & Forest Landscape extended desk mats engineered with 4mm high-density natural rubber, anti-fray stitched edges & smooth glide cloth. Free tracked UK delivery.",
+    "proposedDescLen": 188
+  },
+  {
+    "handle": "minimalist-abstract-geometric-desk-mats",
+    "id": "gid://shopify/Collection/730428637557",
+    "currentTitle": null,
+    "proposedTitle": "Minimalist, Abstract, Bauhaus &  XXL Desk Mats | 4mm Pads",
+    "proposedTitleLen": 57,
+    "currentDesc": "Upgrade with Minimalist, Abstract, Bauhaus & Topographic Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "proposedDesc": "Shop Minimalist, Abstract, Bauhaus & Topographic extended desk mats engineered with 4mm high-density natural rubber, anti-fray stitched edges & smooth glide cloth. Free tracked UK delivery.",
+    "proposedDescLen": 189
+  },
+  {
+    "handle": "animals-wildlife-pet-desk-mats",
+    "id": "gid://shopify/Collection/730428670325",
+    "currentTitle": null,
+    "proposedTitle": "Animals, Wildlife, Cats & Dogs XXL Desk Mats | 4mm Pads",
+    "proposedTitleLen": 55,
+    "currentDesc": "Upgrade with Animals, Wildlife, Cats & Dogs Extended Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "proposedDesc": "Shop Animals, Wildlife, Cats & Dogs extended desk mats engineered with 4mm high-density natural rubber, anti-fray stitched edges & smooth glide cloth. Free tracked UK delivery.",
+    "proposedDescLen": 176
+  },
+  {
+    "handle": "retro-vintage-synthwave-desk-mats",
+    "id": "gid://shopify/Collection/730428703093",
+    "currentTitle": null,
+    "proposedTitle": "Retro, 80s Vaporwave & Vintage A XXL Desk Mats | 4mm Pads",
+    "proposedTitleLen": 57,
+    "currentDesc": "Upgrade with Retro, 80s Vaporwave & Vintage Arcade Gaming Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "proposedDesc": "Shop Retro, 80s Vaporwave & Vintage Arcade Gaming extended desk mats engineered with 4mm high-density natural rubber, anti-fray stitched edges & smooth glide cloth. Free tracked UK delivery.",
+    "proposedDescLen": 190
+  },
+  {
+    "handle": "nature-mountain-landscape-canvas-wall-art",
+    "id": "gid://shopify/Collection/730428735861",
+    "currentTitle": null,
+    "proposedTitle": "Nature, Alpine Mountain & Scen Canvas Wall Art | 1.25\" Prints",
+    "proposedTitleLen": 61,
+    "currentDesc": "Nature, Alpine Mountain & Scenic Landscape Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). 380gsm archival cotton canvas with deep European pine stretcher bars.",
+    "proposedDesc": "Archival Nature, Alpine Mountain & Scenic Landscape framed canvas wall art printed on 400gsm cotton-poly canvas with 1.25\" kiln-dried pine stretcher bars. Free tracked UK delivery.",
+    "proposedDescLen": 180
+  },
+  {
+    "handle": "botanical-floral-coastal-canvas-wall-art",
+    "id": "gid://shopify/Collection/730428768629",
+    "currentTitle": null,
+    "proposedTitle": "Botanical, Floral Garden & Coa Canvas Wall Art | 1.25\" Prints",
+    "proposedTitleLen": 61,
+    "currentDesc": "Botanical, Floral Garden & Coastal Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Museum-grade 380gsm cotton canvas with kiln-dried European pine stretcher bars.",
+    "proposedDesc": "Archival Botanical, Floral Garden & Coastal framed canvas wall art printed on 400gsm cotton-poly canvas with 1.25\" kiln-dried pine stretcher bars. Free tracked UK delivery.",
+    "proposedDescLen": 172
+  },
+  {
+    "handle": "abstract-minimalist-bauhaus-canvas-wall-art",
+    "id": "gid://shopify/Collection/730428801397",
+    "currentTitle": "Minimalist Bauhaus Canvas Print | 1.25\" Pine Framed Canvas (CM & I",
+    "proposedTitle": "Bauhaus & Minimalist Canvas Wall Art | 1.25\" Framed Prints",
+    "proposedTitleLen": 58,
+    "currentDesc": "Minimalist Bauhaus Canvas Print printed on 400gsm matte cotton-poly canvas over 1.25\" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sofa/bed width ",
+    "proposedDesc": "Abstract, minimalist & Bauhaus geometric canvas wall art on 400gsm cotton-poly canvas over 1.25\" European pine frames. Free tracked UK delivery on all wall art.",
+    "proposedDescLen": 160
+  },
+  {
+    "handle": "japanese-ukiyo-e-zen-canvas-wall-art",
+    "id": "gid://shopify/Collection/730428834165",
+    "currentTitle": null,
+    "proposedTitle": "Japanese Ukiyo-e, Samurai & Sa Canvas Wall Art | 1.25\" Prints",
+    "proposedTitleLen": 61,
+    "currentDesc": "Transform with Japanese Ukiyo-e, Samurai & Sakura Blossom Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "proposedDesc": "Archival Japanese Ukiyo-e, Samurai & Sakura Blossom framed canvas wall art printed on 400gsm cotton-poly canvas with 1.25\" kiln-dried pine stretcher bars. Free tracked UK delivery.",
+    "proposedDescLen": 180
+  },
+  {
+    "handle": "animals-wildlife-equestrian-canvas-wall-art",
+    "id": "gid://shopify/Collection/730428866933",
+    "currentTitle": null,
+    "proposedTitle": "Animals, Wildlife, Highland Co Canvas Wall Art | 1.25\" Prints",
+    "proposedTitleLen": 61,
+    "currentDesc": "Transform with Animals, Wildlife, Highland Cow & Pet Portrait Canvas Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "proposedDesc": "Archival Animals, Wildlife, Highland Cow & Pet Portrait Canvas Art framed canvas wall art printed on 400gsm cotton-poly canvas with 1.25\" kiln-dried pine stretcher bars. Free tracked UK delivery.",
+    "proposedDescLen": 195
+  },
+  {
+    "handle": "world-travel-city-skyline-canvas-wall-art",
+    "id": "gid://shopify/Collection/730428899701",
+    "currentTitle": null,
+    "proposedTitle": "World Travel, City Skylines &  Canvas Wall Art | 1.25\" Prints",
+    "proposedTitleLen": 61,
+    "currentDesc": "Transform with World Travel, City Skylines & Architectural Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "proposedDesc": "Archival World Travel, City Skylines & Architectural framed canvas wall art printed on 400gsm cotton-poly canvas with 1.25\" kiln-dried pine stretcher bars. Free tracked UK delivery.",
+    "proposedDescLen": 181
+  },
+  {
+    "handle": "space-cosmic-astronomy-canvas-wall-art",
+    "id": "gid://shopify/Collection/730428932469",
+    "currentTitle": null,
+    "proposedTitle": "Space, Deep-Field Nebula & Cel Canvas Wall Art | 1.25\" Prints",
+    "proposedTitleLen": 61,
+    "currentDesc": "Transform with Space, Deep-Field Nebula & Celestial Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "proposedDesc": "Archival Space, Deep-Field Nebula & Celestial framed canvas wall art printed on 400gsm cotton-poly canvas with 1.25\" kiln-dried pine stretcher bars. Free tracked UK delivery.",
+    "proposedDescLen": 174
+  },
+  {
+    "handle": "sci-fi-cyberpunk-neon-canvas-wall-art",
+    "id": "gid://shopify/Collection/730428965237",
+    "currentTitle": null,
+    "proposedTitle": "Sci-Fi, Cyberpunk & Neon Futur Canvas Wall Art | 1.25\" Prints",
+    "proposedTitleLen": 61,
+    "currentDesc": "Transform with Sci-Fi, Cyberpunk & Neon Futuristic Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "proposedDesc": "Archival Sci-Fi, Cyberpunk & Neon Futuristic framed canvas wall art printed on 400gsm cotton-poly canvas with 1.25\" kiln-dried pine stretcher bars. Free tracked UK delivery.",
+    "proposedDescLen": 173
+  },
+  {
+    "handle": "botanical-floral-garden-cushion-covers",
+    "id": "gid://shopify/Collection/730428998005",
+    "currentTitle": null,
+    "proposedTitle": "Botanical, Vintage Floral & Natur Cushion Covers | 45×45cm",
+    "proposedTitleLen": 58,
+    "currentDesc": "Elevate with Botanical, Vintage Floral & Nature Square Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "proposedDesc": "Double-sided Botanical, Vintage Floral & Nature velvet cushion covers (45×45cm / 18×18\") with concealed zipper & vibrant fade-resistant gallery prints. Free tracked UK delivery.",
+    "proposedDescLen": 177
+  },
+  {
+    "handle": "abstract-geometric-bauhaus-cushion-covers",
+    "id": "gid://shopify/Collection/730429030773",
+    "currentTitle": null,
+    "proposedTitle": "Abstract, Geometric, Bauhaus & Mi Cushion Covers | 45×45cm",
+    "proposedTitleLen": 58,
+    "currentDesc": "Elevate with Abstract, Geometric, Bauhaus & Mid-Century Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "proposedDesc": "Double-sided Abstract, Geometric, Bauhaus & Mid-Century velvet cushion covers (45×45cm / 18×18\") with concealed zipper & vibrant fade-resistant gallery prints. Free tracked UK delivery.",
+    "proposedDescLen": 185
+  },
+  {
+    "handle": "animals-wildlife-woodland-cushion-covers",
+    "id": "gid://shopify/Collection/730429063541",
+    "currentTitle": null,
+    "proposedTitle": "Animals, Woodland Wildlife & Pet  Cushion Covers | 45×45cm",
+    "proposedTitleLen": 58,
+    "currentDesc": "Elevate with Animals, Woodland Wildlife & Pet Portrait Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "proposedDesc": "Double-sided Animals, Woodland Wildlife & Pet Portrait velvet cushion covers (45×45cm / 18×18\") with concealed zipper & vibrant fade-resistant gallery prints. Free tracked UK delivery.",
+    "proposedDescLen": 184
+  },
+  {
+    "handle": "space-celestial-galaxy-cushion-covers",
+    "id": "gid://shopify/Collection/730429096309",
+    "currentTitle": null,
+    "proposedTitle": "Celestial, Moon Phase & Cosmic Ga Cushion Covers | 45×45cm",
+    "proposedTitleLen": 58,
+    "currentDesc": "Elevate with Celestial, Moon Phase & Cosmic Galaxy Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "proposedDesc": "Double-sided Celestial, Moon Phase & Cosmic Galaxy velvet cushion covers (45×45cm / 18×18\") with concealed zipper & vibrant fade-resistant gallery prints. Free tracked UK delivery.",
+    "proposedDescLen": 180
+  },
+  {
+    "handle": "fantasy-mythology-gothic-cushion-covers",
+    "id": "gid://shopify/Collection/730429129077",
+    "currentTitle": null,
+    "proposedTitle": "Fantasy, Dark Academia, Mythology Cushion Covers | 45×45cm",
+    "proposedTitleLen": 58,
+    "currentDesc": "Elevate with Fantasy, Dark Academia, Mythology & Gothic Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "proposedDesc": "Double-sided Fantasy, Dark Academia, Mythology & Gothic velvet cushion covers (45×45cm / 18×18\") with concealed zipper & vibrant fade-resistant gallery prints. Free tracked UK delivery.",
+    "proposedDescLen": 185
+  },
+  {
+    "handle": "japanese-asian-art-cushion-covers",
+    "id": "gid://shopify/Collection/730429161845",
+    "currentTitle": null,
+    "proposedTitle": "Japanese Wave, Koi, Sakura & Zen  Cushion Covers | 45×45cm",
+    "proposedTitleLen": 58,
+    "currentDesc": "Elevate with Japanese Wave, Koi, Sakura & Zen Accent Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "proposedDesc": "Double-sided Japanese Wave, Koi, Sakura & Zen Accent velvet cushion covers (45×45cm / 18×18\") with concealed zipper & vibrant fade-resistant gallery prints. Free tracked UK delivery.",
+    "proposedDescLen": 182
+  },
+  {
+    "handle": "world-travel-mediterranean-cushion-covers",
+    "id": "gid://shopify/Collection/730429194613",
+    "currentTitle": null,
+    "proposedTitle": "World Travel, Coastal Villa & Eur Cushion Covers | 45×45cm",
+    "proposedTitleLen": 58,
+    "currentDesc": "Elevate with World Travel, Coastal Villa & European City Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "proposedDesc": "Double-sided World Travel, Coastal Villa & European City velvet cushion covers (45×45cm / 18×18\") with concealed zipper & vibrant fade-resistant gallery prints. Free tracked UK delivery.",
+    "proposedDescLen": 186
+  },
+  {
+    "handle": "retro-vintage-pop-art-cushion-covers",
+    "id": "gid://shopify/Collection/730429227381",
+    "currentTitle": null,
+    "proposedTitle": "Retro, Vintage Poster & Mid-Centu Cushion Covers | 45×45cm",
+    "proposedTitleLen": 58,
+    "currentDesc": "Elevate with Retro, Vintage Poster & Mid-Century Pop Art Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "proposedDesc": "Double-sided Retro, Vintage Poster & Mid-Century Pop Art velvet cushion covers (45×45cm / 18×18\") with concealed zipper & vibrant fade-resistant gallery prints. Free tracked UK delivery.",
+    "proposedDescLen": 186
+  },
+  {
+    "handle": "nature-mountain-cabin-throw-blankets",
+    "id": "gid://shopify/Collection/730429260149",
+    "currentTitle": null,
+    "proposedTitle": "Nature, Alpine Cabin, Forest & Sc Throw Blankets | Plush Fleece",
+    "proposedTitleLen": 63,
+    "currentDesc": "Style with Nature, Alpine Cabin, Forest & Scenic Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "proposedDesc": "Cozy Nature, Alpine Cabin, Forest & Scenic plush coral fleece throw blankets (300 GSM) in 50×60\" & 60×80\". Machine washable gallery warmth for sofas & beds. Free tracked UK delivery.",
+    "proposedDescLen": 182
+  },
+  {
+    "handle": "abstract-boho-kilim-throw-blankets",
+    "id": "gid://shopify/Collection/730429292917",
+    "currentTitle": null,
+    "proposedTitle": "Abstract, Boho Kilim, Tartan & Ge Throw Blankets | Plush Fleece",
+    "proposedTitleLen": 63,
+    "currentDesc": "Style with Abstract, Boho Kilim, Tartan & Geometric Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "proposedDesc": "Cozy Abstract, Boho Kilim, Tartan & Geometric plush coral fleece throw blankets (300 GSM) in 50×60\" & 60×80\". Machine washable gallery warmth for sofas & beds. Free tracked UK delivery.",
+    "proposedDescLen": 185
+  },
+  {
+    "handle": "space-starry-night-galaxy-throw-blankets",
+    "id": "gid://shopify/Collection/730429325685",
+    "currentTitle": null,
+    "proposedTitle": "Space, Starry Night, Constellatio Throw Blankets | Plush Fleece",
+    "proposedTitleLen": 63,
+    "currentDesc": "Style with Space, Starry Night, Constellation & Galaxy Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "proposedDesc": "Cozy Space, Starry Night, Constellation & Galaxy plush coral fleece throw blankets (300 GSM) in 50×60\" & 60×80\". Machine washable gallery warmth for sofas & beds. Free tracked UK delivery.",
+    "proposedDescLen": 188
+  },
+  {
+    "handle": "animals-wildlife-cozy-throw-blankets",
+    "id": "gid://shopify/Collection/730429358453",
+    "currentTitle": null,
+    "proposedTitle": "Animals, Wildlife, Cats, Dogs & W Throw Blankets | Plush Fleece",
+    "proposedTitleLen": 63,
+    "currentDesc": "Style with Animals, Wildlife, Cats, Dogs & Woodland Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "proposedDesc": "Cozy Animals, Wildlife, Cats, Dogs & Woodland plush coral fleece throw blankets (300 GSM) in 50×60\" & 60×80\". Machine washable gallery warmth for sofas & beds. Free tracked UK delivery.",
+    "proposedDescLen": 185
+  },
+  {
+    "handle": "fantasy-dragon-mythic-throw-blankets",
+    "id": "gid://shopify/Collection/730429391221",
+    "currentTitle": null,
+    "proposedTitle": "Fantasy, Dragon, Celestial Tarot  Throw Blankets | Plush Fleece",
+    "proposedTitleLen": 63,
+    "currentDesc": "Style with Fantasy, Dragon, Celestial Tarot & Mythic Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "proposedDesc": "Cozy Fantasy, Dragon, Celestial Tarot & Mythic plush coral fleece throw blankets (300 GSM) in 50×60\" & 60×80\". Machine washable gallery warmth for sofas & beds. Free tracked UK delivery.",
+    "proposedDescLen": 186
+  },
+  {
+    "handle": "sci-fi-cyberpunk-gamer-throw-blankets",
+    "id": "gid://shopify/Collection/730429423989",
+    "currentTitle": null,
+    "proposedTitle": "Sci-Fi, Cyberpunk & Neon Gaming R Throw Blankets | Plush Fleece",
+    "proposedTitleLen": 63,
+    "currentDesc": "Style with Sci-Fi, Cyberpunk & Neon Gaming Room Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "proposedDesc": "Cozy Sci-Fi, Cyberpunk & Neon Gaming Room plush coral fleece throw blankets (300 GSM) in 50×60\" & 60×80\". Machine washable gallery warmth for sofas & beds. Free tracked UK delivery.",
+    "proposedDescLen": 181
+  },
+  {
+    "handle": "world-travel-paris-european-throw-blankets",
+    "id": "gid://shopify/Collection/730429456757",
+    "currentTitle": null,
+    "proposedTitle": "World Travel, Paris Sunset & City Throw Blankets | Plush Fleece",
+    "proposedTitleLen": 63,
+    "currentDesc": "Style with World Travel, Paris Sunset & Cityscape Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "proposedDesc": "Cozy World Travel, Paris Sunset & Cityscape plush coral fleece throw blankets (300 GSM) in 50×60\" & 60×80\". Machine washable gallery warmth for sofas & beds. Free tracked UK delivery.",
+    "proposedDescLen": 183
+  },
+  {
+    "handle": "japanese-sakura-oriental-throw-blankets",
+    "id": "gid://shopify/Collection/730429489525",
+    "currentTitle": null,
+    "proposedTitle": "Japanese Sakura, Great Wave & Ori Throw Blankets | Plush Fleece",
+    "proposedTitleLen": 63,
+    "currentDesc": "Style with Japanese Sakura, Great Wave & Oriental Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "proposedDesc": "Cozy Japanese Sakura, Great Wave & Oriental plush coral fleece throw blankets (300 GSM) in 50×60\" & 60×80\". Machine washable gallery warmth for sofas & beds. Free tracked UK delivery.",
+    "proposedDescLen": 183
+  },
+  {
+    "handle": "coastal-ocean-botanical-bath-mats",
+    "id": "gid://shopify/Collection/730429522293",
+    "currentTitle": null,
+    "proposedTitle": "Coastal Ocean, Tropical Leaf & Na Bath Mats | Memory Foam Rugs",
+    "proposedTitleLen": 62,
+    "currentDesc": "Refresh with Coastal Ocean, Tropical Leaf & Nature Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "proposedDesc": "Non-slip Coastal Ocean, Tropical Leaf & Nature memory foam bath mats with absorbent microfibre fleece top and durable anti-skid rubber backing. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 183
+  },
+  {
+    "handle": "minimalist-abstract-stone-bath-mats",
+    "id": "gid://shopify/Collection/730429555061",
+    "currentTitle": null,
+    "proposedTitle": "Minimalist, Abstract Terrazzo & G Bath Mats | Memory Foam Rugs",
+    "proposedTitleLen": 62,
+    "currentDesc": "Refresh with Minimalist, Abstract Terrazzo & Geometric Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "proposedDesc": "Non-slip Minimalist, Abstract Terrazzo & Geometric memory foam bath mats with absorbent microfibre fleece top and durable anti-skid rubber backing. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 187
+  },
+  {
+    "handle": "animals-wildlife-whimsical-bath-mats",
+    "id": "gid://shopify/Collection/730429587829",
+    "currentTitle": null,
+    "proposedTitle": "Animals, Whimsical Cat, Frog & Wi Bath Mats | Memory Foam Rugs",
+    "proposedTitleLen": 62,
+    "currentDesc": "Refresh with Animals, Whimsical Cat, Frog & Wildlife Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "proposedDesc": "Non-slip Animals, Whimsical Cat, Frog & Wildlife memory foam bath mats with absorbent microfibre fleece top and durable anti-skid rubber backing. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 185
+  },
+  {
+    "handle": "celestial-space-moon-bath-mats",
+    "id": "gid://shopify/Collection/730429620597",
+    "currentTitle": null,
+    "proposedTitle": "Celestial Moon, Starry Night & Co Bath Mats | Memory Foam Rugs",
+    "proposedTitleLen": 62,
+    "currentDesc": "Refresh with Celestial Moon, Starry Night & Cosmic Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "proposedDesc": "Non-slip Celestial Moon, Starry Night & Cosmic memory foam bath mats with absorbent microfibre fleece top and durable anti-skid rubber backing. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 183
+  },
+  {
+    "handle": "fantasy-gothic-witchy-bath-mats",
+    "id": "gid://shopify/Collection/730429653365",
+    "currentTitle": null,
+    "proposedTitle": "Fantasy, Celestial Moth, Gothic & Bath Mats | Memory Foam Rugs",
+    "proposedTitleLen": 62,
+    "currentDesc": "Refresh with Fantasy, Celestial Moth, Gothic & Enchanted Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "proposedDesc": "Non-slip Fantasy, Celestial Moth, Gothic & Enchanted memory foam bath mats with absorbent microfibre fleece top and durable anti-skid rubber backing. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 189
+  },
+  {
+    "handle": "sci-fi-neon-cyberpunk-bath-mats",
+    "id": "gid://shopify/Collection/730429686133",
+    "currentTitle": null,
+    "proposedTitle": "Sci-Fi, Neon Cyberpunk & Futurist Bath Mats | Memory Foam Rugs",
+    "proposedTitleLen": 62,
+    "currentDesc": "Refresh with Sci-Fi, Neon Cyberpunk & Futuristic Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "proposedDesc": "Non-slip Sci-Fi, Neon Cyberpunk & Futuristic memory foam bath mats with absorbent microfibre fleece top and durable anti-skid rubber backing. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 181
+  },
+  {
+    "handle": "japanese-zen-onsen-bath-mats",
+    "id": "gid://shopify/Collection/730429718901",
+    "currentTitle": null,
+    "proposedTitle": "Japanese Koi, Great Wave & Zen Sa Bath Mats | Memory Foam Rugs",
+    "proposedTitleLen": 62,
+    "currentDesc": "Refresh with Japanese Koi, Great Wave & Zen Sanctuary Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "proposedDesc": "Non-slip Japanese Koi, Great Wave & Zen Sanctuary memory foam bath mats with absorbent microfibre fleece top and durable anti-skid rubber backing. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 186
+  },
+  {
+    "handle": "retro-vintage-funky-bath-mats",
+    "id": "gid://shopify/Collection/730429751669",
+    "currentTitle": null,
+    "proposedTitle": "Retro 70s Groovy, Checkerboard &  Bath Mats | Memory Foam Rugs",
+    "proposedTitleLen": 62,
+    "currentDesc": "Refresh with Retro 70s Groovy, Checkerboard & Vintage Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "proposedDesc": "Non-slip Retro 70s Groovy, Checkerboard & Vintage memory foam bath mats with absorbent microfibre fleece top and durable anti-skid rubber backing. Free tracked UK delivery on all orders.",
+    "proposedDescLen": 186
+  },
+  {
+    "handle": "japanese-anime-graphic-t-shirts",
+    "id": "gid://shopify/Collection/730430046581",
+    "currentTitle": null,
+    "proposedTitle": "Japanese Ukiyo-e, Samurai & Sakur Graphic Tees | Cotton T-Shirts",
+    "proposedTitleLen": 64,
+    "currentDesc": "Wear with Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "proposedDesc": "Premium 100% combed cotton Japanese Ukiyo-e, Samurai & Sakura graphic t-shirts with durable double-needle stitching and sharp gallery DTG prints. Free tracked UK delivery.",
+    "proposedDescLen": 171
+  },
+  {
+    "handle": "cyberpunk-sci-fi-graphic-t-shirts",
+    "id": "gid://shopify/Collection/730430079349",
+    "currentTitle": null,
+    "proposedTitle": "Sci-Fi, Cyberpunk & Neon Futurist Graphic Tees | Cotton T-Shirts",
+    "proposedTitleLen": 64,
+    "currentDesc": "Wear with Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "proposedDesc": "Premium 100% combed cotton Sci-Fi, Cyberpunk & Neon Futuristic graphic t-shirts with durable double-needle stitching and sharp gallery DTG prints. Free tracked UK delivery.",
+    "proposedDescLen": 172
+  },
+  {
+    "handle": "space-galaxy-graphic-t-shirts",
+    "id": "gid://shopify/Collection/730430112117",
+    "currentTitle": null,
+    "proposedTitle": "Space, Astronaut, Nebula & Celest Graphic Tees | Cotton T-Shirts",
+    "proposedTitleLen": 64,
+    "currentDesc": "Wear with Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "proposedDesc": "Premium 100% combed cotton Space, Astronaut, Nebula & Celestial graphic t-shirts with durable double-needle stitching and sharp gallery DTG prints. Free tracked UK delivery.",
+    "proposedDescLen": 173
+  },
+  {
+    "handle": "retro-synthwave-graphic-t-shirts",
+    "id": "gid://shopify/Collection/730430144885",
+    "currentTitle": null,
+    "proposedTitle": "Retro 80s Synthwave, Vintage & Ab Graphic Tees | Cotton T-Shirts",
+    "proposedTitleLen": 64,
+    "currentDesc": "Wear with Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "proposedDesc": "Premium 100% combed cotton Retro 80s Synthwave, Vintage & Abstract graphic t-shirts with durable double-needle stitching and sharp gallery DTG prints. Free tracked UK delivery.",
+    "proposedDescLen": 176
+  },
+  {
+    "handle": "japanese-ukiyo-e-graphic-hoodies",
+    "id": "gid://shopify/Collection/730430177653",
+    "currentTitle": null,
+    "proposedTitle": "Japanese Samurai, Great Wave & Saku Graphic Hoodies | Heavyweight",
+    "proposedTitleLen": 65,
+    "currentDesc": "Claim with Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies (Heavyweight 310 GSM (S–3XL)). Skip thin, shrinking fast-fashion prints.",
+    "proposedDesc": "Heavyweight 310 GSM Japanese Samurai, Great Wave & Sakura graphic fleece hoodies with double-lined hood, ribbed cuffs & high-definition DTG studio prints. Free tracked UK delivery.",
+    "proposedDescLen": 180
+  },
+  {
+    "handle": "cyberpunk-neon-graphic-hoodies",
+    "id": "gid://shopify/Collection/730430210421",
+    "currentTitle": null,
+    "proposedTitle": "Sci-Fi, Cyberpunk & Neon Streetwear Graphic Hoodies | Heavyweight",
+    "proposedTitleLen": 65,
+    "currentDesc": "Claim with Sci-Fi, Cyberpunk & Neon Streetwear Heavyweight Hoodies (Heavyweight 310 GSM (S–3XL)). Skip thin, shrinking fast-fashion prints.",
+    "proposedDesc": "Heavyweight 310 GSM Sci-Fi, Cyberpunk & Neon Streetwear graphic fleece hoodies with double-lined hood, ribbed cuffs & high-definition DTG studio prints. Free tracked UK delivery.",
+    "proposedDescLen": 178
+  },
+  {
+    "handle": "fantasy-dragon-graphic-hoodies",
+    "id": "gid://shopify/Collection/730430243189",
+    "currentTitle": "Fantasy, Dragon & Mythology Heavyweight Hoodies | Prints With Passion",
+    "proposedTitle": "Fantasy, Dragon, Gothic & Mythology Graphic Hoodies | Heavyweight",
+    "proposedTitleLen": 65,
+    "currentDesc": "Explore unisex heavyweight graphic hoodies with mythic dragons, dark academia & fantasy art. Soft brushed fleece with free tracked UK, US & EU delivery.",
+    "proposedDesc": "Heavyweight 310 GSM Fantasy, Dragon, Gothic & Mythology graphic fleece hoodies with double-lined hood, ribbed cuffs & high-definition DTG studio prints. Free tracked UK delivery.",
+    "proposedDescLen": 178
+  },
+  {
+    "handle": "nature-mountain-graphic-hoodies",
+    "id": "gid://shopify/Collection/730430275957",
+    "currentTitle": "Nature, Mountain & Wildlife Heavyweight Hoodies | Prints With Passion",
+    "proposedTitle": "Nature, Mountain Landscape & Wildli Graphic Hoodies | Heavyweight",
+    "proposedTitleLen": 65,
+    "currentDesc": "Shop unisex heavyweight graphic hoodies featuring alpine mountains, forest landscapes & wildlife art. Free tracked UK, US & EU shipping included.",
+    "proposedDesc": "Heavyweight 310 GSM Nature, Mountain Landscape & Wildlife graphic fleece hoodies with double-lined hood, ribbed cuffs & high-definition DTG studio prints. Free tracked UK delivery.",
+    "proposedDescLen": 180
+  }
+]

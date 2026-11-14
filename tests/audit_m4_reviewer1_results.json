@@ -1,0 +1,269 @@
+{
+  "totalPages": 36,
+  "h1Violations": [],
+  "ampViolations": [
+    {
+      "id": "gid://shopify/Page/131838509367",
+      "handle": "contact-us",
+      "count": 5
+    },
+    {
+      "id": "gid://shopify/Page/138744529207",
+      "handle": "size-guide",
+      "count": 2
+    },
+    {
+      "id": "gid://shopify/Page/688935666037",
+      "handle": "about-us",
+      "count": 1
+    },
+    {
+      "id": "gid://shopify/Page/703779766645",
+      "handle": "delivery-return",
+      "count": 3
+    },
+    {
+      "id": "gid://shopify/Page/703780487541",
+      "handle": "desk-size-visualizer",
+      "count": 45
+    },
+    {
+      "id": "gid://shopify/Page/703780520309",
+      "handle": "free-4k-wallpapers",
+      "count": 98
+    },
+    {
+      "id": "gid://shopify/Page/703791300981",
+      "handle": "uk-product-catalog",
+      "count": 87
+    },
+    {
+      "id": "gid://shopify/Page/703806865781",
+      "handle": "xxl-extended-gaming-desk-mats-uk-guide",
+      "count": 11
+    },
+    {
+      "id": "gid://shopify/Page/703806898549",
+      "handle": "stretched-canvas-wall-art-uk-guide",
+      "count": 7
+    },
+    {
+      "id": "gid://shopify/Page/703806931317",
+      "handle": "double-sided-square-cushion-covers-uk-guide",
+      "count": 11
+    },
+    {
+      "id": "gid://shopify/Page/703806964085",
+      "handle": "plush-coral-fleece-throw-blankets-uk-guide",
+      "count": 15
+    },
+    {
+      "id": "gid://shopify/Page/703806996853",
+      "handle": "luxury-memory-foam-bath-mats-uk-guide",
+      "count": 11
+    },
+    {
+      "id": "gid://shopify/Page/703807029621",
+      "handle": "cyberpunk-sci-fi-desk-mats-wall-art-uk",
+      "count": 20
+    },
+    {
+      "id": "gid://shopify/Page/703807062389",
+      "handle": "japanese-ukiyo-e-anime-desk-mats-wall-art-uk",
+      "count": 17
+    },
+    {
+      "id": "gid://shopify/Page/703807095157",
+      "handle": "space-cosmic-nebula-desk-mats-wall-art-uk",
+      "count": 17
+    },
+    {
+      "id": "gid://shopify/Page/703807127925",
+      "handle": "fantasy-mythology-gothic-desk-mats-wall-art-uk",
+      "count": 17
+    },
+    {
+      "id": "gid://shopify/Page/703807160693",
+      "handle": "botanical-floral-nature-wall-art-cushions-uk",
+      "count": 17
+    },
+    {
+      "id": "gid://shopify/Page/703807193461",
+      "handle": "wildlife-animal-art-cushions-blankets-wall-art-uk",
+      "count": 17
+    },
+    {
+      "id": "gid://shopify/Page/703807226229",
+      "handle": "abstract-geometric-minimalist-wall-art-decor-uk",
+      "count": 20
+    },
+    {
+      "id": "gid://shopify/Page/703807258997",
+      "handle": "retro-vintage-pop-art-wall-art-desk-mats-uk",
+      "count": 16
+    },
+    {
+      "id": "gid://shopify/Page/703807291765",
+      "handle": "world-landmarks-cityscape-travel-wall-art-uk",
+      "count": 17
+    },
+    {
+      "id": "gid://shopify/Page/703807324533",
+      "handle": "matching-home-office-desk-mat-and-canvas-sets-uk",
+      "count": 12
+    },
+    {
+      "id": "gid://shopify/Page/703807357301",
+      "handle": "living-room-sofa-cushion-throw-blanket-canvas-pairing-uk",
+      "count": 11
+    },
+    {
+      "id": "gid://shopify/Page/703807390069",
+      "handle": "bedroom-sanctuary-throw-blanket-cushion-wall-art-uk",
+      "count": 11
+    },
+    {
+      "id": "gid://shopify/Page/703807422837",
+      "handle": "modern-uk-bathroom-makeover-memory-foam-bath-mats",
+      "count": 12
+    },
+    {
+      "id": "gid://shopify/Page/703807455605",
+      "handle": "gaming-room-pc-setup-lighting-desk-mat-wall-art-uk",
+      "count": 14
+    },
+    {
+      "id": "gid://shopify/Page/703807488373",
+      "handle": "home-decor-desk-mat-care-washing-maintenance-guide-uk",
+      "count": 11
+    },
+    {
+      "id": "gid://shopify/Page/703814369653",
+      "handle": "vip-loyalty-program",
+      "count": 3
+    },
+    {
+      "id": "gid://shopify/Page/703814697333",
+      "handle": "us-shipping-and-sizing-guide",
+      "count": 8
+    },
+    {
+      "id": "gid://shopify/Page/703874826613",
+      "handle": "ai-catalog-directory",
+      "count": 154
+    },
+    {
+      "id": "gid://shopify/Page/703875121525",
+      "handle": "studio-lookbook-social-feed",
+      "count": 111
+    },
+    {
+      "id": "gid://shopify/Page/703875187061",
+      "handle": "desk-setup-hardware-compatibility-guide",
+      "count": 57
+    },
+    {
+      "id": "gid://shopify/Page/703875219829",
+      "handle": "studio-quality-vs-generic-prints",
+      "count": 14
+    },
+    {
+      "id": "gid://shopify/Page/703875252597",
+      "handle": "trade-and-bulk-orders",
+      "count": 17
+    }
+  ],
+  "titleTagViolations": [],
+  "descTagViolations": [],
+  "contactUsAudit": {
+    "id": "gid://shopify/Page/131838509367",
+    "hasTypoInBody": false,
+    "hasCorrectInBody": true,
+    "hasTypoInDesc": false,
+    "hasCorrectInDesc": false,
+    "titleVal": "Contact Prints With Passion | UK Customer Care Support",
+    "descVal": "Contact Prints With Passion UK customer care team for order inquiries, bespoke sizing & delivery tracking. Free tracked UK delivery on all art and decor."
+  },
+  "catalogLinksAudit": {
+    "id": "gid://shopify/Page/703791300981",
+    "totalLinkedHandles": 35,
+    "expectedLinks": 35,
+    "missingLinks": [],
+    "allOtherPagesCovered": true
+  },
+  "menuAudit": {
+    "id": "gid://shopify/Menu/221177086263",
+    "title": "Footer menu",
+    "handle": "footer",
+    "totalItems": 16,
+    "items": [
+      {
+        "title": "Shipping Policy",
+        "url": "/policies/shipping-policy"
+      },
+      {
+        "title": "Refund & Returns Policy",
+        "url": "/policies/refund-policy"
+      },
+      {
+        "title": "Privacy Policy",
+        "url": "/policies/privacy-policy"
+      },
+      {
+        "title": "Terms of Service",
+        "url": "/policies/terms-of-service"
+      },
+      {
+        "title": "Contact Information",
+        "url": "/policies/contact-information"
+      },
+      {
+        "title": "Size Guide (CM & Inches)",
+        "url": "/pages/size-guide"
+      },
+      {
+        "title": "Desk & Wall Art Size Visualizer",
+        "url": "/pages/desk-size-visualizer"
+      },
+      {
+        "title": "Free 4K Setup Wallpapers",
+        "url": "/pages/free-4k-wallpapers"
+      },
+      {
+        "title": "UK Sizing & Decor Guides",
+        "url": "/blogs/news"
+      },
+      {
+        "title": "Delivery & Returns Guide",
+        "url": "/pages/delivery-return"
+      },
+      {
+        "title": "Contact Us",
+        "url": "/pages/contact-us"
+      },
+      {
+        "title": "Prints With Passion VIP Loyalty Program",
+        "url": "/pages/vip-loyalty-program"
+      },
+      {
+        "title": "Your Privacy Choices",
+        "url": "/pages/data-sharing-opt-out"
+      },
+      {
+        "title": "About Us",
+        "url": "/pages/about-us"
+      },
+      {
+        "title": "UK Product Catalog & Directory",
+        "url": "/pages/uk-product-catalog"
+      },
+      {
+        "title": "Studio Lookbook & Room Inspiration",
+        "url": "/pages/studio-lookbook-social-feed"
+      }
+    ],
+    "hasAboutUs": true,
+    "hasUkCatalog": true,
+    "hasStudioLookbook": true
+  }
+}

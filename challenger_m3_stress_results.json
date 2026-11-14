@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-11-14T14:33:36.720Z",
+  "adminSummary": {
+    "totalCollections": 73,
+    "activeCollectionsAudited": 72,
+    "passedCollections": 72,
+    "failedCollections": 0,
+    "violations": []
+  },
+  "uniquenessSummary": {
+    "titleCollisions": [],
+    "descCollisions": []
+  },
+  "specificCollectionChecks": {
+    "japaneseAnimeDeskMats": {
+      "handle": "japanese-anime-desk-mats",
+      "title": "Japanese Anime & Gaming Desk Mats | 4mm XXL Mouse Pads",
+      "titleLength": 54,
+      "description": "Shop Japanese anime, samurai and ukiyo-e XXL gaming desk mats featuring 4mm non-slip rubber, stitched edges and smooth cloth. Free tracked UK delivery.",
+      "descLength": 151,
+      "isPluralCategory": true,
+      "isDeskMatDesc": true,
+      "noSingleProductModel": true,
+      "pass": true
+    },
+    "abstractBauhausWallArt": {
+      "handle": "abstract-minimalist-bauhaus-canvas-wall-art",
+      "title": "Bauhaus & Minimalist Canvas Wall Art | Framed Art Prints",
+      "titleLength": 56,
+      "description": "Abstract, minimalist and Bauhaus geometric canvas wall art on 400gsm cotton-poly canvas over 32mm pine frames for calm interiors. Free tracked UK delivery.",
+      "descLength": 155,
+      "hasTruncation": false,
+      "pass": true
+    }
+  },
+  "storefrontSummary": {
+    "totalAudited": 69,
+    "passedCount": 69,
+    "failedCount": 0,
+    "violations": []
+  },
+  "redirectSummary": {
+    "audited": 3,
+    "passed": 3,
+    "failed": 0,
+    "issues": []
+  },
+  "overallVerdict": "APPROVE"
+}

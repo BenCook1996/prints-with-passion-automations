@@ -9,6 +9,7 @@
  */
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { WORKSPACE, shopifyGql } from './lib/cloud-env.mjs';
 import {
   FORECAST_JSON_PATH,
@@ -18,29 +19,301 @@ import {
 
 const LOG_PATH = path.join(WORKSPACE, 'STRIKEZONE_CTR_REWRITER_LOG.md');
 
-function buildCompetitorSpecTitleAndMeta(entry, currentTitle = '') {
+/**
+ * Word-boundary-safe title truncator guaranteeing strictly <= maxChars,
+ * zero mid-word cuts, zero dangling delimiters/conjunctions, and balanced parentheses.
+ *
+ * @param {string} primaryPart - Core keyword or page title
+ * @param {string[]} specCandidates - Ordered list of competitor spec suffixes (richest to shortest)
+ * @param {number} maxChars - Hard ceiling (default: 60)
+ * @returns {string} Fully sanitized title strictly <= maxChars
+ */
+export function fitTitleUnder60Chars(primaryPart, specCandidates = [], maxChars = 60) {
+  const cleanPart = (str) => {
+    if (!str) return '';
+    return str
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .trim()
+      .replace(/\s+/g, ' ');
+  };
+
+  const stripTrailingDangling = (str) => {
+    let s = (str || '').trim();
+    let prev = '';
+    while (s !== prev) {
+      prev = s;
+      // Strip empty parentheticals () and brackets []
+      s = s.replace(/\(\s*\)/g, '').replace(/\[\s*\]/g, '').trim();
+      // Strip trailing delimiters/punctuation: -, |, &, :, ;, ,, /, \, ~, +, (, [
+      s = s.replace(/[\s\-_|&:,;/\\~+(\[]+$/, '').trim();
+      // Strip trailing conjunctions, prepositions, and stop-words
+      s = s.replace(/\s+\b(and|or|nor|but|for|with|w|in|on|at|to|by|from|of|the|a|an|vs)\b$/i, '').trim();
+    }
+    return s;
+  };
+
+  const hasSubstantiveText = (text) => {
+    if (!text) return false;
+    return text.replace(/[\s\-_|&:,;/\\~+([\]]/g, '').trim().length > 0;
+  };
+
+  const balanceBrackets = (str) => {
+    let s = str;
+    let prev = '';
+    while (s !== prev) {
+      prev = s;
+
+      // Iteratively balance parentheses: unclosed '('
+      while ((s.match(/\(/g) || []).length > (s.match(/\)/g) || []).length) {
+        const lastOpen = s.lastIndexOf('(');
+        if (lastOpen === -1) break;
+        if (hasSubstantiveText(s.slice(0, lastOpen))) {
+          s = s.slice(0, lastOpen);
+        } else {
+          s = s.slice(0, lastOpen) + s.slice(lastOpen + 1);
+        }
+      }
+
+      // Iteratively balance parentheses: excess ')'
+      while ((s.match(/\)/g) || []).length > (s.match(/\(/g) || []).length) {
+        const lastClose = s.lastIndexOf(')');
+        if (lastClose === -1) break;
+        s = s.slice(0, lastClose) + s.slice(lastClose + 1);
+      }
+
+      // Iteratively balance brackets: unclosed '['
+      while ((s.match(/\[/g) || []).length > (s.match(/\]/g) || []).length) {
+        const lastOpen = s.lastIndexOf('[');
+        if (lastOpen === -1) break;
+        if (hasSubstantiveText(s.slice(0, lastOpen))) {
+          s = s.slice(0, lastOpen);
+        } else {
+          s = s.slice(0, lastOpen) + s.slice(lastOpen + 1);
+        }
+      }
+
+      // Iteratively balance brackets: excess ']'
+      while ((s.match(/\]/g) || []).length > (s.match(/\[/g) || []).length) {
+        const lastClose = s.lastIndexOf(']');
+        if (lastClose === -1) break;
+        s = s.slice(0, lastClose) + s.slice(lastClose + 1);
+      }
+
+      s = stripTrailingDangling(s);
+    }
+
+    return s;
+  };
+
+  const truncateAtWordBoundary = (str, limit) => {
+    let s = stripTrailingDangling(str);
+    if (!s) return 'Prints With Passion';
+    if (s.length <= limit) {
+      const balanced = balanceBrackets(s);
+      return balanced || 'Prints With Passion';
+    }
+    const sliced = s.slice(0, limit);
+    const lastSpace = sliced.lastIndexOf(' ');
+    if (lastSpace > 0) {
+      s = sliced.slice(0, lastSpace);
+    } else {
+      s = sliced;
+    }
+    s = stripTrailingDangling(s);
+    s = balanceBrackets(s);
+    if (s.length > limit) {
+      s = s.slice(0, limit);
+      s = stripTrailingDangling(s);
+      s = balanceBrackets(s);
+    }
+    return s || 'Prints With Passion';
+  };
+
+  // Clean and pre-strip trailing delimiters upfront
+  let primary = stripTrailingDangling(cleanPart(primaryPart));
+  if (!primary) return 'Prints With Passion';
+
+  const candidates = Array.isArray(specCandidates)
+    ? specCandidates.map(cleanPart).filter(Boolean)
+    : [cleanPart(specCandidates)].filter(Boolean);
+
+  // 1. Evaluate candidate specs in order (longest/richest first)
+  for (const cand of candidates) {
+    const full = cand ? `${primary} | ${cand}` : primary;
+    if (full.length <= maxChars) {
+      const balanced = balanceBrackets(stripTrailingDangling(full));
+      if (balanced && balanced.length <= maxChars) {
+        return balanced;
+      }
+    }
+  }
+
+  // 2. Fall back to primaryPart alone if it fits
+  if (primary.length <= maxChars) {
+    const balanced = balanceBrackets(stripTrailingDangling(primary));
+    if (balanced && balanced.length <= maxChars) {
+      return balanced;
+    }
+  }
+
+  // 3. Truncate primaryPart cleanly at word boundary
+  const result = truncateAtWordBoundary(primary, maxChars);
+  return result || 'Prints With Passion';
+}
+
+/**
+ * Classifies whether a search query represents a singular product search
+ * rather than a category-level / collection search.
+ */
+const SINGULAR_PRODUCT_PATTERN = /\b(desk\s*mat|mouse\s*pad|mousepad|cushion\s*cover|pillow\s*case|throw\s*blanket|bath\s*mat|canvas\s*print|hoodie|t-shirt|tee)\b/i;
+const PLURAL_CATEGORY_PATTERN = /\b(desk\s*mats|mouse\s*pads|mousepads|cushion\s*covers|pillow\s*cases|throw\s*blankets|bath\s*mats|canvas\s*prints|canvas\s*wall\s*art|wall\s*art|hoodies|t-shirts|tees|prints|collections?|pads|covers|blankets|rugs)\b/i;
+
+export function isSingleProductQuery(keyword, substrate = '') {
+  if (!keyword) return false;
+  const kw = keyword.toLowerCase().trim();
+  const hasSingular = SINGULAR_PRODUCT_PATTERN.test(kw);
+  const hasPlural = PLURAL_CATEGORY_PATTERN.test(kw);
+  return hasSingular && !hasPlural;
+}
+
+/**
+ * Derives a clean thematic title for a collection preserving category intent.
+ */
+export function buildCollectionThematicTitle(colHandle, colTitle, substrate) {
+  let theme = '';
+  if (colTitle) {
+    theme = colTitle
+      .replace(/\b(Extended\s+)?(Desk\s+Mats|Canvas\s+Wall\s+Art|Cushion\s+Covers|Throw\s+Blankets|Bath\s+Mats|Cotton\s+T-Shirts|Graphic\s+Hoodies|Hoodies)\b/gi, '')
+      .replace(/[\s\-_|,;&]+$/, '')
+      .trim();
+  }
+
+  if (!theme || theme.length > 30) {
+    if (colHandle) {
+      theme = colHandle
+        .replace(/-(desk-mats|canvas-wall-art|cushion-covers|throw-blankets|bath-mats|graphic-t-shirts|graphic-hoodies)$/, '')
+        .split('-')
+        .map(w => (/^(uk|xxl|xl|mm|cm|gsm|tkl|rgb)$/i.test(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)))
+        .join(' ');
+    }
+  }
+
+  const substrateCategoryMap = {
+    'Canvas Wall Art': 'Canvas Wall Art',
+    'Desk Mats': 'XXL Desk Mats',
+    'Cushion Covers': 'Cushion Covers',
+    'Throw Blankets': 'Throw Blankets',
+    'Bath Mats': 'Bath Mats',
+    'Hoodies': 'Graphic Hoodies',
+    'Graphic T-Shirts': 'Graphic Tees'
+  };
+
+  const subName = substrateCategoryMap[substrate] || substrate || 'Desk Mats';
+  return `${theme} ${subName}`.trim();
+}
+
+/**
+ * Generates spec-first title and meta with intent protection and graduated candidates.
+ */
+export function buildCompetitorSpecTitleAndMeta(entry, currentTitle = '', colContext = null) {
   const kw = entry.keyword || entry.primaryKeyword || 'Studio Edition';
   const sub = entry.substrate || 'Desk Mats';
+  const url = entry.targetUrl || entry.url || '';
+  const isCollection = url.startsWith('/collections/') || entry.pageType === 'collection';
+
   const titleCasedKw = kw
     .split(/\s+/)
     .map(w => (/^(uk|xxl|xl|mm|cm|gsm|tkl|rgb)$/i.test(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)))
     .join(' ');
 
+  let primaryPart = titleCasedKw;
+
+  if (isCollection) {
+    // Collection Intent Guard: Single-product query must not overwrite collection theme
+    if (isSingleProductQuery(kw, sub)) {
+      const colHandle = colContext?.handle || (url.startsWith('/collections/') ? url.replace('/collections/', '').split('?')[0] : '');
+      const colTitle = colContext?.title || currentTitle || '';
+      primaryPart = buildCollectionThematicTitle(colHandle, colTitle, sub);
+    } else {
+      // Pluralize substrate in category query
+      primaryPart = titleCasedKw
+        .replace(/\bDesk\s+Mat\b/i, 'Desk Mats')
+        .replace(/\bCanvas\s+Print\b/i, 'Canvas Prints')
+        .replace(/\bCushion\s+Cover\b/i, 'Cushion Covers')
+        .replace(/\bThrow\s+Blanket\b/i, 'Throw Blankets')
+        .replace(/\bBath\s+Mat\b/i, 'Bath Mats');
+    }
+  }
+
+  let specCandidates = [];
+  let newMeta = '';
+
   if (sub === 'Canvas Wall Art') {
-    const newTitle = `${titleCasedKw} | 1.25" Pine Framed Canvas (CM & Inch)`.slice(0, 66);
-    const newMeta = `${titleCasedKw} printed on 400gsm matte cotton-poly canvas over 1.25" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sofa/bed width w/ free tracked delivery.`.slice(0, 158);
-    return { newTitle, newMeta };
+    specCandidates = [
+      '1.25" Pine Framed Canvas (CM & Inch)',
+      '1.25" Pine Framed Canvas',
+      '1.25" Framed Prints',
+      'Framed Canvas Prints',
+      'Framed Canvas Wall Art',
+      'Prints With Passion'
+    ];
+    if (isCollection) {
+      newMeta = `Shop archival framed canvas wall art (1.25" pine bars) in ${primaryPart.replace(/\s+Canvas\s+Wall\s+Art/i, '')} designs. Sized for sofa/bed width with free tracked UK delivery.`.slice(0, 158);
+    } else {
+      newMeta = `${primaryPart} printed on 400gsm matte cotton-poly canvas over 1.25" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sofa/bed width w/ free tracked delivery.`.slice(0, 158);
+    }
+  } else if (sub === 'Desk Mats') {
+    specCandidates = [
+      '900x400x4mm (35.4"x15.7") Stitched Pad',
+      '900x400x4mm Stitched Pad',
+      '4mm Stitched Gaming Pad',
+      'XXL Desk Mats',
+      'Prints With Passion'
+    ];
+    if (isCollection) {
+      newMeta = `Explore curated ${primaryPart.replace(/\s+(XXL\s+)?Desk\s+Mats/i, '')} desk mats: 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth. Free UK delivery.`.slice(0, 158);
+    } else {
+      newMeta = `${primaryPart} engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm sizes.`.slice(0, 158);
+    }
+  } else if (sub === 'Cushion Covers') {
+    specCandidates = [
+      '45x45cm Double-Sided Velvet Pillows',
+      '45x45cm Soft Velvet Covers',
+      'Velvet Cushion Covers',
+      'Prints With Passion'
+    ];
+    newMeta = `Shop curated ${primaryPart} in premium soft velvet (45x45cm / 18x18"). Double-sided archival studio print with concealed zipper and free tracked UK delivery.`.slice(0, 158);
+  } else if (sub === 'Throw Blankets') {
+    specCandidates = [
+      '300 GSM Plush Coral Fleece Throws',
+      'Plush Coral Fleece Throws',
+      'Plush Throw Blankets',
+      'Prints With Passion'
+    ];
+    newMeta = `Discover ultra-soft 300 GSM ${primaryPart} in plush microfiber flannel fleece. Ideal for sofa, bed or gaming lounge with free tracked UK & EU delivery.`.slice(0, 158);
+  } else if (sub === 'Bath Mats') {
+    specCandidates = [
+      'Non-Slip Memory Foam Bathroom Rugs',
+      'Non-Slip Memory Foam Bath Mats',
+      'Memory Foam Bath Mats',
+      'Prints With Passion'
+    ];
+    newMeta = `Refresh your bathroom with ${primaryPart}. High-density memory foam core, quick-dry microfiber surface & non-slip backing with free tracked UK delivery.`.slice(0, 158);
+  } else {
+    specCandidates = [
+      'Dual CM & Inch Studio Sizing Guide',
+      'Dual CM & Inch Sizing Guide',
+      'Studio Sizing Guide',
+      'Sizing Guide',
+      'Prints With Passion'
+    ];
+    newMeta = `Compare exact Metric (cm/mm) and Imperial (inch) dimensions for ${kw}. Includes furniture-width formulas, material thickness specs & curated studio editions.`.slice(0, 158);
   }
 
-  if (sub === 'Desk Mats') {
-    const newTitle = `${titleCasedKw} | 900x400x4mm (35.4"x15.7") Stitched Pad`.slice(0, 66);
-    const newMeta = `${titleCasedKw} engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm sizes.`.slice(0, 158);
-    return { newTitle, newMeta };
-  }
-
-  const newTitle = `${titleCasedKw} | Dual CM & Inch Studio Sizing Guide`.slice(0, 66);
-  const newMeta = `Compare exact Metric (cm/mm) and Imperial (inch) dimensions for ${kw}. Includes furniture-width formulas, material thickness specs & curated studio editions.`.slice(0, 158);
-  return { newTitle, newMeta };
+  const newTitle = fitTitleUnder60Chars(primaryPart, specCandidates, 60);
+  return { newTitle, newMeta, primaryPart };
 }
 
 async function main() {
@@ -78,7 +351,6 @@ async function main() {
 
   for (const entry of selected) {
     const url = entry.targetUrl || entry.url;
-    const { newTitle, newMeta } = buildCompetitorSpecTitleAndMeta(entry);
 
     if (url.startsWith('/collections/')) {
       const handle = url.replace('/collections/', '').split('?')[0];
@@ -94,6 +366,7 @@ async function main() {
 
       const prevTitle = col.seo?.title || col.title;
       const prevMeta = col.seo?.description || '';
+      const { newTitle, newMeta } = buildCompetitorSpecTitleAndMeta(entry, prevTitle, col);
 
       // Record Pre-Change Snapshot BEFORE executing mutation
       recordPreChangeOptimizationEvent({
@@ -144,6 +417,7 @@ async function main() {
 
       const prevTitle = prod.seo?.title || prod.title;
       const prevMeta = prod.seo?.description || '';
+      const { newTitle, newMeta } = buildCompetitorSpecTitleAndMeta(entry, prevTitle, prod);
 
       recordPreChangeOptimizationEvent({
         targetUrl: url,
@@ -192,6 +466,7 @@ async function main() {
       if (!art) continue;
 
       const prevTitle = art.title;
+      const { newMeta } = buildCompetitorSpecTitleAndMeta(entry, prevTitle, art);
       recordPreChangeOptimizationEvent({
         targetUrl: url,
         changeType: 'TITLE_META_CTR_REWRITE',
@@ -238,6 +513,7 @@ async function main() {
 
       const prevTitle = page.seo?.title || page.title;
       const prevMeta = page.seo?.description || '';
+      const { newTitle, newMeta } = buildCompetitorSpecTitleAndMeta(entry, prevTitle, page);
 
       recordPreChangeOptimizationEvent({
         targetUrl: url,
@@ -304,7 +580,10 @@ async function main() {
   console.log(`Strike-Zone CTR Rewriter complete: ${actionsExecuted.length}/${selected.length} Strike-Zone URLs upgraded and logged to ${LOG_PATH}`);
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+const isMain = process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url));
+if (isMain) {
+  main().catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
+}

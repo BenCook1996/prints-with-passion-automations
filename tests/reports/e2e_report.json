@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-11-14T16:49:18.252Z",
+  "mode": "dry-run",
+  "options": {
+    "tier": "1",
+    "feature": "1",
+    "pacingMs": 250,
+    "bail": false
+  },
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 0.03
+  },
+  "tiers": {
+    "tier1": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0
+    },
+    "tier2": {
+      "total": 0,
+      "passed": 0,
+      "failed": 0
+    },
+    "tier3": {
+      "total": 0,
+      "passed": 0,
+      "failed": 0
+    },
+    "tier4": {
+      "total": 0,
+      "passed": 0,
+      "failed": 0
+    }
+  },
+  "results": [
+    {
+      "testNum": 1,
+      "id": "T1-F01-01",
+      "name": "Homepage Title Length",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 5,
+      "error": null
+    },
+    {
+      "testNum": 2,
+      "id": "T1-F01-02",
+      "name": "Homepage Title Exact Match",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 3,
+      "error": null
+    },
+    {
+      "testNum": 3,
+      "id": "T1-F01-03",
+      "name": "Homepage Meta Description Length",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 6,
+      "error": null
+    },
+    {
+      "testNum": 4,
+      "id": "T1-F01-04",
+      "name": "Homepage Meta Description Plain Text",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 8,
+      "error": null
+    },
+    {
+      "testNum": 5,
+      "id": "T1-F01-05",
+      "name": "Homepage Meta Description Merch Audit",
+      "tier": 1,
+      "feature": 1,
+      "pass": true,
+      "durationMs": 4,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,1310 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-14T02:58:58.365Z",
+    "total_pages": 36,
+    "pages_requiring_h1_demotion": 25,
+    "total_inner_h1s_to_demote": 25,
+    "pages_requiring_amp_sanitization": 34,
+    "total_amp_entities_to_sanitize": 885,
+    "pages_requiring_body_transform": 34,
+    "pages_requiring_email_typo_fix": 1,
+    "rules": {
+      "seo_title_max_chars": 60,
+      "seo_description_min_chars": 145,
+      "seo_description_max_chars": 158,
+      "single_h1_storefront_render_rule": "Shopify template renders <h1>{{ page.title }}</h1>; inner <h1> tags in page.body demoted to <h2>.",
+      "amp_sanitization_rule": "Replace literal &amp; with & in page.body and meta tags; leave valid HTML tags intact.",
+      "contact_us_email_fix": "DescTag printswithpasssionbc@gmail.com corrected to printswithpassionbc@gmail.com."
+    }
+  },
+  "pages": [
+    {
+      "page_id": "gid://shopify/Page/131838509367",
+      "handle": "contact-us",
+      "current_title": "Contact Us",
+      "proposed_seo_title": "Contact Prints With Passion | UK Customer Care Support",
+      "proposed_seo_title_length": 54,
+      "proposed_seo_description": "Contact Prints With Passion UK customer care team for order inquiries, bespoke sizing and delivery tracking. Free tracked UK delivery on all art and decor.",
+      "proposed_seo_description_length": 155,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 5,
+      "body_transform_required": true,
+      "email_typo_fix_required": true,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": "We would love to hear from you. Please email printswithpasssionbc@gmail.com.",
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Contact Prints With Passion | UK Customer Care Support",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Contact Prints With Passion UK customer care team for order inquiries, bespoke sizing and delivery tracking. Free tracked UK delivery on all art and decor.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/138744529207",
+      "handle": "size-guide",
+      "current_title": "Size Guide",
+      "proposed_seo_title": "Official Size Guide (CM & Inches) | Prints With Passion",
+      "proposed_seo_title_length": 55,
+      "proposed_seo_description": "Complete UK and US size guide for framed canvas prints, XXL desk mats, cushion covers, throw blankets and bath mats in both metric (cm) and imperial (inches).",
+      "proposed_seo_description_length": 158,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 2,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Official Size Guide (CM & Inches) | Prints With Passion",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Complete UK and US size guide for framed canvas prints, XXL desk mats, cushion covers, throw blankets and bath mats in both metric (cm) and imperial (inches).",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/138824712503",
+      "handle": "privacy-policy",
+      "current_title": "Privacy Policy",
+      "proposed_seo_title": "Privacy Policy & Data Security | Prints With Passion",
+      "proposed_seo_title_length": 52,
+      "proposed_seo_description": "Read the Prints With Passion privacy policy and data security standards. Learn how we protect your personal information, cookies and transactional privacy.",
+      "proposed_seo_description_length": 155,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": false,
+      "amp_entity_count_in_body": 0,
+      "body_transform_required": false,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Privacy Policy & Data Security | Prints With Passion",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Read the Prints With Passion privacy policy and data security standards. Learn how we protect your personal information, cookies and transactional privacy.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/140089688375",
+      "handle": "data-sharing-opt-out",
+      "current_title": "Your Privacy Choices",
+      "proposed_seo_title": "Your Privacy Choices & Opt-Out | Prints With Passion",
+      "proposed_seo_title_length": 52,
+      "proposed_seo_description": "Manage your privacy choices, cookie preferences and personal data sharing opt-out options in compliance with UK GDPR and international privacy legislation.",
+      "proposed_seo_description_length": 155,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": false,
+      "amp_entity_count_in_body": 0,
+      "body_transform_required": false,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Your Privacy Choices & Opt-Out | Prints With Passion",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Manage your privacy choices, cookie preferences and personal data sharing opt-out options in compliance with UK GDPR and international privacy legislation.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/688935666037",
+      "handle": "about-us",
+      "current_title": "About Us",
+      "proposed_seo_title": "About Prints With Passion | UK Archival Art & Decor Studio",
+      "proposed_seo_title_length": 58,
+      "proposed_seo_description": "Discover Prints With Passion: our independent UK print studio dedicated to archival framed canvas wall art, 4mm XXL desk mats and bespoke home decor.",
+      "proposed_seo_description_length": 149,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 1,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "About Prints With Passion | UK Archival Art & Decor Studio",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Discover Prints With Passion: our independent UK print studio dedicated to archival framed canvas wall art, 4mm XXL desk mats and bespoke home decor.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703779766645",
+      "handle": "delivery-return",
+      "current_title": "Delivery & Returns",
+      "proposed_seo_title": "Delivery & Returns Policy | 100% Free UK Tracked Shipping",
+      "proposed_seo_title_length": 57,
+      "proposed_seo_description": "Learn about our delivery and returns policy: 100% free Royal Mail tracked shipping across the UK, 30-day guarantee and secure protective studio packaging.",
+      "proposed_seo_description_length": 154,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 3,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Delivery & Returns Policy | 100% Free UK Tracked Shipping",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Learn about our delivery and returns policy: 100% free Royal Mail tracked shipping across the UK, 30-day guarantee and secure protective studio packaging.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703780487541",
+      "handle": "desk-size-visualizer",
+      "current_title": "UK Desk Mat, Keyboard & Wall Art Size Visualizer (CM & Inches)",
+      "proposed_seo_title": "UK Desk Mat & Wall Art Size Visualizer | CM & Inches",
+      "proposed_seo_title_length": 52,
+      "proposed_seo_description": "Interactive visualizer: preview 60×35cm, 80×40cm and 90×40cm XXL desk mats, mechanical keyboards and framed canvas prints across popular UK workspace setups.",
+      "proposed_seo_description_length": 157,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 48,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "UK Desk Mat & Wall Art Size Visualizer | CM & Inches",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Interactive visualizer: preview 60×35cm, 80×40cm and 90×40cm XXL desk mats, mechanical keyboards and framed canvas prints across popular UK workspace setups.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703780520309",
+      "handle": "free-4k-wallpapers",
+      "current_title": "Free 4K Desktop & Setup Wallpapers (CC-BY 4.0 Vault)",
+      "proposed_seo_title": "Free 4K Desktop & Setup Wallpapers | Prints With Passion",
+      "proposed_seo_title_length": 56,
+      "proposed_seo_description": "Download free 4K ultra-high-definition desktop and dual-monitor wallpapers matching our archival canvas prints and XXL desk mats. Licensed CC-BY 4.0.",
+      "proposed_seo_description_length": 149,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 98,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Free 4K Desktop & Setup Wallpapers | Prints With Passion",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Download free 4K ultra-high-definition desktop and dual-monitor wallpapers matching our archival canvas prints and XXL desk mats. Licensed CC-BY 4.0.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703791300981",
+      "handle": "uk-product-catalog",
+      "current_title": "UK Home Decor, Desk Mat & Wall Art Catalog Directory",
+      "proposed_seo_title": "UK Catalog Directory: Wall Art, Desk Mats & Home Decor",
+      "proposed_seo_title_length": 54,
+      "proposed_seo_description": "Explore the complete Prints With Passion UK catalog directory: 48 studio collections of framed canvas wall art, XXL desk mats, cushions and fleece throws.",
+      "proposed_seo_description_length": 154,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;\">UK Home Decor, Extended Desk Mat &amp; Stretched Canvas Wall Art Catalog Directory</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;\">UK Home Decor, Extended Desk Mat & Stretched Canvas Wall Art Catalog Directory</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 76,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "UK Catalog Directory: Wall Art, Desk Mats & Home Decor",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Explore the complete Prints With Passion UK catalog directory: 48 studio collections of framed canvas wall art, XXL desk mats, cushions and fleece throws.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703806865781",
+      "handle": "xxl-extended-gaming-desk-mats-uk-guide",
+      "current_title": "XXL Extended Gaming Desk Mats UK (80×40 cm): Complete Setup & Buyer’s Guide",
+      "proposed_seo_title": "XXL Extended Gaming Desk Mats UK (80×40cm) Setup Guide",
+      "proposed_seo_title_length": 54,
+      "proposed_seo_description": "UK buyer guide for XXL 80×40cm extended gaming desk mats: 4mm thick natural rubber base, micro-weave cloth and anti-fray stitching. Free UK delivery.",
+      "proposed_seo_description_length": 149,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">XXL Extended Gaming Desk Mats UK (80×40 cm): Complete Setup &amp; Buyer’s Guide</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">XXL Extended Gaming Desk Mats UK (80×40 cm): Complete Setup & Buyer’s Guide</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 11,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "XXL Extended Gaming Desk Mats UK (80×40cm) Setup Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK buyer guide for XXL 80×40cm extended gaming desk mats: 4mm thick natural rubber base, micro-weave cloth and anti-fray stitching. Free UK delivery.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703806898549",
+      "handle": "stretched-canvas-wall-art-uk-guide",
+      "current_title": "Gallery-Wrapped Stretched Canvas Wall Art UK (24×16 in): Interior Styling Guide",
+      "proposed_seo_title": "Gallery Stretched Canvas Wall Art UK (24×16 in) Guide",
+      "proposed_seo_title_length": 53,
+      "proposed_seo_description": "Explore our UK styling guide for 24×16 inch gallery-wrapped canvas prints: 400gsm cotton-poly blend on 1.25 inch European pine frames with free UK shipping.",
+      "proposed_seo_description_length": 156,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Gallery-Wrapped Stretched Canvas Wall Art UK (24×16 in): Interior Styling Guide</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Gallery-Wrapped Stretched Canvas Wall Art UK (24×16 in): Interior Styling Guide</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 7,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Gallery Stretched Canvas Wall Art UK (24×16 in) Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Explore our UK styling guide for 24×16 inch gallery-wrapped canvas prints: 400gsm cotton-poly blend on 1.25 inch European pine frames with free UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703806931317",
+      "handle": "double-sided-square-cushion-covers-uk-guide",
+      "current_title": "Double-Sided Square Cushion Covers UK (40×40 cm): Sofa & Bedroom Styling Guide",
+      "proposed_seo_title": "Double-Sided Cushion Covers UK (40×40cm) Styling Guide",
+      "proposed_seo_title_length": 54,
+      "proposed_seo_description": "Interior styling guide for 40×40cm double-sided faux-suede cushion covers in the UK: vibrant colourfast prints, concealed zips and free tracked delivery.",
+      "proposed_seo_description_length": 153,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Double-Sided Square Cushion Covers UK (40×40 cm): Sofa &amp; Bedroom Styling Guide</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Double-Sided Square Cushion Covers UK (40×40 cm): Sofa & Bedroom Styling Guide</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 11,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Double-Sided Cushion Covers UK (40×40cm) Styling Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Interior styling guide for 40×40cm double-sided faux-suede cushion covers in the UK: vibrant colourfast prints, concealed zips and free tracked delivery.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703806964085",
+      "handle": "plush-coral-fleece-throw-blankets-uk-guide",
+      "current_title": "Ultra-Soft Plush Coral Fleece Throw Blankets UK (50×60 in): Sofa & Bed Guide",
+      "proposed_seo_title": "Plush Coral Fleece Throw Blankets UK (50×60 in) Guide",
+      "proposed_seo_title_length": 53,
+      "proposed_seo_description": "UK home guide for 50×60 inch ultra-soft coral fleece throw blankets: lightweight warmth, hypoallergenic microfiber and machine washable with free delivery.",
+      "proposed_seo_description_length": 155,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Ultra-Soft Plush Coral Fleece Throw Blankets UK (50×60 in): Sofa &amp; Bed Guide</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Ultra-Soft Plush Coral Fleece Throw Blankets UK (50×60 in): Sofa & Bed Guide</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 15,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Plush Coral Fleece Throw Blankets UK (50×60 in) Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK home guide for 50×60 inch ultra-soft coral fleece throw blankets: lightweight warmth, hypoallergenic microfiber and machine washable with free delivery.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703806996853",
+      "handle": "luxury-memory-foam-bath-mats-uk-guide",
+      "current_title": "Luxury Non-Slip Memory Foam Bath Mats UK (61×43 cm): Modern Bathroom Guide",
+      "proposed_seo_title": "Luxury Memory Foam Bath Mats UK (61×43cm) Bathroom Guide",
+      "proposed_seo_title_length": 56,
+      "proposed_seo_description": "UK bathroom decor guide for 61×43cm memory foam bath mats: quick-dry microfiber surface, high-density foam cushioning and non-slip rubber safety backing.",
+      "proposed_seo_description_length": 153,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Luxury Non-Slip Memory Foam Bath Mats UK (61×43 cm): Modern Bathroom Guide</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Luxury Non-Slip Memory Foam Bath Mats UK (61×43 cm): Modern Bathroom Guide</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 11,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Luxury Memory Foam Bath Mats UK (61×43cm) Bathroom Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK bathroom decor guide for 61×43cm memory foam bath mats: quick-dry microfiber surface, high-density foam cushioning and non-slip rubber safety backing.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807029621",
+      "handle": "cyberpunk-sci-fi-desk-mats-wall-art-uk",
+      "current_title": "Sci-Fi, Cyberpunk & Neon Synthwave Desk Mats, Canvas Art & Home Decor UK",
+      "proposed_seo_title": "Cyberpunk & Sci-Fi Desk Mats & Wall Art UK Setup Guide",
+      "proposed_seo_title_length": 54,
+      "proposed_seo_description": "UK guide to sci-fi, synthwave and neon cyberpunk desk mats and matching canvas wall art: high-contrast aesthetic workspace decor with free UK shipping.",
+      "proposed_seo_description_length": 151,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Sci-Fi, Cyberpunk &amp; Neon Synthwave Desk Mats, Canvas Art &amp; Home Decor UK</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Sci-Fi, Cyberpunk & Neon Synthwave Desk Mats, Canvas Art & Home Decor UK</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 20,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Cyberpunk & Sci-Fi Desk Mats & Wall Art UK Setup Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK guide to sci-fi, synthwave and neon cyberpunk desk mats and matching canvas wall art: high-contrast aesthetic workspace decor with free UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807062389",
+      "handle": "japanese-ukiyo-e-anime-desk-mats-wall-art-uk",
+      "current_title": "Japanese Ukiyo-e, Samurai & Anime Aesthetic Desk Mats, Canvas Prints & Decor UK",
+      "proposed_seo_title": "Japanese Ukiyo-e & Anime Desk Mats & Canvas Art UK Guide",
+      "proposed_seo_title_length": 56,
+      "proposed_seo_description": "UK styling guide for Japanese anime, Great Wave ukiyo-e and samurai XXL desk mats and canvas prints: premium archival craft with free tracked UK shipping.",
+      "proposed_seo_description_length": 154,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Japanese Ukiyo-e, Samurai &amp; Anime Aesthetic Desk Mats, Canvas Prints &amp; Decor UK</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Japanese Ukiyo-e, Samurai & Anime Aesthetic Desk Mats, Canvas Prints & Decor UK</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 17,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Japanese Ukiyo-e & Anime Desk Mats & Canvas Art UK Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK styling guide for Japanese anime, Great Wave ukiyo-e and samurai XXL desk mats and canvas prints: premium archival craft with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807095157",
+      "handle": "space-cosmic-nebula-desk-mats-wall-art-uk",
+      "current_title": "Space, Cosmic Nebula & Astronomy Desk Mats, Stretched Canvas & Home Decor UK",
+      "proposed_seo_title": "Space & Cosmic Nebula Desk Mats & Canvas Wall Art UK",
+      "proposed_seo_title_length": 52,
+      "proposed_seo_description": "UK astronomy guide for deep space, cosmic nebula and celestial desk mats and canvas prints: high-resolution astrophotography with free tracked UK shipping.",
+      "proposed_seo_description_length": 155,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Space, Cosmic Nebula &amp; Astronomy Desk Mats, Stretched Canvas &amp; Home Decor UK</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Space, Cosmic Nebula & Astronomy Desk Mats, Stretched Canvas & Home Decor UK</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 17,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Space & Cosmic Nebula Desk Mats & Canvas Wall Art UK",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK astronomy guide for deep space, cosmic nebula and celestial desk mats and canvas prints: high-resolution astrophotography with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807127925",
+      "handle": "fantasy-mythology-gothic-desk-mats-wall-art-uk",
+      "current_title": "Fantasy, Dragon, Mythology & Dark Gothic Desk Mats, Canvas Art & Home Decor UK",
+      "proposed_seo_title": "Fantasy & Gothic Desk Mats & Canvas Wall Art UK Guide",
+      "proposed_seo_title_length": 53,
+      "proposed_seo_description": "UK decor guide for dark fantasy, dragon, mythology and gothic aesthetic desk mats, fleece throws and framed canvas wall art with free tracked UK shipping.",
+      "proposed_seo_description_length": 154,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Fantasy, Dragon, Mythology &amp; Dark Gothic Desk Mats, Canvas Art &amp; Home Decor UK</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Fantasy, Dragon, Mythology & Dark Gothic Desk Mats, Canvas Art & Home Decor UK</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 17,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Fantasy & Gothic Desk Mats & Canvas Wall Art UK Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK decor guide for dark fantasy, dragon, mythology and gothic aesthetic desk mats, fleece throws and framed canvas wall art with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807160693",
+      "handle": "botanical-floral-nature-wall-art-cushions-uk",
+      "current_title": "Botanical, Floral & Forest Landscape Canvas Wall Art, Cushions & Bath Mats UK",
+      "proposed_seo_title": "Botanical & Floral Canvas Wall Art & Cushions UK Guide",
+      "proposed_seo_title_length": 54,
+      "proposed_seo_description": "UK interior guide for botanical, forest landscape and floral canvas prints, velvet cushions and bath mats: biophilic styling with free tracked UK shipping.",
+      "proposed_seo_description_length": 155,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Botanical, Floral &amp; Forest Landscape Canvas Wall Art, Cushions &amp; Bath Mats UK</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Botanical, Floral & Forest Landscape Canvas Wall Art, Cushions & Bath Mats UK</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 17,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Botanical & Floral Canvas Wall Art & Cushions UK Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK interior guide for botanical, forest landscape and floral canvas prints, velvet cushions and bath mats: biophilic styling with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807193461",
+      "handle": "wildlife-animal-art-cushions-blankets-wall-art-uk",
+      "current_title": "Animals & Wildlife Art Collection UK: Lion, Wolf, Bird & Marine Canvas, Throws & Cushions",
+      "proposed_seo_title": "Wildlife & Animal Canvas Art, Cushions & Blankets UK",
+      "proposed_seo_title_length": 52,
+      "proposed_seo_description": "Explore UK animal and wildlife art: lion, wolf, stag and bird archival canvas prints, fleece throws and luxury cushion covers with free tracked UK shipping.",
+      "proposed_seo_description_length": 156,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Animals &amp; Wildlife Art Collection UK: Lion, Wolf, Bird &amp; Marine Canvas, Throws &amp; Cushions</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Animals & Wildlife Art Collection UK: Lion, Wolf, Bird & Marine Canvas, Throws & Cushions</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 17,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Wildlife & Animal Canvas Art, Cushions & Blankets UK",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Explore UK animal and wildlife art: lion, wolf, stag and bird archival canvas prints, fleece throws and luxury cushion covers with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807226229",
+      "handle": "abstract-geometric-minimalist-wall-art-decor-uk",
+      "current_title": "Abstract, Sacred Geometry & Minimalist Line Art Canvas, Desk Mats & Cushions UK",
+      "proposed_seo_title": "Abstract & Minimalist Canvas Wall Art & Desk Mats UK",
+      "proposed_seo_title_length": 52,
+      "proposed_seo_description": "UK styling guide for abstract geometry, Bauhaus minimalist line art canvas prints and XXL desk mats: contemporary modern decor with free tracked UK shipping.",
+      "proposed_seo_description_length": 157,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Abstract, Sacred Geometry &amp; Minimalist Line Art Canvas, Desk Mats &amp; Cushions UK</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Abstract, Sacred Geometry & Minimalist Line Art Canvas, Desk Mats & Cushions UK</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 20,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Abstract & Minimalist Canvas Wall Art & Desk Mats UK",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK styling guide for abstract geometry, Bauhaus minimalist line art canvas prints and XXL desk mats: contemporary modern decor with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807258997",
+      "handle": "retro-vintage-pop-art-wall-art-desk-mats-uk",
+      "current_title": "Retro, Vintage 80s Vaporwave & Pop Art Desk Mats, Canvas Prints & Home Decor UK",
+      "proposed_seo_title": "Retro 80s Vaporwave & Pop Art Desk Mats & Wall Art UK",
+      "proposed_seo_title_length": 53,
+      "proposed_seo_description": "UK guide to vintage 80s vaporwave, arcade and pop art desk mats and stretched canvas prints: nostalgic retro gaming workspaces with free tracked UK shipping.",
+      "proposed_seo_description_length": 157,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Retro, Vintage 80s Vaporwave &amp; Pop Art Desk Mats, Canvas Prints &amp; Home Decor UK</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Retro, Vintage 80s Vaporwave & Pop Art Desk Mats, Canvas Prints & Home Decor UK</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 16,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Retro 80s Vaporwave & Pop Art Desk Mats & Wall Art UK",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK guide to vintage 80s vaporwave, arcade and pop art desk mats and stretched canvas prints: nostalgic retro gaming workspaces with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807291765",
+      "handle": "world-landmarks-cityscape-travel-wall-art-uk",
+      "current_title": "World Landmarks, London, Tokyo & Paris Cityscape Canvas Wall Art & Cushions UK",
+      "proposed_seo_title": "World Landmarks & Cityscape Canvas Wall Art UK Guide",
+      "proposed_seo_title_length": 52,
+      "proposed_seo_description": "UK interior styling guide for London, Tokyo and Paris cityscape canvas wall art prints and velvet cushion covers: architectural decor with free shipping.",
+      "proposed_seo_description_length": 153,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">World Landmarks, London, Tokyo &amp; Paris Cityscape Canvas Wall Art &amp; Cushions UK</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">World Landmarks, London, Tokyo & Paris Cityscape Canvas Wall Art & Cushions UK</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 17,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "World Landmarks & Cityscape Canvas Wall Art UK Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK interior styling guide for London, Tokyo and Paris cityscape canvas wall art prints and velvet cushion covers: architectural decor with free shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807324533",
+      "handle": "matching-home-office-desk-mat-and-canvas-sets-uk",
+      "current_title": "Matching Home Office Desk Mat & Canvas Wall Art Sets UK: Cohesive Workspace Styling",
+      "proposed_seo_title": "Matching Home Office Desk Mat & Canvas Art Sets UK Guide",
+      "proposed_seo_title_length": 56,
+      "proposed_seo_description": "UK workspace guide for pairing 80x40cm XXL desk mats with matching 24x16 inch stretched canvas prints: cohesive office setups with free tracked UK shipping.",
+      "proposed_seo_description_length": 156,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Matching Home Office Desk Mat &amp; Canvas Wall Art Sets UK: Cohesive Workspace Styling</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Matching Home Office Desk Mat & Canvas Wall Art Sets UK: Cohesive Workspace Styling</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 12,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Matching Home Office Desk Mat & Canvas Art Sets UK Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK workspace guide for pairing 80x40cm XXL desk mats with matching 24x16 inch stretched canvas prints: cohesive office setups with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807357301",
+      "handle": "living-room-sofa-cushion-throw-blanket-canvas-pairing-uk",
+      "current_title": "Living Room Colour Pairing Guide UK: Matching Cushion Covers, Throw Blankets & Canvas Art",
+      "proposed_seo_title": "Living Room Cushion, Blanket & Canvas Pairing Guide UK",
+      "proposed_seo_title_length": 54,
+      "proposed_seo_description": "UK interior colour pairing guide for matching 40×40cm cushion covers, 50×60 in fleece throw blankets and canvas wall art: style a cohesive modern lounge.",
+      "proposed_seo_description_length": 153,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Living Room Colour Pairing Guide UK: Matching Cushion Covers, Throw Blankets &amp; Canvas Art</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Living Room Colour Pairing Guide UK: Matching Cushion Covers, Throw Blankets & Canvas Art</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 11,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Living Room Cushion, Blanket & Canvas Pairing Guide UK",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK interior colour pairing guide for matching 40×40cm cushion covers, 50×60 in fleece throw blankets and canvas wall art: style a cohesive modern lounge.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807390069",
+      "handle": "bedroom-sanctuary-throw-blanket-cushion-wall-art-uk",
+      "current_title": "Bedroom Sanctuary Decor Guide UK: Plush Fleece Throws, Accent Cushions & Statement Art",
+      "proposed_seo_title": "Bedroom Sanctuary Decor Guide: Throws, Cushions & Art UK",
+      "proposed_seo_title_length": 56,
+      "proposed_seo_description": "UK bedroom sanctuary guide: create restful spaces with plush fleece throw blankets, accent cushion covers and calming canvas wall art. Free UK delivery.",
+      "proposed_seo_description_length": 152,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Bedroom Sanctuary Decor Guide UK: Plush Fleece Throws, Accent Cushions &amp; Statement Art</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Bedroom Sanctuary Decor Guide UK: Plush Fleece Throws, Accent Cushions & Statement Art</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 11,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Bedroom Sanctuary Decor Guide: Throws, Cushions & Art UK",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK bedroom sanctuary guide: create restful spaces with plush fleece throw blankets, accent cushion covers and calming canvas wall art. Free UK delivery.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807422837",
+      "handle": "modern-uk-bathroom-makeover-memory-foam-bath-mats",
+      "current_title": "Modern UK Bathroom Makeover Guide: Statement Memory Foam Bath Mats & Spa Styling",
+      "proposed_seo_title": "Modern UK Bathroom Makeover: Memory Foam Bath Mats Guide",
+      "proposed_seo_title_length": 56,
+      "proposed_seo_description": "UK modern bathroom guide: upgrade your space with luxury non-slip memory foam bath mats, coordinated colour palettes and spa styling with free delivery.",
+      "proposed_seo_description_length": 152,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Modern UK Bathroom Makeover Guide: Statement Memory Foam Bath Mats &amp; Spa Styling</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Modern UK Bathroom Makeover Guide: Statement Memory Foam Bath Mats & Spa Styling</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 12,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Modern UK Bathroom Makeover: Memory Foam Bath Mats Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK modern bathroom guide: upgrade your space with luxury non-slip memory foam bath mats, coordinated colour palettes and spa styling with free delivery.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807455605",
+      "handle": "gaming-room-pc-setup-lighting-desk-mat-wall-art-uk",
+      "current_title": "Ultimate UK Gaming Room & Streaming Setup Guide: XXL Desk Mats, Canvas Art & Throws",
+      "proposed_seo_title": "UK Gaming Room PC Setup Guide: XXL Desk Mats & Wall Art",
+      "proposed_seo_title_length": 55,
+      "proposed_seo_description": "UK battlestation guide for gaming PC setups: pairing RGB ambient lighting with XXL stitched desk mats, canvas wall art and warm fleece throw blankets.",
+      "proposed_seo_description_length": 150,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Ultimate UK Gaming Room &amp; Streaming Setup Guide: XXL Desk Mats, Canvas Art &amp; Throws</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Ultimate UK Gaming Room & Streaming Setup Guide: XXL Desk Mats, Canvas Art & Throws</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 14,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "UK Gaming Room PC Setup Guide: XXL Desk Mats & Wall Art",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK battlestation guide for gaming PC setups: pairing RGB ambient lighting with XXL stitched desk mats, canvas wall art and warm fleece throw blankets.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703807488373",
+      "handle": "home-decor-desk-mat-care-washing-maintenance-guide-uk",
+      "current_title": "Complete UK Care & Washing Guide: Cleaning Desk Mats, Fleece Throws, Cushions & Bath Mats",
+      "proposed_seo_title": "UK Desk Mat & Home Decor Washing & Care Guide | PWP",
+      "proposed_seo_title_length": 51,
+      "proposed_seo_description": "Complete UK care and washing guide: clean 4mm stitched desk mats, machine wash fleece throws, refresh velvet cushions and maintain memory foam bath mats.",
+      "proposed_seo_description_length": 153,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Complete UK Care &amp; Washing Guide: Cleaning Desk Mats, Fleece Throws, Cushions &amp; Bath Mats</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:32px;line-height:1.25;margin:0 0 16px;color:#111827;\">Complete UK Care & Washing Guide: Cleaning Desk Mats, Fleece Throws, Cushions & Bath Mats</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 11,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "UK Desk Mat & Home Decor Washing & Care Guide | PWP",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Complete UK care and washing guide: clean 4mm stitched desk mats, machine wash fleece throws, refresh velvet cushions and maintain memory foam bath mats.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703814369653",
+      "handle": "vip-loyalty-program",
+      "current_title": "Prints With Passion VIP — Official Loyalty Program (Club Member)",
+      "proposed_seo_title": "Prints With Passion VIP Loyalty Program | Studio Club",
+      "proposed_seo_title_length": 53,
+      "proposed_seo_description": "Join the Prints With Passion VIP Club: unlock exclusive collector discounts, early access to new art drops and loyalty rewards with free tracked UK shipping.",
+      "proposed_seo_description_length": 157,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1>Prints With Passion VIP</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2>Prints With Passion VIP</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 3,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Prints With Passion VIP Loyalty Program | Studio Club",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Join the Prints With Passion VIP Club: unlock exclusive collector discounts, early access to new art drops and loyalty rewards with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703814697333",
+      "handle": "us-shipping-and-sizing-guide",
+      "current_title": "US Shipping, Local USA Print Fulfillment & Imperial Sizing Guide (Inches)",
+      "proposed_seo_title": "US Shipping, Local Fulfillment & Imperial Sizing Guide",
+      "proposed_seo_title_length": 54,
+      "proposed_seo_description": "USA buyer guide: local USA print fulfillment, rapid courier delivery and imperial size conversions (inches) for canvas wall art prints and XXL desk mats.",
+      "proposed_seo_description_length": 153,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 8,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "US Shipping, Local Fulfillment & Imperial Sizing Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "USA buyer guide: local USA print fulfillment, rapid courier delivery and imperial size conversions (inches) for canvas wall art prints and XXL desk mats.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703874826613",
+      "handle": "ai-catalog-directory",
+      "current_title": "Studio Catalog, Sizing & AI Discovery Index (50 Curated Collections)",
+      "proposed_seo_title": "Studio Catalog, Sizing & AI Discovery Index | PWP",
+      "proposed_seo_title_length": 49,
+      "proposed_seo_description": "Browse the Prints With Passion AI discovery index: 48 thematic collections of framed canvas prints, XXL gaming desk mats, cushions and home accessories.",
+      "proposed_seo_description_length": 152,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 154,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Studio Catalog, Sizing & AI Discovery Index | PWP",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Browse the Prints With Passion AI discovery index: 48 thematic collections of framed canvas prints, XXL gaming desk mats, cushions and home accessories.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703875121525",
+      "handle": "studio-lookbook-social-feed",
+      "current_title": "Studio Lookbook, Room Inspiration & Pinterest Feed Hub",
+      "proposed_seo_title": "Studio Lookbook, Room Inspiration & Pinterest Feed Hub",
+      "proposed_seo_title_length": 54,
+      "proposed_seo_description": "Explore the Prints With Passion studio lookbook: curated workspace inspiration, customer styling photos and trending Pinterest aesthetic gallery ideas.",
+      "proposed_seo_description_length": 151,
+      "has_inner_h1": false,
+      "inner_h1_count": 0,
+      "inner_h1_matches": [],
+      "inner_h1_replacements": [],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 114,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Studio Lookbook, Room Inspiration & Pinterest Feed Hub",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Explore the Prints With Passion studio lookbook: curated workspace inspiration, customer styling photos and trending Pinterest aesthetic gallery ideas.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703875187061",
+      "handle": "desk-setup-hardware-compatibility-guide",
+      "current_title": "Desk Mat & Wall Art Hardware Compatibility Guide (IKEA Karlby, Secretlab, Keychron & Ultrawide)",
+      "proposed_seo_title": "Desk Mat Hardware Compatibility Guide (IKEA & Secretlab)",
+      "proposed_seo_title_length": 56,
+      "proposed_seo_description": "UK hardware sizing guide for IKEA Karlby, Secretlab Magnus and Keychron setups: calculate exact desk clearances for XXL desk mats and mechanical boards.",
+      "proposed_seo_description_length": 152,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:28px;font-weight:700;margin:0 0 10px;color:#111110;\">Desk Mat &amp; Wall Art Sizing Guide for IKEA Karlby, Secretlab Magnus, Keychron/Wooting &amp; Ultrawide Setups</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:28px;font-weight:700;margin:0 0 10px;color:#111110;\">Desk Mat & Wall Art Sizing Guide for IKEA Karlby, Secretlab Magnus, Keychron/Wooting & Ultrawide Setups</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 57,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": "Desk Setup Hardware Compatibility Guide | Dual CM & Inch Studio Si",
+      "current_metafield_description_tag": "Compare exact Metric (cm/mm) and Imperial (inch) dimensions for desk setup hardware compatibility guide. Includes furniture-width formulas, material thickness",
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Desk Mat Hardware Compatibility Guide (IKEA & Secretlab)",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "UK hardware sizing guide for IKEA Karlby, Secretlab Magnus and Keychron setups: calculate exact desk clearances for XXL desk mats and mechanical boards.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703875219829",
+      "handle": "studio-quality-vs-generic-prints",
+      "current_title": "Prints With Passion Studio Standard vs. Generic 2mm Pads & Rolled Posters (Full Spec Comparison)",
+      "proposed_seo_title": "Studio Quality vs Generic 2mm Mats & Rolled Prints Guide",
+      "proposed_seo_title_length": 56,
+      "proposed_seo_description": "Full specification guide comparing Prints With Passion 4mm stitched desk mats and 1.25 in pine canvas prints against generic 2mm pads and rolled posters.",
+      "proposed_seo_description_length": 153,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:28px;font-weight:700;margin:0 0 10px;color:#111110;\">Prints With Passion Studio Standard vs. Generic 2mm Pads, Rolled Posters &amp; Metal Prints</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:28px;font-weight:700;margin:0 0 10px;color:#111110;\">Prints With Passion Studio Standard vs. Generic 2mm Pads, Rolled Posters & Metal Prints</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 14,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "Studio Quality vs Generic 2mm Mats & Rolled Prints Guide",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "Full specification guide comparing Prints With Passion 4mm stitched desk mats and 1.25 in pine canvas prints against generic 2mm pads and rolled posters.",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "page_id": "gid://shopify/Page/703875252597",
+      "handle": "trade-and-bulk-orders",
+      "current_title": "B2B Corporate Workspaces, Interior Staging & Bulk Trade Orders (15%–35% Off)",
+      "proposed_seo_title": "B2B Trade & Bulk Orders (15%–35% Off) | Prints With Passion",
+      "proposed_seo_title_length": 59,
+      "proposed_seo_description": "B2B trade program for interior stagers, corporate workspaces, boutique hotels and esports lounges: volume discounts up to 35% with free tracked UK shipping.",
+      "proposed_seo_description_length": 156,
+      "has_inner_h1": true,
+      "inner_h1_count": 1,
+      "inner_h1_matches": [
+        "<h1 style=\"font-size:28px;font-weight:700;margin:0 0 10px;color:#111110;\">Corporate Workspaces, Interior Stagers, Esports Lounges &amp; Hospitality Bulk Orders</h1>"
+      ],
+      "inner_h1_replacements": [
+        "<h2 style=\"font-size:28px;font-weight:700;margin:0 0 10px;color:#111110;\">Corporate Workspaces, Interior Stagers, Esports Lounges & Hospitality Bulk Orders</h2>"
+      ],
+      "has_amp_entity_in_body": true,
+      "amp_entity_count_in_body": 18,
+      "body_transform_required": true,
+      "email_typo_fix_required": false,
+      "current_metafield_title_tag": null,
+      "current_metafield_description_tag": null,
+      "metafields_to_set": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "value": "B2B Trade & Bulk Orders (15%–35% Off) | Prints With Passion",
+          "type": "string"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "value": "B2B trade program for interior stagers, corporate workspaces, boutique hotels and esports lounges: volume discounts up to 35% with free tracked UK shipping.",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

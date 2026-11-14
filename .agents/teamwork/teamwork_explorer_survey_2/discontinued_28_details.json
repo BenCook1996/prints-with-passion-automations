@@ -1,0 +1,198 @@
+[
+  {
+    "handle": "dog-collars",
+    "id": "gid://shopify/Collection/484418421047",
+    "title": "Dog Collars",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:14Z"
+  },
+  {
+    "handle": "laundry-bags",
+    "id": "gid://shopify/Collection/486062588215",
+    "title": "Laundry Bags",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:19Z"
+  },
+  {
+    "handle": "duffle-bags",
+    "id": "gid://shopify/Collection/486062391607",
+    "title": "Duffle Bags",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:17Z"
+  },
+  {
+    "handle": "clutch-bags",
+    "id": "gid://shopify/Collection/486062653751",
+    "title": "Clutch Bags",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:20Z"
+  },
+  {
+    "handle": "phone-cases",
+    "id": "gid://shopify/Collection/484418224439",
+    "title": "Phone Cases",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:13Z"
+  },
+  {
+    "handle": "beach-towels",
+    "id": "gid://shopify/Collection/444874228023",
+    "title": "Beach Towels",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:12Z"
+  },
+  {
+    "handle": "mugs",
+    "id": "gid://shopify/Collection/491112530231",
+    "title": "Mugs",
+    "productsCount": 0,
+    "updatedAt": "2026-10-28T08:54:58Z"
+  },
+  {
+    "handle": "journals",
+    "id": "gid://shopify/Collection/484418683191",
+    "title": "Journals",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:14Z"
+  },
+  {
+    "handle": "wall-tapestry",
+    "id": "gid://shopify/Collection/484716183863",
+    "title": "Wall Tapestry",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:15Z"
+  },
+  {
+    "handle": "puzzles",
+    "id": "gid://shopify/Collection/485993447735",
+    "title": "Puzzles",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:16Z"
+  },
+  {
+    "handle": "shoes",
+    "id": "gid://shopify/Collection/486062424375",
+    "title": "Shoes",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:18Z"
+  },
+  {
+    "handle": "hats",
+    "id": "gid://shopify/Collection/486062522679",
+    "title": "Hats",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:18Z"
+  },
+  {
+    "handle": "bottles",
+    "id": "gid://shopify/Collection/486062719287",
+    "title": "Bottles",
+    "productsCount": 0,
+    "updatedAt": "2026-10-28T08:46:44Z"
+  },
+  {
+    "handle": "tote-bags",
+    "id": "gid://shopify/Collection/491049681207",
+    "title": "Tote Bags",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:21Z"
+  },
+  {
+    "handle": "suitcases",
+    "id": "gid://shopify/Collection/491068031287",
+    "title": "Suitcases",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:21Z"
+  },
+  {
+    "handle": "yoga-mats",
+    "id": "gid://shopify/Collection/491090837815",
+    "title": "Yoga Mats",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:22Z"
+  },
+  {
+    "handle": "makeup-bags",
+    "id": "gid://shopify/Collection/491806064951",
+    "title": "Makeup Bags",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:23Z"
+  },
+  {
+    "handle": "coasters",
+    "id": "gid://shopify/Collection/491808457015",
+    "title": "Coasters",
+    "productsCount": 0,
+    "updatedAt": "2026-10-29T21:41:19Z"
+  },
+  {
+    "handle": "pet-mat",
+    "id": "gid://shopify/Collection/491808620855",
+    "title": "Pet Mat",
+    "productsCount": 0,
+    "updatedAt": "2026-10-28T08:19:11Z"
+  },
+  {
+    "handle": "bottle-opener",
+    "id": "gid://shopify/Collection/491808817463",
+    "title": "Bottle Openers",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:25Z"
+  },
+  {
+    "handle": "pet-bowls",
+    "id": "gid://shopify/Collection/491808981303",
+    "title": "Pet Bowls",
+    "productsCount": 0,
+    "updatedAt": "2026-10-27T09:53:25Z"
+  },
+  {
+    "handle": "bags",
+    "id": "gid://shopify/Collection/484418289975",
+    "title": "Accessories",
+    "productsCount": 0,
+    "updatedAt": "2026-10-28T08:46:44Z"
+  },
+  {
+    "handle": "bags-1",
+    "id": "gid://shopify/Collection/494964998455",
+    "title": "Bags",
+    "productsCount": 0,
+    "updatedAt": "2026-10-28T08:20:27Z"
+  },
+  {
+    "handle": "pets-animals",
+    "id": "gid://shopify/Collection/495985918263",
+    "title": "Pets & Animals",
+    "productsCount": 0,
+    "updatedAt": "2026-10-28T08:19:12Z"
+  },
+  {
+    "handle": "can-cooler",
+    "id": "gid://shopify/Collection/666332823925",
+    "title": "Can Cooler",
+    "productsCount": 0,
+    "updatedAt": "2026-10-28T08:46:45Z"
+  },
+  {
+    "handle": "posters",
+    "id": "gid://shopify/Collection/438564192567",
+    "title": "Posters",
+    "productsCount": 0,
+    "updatedAt": "2026-10-29T21:40:24Z"
+  },
+  {
+    "handle": "rugs",
+    "id": "gid://shopify/Collection/666330530165",
+    "title": "Rugs",
+    "productsCount": 0,
+    "updatedAt": "2026-10-28T08:46:51Z"
+  },
+  {
+    "handle": "mousepads",
+    "id": "gid://shopify/Collection/666330595701",
+    "title": "Mousepads",
+    "productsCount": 0,
+    "updatedAt": "2026-10-28T08:52:35Z"
+  }
+]

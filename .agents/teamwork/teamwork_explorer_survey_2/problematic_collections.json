@@ -1,0 +1,782 @@
+[
+  {
+    "handle": "canvas-prints",
+    "title": "Canvas Wall Art",
+    "seoTitle": null,
+    "seoDesc": "Transform with Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare with 380gsm cotton canvas and European pine frames.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "apparel",
+    "title": "Graphic T-Shirts",
+    "seoTitle": null,
+    "seoDesc": "Wear with Graphic T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "hoodies",
+    "title": "Graphic Hoodies",
+    "seoTitle": null,
+    "seoDesc": "Graphic Hoodies in heavyweight 310 GSM fleece (S–3XL). Premium double-lined hood, reinforced ribbed cuffs, and long-lasting gallery-grade graphic prints.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "pillow-cases",
+    "title": "Cushion Covers",
+    "seoTitle": null,
+    "seoDesc": "Elevate with Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "bath-mats",
+    "title": "Memory Foam Bath Mats",
+    "seoTitle": null,
+    "seoDesc": "Refresh with Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "blankets",
+    "title": "Plush Throw Blankets",
+    "seoTitle": null,
+    "seoDesc": "Style with Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "clothing",
+    "title": "Clothing & Apparel",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Clothing & Apparel (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "home-living",
+    "title": "Home & Living",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Home & Living (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "all-products",
+    "title": "All Products",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with All Products (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "t-shirts",
+    "title": "Graphic T-Shirts",
+    "seoTitle": null,
+    "seoDesc": "Wear Graphic T-Shirts in heavyweight combed cotton (S–3XL). Breathable, gallery-grade print clarity with reinforced double-needle collar and pre-shrunk fabric.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "nature-landscapes",
+    "title": "Nature, Landscapes & Botanical Art Collection",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Nature, Landscapes & Botanical Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "sci-fi-cyberpunk",
+    "title": "Sci-Fi, Cyberpunk & Neon Futuristic Art Collection",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Sci-Fi, Cyberpunk & Neon Futuristic Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "space-cosmic",
+    "title": "Space, Galaxy, Nebula & Celestial Art Collection",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Space, Galaxy, Nebula & Celestial Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "animals-wildlife",
+    "title": "Animals, Wildlife & Pet Portrait Art Collection",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Animals, Wildlife & Pet Portrait Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "abstract-geometric",
+    "title": "Abstract, Minimalist & Bauhaus Geometric Collection",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Abstract, Minimalist & Bauhaus Geometric Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "fantasy-mythology",
+    "title": "Fantasy, Mythology, Dragons & Dark Academia Collection",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Fantasy, Mythology, Dragons & Dark Academia Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "world-travel-cities",
+    "title": "World Travel, City Skylines & Architectural Art Collection",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with World Travel, City Skylines & Architectural Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "retro-vintage",
+    "title": "Retro, 80s Synthwave & Vintage Poster Art Collection",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Retro, 80s Synthwave & Vintage Poster Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "japanese-asian-art",
+    "title": "Japanese Ukiyo-e, Samurai, Sakura & Zen Art Collection",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Japanese Ukiyo-e, Samurai, Sakura & Zen Art Collection (4mm XXL Desk Mats & Pine Canvas). Ditch cramped mousepads & bare walls.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "japanese-anime-desk-mats",
+    "title": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
+    "seoTitle": "Japanese Wave Desk Mat | 900x400x4mm (35.4\"x15.7\") Stitched Pad",
+    "seoDesc": "Japanese Wave Desk Mat engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & 60×35cm",
+    "issues": {
+      "missingTitle": false,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "cyberpunk-neon-gaming-desk-mats",
+    "title": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
+    "seoTitle": null,
+    "seoDesc": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats in 4mm thick XXL (90x40cm / 80x30cm). High-density micro-weave cloth with precision anti-fray stitched edges.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "space-galaxy-nebula-desk-mats",
+    "title": "Space, Galaxy, Nebula & Astronaut Extended Desk Mats",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Space, Galaxy, Nebula & Astronaut Extended Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "fantasy-dragon-mythology-desk-mats",
+    "title": "Fantasy, Dragons, Dark Mythic & RPG Gaming Desk Mats",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Fantasy, Dragons, Dark Mythic & RPG Gaming Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "nature-mountain-forest-desk-mats",
+    "title": "Nature, Alpine Mountain & Forest Landscape Desk Mats",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Nature, Alpine Mountain & Forest Landscape Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "minimalist-abstract-geometric-desk-mats",
+    "title": "Minimalist, Abstract, Bauhaus & Topographic Desk Mats",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Minimalist, Abstract, Bauhaus & Topographic Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "animals-wildlife-pet-desk-mats",
+    "title": "Animals, Wildlife, Cats & Dogs Extended Desk Mats",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Animals, Wildlife, Cats & Dogs Extended Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "retro-vintage-synthwave-desk-mats",
+    "title": "Retro, 80s Vaporwave & Vintage Arcade Gaming Desk Mats",
+    "seoTitle": null,
+    "seoDesc": "Upgrade with Retro, 80s Vaporwave & Vintage Arcade Gaming Desk Mats (4mm XXL (90x40cm / 80x30cm)). Ditch cramped, curling 2mm mousepads.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "nature-mountain-landscape-canvas-wall-art",
+    "title": "Nature, Alpine Mountain & Scenic Landscape Canvas Wall Art",
+    "seoTitle": null,
+    "seoDesc": "Nature, Alpine Mountain & Scenic Landscape Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). 380gsm archival cotton canvas with deep European pine stretcher bars.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "botanical-floral-coastal-canvas-wall-art",
+    "title": "Botanical, Floral Garden & Coastal Canvas Wall Art",
+    "seoTitle": null,
+    "seoDesc": "Botanical, Floral Garden & Coastal Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Museum-grade 380gsm cotton canvas with kiln-dried European pine stretcher bars.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "abstract-minimalist-bauhaus-canvas-wall-art",
+    "title": "Abstract, Minimalist & Bauhaus Geometric Canvas Wall Art",
+    "seoTitle": "Minimalist Bauhaus Canvas Print | 1.25\" Pine Framed Canvas (CM & I",
+    "seoDesc": "Minimalist Bauhaus Canvas Print printed on 400gsm matte cotton-poly canvas over 1.25\" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sofa/bed width ",
+    "issues": {
+      "missingTitle": false,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "japanese-ukiyo-e-zen-canvas-wall-art",
+    "title": "Japanese Ukiyo-e, Samurai & Sakura Blossom Canvas Wall Art",
+    "seoTitle": null,
+    "seoDesc": "Transform with Japanese Ukiyo-e, Samurai & Sakura Blossom Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "animals-wildlife-equestrian-canvas-wall-art",
+    "title": "Animals, Wildlife, Highland Cow & Pet Portrait Canvas Art",
+    "seoTitle": null,
+    "seoDesc": "Transform with Animals, Wildlife, Highland Cow & Pet Portrait Canvas Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "world-travel-city-skyline-canvas-wall-art",
+    "title": "World Travel, City Skylines & Architectural Canvas Wall Art",
+    "seoTitle": null,
+    "seoDesc": "Transform with World Travel, City Skylines & Architectural Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "space-cosmic-astronomy-canvas-wall-art",
+    "title": "Space, Deep-Field Nebula & Celestial Canvas Wall Art",
+    "seoTitle": null,
+    "seoDesc": "Transform with Space, Deep-Field Nebula & Celestial Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "sci-fi-cyberpunk-neon-canvas-wall-art",
+    "title": "Sci-Fi, Cyberpunk & Neon Futuristic Canvas Wall Art",
+    "seoTitle": null,
+    "seoDesc": "Transform with Sci-Fi, Cyberpunk & Neon Futuristic Canvas Wall Art (1.25\" Pine Frame (8x10\"–24x36\")). Eliminate blank-wall echo & poster glare.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "botanical-floral-garden-cushion-covers",
+    "title": "Botanical, Vintage Floral & Nature Square Cushion Covers",
+    "seoTitle": null,
+    "seoDesc": "Elevate with Botanical, Vintage Floral & Nature Square Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "abstract-geometric-bauhaus-cushion-covers",
+    "title": "Abstract, Geometric, Bauhaus & Mid-Century Cushion Covers",
+    "seoTitle": null,
+    "seoDesc": "Elevate with Abstract, Geometric, Bauhaus & Mid-Century Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "animals-wildlife-woodland-cushion-covers",
+    "title": "Animals, Woodland Wildlife & Pet Portrait Cushion Covers",
+    "seoTitle": null,
+    "seoDesc": "Elevate with Animals, Woodland Wildlife & Pet Portrait Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "space-celestial-galaxy-cushion-covers",
+    "title": "Celestial, Moon Phase & Cosmic Galaxy Cushion Covers",
+    "seoTitle": null,
+    "seoDesc": "Elevate with Celestial, Moon Phase & Cosmic Galaxy Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "fantasy-mythology-gothic-cushion-covers",
+    "title": "Fantasy, Dark Academia, Mythology & Gothic Cushion Covers",
+    "seoTitle": null,
+    "seoDesc": "Elevate with Fantasy, Dark Academia, Mythology & Gothic Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "japanese-asian-art-cushion-covers",
+    "title": "Japanese Wave, Koi, Sakura & Zen Accent Cushion Covers",
+    "seoTitle": null,
+    "seoDesc": "Elevate with Japanese Wave, Koi, Sakura & Zen Accent Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "world-travel-mediterranean-cushion-covers",
+    "title": "World Travel, Coastal Villa & European City Cushion Covers",
+    "seoTitle": null,
+    "seoDesc": "Elevate with World Travel, Coastal Villa & European City Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "retro-vintage-pop-art-cushion-covers",
+    "title": "Retro, Vintage Poster & Mid-Century Pop Art Cushion Covers",
+    "seoTitle": null,
+    "seoDesc": "Elevate with Retro, Vintage Poster & Mid-Century Pop Art Cushion Covers (Soft Velvet (45x45cm / 18x18\")). Refresh dull sofas & reading chairs instantly.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "nature-mountain-cabin-throw-blankets",
+    "title": "Nature, Alpine Cabin, Forest & Scenic Plush Throw Blankets",
+    "seoTitle": null,
+    "seoDesc": "Style with Nature, Alpine Cabin, Forest & Scenic Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "abstract-boho-kilim-throw-blankets",
+    "title": "Abstract, Boho Kilim, Tartan & Geometric Plush Throw Blankets",
+    "seoTitle": null,
+    "seoDesc": "Style with Abstract, Boho Kilim, Tartan & Geometric Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "space-starry-night-galaxy-throw-blankets",
+    "title": "Space, Starry Night, Constellation & Galaxy Throw Blankets",
+    "seoTitle": null,
+    "seoDesc": "Style with Space, Starry Night, Constellation & Galaxy Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "animals-wildlife-cozy-throw-blankets",
+    "title": "Animals, Wildlife, Cats, Dogs & Woodland Plush Throw Blankets",
+    "seoTitle": null,
+    "seoDesc": "Style with Animals, Wildlife, Cats, Dogs & Woodland Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "fantasy-dragon-mythic-throw-blankets",
+    "title": "Fantasy, Dragon, Celestial Tarot & Mythic Throw Blankets",
+    "seoTitle": null,
+    "seoDesc": "Style with Fantasy, Dragon, Celestial Tarot & Mythic Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "sci-fi-cyberpunk-gamer-throw-blankets",
+    "title": "Sci-Fi, Cyberpunk & Neon Gaming Room Plush Throw Blankets",
+    "seoTitle": null,
+    "seoDesc": "Style with Sci-Fi, Cyberpunk & Neon Gaming Room Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "world-travel-paris-european-throw-blankets",
+    "title": "World Travel, Paris Sunset & Cityscape Plush Throw Blankets",
+    "seoTitle": null,
+    "seoDesc": "Style with World Travel, Paris Sunset & Cityscape Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "japanese-sakura-oriental-throw-blankets",
+    "title": "Japanese Sakura, Great Wave & Oriental Plush Throw Blankets",
+    "seoTitle": null,
+    "seoDesc": "Style with Japanese Sakura, Great Wave & Oriental Plush Throw Blankets (300 GSM Fleece (50x60\" / 60x80\")). Add plush warmth & gallery color to beds or sofas.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "coastal-ocean-botanical-bath-mats",
+    "title": "Coastal Ocean, Tropical Leaf & Nature Memory Foam Bath Mats",
+    "seoTitle": null,
+    "seoDesc": "Refresh with Coastal Ocean, Tropical Leaf & Nature Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "minimalist-abstract-stone-bath-mats",
+    "title": "Minimalist, Abstract Terrazzo & Geometric Memory Foam Bath Mats",
+    "seoTitle": null,
+    "seoDesc": "Refresh with Minimalist, Abstract Terrazzo & Geometric Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "animals-wildlife-whimsical-bath-mats",
+    "title": "Animals, Whimsical Cat, Frog & Wildlife Memory Foam Bath Mats",
+    "seoTitle": null,
+    "seoDesc": "Refresh with Animals, Whimsical Cat, Frog & Wildlife Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "celestial-space-moon-bath-mats",
+    "title": "Celestial Moon, Starry Night & Cosmic Memory Foam Bath Mats",
+    "seoTitle": null,
+    "seoDesc": "Refresh with Celestial Moon, Starry Night & Cosmic Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "fantasy-gothic-witchy-bath-mats",
+    "title": "Fantasy, Celestial Moth, Gothic & Enchanted Memory Foam Bath Mats",
+    "seoTitle": null,
+    "seoDesc": "Refresh with Fantasy, Celestial Moth, Gothic & Enchanted Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "sci-fi-neon-cyberpunk-bath-mats",
+    "title": "Sci-Fi, Neon Cyberpunk & Futuristic Memory Foam Bath Mats",
+    "seoTitle": null,
+    "seoDesc": "Refresh with Sci-Fi, Neon Cyberpunk & Futuristic Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "japanese-zen-onsen-bath-mats",
+    "title": "Japanese Koi, Great Wave & Zen Sanctuary Memory Foam Bath Mats",
+    "seoTitle": null,
+    "seoDesc": "Refresh with Japanese Koi, Great Wave & Zen Sanctuary Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "retro-vintage-funky-bath-mats",
+    "title": "Retro 70s Groovy, Checkerboard & Vintage Memory Foam Bath Mats",
+    "seoTitle": null,
+    "seoDesc": "Refresh with Retro 70s Groovy, Checkerboard & Vintage Memory Foam Bath Mats (Memory Foam (60x40cm / 24x16\")). Step onto cushioned, non-slip studio comfort.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": true
+    }
+  },
+  {
+    "handle": "japanese-anime-graphic-t-shirts",
+    "title": "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
+    "seoTitle": null,
+    "seoDesc": "Wear with Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "cyberpunk-sci-fi-graphic-t-shirts",
+    "title": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
+    "seoTitle": null,
+    "seoDesc": "Wear with Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "space-galaxy-graphic-t-shirts",
+    "title": "Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts",
+    "seoTitle": null,
+    "seoDesc": "Wear with Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "retro-synthwave-graphic-t-shirts",
+    "title": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
+    "seoTitle": null,
+    "seoDesc": "Wear with Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts (Heavyweight Cotton (S–3XL)). Upgrade to breathable, gallery-grade graphic tees.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "japanese-ukiyo-e-graphic-hoodies",
+    "title": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
+    "seoTitle": null,
+    "seoDesc": "Claim with Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies (Heavyweight 310 GSM (S–3XL)). Skip thin, shrinking fast-fashion prints.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  },
+  {
+    "handle": "cyberpunk-neon-graphic-hoodies",
+    "title": "Sci-Fi, Cyberpunk & Neon Streetwear Heavyweight Hoodies",
+    "seoTitle": null,
+    "seoDesc": "Claim with Sci-Fi, Cyberpunk & Neon Streetwear Heavyweight Hoodies (Heavyweight 310 GSM (S–3XL)). Skip thin, shrinking fast-fashion prints.",
+    "issues": {
+      "missingTitle": true,
+      "doubleQuote": false,
+      "doubleAmp": false,
+      "templatePhrase": false
+    }
+  }
+]

@@ -1,0 +1,2818 @@
+<meta charset="utf-8">
+{% include 'global-variables' %}
+<script>
+    if(!window.performance.mark) {
+        window.performance.mark = a => a;
+    }
+    window.performance.mark('theme:DOM:load');
+    {%- if request.design_mode -%}
+        window.isDesignMode = true;
+    {%- endif -%}
+    window.theme = {};window.page = { default: {} };
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="{{ settings.color_theme }}">
+{%- assign get_canonical_url = canonical_url -%}
+{%- if template.name == 'collection' and collection.handle != blank -%}
+    {%- assign collectionURLEnd = 'collections/' | append: collection.handle -%}
+    {%- assign canonical_url_split = get_canonical_url | split: collectionURLEnd -%}
+    {%- assign get_canonical_url = canonical_url_split[0] | append: collectionURLEnd -%}
+    {%- if current_tags == blank and current_page > 1 -%}
+        {%- assign get_canonical_url = get_canonical_url | append: '?page=' | append: current_page -%}
+    {%- endif -%}
+{%- endif -%}
+<link rel="canonical" href="{{ get_canonical_url }}">
+
+{%- assign page_title_downcase = page.title | downcase -%}
+{%- if template == 'page' and page_title_downcase contains 'include' -%}
+    <meta name="robots" content="noindex">
+{%- elsif template.name == 'search' -%}
+    <meta name="robots" content="noindex, follow">
+{%- elsif template.name == 'collection' and current_tags != blank -%}
+    <meta name="robots" content="noindex, follow">
+{%- elsif template.name == 'blog' and current_tags != blank -%}
+    <meta name="robots" content="noindex, follow">
+{%- elsif request.path contains '/tagged/' -%}
+    <meta name="robots" content="noindex, follow">
+{%- endif -%}
+{%- if settings.favicon != blank -%}
+    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+{%- endif -%}
+{%- if template contains 'gift_card' -%}
+    {%- assign formatted_initial_value = gift_card.initial_value | money_without_trailing_zeros: gift_card.currency -%}
+    {%- assign formatted_initial_value_stripped = formatted_initial_value | strip_html -%}
+    <title>{{ 'gift_cards.issued.title' | t: value: formatted_initial_value_stripped, shop: shop.name }}</title>
+    <meta name="description" content="{{ 'gift_cards.issued.subtext' | t }}">
+{%- else -%}
+    {%- capture pwp_brand_suffix -%}{%- unless page_title contains shop.name or page_title contains '|' or page_title.size > 46 %} | {{ shop.name }}{%- endunless -%}{%- endcapture -%}
+    {%- capture clean_seo_title -%}{{ page_title | strip | replace: 'Free UK Delivery', 'Free Tracked Delivery' }}{%- if current_tags -%}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{%- endif -%}{%- if current_page != 1 %} &ndash; Page {{ current_page }}{%- endif -%}{{ pwp_brand_suffix }}{%- endcapture -%}
+    <title>{{ clean_seo_title | strip }}</title>
+    {%- if page_description -%}
+        {%- assign raw_desc = page_description | strip_html | strip | replace: '&amp;', '&' | replace: 'Free UK Delivery', 'Free Tracked UK, US & EU Delivery' | replace: 'free UK delivery', 'free tracked UK, US & EU delivery' -%}
+        <meta name="description" content="{{ raw_desc | strip | escape }}">
+    {%- endif -%}
+{%- endif -%}
+{% render 'head-get-social-meta-tags' %}
+<link rel="preconnect" href="https://cdn.shopify.com" crossorigin="">
+<link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin="">
+{%- if template.name == 'product' -%}
+  {%- assign pwp_lcp_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
+  {%- if pwp_lcp_media -%}
+    <link rel="preload" as="image" href="{{ pwp_lcp_media | img_url: '720x' }}" imagesrcset="{{ pwp_lcp_media | img_url: '360x' }} 360w, {{ pwp_lcp_media | img_url: '540x' }} 540w, {{ pwp_lcp_media | img_url: '720x' }} 720w, {{ pwp_lcp_media | img_url: '960x' }} 960w, {{ pwp_lcp_media | img_url: '1200x' }} 1200w" imagesizes="(max-width: 767px) 95vw, (max-width: 1200px) 48vw, 600px" fetchpriority="high">
+  {%- endif -%}
+{%- elsif template.name == 'collection' and collection.products.first.featured_media -%}
+  {%- assign pwp_col_lcp = collection.products.first.featured_media -%}
+  <link rel="preload" as="image" href="{{ pwp_col_lcp | img_url: '540x' }}" imagesrcset="{{ pwp_col_lcp | img_url: '360x' }} 360w, {{ pwp_col_lcp | img_url: '540x' }} 540w, {{ pwp_col_lcp | img_url: '720x' }} 720w, {{ pwp_col_lcp | img_url: '960x' }} 960w, {{ pwp_col_lcp | img_url: '1200x' }} 1200w" imagesizes="(max-width: 767px) 95vw, (max-width: 1200px) 48vw, 600px" fetchpriority="high">
+{%- elsif template.name == 'index' -%}
+  <link rel="preload" as="image" href="https://cdn.shopify.com/s/files/1/0726/5039/1863/files/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=1200" imagesrcset="https://cdn.shopify.com/s/files/1/0726/5039/1863/files/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=600 600w, https://cdn.shopify.com/s/files/1/0726/5039/1863/files/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=900 900w, https://cdn.shopify.com/s/files/1/0726/5039/1863/files/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=1400 1400w" imagesizes="(max-width: 767px) 96vw, (max-width: 1200px) 92vw, 720px" fetchpriority="high">
+{%- endif -%}
+<link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
+{%- if template.name == 'product' -%}
+<link rel="preload" href="{{ 'module.product-page.js' | asset_url }}" as="script">
+{%- endif -%}
+{% render 'layout-get-version' %}
+{%- assign skin_css_files = 'home-16,home-18,skin-1,skin-2,skin-3,skin-4,skin-5,skin-6,skin-7,skin-8,skin-9,skin-10,skin-11,skin-12,skin-13,skin-14,skin-15,skin-16,skin-17,skin-18' | split: ',' -%}
+{% include 'js-assets-loader' %}
+{% include 'css-start' %}
+{{ get_content_for_header | replace: 'name="shopify-digital-wallet"', 'property="shopify-digital-wallet"' | replace: shopify_review_js_url, shopify_review_js_url_replace  }}
+{% include 'js-start' %}
+{%- if settings.app_language == 'weglot' -%}
+    {% capture weglot_includes %}
+        {% include 'weglot_hreftags' %}
+        {% include 'weglot_switcher' %}
+    {% endcapture %}
+    {%- unless weglot_includes contains "Liquid error" -%}
+        {{ weglot_includes }}
+    {%- endunless -%}
+{%- endif -%}
+
+{%- if settings.reviews_type == 'loox' -%}
+    {{ shop.metafields.loox["global_html_head"] }}
+{%- endif -%}
+
+{%- assign shopify_review_js_url = '\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=' | append: shop.permanent_domain -%}
+{%- if template.name == 'product' -%}
+    {%- assign shopify_review_js_url_replace = '\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js' -%}
+{%- else -%}
+    {%- assign shopify_review_js_url_replace = '' -%}
+{%- endif -%}
+
+{% render 'layout-get-shella' %}
+
+<style id="pwp-ux-ergonomics-fixes">
+  /* Fix #1 & #18: Prevent horizontal overflow while preserving CSS sticky */
+  html, body {
+    overflow-x: clip !important;
+    max-width: 100vw !important;
+  }
+  .collections > .overflow-hidden {
+    overflow: visible !important;
+  }
+  .header__tape,
+  .announcement-bar,
+  .announcement-bar__content {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    white-space: normal !important;
+    text-overflow: ellipsis !important;
+  }
+
+  /* Fix #39 & #42: Instant LCP Image Visibility & Zero-CLS Collection Aspect Ratio */
+  .rimage__img {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  .product-collection__image {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+  }
+  .product-collection__image .pwp-hover-lifestyle-img {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    opacity: 0 !important;
+    transition: opacity 0.28s ease-in-out, transform 0.35s ease !important;
+    pointer-events: none !important;
+    z-index: 2 !important;
+  }
+  .product-collection__image:hover .pwp-hover-lifestyle-img,
+  .product-collection:hover .pwp-hover-lifestyle-img {
+    opacity: 1 !important;
+    transform: scale(1.02) !important;
+  }
+
+  /* Fix #17: Compress Desktop Header Height (~143px instead of 220px) */
+  @media (min-width: 1025px) {
+    .header__line-additional {
+      display: none !important;
+    }
+    .header__line-top {
+      padding-top: 8px !important;
+      padding-bottom: 8px !important;
+      min-height: 68px !important;
+    }
+    .header__logo img {
+      max-height: 56px !important;
+      width: auto !important;
+    }
+  }
+
+  /* Fix #36: Sticky Mobile Header Bar on Scroll */
+  @media (max-width: 1024px) {
+    .shopify-section-group-header-group,
+    header.header,
+    #shopify-section-header {
+      position: sticky !important;
+      top: 0 !important;
+      z-index: 25 !important;
+      background: #F6F4EF !important;
+    }
+  }
+
+  /* Fix #15 & #16: Global & Mobile Ergonomic Touch Targets (>= 44-48px) */
+  .header__btn-search,
+  .header__btn-cart,
+  .header__btn-menu {
+    min-width: 44px !important;
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .input-quantity {
+    min-height: 46px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+  .input-quantity [data-control] {
+    min-width: 44px !important;
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .input-quantity input {
+    min-height: 44px !important;
+  }
+  .popup-cart__head [data-js-popup-close],
+  .popup-cart__close,
+  .product-cart__remove {
+    min-width: 44px !important;
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .popup-cart__buttons a[href="/cart"],
+  .popup-cart__buttons .btn-link {
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 8px 16px !important;
+  }
+  .tabs__btn,
+  [data-js-tabs-btn],
+  [data-js-tabs-btn-mobile] {
+    min-height: 48px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+  .collection-control__button-sidebar {
+    min-height: 46px !important;
+    padding: 8px 14px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  /* Fix #26: iPhone Home-Bar Safe-Area Padding */
+  .footbar-product,
+  .popup-cart__buttons {
+    padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+
+  @media (max-width: 767px) {
+    /* Fix #23: Prevent iOS Safari Auto-Zoom on Input Focus */
+    input[type="text"],
+    input[type="search"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    select,
+    textarea {
+      font-size: 16px !important;
+    }
+
+    .header__tape {
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+      font-size: 11.5px !important;
+      line-height: 1.25 !important;
+      padding-top: 3px !important;
+      padding-bottom: 3px !important;
+    }
+
+    /* Fix #22: Pull Mobile PDP "ADD TO CART" Above the 844px Fold (Zero-Scroll on 390x844) */
+    .template-product .breadcrumbs {
+      display: none !important;
+    }
+    .template-product .product-page {
+      margin-top: 6px !important;
+      padding-top: 0 !important;
+    }
+    .template-product .product-gallery__thumbnail {
+      display: none !important;
+    }
+    .template-product .product-gallery__main,
+    .template-product .product-gallery__main .product-gallery__main_item,
+    .template-product .product-gallery__main .rimage {
+      max-height: 255px !important;
+      min-height: 255px !important;
+      padding-top: 0 !important;
+      height: 255px !important;
+      overflow: hidden !important;
+    }
+    .template-product .product-gallery__main .rimage__img {
+      object-fit: contain !important;
+      max-height: 255px !important;
+      width: 100% !important;
+      height: 255px !important;
+      position: relative !important;
+    }
+    .template-product .product-gallery {
+      margin-bottom: 6px !important;
+    }
+    .template-product .product-page-info__labels,
+    .template-product .product-page-info__price-sale-details {
+      display: none !important;
+    }
+    .template-product .product-page-info__title {
+      margin-bottom: 4px !important;
+    }
+    .template-product .product-page-info__title h1 {
+      font-size: 17px !important;
+      line-height: 1.25 !important;
+      margin-bottom: 0 !important;
+    }
+    .template-product .product-page-info__price {
+      margin-bottom: 6px !important;
+    }
+    .template-product .product-page-info__options {
+      margin-bottom: 6px !important;
+    }
+    .template-product .product-options__section {
+      margin-bottom: 0 !important;
+    }
+    .template-product #pwp-uk-metric-helper {
+      margin-bottom: 6px !important;
+      padding: 5px 8px !important;
+      font-size: 12px !important;
+    }
+    .template-product .product-page-info__details-buttons {
+      margin-bottom: 6px !important;
+    }
+    .template-product .product-page-info__field.mb-20,
+    .template-product .product-page-info__quantity {
+      margin-bottom: 8px !important;
+    }
+
+    /* Primary CTA buttons >= 48px on mobile */
+    .product-page-info__button-add-to-cart .btn,
+    .popup-cart__buttons .btn[name="checkout"],
+    .product-collection__buttons .btn,
+    .footbar-product__button-add-to-cart .btn {
+      min-height: 48px !important;
+      font-size: 14px !important;
+      font-weight: 600 !important;
+    }
+    .product-options--type-page .product-options__value {
+      min-height: 44px !important;
+      min-width: 44px !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 6px 12px !important;
+      margin-bottom: 4px !important;
+    }
+    .product-page-info__details-buttons .btn-link {
+      min-height: 44px !important;
+      padding: 6px 6px !important;
+      display: inline-flex !important;
+      align-items: center !important;
+    }
+
+    /* Fix #33: Scannable 2-Column Mobile Collection Grid */
+    .collection-body [data-js-products-grid] > [class*="col-"] {
+      flex: 0 0 50% !important;
+      max-width: 50% !important;
+      padding-left: 6px !important;
+      padding-right: 6px !important;
+    }
+    .product-collection__title h4,
+    .product-collection__title a {
+      font-size: 13px !important;
+      line-height: 1.3 !important;
+    }
+
+    /* Fix #18: Sticky Mobile Collection Filter & Sort Bar */
+    .collection-control {
+      position: sticky !important;
+      top: 0 !important;
+      z-index: 15 !important;
+      background: #F6F4EF !important;
+      padding-top: 8px !important;
+      padding-bottom: 8px !important;
+      border-bottom: 1px solid #e5e5e5 !important;
+    }
+
+    /* Fix #13: Compact mobile layout for Sticky Add-to-Cart footbar */
+    .footbar-product .footbar-product__image {
+      margin-right: 10px !important;
+      max-width: 44px !important;
+    }
+    .footbar-product .footbar-product__options label {
+      display: none !important;
+    }
+    .footbar-product .footbar-product__options select {
+      min-height: 40px !important;
+      padding: 4px 24px 4px 8px !important;
+      font-size: 16px !important;
+    }
+  }
+
+  /* Fix #20: Hide duplicate third-party injected trust badge row */
+  .ultimateTrustBadgesInnerContainer,
+  #ultimate-trust-badges,
+  .giraffly-trust-badge {
+    display: none !important;
+  }
+
+  /* Clean spacing on price sale separator */
+  .price--sale > span:first-child {
+    margin-right: 4px;
+  }
+  .price--sale > span:last-child {
+    margin-left: 4px;
+  }
+</style>
+<script id="pwp-search-autofocus">
+  /* Fix #32: Instant Keyboard Auto-Focus on Mobile Search Tap */
+  document.addEventListener('click', function(e) {
+    var searchBtn = e.target.closest('.header__btn-search');
+    if (searchBtn) {
+      setTimeout(function() {
+        var input = document.querySelector('[data-js-popup-name="navigation"] input[type="search"], .popup-navigation input[type="search"], input[name="q"]');
+        if (input) {
+          input.focus();
+        }
+      }, 150);
+    }
+  });
+</script>
+
+{%- if page.handle == 'desk-size-visualizer' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "UK Desk Mat, Keyboard & Wall Art Size Visualizer (CM & Inches)",
+      "url": "https://printswithpassion.com/pages/desk-size-visualizer",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "GBP"
+      },
+      "description": "Free interactive UK desk mat, mechanical keyboard, stretched canvas wall art, and throw blanket size visualizer in centimetres and inches."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between a 60x35 cm XL and 80x40 cm XXL desk mat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 60 x 35 cm (23.6 x 13.8 inch) Large XL desk mat fits compact UK desks (100-120 cm) with 24-31 cm of mouse space, while an 80 x 40 cm (31.5 x 15.5 inch) Extended XXL desk mat fits 120-186 cm desks and provides 36-51 cm of unobstructed mouse glide space."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What size canvas wall art should hang above a UK 2-seater or 3-seater sofa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Interior designers follow the 2/3 sofa width rule: a 24 x 16 inch (60 x 40 cm) or 30 x 20 inch (76 x 50 cm) gallery-wrapped stretched canvas spans 50% to 65% of a standard 150 cm UK 2-seater sofa or UK Double/King headboard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which throw blanket size fits a UK sofa vs a UK Double or King bed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 50 x 60 inch (127 x 152 cm) Medium Throw Blanket is ideal for UK 2-seater and 3-seater sofas, while a 60 x 80 inch (152 x 203 cm) Large Throw Blanket covers the width of a UK Double (135 cm) or UK King (150 cm) bed."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+{%- elsif page.handle == 'free-4k-wallpapers' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Free 4K Desktop & Setup Wallpapers (CC-BY 4.0 Vault)",
+  "url": "https://printswithpassion.com/pages/free-4k-wallpapers",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "name": "Banff National Park Turquoise Alpine Lake 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/8938931774220653533_2048.jpg?v=1792950635",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Amalfi Coast Italian Cliffside Sunset 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/10935951849575717339_2048.jpg?v=1792951631",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Oxford Street London at Night Illuminated 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/6439486942687982056_2048.jpg?v=1792951626",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Paris Snowy Evening Streetlight Glow 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/13348729097808566182_2048.jpg?v=1792957682",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Samoyed Puppy Illustrated Setup Art 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/3503744772965030654_2048.jpg?v=1740925012",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Cyberpunk Neon Wolf Matrix Rain 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/9857735080610781536_2048.jpg?v=1792951655",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Nebula Phantom Pirate Galleon 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/9672676105953528375_2048.jpg?v=1792951661",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Sky Whale Floating Castle Fantasy 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/9595022264080204951_2048.jpg?v=1792957426",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Taj Mahal Sunrise Reflection 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/2265235762118359042_2048.jpg?v=1792956570",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Hong Kong Victoria Harbour Neon Skyline 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/12741736527441069064_2048.jpg?v=1792956679",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Mount Fuji Cherry Blossom Lake Reflection 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/5383472677732097600_2048.jpg?v=1792956707",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Table Mountain Cape Town Sunset 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/11543335830592184801_2048_e5399ac1-288c-421d-a31d-25fb8c61c0a6.jpg?v=1740925013",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "New Zealand Mirror Lake & Southern Alps 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/4599099981081143460_2048.jpg?v=1792951643",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Bora Bora Turquoise Lagoon & Mount Otemanu 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/6058895856107601331_2048.jpg?v=1792956621",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Seoul After Dark Neon Skyline 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/10926565168640614132_2048.jpg?v=1741434751",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Starry Night Constellation & Astronomy Map 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/9871692402361625030_2048.jpg?v=1740928900",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Soft Pastel Bauhaus Geometric Pattern 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/13579944976931971705_2048.jpg?v=1740928658",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Cybernetic Tree in Digital Swamp 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/cybernetic-tree-in-digital-swamp-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089216",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Sunrise Reflecting on Infinity Mirror 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/sunrise-reflecting-on-infinity-mirror-double-sided-square-cushion-cover-40--front.jpg?v=1793089217",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Vortex Above Mountain Peak 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/vortex-above-mountain-peak-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089215",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Two Moons Eclipsing over Waterfalls 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/two-moons-eclipsing-over-waterfalls-double-sided-square-cushion-cover-40-40-front.jpg?v=1793089216",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Robot Dog in Neon Lit Alley 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/robot-dog-in-neon-lit-alley-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089216",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Tribal Mask Morphing into Galaxy 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/tribal-mask-morphing-into-galaxy-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089215",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Digital Phoenix in Mid Rebirth 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/digital-phoenix-in-mid-rebirth-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089215",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Time Vortex with Melting Numbers 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/time-vortex-with-melting-numbers-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089220",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Vibrant Koi Fish Swimming in Sky 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/vibrant-koi-fish-swimming-in-sky-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089219",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Dragonfly with Stained Glass Wings 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/dragonfly-with-stained-glass-wings-double-sided-square-cushion-cover-40-40-front.jpg?v=1793089220",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Pirate Ship Flying Through Space 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pirate-ship-flying-through-space-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089222",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Tiger Made of Swirling Ink 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/tiger-made-of-swirling-ink-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089220",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Shattered Mirror Reflecting Stars 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/shattered-mirror-reflecting-stars-double-sided-square-cushion-cover-40-40-c-front.jpg?v=1793089222",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Astronaut Planting Flag on Strange Planet 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/astronaut-planting-flag-on-strange-planet-double-sided-square-cushion-cover-front.jpg?v=1793089220",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Sci-Fi City with Floating Trains 4K Wallpaper",
+      "contentUrl": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/sci-fi-city-with-floating-trains-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089223",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+      "creditText": "Prints With Passion",
+      "creator": {
+        "@type": "Organization",
+        "name": "Prints With Passion"
+      }
+    }
+  ]
+}
+</script>
+{%- endif -%}
+<script type="speculationrules">
+{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/cart*","/checkout*","/account*","/*\\?*"]}}]},"eagerness":"moderate"}]}
+</script>
+<script id="pwp-instant-nav">
+(function(){
+  var prefetched = new Set();
+  function prefetchUrl(el) {
+    var a = el && el.closest ? el.closest('a[href]') : null;
+    if (!a || !a.href) return;
+    if (a.origin !== location.origin || a.pathname === location.pathname) return;
+    if (/^\/(cart|checkout|account)/.test(a.pathname)) return;
+    if (prefetched.has(a.href)) return;
+    prefetched.add(a.href);
+    var l = document.createElement('link');
+    l.rel = 'prefetch';
+    l.href = a.href;
+    document.head.appendChild(l);
+  }
+  document.addEventListener('mouseover', function(e){ prefetchUrl(e.target); }, {passive: true});
+  document.addEventListener('touchstart', function(e){ prefetchUrl(e.target); }, {passive: true});
+})();
+</script>
+{%- if page.handle == 'desk-size-visualizer' or page.handle == 'free-4k-wallpapers' -%}
+<script id="pwp-link-magnets-interactive">
+document.addEventListener('click', function(e) {
+  var btn = e.target.closest('.pwp-vis-btn');
+  if (btn) {
+    var group = btn.parentElement;
+    Array.from(group.querySelectorAll('.pwp-vis-btn')).forEach(function(b) {
+      b.classList.remove('is-active');
+      b.style.background = '#fff';
+      b.style.color = '#141414';
+      b.style.border = '1px solid #cbd5e1';
+      b.style.fontWeight = '400';
+    });
+    btn.classList.add('is-active');
+    btn.style.background = '#141414';
+    btn.style.color = '#fff';
+    btn.style.border = '2px solid #141414';
+    btn.style.fontWeight = '600';
+
+    var deskBtn = document.querySelector('#pwp-desk-btns .is-active');
+    var kbBtn = document.querySelector('#pwp-kb-btns .is-active');
+    var matBtn = document.querySelector('#pwp-mat-btns .is-active');
+    if (deskBtn && kbBtn && matBtn) {
+      var dw = parseFloat(deskBtn.getAttribute('data-desk-w') || '140');
+      var dd = parseFloat(deskBtn.getAttribute('data-desk-d') || '70');
+      var kw = parseFloat(kbBtn.getAttribute('data-kb-w') || '36');
+      var mw = parseFloat(matBtn.getAttribute('data-mat-w') || '80');
+      var md = parseFloat(matBtn.getAttribute('data-mat-d') || '40');
+      var sweepCm = Math.max(10, Math.round(mw - kw - 3));
+      var sweepIn = (sweepCm / 2.54).toFixed(1);
+      var mdIn = (md / 2.54).toFixed(1);
+      var readout = document.getElementById('pwp-mouse-readout');
+      if (readout) readout.textContent = sweepCm + ' cm (' + sweepIn + '") × ' + md + ' cm (' + mdIn + '")';
+      var diagCm = document.getElementById('pwp-diagram-mouse-cm');
+      if (diagCm) diagCm.textContent = sweepCm + ' cm / ' + sweepIn + '"';
+      var caption = document.getElementById('pwp-desk-caption');
+      if (caption) caption.textContent = 'Top-Down True Scale Diagram: ' + deskBtn.getAttribute('data-desk-label');
+      var matBox = document.getElementById('pwp-mat-box');
+      if (matBox) {
+        matBox.style.width = Math.min(92, Math.round((mw / dw) * 100)) + '%';
+        matBox.style.height = Math.min(82, Math.round((md / dd) * 100)) + '%';
+      }
+      var kbBox = document.getElementById('pwp-kb-box');
+      if (kbBox) {
+        kbBox.style.width = Math.min(72, Math.round((kw / mw) * 100)) + '%';
+        kbBox.textContent = kbBtn.getAttribute('data-kb-label');
+      }
+    }
+
+    var furnBtn = document.querySelector('#pwp-furn-btns .is-active');
+    var canvasBtn = document.querySelector('#pwp-canvas-btns .is-active');
+    var blanketBtn = document.querySelector('#pwp-blanket-btns .is-active');
+    if (furnBtn && canvasBtn && blanketBtn) {
+      var fw = parseFloat(furnBtn.getAttribute('data-furn-w') || '150');
+      var cw = parseFloat(canvasBtn.getAttribute('data-canvas-w') || '76');
+      var bw = parseFloat(blanketBtn.getAttribute('data-blanket-w') || '127');
+      var cPct = Math.round((cw / fw) * 100);
+      var bPct = Math.round((bw / fw) * 100);
+      var wallReadout = document.getElementById('pwp-wall-readout');
+      if (wallReadout) wallReadout.textContent = 'Wall Coverage: Canvas spans ' + cPct + '% of ' + furnBtn.getAttribute('data-furn-label') + ' • Blanket covers ' + bPct + '% of width';
+      var cBox = document.getElementById('pwp-wall-canvas-box');
+      if (cBox) {
+        cBox.style.width = Math.min(88, Math.round((cw / fw) * 75)) + '%';
+        cBox.textContent = cw + ' × ' + canvasBtn.getAttribute('data-canvas-h') + ' cm Canvas';
+      }
+      var fLabel = document.getElementById('pwp-furn-box-label');
+      if (fLabel) fLabel.textContent = furnBtn.getAttribute('data-furn-label');
+      var bBox = document.getElementById('pwp-blanket-drape-box');
+      if (bBox) {
+        bBox.style.width = Math.min(95, Math.round((bw / fw) * 75)) + '%';
+        bBox.textContent = bw + ' × ' + blanketBtn.getAttribute('data-blanket-l') + ' cm Throw';
+      }
+    }
+  }
+
+  var copyEmbed = e.target.closest('#pwp-copy-embed-btn');
+  if (copyEmbed) {
+    var ta = document.getElementById('pwp-embed-code');
+    if (ta && navigator.clipboard) {
+      navigator.clipboard.writeText(ta.value);
+      var st = document.getElementById('pwp-copy-embed-status');
+      if (st) st.textContent = 'Copied to clipboard!';
+    }
+  }
+
+  var copyCc = e.target.closest('.pwp-copy-cc-btn');
+  if (copyCc) {
+    var code = copyCc.getAttribute('data-cc-html') || '';
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(code);
+      copyCc.textContent = 'Copied Attribution HTML!';
+    }
+  }
+});
+</script>
+{%- endif -%}
+<!-- PWP_PRODUCT_JSONLD_START -->
+{%- if template.name == 'product' -%}
+{%- assign pwp_material = "Premium Archival Print Material" -%}
+{%- case product.type -%}
+  {%- when "Desk Mats" -%}{%- assign pwp_material = "Micro-Woven Cloth Surface & 3mm Natural Non-Slip Rubber Base" -%}
+  {%- when "Canvas Wall Art" -%}{%- assign pwp_material = "Archival Cotton-Poly Canvas & Kiln-Dried Pine Stretcher Frame" -%}
+  {%- when "Cushion Covers" -%}{%- assign pwp_material = "Soft Brushed Poly-Linen / Faux Suede with Concealed Zip" -%}
+  {%- when "Throw Blankets" -%}{%- assign pwp_material = "300 GSM Ultra-Soft Anti-Pill Coral Fleece" -%}
+  {%- when "Bath Mats" -%}{%- assign pwp_material = "Fast-Drying Velvet Microfibre & Cushioned Non-Slip Memory Foam" -%}
+  {%- when "Graphic T-Shirts" -%}{%- assign pwp_material = "100% Ring-Spun Combed Cotton" -%}
+  {%- when "Hoodies" -%}{%- assign pwp_material = "Heavyweight Brushed Cotton-Poly Fleece" -%}
+{%- endcase -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": {{ shop.url | append: product.url | append: "#product" | json }},
+  "name": {{ product.title | json }},
+  "url": {{ shop.url | append: product.url | json }},
+  "productID": {{ product.id | json }},
+  "inProductGroupWithID": {{ product.id | append: "" | json }},
+  "category": {{ product.type | default: "Home & Decor" | json }},
+  "material": {{ product.metafields.custom.material_composition.value | default: pwp_material | json }},
+  "additionalProperty": [
+    {%- if product.metafields.descriptors.subtitle.value != blank -%}
+    { "@type": "PropertyValue", "name": "Product Subtitle", "value": {{ product.metafields.descriptors.subtitle.value | json }} },
+    {%- endif -%}
+    {%- if product.metafields.custom.art_theme.value != blank -%}
+    { "@type": "PropertyValue", "name": "Art Style & Theme", "value": {{ product.metafields.custom.art_theme.value | json }} },
+    {%- endif -%}
+    {%- if product.metafields.custom.dimensions_summary.value != blank -%}
+    { "@type": "PropertyValue", "name": "Dimensions (Metric & Imperial)", "value": {{ product.metafields.custom.dimensions_summary.value | json }} },
+    {%- endif -%}
+    {%- if product.metafields.descriptors.care_guide.value != blank -%}
+    { "@type": "PropertyValue", "name": "Care Instructions", "value": {{ product.metafields.descriptors.care_guide.value | json }} },
+    {%- endif -%}
+    { "@type": "PropertyValue", "name": "Production & Shipping", "value": "{% case localization.country.iso_code %}{% when 'US' %}Custom printed in the USA in 2–4 business days • Free Tracked US Shipping ($0.00 USD){% when 'CA' %}Custom printed in North America in 2–4 business days • Free Tracked Canada Shipping ($0.00 CAD){% when 'DE' or 'FR' or 'ES' or 'BE' or 'NL' %}Custom printed in Europe in 2–4 business days • Free Tracked EU Delivery (€0.00 EUR){% when 'CH' %}Custom printed in Europe in 2–4 business days • Free Tracked Swiss Delivery (0.00 CHF){% else %}Custom printed in the UK in 2–4 business days • Free Tracked UK Delivery (£0.00 GBP){% endcase %}" }
+  ],
+  {%- if product.media.size > 0 -%}
+    "image": [
+      {%- for media in product.media limit: 8 -%}
+        {
+          "@type": "ImageObject",
+          "url": {{ media.preview_image | img_url: '1200x' | prepend: "https:" | json }},
+          "contentUrl": {{ media.preview_image | img_url: '2048x' | prepend: "https:" | json }},
+          "name": {{ media.alt | default: product.title | json }},
+          "caption": {{ product.title | append: " — " | append: product.type | append: " by Prints With Passion" | json }},
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+          "creditText": "Prints With Passion Studio",
+          "copyrightNotice": "© Prints With Passion",
+          "creator": {
+            "@type": "Organization",
+            "name": "Prints With Passion"
+          }
+        }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ],
+  {%- elsif product.featured_image -%}
+    "image": [
+      {
+        "@type": "ImageObject",
+        "url": {{ product.featured_image | img_url: '1200x' | prepend: "https:" | json }},
+        "contentUrl": {{ product.featured_image | img_url: '2048x' | prepend: "https:" | json }},
+        "name": {{ product.title | json }},
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+        "creditText": "Prints With Passion Studio",
+        "copyrightNotice": "© Prints With Passion",
+        "creator": {
+          "@type": "Organization",
+          "name": "Prints With Passion"
+        }
+      }
+    ],
+  {%- else -%}
+    "image": ["https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427"],
+  {%- endif -%}
+  {%- if product.metafields.reviews.rating.value != blank and product.metafields.reviews.rating_count != blank and product.metafields.reviews.rating_count > 0 -%}
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": {{ product.metafields.reviews.rating.value | json }},
+      "reviewCount": {{ product.metafields.reviews.rating_count | json }}
+    },
+  {%- elsif product.metafields.loox.avg_rating != blank and product.metafields.loox.num_reviews != blank and product.metafields.loox.num_reviews > 0 -%}
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": {{ product.metafields.loox.avg_rating | json }},
+      "reviewCount": {{ product.metafields.loox.num_reviews | json }}
+    },
+  {%- endif -%}
+  "description": {{ product.description | strip_html | strip | json }},
+  {%- if product.selected_or_first_available_variant.sku != blank -%}
+    "sku": {{ product.selected_or_first_available_variant.sku | json }},
+    "mpn": {{ product.selected_or_first_available_variant.sku | json }},
+  {%- endif -%}
+  "brand": {
+    "@type": "Brand",
+    "name": "Prints With Passion"
+  },
+  "itemCondition": "https://schema.org/NewCondition",
+  "offers": [
+    {%- for variant in product.variants -%}
+      {
+        "@type": "Offer",
+        "name": {{ variant.title | json }},
+        {%- if variant.sku != blank -%}
+        "sku": {{ variant.sku | json }},
+        {%- endif -%}
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price": "{{ variant.price | divided_by: 100 }}.{{ variant.price | modulo: 100 | prepend: '00' | slice: -2, 2 }}",
+        "priceCurrency": "{{ cart.currency.iso_code | default: 'GBP' }}",
+        "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' }}",
+        "url": "{{ shop.url }}{{ product.url }}?variant={{ variant.id }}",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "{{ cart.currency.iso_code | default: 'GBP' }}"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "{{ localization.country.iso_code | default: 'GB' }}"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 4,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 4,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "{{ localization.country.iso_code | default: 'GB' }}",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 14,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility"
+        }
+      }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}
+
+<!-- PWP_MULTICHANNEL_META_START -->
+{%- if template.name == 'product' -%}
+  {%- assign pwp_cur_v = product.selected_or_first_available_variant -%}
+  {%- assign pwp_v_price = pwp_cur_v.price | divided_by: 100 | append: '.' -%}
+  {%- assign pwp_v_cents = pwp_cur_v.price | modulo: 100 | prepend: '00' | slice: -2, 2 -%}
+  {%- assign pwp_v_price_str = pwp_v_price | append: pwp_v_cents -%}
+  {%- assign pwp_gcat = product.metafields['mm-google-shopping'].google_product_category.value | default: '500044' -%}
+  {%- assign pwp_fbcat = product.metafields['mc-facebook'].google_product_category.value | default: pwp_gcat -%}
+  <meta property="product:price:amount" content="{{ pwp_v_price_str }}">
+  <meta property="product:price:currency" content="{{ cart.currency.iso_code | default: 'GBP' }}">
+  {%- if pwp_cur_v.compare_at_price > pwp_cur_v.price -%}
+    {%- assign pwp_cmp_price = pwp_cur_v.compare_at_price | divided_by: 100 | append: '.' -%}
+    {%- assign pwp_cmp_cents = pwp_cur_v.compare_at_price | modulo: 100 | prepend: '00' | slice: -2, 2 -%}
+    <meta property="product:original_price:amount" content="{{ pwp_cmp_price }}{{ pwp_cmp_cents }}">
+    <meta property="product:original_price:currency" content="{{ cart.currency.iso_code | default: 'GBP' }}">
+    <meta property="product:sale_price:amount" content="{{ pwp_v_price_str }}">
+    <meta property="product:sale_price:currency" content="{{ cart.currency.iso_code | default: 'GBP' }}">
+  {%- endif -%}
+  <meta property="product:availability" content="in stock">
+  <meta property="og:availability" content="instock">
+  <meta property="product:condition" content="new">
+  <meta property="product:brand" content="Prints With Passion">
+  <meta property="product:item_group_id" content="{{ product.id }}">
+  <meta property="product:retailer_item_id" content="{{ pwp_cur_v.id }}">
+  <meta property="product:retailer_part_no" content="{{ pwp_cur_v.sku | default: pwp_cur_v.id }}">
+  <meta property="product:category" content="{{ pwp_gcat | escape }}">
+  <meta property="product:google_product_category" content="{{ pwp_gcat | escape }}">
+  <meta property="product:fb_product_category" content="{{ pwp_fbcat | escape }}">
+  <meta property="product:gender" content="{{ product.metafields['mm-google-shopping'].gender.value | default: 'unisex' }}">
+  <meta property="product:age_group" content="{{ product.metafields['mm-google-shopping'].age_group.value | default: 'adult' }}">
+  <meta property="product:material" content="{{ product.metafields.custom.material_composition.value | default: pwp_material | escape }}">
+  <meta property="product:custom_label_0" content="{{ product.type | default: 'Home & Decor' | escape }}">
+  <meta property="product:custom_label_1" content="{{ product.metafields.custom.art_theme.value | default: 'Contemporary Art' | escape }}">
+  <meta property="product:custom_label_2" content="{{ localization.country.iso_code | default: 'GB' }}_{{ cart.currency.iso_code | default: 'GBP' }}">
+  <meta property="product:custom_label_3" content="Free Tracked Shipping">
+  <meta property="product:custom_label_4" content="Custom Printed in UK, US & EU">
+  <meta name="twitter:label1" content="Price">
+  <meta name="twitter:data1" content="{{ cart.currency.symbol }}{{ pwp_v_price_str }} {{ cart.currency.iso_code }}">
+  <meta name="twitter:label2" content="Shipping">
+  <meta name="twitter:data2" content="{% case localization.country.iso_code %}{% when 'US' %}Free Tracked US Shipping ($0.00 USD){% when 'CA' %}Free Tracked Canada Shipping ($0.00 CAD){% when 'DE' or 'FR' or 'ES' or 'BE' or 'NL' %}Free Tracked EU Delivery (€0.00 EUR){% when 'CH' %}Free Tracked Swiss Delivery (0.00 CHF){% else %}Free Tracked UK Delivery (£0.00 GBP){% endcase %}">
+  <script id="pwp-multichannel-pixel-bridge">
+  (function() {
+    var pwpVariants = {
+      {%- for v in product.variants -%}
+      "{{ v.id }}": {
+        id: "{{ v.id }}",
+        sku: {{ v.sku | default: v.id | json }},
+        price: "{{ v.price | divided_by: 100 }}.{{ v.price | modulo: 100 | prepend: '00' | slice: -2, 2 }}",
+        title: {{ v.title | json }}
+      }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    };
+    var pwpCurrency = {{ cart.currency.iso_code | default: 'GBP' | json }};
+    var pwpProductId = "{{ product.id }}";
+    var pwpProductTitle = {{ product.title | json }};
+    var pwpProductCategory = {{ product.type | default: 'Home & Decor' | json }};
+    var pwpInitialVid = "{{ pwp_cur_v.id }}";
+
+    function fireViewVariant(vid) {
+      var v = pwpVariants[String(vid)] || { id: vid, price: "{{ pwp_v_price_str }}", title: "" };
+      var priceNum = parseFloat(v.price) || 0;
+      var gmcId = "shopify_GB_" + pwpProductId + "_" + String(v.id);
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'view_item', {
+          currency: pwpCurrency,
+          value: priceNum,
+          items: [{ item_id: gmcId, item_name: pwpProductTitle, item_category: pwpProductCategory, item_variant: v.title, price: priceNum, quantity: 1 }]
+        });
+      }
+      if (typeof window.fbq === 'function') {
+        window.fbq('track', 'ViewContent', {
+          content_ids: [String(v.id)],
+          content_group_id: pwpProductId,
+          content_name: pwpProductTitle,
+          content_category: pwpProductCategory,
+          content_type: 'product',
+          value: priceNum,
+          currency: pwpCurrency
+        });
+      }
+      if (typeof window.ttq === 'object' && typeof window.ttq.track === 'function') {
+        window.ttq.track('ViewContent', {
+          content_id: String(v.id),
+          content_name: pwpProductTitle,
+          content_category: pwpProductCategory,
+          content_type: 'product',
+          value: priceNum,
+          currency: pwpCurrency
+        });
+      }
+      if (typeof window.pintrk === 'function') {
+        window.pintrk('track', 'pagevisit', {
+          value: priceNum,
+          currency: pwpCurrency,
+          line_items: [{ product_id: pwpProductId, product_variant_id: String(v.id), product_name: pwpProductTitle, product_category: pwpProductCategory, product_price: priceNum }]
+        });
+      }
+    }
+
+    function syncVariantMeta(vid) {
+      var v = pwpVariants[String(vid)];
+      if (!v) return;
+      var mId = document.querySelector('meta[property="product:retailer_item_id"]');
+      if (mId) mId.setAttribute('content', v.id);
+      var mSku = document.querySelector('meta[property="product:retailer_part_no"]');
+      if (mSku) mSku.setAttribute('content', v.sku);
+      var mP1 = document.querySelector('meta[property="product:price:amount"]');
+      if (mP1) mP1.setAttribute('content', v.price);
+      var mP2 = document.querySelector('meta[property="og:price:amount"]');
+      if (mP2) mP2.setAttribute('content', v.price);
+      fireViewVariant(vid);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() { fireViewVariant(pwpInitialVid); });
+    } else {
+      fireViewVariant(pwpInitialVid);
+    }
+
+    document.addEventListener('change', function(e) {
+      if (e.target && e.target.name === 'id' && e.target.value) {
+        syncVariantMeta(e.target.value);
+      }
+    });
+
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      if (form && form.action && form.action.indexOf('/cart/add') !== -1) {
+        var idInput = form.querySelector('[name="id"]');
+        var vid = idInput ? idInput.value : pwpInitialVid;
+        var v = pwpVariants[String(vid)] || { id: vid, price: "{{ pwp_v_price_str }}", title: "" };
+        var priceNum = parseFloat(v.price) || 0;
+        var gmcId = "shopify_GB_" + pwpProductId + "_" + String(v.id);
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'add_to_cart', {
+            currency: pwpCurrency,
+            value: priceNum,
+            items: [{ item_id: gmcId, item_name: pwpProductTitle, item_category: pwpProductCategory, item_variant: v.title, price: priceNum, quantity: 1 }]
+          });
+        }
+        if (typeof window.fbq === 'function') {
+          window.fbq('track', 'AddToCart', {
+            content_ids: [String(v.id)],
+            content_group_id: pwpProductId,
+            content_name: pwpProductTitle,
+            content_category: pwpProductCategory,
+            content_type: 'product',
+            value: priceNum,
+            currency: pwpCurrency
+          });
+        }
+        if (typeof window.ttq === 'object' && typeof window.ttq.track === 'function') {
+          window.ttq.track('AddToCart', {
+            content_id: String(v.id),
+            content_name: pwpProductTitle,
+            content_category: pwpProductCategory,
+            content_type: 'product',
+            value: priceNum,
+            currency: pwpCurrency
+          });
+        }
+        if (typeof window.pintrk === 'function') {
+          window.pintrk('track', 'addtocart', {
+            value: priceNum,
+            order_quantity: 1,
+            currency: pwpCurrency,
+            line_items: [{ product_id: pwpProductId, product_variant_id: String(v.id), product_name: pwpProductTitle, product_category: pwpProductCategory, product_price: priceNum }]
+          });
+        }
+      }
+    });
+  })();
+  </script>
+{%- endif -%}
+<!-- PWP_MULTICHANNEL_META_END -->
+<script id="pwp-global-market-localizer">
+  (function() {
+    var country = {{ localization.country.iso_code | default: 'GB' | json }};
+    var cfgMap = {
+      'US': {
+        bar: '🇺🇸 <span class="new-text">FREE Tracked US Shipping ($0.00 USD — Printed in the USA)</span> &nbsp;|&nbsp; <span class="shop-text">Buy Any 2 Tees &amp; Save 10% (Auto-Applied)</span>',
+        badge: 'Free Tracked US Shipping ($0.00 USD)',
+        heading: 'FREE US TRACKED SHIPPING & LOCAL FULFILLMENT'
+      },
+      'CA': {
+        bar: '🇨🇦 <span class="new-text">FREE Tracked Canada Shipping ($0.00 CAD — Fast North American Delivery)</span> &nbsp;|&nbsp; <span class="shop-text">Buy Any 2 Tees &amp; Save 10% (Auto-Applied)</span>',
+        badge: 'Free Tracked Canada Shipping ($0.00 CAD)',
+        heading: 'FREE CANADA TRACKED SHIPPING ($0.00 CAD)'
+      },
+      'DE': {
+        bar: '🇩🇪 <span class="new-text">FREE Tracked Germany Delivery (€0.00 EUR — Printed in Europe • Zero Customs)</span> &nbsp;|&nbsp; <span class="shop-text">Buy Any 2 Tees &amp; Save 10% (Auto-Applied)</span>',
+        badge: 'Free Tracked Germany Delivery (€0.00 EUR)',
+        heading: 'FREE GERMANY & EU TRACKED DELIVERY (€0.00 EUR)'
+      },
+      'FR': {
+        bar: '🇫🇷 <span class="new-text">FREE Tracked France Delivery (€0.00 EUR — Printed in Europe • Zero Customs)</span> &nbsp;|&nbsp; <span class="shop-text">Buy Any 2 Tees &amp; Save 10% (Auto-Applied)</span>',
+        badge: 'Free Tracked France Delivery (€0.00 EUR)',
+        heading: 'FREE FRANCE & EU TRACKED DELIVERY (€0.00 EUR)'
+      },
+      'ES': {
+        bar: '🇪🇸 <span class="new-text">FREE Tracked Spain Delivery (€0.00 EUR — Printed in Europe • Zero Customs)</span> &nbsp;|&nbsp; <span class="shop-text">Buy Any 2 Tees &amp; Save 10% (Auto-Applied)</span>',
+        badge: 'Free Tracked Spain Delivery (€0.00 EUR)',
+        heading: 'FREE SPAIN & EU TRACKED DELIVERY (€0.00 EUR)'
+      },
+      'CH': {
+        bar: '🇨🇭 <span class="new-text">FREE Tracked Switzerland Delivery (0.00 CHF — Fast European &amp; Swiss Delivery)</span> &nbsp;|&nbsp; <span class="shop-text">Buy Any 2 Tees &amp; Save 10% (Auto-Applied)</span>',
+        badge: 'Free Tracked Swiss Delivery (0.00 CHF)',
+        heading: 'FREE SWITZERLAND TRACKED DELIVERY (0.00 CHF)'
+      },
+      'BE': {
+        bar: '🇧🇪 <span class="new-text">FREE Tracked Belgium Delivery (€0.00 EUR — Printed in Europe • Zero Customs)</span> &nbsp;|&nbsp; <span class="shop-text">Buy Any 2 Tees &amp; Save 10% (Auto-Applied)</span>',
+        badge: 'Free Tracked Belgium Delivery (€0.00 EUR)',
+        heading: 'FREE BELGIUM & EU TRACKED DELIVERY (€0.00 EUR)'
+      },
+      'NL': {
+        bar: '🇳🇱 <span class="new-text">FREE Tracked Netherlands Delivery (€0.00 EUR — Printed in Europe • Zero Customs)</span> &nbsp;|&nbsp; <span class="shop-text">Buy Any 2 Tees &amp; Save 10% (Auto-Applied)</span>',
+        badge: 'Free Tracked Netherlands Delivery (€0.00 EUR)',
+        heading: 'FREE NETHERLANDS & EU TRACKED DELIVERY (€0.00 EUR)'
+      }
+    };
+    function cleanInternalLinks() {
+      document.querySelectorAll('a[href*="/products/"]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (!href) return;
+        // Strip nested /collections/.../products/ to canonical /products/
+        if (href.indexOf('/collections/') !== -1 && href.indexOf('/products/') !== -1) {
+          href = href.replace(/\/collections\/[^/]+\/products\//, '/products/');
+        }
+        // Strip internal search tracking params ?_pos=...&_sid=...&_ss=...
+        if (href.indexOf('_pos=') !== -1 || href.indexOf('_sid=') !== -1) {
+          href = href.split('?')[0];
+        }
+        a.setAttribute('href', href);
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', cleanInternalLinks);
+    } else {
+      cleanInternalLinks();
+    }
+    var cfg = cfgMap[country];
+    if (!cfg) return;
+    function applyLocalization() {
+      var bar = document.querySelector('.announcement-bar');
+      if (bar) bar.innerHTML = cfg.bar;
+      document.querySelectorAll('p, span, div, h4, h5, a').forEach(function(el) {
+        if (el.children.length === 0 && el.textContent) {
+          if (el.textContent.indexOf('Free Tracked UK Shipping (£0.00)') !== -1 || el.textContent.indexOf('Free Tracked US & UK Shipping') !== -1) {
+            el.textContent = cfg.badge;
+          }
+          if (el.textContent.indexOf('FREE UK DELIVERY & DISPATCH') !== -1 || el.textContent.indexOf('FREE US & UK TRACKED DELIVERY') !== -1) {
+            el.textContent = cfg.heading;
+          }
+        }
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', applyLocalization);
+    } else {
+      applyLocalization();
+    }
+  })();
+</script>
+
+<!-- START PWP EDITORIAL GALLERY MINIMALIST -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="{{ 'pwp-gallery-favicon.svg' | asset_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427&width=32">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427&width=180">
+<style id="pwp-editorial-gallery-minimalist">
+  :root {
+    --pwp-bg: #F6F4EF;
+    --pwp-bg-elevated: #EBE7DF;
+    --pwp-card: #FCFBF9;
+    --pwp-ink: #111110;
+    --pwp-ink-secondary: #3F3E3A;
+    --pwp-ink-muted: #686660;
+    --pwp-accent: #1B3B8B;
+    --pwp-accent-hover: #112761;
+    --pwp-border: #DEDAD0;
+    --pwp-font-display: 'Cormorant Garamond', Georgia, serif;
+    --pwp-font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --pwp-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* Global Gallery Alabaster Ground & Typography */
+  html, body, #MainContent, .main-content {
+    background-color: var(--pwp-bg) !important;
+    color: var(--pwp-ink) !important;
+    font-family: var(--pwp-font-sans) !important;
+  }
+
+  h1, h2, h3, .h1, .h2, .h3,
+  .home-section-title,
+  .sorting-collections__head h2,
+  .carousel-products__head h2,
+  .collection-head h1,
+  .product-page-info__title h1 {
+    font-family: var(--pwp-font-display) !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.03em !important;
+    color: var(--pwp-ink) !important;
+  }
+
+  /* High-Contrast Keyboard Focus Rings (WCAG AAA) */
+  :focus-visible {
+    outline: 3px solid var(--pwp-accent) !important;
+    outline-offset: 2px !important;
+  }
+
+  /* Top Announcement Utility Bar */
+  .header__tape,
+  .announcement-bar {
+    background-color: var(--pwp-ink) !important;
+    color: var(--pwp-bg) !important;
+    font-family: var(--pwp-font-sans) !important;
+    font-size: 12.5px !important;
+    letter-spacing: 0.02em !important;
+    border-bottom: 1px solid #282825 !important;
+  }
+  .announcement-bar .new-text {
+    color: #F6F4EF !important;
+    font-weight: 600 !important;
+  }
+  .announcement-bar .pwp-tape-sep {
+    opacity: 0.4;
+    margin: 0 10px;
+  }
+
+  /* Storefront Header & Navigation */
+  header.header,
+  #shopify-section-header,
+  .header__line-top,
+  .header__line-bottom {
+    background-color: var(--pwp-bg) !important;
+    border-color: var(--pwp-border) !important;
+  }
+  .header__line-top {
+    border-bottom: 1px solid var(--pwp-border) !important;
+  }
+  .menu__item > a,
+  .header__nav a {
+    font-family: var(--pwp-font-sans) !important;
+    font-weight: 600 !important;
+    color: var(--pwp-ink) !important;
+    letter-spacing: -0.01em !important;
+  }
+  .menu__item > a:hover {
+    color: var(--pwp-accent) !important;
+  }
+
+  /* New Editorial Gallery Minimalist Logo Lockup */
+  .pwp-gallery-logo-wrap {
+    display: inline-flex !important;
+    align-items: center !important;
+    width: auto !important;
+    min-width: 215px !important;
+  }
+  .pwp-gallery-logo-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 11px !important;
+    text-decoration: none !important;
+    color: var(--pwp-ink) !important;
+  }
+  .pwp-gallery-logo-seal {
+    position: relative !important;
+    width: 38px !important;
+    height: 38px !important;
+    background: var(--pwp-ink) !important;
+    border: 1px solid var(--pwp-ink) !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+  }
+  .pwp-gallery-logo-seal::before {
+    content: '' !important;
+    position: absolute !important;
+    inset: 3px !important;
+    border: 1px solid rgba(246, 244, 239, 0.78) !important;
+    pointer-events: none !important;
+  }
+  .pwp-gallery-logo-seal__inner {
+    font-family: var(--pwp-font-display) !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    color: #F6F4EF !important;
+    line-height: 1 !important;
+  }
+  .pwp-gallery-logo-seal__corner {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: var(--pwp-accent) !important;
+  }
+  .pwp-gallery-logo-text {
+    display: flex !important;
+    flex-direction: column !important;
+    line-height: 1.05 !important;
+    text-align: left !important;
+  }
+  .pwp-gallery-logo-wordmark {
+    font-family: var(--pwp-font-display) !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.025em !important;
+    color: var(--pwp-ink) !important;
+    white-space: nowrap !important;
+  }
+  .pwp-gallery-logo-sub {
+    font-family: var(--pwp-font-sans) !important;
+    font-size: 8.5px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.16em !important;
+    color: var(--pwp-ink-muted) !important;
+    margin-top: 2px !important;
+    white-space: nowrap !important;
+  }
+  @media (max-width: 767px) {
+    .pwp-gallery-logo-wrap {
+      min-width: 170px !important;
+    }
+    .pwp-gallery-logo-seal {
+      width: 32px !important;
+      height: 32px !important;
+    }
+    .pwp-gallery-logo-seal__inner {
+      font-size: 20px !important;
+    }
+    .pwp-gallery-logo-wordmark {
+      font-size: 18px !important;
+    }
+    .pwp-gallery-logo-sub {
+      font-size: 7.5px !important;
+    }
+  }
+
+  /* ==========================================================================
+     EDITORIAL GALLERY MINIMALIST HERO & CURATORIAL SPLIT-CURTAIN STAGE
+     ========================================================================== */
+  .pwp-gallery-hero {
+    background: var(--pwp-bg);
+    border-bottom: 1px solid var(--pwp-border);
+    padding: 40px 0 64px;
+  }
+  .pwp-gallery-hero__container {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .pwp-gallery-hero__grid {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 44px;
+    align-items: center;
+  }
+  .pwp-gallery-hero__title {
+    font-family: var(--pwp-font-display) !important;
+    font-size: clamp(40px, 4.8vw, 68px) !important;
+    font-weight: 600 !important;
+    line-height: 0.94 !important;
+    letter-spacing: -0.035em !important;
+    color: var(--pwp-ink) !important;
+    margin: 0 0 20px 0 !important;
+    max-width: 13ch;
+  }
+  .pwp-gallery-hero__lead {
+    font-size: 16.5px !important;
+    line-height: 1.58 !important;
+    color: var(--pwp-ink-secondary) !important;
+    margin: 0 0 28px 0 !important;
+    max-width: 52ch;
+  }
+  .pwp-gallery-hero__cta-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .pwp-btn-primary {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 52px !important;
+    padding: 0 28px !important;
+    line-height: 1.2 !important;
+    background: var(--pwp-accent) !important;
+    color: #FFFFFF !important;
+    font-family: var(--pwp-font-sans) !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    border: 1px solid var(--pwp-accent) !important;
+    border-radius: 0 !important;
+    transition: background-color 160ms ease, transform 120ms var(--pwp-ease-out);
+  }
+  .pwp-btn-primary:hover {
+    background: var(--pwp-accent-hover) !important;
+    color: #FFFFFF !important;
+  }
+  .pwp-btn-primary:active {
+    transform: scale(0.97);
+  }
+  .pwp-btn-secondary {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 52px !important;
+    padding: 0 22px !important;
+    line-height: 1.2 !important;
+    background: var(--pwp-card) !important;
+    color: var(--pwp-ink) !important;
+    font-family: var(--pwp-font-sans) !important;
+    font-size: 14.5px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    border: 1px solid var(--pwp-ink) !important;
+    border-radius: 0 !important;
+    transition: background-color 160ms ease, transform 120ms var(--pwp-ease-out);
+  }
+  .pwp-btn-secondary:hover {
+    background: var(--pwp-bg-elevated) !important;
+    color: var(--pwp-ink) !important;
+  }
+  .pwp-gallery-hero__specs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding-top: 22px;
+    border-top: 1px solid var(--pwp-border);
+    font-variant-numeric: tabular-nums;
+  }
+  .pwp-spec-val {
+    font-family: var(--pwp-font-display);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--pwp-ink);
+    display: block;
+    line-height: 1.1;
+  }
+  .pwp-spec-lbl {
+    font-size: 12.5px;
+    color: var(--pwp-ink-muted);
+    margin-top: 4px;
+    display: block;
+  }
+
+  /* Right Column Curatorial Split-Curtain & 3x Loupe Box */
+  .pwp-curatorial-box {
+    background: var(--pwp-card);
+    border: 1px solid var(--pwp-border);
+    overflow: hidden;
+  }
+  .pwp-curatorial-top {
+    padding: 11px 16px;
+    border-bottom: 1px solid var(--pwp-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .pwp-plaque-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--pwp-ink-secondary);
+  }
+  .pwp-plaque-meta strong {
+    color: var(--pwp-ink);
+    font-weight: 700;
+  }
+  .pwp-mode-pills {
+    display: inline-flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .pwp-mode-chip {
+    appearance: none;
+    border: 1px solid var(--pwp-border);
+    background: var(--pwp-bg);
+    color: var(--pwp-ink);
+    font-family: var(--pwp-font-sans);
+    font-size: 12px;
+    font-weight: 600;
+    min-height: 36px;
+    padding: 4px 10px;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 150ms ease, color 150ms ease;
+  }
+  .pwp-mode-chip.is-active {
+    background: var(--pwp-ink);
+    color: var(--pwp-bg);
+    border-color: var(--pwp-ink);
+  }
+  .pwp-stage-frame {
+    position: relative;
+    aspect-ratio: 16 / 10.5;
+    width: 100%;
+    background: var(--pwp-bg-elevated);
+    overflow: hidden;
+    user-select: none;
+    touch-action: pan-y;
+  }
+  .pwp-stage-layer {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .pwp-stage-layer img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    pointer-events: none !important;
+  }
+  .pwp-stage-layer--front {
+    clip-path: inset(0 0 0 var(--pwp-split, 52%));
+  }
+  .pwp-split-handle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: var(--pwp-split, 52%);
+    width: 2px;
+    background: var(--pwp-ink);
+    z-index: 10;
+    cursor: ew-resize;
+    transform: translateX(-50%);
+  }
+  .pwp-split-knob {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 42px;
+    height: 42px;
+    background: var(--pwp-card);
+    color: var(--pwp-ink);
+    border: 1.5px solid var(--pwp-ink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+  }
+  .pwp-corner-tag {
+    position: absolute;
+    bottom: 12px;
+    z-index: 8;
+    background: var(--pwp-card);
+    color: var(--pwp-ink);
+    border: 1px solid var(--pwp-border);
+    padding: 4px 10px;
+    font-size: 11.5px;
+    font-weight: 700;
+    pointer-events: none;
+  }
+  .pwp-corner-tag--left { left: 12px; }
+  .pwp-corner-tag--right { right: 12px; }
+  .pwp-loupe-lens {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    border: 2px solid var(--pwp-card);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45), 0 0 0 1px var(--pwp-ink);
+    background-repeat: no-repeat;
+    background-size: 280% 280%;
+    pointer-events: none;
+    z-index: 15;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    transition: opacity 180ms ease, transform 180ms var(--pwp-ease-out);
+  }
+  .pwp-stage-frame.loupe-active {
+    cursor: crosshair;
+  }
+  .pwp-stage-frame.loupe-active:hover .pwp-loupe-lens,
+  .pwp-stage-frame.loupe-active.loupe-pinned .pwp-loupe-lens {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .pwp-loupe-label {
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--pwp-ink);
+    color: var(--pwp-bg);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+    white-space: nowrap;
+  }
+  .pwp-curatorial-bottom {
+    padding: 13px 16px;
+    border-top: 1px solid var(--pwp-border);
+    background: var(--pwp-card);
+  }
+  .pwp-suite-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .pwp-suite-caption {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--pwp-ink);
+  }
+  .pwp-suite-hint {
+    font-size: 11.5px;
+    color: var(--pwp-ink-muted);
+  }
+  .pwp-suite-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) auto;
+    gap: 8px;
+    align-items: stretch;
+  }
+  .pwp-suite-btn {
+    appearance: none;
+    border: 1px solid var(--pwp-border);
+    background: var(--pwp-bg);
+    color: var(--pwp-ink);
+    font-family: var(--pwp-font-sans);
+    padding: 8px 11px;
+    min-height: 46px;
+    border-radius: 0;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+  }
+  .pwp-suite-btn.is-active {
+    background: var(--pwp-ink);
+    color: var(--pwp-bg);
+    border-color: var(--pwp-ink);
+  }
+  .pwp-suite-btn__top {
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pwp-suite-btn__sub {
+    font-size: 10.5px;
+    opacity: 0.78;
+  }
+  .pwp-suite-action-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1.2 !important;
+    background: var(--pwp-accent) !important;
+    color: #FFFFFF !important;
+    font-family: var(--pwp-font-sans);
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 0 15px;
+    min-height: 46px;
+    text-decoration: none !important;
+    white-space: nowrap;
+  }
+  .pwp-suite-action-link:hover {
+    background: var(--pwp-accent-hover) !important;
+    color: #FFFFFF !important;
+  }
+
+  /* Five Tactile Substrates Craft Proof Section */
+  .pwp-craft-section {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 48px 24px;
+    border-top: 1px solid var(--pwp-border);
+    border-bottom: 1px solid var(--pwp-border);
+    background: var(--pwp-bg);
+  }
+  .pwp-craft-grid {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 44px;
+    align-items: center;
+  }
+  .pwp-craft-title {
+    font-family: var(--pwp-font-display) !important;
+    font-size: clamp(32px, 3.4vw, 48px) !important;
+    margin: 0 0 10px 0 !important;
+  }
+  .pwp-craft-sub {
+    font-size: 15.5px;
+    color: var(--pwp-ink-secondary);
+    margin: 0 0 24px 0;
+  }
+  .pwp-craft-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .pwp-craft-card {
+    background: var(--pwp-card);
+    border: 1px solid var(--pwp-border);
+    padding: 20px;
+  }
+  .pwp-craft-card h3 {
+    font-family: var(--pwp-font-display) !important;
+    font-size: 21px !important;
+    margin: 0 0 6px 0 !important;
+  }
+  .pwp-craft-card p {
+    font-size: 13.5px;
+    color: var(--pwp-ink-secondary);
+    margin: 0;
+    line-height: 1.5;
+  }
+  .pwp-craft-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid var(--pwp-border);
+  }
+
+  /* Collection Tabs, Product Cards & Buttons (Editorial Gallery Minimalist) */
+  .sorting-collections__head a,
+  .tabs__btn {
+    font-family: var(--pwp-font-sans) !important;
+    font-weight: 600 !important;
+    border-radius: 0 !important;
+  }
+  .product-collection {
+    background: var(--pwp-card) !important;
+    border: 1px solid var(--pwp-border) !important;
+    padding: 12px !important;
+    transition: border-color 180ms ease !important;
+  }
+  .product-collection:hover {
+    border-color: var(--pwp-ink) !important;
+  }
+  .product-collection__title h4,
+  .product-collection__title a {
+    font-family: var(--pwp-font-display) !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    color: var(--pwp-ink) !important;
+  }
+  .price, .price span {
+    font-family: var(--pwp-font-sans) !important;
+    font-variant-numeric: tabular-nums !important;
+    font-weight: 700 !important;
+    color: var(--pwp-ink) !important;
+  }
+  .btn,
+  .product-page-info__button-add-to-cart .btn,
+  .product-collection__buttons .btn {
+    border-radius: 0 !important;
+    font-family: var(--pwp-font-sans) !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.01em !important;
+  }
+  .product-page-info__button-add-to-cart .btn {
+    background-color: var(--pwp-accent) !important;
+    border-color: var(--pwp-accent) !important;
+    color: #FFFFFF !important;
+    min-height: 54px !important;
+  }
+  .product-page-info__button-add-to-cart .btn:hover {
+    background-color: var(--pwp-accent-hover) !important;
+    border-color: var(--pwp-accent-hover) !important;
+  }
+
+  /* Footer Gallery Elevation */
+  footer.footer,
+  #shopify-section-footer {
+    background-color: var(--pwp-bg-elevated) !important;
+    border-top: 1px solid var(--pwp-border) !important;
+    color: var(--pwp-ink) !important;
+  }
+
+  @media (max-width: 1024px) {
+    .pwp-gallery-hero__grid,
+    .pwp-craft-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .pwp-suite-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 640px) {
+    .pwp-suite-grid,
+    .pwp-craft-cards {
+      grid-template-columns: 1fr;
+    }
+    .pwp-gallery-hero {
+      padding: 24px 0 40px;
+    }
+    .pwp-mode-pills {
+      width: 100%;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      padding-bottom: 4px;
+      -webkit-overflow-scrolling: touch;
+    }
+    .pwp-mode-chip {
+      flex-shrink: 0;
+      min-height: 42px;
+      padding: 6px 12px;
+    }
+    input[type="search"],
+    input[type="text"],
+    input[type="email"],
+    select {
+      font-size: 16px !important;
+    }
+  }
+  @media (min-width: 1600px) {
+    .pwp-gallery-hero__container {
+      max-width: 1520px;
+    }
+  }
+  /* Geo-Targeted Studio Pill */
+  .pwp-geo-studio-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--pwp-font-sans);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--pwp-ink);
+    background: var(--pwp-card);
+    border: 1px solid var(--pwp-border);
+    padding: 6px 12px;
+    margin-bottom: 16px;
+  }
+  /* Touch vs Mouse Pointer Adaptation */
+  @media (hover: none) and (pointer: coarse) {
+    .pwp-split-knob {
+      width: 48px !important;
+      height: 48px !important;
+      font-size: 18px !important;
+    }
+    .pwp-suite-btn {
+      min-height: 52px !important;
+    }
+  }
+  /* iOS Safe Area Bottom Bar Adaptation */
+  html[data-pwp-os="ios"] .footbar {
+    padding-bottom: env(safe-area-inset-bottom, 12px) !important;
+  }
+  /* Reduced Motion Accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
+<meta name="theme-color" content="#F6F4EF">
+<script id="pwp-curatorial-hero-engine">
+(function() {
+  // 1. Dynamic Device, Input Modality, OS Platform & Location Detection
+  function detectEnvironment() {
+    var docEl = document.documentElement;
+    var w = window.innerWidth || 1280;
+    var device = w <= 640 ? 'mobile' : (w <= 1024 ? 'tablet' : (w >= 1600 ? 'ultrawide' : 'desktop'));
+    var isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (window.matchMedia && window.matchMedia('(pointer: coarse)').matches);
+    var ua = navigator.userAgent || '';
+    var os = 'other';
+    if (/iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+      os = 'ios';
+    } else if (/Android/i.test(ua)) {
+      os = 'android';
+    } else if (/Mac/i.test(navigator.platform || ua)) {
+      os = 'macos';
+    } else if (/Win/i.test(navigator.platform || ua)) {
+      os = 'windows';
+    } else if (/Linux/i.test(navigator.platform || ua)) {
+      os = 'linux';
+    }
+    docEl.setAttribute('data-pwp-device', device);
+    docEl.setAttribute('data-pwp-input', isTouch ? 'touch' : 'mouse');
+    docEl.setAttribute('data-pwp-os', os);
+    docEl.setAttribute('data-pwp-dpr', String(Math.min(3, Math.round(window.devicePixelRatio || 1))));
+
+    var hintEl = document.getElementById('pwp-hero-modality-hint');
+    if (hintEl) {
+      hintEl.textContent = isTouch
+        ? 'Touch & drag split curtain or tap a medium below'
+        : 'Drag slider above or select a substrate below';
+    }
+
+    var country = (window.Shopify && window.Shopify.country) || docEl.getAttribute('data-pwp-country') || '';
+    if (!country) {
+      try {
+        var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+        if (tz.indexOf('London') !== -1 || tz.indexOf('Belfast') !== -1) country = 'GB';
+        else if (tz.indexOf('Toronto') !== -1 || tz.indexOf('Vancouver') !== -1) country = 'CA';
+        else if (tz.indexOf('Zurich') !== -1) country = 'CH';
+        else if (tz.indexOf('Sydney') !== -1 || tz.indexOf('Melbourne') !== -1) country = 'AU';
+        else if (tz.indexOf('Europe/') === 0) country = 'EU';
+        else country = 'US';
+      } catch (e) { country = 'US'; }
+    }
+    docEl.setAttribute('data-pwp-country', country);
+  }
+
+  detectEnvironment();
+  window.addEventListener('resize', detectEnvironment, { passive: true });
+
+  // 2. Zero-Visual-Change Deferred Hover Image Hydration (Cuts Initial Grid Bandwidth by 50%)
+  function hydrateHoverImg(img) {
+    if (!img || img.dataset.pwpHydrated) return;
+    img.dataset.pwpHydrated = '1';
+    var hSrcset = img.getAttribute('data-hover-srcset');
+    var hSizes = img.getAttribute('data-hover-sizes');
+    var hSrc = img.getAttribute('data-hover-src');
+    if (hSizes) img.setAttribute('sizes', hSizes);
+    if (hSrcset) img.setAttribute('srcset', hSrcset);
+    if (hSrc) img.setAttribute('src', hSrc);
+  }
+
+  document.addEventListener('pointerenter', function(e) {
+    if (!e.target || !e.target.closest) return;
+    var card = e.target.closest('.product-collection, [data-js-product-image]');
+    if (card) {
+      var hoverImg = card.querySelector('.pwp-hover-lifestyle-img');
+      if (hoverImg) hydrateHoverImg(hoverImg);
+    }
+  }, true);
+
+  document.addEventListener('mouseover', function(e) {
+    if (!e.target || !e.target.closest) return;
+    var card = e.target.closest('.product-collection, [data-js-product-image]');
+    if (card) {
+      var hoverImg = card.querySelector('.pwp-hover-lifestyle-img');
+      if (hoverImg) hydrateHoverImg(hoverImg);
+    }
+  }, { passive: true });
+
+  // Pre-hydrate visible hover images during browser idle time on desktop (hover-capable) devices after primary images finish loading
+  window.addEventListener('load', function() {
+    if (window.matchMedia && window.matchMedia('(hover: hover)').matches) {
+      var scheduleIdle = window.requestIdleCallback || function(cb) { setTimeout(cb, 250); };
+      scheduleIdle(function() {
+        if ('IntersectionObserver' in window) {
+          var hoverObserver = new IntersectionObserver(function(entries, obs) {
+            entries.forEach(function(entry) {
+              if (entry.isIntersecting) {
+                hydrateHoverImg(entry.target);
+                obs.unobserve(entry.target);
+              }
+            });
+          }, { rootMargin: '250px 0px' });
+          document.querySelectorAll('.pwp-hover-lifestyle-img:not([data-pwp-hydrated])').forEach(function(img) {
+            hoverObserver.observe(img);
+          });
+        }
+      });
+    }
+  });
+
+  function buildSrcset(baseUrl) {
+    if (!baseUrl) return '';
+    var sep = baseUrl.indexOf('?') !== -1 ? '&' : '?';
+    return baseUrl + sep + 'width=600 600w, ' + baseUrl + sep + 'width=900 900w, ' + baseUrl + sep + 'width=1400 1400w';
+  }
+
+  function ensureLoupeBg(lens) {
+    if (!lens) return;
+    var bgUrl = lens.getAttribute('data-loupe-bg');
+    if (bgUrl && !lens.style.backgroundImage) {
+      lens.style.backgroundImage = "url('" + bgUrl + "')";
+    }
+  }
+
+  function initPwpCuratorialHero() {
+    detectEnvironment();
+    var stage = document.getElementById('pwp-hero-stage-frame');
+    if (!stage || stage.dataset.pwpBound) return;
+    stage.dataset.pwpBound = '1';
+
+    var handle = document.getElementById('pwp-hero-split-handle');
+    var lens = document.getElementById('pwp-hero-loupe-lens');
+    var tagLeft = document.getElementById('pwp-hero-tag-left');
+    var tagRight = document.getElementById('pwp-hero-tag-right');
+    var currentMode = 'split';
+    var splitPct = 52;
+    var dragging = false;
+
+    function setSplit(pct) {
+      splitPct = Math.max(0, Math.min(100, pct));
+      stage.style.setProperty('--pwp-split', splitPct + '%');
+      if (handle) handle.setAttribute('aria-valuenow', String(Math.round(splitPct)));
+    }
+
+    function setMode(mode) {
+      currentMode = mode;
+      document.querySelectorAll('[data-pwp-mode]').forEach(function(b) {
+        b.classList.toggle('is-active', b.getAttribute('data-pwp-mode') === mode);
+      });
+      stage.classList.toggle('loupe-active', mode === 'loupe');
+      stage.classList.toggle('loupe-pinned', mode === 'loupe');
+
+      if (mode === 'split') {
+        setSplit(50);
+        if (handle) handle.style.display = 'block';
+        if (tagLeft) tagLeft.style.display = 'block';
+        if (tagRight) tagRight.style.display = 'block';
+      } else if (mode === 'room') {
+        setSplit(100);
+        if (handle) handle.style.display = 'none';
+        if (tagLeft) tagLeft.style.display = 'block';
+        if (tagRight) tagRight.style.display = 'none';
+      } else if (mode === 'studio') {
+        setSplit(0);
+        if (handle) handle.style.display = 'none';
+        if (tagLeft) tagLeft.style.display = 'none';
+        if (tagRight) tagRight.style.display = 'block';
+      } else if (mode === 'loupe') {
+        setSplit(0);
+        if (handle) handle.style.display = 'none';
+        if (lens) {
+          ensureLoupeBg(lens);
+          lens.style.left = '52%';
+          lens.style.top = '48%';
+          lens.style.backgroundPosition = '52% 48%';
+        }
+      }
+    }
+
+    document.addEventListener('click', function(e) {
+      var modeBtn = e.target.closest('[data-pwp-mode]');
+      if (modeBtn) {
+        setMode(modeBtn.getAttribute('data-pwp-mode'));
+        return;
+      }
+      var suiteBtn = e.target.closest('[data-pwp-suite]');
+      if (suiteBtn) {
+        document.querySelectorAll('[data-pwp-suite]').forEach(function(b) {
+          b.classList.toggle('is-active', b === suiteBtn);
+        });
+        var roomImg = document.getElementById('pwp-hero-img-room');
+        var frontImg = document.getElementById('pwp-hero-img-front');
+        var titleEl = document.getElementById('pwp-hero-plaque-title');
+        var bpEl = document.getElementById('pwp-hero-plaque-bp');
+        var ctaEl = document.getElementById('pwp-hero-suite-cta');
+        var rUrl = suiteBtn.getAttribute('data-room');
+        var fUrl = suiteBtn.getAttribute('data-front');
+        if (roomImg && rUrl) {
+          roomImg.src = rUrl + '&width=1200';
+          roomImg.srcset = buildSrcset(rUrl);
+        }
+        if (frontImg && fUrl) {
+          frontImg.src = fUrl + '&width=1200';
+          frontImg.srcset = buildSrcset(fUrl);
+        }
+        if (lens && fUrl) {
+          var sep = fUrl.indexOf('?') !== -1 ? '&' : '?';
+          var hiRes = fUrl + sep + 'width=2048';
+          lens.setAttribute('data-loupe-bg', hiRes);
+          if (currentMode === 'loupe' || lens.style.backgroundImage) {
+            lens.style.backgroundImage = "url('" + hiRes + "')";
+          }
+        }
+        if (titleEl) titleEl.textContent = suiteBtn.getAttribute('data-title');
+        if (bpEl) bpEl.textContent = suiteBtn.getAttribute('data-bp');
+        if (ctaEl) {
+          ctaEl.href = suiteBtn.getAttribute('data-url');
+          ctaEl.textContent = suiteBtn.getAttribute('data-cta');
+        }
+      }
+    });
+
+    function updatePointer(clientX, clientY) {
+      var rect = stage.getBoundingClientRect();
+      var x = ((clientX - rect.left) / rect.width) * 100;
+      var y = ((clientY - rect.top) / rect.height) * 100;
+      if (currentMode === 'loupe' && lens) {
+        ensureLoupeBg(lens);
+        stage.classList.remove('loupe-pinned');
+        var cx = Math.max(8, Math.min(92, x));
+        var cy = Math.max(8, Math.min(92, y));
+        lens.style.left = cx + '%';
+        lens.style.top = cy + '%';
+        lens.style.backgroundPosition = cx + '% ' + cy + '%';
+        return;
+      }
+      if (dragging && currentMode === 'split') {
+        setSplit(x);
+      }
+    }
+
+    stage.addEventListener('pointerdown', function(e) {
+      if (currentMode === 'loupe') return;
+      if (currentMode !== 'split') setMode('split');
+      dragging = true;
+      if (stage.setPointerCapture) stage.setPointerCapture(e.pointerId);
+      updatePointer(e.clientX, e.clientY);
+    });
+    stage.addEventListener('pointermove', function(e) {
+      if (currentMode === 'loupe' || dragging) {
+        updatePointer(e.clientX, e.clientY);
+      }
+    });
+    stage.addEventListener('pointerup', function() { dragging = false; });
+    stage.addEventListener('pointercancel', function() { dragging = false; });
+
+    if (handle) {
+      handle.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowLeft') { e.preventDefault(); setSplit(splitPct - 5); }
+        if (e.key === 'ArrowRight') { e.preventDefault(); setSplit(splitPct + 5); }
+      });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPwpCuratorialHero);
+  } else {
+    initPwpCuratorialHero();
+  }
+})();
+</script>
+<!-- END PWP EDITORIAL GALLERY MINIMALIST -->
+
+<!-- PWP_PHASE3_SEO_START -->
+{%- if template.name == 'collection' -%}
+  {%- if collection.products_count == 0 or collection.handle == 'avada-upsell-best-sellers' -%}
+    <meta name="robots" content="noindex, follow">
+  {%- endif -%}
+{%- elsif template.name == 'product' -%}
+  {%- assign pwp_parent_col_url = '/collections/all-products' -%}
+  {%- assign pwp_parent_col_name = 'Studio Art Catalog' -%}
+  {%- assign pwp_faq_dims = 'Multiple custom-printed studio dimensions in both Metric (cm) and Imperial (inches), engineered for modern home and office spaces.' -%}
+  {%- assign pwp_faq_care = 'Wipe clean or machine wash gentle cold (30°C) depending on substrate; archival UV pigment inks resist fading for 100+ years.' -%}
+  {%- case product.type -%}
+    {%- when 'Desk Mats' -%}
+      {%- assign pwp_parent_col_url = '/collections/desk-mats' -%}
+      {%- assign pwp_parent_col_name = 'XXL Extended Gaming & Office Desk Mats' -%}
+      {%- assign pwp_faq_dims = 'Available in 36×18 inches (91×46 cm XXL), 31.5×15.5 inches (80×40 cm XL), 23.6×13.8 inches (60×35 cm), and 14.4×12.1 inches (36×30 cm) with a 4mm high-density natural rubber base and 360° anti-fray stitched edges.' -%}
+      {%- assign pwp_faq_care = 'Spot-clean with a damp microfiber cloth and mild soap, or machine wash on a gentle 30°C cold cycle and air-dry flat away from direct heat.' -%}
+    {%- when 'Canvas Wall Art' -%}
+      {%- assign pwp_parent_col_url = '/collections/canvas-prints' -%}
+      {%- assign pwp_parent_col_name = 'Gallery-Wrapped Stretched Canvas Wall Art' -%}
+      {%- assign pwp_faq_dims = 'Available in 12×16 inches (30×40 cm), 16×20 inches (40×50 cm), 18×24 inches (45×60 cm), 24×36 inches (60×90 cm), and 30×40 inches (75×100 cm) on 400gsm archival poly-cotton canvas stretched over 1.25 inch (3.2 cm) FSC kiln-dried pine bars.' -%}
+      {%- assign pwp_faq_care = 'Arrives ready to hang with pre-installed hardware. Dust gently with a dry, lint-free microfiber cloth; 100-year UV archival pigment inks require no glass framing.' -%}
+    {%- when 'Cushion Covers' -%}
+      {%- assign pwp_parent_col_url = '/collections/pillow-cases' -%}
+      {%- assign pwp_parent_col_name = 'Double-Sided Square Cushion Covers' -%}
+      {%- assign pwp_faq_dims = 'Available in 18×18 inches (45×45 cm), 20×20 inches (50×50 cm), and 22×22 inches (55×55 cm) crafted from heavyweight 100% spun polyester linen-feel fabric with double-sided print and concealed zipper.' -%}
+      {%- assign pwp_faq_care = 'Turn inside out and machine wash cold (30°C) on a gentle cycle. Tumble dry low or air-dry flat; do not bleach.' -%}
+    {%- when 'Throw Blankets' -%}
+      {%- assign pwp_parent_col_url = '/collections/blankets' -%}
+      {%- assign pwp_parent_col_name = 'Plush Coral Fleece Throw Blankets' -%}
+      {%- assign pwp_faq_dims = 'Available in 30×40 inches (76×102 cm), 50×60 inches (127×152 cm Sofa Throw), and 60×80 inches (152×203 cm Queen Bed Blanket) crafted from 300gsm ultra-soft anti-pill coral fleece.' -%}
+      {%- assign pwp_faq_care = 'Machine wash cold (30°C) separately on a gentle cycle with mild detergent. Air-dry or tumble dry on low/no heat to preserve plush loft.' -%}
+    {%- when 'Bath Mats' -%}
+      {%- assign pwp_parent_col_url = '/collections/bath-mats' -%}
+      {%- assign pwp_parent_col_name = 'Luxury Non-Slip Memory Foam Bath Mats' -%}
+      {%- assign pwp_faq_dims = 'Available in 24×17 inches (61×43 cm Standard Vanity) and 34×21 inches (86×53 cm Large Tub Span) with a high-recovery memory foam core and non-skid SBR backing.' -%}
+      {%- assign pwp_faq_care = 'Wash cold on a gentle cycle or hand-wash with mild soap, then air-dry flat to protect the non-skid SBR backing.' -%}
+    {%- when 'Graphic T-Shirts' -%}
+      {%- assign pwp_parent_col_url = '/collections/t-shirts' -%}
+      {%- assign pwp_parent_col_name = 'Unisex Heavyweight Graphic Cotton T-Shirts' -%}
+      {%- assign pwp_faq_dims = 'Available in Unisex sizes S, M, L, XL, 2XL, and 3XL crafted from breathable heavyweight 100% ring-spun combed cotton with archival DTG graphic print.' -%}
+      {%- assign pwp_faq_care = 'Turn garment inside out and machine wash cold (30°C) with similar colours. Tumble dry low or hang dry; do not iron directly over the graphic.' -%}
+    {%- when 'Hoodies' -%}
+      {%- assign pwp_parent_col_url = '/collections/hoodies' -%}
+      {%- assign pwp_parent_col_name = 'Unisex Heavyweight Graphic Hoodies' -%}
+      {%- assign pwp_faq_dims = 'Available in Unisex sizes S, M, L, XL, 2XL, and 3XL crafted from heavyweight 80/20 ring-spun cotton-poly brushed fleece with a double-lined hood and pouch pocket.' -%}
+      {%- assign pwp_faq_care = 'Turn inside out and machine wash cold (30°C) on a gentle cycle. Hang dry or tumble dry low to maintain fleece softness and graphic vibrancy.' -%}
+  {%- endcase -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": {{ shop.url | append: product.url | append: "#breadcrumb" | json }},
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Prints With Passion",
+            "item": {{ shop.url | json }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ pwp_parent_col_name | json }},
+            "item": {{ shop.url | append: pwp_parent_col_url | json }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ product.title | json }},
+            "item": {{ shop.url | append: product.url | json }}
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": {{ shop.url | append: product.url | append: "#faq" | json }},
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": {{ "What sizes and materials are available for " | append: product.title | append: "?" | json }},
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": {{ pwp_faq_dims | json }}
+            }
+          },
+          {
+            "@type": "Question",
+            "name": {{ "How do I clean and care for my " | append: product.type | default: "Studio Edition" | append: "?" | json }},
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": {{ pwp_faq_care | json }}
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is tracked shipping free to the UK, US, Canada, and Europe?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — every Prints With Passion order is custom-produced at our nearest regional fulfillment studio across the UK, USA, Canada, EU, and Australia with 100% Free Tracked Delivery and a 30-day return guarantee."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+{%- elsif template.name == 'index' -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "OnlineStore",
+        "@id": "https://printswithpassion.com/#organization",
+        "name": "Prints With Passion",
+        "url": "https://printswithpassion.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427"
+        },
+        "description": "Independent art studio and bespoke decor print house offering 28,800+ original artworks across Stretched Canvas Wall Art, XXL Desk Mats, Plush Throw Blankets, Cushion Covers, Memory Foam Bath Mats, and Heavyweight Apparel with Free Tracked UK, US & EU Delivery.",
+        "priceRange": "£25.99-£64.99",
+        "currenciesAccepted": "GBP, USD, EUR, CAD, AUD, CHF",
+        "paymentAccepted": "Credit Card, Apple Pay, Google Pay, Shop Pay, PayPal, Klarna",
+        "areaServed": ["GB", "US", "CA", "DE", "FR", "ES", "IT", "NL", "BE", "CH", "AT", "AU", "IE", "SE", "DK", "NO", "PL", "PT"],
+        "knowsAbout": [
+          "XXL Extended Gaming & Office Desk Mats",
+          "Gallery-Wrapped Stretched Canvas Wall Art",
+          "Double-Sided Square Cushion Covers",
+          "Plush Coral Fleece Throw Blankets",
+          "Luxury Non-Slip Memory Foam Bath Mats",
+          "Unisex Heavyweight Graphic Cotton T-Shirts & Hoodies",
+          "Free 4K Desktop & Ultrawide Wallpapers (CC-BY 4.0)"
+        ],
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": ["GB", "US", "CA", "DE", "FR", "ES", "IT", "NL", "BE", "CH", "AT", "AU"],
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://printswithpassion.com/#website",
+        "url": "https://printswithpassion.com/",
+        "name": "Prints With Passion",
+        "publisher": { "@type": "Organization", "name": "Prints With Passion", "url": "https://printswithpassion.com/" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://printswithpassion.com/search?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  }
+  </script>
+{%- elsif template.name == 'blog' -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": {{ shop.url | append: blog.url | append: "#breadcrumb" | json }},
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Prints With Passion",
+            "item": {{ shop.url | json }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ blog.title | default: "Editorial Interior & Setup Journal" | json }},
+            "item": {{ shop.url | append: blog.url | json }}
+          }
+        ]
+      },
+      {
+        "@type": "Blog",
+        "@id": {{ shop.url | append: blog.url | append: "#blog" | json }},
+        "name": {{ blog.title | default: "Prints With Passion Editorial Journal" | json }},
+        "url": {{ shop.url | append: blog.url | json }},
+        "description": "Architectural room sizing guides, dual Metric (cm) & Imperial (inch) desk setup ergonomics, and interior styling blueprints by Prints With Passion Studio.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Prints With Passion",
+          "url": {{ shop.url | json }}
+        },
+        "mainEntity": {
+          "@type": "ItemList",
+          "itemListOrder": "https://schema.org/ItemListOrderDescending",
+          "numberOfItems": {{ blog.articles_count | default: 12 | json }},
+          "itemListElement": [
+            {%- for art in blog.articles limit: 12 -%}
+            {
+              "@type": "ListItem",
+              "position": {{ forloop.index }},
+              "url": {{ shop.url | append: art.url | json }},
+              "name": {{ art.title | json }},
+              "item": {
+                "@type": "BlogPosting",
+                "headline": {{ art.title | truncate: 110, "" | json }},
+                "url": {{ shop.url | append: art.url | json }},
+                "datePublished": {{ art.published_at | date: "%Y-%m-%dT%H:%M:%SZ" | json }}
+              }
+            }{% unless forloop.last %},{% endunless %}
+            {%- endfor -%}
+          ]
+        }
+      }
+    ]
+  }
+  </script>
+{%- elsif template.name == 'page' and page.handle == 'desk-size-visualizer' -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://printswithpassion.com/pages/desk-size-visualizer#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Prints With Passion",
+            "item": "https://printswithpassion.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Interactive Desk Mat & Wall Art Size Visualizer (CM & Inches)",
+            "item": "https://printswithpassion.com/pages/desk-size-visualizer"
+          }
+        ]
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://printswithpassion.com/pages/desk-size-visualizer#webapp",
+        "name": "Prints With Passion Interactive Desk Mat & Wall Art Size Visualizer (CM & Inches)",
+        "url": "https://printswithpassion.com/pages/desk-size-visualizer",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "All",
+        "browserRequirements": "Requires HTML5 / JavaScript",
+        "description": "Free interactive architectural sizing calculator and proportion visualizer comparing XXL Desk Mats (36×18" / 91×46 cm, 31.5×15.5" / 80×40 cm) and Stretched Canvas Wall Art (12×16" to 30×40") in both Metric (cm) and Imperial (inches).",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.00",
+          "priceCurrency": "GBP",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://printswithpassion.com/pages/desk-size-visualizer#howto",
+        "name": "How to Choose the Right Desk Mat or Canvas Wall Art Size (CM & Inches)",
+        "description": "Follow the 60%–75% architectural span rule to match your desk width or sofa span with the ideal studio print dimension.",
+        "totalTime": "PT2M",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Measure Your Primary Furniture Width (CM or Inches)",
+            "text": "Measure the total width of your standing desk, gaming desk, sofa, or headboard in centimetres (cm) or inches."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Apply the 60% to 75% Architectural Proportion Formula",
+            "text": "Multiply your furniture width by 0.65 to 0.75. For 140–160 cm (55–63") desks, select an 80×40 cm (31.5×15.5") XL or 91×46 cm (36×18") XXL desk mat. For 180–210 cm (70–82") sofas, select a 60×90 cm (24×36") or 75×100 cm (30×40") stretched canvas."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Preview Live Proportions & Browse Your Matched Collection",
+            "text": "Toggle between Metric (cm) and Imperial (inches) inside the interactive visualizer and click directly into your matched Smart Sub-Collection."
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+{%- elsif template.name == 'article' -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": {{ shop.url | append: article.url | append: "#breadcrumb" | json }},
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Prints With Passion",
+            "item": {{ shop.url | json }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ blog.title | default: "Interior & Setup Guides" | json }},
+            "item": {{ shop.url | append: blog.url | json }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ article.title | json }},
+            "item": {{ shop.url | append: article.url | json }}
+          }
+        ]
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": {{ shop.url | append: article.url | append: "#article" | json }},
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": {{ shop.url | append: article.url | json }}
+        },
+        "headline": {{ article.title | truncate: 110, "" | json }},
+        "name": {{ article.title | json }},
+        "description": {{ article.excerpt_or_content | strip_html | strip | truncate: 160, "" | json }},
+        "url": {{ shop.url | append: article.url | json }},
+        "datePublished": {{ article.published_at | date: "%Y-%m-%dT%H:%M:%SZ" | json }},
+        "dateModified": {{ article.updated_at | default: article.published_at | date: "%Y-%m-%dT%H:%M:%SZ" | json }},
+        "author": {
+          "@type": "Organization",
+          "name": {{ article.author | default: "Prints With Passion Studio" | json }},
+          "url": {{ shop.url | json }}
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Prints With Passion",
+          "url": {{ shop.url | json }},
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427"
+          }
+        }{%- if article.image -%},
+        "image": {
+          "@type": "ImageObject",
+          "url": {{ article.image | img_url: '1200x' | prepend: "https:" | json }},
+          "contentUrl": {{ article.image | img_url: '2048x' | prepend: "https:" | json }},
+          "name": {{ article.image.alt | default: article.title | json }},
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+          "creditText": "Prints With Passion Studio",
+          "copyrightNotice": "© Prints With Passion",
+          "creator": {
+            "@type": "Organization",
+            "name": "Prints With Passion"
+          }
+        }
+        {%- endif -%}
+      }
+    ]
+  }
+  </script>
+{%- endif -%}
+<style id="pwp-phase3-footbar-and-footer-polish">
+  /* Mobile & Desktop Sticky PDP Footbar (.footbar-product) Editorial Gallery Minimalist Polish */
+  .footbar-product {
+    background-color: #FCFBF9 !important;
+    border-top: 1px solid #DEDAD0 !important;
+    box-shadow: 0 -4px 20px rgba(17, 17, 16, 0.06) !important;
+  }
+  .footbar-product__title h4 {
+    font-family: var(--pwp-font-display, 'Cormorant Garamond', Georgia, serif) !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #111110 !important;
+  }
+  .footbar-product__button-add-to-cart .btn {
+    background-color: #1B3B8B !important;
+    border-color: #1B3B8B !important;
+    color: #FFFFFF !important;
+    border-radius: 0 !important;
+    min-height: 46px !important;
+    padding: 0 22px !important;
+    font-family: var(--pwp-font-sans, 'Plus Jakarta Sans', sans-serif) !important;
+    font-weight: 700 !important;
+  }
+  .footer__subscription input[type="email"] {
+    background-color: #FCFBF9 !important;
+    border: 1px solid #111110 !important;
+    border-radius: 0 !important;
+    color: #111110 !important;
+    min-height: 46px !important;
+    padding: 0 14px !important;
+  }
+  .footer__subscription .btn {
+    background-color: #111110 !important;
+    border: 1px solid #111110 !important;
+    color: #F6F4EF !important;
+    border-radius: 0 !important;
+    min-height: 46px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.06em !important;
+  }
+  .footer__subscription .btn:hover {
+    background-color: #1B3B8B !important;
+    border-color: #1B3B8B !important;
+  }
+</style>
+{%- if template.name == 'collection' and collection.products_count == 0 -%}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var gridWrap = document.querySelector('#CollectionProductGrid, .collection-products, .collections__body');
+    if (!gridWrap || document.getElementById('pwp-empty-collection-curator')) return;
+    var curator = document.createElement('div');
+    curator.id = 'pwp-empty-collection-curator';
+    curator.style.cssText = 'max-width:1100px;margin:24px auto 48px;padding:36px 24px;background:#FCFBF9;border:1px solid #DEDAD0;text-align:center;';
+    curator.innerHTML = '<span style="font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#1B3B8B;display:block;margin-bottom:8px;">ARCHIVE CURATION UPDATE</span>' +
+      '<h2 style="font-family:var(--pwp-font-display,Georgia,serif);font-size:32px;font-weight:600;color:#111110;margin:0 0 10px;">Explore Our Five Active Studio Substrates</h2>' +
+      '<p style="font-size:14.5px;color:#3F3E3A;max-width:620px;margin:0 auto 24px;line-height:1.55;">This legacy archive category has been consolidated into our flagship home and workspace editions below—all custom printed with free tracked delivery.</p>' +
+      '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;text-align:left;">' +
+        '<a href="/collections/canvas-prints" style="padding:16px;background:#F6F4EF;border:1px solid #DEDAD0;text-decoration:none;color:#111110;display:block;"><strong style="font-family:var(--pwp-font-display,Georgia,serif);font-size:20px;display:block;margin-bottom:4px;">1. Stretched Canvas Art</strong><span style="font-size:12px;color:#686660;">400gsm Pine Gallery Wrap →</span></a>' +
+        '<a href="/collections/desk-mats" style="padding:16px;background:#F6F4EF;border:1px solid #DEDAD0;text-decoration:none;color:#111110;display:block;"><strong style="font-family:var(--pwp-font-display,Georgia,serif);font-size:20px;display:block;margin-bottom:4px;">2. XXL Desk Mats</strong><span style="font-size:12px;color:#686660;">80×40 cm & 60×35 cm →</span></a>' +
+        '<a href="/collections/blankets" style="padding:16px;background:#F6F4EF;border:1px solid #DEDAD0;text-decoration:none;color:#111110;display:block;"><strong style="font-family:var(--pwp-font-display,Georgia,serif);font-size:20px;display:block;margin-bottom:4px;">3. Plush Coral Throws</strong><span style="font-size:12px;color:#686660;">300gsm Brushed Fleece →</span></a>' +
+        '<a href="/collections/pillow-cases" style="padding:16px;background:#F6F4EF;border:1px solid #DEDAD0;text-decoration:none;color:#111110;display:block;"><strong style="font-family:var(--pwp-font-display,Georgia,serif);font-size:20px;display:block;margin-bottom:4px;">4. Square Cushions</strong><span style="font-size:12px;color:#686660;">40×40 cm Double-Sided →</span></a>' +
+      '</div>';
+    gridWrap.prepend(curator);
+  });
+</script>
+{%- endif -%}
+<!-- PWP_PHASE3_SEO_END -->

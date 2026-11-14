@@ -1,0 +1,63 @@
+--- strikezone_ctr_and_competitor_rewriter.mjs
++++ strikezone_ctr_and_competitor_rewriter.mjs
+@@ -47,6 +47,8 @@
+     let prev = '';
+     while (s !== prev) {
+       prev = s;
++      // Strip empty parentheticals () and brackets []
++      s = s.replace(/\(\s*\)/g, '').replace(/\[\s*\]/g, '').trim();
+       // Strip trailing delimiters/punctuation: -, |, &, :, ;, ,, /, \, ~, +, (, [
+-      s = s.replace(/[\s\-_|&:,;/\\~+([\]]+$/, '').trim();
++      s = s.replace(/[\s\-_|&:,;/\\~+(\[]+$/, '').trim();
+       // Strip trailing conjunctions, prepositions, and stop-words
+       s = s.replace(/\s+\b(and|or|nor|but|for|with|w|in|on|at|to|by|from|of|the|a|an|vs)\b$/i, '').trim();
+     }
+     return s;
+   };
+ 
++  const hasSubstantiveText = (text) => {
++    if (!text) return false;
++    return text.replace(/[\s\-_|&:,;/\\~+([\]]/g, '').trim().length > 0;
++  };
++
+   const balanceBrackets = (str) => {
+     let s = str;
+     let prev = '';
+     while (s !== prev) {
+       prev = s;
+ 
+       // Iteratively balance parentheses: unclosed '('
+       while ((s.match(/\(/g) || []).length > (s.match(/\)/g) || []).length) {
+         const lastOpen = s.lastIndexOf('(');
+         if (lastOpen === -1) break;
+-        s = s.slice(0, lastOpen);
++        if (hasSubstantiveText(s.slice(0, lastOpen))) {
++          s = s.slice(0, lastOpen);
++        } else {
++          s = s.slice(0, lastOpen) + s.slice(lastOpen + 1);
++        }
+       }
+ 
+       // Iteratively balance parentheses: excess ')'
+@@ -78,6 +84,10 @@
+       while ((s.match(/\[/g) || []).length > (s.match(/\]/g) || []).length) {
+         const lastOpen = s.lastIndexOf('[');
+         if (lastOpen === -1) break;
+-        s = s.slice(0, lastOpen);
++        if (hasSubstantiveText(s.slice(0, lastOpen))) {
++          s = s.slice(0, lastOpen);
++        } else {
++          s = s.slice(0, lastOpen) + s.slice(lastOpen + 1);
++        }
+       }
+ 
+       // Iteratively balance brackets: excess ']'
+@@ -141,7 +151,7 @@
+   // 2. Fall back to primaryPart alone if it fits
+   if (primary.length <= maxChars) {
+     const balanced = balanceBrackets(stripTrailingDangling(primary));
+-    if (balanced.length <= maxChars) {
++    if (balanced && balanced.length <= maxChars) {
+       return balanced;
+     }
+   }

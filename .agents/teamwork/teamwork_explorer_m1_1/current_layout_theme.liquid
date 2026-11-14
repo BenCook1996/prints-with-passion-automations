@@ -1,0 +1,335 @@
+<!doctype html>
+{%- if shop.locale == 'ar' or shop.locale == 'he' -%}
+<!--[if IE 9]> <html class="ie9 no-js supports-no-cookies" lang="{{ shop.locale }}" dir="rtl"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js supports-no-cookies" lang="{{ shop.locale }}" dir="rtl"> <!--<![endif]-->
+{%- else -%}
+<!--[if IE 9]> <html class="ie9 no-js supports-no-cookies" lang="{{ shop.locale }}"{% if settings.layout_enable_rtl %} dir="rtl"{% endif %}> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js supports-no-cookies" lang="{{ shop.locale }}"{% if settings.layout_enable_rtl %} dir="rtl"{% endif %}> <!--<![endif]-->
+{%- endif -%}
+
+<head>
+  {% capture get_content_for_header %}{{ content_for_header }}{% endcapture %}
+  {% include 'head' %}
+<!-- Google tag (gtag.js) + PWP GA4 E-Commerce Bridge, Headless Bot Guard & Clean Interaction Deferral -->
+<script id="pwp-ga4-ecommerce-bridge">
+(function() {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.gtag = gtag;
+
+  // 1. Comprehensive Bot & Headless Crawler Detection (Features 23.02 & 23.03)
+  var ua = navigator.userAgent || '';
+  var isBotUa = /phantom|googlebot|bingbot|bot|crawler|spider|headless|python|go-http|curl|wget|scrapy|bytespider|gptbot|claudebot|semrush|ahrefs|mj12|dotbot|petalbot|yandex|baidu|slurp|facebookexternalhit|feedfetcher|lighthouse|chrome-lighthouse|node-fetch|axios|postman/i.test(ua);
+  var isWebdriver = Boolean(navigator.webdriver || window.__webdriver || window._phantom || window.__nightmare || window.callPhantom);
+  var isHeadlessEnvironment = Boolean(!navigator.languages || (navigator.languages && navigator.languages.length === 0));
+
+  window.__pwpIsBot = Boolean(
+    isBotUa ||
+    isWebdriver ||
+    isHeadlessEnvironment ||
+    /phantom|googlebot|bingbot|bot|crawler|spider|headless|python|go-http|curl|wget|scrapy|bytespider|gptbot|claudebot|semrush|ahrefs|mj12|dotbot|petalbot|yandex|baidu|slurp|facebookexternalhit|feedfetcher|lighthouse|chrome-lighthouse|node-fetch|axios|postman/i.test(ua)
+  );
+
+  // If detected bot, completely suppress GA4 and telemetry
+  if (window.__pwpIsBot) {
+    window.gtag = function() {};
+    window.pwpGtagEvent = function() {};
+    return;
+  }
+
+  // 2. Pending Event Queue (preserves early page events until GA4 initializes)
+  window.__pwpPendingEvents = window.__pwpPendingEvents || [];
+
+  function pwpGtagEvent(name, params) {
+    if (window.__pwpIsBot) return;
+    if (window.__pwpGA4Loaded && typeof window.gtag === 'function') {
+      window.gtag('event', name, params || {});
+    } else {
+      window.__pwpPendingEvents.push({ name: name, params: params || {} });
+    }
+  }
+  window.pwpGtagEvent = pwpGtagEvent;
+
+  // 3. User Interaction Deferral Engine (Feature 23.01)
+  window.__pwpGA4Loaded = false;
+  var fallbackTimer = null;
+
+  function loadGA4Script() {
+    if (window.__pwpGA4Loaded || window.__pwpIsBot) return;
+    window.__pwpGA4Loaded = true;
+
+    if (fallbackTimer) {
+      clearTimeout(fallbackTimer);
+      fallbackTimer = null;
+    }
+
+    // Detach all interaction listeners
+    var evtList = ['scroll', 'mousemove', 'pointerdown', 'touchstart', 'keydown', 'click'];
+    for (var i = 0; i < evtList.length; i++) {
+      window.removeEventListener(evtList[i], onUserInteraction, { capture: true, passive: true });
+    }
+
+    // Initialize GA4 config with send_page_view
+    gtag('js', new Date());
+    gtag('config', 'G-RYTW49D314', {
+      send_page_view: true,
+      cookie_flags: 'SameSite=None;Secure'
+    });
+
+    // Flush any queued ecommerce events (view_item, view_item_list)
+    if (window.__pwpPendingEvents && window.__pwpPendingEvents.length) {
+      for (var k = 0; k < window.__pwpPendingEvents.length; k++) {
+        var queued = window.__pwpPendingEvents[k];
+        gtag('event', queued.name, queued.params);
+      }
+      window.__pwpPendingEvents = [];
+    }
+
+    // Inject gtag.js dynamically
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-RYTW49D314';
+    var firstScript = document.getElementsByTagName('script')[0];
+    if (firstScript && firstScript.parentNode) {
+      firstScript.parentNode.insertBefore(script, firstScript);
+    } else {
+      document.head.appendChild(script);
+    }
+  }
+
+  function onUserInteraction(e) {
+    if (e && e.isTrusted === false) return; // Suppress synthetic events
+    loadGA4Script();
+  }
+
+  // Bind one-time passive listeners
+  var triggerEvents = ['scroll', 'mousemove', 'pointerdown', 'touchstart', 'keydown', 'click'];
+  for (var j = 0; j < triggerEvents.length; j++) {
+    window.addEventListener(triggerEvents[j], onUserInteraction, { capture: true, passive: true, once: true });
+  }
+
+  // Safety fallback timeout: if legitimate user doesn't interact, load after 4000ms
+  fallbackTimer = setTimeout(function() {
+    loadGA4Script();
+  }, 4000);
+
+  // Immediate release on form submit (checkout / add to cart) so no conversion event is delayed (T3.C04)
+  document.addEventListener('submit', function(e) {
+    loadGA4Script();
+  }, true);
+
+  {%- if template.name == '404' -%}
+  (function() {
+    var path = window.location.pathname || '/';
+    var search = window.location.search || '';
+    var localeMatch = path.match(/^\/([a-z]{2}-[a-z]{2})(\/.*)?$/i);
+    if (localeMatch) {
+      var cleanPath = localeMatch[2] || '/';
+      pwpGtagEvent('locale_404_redirected', { from_path: path, to_path: cleanPath });
+      window.location.replace(cleanPath + search);
+      return;
+    }
+    var lower = path.toLowerCase();
+    var target = '/collections/all';
+    if (/hoodie|sweatshirt/.test(lower)) target = '/collections/hoodies';
+    else if (/t-shirt|tee|shirt|apparel/.test(lower)) target = '/collections/t-shirts';
+    else if (/desk-mat|mouse-pad|mousepad|desk/.test(lower)) target = '/collections/desk-mats';
+    else if (/canvas|wall-art|print|poster|painting/.test(lower)) target = '/collections/canvas-prints';
+    else if (/blanket|throw|fleece/.test(lower)) target = '/collections/blankets';
+    else if (/cushion|pillow/.test(lower)) target = '/collections/pillow-cases';
+    else if (/bath-mat|bath|rug/.test(lower)) target = '/collections/bath-mats';
+    pwpGtagEvent('page_404_recovered', { broken_path: path, recovery_target: target, page_referrer: document.referrer || '' });
+    setTimeout(function() { window.location.replace(target); }, 120);
+  })();
+  {%- endif -%}
+
+  {%- if template.name == 'collection' and collection != blank -%}
+  window.__pwpCollectionItems = [
+    {%- for prod in collection.products limit: 12 -%}
+    {
+      item_id: {{ prod.id | json }},
+      item_name: {{ prod.title | json }},
+      item_category: {{ prod.type | default: collection.title | json }},
+      price: {{ prod.price | divided_by: 100.0 | json }},
+      index: {{ forloop.index }}
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ];
+  pwpGtagEvent('view_item_list', {
+    item_list_id: {{ collection.handle | json }},
+    item_list_name: {{ collection.title | json }},
+    items: window.__pwpCollectionItems
+  });
+  {%- endif -%}
+
+  {%- if template.name == 'product' and product != blank -%}
+  window.__pwpCurrentProduct = {
+    item_id: {{ product.id | json }},
+    item_name: {{ product.title | json }},
+    item_category: {{ product.type | default: "Studio Decor" | json }},
+    item_variant: {{ product.selected_or_first_available_variant.title | json }},
+    price: {{ product.selected_or_first_available_variant.price | default: product.price | divided_by: 100.0 | json }}
+  };
+  pwpGtagEvent('view_item', {
+    currency: 'GBP',
+    value: window.__pwpCurrentProduct.price,
+    items: [Object.assign({ quantity: 1 }, window.__pwpCurrentProduct)]
+  });
+  {%- endif -%}
+
+  // 4. AJAX Cart & Interaction Listeners
+  (function() {
+    var origFetch = window.fetch;
+    if (typeof origFetch === 'function') {
+      window.fetch = function(input, init) {
+        var url = typeof input === 'string' ? input : (input && input.url ? input.url : '');
+        if (url && url.indexOf('/cart/add') !== -1) {
+          loadGA4Script();
+          var item = window.__pwpCurrentProduct || { item_id: 'studio-edition', item_name: document.title.split('|')[0].trim(), price: 34.99 };
+          pwpGtagEvent('add_to_cart', {
+            currency: 'GBP',
+            value: item.price || 34.99,
+            items: [Object.assign({ quantity: 1 }, item)]
+          });
+        }
+        return origFetch.apply(this, arguments);
+      };
+    }
+
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      if (form && form.action && form.action.indexOf('/cart/add') !== -1) {
+        loadGA4Script();
+        var item = window.__pwpCurrentProduct || { item_id: 'studio-edition', item_name: document.title.split('|')[0].trim(), price: 34.99 };
+        pwpGtagEvent('add_to_cart', {
+          currency: 'GBP',
+          value: item.price || 34.99,
+          items: [Object.assign({ quantity: 1 }, item)]
+        });
+      }
+    }, true);
+
+    document.addEventListener('click', function(e) {
+      var el = e.target && e.target.closest ? e.target.closest('a, button, input[type="submit"]') : null;
+      if (!el) return;
+      var href = el.getAttribute('href') || '';
+      var nameAttr = el.getAttribute('name') || '';
+
+      // 1. Checkout button click -> begin_checkout
+      if (nameAttr === 'checkout' || href.indexOf('/checkout') !== -1 || el.classList.contains('pwp-cart-checkout-btn')) {
+        loadGA4Script();
+        pwpGtagEvent('begin_checkout', { currency: 'GBP', value: (window.__pwpCurrentProduct && window.__pwpCurrentProduct.price) || 39.99 });
+      }
+      // 2. Cart view click -> view_cart
+      else if (href === '/cart' || el.hasAttribute('data-cart-drawer-toggle') || el.classList.contains('js-drawer-open-cart')) {
+        pwpGtagEvent('view_cart', { currency: 'GBP' });
+      }
+      // 3. Product card click -> select_item
+      else if (href.indexOf('/products/') !== -1 && window.__pwpCollectionItems) {
+        pwpGtagEvent('select_item', {
+          item_list_name: document.title.split('|')[0].trim(),
+          items: [{ item_id: href.split('/products/')[1], item_name: (el.textContent || '').trim().slice(0, 80) || href }]
+        });
+      }
+      // 4. 4K Wallpaper download or CC attribution copy
+      else if (el.classList.contains('pwp-dl-btn')) {
+        pwpGtagEvent('wallpaper_4k_download', { page_location: window.location.href });
+      }
+      else if (el.classList.contains('pwp-copy-cc-btn')) {
+        pwpGtagEvent('cc_attribution_copied', { page_location: window.location.href });
+      }
+      // 5. Interactive Size Visualizer buttons
+      else if (window.location.pathname.indexOf('desk-size-visualizer') !== -1) {
+        pwpGtagEvent('size_visualizer_used', { element_text: (el.textContent || '').trim().slice(0, 60) });
+      }
+    }, true);
+  })();
+})();
+</script><meta name="ahrefs-site-verification" content="2baad1be0e956a05c9e69321ef31140a07f9f2ae02fae0dcffcf1565f6e5b0a9"> <script src="https://analytics.ahrefs.com/analytics.js" data-key="JIgjDXAgpiGHqJJGuSBz1g" async></script>
+<meta name="yandex-verification" content="8a56b8cf6f041d2a" />
+  <meta name="p:domain_verify" content="b7d1429928c56c619edc007836a4b466"/>
+</head>
+
+<body{% render 'layout-get-body-attributes' %}>
+{% include 'layout-get-includes-start' %}
+{%- if settings.product_show_custom_options and settings.product_enable_variants_section -%}
+  {% section 'product-variants' %}
+{%- endif -%}
+{% sections 'header-group' %}
+<main id="MainContent">
+  {%- if request.page_type == 'page' or request.page_type == 'product' or request.page_type == 'cart' or request.page_type == 'list-collections' or request.page_type == 'page' or template.name == 'page' or request.page_type == 'page' or request.page_type == 'article' or request.page_type == 'page' or request.page_type == 'blog' -%}
+    {% include 'breadcrumbs' %}
+  {%- elsif request.page_type == 'collection' -%}
+    <div id="CollectionBreadcrumbs">
+      {% include 'breadcrumbs' %}
+    </div>
+  {%- endif -%}
+  {{ content_for_layout }}
+</main>
+{% render 'pwp-clean-footer-nav' %}
+{% render 'pwp-clean-collection-schema' %}
+{% sections 'footer-group' %}
+{% include 'popups' %}
+{% include 'footbar' %}
+
+{%- if settings.presentation_enable or template == 'product' and settings.product_info_page_show_usage_info_sidebar -%}
+  {% include 'fixed-sidebar' %}
+{%- endif -%}
+
+{% include 'templates' %}
+{% include 'layout-get-includes-end' %}
+<!-- START APPS -->
+
+{%- if settings.app_klarna_enable -%}
+  <!-- start Klarna app -->
+  <script>window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} window.KlarnaThemeGlobals.data_purchase_amount={{product.first_available_variant.price}};window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}</script>
+  <!-- end Klarna app -->
+{%- endif -%}
+
+{%- if settings.app_growave_enable -%}
+  <!-- start Growave app -->
+  {% capture the_snippet_content %}{% render 'socialshopwave-helper' %}{% endcapture %}
+  {%- unless the_snippet_content contains 'Liquid error' -%}
+    {{ the_snippet_content }}
+  {%- endunless -%}
+  <script>
+    sswRun(function(){
+      var intervalId = setInterval(function() {
+        if(ssw('.ssw-stars.ssw-stars-large').length) {
+          ssw('.ssw-stars.ssw-stars-large').on('click', function() {
+            ssw('.product-page__tabs .tabs__btn[data-tab="reviews"]').click();
+            ssw('html, body').animate({
+              scrollTop: ssw("#ssw-widget-recommends-html").offset().top - 200
+            }, 100);
+          });
+          clearInterval(intervalId);
+        }
+      },1000);
+    });
+  </script>
+  <!-- end Growave app -->
+{%- endif -%}
+
+{%- if settings.reviews_type == 'loox' -%}
+  {{ shop.metafields.loox["global_html_body"] }}
+  <style>
+    .loox-rating .loox-icon {
+      font-size: 1.22em;
+    }
+    .loox-rating .loox-icon:not(:last-child) {
+      margin-right: 5px;
+    }
+    .loox-rating span {
+      margin-left: 2px;
+      vertical-align: 2px;
+    }
+  </style>
+{%- endif -%}
+
+<!-- END APPS -->
+<script>window.performance.mark('theme:DOM:loaded');</script>
+{% comment %}
+{% render 'js-api' %}
+{% endcomment %}
+</body>
+</html>
