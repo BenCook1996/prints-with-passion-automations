@@ -1,6 +1,8 @@
 # Ignore any local credential or session files
 .shopify_token.json
 .gcp_service_account.json
+.devto_token.json
+.hashnode_token.json
 *auth*.json
 *cookie*.json
 .env

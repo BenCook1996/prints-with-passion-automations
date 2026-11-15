@@ -1,0 +1,59 @@
+name: "5. Twice-Weekly Original Editorial Companion & Dofollow Authority Engine"
+
+on:
+  schedule:
+    - cron: '0 8 * * 2,5'
+  workflow_dispatch:
+    inputs:
+      force_run:
+        description: "Bypass 60h cadence cooldown for manual test runs"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pwp-cloud-automations
+  cancel-in-progress: false
+
+jobs:
+  twice-weekly-editorial-authority:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SHOPIFY_ADMIN_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ADMIN_ACCESS_TOKEN }}
+      SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+      SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+      HASHNODE_PAT: ${{ secrets.HASHNODE_PAT }}
+      HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 1. Run Editorial Companion & Dofollow Authority Engine (600-1000w Original Gate + DEV.to API)
+        run: node editorial_companion_authority_engine.mjs ${{ github.event.inputs.force_run == 'true' && '--force' || '' }}
+
+      - name: 2. Refresh Earned Authority Channels & Review Rich-Snippet Tracker
+        run: node review_schema_and_earned_authority_tracker.mjs
+
+      - name: Commit & Push Updated State, Queue & Authority Logs
+        run: |
+          git config user.name "Prints With Passion Cloud Bot"
+          git config user.email "actions@printswithpassion.com"
+          git add editorial_companion_state.json WEEKLY_EDITORIAL_COMPANION_QUEUE.md EDITORIAL_AUTHORITY_LOG.md EARNED_AUTHORITY_OPPORTUNITIES.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(cloud-authority): update twice-weekly editorial companion queue & state"
+            git pull --rebase origin main
+            git push origin main
+          fi
