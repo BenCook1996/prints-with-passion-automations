@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-16T10:40:00.235Z",
+  "capturedAt": "2026-11-16T13:05:39.597Z",
   "gscRows": [
     {
       "keys": [
@@ -1050,7 +1050,7 @@
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 177,
+      "ga4Views28d": 181,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1078,7 +1078,7 @@
       "clicks28d": 1,
       "ctr": 0.0256,
       "averagePosition": 14.2,
-      "ga4Views28d": 46,
+      "ga4Views28d": 47,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1108,7 +1108,20 @@
       "ga4Views28d": 22,
       "ga4AddToCarts28d": 1,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:05:32.262Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide": {
       "impressions28d": 54,
@@ -1118,7 +1131,24 @@
       "ga4Views28d": 38,
       "ga4AddToCarts28d": 2,
       "ga4Purchases28d": 1,
-      "ga4RevenueGbp28d": 39.99
+      "ga4RevenueGbp28d": 39.99,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:05:38.906Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-31T03:42:17Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "userCanonical": "https://printswithpassion.com/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/fr-ch/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+          "/nl-be/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+          "/blogs/news/cyberpunk-fantasy-gaming-desk-setup-ideas-uk"
+        ]
+      }
     },
     "/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk": {
       "impressions28d": 108,
@@ -1191,7 +1221,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 20.06,
-      "ga4Views28d": 487,
+      "ga4Views28d": 490,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1266,7 +1296,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 9,
-      "ga4Views28d": 170,
+      "ga4Views28d": 172,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -2273,7 +2303,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 1.67,
-      "ga4Views28d": 50,
+      "ga4Views28d": 51,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3034,122 +3064,324 @@
         "canonicalOverride": false,
         "referringUrls": []
       }
+    },
+    "/collections/celestial-space-moon-bath-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:04:05.640Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-05T08:07:39Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/celestial-space-moon-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/celestial-space-moon-bath-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/retro-vintage",
+          "/blogs/news/laptop-riser-monitor-desk-mat-layouts-uk"
+        ]
+      }
+    },
+    "/collections/fantasy-gothic-witchy-bath-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:04:12.287Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:23:43Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/fantasy-gothic-witchy-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/fantasy-gothic-witchy-bath-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections",
+          "/collections/cyberpunk-neon-gaming-desk-mats"
+        ]
+      }
+    },
+    "/collections/sci-fi-neon-cyberpunk-bath-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:04:18.907Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:19:46Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/sci-fi-neon-cyberpunk-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/sci-fi-neon-cyberpunk-bath-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/collections/nature-mountain-cabin-throw-blankets",
+          "/collections/animals-wildlife-equestrian-canvas-wall-art"
+        ]
+      }
+    },
+    "/collections/japanese-zen-onsen-bath-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:04:25.544Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T05:03:34Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-zen-onsen-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-zen-onsen-bath-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/collections/sci-fi-neon-cyberpunk-bath-mats",
+          "/blogs/news/laptop-riser-monitor-desk-mat-layouts-uk"
+        ]
+      }
+    },
+    "/collections/retro-vintage-funky-bath-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:04:32.178Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:13:39Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/retro-vintage-funky-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/retro-vintage-funky-bath-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/minimalist-abstract-stone-bath-mats",
+          "/pages/trade-and-bulk-orders"
+        ]
+      }
+    },
+    "/collections/japanese-anime-graphic-t-shirts": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:04:38.921Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:26:57Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/retro-vintage",
+          "/collections/nature-mountain-cabin-throw-blankets"
+        ]
+      }
+    },
+    "/collections/cyberpunk-sci-fi-graphic-t-shirts": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:04:45.483Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
+    },
+    "/collections/space-galaxy-graphic-t-shirts": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:04:52.180Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-05T07:53:52Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts",
+        "userCanonical": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/collections/space-cosmic-astronomy-canvas-wall-art"
+        ]
+      }
+    },
+    "/collections/retro-synthwave-graphic-t-shirts": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:04:58.846Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:13:19Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
+        "userCanonical": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/collections/nature-mountain-cabin-throw-blankets"
+        ]
+      }
+    },
+    "/collections/japanese-ukiyo-e-graphic-hoodies": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:05:05.495Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-05T09:27:15Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/retro-vintage",
+          "/blogs/news/laptop-riser-monitor-desk-mat-layouts-uk"
+        ]
+      }
+    },
+    "/collections/cyberpunk-neon-graphic-hoodies": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:05:12.137Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:17:14Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-graphic-hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-graphic-hoodies",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-dragon-mythic-throw-blankets",
+          "/collections/space-galaxy-graphic-t-shirts"
+        ]
+      }
+    },
+    "/collections/fantasy-dragon-graphic-hoodies": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:05:18.801Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:15:33Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/fantasy-dragon-graphic-hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/fantasy-dragon-graphic-hoodies",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/retro-vintage",
+          "/collections/nature-mountain-cabin-throw-blankets"
+        ]
+      }
+    },
+    "/collections/nature-mountain-graphic-hoodies": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T13:05:25.481Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T03:42:23Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/nature-mountain-graphic-hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/nature-mountain-graphic-hoodies",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/collections/minimalist-abstract-stone-bath-mats"
+        ]
+      }
     }
   },
   "urlInspectionHealth": {
-    "lastRunAt": "2026-11-16T10:39:59.644Z",
-    "cursor": 45,
+    "lastRunAt": "2026-11-16T13:05:38.906Z",
+    "cursor": 60,
     "batchSize": 15,
     "totalInspected": 15,
-    "submittedAndIndexedCount": 11,
-    "discoveredNotIndexedCount": 2,
+    "submittedAndIndexedCount": 13,
+    "discoveredNotIndexedCount": 0,
     "crawledNotIndexedCount": 0,
     "urlUnknownCount": 2,
     "otherCount": 0,
     "errorCount": 0,
     "canonicalOverridesCount": 0,
-    "indexedRatio": 0.7333,
-    "indexedRatioDisplay": "73.3%",
+    "indexedRatio": 0.8667,
+    "indexedRatioDisplay": "86.7%",
     "coverageBreakdown": {
-      "Discovered - currently not indexed": 2,
-      "Submitted and indexed": 11,
+      "Submitted and indexed": 13,
       "URL is unknown to Google": 2
     },
     "canonicalOverrides": [],
     "batchResults": [
       {
-        "url": "https://printswithpassion.com/collections/fantasy-mythology-gothic-cushion-covers",
-        "path": "/collections/fantasy-mythology-gothic-cushion-covers",
-        "verdict": "NEUTRAL",
-        "coverageState": "Discovered - currently not indexed",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/collections/japanese-asian-art-cushion-covers",
-        "path": "/collections/japanese-asian-art-cushion-covers",
+        "url": "https://printswithpassion.com/collections/celestial-space-moon-bath-mats",
+        "path": "/collections/celestial-space-moon-bath-mats",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:40:11Z",
-        "googleCanonical": "https://printswithpassion.com/collections/japanese-asian-art-cushion-covers",
-        "userCanonical": "https://printswithpassion.com/collections/japanese-asian-art-cushion-covers"
+        "lastCrawlTime": "2026-11-05T08:07:39Z",
+        "googleCanonical": "https://printswithpassion.com/collections/celestial-space-moon-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/celestial-space-moon-bath-mats"
       },
       {
-        "url": "https://printswithpassion.com/collections/world-travel-mediterranean-cushion-covers",
-        "path": "/collections/world-travel-mediterranean-cushion-covers",
+        "url": "https://printswithpassion.com/collections/fantasy-gothic-witchy-bath-mats",
+        "path": "/collections/fantasy-gothic-witchy-bath-mats",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:00:15Z",
-        "googleCanonical": "https://printswithpassion.com/collections/world-travel-mediterranean-cushion-covers",
-        "userCanonical": "https://printswithpassion.com/collections/world-travel-mediterranean-cushion-covers"
+        "lastCrawlTime": "2026-11-04T04:23:43Z",
+        "googleCanonical": "https://printswithpassion.com/collections/fantasy-gothic-witchy-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/fantasy-gothic-witchy-bath-mats"
       },
       {
-        "url": "https://printswithpassion.com/collections/retro-vintage-pop-art-cushion-covers",
-        "path": "/collections/retro-vintage-pop-art-cushion-covers",
+        "url": "https://printswithpassion.com/collections/sci-fi-neon-cyberpunk-bath-mats",
+        "path": "/collections/sci-fi-neon-cyberpunk-bath-mats",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:13:38Z",
-        "googleCanonical": "https://printswithpassion.com/collections/retro-vintage-pop-art-cushion-covers",
-        "userCanonical": "https://printswithpassion.com/collections/retro-vintage-pop-art-cushion-covers"
+        "lastCrawlTime": "2026-11-04T04:19:46Z",
+        "googleCanonical": "https://printswithpassion.com/collections/sci-fi-neon-cyberpunk-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/sci-fi-neon-cyberpunk-bath-mats"
       },
       {
-        "url": "https://printswithpassion.com/collections/nature-mountain-cabin-throw-blankets",
-        "path": "/collections/nature-mountain-cabin-throw-blankets",
+        "url": "https://printswithpassion.com/collections/japanese-zen-onsen-bath-mats",
+        "path": "/collections/japanese-zen-onsen-bath-mats",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:17:00Z",
-        "googleCanonical": "https://printswithpassion.com/collections/nature-mountain-cabin-throw-blankets",
-        "userCanonical": "https://printswithpassion.com/collections/nature-mountain-cabin-throw-blankets"
+        "lastCrawlTime": "2026-11-04T05:03:34Z",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-zen-onsen-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-zen-onsen-bath-mats"
       },
       {
-        "url": "https://printswithpassion.com/collections/abstract-boho-kilim-throw-blankets",
-        "path": "/collections/abstract-boho-kilim-throw-blankets",
+        "url": "https://printswithpassion.com/collections/retro-vintage-funky-bath-mats",
+        "path": "/collections/retro-vintage-funky-bath-mats",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:56:55Z",
-        "googleCanonical": "https://printswithpassion.com/collections/abstract-boho-kilim-throw-blankets",
-        "userCanonical": "https://printswithpassion.com/collections/abstract-boho-kilim-throw-blankets"
+        "lastCrawlTime": "2026-11-04T04:13:39Z",
+        "googleCanonical": "https://printswithpassion.com/collections/retro-vintage-funky-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/retro-vintage-funky-bath-mats"
       },
       {
-        "url": "https://printswithpassion.com/collections/space-starry-night-galaxy-throw-blankets",
-        "path": "/collections/space-starry-night-galaxy-throw-blankets",
+        "url": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
+        "path": "/collections/japanese-anime-graphic-t-shirts",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:30:11Z",
-        "googleCanonical": "https://printswithpassion.com/collections/space-starry-night-galaxy-throw-blankets",
-        "userCanonical": "https://printswithpassion.com/collections/space-starry-night-galaxy-throw-blankets"
+        "lastCrawlTime": "2026-11-04T04:26:57Z",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts"
       },
       {
-        "url": "https://printswithpassion.com/collections/animals-wildlife-cozy-throw-blankets",
-        "path": "/collections/animals-wildlife-cozy-throw-blankets",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:18:22Z",
-        "googleCanonical": "https://printswithpassion.com/collections/animals-wildlife-cozy-throw-blankets",
-        "userCanonical": "https://printswithpassion.com/collections/animals-wildlife-cozy-throw-blankets"
-      },
-      {
-        "url": "https://printswithpassion.com/collections/fantasy-dragon-mythic-throw-blankets",
-        "path": "/collections/fantasy-dragon-mythic-throw-blankets",
-        "verdict": "NEUTRAL",
-        "coverageState": "Discovered - currently not indexed",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/collections/sci-fi-cyberpunk-gamer-throw-blankets",
-        "path": "/collections/sci-fi-cyberpunk-gamer-throw-blankets",
+        "url": "https://printswithpassion.com/collections/cyberpunk-sci-fi-graphic-t-shirts",
+        "path": "/collections/cyberpunk-sci-fi-graphic-t-shirts",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -3158,54 +3390,84 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/collections/world-travel-paris-european-throw-blankets",
-        "path": "/collections/world-travel-paris-european-throw-blankets",
+        "url": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts",
+        "path": "/collections/space-galaxy-graphic-t-shirts",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:21:42Z",
-        "googleCanonical": "https://printswithpassion.com/collections/world-travel-paris-european-throw-blankets",
-        "userCanonical": "https://printswithpassion.com/collections/world-travel-paris-european-throw-blankets"
+        "lastCrawlTime": "2026-11-05T07:53:52Z",
+        "googleCanonical": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts",
+        "userCanonical": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts"
       },
       {
-        "url": "https://printswithpassion.com/collections/japanese-sakura-oriental-throw-blankets",
-        "path": "/collections/japanese-sakura-oriental-throw-blankets",
+        "url": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
+        "path": "/collections/retro-synthwave-graphic-t-shirts",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T02:05:20Z",
-        "googleCanonical": "https://printswithpassion.com/collections/japanese-sakura-oriental-throw-blankets",
-        "userCanonical": "https://printswithpassion.com/collections/japanese-sakura-oriental-throw-blankets"
+        "lastCrawlTime": "2026-11-04T04:13:19Z",
+        "googleCanonical": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
+        "userCanonical": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts"
       },
       {
-        "url": "https://printswithpassion.com/collections/coastal-ocean-botanical-bath-mats",
-        "path": "/collections/coastal-ocean-botanical-bath-mats",
+        "url": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
+        "path": "/collections/japanese-ukiyo-e-graphic-hoodies",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-05T08:22:25Z",
-        "googleCanonical": "https://printswithpassion.com/collections/coastal-ocean-botanical-bath-mats",
-        "userCanonical": "https://printswithpassion.com/collections/coastal-ocean-botanical-bath-mats"
+        "lastCrawlTime": "2026-11-05T09:27:15Z",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies"
       },
       {
-        "url": "https://printswithpassion.com/collections/minimalist-abstract-stone-bath-mats",
-        "path": "/collections/minimalist-abstract-stone-bath-mats",
+        "url": "https://printswithpassion.com/collections/cyberpunk-neon-graphic-hoodies",
+        "path": "/collections/cyberpunk-neon-graphic-hoodies",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:00:23Z",
-        "googleCanonical": "https://printswithpassion.com/collections/minimalist-abstract-stone-bath-mats",
-        "userCanonical": "https://printswithpassion.com/collections/minimalist-abstract-stone-bath-mats"
+        "lastCrawlTime": "2026-11-04T04:17:14Z",
+        "googleCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-graphic-hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-graphic-hoodies"
       },
       {
-        "url": "https://printswithpassion.com/collections/animals-wildlife-whimsical-bath-mats",
-        "path": "/collections/animals-wildlife-whimsical-bath-mats",
+        "url": "https://printswithpassion.com/collections/fantasy-dragon-graphic-hoodies",
+        "path": "/collections/fantasy-dragon-graphic-hoodies",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:15:33Z",
+        "googleCanonical": "https://printswithpassion.com/collections/fantasy-dragon-graphic-hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/fantasy-dragon-graphic-hoodies"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/nature-mountain-graphic-hoodies",
+        "path": "/collections/nature-mountain-graphic-hoodies",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T03:42:23Z",
+        "googleCanonical": "https://printswithpassion.com/collections/nature-mountain-graphic-hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/nature-mountain-graphic-hoodies"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/nature-landscape-canvas-prints",
+        "path": "/collections/nature-landscape-canvas-prints",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
         "lastCrawlTime": "NEVER",
         "googleCanonical": null,
         "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "path": "/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-31T03:42:17Z",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "userCanonical": "https://printswithpassion.com/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide"
       }
     ]
   }
