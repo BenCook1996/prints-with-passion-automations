@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-15T12:12:09.715Z",
+  "capturedAt": "2026-11-16T10:40:00.235Z",
   "gscRows": [
     {
       "keys": [
@@ -937,10 +937,10 @@
   "gscProperty": "https://printswithpassion.com/",
   "ga4PropertyId": "363520144",
   "storewideSummary": {
-    "impressions28d": 217,
-    "clicks28d": 2,
-    "ctr28d": 0.0092,
-    "averagePosition28d": 33.33,
+    "impressions28d": 220,
+    "clicks28d": 3,
+    "ctr28d": 0.0136,
+    "averagePosition28d": 33.55,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -958,9 +958,9 @@
     "blockedByRobotsTxt": 24880,
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
-    "clicks7d": 0,
-    "impressions7d": 39,
-    "averagePosition7d": 36.1,
+    "clicks7d": 1,
+    "impressions7d": 43,
+    "averagePosition7d": 40.02,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
@@ -1050,7 +1050,7 @@
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 175,
+      "ga4Views28d": 177,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1171,11 +1171,11 @@
       "ga4RevenueGbp28d": 0
     },
     "/en-us": {
-      "impressions28d": 17,
+      "impressions28d": 20,
       "clicks28d": 2,
-      "ctr": 0.1176,
-      "averagePosition": 21.76,
-      "ga4Views28d": 68,
+      "ctr": 0.1,
+      "averagePosition": 18.8,
+      "ga4Views28d": 67,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1187,11 +1187,11 @@
       "averagePosition": 4
     },
     "/": {
-      "impressions28d": 25,
+      "impressions28d": 31,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 15.68,
-      "ga4Views28d": 489,
+      "averagePosition": 20.06,
+      "ga4Views28d": 487,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1227,10 +1227,10 @@
       "averagePosition": 29
     },
     "/cart": {
-      "impressions28d": 1,
+      "impressions28d": 4,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 7
+      "averagePosition": 4
     },
     "/collections/apparel": {
       "impressions28d": 1,
@@ -1266,7 +1266,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 9,
-      "ga4Views28d": 166,
+      "ga4Views28d": 170,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1302,16 +1302,32 @@
       "averagePosition": 2
     },
     "/collections/clothing": {
-      "impressions28d": 12,
+      "impressions28d": 15,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 4.25
+      "averagePosition": 4.87
     },
     "/collections/coastal-ocean-botanical-bath-mats": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 8
+      "averagePosition": 8,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:47.014Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-05T08:22:25Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/coastal-ocean-botanical-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/coastal-ocean-botanical-bath-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/blogs/news/chaise-longue-daybed-throw-blanket-drapes-uk"
+        ]
+      }
     },
     "/collections/dog-collars": {
       "impressions28d": 10,
@@ -1320,17 +1336,17 @@
       "averagePosition": 66.4
     },
     "/collections/duffle-bags": {
-      "impressions28d": 2,
+      "impressions28d": 5,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 88.5
+      "averagePosition": 38.4
     },
     "/collections/hoodies": {
       "impressions28d": 9,
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 60.44,
-      "ga4Views28d": 62,
+      "ga4Views28d": 65,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -1348,10 +1364,10 @@
       "averagePosition": 9
     },
     "/collections/phone-cases": {
-      "impressions28d": 13,
+      "impressions28d": 16,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2
+      "averagePosition": 2.38
     },
     "/collections/plush-blankets": {
       "impressions28d": 12,
@@ -1822,10 +1838,10 @@
       "averagePosition": 70
     },
     "/pages/delivery-return": {
-      "impressions28d": 5,
+      "impressions28d": 8,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 3,
+      "averagePosition": 4.13,
       "urlInspection": {
         "inspectedAt": "2026-11-14T16:57:07.365Z",
         "verdict": "PASS",
@@ -1899,10 +1915,10 @@
       "averagePosition": 1
     },
     "/products/copy-of-alpine-peak-adventure-cap": {
-      "impressions28d": 2,
+      "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 43
+      "averagePosition": 7
     },
     "/products/copy-of-caesar-neon-dream-baseball-cap": {
       "impressions28d": 1,
@@ -2257,7 +2273,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 1.67,
-      "ga4Views28d": 49,
+      "ga4Views28d": 50,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2311,10 +2327,26 @@
       "averagePosition": 89
     },
     "/collections/animals-wildlife-cozy-throw-blankets": {
-      "impressions28d": 1,
+      "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 61
+      "averagePosition": 61,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:14.738Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:18:22Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/animals-wildlife-cozy-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/animals-wildlife-cozy-throw-blankets",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/retro-vintage",
+          "/collections/nature-mountain-cabin-throw-blankets"
+        ]
+      }
     },
     "/nl-nl/products/sunken-tower-rising-from-the-ocean-ii-square-cushion-cover": {
       "impressions28d": 1,
@@ -2341,7 +2373,7 @@
           "/products/and-gold-abstract-design-that-will-make-you-stand-out-on-the-beach-whether-youre-lounging-by-the-pool-or-catching-some-waves-in-the-ocean?variant=55127866802549&country=GB&currency=GBP"
         ]
       },
-      "ga4Views28d": 162,
+      "ga4Views28d": 166,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2366,7 +2398,7 @@
           "/"
         ]
       },
-      "ga4Views28d": 70,
+      "ga4Views28d": 75,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2420,7 +2452,7 @@
           "/pages/desk-setup-hardware-compatibility-guide"
         ]
       },
-      "ga4Views28d": 62,
+      "ga4Views28d": 66,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2549,7 +2581,7 @@
           "/pages/trade-and-bulk-orders"
         ]
       },
-      "ga4Views28d": 134,
+      "ga4Views28d": 136,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2731,32 +2763,303 @@
           "/collections/japanese-ukiyo-e-graphic-hoodies"
         ]
       }
+    },
+    "/products/monkey-magic-mouse-pad": {
+      "impressions28d": 1,
+      "clicks28d": 1,
+      "ctr": 1,
+      "averagePosition": 1
+    },
+    "/blogs/news": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 8.33
+    },
+    "/collections/bags": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 7
+    },
+    "/collections/journals": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
+    },
+    "/products/bioluminescent-jungle-at-dusk-plush-fleece-throw-blanket": {
+      "impressions28d": 3,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 10
+    },
+    "/products/pearl-gold-modern-kilim-geometric-square-cushion-cover": {
+      "impressions28d": 2,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 9
+    },
+    "/products/time-machine-disguised-as-locket-graphic-unisex-college-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 68
+    },
+    "/collections/fantasy-mythology-gothic-cushion-covers": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:38:29.564Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/animals-wildlife-equestrian-canvas-wall-art",
+          "/collections/world-travel-paris-european-throw-blankets"
+        ]
+      }
+    },
+    "/collections/japanese-asian-art-cushion-covers": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:38:35.907Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:40:11Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-asian-art-cushion-covers",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-asian-art-cushion-covers",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-dragon-mythic-throw-blankets",
+          "/collections/animals-wildlife-equestrian-canvas-wall-art"
+        ]
+      }
+    },
+    "/collections/world-travel-mediterranean-cushion-covers": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:38:42.260Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T05:00:15Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/world-travel-mediterranean-cushion-covers",
+        "userCanonical": "https://printswithpassion.com/collections/world-travel-mediterranean-cushion-covers",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/animals-wildlife-equestrian-canvas-wall-art",
+          "/collections/animals-wildlife-cozy-throw-blankets"
+        ]
+      }
+    },
+    "/collections/retro-vintage-pop-art-cushion-covers": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:38:48.617Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T05:13:38Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/retro-vintage-pop-art-cushion-covers",
+        "userCanonical": "https://printswithpassion.com/collections/retro-vintage-pop-art-cushion-covers",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/coastal-ocean-botanical-bath-mats",
+          "/collections/japanese-ukiyo-e-graphic-hoodies"
+        ]
+      }
+    },
+    "/collections/nature-mountain-cabin-throw-blankets": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:38:55.013Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T05:17:00Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/nature-mountain-cabin-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/nature-mountain-cabin-throw-blankets",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/fantasy-gothic-witchy-bath-mats",
+          "/collections/space-cosmic-astronomy-canvas-wall-art",
+          "/collections/japanese-zen-onsen-bath-mats"
+        ]
+      }
+    },
+    "/collections/abstract-boho-kilim-throw-blankets": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:01.437Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:56:55Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/abstract-boho-kilim-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/abstract-boho-kilim-throw-blankets",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/animals-wildlife-equestrian-canvas-wall-art",
+          "/collections/fantasy-dragon-mythic-throw-blankets"
+        ]
+      }
+    },
+    "/collections/space-starry-night-galaxy-throw-blankets": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:07.799Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T05:30:11Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/space-starry-night-galaxy-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/space-starry-night-galaxy-throw-blankets",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/japanese-ukiyo-e-zen-canvas-wall-art",
+          "/collections/sci-fi-neon-cyberpunk-bath-mats"
+        ]
+      }
+    },
+    "/collections/fantasy-dragon-mythic-throw-blankets": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:21.071Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/minimalist-abstract-stone-bath-mats",
+          "/collections/nature-mountain-cabin-throw-blankets"
+        ]
+      }
+    },
+    "/collections/sci-fi-cyberpunk-gamer-throw-blankets": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:27.405Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
+    },
+    "/collections/world-travel-paris-european-throw-blankets": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:33.739Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:21:42Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/world-travel-paris-european-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/world-travel-paris-european-throw-blankets",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/pages/studio-quality-vs-generic-prints",
+          "/collections/fantasy-dragon-graphic-hoodies"
+        ]
+      }
+    },
+    "/collections/japanese-sakura-oriental-throw-blankets": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:40.630Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T02:05:20Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-sakura-oriental-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-sakura-oriental-throw-blankets",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/minimalist-abstract-stone-bath-mats"
+        ]
+      }
+    },
+    "/collections/minimalist-abstract-stone-bath-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:53.364Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T05:00:23Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/minimalist-abstract-stone-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/minimalist-abstract-stone-bath-mats",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/animals-wildlife-equestrian-canvas-wall-art",
+          "/collections/cyberpunk-neon-graphic-hoodies",
+          "/collections/japanese-zen-onsen-bath-mats"
+        ]
+      }
+    },
+    "/collections/animals-wildlife-whimsical-bath-mats": {
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T10:39:59.644Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     }
   },
   "urlInspectionHealth": {
-    "lastRunAt": "2026-11-15T12:12:08.815Z",
-    "cursor": 30,
+    "lastRunAt": "2026-11-16T10:39:59.644Z",
+    "cursor": 45,
     "batchSize": 15,
     "totalInspected": 15,
-    "submittedAndIndexedCount": 12,
+    "submittedAndIndexedCount": 11,
     "discoveredNotIndexedCount": 2,
     "crawledNotIndexedCount": 0,
-    "urlUnknownCount": 1,
+    "urlUnknownCount": 2,
     "otherCount": 0,
     "errorCount": 0,
     "canonicalOverridesCount": 0,
-    "indexedRatio": 0.8,
-    "indexedRatioDisplay": "80.0%",
+    "indexedRatio": 0.7333,
+    "indexedRatioDisplay": "73.3%",
     "coverageBreakdown": {
       "Discovered - currently not indexed": 2,
-      "Submitted and indexed": 12,
-      "URL is unknown to Google": 1
+      "Submitted and indexed": 11,
+      "URL is unknown to Google": 2
     },
     "canonicalOverrides": [],
     "batchResults": [
       {
-        "url": "https://printswithpassion.com/collections/minimalist-abstract-geometric-desk-mats",
-        "path": "/collections/minimalist-abstract-geometric-desk-mats",
+        "url": "https://printswithpassion.com/collections/fantasy-mythology-gothic-cushion-covers",
+        "path": "/collections/fantasy-mythology-gothic-cushion-covers",
         "verdict": "NEUTRAL",
         "coverageState": "Discovered - currently not indexed",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -2765,68 +3068,88 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/collections/animals-wildlife-pet-desk-mats",
-        "path": "/collections/animals-wildlife-pet-desk-mats",
+        "url": "https://printswithpassion.com/collections/japanese-asian-art-cushion-covers",
+        "path": "/collections/japanese-asian-art-cushion-covers",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T01:51:17Z",
-        "googleCanonical": "https://printswithpassion.com/collections/animals-wildlife-pet-desk-mats",
-        "userCanonical": "https://printswithpassion.com/collections/animals-wildlife-pet-desk-mats"
+        "lastCrawlTime": "2026-11-04T04:40:11Z",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-asian-art-cushion-covers",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-asian-art-cushion-covers"
       },
       {
-        "url": "https://printswithpassion.com/collections/retro-vintage-synthwave-desk-mats",
-        "path": "/collections/retro-vintage-synthwave-desk-mats",
+        "url": "https://printswithpassion.com/collections/world-travel-mediterranean-cushion-covers",
+        "path": "/collections/world-travel-mediterranean-cushion-covers",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:15:01Z",
-        "googleCanonical": "https://printswithpassion.com/collections/retro-vintage-synthwave-desk-mats",
-        "userCanonical": "https://printswithpassion.com/collections/retro-vintage-synthwave-desk-mats"
+        "lastCrawlTime": "2026-11-04T05:00:15Z",
+        "googleCanonical": "https://printswithpassion.com/collections/world-travel-mediterranean-cushion-covers",
+        "userCanonical": "https://printswithpassion.com/collections/world-travel-mediterranean-cushion-covers"
       },
       {
-        "url": "https://printswithpassion.com/collections/nature-mountain-landscape-canvas-wall-art",
-        "path": "/collections/nature-mountain-landscape-canvas-wall-art",
+        "url": "https://printswithpassion.com/collections/retro-vintage-pop-art-cushion-covers",
+        "path": "/collections/retro-vintage-pop-art-cushion-covers",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:33:58Z",
-        "googleCanonical": "https://printswithpassion.com/collections/nature-mountain-landscape-canvas-wall-art",
-        "userCanonical": "https://printswithpassion.com/collections/nature-mountain-landscape-canvas-wall-art"
+        "lastCrawlTime": "2026-11-04T05:13:38Z",
+        "googleCanonical": "https://printswithpassion.com/collections/retro-vintage-pop-art-cushion-covers",
+        "userCanonical": "https://printswithpassion.com/collections/retro-vintage-pop-art-cushion-covers"
       },
       {
-        "url": "https://printswithpassion.com/collections/botanical-floral-coastal-canvas-wall-art",
-        "path": "/collections/botanical-floral-coastal-canvas-wall-art",
+        "url": "https://printswithpassion.com/collections/nature-mountain-cabin-throw-blankets",
+        "path": "/collections/nature-mountain-cabin-throw-blankets",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:37:04Z",
-        "googleCanonical": "https://printswithpassion.com/collections/botanical-floral-coastal-canvas-wall-art",
-        "userCanonical": "https://printswithpassion.com/collections/botanical-floral-coastal-canvas-wall-art"
+        "lastCrawlTime": "2026-11-04T05:17:00Z",
+        "googleCanonical": "https://printswithpassion.com/collections/nature-mountain-cabin-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/nature-mountain-cabin-throw-blankets"
       },
       {
-        "url": "https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art",
-        "path": "/collections/abstract-minimalist-bauhaus-canvas-wall-art",
+        "url": "https://printswithpassion.com/collections/abstract-boho-kilim-throw-blankets",
+        "path": "/collections/abstract-boho-kilim-throw-blankets",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:56:59Z",
-        "googleCanonical": "https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art",
-        "userCanonical": "https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art"
+        "lastCrawlTime": "2026-11-04T04:56:55Z",
+        "googleCanonical": "https://printswithpassion.com/collections/abstract-boho-kilim-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/abstract-boho-kilim-throw-blankets"
       },
       {
-        "url": "https://printswithpassion.com/collections/japanese-ukiyo-e-zen-canvas-wall-art",
-        "path": "/collections/japanese-ukiyo-e-zen-canvas-wall-art",
+        "url": "https://printswithpassion.com/collections/space-starry-night-galaxy-throw-blankets",
+        "path": "/collections/space-starry-night-galaxy-throw-blankets",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:06:59Z",
-        "googleCanonical": "https://printswithpassion.com/collections/japanese-ukiyo-e-zen-canvas-wall-art",
-        "userCanonical": "https://printswithpassion.com/collections/japanese-ukiyo-e-zen-canvas-wall-art"
+        "lastCrawlTime": "2026-11-04T05:30:11Z",
+        "googleCanonical": "https://printswithpassion.com/collections/space-starry-night-galaxy-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/space-starry-night-galaxy-throw-blankets"
       },
       {
-        "url": "https://printswithpassion.com/collections/animals-wildlife-equestrian-canvas-wall-art",
-        "path": "/collections/animals-wildlife-equestrian-canvas-wall-art",
+        "url": "https://printswithpassion.com/collections/animals-wildlife-cozy-throw-blankets",
+        "path": "/collections/animals-wildlife-cozy-throw-blankets",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:18:22Z",
+        "googleCanonical": "https://printswithpassion.com/collections/animals-wildlife-cozy-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/animals-wildlife-cozy-throw-blankets"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/fantasy-dragon-mythic-throw-blankets",
+        "path": "/collections/fantasy-dragon-mythic-throw-blankets",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/collections/sci-fi-cyberpunk-gamer-throw-blankets",
+        "path": "/collections/sci-fi-cyberpunk-gamer-throw-blankets",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -2835,70 +3158,50 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/collections/world-travel-city-skyline-canvas-wall-art",
-        "path": "/collections/world-travel-city-skyline-canvas-wall-art",
+        "url": "https://printswithpassion.com/collections/world-travel-paris-european-throw-blankets",
+        "path": "/collections/world-travel-paris-european-throw-blankets",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:46:53Z",
-        "googleCanonical": "https://printswithpassion.com/collections/world-travel-city-skyline-canvas-wall-art",
-        "userCanonical": "https://printswithpassion.com/collections/world-travel-city-skyline-canvas-wall-art"
+        "lastCrawlTime": "2026-11-04T04:21:42Z",
+        "googleCanonical": "https://printswithpassion.com/collections/world-travel-paris-european-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/world-travel-paris-european-throw-blankets"
       },
       {
-        "url": "https://printswithpassion.com/collections/space-cosmic-astronomy-canvas-wall-art",
-        "path": "/collections/space-cosmic-astronomy-canvas-wall-art",
+        "url": "https://printswithpassion.com/collections/japanese-sakura-oriental-throw-blankets",
+        "path": "/collections/japanese-sakura-oriental-throw-blankets",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:20:17Z",
-        "googleCanonical": "https://printswithpassion.com/collections/space-cosmic-astronomy-canvas-wall-art",
-        "userCanonical": "https://printswithpassion.com/collections/space-cosmic-astronomy-canvas-wall-art"
+        "lastCrawlTime": "2026-11-04T02:05:20Z",
+        "googleCanonical": "https://printswithpassion.com/collections/japanese-sakura-oriental-throw-blankets",
+        "userCanonical": "https://printswithpassion.com/collections/japanese-sakura-oriental-throw-blankets"
       },
       {
-        "url": "https://printswithpassion.com/collections/sci-fi-cyberpunk-neon-canvas-wall-art",
-        "path": "/collections/sci-fi-cyberpunk-neon-canvas-wall-art",
+        "url": "https://printswithpassion.com/collections/coastal-ocean-botanical-bath-mats",
+        "path": "/collections/coastal-ocean-botanical-bath-mats",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T06:59:42Z",
-        "googleCanonical": "https://printswithpassion.com/collections/sci-fi-cyberpunk-neon-canvas-wall-art",
-        "userCanonical": "https://printswithpassion.com/collections/sci-fi-cyberpunk-neon-canvas-wall-art"
+        "lastCrawlTime": "2026-11-05T08:22:25Z",
+        "googleCanonical": "https://printswithpassion.com/collections/coastal-ocean-botanical-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/coastal-ocean-botanical-bath-mats"
       },
       {
-        "url": "https://printswithpassion.com/collections/botanical-floral-garden-cushion-covers",
-        "path": "/collections/botanical-floral-garden-cushion-covers",
+        "url": "https://printswithpassion.com/collections/minimalist-abstract-stone-bath-mats",
+        "path": "/collections/minimalist-abstract-stone-bath-mats",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T06:10:16Z",
-        "googleCanonical": "https://printswithpassion.com/collections/botanical-floral-garden-cushion-covers",
-        "userCanonical": "https://printswithpassion.com/collections/botanical-floral-garden-cushion-covers"
+        "lastCrawlTime": "2026-11-04T05:00:23Z",
+        "googleCanonical": "https://printswithpassion.com/collections/minimalist-abstract-stone-bath-mats",
+        "userCanonical": "https://printswithpassion.com/collections/minimalist-abstract-stone-bath-mats"
       },
       {
-        "url": "https://printswithpassion.com/collections/abstract-geometric-bauhaus-cushion-covers",
-        "path": "/collections/abstract-geometric-bauhaus-cushion-covers",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:40:12Z",
-        "googleCanonical": "https://printswithpassion.com/collections/abstract-geometric-bauhaus-cushion-covers",
-        "userCanonical": "https://printswithpassion.com/collections/abstract-geometric-bauhaus-cushion-covers"
-      },
-      {
-        "url": "https://printswithpassion.com/collections/animals-wildlife-woodland-cushion-covers",
-        "path": "/collections/animals-wildlife-woodland-cushion-covers",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:20:02Z",
-        "googleCanonical": "https://printswithpassion.com/collections/animals-wildlife-woodland-cushion-covers",
-        "userCanonical": "https://printswithpassion.com/collections/animals-wildlife-woodland-cushion-covers"
-      },
-      {
-        "url": "https://printswithpassion.com/collections/space-celestial-galaxy-cushion-covers",
-        "path": "/collections/space-celestial-galaxy-cushion-covers",
+        "url": "https://printswithpassion.com/collections/animals-wildlife-whimsical-bath-mats",
+        "path": "/collections/animals-wildlife-whimsical-bath-mats",
         "verdict": "NEUTRAL",
-        "coverageState": "Discovered - currently not indexed",
+        "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
         "lastCrawlTime": "NEVER",
         "googleCanonical": null,
