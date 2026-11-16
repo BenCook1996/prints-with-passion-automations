@@ -109,14 +109,25 @@ async function ensureRobotsTxtAllowsAiSearchBotsAndClearsPosBlock() {
   if (!content) return false;
 
   let modified = false;
-  // Remove Disallow: /*?_pos=*, Disallow: /*&_sid=*, and Disallow: /*?variant=*
-  // Allowing ?variant= is mandatory for Google Merchant Center (Googlebot / Storebot-Google)
-  // to crawl variant landing pages without triggering landing_page_crawling_not_allowed.
+  // Unblock ?_pos=, ?variant=, &variant=, utm_medium=product_sync, and deactivated
+  // locale subfolders so Googlebot can crawl GMC landing pages and see real HTTP 404/301
+  // responses instead of freezing 68K+ legacy ghost URLs behind BLOCKED_ROBOTS_TXT.
   const cleaned = content
     .replace(/^[ \t]*-?[ \t]*['"]?Disallow:\s*\/\*[?&]_pos=\*['"]?[ \t]*\r?\n?/gim, '')
     .replace(/^[ \t]*-?[ \t]*['"]?Disallow:\s*\/\*[?&]_sid=\*['"]?[ \t]*\r?\n?/gim, '')
     .replace(/^[ \t]*-?[ \t]*['"]?Disallow:\s*\/\*[?&]_ss=\*['"]?[ \t]*\r?\n?/gim, '')
-    .replace(/^[ \t]*-?[ \t]*['"]?Disallow:\s*\/\*\?variant=\*['"]?[ \t]*\r?\n?/gim, '');
+    .replace(/^[ \t]*-?[ \t]*['"]?Disallow:\s*\/\*\?variant=\*['"]?[ \t]*\r?\n?/gim, '')
+    .replace(/^[ \t]*-?[ \t]*['"]?Disallow:\s*\/\*&variant=\*['"]?[ \t]*\r?\n?/gim, '')
+    .replace(/^[ \t]*-?[ \t]*['"]?Disallow:\s*\/\*utm_source=google\*['"]?[ \t]*\r?\n?/gim, '')
+    .replace(/^[ \t]*-?[ \t]*['"]?Disallow:\s*\/\*utm_medium=product_sync\*['"]?[ \t]*\r?\n?/gim, '')
+    .replace(
+      /^[ \t]*Disallow:\s*\/(?:en-cy|el-cy|en-sk|en-gr|en-pl|en-pt|pt-pt|de-at|en-it|en-be|fr-be|nl-be|en-ca|fr-ca|en-fr|fr-fr|en-de|de-de|en-nl|nl-nl|en-us|en-es|es-es|en-ch|de-ch|fr-ch|en-tr|en-ua)\/[ \t]*\r?\n?/gim,
+      ''
+    )
+    .replace(
+      /\{\%-?\s*endif\s*-?%\}\s*\{\%-?\s*if\s+group\.sitemap\s*!=\s*blank\s*-?%\}\s*\{\{\s*group\.sitemap\s*\}\}\s*\{\%-?\s*endif\s*-?%\}/i,
+      `{% endif %}\n\n  {% if group.sitemap != blank %}\n{{ group.sitemap }}\n  {% endif %}`
+    );
 
   if (cleaned !== content) {
     content = cleaned;
@@ -141,13 +152,18 @@ Allow: /
   }
 
   if (modified) {
-    await shopifyGraphQL(`
+    const res = await shopifyGraphQL(`
       mutation UpsertRobots($files: [OnlineStoreThemeFilesUpsertFileInput!]!) {
         themeFilesUpsert(themeId: "${THEME_ID}", files: $files) {
           upsertedThemeFiles { filename }
+          userErrors { field message }
         }
       }
     `, { files: [{ filename: 'templates/robots.txt.liquid', body: { type: 'TEXT', value: content } }] });
+    const errs = res?.themeFilesUpsert?.userErrors || [];
+    if (errs.length > 0) {
+      throw new Error(`robots.txt.liquid upsert error: ${JSON.stringify(errs)}`);
+    }
   }
   return true;
 }

@@ -80,11 +80,14 @@ async function main() {
     console.log(`  [PASS] Sitemap index is clean (${locs.length} canonical root sitemaps, 1 blog container, 0 duplicate locale subfolders).`);
   }
 
-  // 2. Check /robots.txt crawl budget rules & Storebot-Google / Googlebot-Image allowances + IndexNow Key Endpoint
+  // 2. Check /robots.txt crawl budget rules, deactivated-locale unblocking, standalone Sitemap & Storebot-Google / Googlebot-Image + IndexNow Key Endpoint
   const rbRes = await fetch('https://printswithpassion.com/robots.txt?t=' + Date.now());
   const rbTxt = await rbRes.text();
   const noPosTrap = !rbTxt.includes('Disallow: /*?_pos=*');
   const noVariantBlock = !rbTxt.includes('Disallow: /*?variant=*');
+  const noUtmSyncBlock = !rbTxt.includes('Disallow: /*utm_source=google*') && !rbTxt.includes('Disallow: /*&variant=*');
+  const noDeactivatedLocaleTrap = !/^Disallow:\s*\/(?:en-us|en-fr|de-de|de-at|en-cy|en-nl|en-pl|en-pt|en-gr)\/\s*$/im.test(rbTxt);
+  const hasStandaloneSitemap = /^Sitemap:\s*https:\/\/printswithpassion\.com\/sitemap\.xml\s*$/m.test(rbTxt);
   const hasSortFilterBlock = rbTxt.includes('Disallow: /collections/*sort_by*') || rbTxt.includes('Disallow: /*?sort_by=*');
   const hasStorebotAllow = rbTxt.includes('User-agent: Storebot-Google');
   const hasImagebotAllow = rbTxt.includes('User-agent: Googlebot-Image');
@@ -93,12 +96,12 @@ async function main() {
   const keyBody = (await keyRes.text()).trim();
   const indexNowKeyOk = keyRes.status === 200 && keyBody === INDEXNOW_KEY;
 
-  console.log(`[2/6] /robots.txt status=${rbRes.status}, noPosTrap=${noPosTrap}, noVariantBlock=${noVariantBlock}, sortFilterBlocked=${hasSortFilterBlock}, storebotAllow=${hasStorebotAllow}, imagebotAllow=${hasImagebotAllow}, indexNowKeyOk=${indexNowKeyOk}`);
-  if (!noPosTrap || !noVariantBlock || !hasSortFilterBlock || !hasStorebotAllow || !hasImagebotAllow || !indexNowKeyOk) {
+  console.log(`[2/6] /robots.txt status=${rbRes.status}, noPosTrap=${noPosTrap}, noVariantBlock=${noVariantBlock}, noUtmSyncBlock=${noUtmSyncBlock}, noLocaleTrap=${noDeactivatedLocaleTrap}, standaloneSitemap=${hasStandaloneSitemap}, sortFilterBlocked=${hasSortFilterBlock}, storebotAllow=${hasStorebotAllow}, imagebotAllow=${hasImagebotAllow}, indexNowKeyOk=${indexNowKeyOk}`);
+  if (!noPosTrap || !noVariantBlock || !noUtmSyncBlock || !noDeactivatedLocaleTrap || !hasStandaloneSitemap || !hasSortFilterBlock || !hasStorebotAllow || !hasImagebotAllow || !indexNowKeyOk) {
     console.error('  [ERROR] /robots.txt or IndexNow key endpoint verification failed!');
     errors++;
   } else {
-    console.log('  [PASS] /robots.txt directives (?variant= unblocked for GMC landing page crawl, sort/filter blocked, _pos unblocked) & IndexNow key endpoint verified.');
+    console.log('  [PASS] /robots.txt directives (?variant=/utm unblocked for GMC, deactivated locales unblocked for 404/301 purge, standalone Sitemap, sort/filter blocked) & IndexNow verified.');
   }
 
   // 3. Check live HTML, Canonical URL, TTFB (ms), Clean 4-Column Footer Nav, Anti-Bloat DOM, Product 3-Level BreadcrumbList, Blog Index ItemList, Visualizer WebApplication, and 4K Wallpaper ItemList Schema
