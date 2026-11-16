@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "2.1.0-closed-loop",
-  "updatedAt": "2026-11-09T23:02:11.646Z",
+  "updatedAt": "2026-11-16T14:23:37.966Z",
   "trackingCadence": "bi-weekly",
   "storeDomain": "https://printswithpassion.com",
   "storewideMetrics": {
@@ -65,19 +65,27 @@
           "ctr": 0.0326,
           "averagePosition": 16.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 92,
         "clicks28d": 3,
         "ctr": 0.0326,
         "averagePosition": 16.8,
-        "ga4Views28d": 68,
-        "ga4AddToCarts28d": 6,
-        "ga4Purchases28d": 2,
-        "ga4RevenueGbp28d": 74.98
+        "ga4Views28d": 42,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
       "titleCooldownActive": true,
@@ -95,13 +103,13 @@
             "averagePosition": 18.4
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
             "averagePosition": 16.8,
-            "ga4AddToCarts28d": 6,
-            "ga4Purchases28d": 2
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 1.6,
@@ -130,13 +138,13 @@
             "ga4Purchases28d": 2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
             "averagePosition": 16.8,
-            "ga4AddToCarts28d": 6,
-            "ga4Purchases28d": 2
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 0,
@@ -202,19 +210,27 @@
           "ctr": 0.0326,
           "averagePosition": 16.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 92,
         "clicks28d": 3,
         "ctr": 0.0326,
         "averagePosition": 16.8,
-        "ga4Views28d": 68,
-        "ga4AddToCarts28d": 6,
-        "ga4Purchases28d": 2,
-        "ga4RevenueGbp28d": 74.98
+        "ga4Views28d": 42,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
       "titleCooldownActive": true,
@@ -232,13 +248,13 @@
             "averagePosition": 16.2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
             "averagePosition": 16.8,
-            "ga4AddToCarts28d": 6,
-            "ga4Purchases28d": 2
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": -0.6,
@@ -267,13 +283,13 @@
             "ga4Purchases28d": 2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
             "averagePosition": 16.8,
-            "ga4AddToCarts28d": 6,
-            "ga4Purchases28d": 2
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 0,
@@ -339,11 +355,19 @@
           "ctr": 0.0741,
           "averagePosition": 9.6,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 54,
+          "clicks28d": 4,
+          "ctr": 0.0741,
+          "averagePosition": 9.6,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 54,
         "clicks28d": 4,
         "ctr": 0.0741,
@@ -369,7 +393,7 @@
             "averagePosition": 11.2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 54,
             "clicks28d": 4,
             "ctr": 0.0741,
@@ -404,7 +428,7 @@
             "ga4Purchases28d": 1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 54,
             "clicks28d": 4,
             "ctr": 0.0741,
@@ -475,11 +499,19 @@
           "ctr": 0.0556,
           "averagePosition": 8.2,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 108,
+          "clicks28d": 6,
+          "ctr": 0.0556,
+          "averagePosition": 8.2,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 108,
         "clicks28d": 6,
         "ctr": 0.0556,
@@ -505,7 +537,7 @@
             "averagePosition": 9.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 108,
             "clicks28d": 6,
             "ctr": 0.0556,
@@ -540,7 +572,7 @@
             "ga4Purchases28d": 1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 108,
             "clicks28d": 6,
             "ctr": 0.0556,
@@ -612,11 +644,19 @@
           "ctr": 0.0435,
           "averagePosition": 12.9,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 46,
+          "clicks28d": 2,
+          "ctr": 0.0435,
+          "averagePosition": 12.9,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 46,
         "clicks28d": 2,
         "ctr": 0.0435,
@@ -642,7 +682,7 @@
             "averagePosition": 14.5
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 46,
             "clicks28d": 2,
             "ctr": 0.0435,
@@ -677,7 +717,7 @@
             "ga4Purchases28d": 1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 46,
             "clicks28d": 2,
             "ctr": 0.0435,
@@ -749,19 +789,27 @@
           "ctr": 0.0326,
           "averagePosition": 16.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 92,
         "clicks28d": 3,
         "ctr": 0.0326,
         "averagePosition": 16.8,
-        "ga4Views28d": 68,
-        "ga4AddToCarts28d": 6,
-        "ga4Purchases28d": 2,
-        "ga4RevenueGbp28d": 74.98
+        "ga4Views28d": 42,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
       "titleCooldownActive": true,
@@ -779,13 +827,13 @@
             "averagePosition": 21
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
             "averagePosition": 16.8,
-            "ga4AddToCarts28d": 6,
-            "ga4Purchases28d": 2
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 4.2,
@@ -814,13 +862,13 @@
             "ga4Purchases28d": 2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
             "averagePosition": 16.8,
-            "ga4AddToCarts28d": 6,
-            "ga4Purchases28d": 2
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 0,
@@ -886,19 +934,27 @@
           "ctr": 0.0253,
           "averagePosition": 21.4,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 79,
+          "clicks28d": 2,
+          "ctr": 0.0253,
+          "averagePosition": 21.4,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 79,
         "clicks28d": 2,
         "ctr": 0.0253,
         "averagePosition": 21.4,
-        "ga4Views28d": 49,
-        "ga4AddToCarts28d": 4,
-        "ga4Purchases28d": 1,
-        "ga4RevenueGbp28d": 64.99
+        "ga4Views28d": 182,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
       "titleCooldownActive": false,
@@ -916,13 +972,13 @@
             "averagePosition": 24.5
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 79,
             "clicks28d": 2,
             "ctr": 0.0253,
             "averagePosition": 21.4,
-            "ga4AddToCarts28d": 4,
-            "ga4Purchases28d": 1
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 3.1,
@@ -986,11 +1042,19 @@
           "ctr": 0.0492,
           "averagePosition": 10.8,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 61,
+          "clicks28d": 3,
+          "ctr": 0.0492,
+          "averagePosition": 10.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 61,
         "clicks28d": 3,
         "ctr": 0.0492,
@@ -1016,7 +1080,7 @@
             "averagePosition": 12.1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 61,
             "clicks28d": 3,
             "ctr": 0.0492,
@@ -1051,7 +1115,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 61,
             "clicks28d": 3,
             "ctr": 0.0492,
@@ -1122,11 +1186,19 @@
           "ctr": 0.0556,
           "averagePosition": 6.8,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 72,
+          "clicks28d": 4,
+          "ctr": 0.0556,
+          "averagePosition": 6.8,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 72,
         "clicks28d": 4,
         "ctr": 0.0556,
@@ -1152,7 +1224,7 @@
             "averagePosition": 7.4
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 72,
             "clicks28d": 4,
             "ctr": 0.0556,
@@ -1187,7 +1259,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 72,
             "clicks28d": 4,
             "ctr": 0.0556,
@@ -1259,17 +1331,25 @@
           "ctr": 0.0256,
           "averagePosition": 14.2,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 39,
+          "clicks28d": 1,
+          "ctr": 0.0256,
+          "averagePosition": 14.2,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 39,
         "clicks28d": 1,
         "ctr": 0.0256,
         "averagePosition": 14.2,
-        "ga4Views28d": 27,
-        "ga4AddToCarts28d": 2,
+        "ga4Views28d": 48,
+        "ga4AddToCarts28d": 0,
         "ga4Purchases28d": 0,
         "ga4RevenueGbp28d": 0
       },
@@ -1289,12 +1369,12 @@
             "averagePosition": 15.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 39,
             "clicks28d": 1,
             "ctr": 0.0256,
             "averagePosition": 14.2,
-            "ga4AddToCarts28d": 2,
+            "ga4AddToCarts28d": 0,
             "ga4Purchases28d": 0
           },
           "attributionDelta": {
@@ -1324,12 +1404,12 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 39,
             "clicks28d": 1,
             "ctr": 0.0256,
             "averagePosition": 14.2,
-            "ga4AddToCarts28d": 2,
+            "ga4AddToCarts28d": 0,
             "ga4Purchases28d": 0
           },
           "attributionDelta": {
@@ -1396,11 +1476,19 @@
           "ctr": 0.0417,
           "averagePosition": 8.9,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 48,
+          "clicks28d": 2,
+          "ctr": 0.0417,
+          "averagePosition": 8.9,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 48,
         "clicks28d": 2,
         "ctr": 0.0417,
@@ -1426,7 +1514,7 @@
             "averagePosition": 8.9
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 48,
             "clicks28d": 2,
             "ctr": 0.0417,
@@ -1461,7 +1549,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 48,
             "clicks28d": 2,
             "ctr": 0.0417,
@@ -1534,11 +1622,19 @@
           "ctr": 0.0494,
           "averagePosition": 9.1,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 81,
+          "clicks28d": 4,
+          "ctr": 0.0494,
+          "averagePosition": 9.1,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 81,
         "clicks28d": 4,
         "ctr": 0.0494,
@@ -1564,7 +1660,7 @@
             "averagePosition": 9.1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 81,
             "clicks28d": 4,
             "ctr": 0.0494,
@@ -1599,7 +1695,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 81,
             "clicks28d": 4,
             "ctr": 0.0494,
@@ -1671,19 +1767,27 @@
           "ctr": 0.0326,
           "averagePosition": 16.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 92,
         "clicks28d": 3,
         "ctr": 0.0326,
         "averagePosition": 16.8,
-        "ga4Views28d": 68,
-        "ga4AddToCarts28d": 6,
-        "ga4Purchases28d": 2,
-        "ga4RevenueGbp28d": 74.98
+        "ga4Views28d": 42,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
       "titleCooldownActive": true,
@@ -1701,13 +1805,13 @@
             "averagePosition": 19.3
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
             "averagePosition": 16.8,
-            "ga4AddToCarts28d": 6,
-            "ga4Purchases28d": 2
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 2.5,
@@ -1736,13 +1840,13 @@
             "ga4Purchases28d": 2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
             "averagePosition": 16.8,
-            "ga4AddToCarts28d": 6,
-            "ga4Purchases28d": 2
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 0,
@@ -1807,11 +1911,19 @@
           "ctr": 0.0278,
           "averagePosition": 11.4,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 36,
+          "clicks28d": 1,
+          "ctr": 0.0278,
+          "averagePosition": 11.4,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 36,
         "clicks28d": 1,
         "ctr": 0.0278,
@@ -1837,7 +1949,7 @@
             "averagePosition": 11.4
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -1872,7 +1984,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -1943,11 +2055,19 @@
           "ctr": 0.0357,
           "averagePosition": 13.8,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 28,
+          "clicks28d": 1,
+          "ctr": 0.0357,
+          "averagePosition": 13.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 28,
         "clicks28d": 1,
         "ctr": 0.0357,
@@ -1973,7 +2093,7 @@
             "averagePosition": 13.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 28,
             "clicks28d": 1,
             "ctr": 0.0357,
@@ -2008,7 +2128,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 28,
             "clicks28d": 1,
             "ctr": 0.0357,
@@ -2080,19 +2200,27 @@
           "ctr": 0.0357,
           "averagePosition": 14.8,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 28,
+          "clicks28d": 1,
+          "ctr": 0.0357,
+          "averagePosition": 14.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 28,
         "clicks28d": 1,
         "ctr": 0.0357,
         "averagePosition": 14.8,
-        "ga4Views28d": 31,
-        "ga4AddToCarts28d": 3,
-        "ga4Purchases28d": 1,
-        "ga4RevenueGbp28d": 34.99
+        "ga4Views28d": 18,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
       "titleCooldownActive": false,
@@ -2110,13 +2238,13 @@
             "averagePosition": 17.1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 28,
             "clicks28d": 1,
             "ctr": 0.0357,
             "averagePosition": 14.8,
-            "ga4AddToCarts28d": 3,
-            "ga4Purchases28d": 1
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 2.3,
@@ -2125,8 +2253,33 @@
             "deltaImpressions28d": 6
           },
           "verdict": "WIN — Rank/CTR Improved"
+        },
+        {
+          "eventId": "EVT-KW-016-17966",
+          "timestamp": "2026-11-16T14:23:37.966Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 14.8) Competitor Spec Title/Meta upgrade for \"cyberpunk desk mat 900x400\"",
+          "previousTitle": "Sci-Fi & Cyberpunk XXL Gaming Desk Mats | 4mm Mouse Pads",
+          "newTitle": "Cyberpunk Neon Gaming XXL Desk Mats | XXL Desk Mats",
+          "previousMeta": "Shop Sci-Fi, Cyberpunk & Synthwave XXL gaming desk mats featuring 4mm high-density non-slip rubber and stitched anti-fray edges. Free tracked UK delivery.",
+          "newMeta": "Explore curated Cyberpunk Neon Gaming desk mats: 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth. Free UK delivery.",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-16",
+            "impressions28d": 28,
+            "clicks28d": 1,
+            "ctr": 0.0357,
+            "averagePosition": 14.8,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": null,
+          "attributionDelta": null,
+          "verdict": "PENDING_7D_WINDOW"
         }
-      ]
+      ],
+      "lastModifiedAt": "2026-11-16T14:23:37.966Z",
+      "lastModifiedType": "TITLE_META_CTR_REWRITE",
+      "lastTitleChangeAt": "2026-11-16T14:23:37.966Z"
     },
     {
       "id": "KW-017",
@@ -2179,11 +2332,19 @@
           "ctr": 0.0278,
           "averagePosition": 19.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 36,
+          "clicks28d": 1,
+          "ctr": 0.0278,
+          "averagePosition": 19.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 36,
         "clicks28d": 1,
         "ctr": 0.0278,
@@ -2209,7 +2370,7 @@
             "averagePosition": 22.3
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -2244,7 +2405,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -2279,7 +2440,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -2349,11 +2510,19 @@
           "ctr": 0.0256,
           "averagePosition": 10.6,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 39,
+          "clicks28d": 1,
+          "ctr": 0.0256,
+          "averagePosition": 10.6,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 39,
         "clicks28d": 1,
         "ctr": 0.0256,
@@ -2379,7 +2548,7 @@
             "averagePosition": 10.6
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 39,
             "clicks28d": 1,
             "ctr": 0.0256,
@@ -2414,7 +2583,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 39,
             "clicks28d": 1,
             "ctr": 0.0256,
@@ -2485,11 +2654,19 @@
           "ctr": 0.0455,
           "averagePosition": 11.8,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 44,
+          "clicks28d": 2,
+          "ctr": 0.0455,
+          "averagePosition": 11.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 44,
         "clicks28d": 2,
         "ctr": 0.0455,
@@ -2515,7 +2692,7 @@
             "averagePosition": 11.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 44,
             "clicks28d": 2,
             "ctr": 0.0455,
@@ -2583,11 +2760,19 @@
           "ctr": 0.04,
           "averagePosition": 14.1,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 25,
+          "clicks28d": 1,
+          "ctr": 0.04,
+          "averagePosition": 14.1,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 25,
         "clicks28d": 1,
         "ctr": 0.04,
@@ -2613,7 +2798,7 @@
             "averagePosition": 14.1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 25,
             "clicks28d": 1,
             "ctr": 0.04,
@@ -2681,19 +2866,27 @@
           "ctr": 0.0253,
           "averagePosition": 21.4,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 79,
+          "clicks28d": 2,
+          "ctr": 0.0253,
+          "averagePosition": 21.4,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 79,
         "clicks28d": 2,
         "ctr": 0.0253,
         "averagePosition": 21.4,
-        "ga4Views28d": 49,
-        "ga4AddToCarts28d": 4,
-        "ga4Purchases28d": 1,
-        "ga4RevenueGbp28d": 64.99
+        "ga4Views28d": 182,
+        "ga4AddToCarts28d": 0,
+        "ga4Purchases28d": 0,
+        "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
       "titleCooldownActive": false,
@@ -2711,13 +2904,13 @@
             "averagePosition": 26.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 79,
             "clicks28d": 2,
             "ctr": 0.0253,
             "averagePosition": 21.4,
-            "ga4AddToCarts28d": 4,
-            "ga4Purchases28d": 1
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
           },
           "attributionDelta": {
             "deltaPosition": 5.4,
@@ -2779,11 +2972,19 @@
           "ctr": 0.0476,
           "averagePosition": 8.5,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 21,
+          "clicks28d": 1,
+          "ctr": 0.0476,
+          "averagePosition": 8.5,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 21,
         "clicks28d": 1,
         "ctr": 0.0476,
@@ -2809,7 +3010,7 @@
             "averagePosition": 8.5
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 21,
             "clicks28d": 1,
             "ctr": 0.0476,
@@ -2877,11 +3078,19 @@
           "ctr": 0.0286,
           "averagePosition": 17.5,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 35,
+          "clicks28d": 1,
+          "ctr": 0.0286,
+          "averagePosition": 17.5,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 35,
         "clicks28d": 1,
         "ctr": 0.0286,
@@ -2907,7 +3116,7 @@
             "averagePosition": 17.5
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 35,
             "clicks28d": 1,
             "ctr": 0.0286,
@@ -2942,7 +3151,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 35,
             "clicks28d": 1,
             "ctr": 0.0286,
@@ -2977,7 +3186,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 35,
             "clicks28d": 1,
             "ctr": 0.0286,
@@ -3047,11 +3256,19 @@
           "ctr": 0.0667,
           "averagePosition": 12.3,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 15,
+          "clicks28d": 1,
+          "ctr": 0.0667,
+          "averagePosition": 12.3,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 15,
         "clicks28d": 1,
         "ctr": 0.0667,
@@ -3077,7 +3294,7 @@
             "averagePosition": 12.3
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 15,
             "clicks28d": 1,
             "ctr": 0.0667,
@@ -3145,11 +3362,19 @@
           "ctr": 0.0588,
           "averagePosition": 9.4,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-16",
+          "impressions28d": 34,
+          "clicks28d": 2,
+          "ctr": 0.0588,
+          "averagePosition": 9.4,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-09",
+        "checkedAt": "2026-11-16",
         "impressions28d": 34,
         "clicks28d": 2,
         "ctr": 0.0588,
@@ -3175,7 +3400,7 @@
             "averagePosition": 10.2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 34,
             "clicks28d": 2,
             "ctr": 0.0588,
@@ -3210,7 +3435,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-09",
+            "checkedAt": "2026-11-16",
             "impressions28d": 34,
             "clicks28d": 2,
             "ctr": 0.0588,
@@ -3233,16 +3458,16 @@
     }
   ],
   "storewideLatestGscGa4": {
-    "impressions28d": 2610,
-    "clicks28d": 26,
-    "ctr28d": 0.01,
-    "averagePosition28d": 24.3,
+    "impressions28d": 220,
+    "clicks28d": 3,
+    "ctr28d": 0.0136,
+    "averagePosition28d": 33.55,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
-    "ga4AddToCarts28d": 29,
-    "ga4Purchases28d": 7,
-    "ga4RevenueGbp28d": 318.93,
+    "ga4AddToCarts28d": 0,
+    "ga4Purchases28d": 0,
+    "ga4RevenueGbp28d": 0,
     "lastGscUpdateDate": "2026-11-06 (Page Indexing) / 2026-11-09 (Search Performance)",
     "indexedPages": 84100,
     "notIndexedPages": 642000,
@@ -3254,20 +3479,20 @@
     "blockedByRobotsTxt": 24880,
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
-    "clicks7d": 0,
-    "impressions7d": 46,
-    "averagePosition7d": 36.8,
+    "clicks7d": 1,
+    "impressions7d": 43,
+    "averagePosition7d": 40.02,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
   "calibrationState": {
-    "calibratedAt": "2026-11-09T23:02:11.651Z",
+    "calibratedAt": "2026-11-16T14:23:31.548Z",
     "sampleSize": 25,
     "volumeRealizationMultiplier": 0.674,
     "daysPerDifficultyPoint": 1.555,
     "substrateConversionMultipliers": {
-      "Desk Mats": 1.25,
-      "Canvas Wall Art": 1.25,
+      "Desk Mats": 1.123,
+      "Canvas Wall Art": 1.05,
       "Ecosystem": 1.25
     }
   }

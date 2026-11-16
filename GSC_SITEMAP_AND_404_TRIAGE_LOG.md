@@ -1,11 +1,11 @@
 # Prints With Passion — GSC Sitemap Hygiene, 404 Triage & Toxic Query Sync Log
 
-- **Last Executed:** `2026-11-09T19:02:03.721Z`
+- **Last Executed:** `2026-11-16T14:23:31.501Z`
 - **Live Canonical Child Sitemaps:** `7`
 - **Retired Seasonal Gift Matrix Blocks Stripped:** `0`
 - **Clean Non-IP 404 Handles 301-Redirected to Parent Collections:** `19`
 - **Toxic Adult-Performer / Celebrity / IP 404 Handles Quarantined (Left 404 for De-Indexing):** `14`
-- **GSC Chrome CDP Sitemaps & Validation Sync:** `{"connected":false,"reason":"timeout: Runtime.evaluate"}`
+- **GSC Chrome CDP Sitemaps & Validation Sync:** `{"connected":true,"mode":"GOOGLE_SERVICE_ACCOUNT_API","sitemapsSynced":0,"staleSitemapsDeleted":0}`
 
 ## 1. Clean Non-IP 404 Handles 301-Redirected
 - `/products/kerala-backwaters-painting-bath-mat` → `/collections/bath-mats`

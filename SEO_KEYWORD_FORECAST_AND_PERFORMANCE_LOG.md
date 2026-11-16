@@ -1,9 +1,9 @@
 # Prints With Passion — Transactional Keyword Forecast vs. Actuals & Pre/Post Attribution Ledger
 
-- **Updated At:** `2026-11-09T23:02:11.646Z`
+- **Updated At:** `2026-11-16T14:23:31.547Z`
 - **Tracked Transactional Targets:** `25` (`17` in Strike-Zone Positions `4.0–15.9`)
-- **Storewide 28d Snapshot:** `2610` Impressions | `26` Clicks | Avg Pos `24.3` | GA4 Revenue `£318.93`
-- **Empirical Forecast Calibration:** Volume Multiplier `0.674x` | Days per KD Point `1.555d` | Substrate Multipliers: `{"Desk Mats":1.25,"Canvas Wall Art":1.25,"Ecosystem":1.25}`
+- **Storewide 28d Snapshot:** `220` Impressions | `3` Clicks | Avg Pos `33.55` | GA4 Revenue `£0`
+- **Empirical Forecast Calibration:** Volume Multiplier `0.674x` | Days per KD Point `1.555d` | Substrate Multipliers: `{"Desk Mats":1.123,"Canvas Wall Art":1.05,"Ecosystem":1.25}`
 
 ## 1. Forecast vs. Actuals & Strike-Zone Status Table
 

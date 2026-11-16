@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-16T13:05:39.597Z",
+  "capturedAt": "2026-11-16T14:23:31.499Z",
   "gscRows": [
     {
       "keys": [
@@ -1050,7 +1050,7 @@
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 181,
+      "ga4Views28d": 182,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1078,7 +1078,7 @@
       "clicks28d": 1,
       "ctr": 0.0256,
       "averagePosition": 14.2,
-      "ga4Views28d": 47,
+      "ga4Views28d": 48,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1158,7 +1158,25 @@
       "ga4Views28d": 44,
       "ga4AddToCarts28d": 3,
       "ga4Purchases28d": 1,
-      "ga4RevenueGbp28d": 63.98
+      "ga4RevenueGbp28d": 63.98,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:21:55.533Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-28T11:18:09Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+        "userCanonical": "https://printswithpassion.com/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-de/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+          "/nl-nl/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+          "/es-es/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+          "/en-gr/blogs/news/ergonomic-wrist-rest-vs-flat-desk-mat-uk"
+        ]
+      }
     },
     "/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed": {
       "impressions28d": 61,
@@ -1168,7 +1186,25 @@
       "ga4Views28d": 29,
       "ga4AddToCarts28d": 2,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:22:02.158Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-27T01:02:29Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed",
+        "userCanonical": "https://printswithpassion.com/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/fr-ch/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed",
+          "/en-de/blogs/news/dining-room-canvas-wall-art-sizing-uk",
+          "/en-us/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
+          "/sitemap_articles_1.xml"
+        ]
+      }
     },
     "/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule": {
       "impressions28d": 72,
@@ -1178,7 +1214,25 @@
       "ga4Views28d": 34,
       "ga4AddToCarts28d": 1,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:22:11.790Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-27T10:56:19Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
+        "userCanonical": "https://printswithpassion.com/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/nl-be/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
+          "/en-it/blogs/news/tagged/framed-prints-vs-canvas-uk.atom",
+          "/blogs/news/how-to-style-throw-blanket-on-sofa-uk-guide",
+          "/de-at/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule"
+        ]
+      }
     },
     "/pages/desk-size-visualizer": {
       "impressions28d": 58,
@@ -1188,7 +1242,23 @@
       "ga4Views28d": 62,
       "ga4AddToCarts28d": 5,
       "ga4Purchases28d": 1,
-      "ga4RevenueGbp28d": 54.99
+      "ga4RevenueGbp28d": 54.99,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:22:18.262Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-31T14:03:07Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/pages/desk-size-visualizer",
+        "userCanonical": "https://printswithpassion.com/pages/desk-size-visualizer",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/pages/delivery-return",
+          "/pages/free-4k-wallpapers"
+        ]
+      }
     },
     "/pages/desk-setup-hardware-compatibility-guide": {
       "impressions28d": 34,
@@ -1198,7 +1268,23 @@
       "ga4Views28d": 28,
       "ga4AddToCarts28d": 2,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:22:24.658Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T04:16:41Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/pages/desk-setup-hardware-compatibility-guide",
+        "userCanonical": "https://printswithpassion.com/pages/desk-setup-hardware-compatibility-guide",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections",
+          "/products/zen-minimalist-meditative-horizon-memory-foam-bath-mat"
+        ]
+      }
     },
     "/en-us": {
       "impressions28d": 20,
@@ -1208,13 +1294,44 @@
       "ga4Views28d": 67,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
-      "ga4RevenueGbp28d": 0
+      "ga4RevenueGbp28d": 0,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:22:31.286Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Page with redirect",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-13T23:22:44Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/",
+        "userCanonical": "https://printswithpassion.com/",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/",
+          "/en-us/search?page=10&q=Relaxation",
+          "/en-us/products/star-wars-death-star-conquer-the-galaxy-t-shirt",
+          "http://printswithpassion.com/"
+        ]
+      }
     },
     "/products/pitt-perfect-cap-channeling-brads-cool-factor": {
       "impressions28d": 1,
       "clicks28d": 1,
       "ctr": 1,
-      "averagePosition": 4
+      "averagePosition": 4,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:22:37.670Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/": {
       "impressions28d": 31,
@@ -1248,19 +1365,68 @@
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 5
+      "averagePosition": 5,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:22:44.326Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-05T10:42:19Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall",
+        "userCanonical": "https://printswithpassion.com/blogs/news/best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/blogs/news/best-24x36-tokyo-neon-street-skyline-canvas-wall-art-for-modern-dining-room"
+        ]
+      }
     },
     "/blogs/news/from-scoundrels-to-soldiers-the-impact-of-non-force-users-on-the-rebellion": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 29
+      "averagePosition": 29,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:22:50.810Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-19T06:50:50Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/from-scoundrels-to-soldiers-the-impact-of-non-force-users-on-the-rebellion",
+        "userCanonical": "https://printswithpassion.com/blogs/news/from-scoundrels-to-soldiers-the-impact-of-non-force-users-on-the-rebellion",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-sk/blogs/news/from-scoundrels-to-soldiers-the-impact-of-non-force-users-on-the-rebellion",
+          "/blogs/news"
+        ]
+      }
     },
     "/cart": {
       "impressions28d": 4,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 4
+      "averagePosition": 4,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:22:57.400Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-04T16:57:41Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/cart",
+        "userCanonical": "https://printswithpassion.com/cart",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/de-de/products/bold-minimalistic-mountain-landscape-art",
+          "/en-gr/products/enchanting-woodland-creatures-coffee-mug-a-whimsical-morning-delight",
+          "/de-at/products/zen-art-minimalistic-bath-mat?_pos=1997&_sid=f3244867a&_ss=r",
+          "/"
+        ]
+      }
     },
     "/collections/apparel": {
       "impressions28d": 1,
@@ -1323,19 +1489,72 @@
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 5
+      "averagePosition": 5,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:23:04.246Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-08-14T02:43:30Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/bottle-opener",
+        "userCanonical": "https://printswithpassion.com/collections/bottle-opener",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/royal-princess-coffee-mug",
+          "/products/green-mountain-majesty-a-natural-wonder?variant=55127570186613&country=GB&currency=GBP",
+          "/products/craters?variant=49202738200887",
+          "/products/copy-of-neon-watercolor-queen-puzzle"
+        ]
+      }
     },
     "/collections/bottles": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2
+      "averagePosition": 2,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:23:10.868Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-26T00:06:54Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/bottles",
+        "userCanonical": "https://printswithpassion.com/collections/bottles",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/ink-swirl-tiger-art-poster",
+          "/collections/posters",
+          "/products/earth-our-fragile-oasis-in-the-cosmos?variant=49166970192183&currency=GBP"
+        ]
+      }
     },
     "/collections/clothing": {
       "impressions28d": 15,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 4.87
+      "averagePosition": 4.87,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:23:17.455Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-19T18:20:38Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/clothing",
+        "userCanonical": "https://printswithpassion.com/collections/clothing",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-de/collections/clothing?page=2",
+          "/collections/all-products",
+          "/collections/all/Colorful?page=2",
+          "/it-it/collections/clothing"
+        ]
+      }
     },
     "/collections/coastal-ocean-botanical-bath-mats": {
       "impressions28d": 1,
@@ -1363,20 +1582,53 @@
       "impressions28d": 10,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 66.4
+      "averagePosition": 66.4,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:23:24.157Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-11T17:55:16Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/dog-collars",
+        "userCanonical": "https://printswithpassion.com/collections/dog-collars",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/all?constraint=oceanography",
+          "/"
+        ]
+      }
     },
     "/collections/duffle-bags": {
       "impressions28d": 5,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 38.4
+      "averagePosition": 38.4,
+      "urlInspection": {
+        "inspectedAt": "2026-11-16T14:23:30.677Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-17T11:01:56Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/duffle-bags",
+        "userCanonical": "https://printswithpassion.com/collections/duffle-bags",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/buy-stunning-sunken-tower-poster?_pos=39&_sid=9c3280c49&_ss=r",
+          "/products/copy-of-pixel-art-console-jigsaw-puzzle?variant=55128028709237&country=GB&currency=GBP",
+          "/products/earth-our-fragile-oasis-in-the-cosmos?variant=49166970192183&currency=GBP"
+        ]
+      }
     },
     "/collections/hoodies": {
       "impressions28d": 9,
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 60.44,
-      "ga4Views28d": 65,
+      "ga4Views28d": 66,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2403,7 +2655,7 @@
           "/products/and-gold-abstract-design-that-will-make-you-stand-out-on-the-beach-whether-youre-lounging-by-the-pool-or-catching-some-waves-in-the-ocean?variant=55127866802549&country=GB&currency=GBP"
         ]
       },
-      "ga4Views28d": 166,
+      "ga4Views28d": 167,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2482,7 +2734,7 @@
           "/pages/desk-setup-hardware-compatibility-guide"
         ]
       },
-      "ga4Views28d": 66,
+      "ga4Views28d": 67,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3300,88 +3552,89 @@
     }
   },
   "urlInspectionHealth": {
-    "lastRunAt": "2026-11-16T13:05:38.906Z",
-    "cursor": 60,
+    "lastRunAt": "2026-11-16T14:23:30.677Z",
+    "cursor": 75,
     "batchSize": 15,
     "totalInspected": 15,
     "submittedAndIndexedCount": 13,
     "discoveredNotIndexedCount": 0,
     "crawledNotIndexedCount": 0,
-    "urlUnknownCount": 2,
-    "otherCount": 0,
+    "urlUnknownCount": 1,
+    "otherCount": 1,
     "errorCount": 0,
     "canonicalOverridesCount": 0,
     "indexedRatio": 0.8667,
     "indexedRatioDisplay": "86.7%",
     "coverageBreakdown": {
       "Submitted and indexed": 13,
-      "URL is unknown to Google": 2
+      "Page with redirect": 1,
+      "URL is unknown to Google": 1
     },
     "canonicalOverrides": [],
     "batchResults": [
       {
-        "url": "https://printswithpassion.com/collections/celestial-space-moon-bath-mats",
-        "path": "/collections/celestial-space-moon-bath-mats",
+        "url": "https://printswithpassion.com/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+        "path": "/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-05T08:07:39Z",
-        "googleCanonical": "https://printswithpassion.com/collections/celestial-space-moon-bath-mats",
-        "userCanonical": "https://printswithpassion.com/collections/celestial-space-moon-bath-mats"
+        "lastCrawlTime": "2026-10-28T11:18:09Z",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk",
+        "userCanonical": "https://printswithpassion.com/blogs/news/desk-mat-thickness-guide-2mm-vs-3mm-vs-4mm-uk"
       },
       {
-        "url": "https://printswithpassion.com/collections/fantasy-gothic-witchy-bath-mats",
-        "path": "/collections/fantasy-gothic-witchy-bath-mats",
+        "url": "https://printswithpassion.com/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed",
+        "path": "/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:23:43Z",
-        "googleCanonical": "https://printswithpassion.com/collections/fantasy-gothic-witchy-bath-mats",
-        "userCanonical": "https://printswithpassion.com/collections/fantasy-gothic-witchy-bath-mats"
+        "lastCrawlTime": "2026-10-27T01:02:29Z",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed",
+        "userCanonical": "https://printswithpassion.com/blogs/news/how-to-choose-canvas-wall-art-size-above-uk-sofa-or-bed"
       },
       {
-        "url": "https://printswithpassion.com/collections/sci-fi-neon-cyberpunk-bath-mats",
-        "path": "/collections/sci-fi-neon-cyberpunk-bath-mats",
+        "url": "https://printswithpassion.com/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
+        "path": "/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:19:46Z",
-        "googleCanonical": "https://printswithpassion.com/collections/sci-fi-neon-cyberpunk-bath-mats",
-        "userCanonical": "https://printswithpassion.com/collections/sci-fi-neon-cyberpunk-bath-mats"
+        "lastCrawlTime": "2026-10-27T10:56:19Z",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule",
+        "userCanonical": "https://printswithpassion.com/blogs/news/canvas-wall-art-hanging-height-guide-uk-57-inch-rule"
       },
       {
-        "url": "https://printswithpassion.com/collections/japanese-zen-onsen-bath-mats",
-        "path": "/collections/japanese-zen-onsen-bath-mats",
+        "url": "https://printswithpassion.com/pages/desk-size-visualizer",
+        "path": "/pages/desk-size-visualizer",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T05:03:34Z",
-        "googleCanonical": "https://printswithpassion.com/collections/japanese-zen-onsen-bath-mats",
-        "userCanonical": "https://printswithpassion.com/collections/japanese-zen-onsen-bath-mats"
+        "lastCrawlTime": "2026-10-31T14:03:07Z",
+        "googleCanonical": "https://printswithpassion.com/pages/desk-size-visualizer",
+        "userCanonical": "https://printswithpassion.com/pages/desk-size-visualizer"
       },
       {
-        "url": "https://printswithpassion.com/collections/retro-vintage-funky-bath-mats",
-        "path": "/collections/retro-vintage-funky-bath-mats",
+        "url": "https://printswithpassion.com/pages/desk-setup-hardware-compatibility-guide",
+        "path": "/pages/desk-setup-hardware-compatibility-guide",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:13:39Z",
-        "googleCanonical": "https://printswithpassion.com/collections/retro-vintage-funky-bath-mats",
-        "userCanonical": "https://printswithpassion.com/collections/retro-vintage-funky-bath-mats"
+        "lastCrawlTime": "2026-11-04T04:16:41Z",
+        "googleCanonical": "https://printswithpassion.com/pages/desk-setup-hardware-compatibility-guide",
+        "userCanonical": "https://printswithpassion.com/pages/desk-setup-hardware-compatibility-guide"
       },
       {
-        "url": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
-        "path": "/collections/japanese-anime-graphic-t-shirts",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
+        "url": "https://printswithpassion.com/en-us",
+        "path": "/en-us",
+        "verdict": "NEUTRAL",
+        "coverageState": "Page with redirect",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:26:57Z",
-        "googleCanonical": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
-        "userCanonical": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts"
+        "lastCrawlTime": "2026-11-13T23:22:44Z",
+        "googleCanonical": "https://printswithpassion.com/",
+        "userCanonical": "https://printswithpassion.com/"
       },
       {
-        "url": "https://printswithpassion.com/collections/cyberpunk-sci-fi-graphic-t-shirts",
-        "path": "/collections/cyberpunk-sci-fi-graphic-t-shirts",
+        "url": "https://printswithpassion.com/products/pitt-perfect-cap-channeling-brads-cool-factor",
+        "path": "/products/pitt-perfect-cap-channeling-brads-cool-factor",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -3390,84 +3643,84 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts",
-        "path": "/collections/space-galaxy-graphic-t-shirts",
+        "url": "https://printswithpassion.com/blogs/news/best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall",
+        "path": "/blogs/news/best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-05T07:53:52Z",
-        "googleCanonical": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts",
-        "userCanonical": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts"
+        "lastCrawlTime": "2026-11-05T10:42:19Z",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall",
+        "userCanonical": "https://printswithpassion.com/blogs/news/best-24x36-highland-cow-wildlife-canvas-wall-art-for-dark-green-accent-wall"
       },
       {
-        "url": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
-        "path": "/collections/retro-synthwave-graphic-t-shirts",
+        "url": "https://printswithpassion.com/blogs/news/from-scoundrels-to-soldiers-the-impact-of-non-force-users-on-the-rebellion",
+        "path": "/blogs/news/from-scoundrels-to-soldiers-the-impact-of-non-force-users-on-the-rebellion",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:13:19Z",
-        "googleCanonical": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
-        "userCanonical": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts"
+        "lastCrawlTime": "2026-09-19T06:50:50Z",
+        "googleCanonical": "https://printswithpassion.com/blogs/news/from-scoundrels-to-soldiers-the-impact-of-non-force-users-on-the-rebellion",
+        "userCanonical": "https://printswithpassion.com/blogs/news/from-scoundrels-to-soldiers-the-impact-of-non-force-users-on-the-rebellion"
       },
       {
-        "url": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
-        "path": "/collections/japanese-ukiyo-e-graphic-hoodies",
+        "url": "https://printswithpassion.com/cart",
+        "path": "/cart",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-05T09:27:15Z",
-        "googleCanonical": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
-        "userCanonical": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies"
+        "lastCrawlTime": "2026-11-04T16:57:41Z",
+        "googleCanonical": "https://printswithpassion.com/cart",
+        "userCanonical": "https://printswithpassion.com/cart"
       },
       {
-        "url": "https://printswithpassion.com/collections/cyberpunk-neon-graphic-hoodies",
-        "path": "/collections/cyberpunk-neon-graphic-hoodies",
+        "url": "https://printswithpassion.com/collections/bottle-opener",
+        "path": "/collections/bottle-opener",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:17:14Z",
-        "googleCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-graphic-hoodies",
-        "userCanonical": "https://printswithpassion.com/collections/cyberpunk-neon-graphic-hoodies"
+        "lastCrawlTime": "2026-08-14T02:43:30Z",
+        "googleCanonical": "https://printswithpassion.com/collections/bottle-opener",
+        "userCanonical": "https://printswithpassion.com/collections/bottle-opener"
       },
       {
-        "url": "https://printswithpassion.com/collections/fantasy-dragon-graphic-hoodies",
-        "path": "/collections/fantasy-dragon-graphic-hoodies",
+        "url": "https://printswithpassion.com/collections/bottles",
+        "path": "/collections/bottles",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T04:15:33Z",
-        "googleCanonical": "https://printswithpassion.com/collections/fantasy-dragon-graphic-hoodies",
-        "userCanonical": "https://printswithpassion.com/collections/fantasy-dragon-graphic-hoodies"
+        "lastCrawlTime": "2026-10-26T00:06:54Z",
+        "googleCanonical": "https://printswithpassion.com/collections/bottles",
+        "userCanonical": "https://printswithpassion.com/collections/bottles"
       },
       {
-        "url": "https://printswithpassion.com/collections/nature-mountain-graphic-hoodies",
-        "path": "/collections/nature-mountain-graphic-hoodies",
+        "url": "https://printswithpassion.com/collections/clothing",
+        "path": "/collections/clothing",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-04T03:42:23Z",
-        "googleCanonical": "https://printswithpassion.com/collections/nature-mountain-graphic-hoodies",
-        "userCanonical": "https://printswithpassion.com/collections/nature-mountain-graphic-hoodies"
+        "lastCrawlTime": "2026-10-19T18:20:38Z",
+        "googleCanonical": "https://printswithpassion.com/collections/clothing",
+        "userCanonical": "https://printswithpassion.com/collections/clothing"
       },
       {
-        "url": "https://printswithpassion.com/collections/nature-landscape-canvas-prints",
-        "path": "/collections/nature-landscape-canvas-prints",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
-        "path": "/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "url": "https://printswithpassion.com/collections/dog-collars",
+        "path": "/collections/dog-collars",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-31T03:42:17Z",
-        "googleCanonical": "https://printswithpassion.com/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
-        "userCanonical": "https://printswithpassion.com/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide"
+        "lastCrawlTime": "2026-10-11T17:55:16Z",
+        "googleCanonical": "https://printswithpassion.com/collections/dog-collars",
+        "userCanonical": "https://printswithpassion.com/collections/dog-collars"
+      },
+      {
+        "url": "https://printswithpassion.com/collections/duffle-bags",
+        "path": "/collections/duffle-bags",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-17T11:01:56Z",
+        "googleCanonical": "https://printswithpassion.com/collections/duffle-bags",
+        "userCanonical": "https://printswithpassion.com/collections/duffle-bags"
       }
     ]
   }

@@ -1,6 +1,6 @@
 # Prints With Passion — GSC Query Cannibalization & Search Intent Resolution Report
 
-- **Last Audited:** `2026-11-09T23:02:15.175Z`
+- **Last Audited:** `2026-11-16T14:23:41.793Z`
 - **Forecasted Transactional Targets Checked:** `25`
 - **Protected Smart Sub-Collections:** `48`
 - **High-Overlap Cannibalization Pairs Detected (`Jaccard >= 0.72`):** `1`
