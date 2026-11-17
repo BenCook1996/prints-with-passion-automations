@@ -1,0 +1,3 @@
+# Google Search Console Disavow File for https://printswithpassion.com/
+# Generated 2026-11-03 — Toxic automated scraper/spam domains identified in GSC External Links audit
+domain:xmm668.com

@@ -260,6 +260,34 @@ ${dynamicQueryRowsHtml}
       </ul>
     </div>
   </div>
+  <div style="margin-top:20px;padding-top:16px;border-top:1px solid #DEDAD0;">
+    <h3 style="font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;margin:0 0 8px;">Complete Priority Collection &amp; Smart Sub-Collection Directory:</h3>
+    <p style="margin:0;font-size:13px;line-height:1.8;">
+      <a href="/collections/canvas-prints">Framed Canvas Wall Art</a> ·
+      <a href="/collections/desk-mats">XXL Extended Desk Mats</a> ·
+      <a href="/collections/pillow-cases">Velvet &amp; Linen Cushion Covers</a> ·
+      <a href="/collections/blankets">300 GSM Plush Throw Blankets</a> ·
+      <a href="/collections/bath-mats">Memory Foam Bath Mats</a> ·
+      <a href="/collections/hoodies">Heavyweight Graphic Hoodies</a> ·
+      <a href="/collections/apparel">Graphic Apparel</a> ·
+      <a href="/collections/t-shirts">Unisex Graphic T-Shirts</a> ·
+      <a href="/collections/space-cosmic">Space &amp; Cosmic Studio Art</a> ·
+      <a href="/collections/retro-vintage">Retro &amp; Vintage Prints</a> ·
+      <a href="/collections/animals-wildlife-whimsical-bath-mats">Animals &amp; Whimsical Memory Foam Bath Mats</a> ·
+      <a href="/collections/coastal-ocean-botanical-bath-mats">Coastal Ocean &amp; Botanical Bath Mats</a> ·
+      <a href="/collections/celestial-space-moon-bath-mats">Celestial Space &amp; Moon Bath Mats</a> ·
+      <a href="/collections/space-galaxy-nebula-desk-mats">Space Galaxy &amp; Nebula XXL Desk Mats</a> ·
+      <a href="/collections/fantasy-dragon-mythology-desk-mats">Fantasy Dragon &amp; Mythology Desk Mats</a> ·
+      <a href="/collections/minimalist-abstract-geometric-desk-mats">Minimalist Abstract &amp; Geometric Desk Mats</a> ·
+      <a href="/collections/animals-wildlife-equestrian-canvas-wall-art">Animals, Wildlife &amp; Equestrian Canvas Wall Art</a> ·
+      <a href="/collections/space-celestial-galaxy-cushion-covers">Space Celestial &amp; Galaxy Cushion Covers</a> ·
+      <a href="/collections/fantasy-mythology-gothic-cushion-covers">Fantasy Mythology &amp; Gothic Cushion Covers</a> ·
+      <a href="/collections/fantasy-dragon-mythic-throw-blankets">Fantasy Dragon &amp; Mythic Throw Blankets</a> ·
+      <a href="/collections/sci-fi-cyberpunk-gamer-throw-blankets">Sci-Fi &amp; Cyberpunk Gamer Throw Blankets</a> ·
+      <a href="/collections/cyberpunk-sci-fi-graphic-t-shirts">Cyberpunk &amp; Sci-Fi Graphic T-Shirts</a> ·
+      <a href="/collections/japanese-ukiyo-e-graphic-hoodies">Japanese Ukiyo-e Graphic Hoodies</a>
+    </p>
+  </div>
 </section>
 <!-- PWP_AI_DAILY_CITATION_MATRIX_END -->`;
 
