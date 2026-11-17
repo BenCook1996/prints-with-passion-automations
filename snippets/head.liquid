@@ -43,6 +43,12 @@
 {%- else -%}
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="alternate" hreflang="en" href="{{ get_canonical_url }}">
+    <link rel="alternate" hreflang="en-gb" href="{{ get_canonical_url }}">
+    <link rel="alternate" hreflang="en-us" href="{{ get_canonical_url }}">
+    <link rel="alternate" hreflang="en-ca" href="{{ get_canonical_url }}">
+    <link rel="alternate" hreflang="en-au" href="{{ get_canonical_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ get_canonical_url }}">
 {%- endif -%}
 {%- if settings.favicon != blank -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
@@ -61,6 +67,14 @@
     <title>{{ clean_seo_title | strip }}</title>
     {%- if page_description -%}
         {%- assign raw_desc = page_description | strip_html | strip | replace: '&amp;', '&' | replace: '&quot;', '"' | replace: '&#39;', "'" -%}
+        {%- if template.name == 'product' -%}
+            {%- assign desc_last_char = raw_desc | slice: -1, 1 -%}
+            {%- unless desc_last_char == '.' or desc_last_char == '!' or desc_last_char == '?' -%}
+                {%- assign short_title = product.title | split: ' — ' | first | truncate: 45, '' | strip -%}
+                {%- assign prod_type_clean = product.type | default: 'Home Decor' | strip -%}
+                {%- assign raw_desc = 'Shop ' | append: short_title | append: ' (' | append: prod_type_clean | append: ') at Prints With Passion. Archival print quality, 14-day returns & free tracked delivery.' -%}
+            {%- endunless -%}
+        {%- endif -%}
         <meta name="description" content="{{ raw_desc | strip | escape }}">
     {%- endif -%}
 {%- endif -%}
@@ -428,57 +442,7 @@
   });
 </script>
 
-{%- if page.handle == 'desk-size-visualizer' -%}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebApplication",
-      "name": "UK Desk Mat, Keyboard & Wall Art Size Visualizer (CM & Inches)",
-      "url": "https://printswithpassion.com/pages/desk-size-visualizer",
-      "applicationCategory": "DesignApplication",
-      "operatingSystem": "All",
-      "offers": {
-        "@type": "Offer",
-        "price": "0.00",
-        "priceCurrency": "GBP"
-      },
-      "description": "Free interactive UK desk mat, mechanical keyboard, stretched canvas wall art, and throw blanket size visualizer in centimetres and inches."
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the difference between a 60x35 cm XL and 80x40 cm XXL desk mat?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A 60 x 35 cm (23.6 x 13.8 inch) Large XL desk mat fits compact UK desks (100-120 cm) with 24-31 cm of mouse space, while an 80 x 40 cm (31.5 x 15.5 inch) Extended XXL desk mat fits 120-186 cm desks and provides 36-51 cm of unobstructed mouse glide space."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What size canvas wall art should hang above a UK 2-seater or 3-seater sofa?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Interior designers follow the 2/3 sofa width rule: a 24 x 16 inch (60 x 40 cm) or 30 x 20 inch (76 x 50 cm) gallery-wrapped stretched canvas spans 50% to 65% of a standard 150 cm UK 2-seater sofa or UK Double/King headboard."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which throw blanket size fits a UK sofa vs a UK Double or King bed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A 50 x 60 inch (127 x 152 cm) Medium Throw Blanket is ideal for UK 2-seater and 3-seater sofas, while a 60 x 80 inch (152 x 203 cm) Large Throw Blanket covers the width of a UK Double (135 cm) or UK King (150 cm) bed."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
-{%- elsif page.handle == 'free-4k-wallpapers' -%}
+{%- if page.handle == 'free-4k-wallpapers' -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -879,23 +843,20 @@
 <script type="speculationrules">
 {"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/cart*","/checkout*","/account*","/*\\?*"]}}]},"eagerness":"moderate"}]}
 </script>
-<script id="pwp-instant-nav">
+<script id="pwp-ai-attribution">
 (function(){
-  var prefetched = new Set();
-  function prefetchUrl(el) {
-    var a = el && el.closest ? el.closest('a[href]') : null;
-    if (!a || !a.href) return;
-    if (a.origin !== location.origin || a.pathname === location.pathname) return;
-    if (/^\/(cart|checkout|account)/.test(a.pathname)) return;
-    if (prefetched.has(a.href)) return;
-    prefetched.add(a.href);
-    var l = document.createElement('link');
-    l.rel = 'prefetch';
-    l.href = a.href;
-    document.head.appendChild(l);
-  }
-  document.addEventListener('mouseover', function(e){ prefetchUrl(e.target); }, {passive: true});
-  document.addEventListener('touchstart', function(e){ prefetchUrl(e.target); }, {passive: true});
+  try {
+    var nav = performance.getEntriesByType && performance.getEntriesByType('navigation')[0];
+    var navName = (nav && nav.name) || window.location.href || '';
+    var hasTextFragment = navName.indexOf(':~:text=') !== -1 || (window.location.hash && window.location.hash.indexOf(':~:text=') !== -1);
+    var ref = (document.referrer || '').toLowerCase();
+    var aiMatch = ref.match(/([a-z0-9.-]+\.[a-z]{2,})/);
+    var isAiRef = /chatgpt\.com|perplexity\.ai|gemini\.google\.com|copilot\.microsoft\.com|claude\.ai/.test(ref);
+    var aiSource = isAiRef && aiMatch ? aiMatch[1] : (hasTextFragment ? 'google_ai_overview_or_snippet' : '');
+    if (aiSource && typeof window.pwpGtagEvent === 'function') {
+      window.pwpGtagEvent('ai_search_arrival', { ai_source: aiSource, has_text_fragment: hasTextFragment, page_path: window.location.pathname });
+    }
+  } catch (e) {}
 })();
 </script>
 {%- if page.handle == 'desk-size-visualizer' or page.handle == 'free-4k-wallpapers' -%}
@@ -998,9 +959,9 @@ document.addEventListener('click', function(e) {
 {%- if template.name == 'product' -%}
 {%- assign pwp_material = "Premium Archival Print Material" -%}
 {%- case product.type -%}
-  {%- when "Desk Mats" -%}{%- assign pwp_material = "Micro-Woven Cloth Surface & 3mm Natural Non-Slip Rubber Base" -%}
-  {%- when "Canvas Wall Art" -%}{%- assign pwp_material = "Archival Cotton-Poly Canvas & Kiln-Dried Pine Stretcher Frame" -%}
-  {%- when "Cushion Covers" -%}{%- assign pwp_material = "Soft Brushed Poly-Linen / Faux Suede with Concealed Zip" -%}
+  {%- when "Desk Mats" -%}{%- assign pwp_material = "Micro-Woven Cloth Surface & 4mm Natural Non-Slip Rubber Base" -%}
+  {%- when "Canvas Wall Art" -%}{%- assign pwp_material = "400gsm Archival Cotton-Poly Canvas & Kiln-Dried Pine Stretcher Frame" -%}
+  {%- when "Cushion Covers" -%}{%- assign pwp_material = "Soft Brushed Poly-Linen with Concealed Zip" -%}
   {%- when "Throw Blankets" -%}{%- assign pwp_material = "300 GSM Ultra-Soft Anti-Pill Coral Fleece" -%}
   {%- when "Bath Mats" -%}{%- assign pwp_material = "Fast-Drying Velvet Microfibre & Cushioned Non-Slip Memory Foam" -%}
   {%- when "Graphic T-Shirts" -%}{%- assign pwp_material = "100% Ring-Spun Combed Cotton" -%}
@@ -1012,31 +973,42 @@ document.addEventListener('click', function(e) {
 {%- if product.variants.size > 1 and pwp_sel_var -%}
   {%- assign pwp_prod_url = pwp_prod_url | append: '?variant=' | append: pwp_sel_var.id -%}
 {%- endif -%}
+{%- assign pwp_rev_count = product.metafields.reviews.rating_count | default: product.metafields.judgeme.all_reviews_count | default: product.metafields.loox.num_reviews | plus: 0 -%}
+{%- assign pwp_rev_val = product.metafields.reviews.rating.value.rating | default: product.metafields.reviews.rating.value | default: product.metafields.judgeme.all_reviews_rating | default: product.metafields.loox.avg_rating -%}
+{%- assign pwp_clean_desc = product.description | strip_html | strip | replace: '30-Day', '14-Day' | replace: '30-day', '14-day' -%}
+{%- if pwp_clean_desc == blank -%}
+  {%- assign pwp_clean_desc = page_description | default: product.title | append: ' — Custom printed archival studio edition by Prints With Passion with 14-day returns and free tracked delivery.' -%}
+{%- endif -%}
+{%- assign pwp_main_sku = product.selected_or_first_available_variant.sku | default: product.selected_or_first_available_variant.id | append: '' -%}
+{%- if product.variants.size > 1 -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Product",
+  "@type": "ProductGroup",
   "@id": {{ shop.url | append: pwp_clean_path | append: "#product" | json }},
   "name": {{ product.title | json }},
-  "url": {{ pwp_prod_url | json }},
-  "productID": {{ product.id | json }},
-  "inProductGroupWithID": {{ product.id | append: "" | json }},
+  "url": {{ shop.url | append: pwp_clean_path | json }},
+  "productGroupID": {{ product.id | append: "" | json }},
   "category": {{ product.type | default: "Home & Decor" | json }},
   "material": {{ product.metafields.custom.material_composition.value | default: pwp_material | json }},
-  "additionalProperty": [
-    {%- if product.metafields.descriptors.subtitle.value != blank -%}
-    { "@type": "PropertyValue", "name": "Product Subtitle", "value": {{ product.metafields.descriptors.subtitle.value | json }} },
+  "description": {{ pwp_clean_desc | json }},
+  "brand": {
+    "@type": "Brand",
+    "name": "Prints With Passion"
+  },
+  "variesBy": [
+    {%- assign pwp_vby_color = false -%}
+    {%- assign pwp_vby_size = false -%}
+    {%- for opt in product.options_with_values -%}
+      {%- assign opt_lc = opt.name | downcase -%}
+      {%- if opt_lc contains 'color' or opt_lc contains 'colour' -%}{%- assign pwp_vby_color = true -%}
+      {%- else -%}{%- assign pwp_vby_size = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if pwp_vby_size and pwp_vby_color -%}"https://schema.org/size", "https://schema.org/color"
+    {%- elsif pwp_vby_color -%}"https://schema.org/color"
+    {%- else -%}"https://schema.org/size"
     {%- endif -%}
-    {%- if product.metafields.custom.art_theme.value != blank -%}
-    { "@type": "PropertyValue", "name": "Art Style & Theme", "value": {{ product.metafields.custom.art_theme.value | json }} },
-    {%- endif -%}
-    {%- if product.metafields.custom.dimensions_summary.value != blank -%}
-    { "@type": "PropertyValue", "name": "Dimensions (Metric & Imperial)", "value": {{ product.metafields.custom.dimensions_summary.value | json }} },
-    {%- endif -%}
-    {%- if product.metafields.descriptors.care_guide.value != blank -%}
-    { "@type": "PropertyValue", "name": "Care Instructions", "value": {{ product.metafields.descriptors.care_guide.value | json }} },
-    {%- endif -%}
-    { "@type": "PropertyValue", "name": "Production & Shipping", "value": "{% case localization.country.iso_code %}{% when 'US' %}Custom printed in the USA in 2–4 business days • Free Tracked US Shipping ($0.00 USD){% when 'CA' %}Custom printed in North America in 2–4 business days • Free Tracked Canada Shipping ($0.00 CAD){% when 'DE' or 'FR' or 'ES' or 'BE' or 'NL' %}Custom printed in Europe in 2–4 business days • Free Tracked EU Delivery (€0.00 EUR){% when 'CH' %}Custom printed in Europe in 2–4 business days • Free Tracked Swiss Delivery (0.00 CHF){% else %}Custom printed in the UK in 2–4 business days • Free Tracked UK Delivery (£0.00 GBP){% endcase %}" }
   ],
   {%- if product.media.size > 0 -%}
     "image": [
@@ -1053,10 +1025,130 @@ document.addEventListener('click', function(e) {
           "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
           "creditText": "Prints With Passion Studio",
           "copyrightNotice": "© Prints With Passion",
-          "creator": {
-            "@type": "Organization",
-            "name": "Prints With Passion"
+          "creator": { "@type": "Organization", "name": "Prints With Passion" }
+        }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ],
+  {%- elsif product.featured_image -%}
+    "image": [{{ product.featured_image | img_url: '2048x' | prepend: "https:" | json }}],
+  {%- endif -%}
+  {%- if pwp_rev_val != blank and pwp_rev_count > 0 -%}
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": {{ pwp_rev_val | append: '' | json }},
+      "reviewCount": {{ pwp_rev_count | json }},
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+  {%- endif -%}
+  "hasVariant": [
+    {%- assign pwp_var_emitted = false -%}
+    {%- for pwp_pass in (1..2) -%}
+    {%- for variant in product.variants -%}
+      {%- assign pwp_is_sel = false -%}
+      {%- if pwp_sel_var and variant.id == pwp_sel_var.id -%}{%- assign pwp_is_sel = true -%}{%- endif -%}
+      {%- if pwp_pass == 1 and pwp_is_sel == false -%}{%- continue -%}{%- endif -%}
+      {%- if pwp_pass == 2 and pwp_is_sel == true -%}{%- continue -%}{%- endif -%}
+      {%- if pwp_var_emitted -%},{%- endif -%}
+      {%- assign pwp_var_emitted = true -%}
+      {%- assign pwp_var_sku = variant.sku | default: variant.id | append: '' -%}
+      {%- assign pwp_v_price_str = variant.price | divided_by: 100 | append: '.' -%}
+      {%- assign pwp_v_cents_str = variant.price | modulo: 100 | prepend: '00' | slice: -2, 2 -%}
+      {%- assign pwp_v_img = variant.featured_image | default: product.featured_image -%}
+      {
+        "@type": "Product",
+        "@id": "{{ shop.url }}{{ pwp_clean_path }}?variant={{ variant.id }}#variant",
+        "name": {{ product.title | append: " — " | append: variant.title | json }},
+        "url": "{{ shop.url }}{{ pwp_clean_path }}?variant={{ variant.id }}",
+        "sku": {{ pwp_var_sku | json }},
+        "mpn": {{ pwp_var_sku | json }},
+        "size": {{ variant.title | json }},
+        "description": {{ pwp_clean_desc | json }},
+        "brand": { "@type": "Brand", "name": "Prints With Passion" },
+        {%- if pwp_v_img -%}
+        "image": {{ pwp_v_img | img_url: '2048x' | prepend: "https:" | json }},
+        {%- endif -%}
+        "offers": {
+          "@type": "Offer",
+          "name": {{ variant.title | json }},
+          "sku": {{ pwp_var_sku | json }},
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/NewCondition",
+          "price": "{{ pwp_v_price_str }}{{ pwp_v_cents_str }}",
+          "priceCurrency": "{{ cart.currency.iso_code | default: 'GBP' }}",
+          {%- if variant.compare_at_price > variant.price -%}
+          {%- assign pwp_cmp_p = variant.compare_at_price | divided_by: 100 | append: '.' -%}
+          {%- assign pwp_cmp_c = variant.compare_at_price | modulo: 100 | prepend: '00' | slice: -2, 2 -%}
+          "priceSpecification": [
+            {
+              "@type": "UnitPriceSpecification",
+              "price": "{{ pwp_v_price_str }}{{ pwp_v_cents_str }}",
+              "priceCurrency": "{{ cart.currency.iso_code | default: 'GBP' }}"
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/StrikethroughPrice",
+              "price": "{{ pwp_cmp_p }}{{ pwp_cmp_c }}",
+              "priceCurrency": "{{ cart.currency.iso_code | default: 'GBP' }}"
+            }
+          ],
+          {%- endif -%}
+          "validFrom": "{{ product.published_at | default: product.created_at | date: '%Y-%m-%d' }}",
+          "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' }}",
+          "url": "{{ shop.url }}{{ pwp_clean_path }}?variant={{ variant.id }}",
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": { "@type": "MonetaryAmount", "value": "0.00", "currency": "{{ cart.currency.iso_code | default: 'GBP' }}" },
+            "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "{{ localization.country.iso_code | default: 'GB' }}" },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
+              "transitTime": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 3, "unitCode": "DAY" }
+            }
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "{{ localization.country.iso_code | default: 'GB' }}",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 14,
+            "returnMethod": "https://schema.org/ReturnByMail",
+            "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility"
           }
+        }
+      }
+    {%- endfor -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- else -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": {{ shop.url | append: pwp_clean_path | append: "#product" | json }},
+  "name": {{ product.title | json }},
+  "url": {{ pwp_prod_url | json }},
+  "productID": {{ product.id | json }},
+  "inProductGroupWithID": {{ product.id | append: "" | json }},
+  "category": {{ product.type | default: "Home & Decor" | json }},
+  "material": {{ product.metafields.custom.material_composition.value | default: pwp_material | json }},
+  {%- if product.media.size > 0 -%}
+    "image": [
+      {%- for media in product.media limit: 8 -%}
+        {
+          "@type": "ImageObject",
+          "url": {{ media.preview_image | img_url: '2048x' | prepend: "https:" | json }},
+          "contentUrl": {{ media.preview_image | img_url: '2048x' | prepend: "https:" | json }},
+          "width": {{ media.preview_image.width | default: 2048 | json }},
+          "height": {{ media.preview_image.height | default: 2048 | json }},
+          "name": {{ media.alt | default: product.title | json }},
+          "caption": {{ product.title | append: " — " | append: product.type | append: " by Prints With Passion" | json }},
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
+          "creditText": "Prints With Passion Studio",
+          "copyrightNotice": "© Prints With Passion",
+          "creator": { "@type": "Organization", "name": "Prints With Passion" }
         }{% unless forloop.last %},{% endunless %}
       {%- endfor -%}
     ],
@@ -1073,17 +1165,12 @@ document.addEventListener('click', function(e) {
         "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
         "creditText": "Prints With Passion Studio",
         "copyrightNotice": "© Prints With Passion",
-        "creator": {
-          "@type": "Organization",
-          "name": "Prints With Passion"
-        }
+        "creator": { "@type": "Organization", "name": "Prints With Passion" }
       }
     ],
   {%- else -%}
     "image": ["https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427"],
   {%- endif -%}
-  {%- assign pwp_rev_count = product.metafields.reviews.rating_count | default: product.metafields.judgeme.all_reviews_count | default: product.metafields.loox.num_reviews | plus: 0 -%}
-  {%- assign pwp_rev_val = product.metafields.reviews.rating.value.rating | default: product.metafields.reviews.rating.value | default: product.metafields.judgeme.all_reviews_rating | default: product.metafields.loox.avg_rating -%}
   {%- if pwp_rev_val != blank and pwp_rev_count > 0 -%}
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -1093,30 +1180,19 @@ document.addEventListener('click', function(e) {
       "worstRating": "1"
     },
   {%- endif -%}
-  {%- assign pwp_clean_desc = product.description | strip_html | strip -%}
-  {%- if pwp_clean_desc == blank -%}
-    {%- assign pwp_clean_desc = page_description | default: product.title | append: ' — Custom printed archival studio edition by Prints With Passion with free tracked delivery.' -%}
-  {%- endif -%}
   "description": {{ pwp_clean_desc | json }},
-  {%- assign pwp_main_sku = product.selected_or_first_available_variant.sku | default: product.selected_or_first_available_variant.id | append: '' -%}
   "sku": {{ pwp_main_sku | json }},
   "mpn": {{ pwp_main_sku | json }},
-  "brand": {
-    "@type": "Brand",
-    "name": "Prints With Passion"
-  },
+  "brand": { "@type": "Brand", "name": "Prints With Passion" },
   "itemCondition": "https://schema.org/NewCondition",
   "offers": [
     {%- assign pwp_offer_emitted = false -%}
-    {%- for pwp_pass in (1..2) -%}
     {%- for variant in product.variants -%}
-      {%- assign pwp_is_sel = false -%}
-      {%- if pwp_sel_var and variant.id == pwp_sel_var.id -%}{%- assign pwp_is_sel = true -%}{%- endif -%}
-      {%- if pwp_pass == 1 and pwp_is_sel == false -%}{%- continue -%}{%- endif -%}
-      {%- if pwp_pass == 2 and pwp_is_sel == true -%}{%- continue -%}{%- endif -%}
       {%- if pwp_offer_emitted -%},{%- endif -%}
       {%- assign pwp_offer_emitted = true -%}
       {%- assign pwp_var_sku = variant.sku | default: variant.id | append: '' -%}
+      {%- assign pwp_v_price_str = variant.price | divided_by: 100 | append: '.' -%}
+      {%- assign pwp_v_cents_str = variant.price | modulo: 100 | prepend: '00' | slice: -2, 2 -%}
       {
         "@type": "Offer",
         "name": {{ variant.title | json }},
@@ -1124,36 +1200,36 @@ document.addEventListener('click', function(e) {
         "mpn": {{ pwp_var_sku | json }},
         "availability": "https://schema.org/InStock",
         "itemCondition": "https://schema.org/NewCondition",
-        "price": "{{ variant.price | divided_by: 100 }}.{{ variant.price | modulo: 100 | prepend: '00' | slice: -2, 2 }}",
+        "price": "{{ pwp_v_price_str }}{{ pwp_v_cents_str }}",
         "priceCurrency": "{{ cart.currency.iso_code | default: 'GBP' }}",
+        {%- if variant.compare_at_price > variant.price -%}
+        {%- assign pwp_cmp_p = variant.compare_at_price | divided_by: 100 | append: '.' -%}
+        {%- assign pwp_cmp_c = variant.compare_at_price | modulo: 100 | prepend: '00' | slice: -2, 2 -%}
+        "priceSpecification": [
+          {
+            "@type": "UnitPriceSpecification",
+            "price": "{{ pwp_v_price_str }}{{ pwp_v_cents_str }}",
+            "priceCurrency": "{{ cart.currency.iso_code | default: 'GBP' }}"
+          },
+          {
+            "@type": "UnitPriceSpecification",
+            "priceType": "https://schema.org/StrikethroughPrice",
+            "price": "{{ pwp_cmp_p }}{{ pwp_cmp_c }}",
+            "priceCurrency": "{{ cart.currency.iso_code | default: 'GBP' }}"
+          }
+        ],
+        {%- endif -%}
         "validFrom": "{{ product.published_at | default: product.created_at | date: '%Y-%m-%d' }}",
         "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' }}",
         "url": "{{ shop.url }}{{ pwp_clean_path }}?variant={{ variant.id }}",
         "shippingDetails": {
           "@type": "OfferShippingDetails",
-          "shippingRate": {
-            "@type": "MonetaryAmount",
-            "value": "0.00",
-            "currency": "{{ cart.currency.iso_code | default: 'GBP' }}"
-          },
-          "shippingDestination": {
-            "@type": "DefinedRegion",
-            "addressCountry": "{{ localization.country.iso_code | default: 'GB' }}"
-          },
+          "shippingRate": { "@type": "MonetaryAmount", "value": "0.00", "currency": "{{ cart.currency.iso_code | default: 'GBP' }}" },
+          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "{{ localization.country.iso_code | default: 'GB' }}" },
           "deliveryTime": {
             "@type": "ShippingDeliveryTime",
-            "handlingTime": {
-              "@type": "QuantitativeValue",
-              "minValue": 2,
-              "maxValue": 4,
-              "unitCode": "DAY"
-            },
-            "transitTime": {
-              "@type": "QuantitativeValue",
-              "minValue": 2,
-              "maxValue": 4,
-              "unitCode": "DAY"
-            }
+            "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
+            "transitTime": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 3, "unitCode": "DAY" }
           }
         },
         "hasMerchantReturnPolicy": {
@@ -1166,10 +1242,10 @@ document.addEventListener('click', function(e) {
         }
       }
     {%- endfor -%}
-    {%- endfor -%}
   ]
 }
 </script>
+{%- endif -%}
 {%- endif -%}
 
 <!-- PWP_MULTICHANNEL_META_START -->
@@ -2417,44 +2493,28 @@ document.addEventListener('click', function(e) {
 {%- if template.name == 'product' -%}
   {%- assign pwp_parent_col_url = '/collections/all-products' -%}
   {%- assign pwp_parent_col_name = 'Studio Art Catalog' -%}
-  {%- assign pwp_faq_dims = 'Multiple custom-printed studio dimensions in both Metric (cm) and Imperial (inches), engineered for modern home and office spaces.' -%}
-  {%- assign pwp_faq_care = 'Wipe clean or machine wash gentle cold (30°C) depending on substrate; archival UV pigment inks resist fading for 100+ years.' -%}
   {%- case product.type -%}
     {%- when 'Desk Mats' -%}
       {%- assign pwp_parent_col_url = '/collections/desk-mats' -%}
       {%- assign pwp_parent_col_name = 'XXL Extended Gaming & Office Desk Mats' -%}
-      {%- assign pwp_faq_dims = 'Available in 36×18 inches (91×46 cm XXL), 31.5×15.5 inches (80×40 cm XL), 23.6×13.8 inches (60×35 cm), and 14.4×12.1 inches (36×30 cm) with a 4mm high-density natural rubber base and 360° anti-fray stitched edges.' -%}
-      {%- assign pwp_faq_care = 'Spot-clean with a damp microfiber cloth and mild soap, or machine wash on a gentle 30°C cold cycle and air-dry flat away from direct heat.' -%}
     {%- when 'Canvas Wall Art' -%}
       {%- assign pwp_parent_col_url = '/collections/canvas-prints' -%}
       {%- assign pwp_parent_col_name = 'Gallery-Wrapped Stretched Canvas Wall Art' -%}
-      {%- assign pwp_faq_dims = 'Available in 12×16 inches (30×40 cm), 16×20 inches (40×50 cm), 18×24 inches (45×60 cm), 24×36 inches (60×90 cm), and 30×40 inches (75×100 cm) on 400gsm archival poly-cotton canvas stretched over 1.25 inch (3.2 cm) FSC kiln-dried pine bars.' -%}
-      {%- assign pwp_faq_care = 'Arrives ready to hang with pre-installed hardware. Dust gently with a dry, lint-free microfiber cloth; 100-year UV archival pigment inks require no glass framing.' -%}
     {%- when 'Cushion Covers' -%}
       {%- assign pwp_parent_col_url = '/collections/pillow-cases' -%}
       {%- assign pwp_parent_col_name = 'Double-Sided Square Cushion Covers' -%}
-      {%- assign pwp_faq_dims = 'Available in 18×18 inches (45×45 cm), 20×20 inches (50×50 cm), and 22×22 inches (55×55 cm) crafted from heavyweight 100% spun polyester linen-feel fabric with double-sided print and concealed zipper.' -%}
-      {%- assign pwp_faq_care = 'Turn inside out and machine wash cold (30°C) on a gentle cycle. Tumble dry low or air-dry flat; do not bleach.' -%}
     {%- when 'Throw Blankets' -%}
       {%- assign pwp_parent_col_url = '/collections/blankets' -%}
       {%- assign pwp_parent_col_name = 'Plush Coral Fleece Throw Blankets' -%}
-      {%- assign pwp_faq_dims = 'Available in 30×40 inches (76×102 cm), 50×60 inches (127×152 cm Sofa Throw), and 60×80 inches (152×203 cm Queen Bed Blanket) crafted from 300gsm ultra-soft anti-pill coral fleece.' -%}
-      {%- assign pwp_faq_care = 'Machine wash cold (30°C) separately on a gentle cycle with mild detergent. Air-dry or tumble dry on low/no heat to preserve plush loft.' -%}
     {%- when 'Bath Mats' -%}
       {%- assign pwp_parent_col_url = '/collections/bath-mats' -%}
       {%- assign pwp_parent_col_name = 'Luxury Non-Slip Memory Foam Bath Mats' -%}
-      {%- assign pwp_faq_dims = 'Available in 24×17 inches (61×43 cm Standard Vanity) and 34×21 inches (86×53 cm Large Tub Span) with a high-recovery memory foam core and non-skid SBR backing.' -%}
-      {%- assign pwp_faq_care = 'Wash cold on a gentle cycle or hand-wash with mild soap, then air-dry flat to protect the non-skid SBR backing.' -%}
     {%- when 'Graphic T-Shirts' -%}
       {%- assign pwp_parent_col_url = '/collections/t-shirts' -%}
       {%- assign pwp_parent_col_name = 'Unisex Heavyweight Graphic Cotton T-Shirts' -%}
-      {%- assign pwp_faq_dims = 'Available in Unisex sizes S, M, L, XL, 2XL, and 3XL crafted from breathable heavyweight 100% ring-spun combed cotton with archival DTG graphic print.' -%}
-      {%- assign pwp_faq_care = 'Turn garment inside out and machine wash cold (30°C) with similar colours. Tumble dry low or hang dry; do not iron directly over the graphic.' -%}
     {%- when 'Hoodies' -%}
       {%- assign pwp_parent_col_url = '/collections/hoodies' -%}
       {%- assign pwp_parent_col_name = 'Unisex Heavyweight Graphic Hoodies' -%}
-      {%- assign pwp_faq_dims = 'Available in Unisex sizes S, M, L, XL, 2XL, and 3XL crafted from heavyweight 80/20 ring-spun cotton-poly brushed fleece with a double-lined hood and pouch pocket.' -%}
-      {%- assign pwp_faq_care = 'Turn inside out and machine wash cold (30°C) on a gentle cycle. Hang dry or tumble dry low to maintain fleece softness and graphic vibrancy.' -%}
   {%- endcase -%}
   <script type="application/ld+json">
   {
@@ -2464,54 +2524,9 @@ document.addEventListener('click', function(e) {
         "@type": "BreadcrumbList",
         "@id": {{ shop.url | append: product.url | append: "#breadcrumb" | json }},
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Prints With Passion",
-            "item": {{ shop.url | json }}
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": {{ pwp_parent_col_name | json }},
-            "item": {{ shop.url | append: pwp_parent_col_url | json }}
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": {{ product.title | json }},
-            "item": {{ shop.url | append: product.url | json }}
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": {{ shop.url | append: product.url | append: "#faq" | json }},
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": {{ "What sizes and materials are available for " | append: product.title | append: "?" | json }},
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": {{ pwp_faq_dims | json }}
-            }
-          },
-          {
-            "@type": "Question",
-            "name": {{ "How do I clean and care for my " | append: product.type | default: "Studio Edition" | append: "?" | json }},
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": {{ pwp_faq_care | json }}
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is tracked shipping free to the UK, US, Canada, and Europe?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes — every Prints With Passion order is custom-produced at our nearest regional fulfillment studio across the UK, USA, Canada, EU, and Australia with 100% Free Tracked Delivery and a 30-day return guarantee."
-            }
-          }
+          { "@type": "ListItem", "position": 1, "name": "Prints With Passion", "item": {{ shop.url | json }} },
+          { "@type": "ListItem", "position": 2, "name": {{ pwp_parent_col_name | json }}, "item": {{ shop.url | append: pwp_parent_col_url | json }} },
+          { "@type": "ListItem", "position": 3, "name": {{ product.title | json }}, "item": {{ shop.url | append: product.url | json }} }
         ]
       }
     ]
@@ -2523,15 +2538,33 @@ document.addEventListener('click', function(e) {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "OnlineStore",
+        "@type": ["Organization", "OnlineStore"],
         "@id": "https://printswithpassion.com/#organization",
         "name": "Prints With Passion",
         "url": "https://printswithpassion.com/",
+        "email": "printswithpassionbc@gmail.com",
+        "telephone": "+447776754180",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "87 Upper Brighton Road",
+          "addressLocality": "Worthing",
+          "addressRegion": "West Sussex",
+          "postalCode": "BN14 9HZ",
+          "addressCountry": "GB"
+        },
         "logo": {
           "@type": "ImageObject",
           "url": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427"
         },
-        "description": "Independent art studio and bespoke decor print house offering 28,800+ original artworks across Stretched Canvas Wall Art, XXL Desk Mats, Plush Throw Blankets, Cushion Covers, Memory Foam Bath Mats, and Heavyweight Apparel with Free Tracked UK, US & EU Delivery.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "printswithpassionbc@gmail.com",
+          "telephone": "+447776754180",
+          "url": "https://printswithpassion.com/pages/contact",
+          "availableLanguage": ["English"]
+        },
+        "description": "Independent art studio and bespoke decor print house offering original artworks across Stretched Canvas Wall Art, 4mm XXL Desk Mats, Plush Throw Blankets, Cushion Covers, Memory Foam Bath Mats, and Heavyweight Apparel with 14-Day Returns and Free Tracked UK, US & EU Delivery.",
         "priceRange": "£25.99-£64.99",
         "currenciesAccepted": "GBP, USD, EUR, CAD, AUD, CHF",
         "paymentAccepted": "Credit Card, Apple Pay, Google Pay, Shop Pay, PayPal, Klarna",
@@ -2549,9 +2582,9 @@ document.addEventListener('click', function(e) {
           "@type": "MerchantReturnPolicy",
           "applicableCountry": ["GB", "US", "CA", "DE", "FR", "ES", "IT", "NL", "BE", "CH", "AT", "AU"],
           "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-          "merchantReturnDays": 30,
+          "merchantReturnDays": 14,
           "returnMethod": "https://schema.org/ReturnByMail",
-          "returnFees": "https://schema.org/FreeReturn"
+          "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility"
         }
       },
       {
@@ -2559,7 +2592,7 @@ document.addEventListener('click', function(e) {
         "@id": "https://printswithpassion.com/#website",
         "url": "https://printswithpassion.com/",
         "name": "Prints With Passion",
-        "publisher": { "@type": "Organization", "name": "Prints With Passion", "url": "https://printswithpassion.com/" },
+        "publisher": { "@id": "https://printswithpassion.com/#organization" },
         "potentialAction": {
           "@type": "SearchAction",
           "target": {
@@ -2581,18 +2614,8 @@ document.addEventListener('click', function(e) {
         "@type": "BreadcrumbList",
         "@id": {{ shop.url | append: blog.url | append: "#breadcrumb" | json }},
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Prints With Passion",
-            "item": {{ shop.url | json }}
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": {{ blog.title | default: "Editorial Interior & Setup Journal" | json }},
-            "item": {{ shop.url | append: blog.url | json }}
-          }
+          { "@type": "ListItem", "position": 1, "name": "Prints With Passion", "item": {{ shop.url | json }} },
+          { "@type": "ListItem", "position": 2, "name": {{ blog.title | default: "Editorial Interior & Setup Journal" | json }}, "item": {{ shop.url | append: blog.url | json }} }
         ]
       },
       {
@@ -2601,11 +2624,7 @@ document.addEventListener('click', function(e) {
         "name": {{ blog.title | default: "Prints With Passion Editorial Journal" | json }},
         "url": {{ shop.url | append: blog.url | json }},
         "description": "Architectural room sizing guides, dual Metric (cm) & Imperial (inch) desk setup ergonomics, and interior styling blueprints by Prints With Passion Studio.",
-        "publisher": {
-          "@type": "Organization",
-          "name": "Prints With Passion",
-          "url": {{ shop.url | json }}
-        },
+        "publisher": { "@id": "https://printswithpassion.com/#organization" },
         "mainEntity": {
           "@type": "ItemList",
           "itemListOrder": "https://schema.org/ItemListOrderDescending",
@@ -2640,63 +2659,53 @@ document.addEventListener('click', function(e) {
         "@type": "BreadcrumbList",
         "@id": "https://printswithpassion.com/pages/desk-size-visualizer#breadcrumb",
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Prints With Passion",
-            "item": "https://printswithpassion.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Interactive Desk Mat & Wall Art Size Visualizer (CM & Inches)",
-            "item": "https://printswithpassion.com/pages/desk-size-visualizer"
-          }
+          { "@type": "ListItem", "position": 1, "name": "Prints With Passion", "item": "https://printswithpassion.com/" },
+          { "@type": "ListItem", "position": 2, "name": "UK Desk Mat, Keyboard & Wall Art Size Visualizer (CM & Inches)", "item": "https://printswithpassion.com/pages/desk-size-visualizer" }
         ]
       },
       {
         "@type": "WebApplication",
         "@id": "https://printswithpassion.com/pages/desk-size-visualizer#webapp",
-        "name": "Prints With Passion Interactive Desk Mat & Wall Art Size Visualizer (CM & Inches)",
+        "name": "UK Desk Mat, Keyboard & Wall Art Size Visualizer (CM & Inches)",
         "url": "https://printswithpassion.com/pages/desk-size-visualizer",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "All",
         "browserRequirements": "Requires HTML5 / JavaScript",
-        "description": "Free interactive architectural sizing calculator and proportion visualizer comparing XXL Desk Mats (36×18" / 91×46 cm, 31.5×15.5" / 80×40 cm) and Stretched Canvas Wall Art (12×16" to 30×40") in both Metric (cm) and Imperial (inches).",
+        "description": "Free interactive sizing calculator and proportion visualizer comparing 60x35 cm (23.6x13.8 in), 80x40 cm (31.5x15.5 in), and 91x46 cm (36x18 in) XXL desk mats, mechanical keyboards, and stretched canvas wall art (12x16 in to 30x40 in) in Metric and Imperial units.",
         "offers": {
           "@type": "Offer",
           "price": "0.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock"
-        }
-      },
-      {
-        "@type": "HowTo",
-        "@id": "https://printswithpassion.com/pages/desk-size-visualizer#howto",
-        "name": "How to Choose the Right Desk Mat or Canvas Wall Art Size (CM & Inches)",
-        "description": "Follow the 60%–75% architectural span rule to match your desk width or sofa span with the ideal studio print dimension.",
-        "totalTime": "PT2M",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Measure Your Primary Furniture Width (CM or Inches)",
-            "text": "Measure the total width of your standing desk, gaming desk, sofa, or headboard in centimetres (cm) or inches."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Apply the 60% to 75% Architectural Proportion Formula",
-            "text": "Multiply your furniture width by 0.65 to 0.75. For 140–160 cm (55–63") desks, select an 80×40 cm (31.5×15.5") XL or 91×46 cm (36×18") XXL desk mat. For 180–210 cm (70–82") sofas, select a 60×90 cm (24×36") or 75×100 cm (30×40") stretched canvas."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Preview Live Proportions & Browse Your Matched Collection",
-            "text": "Toggle between Metric (cm) and Imperial (inches) inside the interactive visualizer and click directly into your matched Smart Sub-Collection."
-          }
-        ]
+        },
+        "publisher": { "@id": "https://printswithpassion.com/#organization" }
       }
+    ]
+  }
+  </script>
+{%- elsif template.name == 'page' -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": {{ shop.url | append: page.url | append: "#breadcrumb" | json }},
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Prints With Passion", "item": {{ shop.url | json }} },
+          { "@type": "ListItem", "position": 2, "name": {{ page.title | strip_html | json }}, "item": {{ shop.url | append: page.url | json }} }
+        ]
+      }{%- if page.handle contains 'guide' -%},
+      {
+        "@type": "Article",
+        "@id": {{ shop.url | append: page.url | append: "#article" | json }},
+        "headline": {{ page.title | strip_html | truncate: 110, "" | json }},
+        "description": {{ page_description | default: page.title | strip_html | truncate: 158, "" | json }},
+        "url": {{ shop.url | append: page.url | json }},
+        "author": { "@type": "Organization", "name": "Prints With Passion Studio Curatorial Team", "url": {{ shop.url | json }} },
+        "publisher": { "@id": "https://printswithpassion.com/#organization" },
+        "isPartOf": { "@id": "https://printswithpassion.com/#website" }
+      }{%- endif -%}
     ]
   }
   </script>
@@ -2709,52 +2718,28 @@ document.addEventListener('click', function(e) {
         "@type": "BreadcrumbList",
         "@id": {{ shop.url | append: article.url | append: "#breadcrumb" | json }},
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Prints With Passion",
-            "item": {{ shop.url | json }}
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": {{ blog.title | default: "Interior & Setup Guides" | json }},
-            "item": {{ shop.url | append: blog.url | json }}
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": {{ article.title | json }},
-            "item": {{ shop.url | append: article.url | json }}
-          }
+          { "@type": "ListItem", "position": 1, "name": "Prints With Passion", "item": {{ shop.url | json }} },
+          { "@type": "ListItem", "position": 2, "name": {{ blog.title | default: "Interior & Setup Guides" | json }}, "item": {{ shop.url | append: blog.url | json }} },
+          { "@type": "ListItem", "position": 3, "name": {{ article.title | json }}, "item": {{ shop.url | append: article.url | json }} }
         ]
       },
       {
         "@type": "BlogPosting",
         "@id": {{ shop.url | append: article.url | append: "#article" | json }},
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": {{ shop.url | append: article.url | json }}
-        },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": {{ shop.url | append: article.url | json }} },
         "headline": {{ article.title | truncate: 110, "" | json }},
         "name": {{ article.title | json }},
         "description": {{ article.excerpt_or_content | strip_html | strip | truncate: 160, "" | json }},
         "url": {{ shop.url | append: article.url | json }},
         "datePublished": {{ article.published_at | date: "%Y-%m-%dT%H:%M:%SZ" | json }},
         "dateModified": {{ article.updated_at | default: article.published_at | date: "%Y-%m-%dT%H:%M:%SZ" | json }},
-        "author": {
-          "@type": "Organization",
-          "name": {{ article.author | default: "Prints With Passion Studio" | json }},
-          "url": {{ shop.url | json }}
-        },
+        "author": { "@type": "Organization", "name": {{ article.author | default: "Prints With Passion Studio Curatorial Team" | json }}, "url": {{ shop.url | json }} },
         "publisher": {
           "@type": "Organization",
+          "@id": "https://printswithpassion.com/#organization",
           "name": "Prints With Passion",
           "url": {{ shop.url | json }},
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427"
-          }
+          "logo": { "@type": "ImageObject", "url": "https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427" }
         }{%- if article.image -%},
         "image": {
           "@type": "ImageObject",
@@ -2765,10 +2750,7 @@ document.addEventListener('click', function(e) {
           "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
           "creditText": "Prints With Passion Studio",
           "copyrightNotice": "© Prints With Passion",
-          "creator": {
-            "@type": "Organization",
-            "name": "Prints With Passion"
-          }
+          "creator": { "@type": "Organization", "name": "Prints With Passion" }
         }
         {%- endif -%}
       }

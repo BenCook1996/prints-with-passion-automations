@@ -1576,7 +1576,7 @@
                                                         <div class="search-ajax__view-all mt-10 pb-15 d-none-important">
                                                             <a href="{{ routes.search_url }}" class="btn-link">{{ 'general.popups.search.view_all_products' | t }}</a>
                                                         </div>
-                                                        <p class="search-ajax__empty py-20 mb-0 text-center d-none-important">{{ 'general.search.no_results_html' | t }}</p>
+                                                        <p class="search-ajax__empty py-20 mb-0 text-center d-none-important">No matching artworks found. Try searching by style, size, or substrate.</p>
                                                     </div>
                                                     <span class="predictive-search-status d-none" role="status" aria-hidden="true"></span>
                                                 {%- endif -%}
@@ -1715,7 +1715,7 @@
                                                         <div class="search-ajax__view-all mt-10 pb-15 d-none-important">
                                                             <a href="{{ routes.search_url }}" class="btn-link">{{ 'general.popups.search.view_all_products' | t }}</a>
                                                         </div>
-                                                        <p class="search-ajax__empty py-20 mb-0 text-center d-none-important">{{ 'general.search.no_results_html' | t }}</p>
+                                                        <p class="search-ajax__empty py-20 mb-0 text-center d-none-important">No matching artworks found. Try searching by style, size, or substrate.</p>
                                                     </div>
                                                     <span class="predictive-search-status d-none" role="status" aria-hidden="true"></span>
                                                 {%- endif -%}
@@ -1841,7 +1841,7 @@
                                                             <div class="search-ajax__view-all mt-10 pb-15 d-none-important">
                                                                 <a href="{{ routes.search_url }}" class="btn-link">{{ 'general.popups.search.view_all_products' | t }}</a>
                                                             </div>
-                                                            <p class="search-ajax__empty py-20 mb-0 text-center d-none-important">{{ 'general.search.no_results_html' | t }}</p>
+                                                            <p class="search-ajax__empty py-20 mb-0 text-center d-none-important">No matching artworks found. Try searching by style, size, or substrate.</p>
                                                         </div>
                                                         <span class="predictive-search-status d-none" role="status" aria-hidden="true"></span>
                                                     {%- endif -%}
@@ -1913,11 +1913,23 @@
     {%- endif -%}
 </script>
 
+{% unless request.page_type == 'index' %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://printswithpassion.com/#organization",
   "name": {{ shop.name | json }},
+  "email": "printswithpassionbc@gmail.com",
+  "telephone": "+447776754180",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "87 Upper Brighton Road",
+    "addressLocality": "Worthing",
+    "addressRegion": "West Sussex",
+    "postalCode": "BN14 9HZ",
+    "addressCountry": "GB"
+  },
   {%- if section.settings.logo != blank -%}
     {%- assign image_size = section.settings.logo.width | append: 'x' -%}
     "logo": {{ section.settings.logo | img_url: image_size | prepend: "https:" | json }},
@@ -1937,23 +1949,7 @@
   "url": {{ shop.url | json }}
 }
 </script>
-
-{% if request.page_type == 'index' %}
-    {% assign potential_action_target = shop.url | append: routes.search_url | append: "?q={search_term_string}" %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": {{ shop.name | json }},
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {{ potential_action_target | json }},
-        "query-input": "required name=search_term_string"
-      },
-      "url": {{ shop.url | json }}
-    }
-    </script>
-{% endif %}
+{% endunless %}
 
 {% schema %}{
     "name": "t:sections.header.name",

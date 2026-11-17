@@ -1,0 +1,64 @@
+{% for group in robots.default_groups %}
+  {{- group.user_agent -}}
+
+  {% for rule in group.rules %}
+    {{- rule -}}
+  {% endfor %}
+
+  {%- if group.user_agent.value == '*' or group.user_agent.value == 'Googlebot' -%}
+Disallow: /*?constraint=*
+Disallow: /*?pr_prod_strat=*
+Disallow: /*?srsltid=*
+Disallow: /*?oseid=*
+Disallow: /*?pb=*
+Disallow: /*?fd=*
+Disallow: /*?variant=*
+Disallow: /*.atom$
+Disallow: /*.atom?*
+Disallow: /collections/*/collections/*
+Disallow: /*/collections/*/collections/*
+Disallow: /collections/*+*
+Disallow: /collections/*?filter.*
+Disallow: /collections/*?sort_by=*
+Disallow: /collections/*?*page=*sort_by*
+Disallow: /search
+Disallow: /search?*
+Disallow: /search/suggest*
+Disallow: /*/search
+Disallow: /*/search?*
+Disallow: /*/search/suggest*
+Disallow: /blogs/*/tagged/*
+Disallow: /*/blogs/*/tagged/*
+Disallow: /cart/change*
+Disallow: /*/cart/change*
+Disallow: /api/event/collect*
+Disallow: /v1/produce*
+  {% endif %}
+
+  {% if group.sitemap != blank %}
+{{ group.sitemap }}
+  {% endif %}
+{% endfor %}
+
+User-agent: Storebot-Google
+Allow: /products/
+Allow: /collections/
+Disallow: /checkout
+Disallow: /cart
+
+User-agent: Googlebot-Image
+Allow: /cdn/
+Allow: /products/
+Allow: /collections/
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
