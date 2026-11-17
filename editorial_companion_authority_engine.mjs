@@ -36,7 +36,7 @@ export const QUEUE_MD_PATH = path.join(WORKSPACE, 'WEEKLY_EDITORIAL_COMPANION_QU
 export const LOG_MD_PATH = path.join(WORKSPACE, 'EDITORIAL_AUTHORITY_LOG.md');
 
 export const STORE_ORIGIN = 'https://printswithpassion.com';
-export const INDEXNOW_KEY = '39fd68d9e38748b4b4c6f7e2d1a09c88';
+export const INDEXNOW_KEY = '9c4e2f8a1b7d6e3c5a0f9b8d7e6f5a4c';
 
 export const BLOCKED_DOMAINS = [
   'telegra.ph',

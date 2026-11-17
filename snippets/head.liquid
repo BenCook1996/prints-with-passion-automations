@@ -65,7 +65,7 @@
     {%- capture pwp_brand_suffix -%}{%- unless page_title contains shop.name or page_title contains '|' or page_title.size > 46 %} | {{ shop.name }}{%- endunless -%}{%- endcapture -%}
     {%- capture clean_seo_title -%}{{ page_title | strip | replace: 'Free UK Delivery', 'Free Tracked Delivery' }}{%- if current_tags -%}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{%- endif -%}{%- if current_page != 1 %} &ndash; Page {{ current_page }}{%- endif -%}{{ pwp_brand_suffix }}{%- endcapture -%}
     <title>{{ clean_seo_title | strip }}</title>
-    {%- if page_description -%}
+    {%- if page_description and template.name != '404' -%}
         {%- assign raw_desc = page_description | strip_html | strip | replace: '&amp;', '&' | replace: '&quot;', '"' | replace: '&#39;', "'" -%}
         {%- if template.name == 'product' -%}
             {%- assign desc_last_char = raw_desc | slice: -1, 1 -%}

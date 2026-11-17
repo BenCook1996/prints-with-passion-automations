@@ -43,7 +43,6 @@ get_all_published.mjs
 list_catalog.mjs
 list_curated.mjs
 list_published_news.mjs
-ping_new_blogs_indexnow.mjs
 prompt_step_3489.txt
 query_existing_articles.mjs
 read_blog_prompt.mjs
