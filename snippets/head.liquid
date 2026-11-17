@@ -28,14 +28,21 @@
 {%- assign page_title_downcase = page.title | downcase -%}
 {%- if template == 'page' and page_title_downcase contains 'include' -%}
     <meta name="robots" content="noindex">
-{%- elsif template.name == 'search' -%}
+{%- elsif template.name == 'search' or template.name == 'cart' or template.name contains 'customers' or template.name == '404' -%}
     <meta name="robots" content="noindex, follow">
 {%- elsif template.name == 'collection' and current_tags != blank -%}
+    <meta name="robots" content="noindex, follow">
+{%- elsif template.name == 'collection' and collection.products_count == 0 -%}
+    <meta name="robots" content="noindex, follow">
+{%- elsif template.name == 'collection' and collection.handle == 'avada-upsell-best-sellers' -%}
     <meta name="robots" content="noindex, follow">
 {%- elsif template.name == 'blog' and current_tags != blank -%}
     <meta name="robots" content="noindex, follow">
 {%- elsif request.path contains '/tagged/' -%}
     <meta name="robots" content="noindex, follow">
+{%- else -%}
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 {%- endif -%}
 {%- if settings.favicon != blank -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
@@ -69,7 +76,7 @@
   {%- assign pwp_col_lcp = collection.products.first.featured_media -%}
   <link rel="preload" as="image" href="{{ pwp_col_lcp | img_url: '540x' }}" imagesrcset="{{ pwp_col_lcp | img_url: '360x' }} 360w, {{ pwp_col_lcp | img_url: '540x' }} 540w, {{ pwp_col_lcp | img_url: '720x' }} 720w, {{ pwp_col_lcp | img_url: '960x' }} 960w, {{ pwp_col_lcp | img_url: '1200x' }} 1200w" imagesizes="(max-width: 767px) 95vw, (max-width: 1200px) 48vw, 600px" fetchpriority="high">
 {%- elsif template.name == 'index' -%}
-  <link rel="preload" as="image" href="https://cdn.shopify.com/s/files/1/0726/5039/1863/files/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=1200" imagesrcset="https://cdn.shopify.com/s/files/1/0726/5039/1863/files/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=600 600w, https://cdn.shopify.com/s/files/1/0726/5039/1863/files/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=900 900w, https://cdn.shopify.com/s/files/1/0726/5039/1863/files/majestic-alpine-peak-misty-valley-stretched-canvas-wall-art-context.jpg?v=1793315313&width=1400 1400w" imagesizes="(max-width: 767px) 96vw, (max-width: 1200px) 92vw, 720px" fetchpriority="high">
+  <link rel="preload" as="image" href="https://cdn.shopify.com/s/files/1/0726/5039/1863/files/lauterbrunnen-valley-switzerland-steep-cliffs-gallery-wrapped-stretched-can-context.jpg?v=1793136534&width=1200" imagesrcset="https://cdn.shopify.com/s/files/1/0726/5039/1863/files/lauterbrunnen-valley-switzerland-steep-cliffs-gallery-wrapped-stretched-can-context.jpg?v=1793136534&width=600 600w, https://cdn.shopify.com/s/files/1/0726/5039/1863/files/lauterbrunnen-valley-switzerland-steep-cliffs-gallery-wrapped-stretched-can-context.jpg?v=1793136534&width=900 900w, https://cdn.shopify.com/s/files/1/0726/5039/1863/files/lauterbrunnen-valley-switzerland-steep-cliffs-gallery-wrapped-stretched-can-context.jpg?v=1793136534&width=1400 1400w" imagesizes="(max-width: 767px) 96vw, (max-width: 1200px) 92vw, 720px" fetchpriority="high">
 {%- endif -%}
 <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
 {%- if template.name == 'product' -%}
@@ -999,13 +1006,19 @@ document.addEventListener('click', function(e) {
   {%- when "Graphic T-Shirts" -%}{%- assign pwp_material = "100% Ring-Spun Combed Cotton" -%}
   {%- when "Hoodies" -%}{%- assign pwp_material = "Heavyweight Brushed Cotton-Poly Fleece" -%}
 {%- endcase -%}
+{%- assign pwp_sel_var = product.selected_or_first_available_variant -%}
+{%- assign pwp_clean_path = product.url | split: '?' | first -%}
+{%- assign pwp_prod_url = shop.url | append: pwp_clean_path -%}
+{%- if product.variants.size > 1 and pwp_sel_var -%}
+  {%- assign pwp_prod_url = pwp_prod_url | append: '?variant=' | append: pwp_sel_var.id -%}
+{%- endif -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "@id": {{ shop.url | append: product.url | append: "#product" | json }},
+  "@id": {{ shop.url | append: pwp_clean_path | append: "#product" | json }},
   "name": {{ product.title | json }},
-  "url": {{ shop.url | append: product.url | json }},
+  "url": {{ pwp_prod_url | json }},
   "productID": {{ product.id | json }},
   "inProductGroupWithID": {{ product.id | append: "" | json }},
   "category": {{ product.type | default: "Home & Decor" | json }},
@@ -1030,8 +1043,10 @@ document.addEventListener('click', function(e) {
       {%- for media in product.media limit: 8 -%}
         {
           "@type": "ImageObject",
-          "url": {{ media.preview_image | img_url: '1200x' | prepend: "https:" | json }},
+          "url": {{ media.preview_image | img_url: '2048x' | prepend: "https:" | json }},
           "contentUrl": {{ media.preview_image | img_url: '2048x' | prepend: "https:" | json }},
+          "width": {{ media.preview_image.width | default: 2048 | json }},
+          "height": {{ media.preview_image.height | default: 2048 | json }},
           "name": {{ media.alt | default: product.title | json }},
           "caption": {{ product.title | append: " — " | append: product.type | append: " by Prints With Passion" | json }},
           "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -1049,8 +1064,10 @@ document.addEventListener('click', function(e) {
     "image": [
       {
         "@type": "ImageObject",
-        "url": {{ product.featured_image | img_url: '1200x' | prepend: "https:" | json }},
+        "url": {{ product.featured_image | img_url: '2048x' | prepend: "https:" | json }},
         "contentUrl": {{ product.featured_image | img_url: '2048x' | prepend: "https:" | json }},
+        "width": {{ product.featured_image.width | default: 2048 | json }},
+        "height": {{ product.featured_image.height | default: 2048 | json }},
         "name": {{ product.title | json }},
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers",
@@ -1065,43 +1082,53 @@ document.addEventListener('click', function(e) {
   {%- else -%}
     "image": ["https://cdn.shopify.com/s/files/1/0726/5039/1863/files/pwp_editorial_gallery_favicon_crest.jpg?v=1793472427"],
   {%- endif -%}
-  {%- if product.metafields.reviews.rating.value != blank and product.metafields.reviews.rating_count != blank and product.metafields.reviews.rating_count > 0 -%}
+  {%- assign pwp_rev_count = product.metafields.reviews.rating_count | default: product.metafields.judgeme.all_reviews_count | default: product.metafields.loox.num_reviews | plus: 0 -%}
+  {%- assign pwp_rev_val = product.metafields.reviews.rating.value.rating | default: product.metafields.reviews.rating.value | default: product.metafields.judgeme.all_reviews_rating | default: product.metafields.loox.avg_rating -%}
+  {%- if pwp_rev_val != blank and pwp_rev_count > 0 -%}
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": {{ product.metafields.reviews.rating.value | json }},
-      "reviewCount": {{ product.metafields.reviews.rating_count | json }}
-    },
-  {%- elsif product.metafields.loox.avg_rating != blank and product.metafields.loox.num_reviews != blank and product.metafields.loox.num_reviews > 0 -%}
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": {{ product.metafields.loox.avg_rating | json }},
-      "reviewCount": {{ product.metafields.loox.num_reviews | json }}
+      "ratingValue": {{ pwp_rev_val | append: '' | json }},
+      "reviewCount": {{ pwp_rev_count | json }},
+      "bestRating": "5",
+      "worstRating": "1"
     },
   {%- endif -%}
-  "description": {{ product.description | strip_html | strip | json }},
-  {%- if product.selected_or_first_available_variant.sku != blank -%}
-    "sku": {{ product.selected_or_first_available_variant.sku | json }},
-    "mpn": {{ product.selected_or_first_available_variant.sku | json }},
+  {%- assign pwp_clean_desc = product.description | strip_html | strip -%}
+  {%- if pwp_clean_desc == blank -%}
+    {%- assign pwp_clean_desc = page_description | default: product.title | append: ' — Custom printed archival studio edition by Prints With Passion with free tracked delivery.' -%}
   {%- endif -%}
+  "description": {{ pwp_clean_desc | json }},
+  {%- assign pwp_main_sku = product.selected_or_first_available_variant.sku | default: product.selected_or_first_available_variant.id | append: '' -%}
+  "sku": {{ pwp_main_sku | json }},
+  "mpn": {{ pwp_main_sku | json }},
   "brand": {
     "@type": "Brand",
     "name": "Prints With Passion"
   },
   "itemCondition": "https://schema.org/NewCondition",
   "offers": [
+    {%- assign pwp_offer_emitted = false -%}
+    {%- for pwp_pass in (1..2) -%}
     {%- for variant in product.variants -%}
+      {%- assign pwp_is_sel = false -%}
+      {%- if pwp_sel_var and variant.id == pwp_sel_var.id -%}{%- assign pwp_is_sel = true -%}{%- endif -%}
+      {%- if pwp_pass == 1 and pwp_is_sel == false -%}{%- continue -%}{%- endif -%}
+      {%- if pwp_pass == 2 and pwp_is_sel == true -%}{%- continue -%}{%- endif -%}
+      {%- if pwp_offer_emitted -%},{%- endif -%}
+      {%- assign pwp_offer_emitted = true -%}
+      {%- assign pwp_var_sku = variant.sku | default: variant.id | append: '' -%}
       {
         "@type": "Offer",
         "name": {{ variant.title | json }},
-        {%- if variant.sku != blank -%}
-        "sku": {{ variant.sku | json }},
-        {%- endif -%}
+        "sku": {{ pwp_var_sku | json }},
+        "mpn": {{ pwp_var_sku | json }},
         "availability": "https://schema.org/InStock",
         "itemCondition": "https://schema.org/NewCondition",
         "price": "{{ variant.price | divided_by: 100 }}.{{ variant.price | modulo: 100 | prepend: '00' | slice: -2, 2 }}",
         "priceCurrency": "{{ cart.currency.iso_code | default: 'GBP' }}",
+        "validFrom": "{{ product.published_at | default: product.created_at | date: '%Y-%m-%d' }}",
         "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' }}",
-        "url": "{{ shop.url }}{{ product.url }}?variant={{ variant.id }}",
+        "url": "{{ shop.url }}{{ pwp_clean_path }}?variant={{ variant.id }}",
         "shippingDetails": {
           "@type": "OfferShippingDetails",
           "shippingRate": {
@@ -1137,7 +1164,8 @@ document.addEventListener('click', function(e) {
           "returnMethod": "https://schema.org/ReturnByMail",
           "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility"
         }
-      }{% unless forloop.last %},{% endunless %}
+      }
+    {%- endfor -%}
     {%- endfor -%}
   ]
 }
@@ -2386,11 +2414,7 @@ document.addEventListener('click', function(e) {
 <!-- END PWP EDITORIAL GALLERY MINIMALIST -->
 
 <!-- PWP_PHASE3_SEO_START -->
-{%- if template.name == 'collection' -%}
-  {%- if collection.products_count == 0 or collection.handle == 'avada-upsell-best-sellers' -%}
-    <meta name="robots" content="noindex, follow">
-  {%- endif -%}
-{%- elsif template.name == 'product' -%}
+{%- if template.name == 'product' -%}
   {%- assign pwp_parent_col_url = '/collections/all-products' -%}
   {%- assign pwp_parent_col_name = 'Studio Art Catalog' -%}
   {%- assign pwp_faq_dims = 'Multiple custom-printed studio dimensions in both Metric (cm) and Imperial (inches), engineered for modern home and office spaces.' -%}
