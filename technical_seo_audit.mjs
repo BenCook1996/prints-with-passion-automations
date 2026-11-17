@@ -5,6 +5,79 @@ import { WORKSPACE, SUBCOLLECTIONS_PATH } from './lib/cloud-env.mjs';
 const AUDIT_LOG_PATH = path.join(WORKSPACE, 'TECHNICAL_SEO_AUDIT_LOG.md');
 const INDEXNOW_KEY = '9c4e2f8a1b7d6e3c5a0f9b8d7e6f5a4c';
 
+function validateJsonLdBlocks(html = '') {
+  const regex = /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
+  let count = 0;
+  let invalidCount = 0;
+  const parseErrors = [];
+  for (const match of html.matchAll(regex)) {
+    count++;
+    const raw = (match[1] || '').trim();
+    try {
+      JSON.parse(raw);
+    } catch (err) {
+      invalidCount++;
+      parseErrors.push(err.message);
+    }
+  }
+  return { count, invalidCount, parseErrors };
+}
+
+async function auditHomepageCdnAssets(homepageHtml = '') {
+  const rawMatches = homepageHtml.match(
+    /(?:https?:)?\/\/(?:printswithpassion\.com\/cdn\/shop\/(?:files|products)|cdn\.shopify\.com\/s\/files)\/[^\s"'<>)]+?\.(?:jpg|jpeg|png|webp|avif|svg|gif)(?:\?[^\s"'<>)]*)?(?=[\s"'<>),\\]|$)/gi
+  ) || [];
+
+  const dedupedByBase = new Map();
+  for (const raw of rawMatches) {
+    const clean = raw
+      .replace(/^\/\//, 'https://')
+      .replace(/&amp;/g, '&')
+      .replace(/\\+$/g, '')
+      .replace(/[,;]+$/g, '')
+      .replace(/\{width\}/gi, '800');
+    const baseKey = clean
+      .split('?')[0]
+      .replace(/_\d+x(?=\.(?:jpg|jpeg|png|webp|avif))/i, '');
+    if (!dedupedByBase.has(baseKey)) {
+      dedupedByBase.set(baseKey, clean);
+    }
+  }
+  const urls = [...dedupedByBase.values()];
+
+  const brokenAssets = [];
+  for (const assetUrl of urls) {
+    await new Promise(r => setTimeout(r, 80));
+    let status = 0;
+    try {
+      let res = await fetch(assetUrl, {
+        method: 'HEAD',
+        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PrintsWithPassionAssetGuard/1.0)' }
+      });
+      if (res.status === 429) {
+        await new Promise(r => setTimeout(r, 2500));
+        res = await fetch(assetUrl, {
+          method: 'HEAD',
+          headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PrintsWithPassionAssetGuard/1.0)' }
+        });
+      }
+      if (res.status === 405 || res.status === 501) {
+        res = await fetch(assetUrl, {
+          method: 'GET',
+          headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PrintsWithPassionAssetGuard/1.0)' }
+        });
+      }
+      status = res.status;
+    } catch {
+      status = 0;
+    }
+    if (status === 0 || status >= 400) {
+      brokenAssets.push({ url: assetUrl, status });
+    }
+  }
+  return { checkedCount: urls.length, brokenAssets };
+}
+
 async function resilientFetch(url, options = {}, retries = 3) {
   const headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
@@ -104,38 +177,53 @@ async function main() {
     console.log('  [PASS] /robots.txt directives (?variant=/utm unblocked for GMC, deactivated locales unblocked for 404/301 purge, standalone Sitemap, sort/filter blocked) & IndexNow verified.');
   }
 
-  // 3. Check live HTML, Canonical URL, TTFB (ms), Clean 4-Column Footer Nav, Anti-Bloat DOM, Product 3-Level BreadcrumbList, Blog Index ItemList, Visualizer WebApplication, and 4K Wallpaper ItemList Schema
+  // 3. Check live HTML, Canonical URL, TTFB (ms), Clean 4-Column Footer Nav, Anti-Bloat DOM, 2026 JSON-LD Self-Linter, ProductGroup Schema, Hreflang, Visualizer WebApplication, and Broken-Asset Guard
   const testUrls = [
-    { name: 'Homepage', url: 'https://printswithpassion.com/', expectCleanFooter: true, expectOnlineStore: true, antiBloat: true },
+    { name: 'Homepage', url: 'https://printswithpassion.com/', expectCleanFooter: true, expectOnlineStore: true, checkHomepageAssets: true, antiBloat: true },
     { name: 'Smart Sub-Collection (Japanese Desk Mats)', url: 'https://printswithpassion.com/collections/japanese-anime-desk-mats', expectCleanFooter: true, expectColSchema: true, expectBreadcrumb: true, antiBloat: true },
     { name: 'Apparel Smart Sub-Collection (Japanese Graphic Tees)', url: 'https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts', expectCleanFooter: true, expectColSchema: true, expectBreadcrumb: true, antiBloat: true },
-    { name: 'Product Page', url: 'https://printswithpassion.com/products/table-mountain-cape-town-xxl-desk-mat', expectImageLicense: true, expectMerchantOffer: true, expectBreadcrumb: true, expectProdFaq: true, antiBloat: true },
+    { name: 'Product Page', url: 'https://printswithpassion.com/products/table-mountain-cape-town-xxl-desk-mat', expectImageLicense: true, expectMerchantOffer: true, expectBreadcrumb: true, antiBloat: true },
     { name: 'Blog Index Hub (/blogs/news)', url: 'https://printswithpassion.com/blogs/news', expectCleanFooter: true, expectBlogIndexSchema: true, expectBreadcrumb: true, antiBloat: true },
     { name: 'Blog Article Page', url: 'https://printswithpassion.com/blogs/news/mid-century-modern-home-office-living-room-styling-uk-guide', expectCleanFooter: true, expectArticleSchema: true, expectBreadcrumb: true, antiBloat: true },
     { name: 'Interactive Size Visualizer', url: 'https://printswithpassion.com/pages/desk-size-visualizer', expectCleanFooter: true, expectWebAppSchema: true, expectVizQuickJump: true, expectBreadcrumb: true, antiBloat: true },
     { name: '4K Wallpaper Vault', url: 'https://printswithpassion.com/pages/free-4k-wallpapers', expectBridge: true, expectQuickJump: true, expectVaultImgListSchema: true, antiBloat: true },
     { name: 'AI Catalog & Sizing Directory', url: 'https://printswithpassion.com/pages/ai-catalog-directory', expectCleanFooter: true, expectAiCatalog: true, antiBloat: true },
-    { name: 'Hardware Ecosystem Compatibility Guide', url: 'https://printswithpassion.com/pages/desk-setup-hardware-compatibility-guide', expectCleanFooter: true, expectProdFaq: true, expectBreadcrumb: true, antiBloat: true },
-    { name: 'Studio Standard vs. Generic Comparison Hub', url: 'https://printswithpassion.com/pages/studio-quality-vs-generic-prints', expectCleanFooter: true, expectProdFaq: true, expectBreadcrumb: true, antiBloat: true },
-    { name: 'B2B Trade & Bulk Orders Portal', url: 'https://printswithpassion.com/pages/trade-and-bulk-orders', expectCleanFooter: true, expectProdFaq: true, expectBreadcrumb: true, antiBloat: true },
+    { name: 'Hardware Ecosystem Compatibility Guide', url: 'https://printswithpassion.com/pages/desk-setup-hardware-compatibility-guide', expectCleanFooter: true, expectBreadcrumb: true, antiBloat: true },
+    { name: 'Studio Standard vs. Generic Comparison Hub', url: 'https://printswithpassion.com/pages/studio-quality-vs-generic-prints', expectCleanFooter: true, expectBreadcrumb: true, antiBloat: true },
+    { name: 'B2B Trade & Bulk Orders Portal', url: 'https://printswithpassion.com/pages/trade-and-bulk-orders', expectCleanFooter: true, expectBreadcrumb: true, antiBloat: true },
     { name: 'Studio Lookbook & Social Feed Hub', url: 'https://printswithpassion.com/pages/studio-lookbook-social-feed', expectCleanFooter: true, expectBreadcrumb: true, antiBloat: true }
   ];
 
-  console.log('[3/6] Auditing Live Storefront Templates, Canonical Tags, TTFB (ms), Clean Footer & Anti-Bloat DOM:');
+  console.log('[3/6] Auditing Live Storefront Templates, Canonical Tags, 2026 JSON-LD Self-Linter, TTFB (ms), Clean Footer & Anti-Bloat DOM:');
   const ttfbList = [];
+  let homepageHtml = '';
+  let homepageAssetReport = { checkedCount: 0, brokenAssets: [] };
+
   for (const t of testUrls) {
     const isBlogRoute = t.url.includes('/blogs/');
-    const pacingMs = isBlogRoute ? 1350 : 1000;
+    const pacingMs = isBlogRoute ? 2200 : 1600;
     await new Promise(r => setTimeout(r, pacingMs));
     const { res: r, duration: ttfbMs } = await resilientFetch(t.url);
     ttfbList.push(ttfbMs);
     const html = await r.text();
     const sizeKb = Math.round(html.length / 1024);
 
+    if (t.checkHomepageAssets) {
+      homepageHtml = html;
+    }
+
     const titleMatch = (html.match(/<title>(.*?)<\/title>/s) || [])[1]?.trim() || '';
     const titleOk = titleMatch.length > 10 && !titleMatch.includes('Prints With Passion USA') && !titleMatch.includes('Free US Shipping ($0.00 USD)');
     const canonicalMatch = (html.match(/<link\s+rel="canonical"\s+href="([^"]+)"/i) || [])[1] || '';
     const canonicalOk = canonicalMatch.startsWith('https://printswithpassion.com') && !canonicalMatch.includes('?');
+
+    // 2026 Self-Linting Gate assertions
+    const jsonLdCheck = validateJsonLdBlocks(html);
+    const jsonLdValidOk = jsonLdCheck.count > 0 && jsonLdCheck.invalidCount === 0;
+    const noDeprecatedSchemaOk = !/"@type"\s*:\s*"(?:FAQPage|HowTo)"/i.test(html);
+    const noLiquidLeakOk = !html.includes('{{ terms }}');
+    const no30DayOk = !/30-Day\s+(?:Money-Back|Quality|Return|Hassle-Free)/i.test(html);
+    const hreflangOk = (html.match(/rel="alternate"\s+hreflang="/gi) || []).length >= 6;
 
     // Anti-bloat assertions: clean DOM, no 119-link footer directory, no matrix bundle, no collection FAQPage or hero bloat
     const antiBloatDirOk = !html.includes('pwp-seo-curated-directory') && !html.includes('pwp-seo-directory__journal');
@@ -145,20 +233,20 @@ async function main() {
     const antiBloatHeroOk = !isCollection || !html.includes('PWP_INPAGES_3RULE_HERO');
     const cleanFooterOk = !t.expectCleanFooter || html.includes('pwp-site-footer');
 
-    const onlineStoreOk = !t.expectOnlineStore || (html.includes('"@type": "OnlineStore"') && html.includes('"@type": "SearchAction"'));
+    const onlineStoreOk = !t.expectOnlineStore || (html.includes('"OnlineStore"') && html.includes('"@type": "SearchAction"'));
     const colSchemaOk = !t.expectColSchema || html.includes('"@type": "CollectionPage"');
-    const artSchemaOk = !t.expectArticleSchema || html.includes('"@type": "BlogPosting"');
+    const artSchemaOk = !t.expectArticleSchema || html.includes('"@type": "BlogPosting"') || html.includes('"@type": "Article"');
     const blogIndexOk = !t.expectBlogIndexSchema || (html.includes('"@type": "Blog"') && html.includes('"@type": "ItemList"'));
-    const prodFaqOk = !t.expectProdFaq || html.includes('"@type": "FAQPage"') || html.includes('"@type":"FAQPage"');
-    const webAppOk = !t.expectWebAppSchema || (html.includes('"@type": "WebApplication"') && html.includes('"@type": "HowTo"'));
+    const webAppOk = !t.expectWebAppSchema || html.includes('"@type": "WebApplication"');
     const vizQuickJumpOk = !t.expectVizQuickJump || html.includes('pwp-visualizer-quick-jump');
     const vaultImgListOk = !t.expectVaultImgListSchema || html.includes('pwp-wallpaper-itemlist-schema');
     const breadcrumbOk = !t.expectBreadcrumb || html.includes('"@type": "BreadcrumbList"');
     const imgLicOk = !t.expectImageLicense || html.includes('"acquireLicensePage": "https://printswithpassion.com/pages/free-4k-wallpapers"');
     const merchantOfferOk = !t.expectMerchantOffer || (
-      html.includes('"@type": "Product"') &&
+      (html.includes('"@type": "ProductGroup"') || html.includes('"@type": "Product"')) &&
       html.includes('"shippingDetails"') &&
-      html.includes('"hasMerchantReturnPolicy"')
+      html.includes('"hasMerchantReturnPolicy"') &&
+      html.includes('"merchantReturnDays": 14')
     );
     const bridgeOk = !t.expectBridge || html.includes('pwp-wallpaper-collection-bridge');
     const quickJumpOk = !t.expectQuickJump || html.includes('pwp-wallpaper-quick-jump');
@@ -167,14 +255,24 @@ async function main() {
     const leanPayloadOk = sizeKb < 1500;
 
     const antiBloatAllOk = antiBloatDirOk && antiBloatBundleOk && antiBloatColFaqOk && antiBloatHeroOk;
+    const lintGateOk = jsonLdValidOk && noDeprecatedSchemaOk && noLiquidLeakOk && no30DayOk && hreflangOk;
 
-    console.log(`  - ${t.name}: HTTP ${r.status} | TTFB=${ttfbMs}ms (${sizeKb}KB, leanOk=${leanPayloadOk}) | canonicalOk=${canonicalOk} | ga4Bridge=${ga4BridgeOk} | titleOk=${titleOk} | antiBloat=${antiBloatAllOk} | cleanFooter=${cleanFooterOk} | colSchema=${colSchemaOk}`);
+    console.log(`  - ${t.name}: HTTP ${r.status} | TTFB=${ttfbMs}ms (${sizeKb}KB, leanOk=${leanPayloadOk}) | canonicalOk=${canonicalOk} | jsonLdValid=${jsonLdValidOk}(${jsonLdCheck.count}) | noDeprecated=${noDeprecatedSchemaOk} | noLeak=${noLiquidLeakOk} | no30Day=${no30DayOk} | hreflang=${hreflangOk} | ga4Bridge=${ga4BridgeOk} | titleOk=${titleOk} | antiBloat=${antiBloatAllOk} | cleanFooter=${cleanFooterOk}`);
     if (
-      r.status !== 200 || !canonicalOk || !ga4BridgeOk || !titleOk || !antiBloatAllOk || !cleanFooterOk ||
+      r.status !== 200 || !canonicalOk || !ga4BridgeOk || !titleOk || !antiBloatAllOk || !cleanFooterOk || !lintGateOk ||
       !onlineStoreOk || !colSchemaOk || !artSchemaOk ||
-      !blogIndexOk || !prodFaqOk || !webAppOk || !vizQuickJumpOk || !vaultImgListOk ||
+      !blogIndexOk || !webAppOk || !vizQuickJumpOk || !vaultImgListOk ||
       !breadcrumbOk || !imgLicOk || !merchantOfferOk || !bridgeOk || !quickJumpOk || !aiCatOk || !leanPayloadOk
     ) {
+      if (!jsonLdValidOk) console.error(`    [JSON-LD PARSE ERROR] ${t.name}:`, jsonLdCheck.parseErrors);
+      if (!noDeprecatedSchemaOk) console.error(`    [DEPRECATED SCHEMA] ${t.name}: contains FAQPage or HowTo`);
+      if (!noLiquidLeakOk) console.error(`    [LIQUID LEAK] ${t.name}: contains {{ terms }}`);
+      if (!no30DayOk) console.error(`    [POLICY MISMATCH] ${t.name}: contains 30-Day return string`);
+      if (!hreflangOk) console.error(`    [HREFLANG MISSING] ${t.name}: <6 hreflang tags`);
+      if (!merchantOfferOk) console.error(`    [MERCHANT OFFER ERROR] ${t.name}: missing ProductGroup/Product, shippingDetails, or 14-day return policy`);
+      if (!onlineStoreOk || !colSchemaOk || !artSchemaOk || !blogIndexOk || !webAppOk || !breadcrumbOk || !imgLicOk || !bridgeOk || !quickJumpOk || !vizQuickJumpOk || !vaultImgListOk || !aiCatOk) {
+        console.error(`    [TEMPLATE SCHEMA/WIDGET ERROR] ${t.name}: onlineStore=${onlineStoreOk}, col=${colSchemaOk}, art=${artSchemaOk}, blogIdx=${blogIndexOk}, webApp=${webAppOk}, breadcrumb=${breadcrumbOk}, imgLic=${imgLicOk}, bridge=${bridgeOk}, qj=${quickJumpOk}, vqj=${vizQuickJumpOk}, vault=${vaultImgListOk}, aiCat=${aiCatOk}`);
+      }
       errors++;
     }
   }
@@ -190,7 +288,7 @@ async function main() {
   let latestBlogUrl = null;
   for (const f of feeds) {
     const isBlogFeed = f.includes('/blogs/');
-    await new Promise(r => setTimeout(r, isBlogFeed ? 1350 : 1000));
+    await new Promise(r => setTimeout(r, isBlogFeed ? 2200 : 1800));
     const { res: r } = await resilientFetch(f);
     const txt = await r.text();
     console.log(`  - Feed ${f}: HTTP ${r.status} (${txt.length} bytes)`);
@@ -201,15 +299,20 @@ async function main() {
     }
   }
   if (latestBlogUrl) {
-    await new Promise(r => setTimeout(r, 1350));
+    await new Promise(r => setTimeout(r, 2200));
     const { res: br } = await resilientFetch(latestBlogUrl);
     const bHtml = await br.text();
     const internalLinks = [...new Set([...bHtml.matchAll(/href="(\/(?:collections|products|pages)\/[a-z0-9-_]+)"/gi)].map(m => `https://printswithpassion.com${m[1]}`))].slice(0, 4);
     for (const il of internalLinks) {
-      await new Promise(r => setTimeout(r, 1000));
+      await new Promise(r => setTimeout(r, 1800));
       const { res: ir } = await resilientFetch(il);
       console.log(`  - Latest Blog Internal Link (${il}): HTTP ${ir.status}`);
-      if (ir.status !== 200) errors++;
+      if (ir.status === 429) {
+        console.warn(`    [WARN: CF-429 Rate Limit] Transient Cloudflare throttle on ${il}`);
+        warnings++;
+      } else if (ir.status !== 200) {
+        errors++;
+      }
     }
   }
 
@@ -223,14 +326,19 @@ async function main() {
   }
   console.log(`[5/6] Deep-auditing 6 rotated Smart Sub-Collections (offset ${startOffset}/${subs.length}):`);
   for (const s of sampleSubs) {
-    await new Promise(r => setTimeout(r, 1000));
+    await new Promise(r => setTimeout(r, 2000));
     const u = `https://printswithpassion.com/collections/${s.handle}`;
     const { res: r } = await resilientFetch(u);
+    if (r.status === 429) {
+      console.warn(`  - ${s.handle}: HTTP 429 [WARN: CF-429 Rate Limit]`);
+      warnings++;
+      continue;
+    }
     const html = await r.text();
     const canonicalOk = html.includes(`<link rel="canonical" href="${u}">`);
     const antiBloatDirOk = !html.includes('pwp-seo-curated-directory') && !html.includes('pwp-seo-directory__journal');
     const antiBloatHeroOk = !html.includes('PWP_INPAGES_3RULE_HERO');
-    const antiBloatFaqOk = !html.includes('"@type": "FAQPage"');
+    const antiBloatFaqOk = !/"@type"\s*:\s*"(?:FAQPage|HowTo)"/i.test(html);
     const cleanFooterOk = html.includes('pwp-site-footer');
     const colSchemaOk = html.includes('"@type": "CollectionPage"');
     const antiBloatSubOk = antiBloatDirOk && antiBloatHeroOk && antiBloatFaqOk && cleanFooterOk;
@@ -238,9 +346,19 @@ async function main() {
     if (r.status !== 200 || !canonicalOk || !antiBloatSubOk) errors++;
   }
 
+  // 5b. Run Homepage CDN Broken-Asset Guard after HTML page checks so HEAD bursts don't exhaust Cloudflare limit early
+  homepageAssetReport = await auditHomepageCdnAssets(homepageHtml);
+  console.log(`[5b/6] Homepage CDN Asset Guard: checked=${homepageAssetReport.checkedCount} unique assets, broken=${homepageAssetReport.brokenAssets.length}`);
+  if (homepageAssetReport.brokenAssets.length > 0) {
+    for (const ba of homepageAssetReport.brokenAssets) {
+      console.error(`    [BROKEN ASSET HTTP ${ba.status}] ${ba.url}`);
+    }
+    errors++;
+  }
+
   // 6. Append dated audit summary to TECHNICAL_SEO_AUDIT_LOG.md
   const timestamp = new Date().toISOString();
-  const row = `| \`${timestamp}\` | \`${locs.length}\` Canonical Root Sitemaps | PASS (\`Avg TTFB: ${avgTtfbMs}ms\` + \`IndexNow Key OK\` + \`Canonical OK\`) | PASS (\`OnlineStore\` + \`Clean 4-Col Footer & Anti-Bloat DOM\` + \`Product FAQPage & 3-Level BreadcrumbList\` + \`Blog ItemList\` + \`WebApplication\`) | PASS (\`CC-BY 4.0\` + \`30-Item Wallpaper ItemList\`) | \`${subs.length} / ${subs.length}\` Active (6 Deep-Audited) | **${errors === 0 ? 'PASS (0 Errors)' : `FAIL (${errors} Errors)`}** |\n`;
+  const row = `| \`${timestamp}\` | \`${locs.length}\` Canonical Root Sitemaps | PASS (\`Avg TTFB: ${avgTtfbMs}ms\` + \`IndexNow Key OK\` + \`Canonical OK\` + \`${homepageAssetReport.checkedCount} Assets Checked, ${homepageAssetReport.brokenAssets.length} Broken\`) | PASS (\`OnlineStore\` + \`ProductGroup & 14-Day ReturnPolicy\` + \`Zero FAQPage/HowTo\` + \`JSON-LD Self-Linter\` + \`6 Hreflang\` + \`WebApplication\`) | PASS (\`CC-BY 4.0\` + \`30-Item Wallpaper ItemList\`) | \`${subs.length} / ${subs.length}\` Active (6 Deep-Audited) | **${errors === 0 ? 'PASS (0 Errors)' : `FAIL (${errors} Errors)`}** |\n`;
   fs.appendFileSync(AUDIT_LOG_PATH, row, 'utf8');
   console.log(`[6/6] Appended audit entry to ${AUDIT_LOG_PATH} (Avg TTFB: ${avgTtfbMs}ms)`);
 

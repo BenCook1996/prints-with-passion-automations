@@ -1,31 +1,11 @@
 import fs from 'fs';
+import path from 'path';
+import { WORKSPACE, shopifyGraphQL } from './lib/cloud-env.mjs';
 
-const authPath = 'C:\\Users\\Benjamin\\.gemini\\antigravity\\brain\\07bfb7d6-9234-4f9d-b17c-a75686424c5d\\scratch\\fresh_auth_20261028.json';
-const auth = JSON.parse(fs.readFileSync(authPath, 'utf8'));
-const GRAPHQL_URL = 'https://admin.shopify.com/api/shopify/bpcprints';
-const THEME_ID = 'gid://shopify/OnlineStoreTheme/177936466293';
-const CATALOG_PATH = 'C:\\Users\\Benjamin\\.gemini\\antigravity\\scratch\\pwp-seo-blog-engine\\curated_catalog.json';
-const KEYWORD_QUEUE_PATH = 'C:\\Users\\Benjamin\\.gemini\\antigravity\\scratch\\pwp-seo-blog-engine\\transactional_keyword_queue.json';
+const CATALOG_PATH = path.join(WORKSPACE, 'curated_catalog.json');
+const KEYWORD_QUEUE_PATH = path.join(WORKSPACE, 'transactional_keyword_queue.json');
 
 const UNSAFE_OR_CLONE_HANDLE_REGEX = /(?:-\d+$|image-alt-text|comfortable-fabric|or-offices|\b(?:star-wars|jedi|sith|vader|skywalker|mandalorian|grogu|baby-yoda|millennium-falcon|death-star|stormtrooper|boba-fett|ahsoka|obi-wan|darth-maul|kylo-ren|x-wing|tie-fighter|pokemon|pikachu|charizard|gengar|eevee|mewtwo|bulbasaur|squirtle|naruto|uchiha|itachi|sasuke|kakashi|akatsuki|one-piece|luffy|zoro|dragon-ball|goku|vegeta|saiyan|totoro|ghibli|spirited-away|mononoke|howls-moving-castle|demon-slayer|tanjiro|nezuko|attack-on-titan|jujutsu-kaisen|gojo|chainsaw-man|zelda|hyrule|super-mario|acotar|velaris|throne-of-glass|fourth-wing|hogwarts|gryffindor|slytherin|harry-potter|hermione|voldemort|lord-of-the-rings|middle-earth|frodo|gandalf|aragorn|sauron|gollum|shire|rivendell|mordor|balrog|witcher|geralt|warhammer|cyberpunk-2077|elden-ring|dark-souls|bloodborne|valorant|league-of-legends|overwatch|fortnite|minecraft|roblox|genshin-impact|final-fantasy|halo|master-chief|god-of-war|kratos|spider-man|avengers|iron-man|captain-america|deadpool|wolverine|batman|gotham|joker|superman|wonder-woman|disney|mickey-mouse|stitch|simpsons|rick-and-morty|stranger-things|wednesday-addams|peaky-blinders|game-of-thrones|targaryen|lannister|winterfell|breaking-bad|spongebob|hello-kitty|sanrio|barbie|lego|nike|adidas|gucci|supreme|rolex|ferrari|porsche|lamborghini|bmw|mercedes|formula-1|red-bull)\b)/i;
-
-async function shopifyGraphQL(query, variables = {}) {
-  const res = await fetch(GRAPHQL_URL, {
-    method: 'POST',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json',
-      'Cookie': auth.shopifyCookie,
-      'x-csrf-token': auth.shopifyCsrf,
-      'Origin': 'https://admin.shopify.com',
-      'Referer': 'https://admin.shopify.com/store/bpcprints'
-    },
-    body: JSON.stringify({ query, variables })
-  });
-  const json = await res.json();
-  if (json.errors) console.error('GQL Errors:', JSON.stringify(json.errors));
-  return json.data;
-}
 
 async function fetchDiverseBrandSafeProducts() {
   const targetTypes = [
@@ -192,43 +172,7 @@ async function main() {
   // --------------------------------------------------------------------------
   // 1. /pages/desk-setup-hardware-compatibility-guide
   // --------------------------------------------------------------------------
-  const hardwareSchema = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What size XXL desk mat fits an IKEA Karlby (186cm or 246cm) and Alex drawer setup?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "For an IKEA Karlby 186cm×63.5cm or 246cm×63.5cm worktop, our 90×40cm (35.4×15.7 inch) 4mm Stitched XXL Desk Mat is the ideal centerpiece, leaving 11.75cm of exposed walnut border front-and-back while accommodating a full-size or 75% mechanical keyboard and wide low-DPI mouse sweep."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Which Prints With Passion desk mat size works best on a Secretlab Magnus Pro or Magnus XL?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "For the Secretlab Magnus Pro (150cm×70cm), choose either our 80×30cm (31.5×11.8 inch) or 90×40cm (35.4×15.7 inch) 4mm neoprene desk mat. Both clear the rear cable management tray lid completely while dampening metallic resonance for mechanical keyboards."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does a 4mm neoprene desk mat improve the sound profile of Keychron, Wooting, and custom mechanical keyboards?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. A 4mm high-density natural rubber/neoprene base absorbs hollow desk reverberation on wood, laminate, and steel desks, deepening the acoustic 'thock' of Keychron Q-series, Wooting 60HE/80HE, and custom gasket-mounted keyboards."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
   const hardwareHtml = `<!-- PWP_AUTOMATION_11_HARDWARE_GUIDE -->
-<script type="application/ld+json">${JSON.stringify(hardwareSchema)}</script>
 <div style="max-width:1100px;margin:0 auto;padding:16px;color:#111110;line-height:1.65;">
   <div style="background:#F6F4EF;border:1px solid #DEDAD0;border-left:4px solid #C85A32;border-radius:0px;padding:24px;margin-bottom:28px;">
     <span style="display:inline-block;background:#C85A32;color:#FFF;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;padding:4px 10px;border-radius:0px;margin-bottom:8px;">Hardware Ecosystem Compatibility Guide • Metric (CM) &amp; Imperial (Inches)</span>
@@ -309,35 +253,7 @@ async function main() {
   // --------------------------------------------------------------------------
   // 2. /pages/studio-quality-vs-generic-prints
   // --------------------------------------------------------------------------
-  const comparisonSchema = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How do Prints With Passion 4mm desk mats compare to standard 2mm marketplace mousepads?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Prints With Passion desk mats use a 4mm (0.16 inch) high-density natural neoprene rubber base with 360-degree color-matched anti-fray stitching and archival dye-sublimated micro-weave fabric. Standard 2mm promo pads curl at the edges, slide on smooth desks, and lack acoustic cushioning."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why choose kiln-dried pine stretched canvas wall art over rolled paper posters or metal prints?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Our Stretched Canvas Wall Art arrives hand-stretched over 1.25-inch kiln-dried pine bars with a matte museum-grade weave that eliminates window and monitor glare—ready to hang out of the box without expensive custom framing or magnetic wall damage."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
   const comparisonHtml = `<!-- PWP_AUTOMATION_11_COMPARISON_PAGE -->
-<script type="application/ld+json">${JSON.stringify(comparisonSchema)}</script>
 <div style="max-width:1100px;margin:0 auto;padding:16px;color:#111110;line-height:1.65;">
   <div style="background:#F6F4EF;border:1px solid #DEDAD0;border-left:4px solid #111110;border-radius:0px;padding:24px;margin-bottom:28px;">
     <span style="display:inline-block;background:#111110;color:#FFF;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;padding:4px 10px;border-radius:0px;margin-bottom:8px;">Material Specification Teardown • Studio Standard vs. Generic Alternatives</span>
@@ -421,35 +337,7 @@ async function main() {
   // --------------------------------------------------------------------------
   // 3. /pages/trade-and-bulk-orders (Automation 14 — B2B Workspace & Staging Portal)
   // --------------------------------------------------------------------------
-  const b2bSchema = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What bulk trade discounts does Prints With Passion offer for offices, interior designers, and Airbnb hosts?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Prints With Passion offers instant automated B2B volume tiers with zero minimum SKU lock-in: 15% OFF 10–24 units (Code: TRADE15), 25% OFF 25–49 units (Code: TRADE25), and 35% OFF 50+ units (Code: TRADE35), all including Free Tracked Shipping across the UK, US, Canada, Australia, and EU."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can we mix and match different artwork and substrates (Desk Mats, Canvas Wall Art, Cushions, Throws) in a single bulk order?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. You can mix any combination of our 28,865 designs across XXL Desk Mats, Stretched Canvas Wall Art, Cushion Covers, Coral Fleece Throw Blankets, Bath Mats, and Heavyweight Apparel to reach the 10+, 25+, or 50+ unit trade discount tiers."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
   const b2bHtml = `<!-- PWP_AUTOMATION_14_B2B_PORTAL -->
-<script type="application/ld+json">${JSON.stringify(b2bSchema)}</script>
 <div style="max-width:1100px;margin:0 auto;padding:16px;color:#111110;line-height:1.65;">
   <div style="background:#F6F4EF;border:1px solid #DEDAD0;border-top:4px solid #C85A32;border-radius:0px;padding:26px;margin-bottom:28px;">
     <span style="display:inline-block;background:#C85A32;color:#FFF;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;padding:4px 10px;border-radius:0px;margin-bottom:8px;">B2B Trade, Workspace &amp; Interior Staging Program • 15% to 35% Volume Savings</span>

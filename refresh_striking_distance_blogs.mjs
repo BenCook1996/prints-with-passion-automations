@@ -1,16 +1,18 @@
 import fs from 'fs';
+import path from 'path';
+import { WORKSPACE } from './lib/cloud-env.mjs';
 import {
   shopifyGql,
   pickProductsForSubCollection,
   renderProductGrid,
   renderQuickTakeawaysBox,
-  renderFaqSchema,
-  renderHowToSchema
+  truncateAtWordBoundary,
+  renderAiDirectAnswerBlock
 } from './article_builder_base.mjs';
 
-const STATE_PATH = 'C:\\Users\\Benjamin\\.gemini\\antigravity\\scratch\\pwp-seo-blog-engine\\blog_refresh_cursor_state.json';
-const TRACKER_PATH = 'C:\\Users\\Benjamin\\.gemini\\antigravity\\scratch\\pwp-seo-blog-engine\\blog_content_tracker.md';
-const KEYWORD_QUEUE_PATH = 'C:\\Users\\Benjamin\\.gemini\\antigravity\\scratch\\pwp-seo-blog-engine\\transactional_keyword_queue.json';
+const STATE_PATH = path.join(WORKSPACE, 'blog_refresh_cursor_state.json');
+const TRACKER_PATH = path.join(WORKSPACE, 'blog_content_tracker.md');
+const KEYWORD_QUEUE_PATH = path.join(WORKSPACE, 'transactional_keyword_queue.json');
 const keywordQueue = fs.existsSync(KEYWORD_QUEUE_PATH)
   ? JSON.parse(fs.readFileSync(KEYWORD_QUEUE_PATH, 'utf8'))
   : { bySubCollection: {} };
@@ -74,7 +76,7 @@ function generateTailoredFaqsForArticle(title, productType, themeTag = 'Sci-Fi &
     },
     {
       question: `Is tracked shipping included across the UK, US, Canada, and Europe?`,
-      answer: `Yes—every Prints With Passion order is custom-produced at our nearest regional print studio in the UK, USA, Canada, EU, or Australia and includes 100% Free Tracked Delivery with a 30-day return guarantee.`
+      answer: `Yes—every Prints With Passion order is custom-produced at our nearest regional print studio in the UK, USA, Canada, EU, or Australia and includes 100% Free Tracked Delivery with a 14-day return guarantee.`
     }
   ];
   return [...discoveredFaqs, ...baselineFaqs].slice(0, 4);
@@ -135,29 +137,52 @@ async function main() {
   for (const art of nodes) {
     if (refreshedCount >= 4) break;
     const body = art.body || '';
-    const hasFaqSchema = body.includes('"@type":"FAQPage"') || body.includes('"@type": "FAQPage"');
+    const hasDeprecatedSchema = /"@type"\s*:\s*"(?:FAQPage|HowTo)"/i.test(body);
+    const has30DayReturn = /\b30-day\s+(?:return|money-back|replacement|guarantee)/i.test(body);
+    const hasTruncatedHeading = /for UK W\s*<\/h2>/i.test(body);
+    const hasAiDirectAnswer = body.includes('pwp-ai-direct-answer');
     const hasStudioBrief = body.includes('EDITORIAL STUDIO BRIEF');
     const hasShoppableGrid = body.includes('Shop Studio Edition →') || body.includes('Explore Curated ');
-    const hasHowToSchema = body.includes('"@type":"HowTo"') || body.includes('"@type": "HowTo"');
 
-    if (!hasFaqSchema || !hasStudioBrief || !hasShoppableGrid || !hasHowToSchema) {
+    if (hasDeprecatedSchema || has30DayReturn || hasTruncatedHeading || !hasAiDirectAnswer || !hasStudioBrief || !hasShoppableGrid) {
       const { productType, themeTag } = inferSubstrateAndTheme(art.title, art.handle);
-      let updatedBody = body;
+      const enrichment = getQueuedKeywordEnrichmentForArticle(productType, themeTag);
+      let updatedBody = body
+        .replace(/<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?"@type"\s*:\s*"(?:FAQPage|HowTo)"[\s\S]*?<\/script>\s*/gi, '')
+        .replace(/\b30-Day(\s+(?:Money-Back|Quality|Return|Hassle-Free|Replacement|Guarantee))/g, '14-Day$1')
+        .replace(/\b30-day(\s+(?:return|money-back|replacement|guarantee))/g, '14-day$1');
+
+      const cleanTakeawaysHeading = `Quick Takeaways: ${truncateAtWordBoundary(art.title, 68)}`;
+      if (hasTruncatedHeading) {
+        updatedBody = updatedBody.replace(
+          /<h2([^>]*)>\s*Quick Takeaways:[^<]*<\/h2>/i,
+          `<h2$1>${cleanTakeawaysHeading}</h2>`
+        );
+      }
 
       if (!hasStudioBrief) {
-        const enrichment = getQueuedKeywordEnrichmentForArticle(productType, themeTag);
         const kwFocusHtml = enrichment.modifiers.length
           ? `<strong>High-Intent Setup Specs Covered:</strong> Optimized for <em>${enrichment.modifiers.slice(0, 2).join('</em> &amp; <em>')}</em> — browse all matching <a href="${enrichment.subCollectionUrl}" style="color:#1B3B8B;text-decoration:underline;font-weight:600;">${enrichment.subCollectionAnchor}</a>.`
           : `<strong>Archival Studio Materials:</strong> Custom-printed on 4mm natural rubber desk mats, 400gsm FSC pine stretched canvas, and 300gsm plush coral fleece (<a href="/pages/ai-catalog-directory" style="color:#1B3B8B;text-decoration:underline;font-weight:600;">Full 58-Collection Directory</a>).`;
         const takeawaysBox = renderQuickTakeawaysBox(
-          `Quick Takeaways: ${art.title.slice(0, 68)}`,
+          cleanTakeawaysHeading,
           [
             `<strong>Dual Metric &amp; Imperial Proportions:</strong> Match 60%–75% of your desk or sofa span using our <a href="/pages/desk-size-visualizer" style="color:#1B3B8B;text-decoration:underline;font-weight:600;">Interactive CM &amp; Inch Size Visualizer</a>.`,
             kwFocusHtml,
-            `<strong>Global Tracked Fulfillment:</strong> 100% Free Tracked UK, US, CA, AU &amp; EU Delivery included on every studio order, plus matching <a href="/pages/free-4k-wallpapers" style="color:#1B3B8B;text-decoration:underline;font-weight:600;">Free 4K Wallpapers (CC-BY 4.0)</a>.`
+            `<strong>Global Tracked Fulfillment:</strong> 100% Free Tracked UK, US, CA, AU &amp; EU Delivery included on every studio order (14-day returns), plus matching <a href="/pages/free-4k-wallpapers" style="color:#1B3B8B;text-decoration:underline;font-weight:600;">Free 4K Wallpapers (CC-BY 4.0)</a>.`
           ]
         );
         updatedBody = takeawaysBox + '\n' + updatedBody;
+      }
+
+      if (!hasAiDirectAnswer) {
+        const directAnswerBlock = renderAiDirectAnswerBlock(
+          art.title,
+          productType,
+          enrichment.subCollectionUrl,
+          enrichment.subCollectionAnchor
+        );
+        updatedBody = directAnswerBlock + '\n' + updatedBody;
       }
 
       if (!hasShoppableGrid) {
@@ -168,16 +193,6 @@ async function main() {
   ${renderProductGrid(recommendedHandles)}
 </section>\n`;
         updatedBody = updatedBody + shoppableSection;
-      }
-
-      if (!hasFaqSchema) {
-        const faqs = generateTailoredFaqsForArticle(art.title, productType, themeTag);
-        updatedBody = updatedBody + '\n' + renderFaqSchema(faqs);
-      }
-
-      if (!hasHowToSchema) {
-        const howTo = generateHowToStepsForArticle(art.title, productType);
-        updatedBody = updatedBody + '\n' + renderHowToSchema(howTo.name, howTo.description, howTo.steps);
       }
 
       const upd = await shopifyGql(`
@@ -209,9 +224,9 @@ async function main() {
   if (fs.existsSync(TRACKER_PATH)) {
     try {
       let tracker = fs.readFileSync(TRACKER_PATH, 'utf8');
-      const statusLine = `- **Historical Blog Rich-Snippet & Shoppable Grid Refresh Progress:** **\`${state.totalRefreshed}\` Historical Articles Upgraded with Studio Brief + 4-Product Shoppable Grid + Smart Sub-Collection Pills + \`FAQPage\`/\`HowTo\` JSON-LD (Latest Batch: \`${refreshedHandles.join('`, `')}\` — Last Run: \`${state.lastRun}\`)**`;
-      if (tracker.includes('Historical Blog Rich-Snippet & Shoppable Grid Refresh Progress:')) {
-        tracker = tracker.replace(/- \*\*Historical Blog Rich-Snippet & Shoppable Grid Refresh Progress:\*\*[^\n]+/, statusLine);
+      const statusLine = `- **Historical Blog AI Direct Answer & Shoppable Grid Refresh Progress:** **\`${state.totalRefreshed}\` Historical Articles Upgraded with AI Direct Answer + Studio Brief + 4-Product Shoppable Grid + Smart Sub-Collection Pills (Zero Deprecated FAQPage/HowTo) (Latest Batch: \`${refreshedHandles.join('`, `')}\` — Last Run: \`${state.lastRun}\`)**`;
+      if (tracker.includes('Historical Blog Rich-Snippet & Shoppable Grid Refresh Progress:') || tracker.includes('Historical Blog AI Direct Answer & Shoppable Grid Refresh Progress:')) {
+        tracker = tracker.replace(/- \*\*Historical Blog (?:Rich-Snippet|AI Direct Answer) & Shoppable Grid Refresh Progress:\*\*[^\n]+/, statusLine);
       } else {
         const lines = tracker.split('\n');
         lines.splice(3, 0, statusLine);
@@ -221,7 +236,7 @@ async function main() {
     } catch {}
   }
 
-  console.log(`Upgraded ${refreshedCount} historical /blogs/news/ articles with Studio Brief + Shoppable Product Grid + Smart Sub-Collection Pills + FAQPage & HowTo JSON-LD (${refreshedHandles.join(', ')}). Cumulative refreshed: ${state.totalRefreshed}.`);
+  console.log(`Upgraded ${refreshedCount} historical /blogs/news/ articles with AI Direct Answer + Studio Brief + Shoppable Product Grid + Smart Sub-Collection Pills (${refreshedHandles.join(', ')}). Cumulative refreshed: ${state.totalRefreshed}.`);
 }
 
 main().catch(console.error);

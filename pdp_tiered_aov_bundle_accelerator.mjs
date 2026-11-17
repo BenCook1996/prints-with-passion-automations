@@ -1,29 +1,8 @@
-import fs from 'fs';
+import { shopifyGraphQL } from './lib/cloud-env.mjs';
 
-const authPath = 'C:\\Users\\Benjamin\\.gemini\\antigravity\\brain\\07bfb7d6-9234-4f9d-b17c-a75686424c5d\\scratch\\fresh_auth_20261028.json';
-const auth = JSON.parse(fs.readFileSync(authPath, 'utf8'));
-const GRAPHQL_URL = 'https://admin.shopify.com/api/shopify/bpcprints';
 const THEME_ID = 'gid://shopify/OnlineStoreTheme/177936466293';
 
 const UNSAFE_OR_CLONE_HANDLE_REGEX = /(?:-\d+$|image-alt-text|comfortable-fabric|or-offices|\b(?:star-wars|jedi|sith|vader|skywalker|mandalorian|grogu|baby-yoda|millennium-falcon|death-star|stormtrooper|boba-fett|ahsoka|obi-wan|darth-maul|kylo-ren|x-wing|tie-fighter|pokemon|pikachu|charizard|gengar|eevee|mewtwo|bulbasaur|squirtle|naruto|uchiha|itachi|sasuke|kakashi|akatsuki|one-piece|luffy|zoro|dragon-ball|goku|vegeta|saiyan|totoro|ghibli|spirited-away|mononoke|howls-moving-castle|demon-slayer|tanjiro|nezuko|attack-on-titan|jujutsu-kaisen|gojo|chainsaw-man|zelda|hyrule|super-mario|acotar|velaris|throne-of-glass|fourth-wing|hogwarts|gryffindor|slytherin|harry-potter|hermione|voldemort|lord-of-the-rings|middle-earth|frodo|gandalf|aragorn|sauron|gollum|shire|rivendell|mordor|balrog|witcher|geralt|warhammer|cyberpunk-2077|elden-ring|dark-souls|bloodborne|valorant|league-of-legends|overwatch|fortnite|minecraft|roblox|genshin-impact|final-fantasy|halo|master-chief|god-of-war|kratos|spider-man|avengers|iron-man|captain-america|deadpool|wolverine|batman|gotham|joker|superman|wonder-woman|disney|mickey-mouse|stitch|simpsons|rick-and-morty|stranger-things|wednesday-addams|peaky-blinders|game-of-thrones|targaryen|lannister|winterfell|breaking-bad|spongebob|hello-kitty|sanrio|barbie|lego|nike|adidas|gucci|supreme|rolex|ferrari|porsche|lamborghini|bmw|mercedes|formula-1|red-bull)\b)/i;
-
-async function shopifyGraphQL(query, variables = {}) {
-  const res = await fetch(GRAPHQL_URL, {
-    method: 'POST',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json',
-      'Cookie': auth.shopifyCookie,
-      'x-csrf-token': auth.shopifyCsrf,
-      'Origin': 'https://admin.shopify.com',
-      'Referer': 'https://admin.shopify.com/store/bpcprints'
-    },
-    body: JSON.stringify({ query, variables })
-  });
-  const json = await res.json();
-  if (json.errors) console.error('GQL Errors:', JSON.stringify(json.errors));
-  return json.data;
-}
 
 async function fetchFlagshipSiblingVariants() {
   const targetTypes = ['Canvas Wall Art', 'Desk Mats', 'Throw Blankets', 'Cushion Covers'];
@@ -201,7 +180,7 @@ async function main() {
     <div id="pwp-pdp-spec-comparison-matrix" style="margin-top:18px;padding-top:16px;border-top:1px solid #DEDAD0;">
       <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;">
         <div style="font-size:13px;color:#33312E;">
-          <strong>Why Prints With Passion Studio Standard Beats Generic Marketplace Prints:</strong> 4mm Stitched Neoprene (vs. 2mm curling pads) • 1.25" Kiln-Dried Pine Canvas (zero glare, ready to hang) • 100-Year Archival Ink • 30-Day Guarantee.
+          <strong>Why Prints With Passion Studio Standard Beats Generic Marketplace Prints:</strong> 4mm Stitched Neoprene (vs. 2mm curling pads) • 1.25" Kiln-Dried Pine Canvas (zero glare, ready to hang) • 100-Year Archival Ink • 14-Day Guarantee.
         </div>
         <div style="display:flex;gap:10px;flex-wrap:wrap;font-size:12.5px;font-weight:700;">
           <a href="/pages/studio-quality-vs-generic-prints" style="color:#C85A32;text-decoration:underline;">Full Spec Comparison →</a>

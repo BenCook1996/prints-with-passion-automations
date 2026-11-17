@@ -134,6 +134,26 @@ async function ensureRobotsTxtAllowsAiSearchBotsAndClearsPosBlock() {
     modified = true;
   }
 
+  // Ensure true crawl traps stay blocked for User-agent: * / Googlebot while keeping ?variant= crawlable for GMC
+  const requiredCrawlTrapDirectives = [
+    'Disallow: /*?oseid=*',
+    'Disallow: /collections/*?filter.*'
+  ];
+  for (const directive of requiredCrawlTrapDirectives) {
+    if (!content.includes(directive)) {
+      if (content.includes('Disallow: /*?fd=*')) {
+        content = content.replace('Disallow: /*?fd=*', `Disallow: /*?fd=*\n${directive}`);
+        modified = true;
+      } else if (content.includes("group.user_agent.value == 'Googlebot'")) {
+        content = content.replace(
+          /(\{%-?\s*if\s+group\.user_agent\.value\s*==\s*'\*'\s+or\s+group\.user_agent\.value\s*==\s*'Googlebot'\s*-?%\})/,
+          `$1\n${directive}`
+        );
+        modified = true;
+      }
+    }
+  }
+
   if (!content.includes('User-agent: OAI-SearchBot')) {
     const aiBotBlock = `\nUser-agent: OAI-SearchBot
 Allow: /
@@ -186,8 +206,12 @@ async function main() {
   `);
   let body = pageData?.page?.body || '';
 
-  // Strip any legacy PWP_SEASONAL_GIFT_MATRIX block containing STUDIO15 or 404 links
-  body = body.replace(/<!-- PWP_SEASONAL_GIFT_MATRIX_START -->[\s\S]*?<!-- PWP_SEASONAL_GIFT_MATRIX_END -->\s*/gi, '');
+  // Strip any legacy PWP_SEASONAL_GIFT_MATRIX block containing STUDIO15 or 404 links, deprecated FAQPage/HowTo JSON-LD, and standardize 14-day returns
+  body = body
+    .replace(/<!-- PWP_SEASONAL_GIFT_MATRIX_START -->[\s\S]*?<!-- PWP_SEASONAL_GIFT_MATRIX_END -->\s*/gi, '')
+    .replace(/<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?"@type"\s*:\s*"(?:FAQPage|HowTo)"[\s\S]*?<\/script>/gi, '')
+    .replace(/\b30-Day(\s+(?:Money-Back|Quality|Return|Hassle-Free|Replacement|Guarantee))/g, '14-Day$1')
+    .replace(/\b30-day(\s+(?:return|money-back|replacement|guarantee))/g, '14-day$1');
 
   const top10Queries = loadTop10DiscoveredBuyerQueries(latestBlogs);
   const dynamicQueryRowsHtml = top10Queries.map((item, idx) => {

@@ -25,6 +25,225 @@ const AI_CLICHE_REGEX = /\b(?:delve into|testament to|tapestry of|a calm serene|
 export const UNESCAPED_ENTITY_REGEX = /&(?:amp;)+(?:quot|amp|#39|apos|lt|gt);|&(?:quot|#39|apos|amp);/i;
 export const TEMPLATE_GRAMMAR_REGEX = /\b(?:Transform|Elevate|Style|Wear|Refresh|Upgrade|Claim)\s+with\b/i;
 export const DANGLING_TITLE_REGEX = /(?:[–—\-|,/&:]\s*$|\b(?:&|&amp;|Mo|Si|Desig|Pass|and|with|the|in|for|of|vs|at|on|by)\s*$|\.\.\.\s*$|\([^\)]*$)/i;
+export const DEPRECATED_SCHEMA_SCRIPT_REGEX = /<script[^>]*type=["']application\/ld\+json["'][^>]*>(?:(?!<\/script>)[\s\S])*"@type"\s*:\s*"(?:FAQPage|HowTo)"(?:(?!<\/script>)[\s\S])*<\/script>/gi;
+export const THIRTY_DAY_RETURN_REGEX = /\b30-(Day|day)(\s+(?:money-back|quality|returns?|hassle-free|replacement|guarantee|policy))/gi;
+export const BLUEPRINT_CODE_REGEX = /\s*(?:\(\s*BP\s*#\s*\d+\s*\)|BP\s*#\s*\d+\s*[·•\-–—]?)/gi;
+
+export function stripDeprecatedJsonLdFromHtml(html = '') {
+  return String(html || '').replace(
+    /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,
+    (fullMatch, jsonBody) => {
+      if (!/"@type"\s*:\s*"(?:FAQPage|HowTo)"/i.test(jsonBody)) {
+        return fullMatch;
+      }
+      try {
+        const parsed = JSON.parse(jsonBody.trim());
+        if (Array.isArray(parsed['@graph'])) {
+          const filtered = parsed['@graph'].filter(node => {
+            const t = node?.['@type'];
+            const types = Array.isArray(t) ? t : [t];
+            return !types.includes('FAQPage') && !types.includes('HowTo');
+          });
+          if (filtered.length === 0) return '';
+          return `<script type="application/ld+json">${JSON.stringify({ ...parsed, '@graph': filtered })}</script>`;
+        }
+        const t = parsed['@type'];
+        const types = Array.isArray(t) ? t : [t];
+        if (types.includes('FAQPage') || types.includes('HowTo')) {
+          return '';
+        }
+        return fullMatch;
+      } catch {
+        return '';
+      }
+    }
+  );
+}
+
+export function sanitizeDeprecatedReturnAndBlueprintCopy(html = '') {
+  return stripDeprecatedJsonLdFromHtml(html)
+    .replace(THIRTY_DAY_RETURN_REGEX, '14-$1$2')
+    .replace(BLUEPRINT_CODE_REGEX, '')
+    .trim();
+}
+
+const PDP_GENERIC_STOPWORDS = new Set([
+  'with', 'and', 'for', 'the', 'from', 'into', 'this', 'that', 'your', 'our', 'are', 'edition',
+  'studio', 'print', 'prints', 'passion', 'art', 'wall', 'canvas', 'stretched', 'framed',
+  'desk', 'mat', 'mats', 'mousepad', 'throw', 'blanket', 'blankets', 'fleece', 'coral',
+  'cushion', 'cover', 'covers', 'pillow', 'bath', 'memory', 'foam', 'graphic', 'shirt',
+  'tshirt', 'hoodie', 'hoodies', 'heavyweight', 'cotton', 'archival', 'free', 'tracked',
+  'shipping', 'delivery', 'included', 'inch', 'inches', 'xxl', '400gsm', '300gsm', '4mm'
+]);
+
+function extractUniqueContentTokens(text = '') {
+  return String(text || '')
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    .filter(w => w.length >= 3);
+}
+
+function hashString(str = '') {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) {
+    h = ((h << 5) - h + str.charCodeAt(i)) | 0;
+  }
+  return Math.abs(h);
+}
+
+const ARTWORK_PALETTE_PROFILES = [
+  {
+    rx: /japan|samurai|sakura|ukiyo|koi|katana|torii|tokyo|wave|zen/i,
+    palette: 'Mineral indigo, vermilion seal accents, warm rice-paper neutrals, and crisp sumi-ink contours',
+    lighting: 'Diffused overcast daylight or 2700K warm lantern-style sidelighting to reveal fine linework',
+    roomPairing: 'Natural ash or oak timber, matte black shelving, and textured linen upholstery'
+  },
+  {
+    rx: /cyberpunk|neon|synth|futur|scifi|sci-fi|mecha|blade|laser|glitch/i,
+    palette: 'Electric cyan, magenta rim highlights, obsidian shadow fields, and wet-asphalt slate gradients',
+    lighting: 'Dark-mode workstation bias LEDs (5000K–6500K) or low-glare RGB rim lighting behind curved displays',
+    roomPairing: 'Anodized aluminum frames, matte charcoal desktops, and dark slate acoustics panels'
+  },
+  {
+    rx: /space|galaxy|nebula|cosmos|astronaut|planet|moon|starry|celestial/i,
+    palette: 'Deep cosmic ultramarine, ionized violet clouds, amber star clusters, and graphite voids',
+    lighting: 'Recessed ceiling washes or warm 3000K architectural spots that avoid specular glare',
+    roomPairing: 'Walnut cabinetry, brushed brass fixtures, and muted charcoal or navy accent walls'
+  },
+  {
+    rx: /mountain|alpine|forest|valley|lauterbrunnen|lake|fjord|waterfall|peak|nature/i,
+    palette: 'Alpine pine greens, cool limestone greys, glacier meltwater blues, and atmospheric morning mist',
+    lighting: 'North-facing natural window light or balanced 3500K gallery illumination',
+    roomPairing: 'Oiled oak furniture, woven wool throws, and unglazed plaster or stone textures'
+  },
+  {
+    rx: /botanical|floral|flower|monstera|fern|leaf|garden|peony|coastal|ocean/i,
+    palette: 'Chlorophyll sage, sea-glass celadon, terracotta botanical accents, and chalky bone whites',
+    lighting: 'Bright natural daylight or soft 3000K ambient pendants for foliage saturation fidelity',
+    roomPairing: 'Rattan weaving, travertine side tables, and breathable washed-cotton textiles'
+  },
+  {
+    rx: /retro|vintage|80s|70s|bauhaus|geometric|mid-century|abstract|minimalist/i,
+    palette: 'Burnt ochre, Bauhaus cobalt, warm putty cream, and structured graphite architectural geometry',
+    lighting: 'Crisp 3000K–4000K track spots positioned at 30 degrees to prevent corner shadows',
+    roomPairing: 'Tubular chrome accents, mid-century teak veneer, and low-pile geometric rugs'
+  }
+];
+
+function buildArtworkVisualNotesHtml(product) {
+  const rawTitle = String(product.title || '').replace(/\s*[—–|]\s*(?:Stretched Canvas|XXL Desk Mat|Throw Blanket|Cushion Cover|Bath Mat|Graphic).*$/i, '').trim();
+  const haystack = `${rawTitle} ${product.handle || ''} ${(product.tags || []).join(' ')}`;
+  const subjectWords = [...new Set(
+    rawTitle
+      .toLowerCase()
+      .split(/[^a-z0-9]+/)
+      .filter(w => w.length >= 3 && !PDP_GENERIC_STOPWORDS.has(w))
+  )];
+  const focusSubjects = subjectWords.slice(0, 6).join(', ') || rawTitle.toLowerCase();
+  const matchedProfile = ARTWORK_PALETTE_PROFILES.find(p => p.rx.test(haystack));
+  const fallbackIdx = hashString(product.handle || rawTitle) % ARTWORK_PALETTE_PROFILES.length;
+  const profile = matchedProfile || ARTWORK_PALETTE_PROFILES[fallbackIdx];
+
+  const pt = product.productType || 'Studio Edition';
+  let scaleNote = '';
+  let collectionLink = '/collections/all';
+  let collectionLabel = 'Full Archival Studio Catalog';
+
+  if (/canvas/i.test(pt)) {
+    collectionLink = '/collections/canvas-prints';
+    collectionLabel = 'Stretched Canvas Wall Art Collection';
+    scaleNote = `For furniture proportion balance, hang "${rawTitle}" centered at 57 inches (145 cm) eye level and select a frame width covering 60%–75% of your sofa, desk, or headboard span—viewed cleanly at 1.5 m to 3.5 m (5–11 ft) without window glare.`;
+  } else if (/desk/i.test(pt)) {
+    collectionLink = '/collections/desk-mats';
+    collectionLabel = '4mm XXL Stitched Desk Mats';
+    scaleNote = `Designed for 45–75 cm (18"–30") close-range desktop viewing under a monitor rig, anchoring keyboard typography and low-CPI mouse sweep across 80×30 cm (31.5"×11.8") and 90×40 cm (35.4"×15.7") footprints without visual clutter.`;
+  } else if (/blanket|throw/i.test(pt)) {
+    collectionLink = '/collections/blankets';
+    collectionLabel = '300 GSM Coral Fleece Throw Blankets';
+    scaleNote = `Printed full-bleed across 127×152 cm (50"×60") throw and 152×203 cm (60"×80") bed sizes so the "${rawTitle}" composition drapes cleanly across sofa arms or duvet footboards.`;
+  } else if (/cushion|pillow/i.test(pt)) {
+    collectionLink = '/collections/pillow-cases';
+    collectionLabel = 'Double-Sided Spun Linen Cushion Covers';
+    scaleNote = `Scaled across double-sided 45×45 cm (18"×18") and 55×55 cm (22"×22") square silhouettes so the ${focusSubjects} focal motif stays centered on accent chairs, sofas, or bed layering stacks.`;
+  } else if (/bath/i.test(pt)) {
+    collectionLink = '/collections/bath-mats';
+    collectionLabel = 'Memory Foam Bath Mats';
+    scaleNote = `Proportioned at 61×43 cm (24"×17") to align cleanly in front of standard 60–90 cm single bathroom vanities and walk-in shower exits while grounding wet-zone acoustics.`;
+  } else {
+    collectionLink = /hoodie/i.test(pt) ? '/collections/hoodies' : '/collections/t-shirts';
+    collectionLabel = /hoodie/i.test(pt) ? 'Heavyweight Graphic Hoodies' : 'Ring-Spun Graphic T-Shirts';
+    scaleNote = `Artwork plate for "${rawTitle}" is scaled proportionally across unisex S–3XL chest and back zones so lineweights in ${focusSubjects} stay crisp under natural fold lines.`;
+  }
+
+  return `\n<!-- PWP_ARTWORK_VISUAL_NOTES_START -->
+<section class="pwp-artwork-visual-notes" data-handle="${product.handle}">
+  <h3>Artwork Study, Palette &amp; Room Proportion Notes: ${rawTitle}</h3>
+  <p><strong>Composition &amp; Motif Detail:</strong> "${rawTitle}" highlights distinct visual focal anchors around <em>${focusSubjects}</em>, rendered with high-definition tonal separation so fine texture remains legible both up close and across the room.</p>
+  <p><strong>Color Palette &amp; Lighting Guidance:</strong> Key chromatic notes combine ${profile.palette.toLowerCase()}. Best experienced under ${profile.lighting.toLowerCase()}, paired alongside ${profile.roomPairing.toLowerCase()}.</p>
+  <p><strong>Scale, Clearances &amp; Setup Tools:</strong> ${scaleNote} Compare exact Metric (CM) and Imperial (Inch) room fit using our <a href="/pages/desk-size-visualizer">Desk &amp; Wall Art Size Visualizer</a> or browse more works in <a href="${collectionLink}">${collectionLabel}</a>. Free tracked UK, US, CA &amp; EU shipping with 14-day returns.</p>
+</section>
+<!-- PWP_ARTWORK_VISUAL_NOTES_END -->`;
+}
+
+export function computePdpUniquenessAndEnrich(products = [], maxEnrichPerRun = 15) {
+  const byType = new Map();
+  for (const p of products) {
+    const pt = p.productType || 'Studio Edition';
+    if (!byType.has(pt)) byType.set(pt, []);
+    byType.get(pt).push(p);
+  }
+
+  const evaluations = [];
+  const enrichCandidates = [];
+
+  for (const [pt, group] of byType.entries()) {
+    const df = new Map();
+    const tokenLists = new Map();
+    for (const p of group) {
+      const tokens = extractUniqueContentTokens(p.descriptionHtml || p.description || '');
+      tokenLists.set(p.id, tokens);
+      const uniqueSet = new Set(tokens);
+      for (const t of uniqueSet) {
+        df.set(t, (df.get(t) || 0) + 1);
+      }
+    }
+
+    const sharedThreshold = group.length >= 3 ? Math.max(2, Math.ceil(group.length * 0.4)) : Infinity;
+    const sharedBoilerplate = new Set();
+    for (const [tok, count] of df.entries()) {
+      if (count >= sharedThreshold) sharedBoilerplate.add(tok);
+    }
+
+    for (const p of group) {
+      const tokens = tokenLists.get(p.id) || [];
+      const uniqueTokens = tokens.filter(t => !sharedBoilerplate.has(t));
+      const uniquenessRatio = tokens.length > 0 ? uniqueTokens.length / tokens.length : 0;
+      const alreadyHasNotes = (p.descriptionHtml || '').includes('PWP_ARTWORK_VISUAL_NOTES_START');
+      const isThin = uniquenessRatio < 0.45 && !alreadyHasNotes;
+      evaluations.push({
+        id: p.id,
+        handle: p.handle,
+        productType: pt,
+        uniquenessRatio: Number(uniquenessRatio.toFixed(3)),
+        isThin,
+        alreadyHasNotes
+      });
+      if (isThin && enrichCandidates.length < maxEnrichPerRun) {
+        const visualNotes = buildArtworkVisualNotesHtml(p);
+        enrichCandidates.push({
+          product: p,
+          uniquenessRatio: Number(uniquenessRatio.toFixed(3)),
+          enrichedHtml: `${sanitizeDeprecatedReturnAndBlueprintCopy(p.descriptionHtml || '')}${visualNotes}`.trim()
+        });
+      }
+    }
+  }
+
+  return { evaluations, enrichCandidates };
+}
 
 const AI_CLICHE_REPLACEMENTS = {
   'delve into': 'explore',
@@ -123,10 +342,10 @@ async function main() {
     query SampleQualityGate {
       productsCount(query: "status:active") { count }
       products(first: 200, query: "status:active", sortKey: UPDATED_AT, reverse: true) {
-        nodes { id handle title description descriptionHtml priceRangeV2 { minVariantPrice { amount } } seo { title description } }
+        nodes { id handle title productType tags description descriptionHtml priceRangeV2 { minVariantPrice { amount } } seo { title description } }
       }
       fujifilmCheck: products(first: 20, query: "status:active fujifilm") {
-        nodes { id handle title description descriptionHtml priceRangeV2 { minVariantPrice { amount } } seo { title description } }
+        nodes { id handle title productType tags description descriptionHtml priceRangeV2 { minVariantPrice { amount } } seo { title description } }
       }
       collections(first: 250) {
         nodes { id handle title descriptionHtml productsCount { count } seo { title description } }
@@ -164,6 +383,9 @@ async function main() {
   const entityViolations = [];
   const templateGrammarViolations = [];
   const danglingTitleViolations = [];
+  const deprecatedSchemaViolations = [];
+  const thirtyDayReturnViolations = [];
+  const blueprintCodeViolations = [];
   let autoSanitizedCount = 0;
 
   // 1. Audit & Clean Orphaned Non-News Blog Containers (e.g., what-if-* Marvel/DC blogs)
@@ -184,7 +406,7 @@ async function main() {
     }
   }
 
-  // 2. Audit Active Products for Roman Clones, IP/Brand Handles, £0.00 Prices & AI Clichés
+  // 2. Audit Active Products for Roman Clones, IP/Brand Handles, £0.00 Prices, AI Clichés, Deprecated Schemas, 30-Day Returns & BP# Codes
   for (const p of products) {
     if (ROMAN_CLONE_REGEX.test(p.title || '')) {
       romanViolations.push({ type: 'Product', handle: p.handle, title: p.title });
@@ -213,22 +435,53 @@ async function main() {
     if (minPrice <= 0) {
       zeroPriceViolations.push({ type: 'Product', handle: p.handle, title: p.title });
     }
+
+    const rawProdHtml = p.descriptionHtml || '';
+    const hasDeprecatedProdSchema = DEPRECATED_SCHEMA_SCRIPT_REGEX.test(rawProdHtml);
+    DEPRECATED_SCHEMA_SCRIPT_REGEX.lastIndex = 0;
+    const has30DayProd = THIRTY_DAY_RETURN_REGEX.test(rawProdHtml);
+    THIRTY_DAY_RETURN_REGEX.lastIndex = 0;
+    const hasBpProd = BLUEPRINT_CODE_REGEX.test(rawProdHtml);
+    BLUEPRINT_CODE_REGEX.lastIndex = 0;
     const m = `${p.title} ${p.description || ''}`.match(AI_CLICHE_REGEX);
-    if (m) {
-      aiLintViolations.push({ type: 'Product', handle: p.handle, phrase: m[0] });
-      if (autoSanitizedCount < 25 && p.descriptionHtml) {
-        const cleanedHtml = sanitizeAiCliches(p.descriptionHtml);
-        if (cleanedHtml !== p.descriptionHtml) {
-          await shopifyGql(`
-            mutation CleanProd($input: ProductInput!) {
-              productUpdate(input: $input) { product { id } }
-            }
-          `, { input: { id: p.id, descriptionHtml: cleanedHtml } });
-          autoSanitizedCount++;
-        }
+
+    if (hasDeprecatedProdSchema) deprecatedSchemaViolations.push({ type: 'Product', handle: p.handle });
+    if (has30DayProd) thirtyDayReturnViolations.push({ type: 'Product', handle: p.handle });
+    if (hasBpProd) blueprintCodeViolations.push({ type: 'Product', handle: p.handle });
+    if (m) aiLintViolations.push({ type: 'Product', handle: p.handle, phrase: m[0] });
+
+    if ((hasDeprecatedProdSchema || has30DayProd || hasBpProd || m) && autoSanitizedCount < 45 && rawProdHtml) {
+      const cleanedHtml = sanitizeDeprecatedReturnAndBlueprintCopy(sanitizeAiCliches(rawProdHtml));
+      if (cleanedHtml !== rawProdHtml) {
+        await shopifyGql(`
+          mutation CleanProd($input: ProductInput!) {
+            productUpdate(input: $input) { product { id } }
+          }
+        `, { input: { id: p.id, descriptionHtml: cleanedHtml } });
+        p.descriptionHtml = cleanedHtml;
+        autoSanitizedCount++;
       }
     }
   }
+
+  // 2b. Automated PDP Artwork Uniqueness Enricher (>= 45% Uniqueness Floor, up to 15 thin PDPs per run)
+  const { evaluations: pdpEvalList, enrichCandidates } = computePdpUniquenessAndEnrich(products, 15);
+  let pdpEnrichedCount = 0;
+  for (const cand of enrichCandidates) {
+    const updRes = await shopifyGql(`
+      mutation EnrichThinPdp($input: ProductInput!) {
+        productUpdate(input: $input) { product { id handle } userErrors { field message } }
+      }
+    `, { input: { id: cand.product.id, descriptionHtml: cand.enrichedHtml } });
+    if (!updRes?.productUpdate?.userErrors?.length) {
+      cand.product.descriptionHtml = cand.enrichedHtml;
+      pdpEnrichedCount++;
+    }
+  }
+  const thinPdpCountRemaining = pdpEvalList.filter(e => e.isThin).length - pdpEnrichedCount;
+  const avgPdpUniquenessPct = pdpEvalList.length > 0
+    ? Math.round((pdpEvalList.reduce((acc, e) => acc + e.uniquenessRatio, 0) / pdpEvalList.length) * 100)
+    : 100;
 
   // 3. Audit Collections for 0-products, Entities, Template Grammar, Dangling Titles, pop-culture-icons, Boilerplate & AI Clichés
   for (const c of collections) {
@@ -237,7 +490,7 @@ async function main() {
 
     if (!isFrontpage && prodCount === 0) {
       zeroProductViolations.push({ id: c.id, handle: c.handle, title: c.title });
-      if (autoSanitizedCount < 30) {
+      if (autoSanitizedCount < 45) {
         await shopifyGql(`
           mutation DelCol($input: CollectionDeleteInput!) {
             collectionDelete(input: $input) { deletedCollectionId userErrors { field message } }
@@ -298,13 +551,35 @@ async function main() {
       needsSeoUpdate = true;
     }
 
-    if (html.includes('PWP_INPAGES_3RULE_HERO_START') || /"@type"\s*:\s*"FAQPage"/i.test(html)) {
+    const hasDeprecatedColSchema = html.includes('PWP_INPAGES_3RULE_HERO_START') || /"@type"\s*:\s*"(?:FAQPage|HowTo)"/i.test(html);
+    if (hasDeprecatedColSchema) {
       boilerplateCollectionViolations.push({ handle: c.handle, title: c.title });
-      html = html
-        .replace(/<!-- PWP_INPAGES_3RULE_HERO_START -->[\s\S]*?<!-- PWP_INPAGES_3RULE_HERO_END -->/gi, '')
-        .replace(/<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?"@type"\s*:\s*"FAQPage"[\s\S]*?<\/script>/gi, '')
-        .trim();
+      if (/"@type"\s*:\s*"(?:FAQPage|HowTo)"/i.test(html)) {
+        deprecatedSchemaViolations.push({ type: 'Collection', handle: c.handle });
+      }
+      html = stripDeprecatedJsonLdFromHtml(
+        html.replace(/<!-- PWP_INPAGES_3RULE_HERO_START -->[\s\S]*?<!-- PWP_INPAGES_3RULE_HERO_END -->/gi, '')
+      ).trim();
       needsUpdate = true;
+    }
+
+    const has30DayCol = THIRTY_DAY_RETURN_REGEX.test(html) || THIRTY_DAY_RETURN_REGEX.test(seoDesc);
+    THIRTY_DAY_RETURN_REGEX.lastIndex = 0;
+    const hasBpCol = BLUEPRINT_CODE_REGEX.test(html) || BLUEPRINT_CODE_REGEX.test(seoDesc);
+    BLUEPRINT_CODE_REGEX.lastIndex = 0;
+    if (has30DayCol) {
+      thirtyDayReturnViolations.push({ type: 'Collection', handle: c.handle });
+      html = sanitizeDeprecatedReturnAndBlueprintCopy(html);
+      seoDesc = sanitizeDeprecatedReturnAndBlueprintCopy(seoDesc);
+      needsUpdate = true;
+      needsSeoUpdate = true;
+    }
+    if (hasBpCol) {
+      blueprintCodeViolations.push({ type: 'Collection', handle: c.handle });
+      html = sanitizeDeprecatedReturnAndBlueprintCopy(html);
+      seoDesc = sanitizeDeprecatedReturnAndBlueprintCopy(seoDesc);
+      needsUpdate = true;
+      needsSeoUpdate = true;
     }
 
     if (/STUDIO15/i.test(seoDesc)) {
@@ -320,7 +595,7 @@ async function main() {
       needsUpdate = true;
     }
 
-    if ((needsUpdate || needsSeoUpdate) && autoSanitizedCount < 30) {
+    if ((needsUpdate || needsSeoUpdate) && autoSanitizedCount < 45) {
       const input = { id: c.id };
       if (needsUpdate) input.descriptionHtml = html;
       if (needsSeoUpdate) input.seo = { title: seoTitle, description: seoDesc };
@@ -333,14 +608,15 @@ async function main() {
     }
   }
 
-  // 4. Audit Published Articles for AI Clichés, Entities & Dangling Titles
+  // 4. Audit Published Articles for AI Clichés, Deprecated Schemas, 30-Day Returns, BP# Codes, Entities & Dangling Titles
   for (const a of articles) {
-    const text = (a.body || '').replace(/<[^>]+>/g, ' ');
+    const rawBody = a.body || '';
+    const text = rawBody.replace(/<[^>]+>/g, ' ');
     const title = a.title || '';
     const titleTag = a.titleTag?.value || '';
     const descTag = a.descTag?.value || '';
 
-    if (UNESCAPED_ENTITY_REGEX.test(title) || UNESCAPED_ENTITY_REGEX.test(titleTag) || UNESCAPED_ENTITY_REGEX.test(descTag) || /&amp;quot;/i.test(a.body || '')) {
+    if (UNESCAPED_ENTITY_REGEX.test(title) || UNESCAPED_ENTITY_REGEX.test(titleTag) || UNESCAPED_ENTITY_REGEX.test(descTag) || /&amp;quot;/i.test(rawBody)) {
       entityViolations.push({ type: 'Article', handle: a.handle });
     }
 
@@ -348,35 +624,70 @@ async function main() {
       danglingTitleViolations.push({ type: 'Article', handle: a.handle, title: titleTag || title });
     }
 
+    const hasDeprecatedArtSchema = DEPRECATED_SCHEMA_SCRIPT_REGEX.test(rawBody);
+    DEPRECATED_SCHEMA_SCRIPT_REGEX.lastIndex = 0;
+    const has30DayArt = THIRTY_DAY_RETURN_REGEX.test(rawBody);
+    THIRTY_DAY_RETURN_REGEX.lastIndex = 0;
+    const hasBpArt = BLUEPRINT_CODE_REGEX.test(rawBody);
+    BLUEPRINT_CODE_REGEX.lastIndex = 0;
     const m = text.match(AI_CLICHE_REGEX);
-    if (m) {
-      aiLintViolations.push({ type: 'Article', handle: a.handle, phrase: m[0] });
-      if (autoSanitizedCount < 30 && a.body) {
-        const cleanedBody = sanitizeAiCliches(a.body);
-        if (cleanedBody !== a.body) {
-          await shopifyGql(`
-            mutation CleanArt($id: ID!, $article: ArticleUpdateInput!) {
-              articleUpdate(id: $id, article: $article) { article { id } }
-            }
-          `, { id: a.id, article: { body: cleanedBody } });
-          autoSanitizedCount++;
-        }
+
+    if (hasDeprecatedArtSchema) deprecatedSchemaViolations.push({ type: 'Article', handle: a.handle });
+    if (has30DayArt) thirtyDayReturnViolations.push({ type: 'Article', handle: a.handle });
+    if (hasBpArt) blueprintCodeViolations.push({ type: 'Article', handle: a.handle });
+    if (m) aiLintViolations.push({ type: 'Article', handle: a.handle, phrase: m[0] });
+
+    if ((hasDeprecatedArtSchema || has30DayArt || hasBpArt || m) && autoSanitizedCount < 45 && rawBody) {
+      const cleanedBody = sanitizeDeprecatedReturnAndBlueprintCopy(sanitizeAiCliches(rawBody));
+      if (cleanedBody !== rawBody) {
+        await shopifyGql(`
+          mutation CleanArt($id: ID!, $article: ArticleUpdateInput!) {
+            articleUpdate(id: $id, article: $article) { article { id } }
+          }
+        `, { id: a.id, article: { body: cleanedBody } });
+        autoSanitizedCount++;
       }
     }
   }
 
-  // 5. Audit Pages for Entities & Dangling Titles
+  // 5. Audit Pages for Deprecated Schemas, 30-Day Returns, BP# Codes, Entities & Dangling Titles
   for (const p of pages) {
+    const rawBody = p.body || '';
     const title = p.title || '';
     const titleTag = p.titleTag?.value || '';
     const descTag = p.descTag?.value || '';
 
-    if (UNESCAPED_ENTITY_REGEX.test(title) || UNESCAPED_ENTITY_REGEX.test(titleTag) || UNESCAPED_ENTITY_REGEX.test(descTag) || /&amp;quot;/i.test(p.body || '')) {
+    if (UNESCAPED_ENTITY_REGEX.test(title) || UNESCAPED_ENTITY_REGEX.test(titleTag) || UNESCAPED_ENTITY_REGEX.test(descTag) || /&amp;quot;/i.test(rawBody)) {
       entityViolations.push({ type: 'Page', handle: p.handle });
     }
 
     if (DANGLING_TITLE_REGEX.test(titleTag || title) || (titleTag || title).length > 60) {
       danglingTitleViolations.push({ type: 'Page', handle: p.handle, title: titleTag || title });
+    }
+
+    const hasDeprecatedPageSchema = DEPRECATED_SCHEMA_SCRIPT_REGEX.test(rawBody);
+    DEPRECATED_SCHEMA_SCRIPT_REGEX.lastIndex = 0;
+    const has30DayPage = THIRTY_DAY_RETURN_REGEX.test(rawBody);
+    THIRTY_DAY_RETURN_REGEX.lastIndex = 0;
+    const hasBpPage = BLUEPRINT_CODE_REGEX.test(rawBody);
+    BLUEPRINT_CODE_REGEX.lastIndex = 0;
+    const m = rawBody.replace(/<[^>]+>/g, ' ').match(AI_CLICHE_REGEX);
+
+    if (hasDeprecatedPageSchema) deprecatedSchemaViolations.push({ type: 'Page', handle: p.handle });
+    if (has30DayPage) thirtyDayReturnViolations.push({ type: 'Page', handle: p.handle });
+    if (hasBpPage) blueprintCodeViolations.push({ type: 'Page', handle: p.handle });
+    if (m) aiLintViolations.push({ type: 'Page', handle: p.handle, phrase: m[0] });
+
+    if ((hasDeprecatedPageSchema || has30DayPage || hasBpPage || m) && autoSanitizedCount < 45 && rawBody) {
+      const cleanedBody = sanitizeDeprecatedReturnAndBlueprintCopy(sanitizeAiCliches(rawBody));
+      if (cleanedBody !== rawBody) {
+        await shopifyGql(`
+          mutation CleanPage($id: ID!, $page: PageUpdateInput!) {
+            pageUpdate(id: $id, page: $page) { page { id } userErrors { field message } }
+          }
+        `, { id: p.id, page: { body: cleanedBody } });
+        autoSanitizedCount++;
+      }
     }
   }
 
@@ -399,6 +710,10 @@ async function main() {
     `- **Orphaned Non-News Blog Containers Cleaned:** \`${orphanedBlogViolations.length}\``,
     `- **Zero-Price (£0.00) Products Detected in Sample:** \`${zeroPriceViolations.length}\``,
     `- **Collections With Legacy Hero/FAQ Boilerplate Remaining:** \`${boilerplateCollectionViolations.length} / ${collections.length}\``,
+    `- **Deprecated Inline FAQPage/HowTo Schemas Scrubbed:** \`${deprecatedSchemaViolations.length}\``,
+    `- **Legacy 30-Day Return Policy References Normalized to 14-Day:** \`${thirtyDayReturnViolations.length}\``,
+    `- **Internal Printify Blueprint Codes (\`BP #\`) Scrubbed:** \`${blueprintCodeViolations.length}\``,
+    `- **PDP Uniqueness Floor (\`>= 45%\` Unique Content Target):** \`${avgPdpUniquenessPct}%\` average uniqueness | \`${pdpEnrichedCount}\` thin PDPs enriched this run | \`${Math.max(0, thinPdpCountRemaining)}\` thin PDPs remaining in queue`,
     `- **AI-Cliché Phrases Flagged (\`seo lint\` rules):** \`${aiLintViolations.length}\``,
     `- **Items Actively Auto-Sanitized via GraphQL This Run:** \`${autoSanitizedCount}\``,
     ``,
@@ -412,11 +727,15 @@ async function main() {
     `- **Blog Container Hygiene (\`/blogs/news\` only):** ${orphanedBlogViolations.length === 0 ? 'PASS (1 canonical blog)' : `AUTO-CLEANED (${orphanedBlogViolations.length} orphaned blogs deleted & redirected)`}`,
     `- **Zero-Price (£0.00) Variants:** ${zeroPriceViolations.length === 0 ? 'PASS (0 detected)' : `FLAGGED (${zeroPriceViolations.length} in sample)`}`,
     `- **Collection Boilerplate / FAQ Schema:** ${boilerplateCollectionViolations.length === 0 ? 'PASS (0 collections have injected boilerplate)' : `AUTO-CLEANED (${boilerplateCollectionViolations.length} collections sanitized)`}`,
+    `- **Deprecated Inline Schemas (\`FAQPage\`/\`HowTo\`):** ${deprecatedSchemaViolations.length === 0 ? 'PASS (0 detected storewide)' : `AUTO-CLEANED (${deprecatedSchemaViolations.length} resources sanitized)`}`,
+    `- **Return Policy Window (\`14-Day\` Standard):** ${thirtyDayReturnViolations.length === 0 ? 'PASS (0 legacy 30-day references)' : `AUTO-CLEANED (${thirtyDayReturnViolations.length} normalized to 14-day)`}`,
+    `- **Internal Blueprint Codes (\`BP #\`):** ${blueprintCodeViolations.length === 0 ? 'PASS (0 leaked factory codes)' : `AUTO-CLEANED (${blueprintCodeViolations.length} scrubbed)`}`,
+    `- **PDP Uniqueness Floor (\`>= 45%\`):** ${thinPdpCountRemaining <= 0 ? `PASS (${avgPdpUniquenessPct}% avg uniqueness)` : `ENRICHING (+${pdpEnrichedCount} thin PDPs upgraded; ${thinPdpCountRemaining} queued)`}`,
     `- **AI-Pattern Phrases:** ${aiLintViolations.length === 0 ? 'PASS (0 AI clichés detected)' : `AUTO-SANITIZED (${autoSanitizedCount} updated via GraphQL)`}`
   ];
 
   fs.writeFileSync(REPORT_PATH, report.join('\n') + '\n', 'utf8');
-  console.log(`Saved Catalog Uniqueness & SEO Lint Quality Gate report to ${REPORT_PATH} (autoSanitized=${autoSanitizedCount}, orphanedBlogsCleaned=${orphanedBlogViolations.length})`);
+  console.log(`Saved Catalog Uniqueness & SEO Lint Quality Gate report to ${REPORT_PATH} (autoSanitized=${autoSanitizedCount}, pdpEnriched=${pdpEnrichedCount}, orphanedBlogsCleaned=${orphanedBlogViolations.length})`);
 }
 
 const isMain = process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url));

@@ -144,10 +144,17 @@ async function main() {
   const eMarker = '<!-- PWP_INTERACTIVE_PRESET_MATRIX_END -->';
 
   if (body.includes(sMarker) && body.includes(eMarker)) {
-    body = body.slice(0, body.indexOf(sMarker)) + blockHtml + body.slice(body.indexOf(eMarker) + eMarker.length);
-  } else {
-    body = body + '\n' + blockHtml;
+    body = body.slice(0, body.indexOf(sMarker)) + body.slice(body.indexOf(eMarker) + eMarker.length);
   }
+
+  // Strip any deprecated FAQPage/HowTo or duplicate WebApplication JSON-LD (emitted cleanly in snippets/head.liquid)
+  body = body
+    .replace(/<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?"@type"\s*:\s*"(?:FAQPage|HowTo|WebApplication)"[\s\S]*?<\/script>\s*/gi, '')
+    .replace(/\b30-Day(\s+(?:Money-Back|Quality|Return|Hassle-Free|Replacement|Guarantee))/g, '14-Day$1')
+    .replace(/\b30-day(\s+(?:return|money-back|replacement|guarantee))/g, '14-day$1')
+    .trim();
+
+  body = body + '\n' + blockHtml;
 
   const upd = await shopifyGql(`
     mutation UpdVizPage($id: ID!, $page: PageUpdateInput!) {

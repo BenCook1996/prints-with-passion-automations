@@ -67,7 +67,7 @@ async function gmcRpc(serviceMethod, arObj, appPath = 'mc_products', appId = 'PR
 async function gmcFetchRetry(url, opts = {}, retries = 8) {
   for (let i = 0; i < retries; i++) {
     const res = await fetch(url, opts);
-    if (res.status !== 410 && res.status !== 429 && res.status < 500) return res;
+    if (res.status !== 409 && res.status !== 410 && res.status !== 429 && res.status < 500) return res;
     if (i === retries - 1) return res;
     await new Promise(r => setTimeout(r, 350 * (i + 1)));
   }
@@ -175,6 +175,84 @@ async function reconcileViaContentApi(activeProducts) {
     };
   } catch {
     return null;
+  }
+}
+
+async function verifyAndEnforceGmcReturnPolicies() {
+  let token = null;
+  try {
+    token = await getGoogleAccessToken(['https://www.googleapis.com/auth/content']);
+  } catch {
+    return { status: 'skipped_no_token', checked: 0, patched: 0 };
+  }
+  if (!token) return { status: 'skipped_no_token', checked: 0, patched: 0 };
+
+  const h = { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' };
+  const baseUrl = `https://shoppingcontent.googleapis.com/content/v2.1/${GMC_MERCHANT_ID}/returnpolicyonline`;
+  try {
+    const listRes = await gmcFetchRetry(baseUrl, { headers: h }, 8);
+    if (!listRes.ok) {
+      return { status: `error_http_${listRes.status}`, checked: 0, patched: 0 };
+    }
+    const listJson = await listRes.json();
+    const policies = Array.isArray(listJson.returnPolicies)
+      ? listJson.returnPolicies
+      : (Array.isArray(listJson.resources) ? listJson.resources : []);
+    let patched = 0;
+
+    for (const r of policies) {
+      const currentDays = Number(r.policy?.days);
+      if (currentDays !== 14) {
+        const existingReasons = Array.isArray(r.returnReasonCategoryInfo) ? r.returnReasonCategoryInfo : [];
+        const hasBuyerRemorse = existingReasons.some(x => x.returnReasonCategory === 'BUYER_REMORSE');
+        const hasItemDefect = existingReasons.some(x => x.returnReasonCategory === 'ITEM_DEFECT');
+        const fullReasonInfo = [
+          hasBuyerRemorse
+            ? existingReasons.find(x => x.returnReasonCategory === 'BUYER_REMORSE')
+            : {
+                returnReasonCategory: 'BUYER_REMORSE',
+                returnLabelSource: 'CUSTOMER_RESPONSIBILITY',
+                returnShippingFee: { type: 'CUSTOMER_PAYS' }
+              },
+          hasItemDefect
+            ? existingReasons.find(x => x.returnReasonCategory === 'ITEM_DEFECT')
+            : {
+                returnReasonCategory: 'ITEM_DEFECT',
+                returnLabelSource: 'DOWNLOAD_AND_PRINT',
+                returnShippingFee: { type: 'FIXED', fixedFee: { value: '0.00', currency: 'GBP' } }
+              }
+        ];
+
+        const patchPayload = {
+          name: r.name || '14-Day Return Policy',
+          countries: r.countries,
+          returnMethods: r.returnMethods || ['BY_MAIL'],
+          itemConditions: r.itemConditions || ['NEW'],
+          policy: {
+            type: 'NUMBER_OF_DAYS_AFTER_DELIVERY',
+            days: '14'
+          },
+          returnReasonCategoryInfo: fullReasonInfo
+        };
+        if (r.restockingFee) patchPayload.restockingFee = r.restockingFee;
+        if (r.returnPolicyUri) patchPayload.returnPolicyUri = r.returnPolicyUri;
+
+        const patchRes = await gmcFetchRetry(
+          `${baseUrl}/${encodeURIComponent(r.returnPolicyId)}`,
+          { method: 'PATCH', headers: h, body: JSON.stringify(patchPayload) },
+          6
+        );
+        if (patchRes.ok) patched++;
+      }
+    }
+
+    return {
+      status: patched > 0 ? `healed_${patched}_of_${policies.length}` : 'verified_14_days',
+      checked: policies.length,
+      patched
+    };
+  } catch (err) {
+    return { status: `error_${err.message}`, checked: 0, patched: 0 };
   }
 }
 
@@ -330,20 +408,26 @@ async function main() {
     }
   }
 
-  // 3. Verify /robots.txt allows ?variant= and check storefront Product max-image-preview:large
+  // 2b. Verify & Enforce GMC 14-Day Return Policy via Content API v2.1
+  const gmcReturnRes = await verifyAndEnforceGmcReturnPolicies();
+  console.log(`[2b/3] GMC Return Policy Guard (14-Day Standard): status=${gmcReturnRes.status} | policiesChecked=${gmcReturnRes.checked} | patched=${gmcReturnRes.patched}`);
+
+  // 3. Verify /robots.txt allows ?variant= and check storefront Product max-image-preview:large & merchantReturnDays: 14
   const rbRes = await fetch('https://printswithpassion.com/robots.txt?t=' + Date.now());
   const rbTxt = await rbRes.text();
   const variantAllowed = !rbTxt.includes('Disallow: /*?variant=*');
   const firstActiveProd = activeProducts.values().next().value;
   let maxImgPreviewOk = false;
+  let pdp14DayReturnSchemaOk = false;
   if (firstActiveProd?.handle) {
     try {
       const pdpRes = await fetch(`https://printswithpassion.com/products/${firstActiveProd.handle}?_cb=${Date.now()}`);
       const pdpTxt = await pdpRes.text();
       maxImgPreviewOk = /max-image-preview:large/i.test(pdpTxt);
+      pdp14DayReturnSchemaOk = /"merchantReturnDays"\s*:\s*14\b/.test(pdpTxt);
     } catch {}
   }
-  console.log(`[3/3] /robots.txt ?variant= Crawl Allowed for GMC: ${variantAllowed} | max-image-preview:large: ${maxImgPreviewOk}`);
+  console.log(`[3/3] /robots.txt ?variant= Crawl Allowed for GMC: ${variantAllowed} | max-image-preview:large: ${maxImgPreviewOk} | merchantReturnDays=14: ${pdp14DayReturnSchemaOk}`);
 
   const nowIso = new Date().toISOString();
   if (!fs.existsSync(LOG_PATH)) {
@@ -362,7 +446,7 @@ async function main() {
   const metaPct = activeProducts.size > 0
     ? `${Math.round((colorCoverage / activeProducts.size) * 100)}% / ${Math.round((materialCoverage / activeProducts.size) * 100)}% / ${Math.round((sizeCoverage / activeProducts.size) * 100)}%`
     : '100%';
-  const statusBadge = variantAllowed ? '**PASS (Synced)**' : '**WARN (Check robots.txt)**';
+  const statusBadge = (variantAllowed && pdp14DayReturnSchemaOk) ? `**PASS (Synced, 14-Day Return Guard: ${gmcReturnRes.status})**` : '**WARN (Check robots.txt or PDP Return Schema)**';
 
   appendFactoryFileSync(
     'GMC_DIAGNOSTICS_SYNC_LOG.md',
