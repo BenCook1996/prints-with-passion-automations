@@ -1,6 +1,6 @@
 # Prints With Passion — Review Rich-Snippet & Earned Authority Tracker
 
-- **Last Updated:** `2026-11-17T11:24:29.569Z`
+- **Last Updated:** `2026-11-17T17:09:55.853Z`
 - **Policy:** 100% White-Hat Earned Authority (Zero Telegraph/dpaste/paste-site link schemes, zero duplicate `/blogs/news` syndication)
 - **Hero PDP Structured Data Check (`/products/table-mountain-cape-town-xxl-desk-mat`):**
   - `Product` Schema Present: `true`
