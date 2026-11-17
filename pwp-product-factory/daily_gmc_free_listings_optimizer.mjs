@@ -46,6 +46,10 @@ function matchSubCollectionForGmc(p) {
     const m = byType.find(s => s.themeTag === 'Japanese & Asian Art');
     if (m) return m;
   }
+  if (/music|speaker|vinyl|audio|retro|vintage|cassette/.test(text)) {
+    const m = byType.find(s => s.themeTag === 'Retro & Vintage');
+    if (m) return m;
+  }
   if (/cyberpunk|neon|synth|futur|cyborg|sci-fi|mecha/.test(text)) {
     const m = byType.find(s => s.themeTag === 'Sci-Fi & Cyberpunk');
     if (m) return m;

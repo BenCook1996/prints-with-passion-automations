@@ -64,6 +64,15 @@ async function gmcRpc(serviceMethod, arObj, appPath = 'mc_products', appId = 'PR
   }
 }
 
+async function gmcFetchRetry(url, opts = {}, retries = 8) {
+  for (let i = 0; i < retries; i++) {
+    const res = await fetch(url, opts);
+    if (res.status !== 410 && res.status !== 429 && res.status < 500) return res;
+    if (i === retries - 1) return res;
+    await new Promise(r => setTimeout(r, 350 * (i + 1)));
+  }
+}
+
 async function reconcileViaContentApi(activeProducts) {
   let token = null;
   try {
@@ -74,11 +83,12 @@ async function reconcileViaContentApi(activeProducts) {
   if (!token) return null;
 
   try {
+    const h = { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' };
     const allStatuses = [];
     let pageToken = '';
     do {
       const url = `https://shoppingcontent.googleapis.com/content/v2.1/${GMC_MERCHANT_ID}/productstatuses?maxResults=250${pageToken ? `&pageToken=${encodeURIComponent(pageToken)}` : ''}`;
-      const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+      const res = await gmcFetchRetry(url, { headers: h }, 10);
       if (!res.ok) return null;
       const json = await res.json();
       if (Array.isArray(json.resources)) allStatuses.push(...json.resources);
@@ -88,19 +98,62 @@ async function reconcileViaContentApi(activeProducts) {
     let approvedCount = 0;
     let issueCount = 0;
     let staleDeletedToday = 0;
+    let healedToday = 0;
 
     for (const st of allStatuses) {
       const fullId = String(st.productId || '');
       const offerId = fullId.split(':').pop() || '';
       const m = offerId.match(/^shopify_[A-Z]+_(\d+)_(\d+)$/i);
       if (!m || !activeProducts.has(m[1])) {
-        const delRes = await fetch(
+        const delRes = await gmcFetchRetry(
           `https://shoppingcontent.googleapis.com/content/v2.1/${GMC_MERCHANT_ID}/products/${encodeURIComponent(fullId)}`,
-          { method: 'DELETE', headers: { Authorization: `Bearer ${token}` } }
+          { method: 'DELETE', headers: h }
         );
         if (delRes.ok) staleDeletedToday++;
         continue;
       }
+
+      const codes = new Set((st.itemLevelIssues || []).map(x => x.code));
+      if (
+        codes.has('image_link_internal_error') ||
+        codes.has('price_updated') ||
+        codes.has('missing_potentially_required_attribute')
+      ) {
+        const shopProd = activeProducts.get(m[1]);
+        const variantNode = (shopProd?.variants?.nodes || []).find(v => v.id.endsWith(`/${m[2]}`));
+        const getRes = await gmcFetchRetry(
+          `https://shoppingcontent.googleapis.com/content/v2.1/${GMC_MERCHANT_ID}/products/${encodeURIComponent(fullId)}`,
+          { headers: h }
+        );
+        if (getRes.ok) {
+          const prodPayload = await getRes.json();
+          delete prodPayload.id;
+          delete prodPayload.kind;
+          delete prodPayload.source;
+          if (variantNode?.price) {
+            prodPayload.price = { value: String(variantNode.price), currency: 'GBP' };
+          }
+          if (shopProd?.handle) {
+            prodPayload.link = `https://printswithpassion.com/products/${shopProd.handle}?variant=${m[2]}`;
+          }
+          if (codes.has('missing_potentially_required_attribute')) {
+            prodPayload.unitPricingMeasure = { value: 1, unit: 'ct' };
+            prodPayload.unitPricingBaseMeasure = { value: 1, unit: 'ct' };
+          }
+          if (!prodPayload.shippingWeight?.value || Number(prodPayload.shippingWeight.value) === 0) {
+            prodPayload.shippingWeight = { value: 750, unit: 'g' };
+          }
+          if (codes.has('image_link_internal_error') && prodPayload.imageLink && !prodPayload.imageLink.includes('gmc_refresh=')) {
+            prodPayload.imageLink += (prodPayload.imageLink.includes('?') ? '&' : '?') + 'gmc_refresh=1';
+          }
+          const postRes = await gmcFetchRetry(
+            `https://shoppingcontent.googleapis.com/content/v2.1/${GMC_MERCHANT_ID}/products`,
+            { method: 'POST', headers: h, body: JSON.stringify(prodPayload) }
+          );
+          if (postRes.ok) healedToday++;
+        }
+      }
+
       const hasDisapproval = (st.destinationStatuses || []).some(
         d => Array.isArray(d.disapprovedCountries) && d.disapprovedCountries.length > 0
       );
@@ -112,7 +165,8 @@ async function reconcileViaContentApi(activeProducts) {
       totalOffers: allStatuses.length - staleDeletedToday,
       approvedCount,
       issueCount,
-      staleDeletedToday
+      staleDeletedToday,
+      healedToday
     };
   } catch {
     return null;
@@ -180,7 +234,7 @@ async function main() {
     gmcApproved = `${contentApiRes.approvedCount}`;
     gmcIssues = `${contentApiRes.issueCount}`;
     staleDeletedToday = contentApiRes.staleDeletedToday;
-    console.log(`[2/3] GMC Cloud Content API v2.1 Reconciliation: ActiveOffers=${gmcTotalOffers} | Approved=${gmcApproved} | WithIssues=${gmcIssues} | StaleDeletedToday=${staleDeletedToday} | TargetCountries=GB,US,CA,AU`);
+    console.log(`[2/3] GMC Cloud Content API v2.1 Reconciliation: ActiveOffers=${gmcTotalOffers} | Approved=${gmcApproved} | WithIssues=${gmcIssues} | StaleDeletedToday=${staleDeletedToday} | HealedToday=${contentApiRes.healedToday || 0} | TargetCountries=GB,US,CA,AU`);
   } else {
     const GMC_FIELDS = [
       'product_id',
