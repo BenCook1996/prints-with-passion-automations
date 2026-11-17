@@ -136,6 +136,11 @@ async function reconcileViaContentApi(activeProducts) {
           if (shopProd?.handle) {
             prodPayload.link = `https://printswithpassion.com/products/${shopProd.handle}?variant=${m[2]}`;
           }
+          const mediaUrls = (shopProd?.media?.nodes || []).map(n => n.image?.url).filter(Boolean);
+          if (mediaUrls.length) {
+            prodPayload.imageLink = mediaUrls[0];
+            prodPayload.additionalImageLinks = mediaUrls.slice(1, 10);
+          }
           if (codes.has('missing_potentially_required_attribute')) {
             prodPayload.unitPricingMeasure = { value: 1, unit: 'ct' };
             prodPayload.unitPricingBaseMeasure = { value: 1, unit: 'ct' };
@@ -199,6 +204,7 @@ async function main() {
           materialMeta: metafield(namespace: "mm-google-shopping", key: "material") { value }
           sizeMeta: metafield(namespace: "mm-google-shopping", key: "size") { value }
           variants(first: 10) { nodes { id price title } }
+          media(first: 10) { nodes { ... on MediaImage { image { url width height } } } }
         }
       }
     }`, { after });
@@ -324,11 +330,20 @@ async function main() {
     }
   }
 
-  // 3. Verify /robots.txt allows ?variant= and check storefront Product JSON-LD
+  // 3. Verify /robots.txt allows ?variant= and check storefront Product max-image-preview:large
   const rbRes = await fetch('https://printswithpassion.com/robots.txt?t=' + Date.now());
   const rbTxt = await rbRes.text();
   const variantAllowed = !rbTxt.includes('Disallow: /*?variant=*');
-  console.log(`[3/3] /robots.txt ?variant= Crawl Allowed for GMC: ${variantAllowed}`);
+  const firstActiveProd = activeProducts.values().next().value;
+  let maxImgPreviewOk = false;
+  if (firstActiveProd?.handle) {
+    try {
+      const pdpRes = await fetch(`https://printswithpassion.com/products/${firstActiveProd.handle}?_cb=${Date.now()}`);
+      const pdpTxt = await pdpRes.text();
+      maxImgPreviewOk = /max-image-preview:large/i.test(pdpTxt);
+    } catch {}
+  }
+  console.log(`[3/3] /robots.txt ?variant= Crawl Allowed for GMC: ${variantAllowed} | max-image-preview:large: ${maxImgPreviewOk}`);
 
   const nowIso = new Date().toISOString();
   if (!fs.existsSync(LOG_PATH)) {
