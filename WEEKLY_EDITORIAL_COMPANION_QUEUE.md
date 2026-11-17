@@ -1,112 +1,104 @@
 # Weekly Editorial Companion & Earned Authority Queue
 
-- **Generated At:** `2026-11-15T05:17:29.542Z`
-- **Cadence Status:** `1` total runs logged (max `2` runs per rolling 7 days, minimum `60h` spacing)
+- **Generated At:** `2026-11-17T11:24:26.090Z`
+- **Cadence Status:** `2` total runs logged (max `2` runs per rolling 7 days, minimum `60h` spacing)
 - **Originality & Link Gate:** 100% Enforced (`600–1,000` prose words, `1–2` hub links max, `< 0.05` 4-gram Jaccard overlap vs `/blogs/news`, `0` blocked/de-indexed domains)
 
 ---
 
 ## 1. Automated Cloud API Publication (**DEV.to** `dofollow` / Optional **Hashnode**)
 
-- **Target Blueprint:** `tech-2d-spatial-visualizer-vanilla-js`
-- **DEV.to Status:** READY_AWAITING_API_KEY (add DEVTO_API_KEY secret in GitHub)
+- **Target Blueprint:** `tech-mechanical-keyboard-acoustics-4mm-rubber`
+- **DEV.to Status:** LIVE PUBLISHED: https://dev.to/ben_cook_cb678276c0095db0/mechanical-keyboard-acoustics-why-4mm-natural-rubber-outperforms-thin-foam-pads-3mkk
 - **Hashnode Status:** READY_AWAITING_API_KEY (optional HASHNODE_PAT)
-- **Title:** `Building a Zero-Dependency 2D Furniture & Wall Art Scale Calculator in Vanilla JS`
-- **Tags (`devto`):** `javascript, webdev, svg, architecture`
-- **Verified Prose Word Count:** `691` words
-- **4-Gram Similarity vs Live `/blogs/news`:** `0.0009` (threshold `< 0.05`)
-- **Verified Priority Links (`2`):** `https://printswithpassion.com/pages/desk-size-visualizer`, `https://printswithpassion.com/collections/desk-mats`
+- **Title:** `Mechanical Keyboard Acoustics: Why 4mm Natural Rubber Outperforms Thin Foam Pads`
+- **Tags (`devto`):** `hardware, productivity, ergonomics, acoustics`
+- **Verified Prose Word Count:** `627` words
+- **4-Gram Similarity vs Live `/blogs/news`:** `0.0007` (threshold `< 0.05`)
+- **Verified Priority Links (`2`):** `https://printswithpassion.com/collections/desk-mats`, `https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats`
 
 ### Ready Markdown (if posting manually before `DEVTO_API_KEY` is added)
 
 ```markdown
-# Building a Zero-Dependency 2D Furniture & Wall Art Scale Calculator in Vanilla JS
+# Mechanical Keyboard Acoustics: Why 4mm Natural Rubber Outperforms Thin Foam Pads
 
-Measuring physical objects against furniture inside a browser sounds straightforward until users switch between metric and imperial specs on different viewports. Standard product carousels show flat photography without scale cues, which explains why buyers routinely order frames that vanish behind a couch or desk pads that hang over narrow timber edges. Rather than shipping a bulky third-party canvas dependency, engineering a lightweight two-dimensional spatial stage with vanilla JavaScript and vector math keeps bundle weight tiny and interaction latency near zero.
+Solid butcher-block worktops and hollow honeycomb particleboard desks share an annoying acoustic flaw: they behave like low-efficiency drumheads whenever stiff tactile or clicky mechanical switches bottom out. Even expensive CNC aluminum keyboard cases with gasket mounts and switch film modifications often sound hollow or metallic if the underlying desk surface radiates broadband vibration back toward the microphone boom.
 
-### Normalizing Physical Coordinates to Viewport Pixels
+### Understanding Desk Surface Impedance and Vibrational Transfer
 
-A dependable visualizer decouples real-world dimensions from CSS pixels. Store every sofa, monitor chassis, keyboard footprint, desk slab, and print dimension internally using millimeter integers. Integer arithmetic avoids floating-point drift when someone clicks increment buttons back and forth between centimeters and inches.
+Every keystroke imparts a short impulse containing energy across two hundred hertz to four kilohertz. On bare oak, walnut, or laminate tops, impedance mismatch between hard keycaps, rubber keyboard feet, and rigid timber allows flexural waves to travel laterally across the slab, amplifying mid-bass boominess and crisp top-out clack. Hollow paper-honeycomb core office slabs exaggerate this effect dramatically because thin upper fiberboard skins vibrate almost like acoustic guitar tops right beneath heavy keyboard spacebars.
 
-For rendering, determine a single uniform scale coefficient per container redraw: calculate available stage width minus safe horizontal padding, then divide by the reference furniture width in millimeters. Multiply every child surface—outer frame depth, inner artwork span, mechanical keyboard clearance, and mouse travel envelope—by that identical coefficient so proportions stay truthful on mobile screens and ultrawide displays alike. Keeping vertical ground planes anchored consistently prevents the visual stage from jumping abruptly when someone swaps a two-seater loveseat for a broad corner modular sofa.
+Inserting an elastomer interface changes the coupling boundary between chassis feet and tabletop. However, thickness and shore hardness matter significantly more than brand logos:
 
-### Implementing Reactive Proportion Alerts Without Layout Thrash
+- **Ultra-thin two-millimeter neoprene pads:** Compress instantly under heavy aluminum boards (2.2 kg or more), effectively short-circuiting vibrational isolation so chassis feet bottom nearly through to timber.
+- **Closed-cell cheap EVA foam mats:** Reflect sharper frequencies inconsistently and develop permanent compression dimples beneath weighted brass plates after several weeks of continuous typing.
+- **High-density four-millimeter open-cell natural rubber bases:** Maintain elastic travel beneath heavy keyboards while converting kinetic keystroke energy into negligible thermal dissipation inside microscopic rubber pores.
 
-Buyers rarely know design industry heuristics, so turning interior proportion mathematics into non-blocking visual nudges creates genuine utility. Above living room seating, visual harmony sits between sixty and seventy-five percent of total backrest width. Around keyboards, reserving at least twenty-eight centimeters of uninterrupted pad real estate prevents mouse sensors from drifting onto bare wood mid-drag.
+### Woven Micro-Texture Top Cloth vs Hard Polycarbonate Speed Surfaces
 
-Evaluating those thresholds inside a pure helper function lets the DOM layer toggle subtle hairline guides instead of triggering reflow-heavy tooltips:
+Noise isolation works hand in hand with upper textile weave choice. Rigid polycarbonate or glass skids amplify mouse-skate scraping hiss right beside condenser cardioid microphones during pair programming or late-night calls. Conversely, a tight jacquard cloth weave bonded cleanly over thick rubber softens glide noise while keeping initial static friction predictable for fine pixel cursor edits inside code editors and Figma frames.
 
-```javascript
-function evaluateSpatialRatio(itemWidthMm, anchorWidthMm, minRatio = 0.6, maxRatio = 0.75) {
-  if (anchorWidthMm <= 0) return { status: 'invalid', ratio: 0 };
-  const ratio = Math.round((itemWidthMm / anchorWidthMm) * 1000) / 1000;
-  if (ratio < minRatio) return { status: 'undersized', ratio };
-  if (ratio > maxRatio) return { status: 'oversized', ratio };
-  return { status: 'balanced', ratio };
-}
-```
+Checking stitch height around perimeter edges also pays ergonomic dividends. Overlock perimeter stitching recessed flush with the fabric face prevents sharp nylon ridges from digging into ulnar wrists during long debugging sessions. Look equally carefully at weave alignment: tight heat-sublimated polyester threads avoid peeling along outer bevels even after gentle warm-water soap washes every quarter.
 
-Batch all slider input handlers through `requestAnimationFrame` and mutate SVG `width`, `height`, and `transform` attributes directly. Moving rectangles as GPU-composited transforms eliminates main-thread jank while someone scrubs slider controls continuously. Avoid querying `getBoundingClientRect()` inside active pointer-move loops; cache stage bounds once on mount and refresh cleanly via a lightweight `ResizeObserver`.
+### Measuring Effective Sound Isolation in a Small Home Office
 
-### Handling Dual Metric and Imperial Snap Increments
+While formal anechoic testing belongs in acoustic labs, software developers can benchmark desk upgrades reproducibly at home using a fixed-gain USB condenser microphone positioned forty centimeters above home row without touching preamp knobs between passes:
 
-British and European builders predominantly plan desk slabs and alcoves in centimeters, while North American readers naturally default to twenty-four-by-thirty-six inch wall formats or five-by-six-inch clearance margins. Rather than running duplicate templates, treat metric storage as the canonical source of truth and expose a stateless formatter at paint time.
+1. Record ten consecutive rapid phrases on a bare desk surface and capture RMS plus peak waveform amplitude in Audacity.
+2. Add a standard two-millimeter speed mat and repeat identical typing cadence at steady seated distance.
+3. Swap to a dense four-millimeter rubberized extended mat spanning both keyboard and mouse zones, then align peak envelopes and examine spectral plots above one kilohertz.
 
-For rounding clarity, display whole centimeters cleanly without trailing zeroes, and round imperial inches to the nearest half-inch increment during live scrubbing. When users inspect preset dimensions—say comparing twenty-by-twenty-eight inches against larger gallery formats—preserving crisp alignment labels prevents confusing decimal clutter along dimension callout arrows. Pairing clean tabular numeric fonts (`font-variant-numeric: tabular-nums`) stops readout badges from jittering sideways as numbers count smoothly upward.
+Across hollow laminated tops in particular, the dense thicker base consistently trims sharp high-mid ringing and tightens low-end thock without needing sticky silicone strips underneath the keyboard itself. Even subtle bottom-out echoes near return keys drop cleanly when heavy rubber cushions both rear flip-out stands and forward chassis edges. When matching workspace color palettes alongside heavy aluminum kits, browsing full [stitched XXL desk mat formats](https://printswithpassion.com/collections/desk-mats) helps keep keyboard and mouse zones unified cleanly under one acoustic blanket.
 
-### Keyboard Accessibility and Touch Viewport Ergonomics
+### Integrating Matching Desktop Surfaces With Dual Monitors
 
-Interactive web utilities fail half their audience when precision dragging only works cleanly with desktop mice. Supporting native range inputs paired with accessible ARIA value-text readouts lets keyboard users step smoothly in one-centimeter increments using arrow keys alone. On narrow mobile viewports below five hundred pixels, place furniture presets inside a clean horizontal scroll chip strip right beneath the SVG viewport so users see spatial updates instantaneously without scrolling down and back up repeatedly.
-
-### Real-World Deployment Notes and Live Tool Access
-
-Deploying this interaction model in production showed that pairing real furniture presets directly inside the control rail cuts guesswork in half. Visitors pick a standard worktop width, toggle their keyboard form factor from sixty-five percent to full tenkeyless, and immediately witness remaining mousing sweep. You can inspect and test the finished browser implementation in our live [2D desk and wall art size visualizer](https://printswithpassion.com/pages/desk-size-visualizer).
-
-For teams building similar e-commerce utilities without bloating Core Web Vitals, keep every spatial asset declarative: plain JSON presets for sofa widths and monitor diagonals, pure calculation helpers decoupled from DOM nodes, and inline SVG arrowheads rendered in under ten kilobytes of gzipped script. If you also pair the visualizer workflow with desktop setup sizing reference checks across full [extended desk mat collections](https://printswithpassion.com/collections/desk-mats), shoppers verify physical footprint compatibility before checking out—cutting avoidable size-mismatch returns while delivering an instant, bookmarkable planning utility.
+Coverage area dictates acoustic consistency as much as rubber density. Choosing an undersized mousepad leaves the left keyboard stabilizer floating directly on exposed timber while only cushioning right-hand mouse movement—producing uneven acoustic pitch between modifiers and spacebars. Covering the entire eighty-by-forty-centimeter or ninety-by-forty-centimeter typing envelope under [cyberpunk and neon workstation pads](https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats) anchors both stabilizers on matching cushioned impedance so your typing profile stays clean across every key without sacrificing wrist support.
 ```
 
 ---
 
-## 2. Primary Web Editorial Companion Pack — **`SUBSTACK`**
+## 2. Primary Web Editorial Companion Pack — **`HOMIFY_UK`**
 
-- **Target Blueprint:** `ed-substack-two-thirds-sofa-rule`
-- **Platform Link Equity:** **Dofollow + Google Indexable**
-- **Suggested Headline:** `The Two-Thirds Sofa Proportion Rule: Why Small Frames Float Awkwardly Above Seating`
-- **Subtitle:** `Architectural sightline principles for anchoring blank living room walls with properly scaled canvas prints.`
-- **Verified Prose Word Count:** `616` words
-- **4-Gram Similarity vs Live `/blogs/news`:** `0.0023`
-- **Verified Priority Links (`2`):** `https://printswithpassion.com/pages/desk-size-visualizer`, `https://printswithpassion.com/collections/canvas-prints`
+- **Target Blueprint:** `ed-homify-victorian-alcove-proportion`
+- **Platform Link Equity:** **UK Interior Authority Ideabook (Indexable)**
+- **Suggested Headline:** `Sizing Statement Wall Art & Soft Textiles for Narrow UK Victorian Terraces & Alcoves`
+- **Subtitle:** `Homify UK Ideabook: Bringing luminous depth and tactile calm into chimney-breast alcoves and slim front lounges.`
+- **Verified Prose Word Count:** `629` words
+- **4-Gram Similarity vs Live `/blogs/news`:** `0`
+- **Verified Priority Links (`2`):** `https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art`, `https://printswithpassion.com/collections/pillow-cases`
 
 ### Copy-Ready Article Body
 
 ```markdown
-Walk into almost any newly furnished apartment or rental living room and one visual mismatch stands out immediately: a modest sofa anchored squarely along a broad painted wall, topped by a single lonely A4 or sixteen-inch frame floating miles away from the ceiling corners. Even when the print artwork looks striking close up, undersized framing breaks visual weight across the room and leaves large expanses of drywall feeling oddly unfinished.
+British Victorian and Edwardian terraces deliver generous ceiling height and period cornicing, yet pair those lovely bones with famously narrow chimney-breast alcoves (95–125 cm wide) and compact front reception rooms. Decorating tall narrow bays often pushes homeowners toward either cluttering shelves with fiddly trinkets or leaving cold white plaster staring straight beside low armchairs. Treating alcove geometry deliberately turns tight spatial niches into calm architectural highlights.
 
-### Understanding Architectural Weight Around Living Room Seating
+### Balancing Vertical Ceiling Height Inside Chimneys and Alcove Bays
 
-Good wall composition works very differently from gallery book curation. Your eye reads a sofa plus its overhanging artwork together as one stacked architectural column. Whenever the upper visual mass shrinks below roughly half the lower furniture width, human spatial intuition registers tension—the frame appears untethered, like a postage stamp resting in blank air rather than a deliberate anchor.
+Standard terrace chimneys protrude forty to fifty centimeters into room floorspace, slicing long sightlines into tidy recessed pockets. Because eye height settles naturally lower when seated across fireside armchairs, orienting tall portrait artwork inside those side recesses respects vertical timber frames without crowding narrow widths. Running identical vertical symmetry on flanking twin alcoves calmly frames antique chimney stonework without busy gallery grids competing visually with original tiled surrounds.
 
-Interior stylists solve this cleanly with one dependable proportion guideline: the total width of framed artwork—or combined outer width across a paired diptych—should span between sixty and seventy-five percent of the seating piece directly beneath it.
+Keep twenty to twenty-five percent crisp breathing plaster border clear on both left and right edges inside each alcove:
 
-- **Compact two-seater love seats (150–175 cm wide):** Pair crisply with centered horizontal statements (50×70 cm / 20×28") or tight balanced pairings framed close together.
-- **Standard UK and US three-seater sofas (200–230 cm wide):** Demand genuine architectural scale—ideally large single landscapes (60×90 cm / 24×36") or matched horizontal diptych sets spaced six centimeters apart.
-- **Deep corner chaises and modular sectionals (250 cm+ spans):** Look strongest when centered neatly above the primary two-cushion lounge body rather than drifting awkwardly toward outer armrests.
+1. For ninety-five-to-one-hundred-centimeter narrow bays, a vertical forty-by-fifty-centimeter (16×20") portrait print centers harmoniously above low media credenzas or freestanding log baskets.
+2. Inside wider hundred-and-twenty-centimeter Edwardian alcoves, vertical fifty-by-seventy-centimeter (20×28") canvases stand tall enough to converse evenly with flanking hearth stonework without colliding with floating oak shelves.
+3. Above mantels themselves, always leave ten to fifteen centimeters vertical margin clear above hearth shelves before centering horizontally against chimney-breast corners rather than overall wall span.
 
-### Vertical Breathing Room Controls Cohesion More Than Frame Style
+### Floating Cabinetry & Cable Discretion in Narrow Parlors
 
-Width proportions fail instantly if vertical hanging heights float too close to cornices. Many DIY hangers intuitively centre art squarely at natural standing sightlines (175 cm+), dragging paintings nearly half a meter above low modern couch backrests. That vertical chasm splits couch and artwork into disconnected zones.
+Recessed oak cabinets built cleanly into lower alcove thirds elevate tight parlors rapidly by hiding internet routers and television power bars cleanly behind crisp flush joinery. Leaving twenty centimeters calm vertical gap above flat cupboard tops before starting bottom pine canvas stretcher edges keeps wall-mounted artwork integrated neatly into cabinetry sightlines rather than floating high beneath decorative Victorian ceiling roses.
 
-Instead, measure directly upward from top sofa cushion height—not floor molding. Hanging the bottom timber stretcher frame strictly fifteen to twenty-two centimeters above upper backrest cushions pulls both textile seat and wall statement cleanly into one unified focal vignette. Whenever ceilings run particularly high inside Victorian terraces, maintaining a comfortable twenty-centimeter cushion anchor preserves grounded lounge intimacy while letting generous wall plaster breathe cleanly up toward crown plasterwork.
+### Softening Echo and Sharp Plaster Lines With Coordinated Cushions
 
-### Navigating Off-Center Radiators, Windows, and Wall Switches
+Older period terraces fitted with stripped original pine floorboards carry crisp reverberant acoustics—every teacup clink and conversation echoes slightly against smooth lime plaster and tall sash glass. Soft upholstered textiles soak up sharp high-frequency slap-back immediately while tying crisp architectural canvas lines effortlessly back toward cosy seating corners.
 
-Real walls rarely arrive as symmetrical plaster boxes; electrical thermostats, tall upright sash bays, and wall radiators tug visual focal lines sideways. Never align wall artwork mathematically against overall room drywall margins if seating sits pushed slightly clear of an exterior corner window! Anchor art cleanly over physical sofa midlines first, leaving subtle open margins near radiators so seating and visual balance hold firm even where wall switches break left plaster corners awkwardly.
+Rather than tossing five clashing scatter styles across slim terrace settees, practice restrained tone echoing. Pull one subtle accent hue out of your alcove artwork—deep forest pine, muted terracotta ochre, or Prussian slate—and echo that shade cleanly across crisp double-sided forty-by-forty-centimeter cushions positioned toward outer sofa arms. Textured matte textiles break stiff symmetry gently while keeping compact rooms uncluttered and calm without crowding narrow bay seats.
 
-### Why Unglazed Pine Stretchers Beat Thin Clip Frames in Daylight
+### Lighting Deep North-Facing UK Front Rooms Without Visual Noise
 
-Living rooms suffer far more sidelight shifts across cloudy afternoons than hallway corridors. Thin metal box frames fitted with reflective perspex bounce bright window patches right over dark shadows inside artwork, washing out composition until viewers walk directly square to the sofa. Perspex sheets also collect fine static dust smudges that dull delicate contrast lines under low golden evening side-lamps.
+Many British terraced reception rooms face north or east along shaded street facades, turning bare neutral paint chilly slate blue through winter months. Choosing artwork carrying warm geometric clarity—soft ochre cream paper tones, crisp Bauhaus terracotta arcs, or gentle architectural warm linen contrasts—warms shadow pockets instantly without demanding bright halogen overhead spotlights.
 
-Stretching museum-grade archival cotton-poly canvas neatly across solid one-and-a-quarter-inch kiln-dried European pine bars solves glare instantly while adding physical depth along sightlines. Light scatters cleanly across soft woven grain instead of bouncing sharp reflections back onto reading spots. Testing real sofa widths visually inside our [2D wall art proportion visualizer](https://printswithpassion.com/pages/desk-size-visualizer) takes ten seconds before drilling holes, and exploring tactile matte statements across our [framed archival canvas wall art](https://printswithpassion.com/collections/canvas-prints) makes pairing warm wood warmth and bold scale straightforward across every sofa silhouette.
+Respect original wooden picture rails when judging top canvas height too. Leaving ten to twelve centimeters clear plaster between top stretcher edges and decorative dado or picture moldings maintains traditional Victorian proportions effortlessly. For listed or rented period terraces where hammering steel nails straight into historic lime plaster risks hairline cracking, suspend lightweight pine stretchers quietly from solid brass rail hooks and clear perlon cords for completely drill-free symmetry. Meanwhile, keeping heavy velvet bay curtains slightly clear along side casing frames maximizes fleeting morning sunlight across deep front rooms before closing curtains snugly against evening street chill.
+
+Hanging matte [Bauhaus and minimalist canvas prints](https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art) ensures zero distracting glass reflection opposite street-facing bay windows, while grounding nearby armchairs with coordinated [double-sided geometric cushion covers](https://printswithpassion.com/collections/pillow-cases) pulls tight Victorian proportions together into calm, airy living spaces effortlessly.
 ```
 
 ---
@@ -124,7 +116,7 @@ Stretching museum-grade archival cotton-poly canvas neatly across solid one-and-
 
 ## 4. KeebTalk (Community Feedback Log — Non-Promotional)
 
-- **Suggested Topic Title:** `[Setup Notes] Comparing 4mm Natural Rubber vs Thin Neoprene Desk Mat Acoustics (tech-2d-spatial-visualizer-vanilla-js)`
+- **Suggested Topic Title:** `[Setup Notes] Comparing 4mm Natural Rubber vs Thin Neoprene Desk Mat Acoustics (tech-mechanical-keyboard-acoustics-4mm-rubber)`
 
 ```markdown
 Hey folks — wanted to share a couple measurements from testing different desk pad thicknesses under a heavy gasket-mounted 75% board on a hollow veneer desk.
