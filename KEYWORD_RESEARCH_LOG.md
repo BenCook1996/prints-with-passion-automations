@@ -1,5 +1,5 @@
 # Prints With Passion — Automated Transactional Keyword Research & Low-Competition SERP Log
-**Last Run:** 2026-11-16T14:23:36.909Z
+**Last Run:** 2026-11-18T13:26:51.587Z
 **Candidates Evaluated:** 289 | **Smart Sub-Collections Covered:** 48/48 | **Live SERP Inspections:** 10
 
 ## Top 15 Low-Competition Transactional Keyword Opportunities

@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-17T13:46:52.466Z",
+  "capturedAt": "2026-11-18T13:22:36.246Z",
   "gscRows": [
     {
       "keys": [
@@ -937,10 +937,10 @@
   "gscProperty": "https://printswithpassion.com/",
   "ga4PropertyId": "363520144",
   "storewideSummary": {
-    "impressions28d": 219,
+    "impressions28d": 215,
     "clicks28d": 4,
-    "ctr28d": 0.0183,
-    "averagePosition28d": 31.43,
+    "ctr28d": 0.0186,
+    "averagePosition28d": 31.91,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -959,8 +959,8 @@
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
     "clicks7d": 2,
-    "impressions7d": 48,
-    "averagePosition7d": 33.08,
+    "impressions7d": 47,
+    "averagePosition7d": 32.7,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
@@ -970,7 +970,7 @@
       "clicks28d": 3,
       "ctr": 0.0326,
       "averagePosition": 16.8,
-      "ga4Views28d": 46,
+      "ga4Views28d": 49,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1050,7 +1050,7 @@
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 195,
+      "ga4Views28d": 206,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1337,7 +1337,7 @@
       "impressions28d": 38,
       "clicks28d": 1,
       "ctr": 0.0263,
-      "averagePosition": 18.47,
+      "averagePosition": 18.29,
       "ga4Views28d": 491,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
@@ -1462,7 +1462,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 9,
-      "ga4Views28d": 174,
+      "ga4Views28d": 175,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1628,7 +1628,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 60.44,
-      "ga4Views28d": 69,
+      "ga4Views28d": 83,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1970,91 +1970,322 @@
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 10
+      "averagePosition": 10,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:21:05.757Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-be/blogs/news/uk-student-room-rental-flat-decor-guide": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 69
+      "averagePosition": 69,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:21:12.126Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-30T01:15:27Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-be/blogs/news/uk-student-room-rental-flat-decor-guide",
+        "userCanonical": "https://printswithpassion.com/en-be/blogs/news/uk-student-room-rental-flat-decor-guide",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-be/blogs/news/tagged/cosy-student-bedroom"
+        ]
+      }
     },
     "/en-be/products/trek-into-the-wilds-of-patagonia-in-chile-v-stretched-canvas-wall-art": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 39
+      "averagePosition": 39,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:21:18.752Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-02T23:50:47Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-be/products/trek-into-the-wilds-of-patagonia-in-chile-v-stretched-canvas-wall-art",
+        "userCanonical": "https://printswithpassion.com/en-be/products/trek-into-the-wilds-of-patagonia-in-chile-v-stretched-canvas-wall-art",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-nl/products/trek-into-the-wilds-of-patagonia-in-chile-v-stretched-canvas-wall-art",
+          "/en-be/search?page=4&q=Azure+waters"
+        ]
+      }
     },
     "/en-ca/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 4
+      "averagePosition": 4,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:21:25.186Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-31T22:01:15Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-ca/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "userCanonical": "https://printswithpassion.com/en-ca/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-ca/blogs/news/tagged/desk-mat-size-guide"
+        ]
+      }
     },
     "/en-ca/blogs/news/tagged/graphic-t-shirt-fabric-guide": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 7
+      "averagePosition": 7,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:21:31.632Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-03T16:25:30Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-ca/blogs/news/tagged/graphic-t-shirt-fabric-guide",
+        "userCanonical": "https://printswithpassion.com/en-ca/blogs/news/tagged/graphic-t-shirt-fabric-guide",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-us/blogs/news/tagged/graphic-t-shirt-fabric-guide",
+          "/de-ch/blogs/news/tagged/graphic-t-shirt-fabric-guide",
+          "/en-ch/blogs/news/tagged/graphic-t-shirt-fabric-guide",
+          "/en-ca/blogs/news/ring-spun-vs-combed-cotton-t-shirts-uk"
+        ]
+      }
     },
     "/en-ca/blogs/news/tagged/softstyle-ring-spun-cotton": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 30
+      "averagePosition": 30,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:21:37.987Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-03T05:36:50Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-ca/blogs/news/tagged/softstyle-ring-spun-cotton",
+        "userCanonical": "https://printswithpassion.com/en-ca/blogs/news/tagged/softstyle-ring-spun-cotton",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-ca/blogs/news/tagged/t-shirt-print-durability-guide"
+        ]
+      }
     },
     "/en-ca/policies/refund-policy": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 10
+      "averagePosition": 10,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:21:44.468Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-29T13:57:37Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-ca/policies/refund-policy",
+        "userCanonical": "https://printswithpassion.com/en-ca/policies/refund-policy",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/fr-ch/policies/refund-policy",
+          "/en-ca/products/desert-bloom-under-triple-suns-plush-fleece-throw-blanket"
+        ]
+      }
     },
     "/en-cy/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 90
+      "averagePosition": 90,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:21:50.890Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-03T05:20:03Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-cy/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom",
+        "userCanonical": "https://printswithpassion.com/en-cy/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/de-at/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom",
+          "/en-sk/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom",
+          "/en-cy/blogs/news.atom"
+        ]
+      }
     },
     "/en-cy/products/autumn-foliage-wildflowers-botanical-plush-fleece-throw-blanket": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 93
+      "averagePosition": 93,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:21:57.239Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Blocked by robots.txt",
+        "robotsTxtState": "DISALLOWED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-11-04T15:39:58Z",
+        "pageFetchState": "BLOCKED_ROBOTS_TXT",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/autumn-foliage-wildflowers-botanical-plush-fleece-throw-blanket",
+          "/en-cy/collections/all?_pos=239&_sid=07612c22c&_ss=r"
+        ]
+      }
     },
     "/en-cy/products/colorful-spyro-watercolor-tee": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 10
+      "averagePosition": 10,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:22:03.552Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Duplicate, Google chose different canonical than user",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-18T13:50:37Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-cy/products/colorful-spyro-watercolor-tee",
+        "userCanonical": "https://printswithpassion.com/en-cy/products/colorful-spyro-watercolor-tee",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-cy/products/colorful-spyro-watercolor-tee?_pos=755&_sid=ca3a98e24&_ss=r",
+          "/en-cy/collections/clothing?page=5"
+        ]
+      }
     },
     "/en-cy/products/copy-of-george-michael-neon-dreams-watercolor-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 11
+      "averagePosition": 11,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:22:10.060Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-cy/products/copy-of-tile-pattern-bath-mat": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 19
+      "averagePosition": 19,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:22:16.436Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-16T16:56:02Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-cy/products/copy-of-tile-pattern-bath-mat",
+        "userCanonical": "https://printswithpassion.com/en-cy/products/copy-of-tile-pattern-bath-mat",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-cy/products/copy-of-tile-pattern-bath-mat?_pos=70&_sid=9fa335f21&_ss=r",
+          "/en-cy/collections/bath-mats?page=1"
+        ]
+      }
     },
     "/en-cy/products/darth-maul-power-mouse-pad": {
       "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 55.33
+      "averagePosition": 55.33,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:22:22.843Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-20T06:59:22Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-cy/products/darth-maul-power-mouse-pad",
+        "userCanonical": "https://printswithpassion.com/en-cy/products/darth-maul-power-mouse-pad",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/darth-maul-power-mouse-pad?_pos=102&_sid=f3012c6ea&_ss=r",
+          "/en-cy/products/darth-maul-power-mouse-pad?_pos=211&_sid=e7df5d0f6&_ss=r"
+        ]
+      }
     },
     "/en-cy/products/drogba-goal-celebration-pillowcase": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 77
+      "averagePosition": 77,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:22:29.165Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-cy/products/galactic-tie-fighter-hoodie-join-the-dark-side": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 8
+      "averagePosition": 8,
+      "urlInspection": {
+        "inspectedAt": "2026-11-18T13:22:35.606Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-20T03:52:46Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-cy/products/galactic-tie-fighter-hoodie-join-the-dark-side",
+        "userCanonical": "https://printswithpassion.com/en-cy/products/galactic-tie-fighter-hoodie-join-the-dark-side",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-fr/products/galactic-tie-fighter-hoodie-join-the-dark-side?_pos=283&_sid=b0fc31196&_ss=r",
+          "/de-de/products/galactic-tie-fighter-hoodie-join-the-dark-side"
+        ]
+      }
     },
     "/en-cy/products/glowing-lightbulb-hoodie-illuminate-your-style": {
       "impressions28d": 1,
@@ -2794,7 +3025,7 @@
       "averagePosition": 1
     },
     "/products/zendaya-watercolor-dreams-baseball-cap": {
-      "impressions28d": 4,
+      "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 1
@@ -2804,7 +3035,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 1,
-      "ga4Views28d": 61,
+      "ga4Views28d": 60,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2904,7 +3135,7 @@
           "/products/and-gold-abstract-design-that-will-make-you-stand-out-on-the-beach-whether-youre-lounging-by-the-pool-or-catching-some-waves-in-the-ocean?variant=55127866802549&country=GB&currency=GBP"
         ]
       },
-      "ga4Views28d": 170,
+      "ga4Views28d": 173,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -2929,7 +3160,7 @@
           "/"
         ]
       },
-      "ga4Views28d": 82,
+      "ga4Views28d": 91,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3811,183 +4042,177 @@
     }
   },
   "urlInspectionHealth": {
-    "lastRunAt": "2026-11-17T13:46:51.654Z",
-    "cursor": 90,
+    "lastRunAt": "2026-11-18T13:22:35.606Z",
+    "cursor": 105,
     "batchSize": 15,
     "totalInspected": 15,
-    "submittedAndIndexedCount": 8,
+    "submittedAndIndexedCount": 9,
     "discoveredNotIndexedCount": 0,
-    "crawledNotIndexedCount": 3,
-    "urlUnknownCount": 0,
-    "otherCount": 4,
+    "crawledNotIndexedCount": 1,
+    "urlUnknownCount": 3,
+    "otherCount": 2,
     "errorCount": 0,
-    "canonicalOverridesCount": 1,
-    "indexedRatio": 0.5333,
-    "indexedRatioDisplay": "53.3%",
+    "canonicalOverridesCount": 0,
+    "indexedRatio": 0.6,
+    "indexedRatioDisplay": "60.0%",
     "coverageBreakdown": {
-      "Submitted and indexed": 8,
-      "Not found (404)": 2,
-      "Crawled - currently not indexed": 3,
+      "URL is unknown to Google": 3,
+      "Submitted and indexed": 9,
+      "Blocked by robots.txt": 1,
       "Duplicate, Google chose different canonical than user": 1,
-      "Blocked by robots.txt": 1
+      "Crawled - currently not indexed": 1
     },
-    "canonicalOverrides": [
-      {
-        "url": "https://printswithpassion.com/de-at/pages/delivery-return",
-        "userCanonical": "https://printswithpassion.com/de-at/pages/delivery-return",
-        "googleCanonical": "https://printswithpassion.com/de-de/pages/delivery-return"
-      }
-    ],
+    "canonicalOverrides": [],
     "batchResults": [
       {
-        "url": "https://printswithpassion.com/collections/hoodies",
-        "path": "/collections/hoodies",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-03T15:31:28Z",
-        "googleCanonical": "https://printswithpassion.com/collections/hoodies",
-        "userCanonical": "https://printswithpassion.com/collections/hoodies"
-      },
-      {
-        "url": "https://printswithpassion.com/collections/laundry-bags",
-        "path": "/collections/laundry-bags",
+        "url": "https://printswithpassion.com/de-de/products/keep-your-drink-cold-with-shrek-can-cooler",
+        "path": "/de-de/products/keep-your-drink-cold-with-shrek-can-cooler",
         "verdict": "NEUTRAL",
-        "coverageState": "Not found (404)",
+        "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-11-11T02:45:25Z",
+        "lastCrawlTime": "NEVER",
         "googleCanonical": null,
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/collections/makeup-bags",
-        "path": "/collections/makeup-bags",
+        "url": "https://printswithpassion.com/en-be/blogs/news/uk-student-room-rental-flat-decor-guide",
+        "path": "/en-be/blogs/news/uk-student-room-rental-flat-decor-guide",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-15T11:43:27Z",
-        "googleCanonical": "https://printswithpassion.com/collections/makeup-bags",
-        "userCanonical": "https://printswithpassion.com/collections/makeup-bags"
+        "lastCrawlTime": "2026-10-30T01:15:27Z",
+        "googleCanonical": "https://printswithpassion.com/en-be/blogs/news/uk-student-room-rental-flat-decor-guide",
+        "userCanonical": "https://printswithpassion.com/en-be/blogs/news/uk-student-room-rental-flat-decor-guide"
       },
       {
-        "url": "https://printswithpassion.com/collections/phone-cases",
-        "path": "/collections/phone-cases",
+        "url": "https://printswithpassion.com/en-be/products/trek-into-the-wilds-of-patagonia-in-chile-v-stretched-canvas-wall-art",
+        "path": "/en-be/products/trek-into-the-wilds-of-patagonia-in-chile-v-stretched-canvas-wall-art",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-16T05:07:30Z",
-        "googleCanonical": "https://printswithpassion.com/collections/phone-cases",
-        "userCanonical": "https://printswithpassion.com/collections/phone-cases"
+        "lastCrawlTime": "2026-11-02T23:50:47Z",
+        "googleCanonical": "https://printswithpassion.com/en-be/products/trek-into-the-wilds-of-patagonia-in-chile-v-stretched-canvas-wall-art",
+        "userCanonical": "https://printswithpassion.com/en-be/products/trek-into-the-wilds-of-patagonia-in-chile-v-stretched-canvas-wall-art"
       },
       {
-        "url": "https://printswithpassion.com/collections/plush-blankets",
-        "path": "/collections/plush-blankets",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-08-21T17:21:08Z",
-        "googleCanonical": "https://printswithpassion.com/collections/plush-blankets",
-        "userCanonical": "https://printswithpassion.com/collections/plush-blankets"
-      },
-      {
-        "url": "https://printswithpassion.com/collections/posters",
-        "path": "/collections/posters",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-21T20:03:10Z",
-        "googleCanonical": "https://printswithpassion.com/collections/posters",
-        "userCanonical": "https://printswithpassion.com/collections/posters"
-      },
-      {
-        "url": "https://printswithpassion.com/collections/wall-art",
-        "path": "/collections/wall-art",
+        "url": "https://printswithpassion.com/en-ca/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "path": "/en-ca/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-09-29T21:40:41Z",
-        "googleCanonical": "https://printswithpassion.com/collections/wall-art",
-        "userCanonical": "https://printswithpassion.com/collections/wall-art"
+        "lastCrawlTime": "2026-10-31T22:01:15Z",
+        "googleCanonical": "https://printswithpassion.com/en-ca/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide",
+        "userCanonical": "https://printswithpassion.com/en-ca/blogs/news/best-desk-setup-accessories-ikea-karlby-lagkapten-uk-guide"
       },
       {
-        "url": "https://printswithpassion.com/collections/yoga-mats",
-        "path": "/collections/yoga-mats",
+        "url": "https://printswithpassion.com/en-ca/blogs/news/tagged/graphic-t-shirt-fabric-guide",
+        "path": "/en-ca/blogs/news/tagged/graphic-t-shirt-fabric-guide",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-09-20T07:52:48Z",
-        "googleCanonical": "https://printswithpassion.com/collections/yoga-mats",
-        "userCanonical": "https://printswithpassion.com/collections/yoga-mats"
+        "lastCrawlTime": "2026-11-03T16:25:30Z",
+        "googleCanonical": "https://printswithpassion.com/en-ca/blogs/news/tagged/graphic-t-shirt-fabric-guide",
+        "userCanonical": "https://printswithpassion.com/en-ca/blogs/news/tagged/graphic-t-shirt-fabric-guide"
       },
       {
-        "url": "https://printswithpassion.com/de-at/pages/delivery-return",
-        "path": "/de-at/pages/delivery-return",
-        "verdict": "NEUTRAL",
-        "coverageState": "Duplicate, Google chose different canonical than user",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-26T16:33:56Z",
-        "googleCanonical": "https://printswithpassion.com/de-de/pages/delivery-return",
-        "userCanonical": "https://printswithpassion.com/de-at/pages/delivery-return"
-      },
-      {
-        "url": "https://printswithpassion.com/de-at/products/jack-nichiolson-gallery-wrapped-stretched-canvas-wall-art-24-16",
-        "path": "/de-at/products/jack-nichiolson-gallery-wrapped-stretched-canvas-wall-art-24-16",
+        "url": "https://printswithpassion.com/en-ca/blogs/news/tagged/softstyle-ring-spun-cotton",
+        "path": "/en-ca/blogs/news/tagged/softstyle-ring-spun-cotton",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-27T23:25:47Z",
-        "googleCanonical": "https://printswithpassion.com/de-at/products/jack-nichiolson-gallery-wrapped-stretched-canvas-wall-art-24-16",
-        "userCanonical": "https://printswithpassion.com/de-at/products/jack-nichiolson-gallery-wrapped-stretched-canvas-wall-art-24-16"
+        "lastCrawlTime": "2026-11-03T05:36:50Z",
+        "googleCanonical": "https://printswithpassion.com/en-ca/blogs/news/tagged/softstyle-ring-spun-cotton",
+        "userCanonical": "https://printswithpassion.com/en-ca/blogs/news/tagged/softstyle-ring-spun-cotton"
       },
       {
-        "url": "https://printswithpassion.com/de-at/products/maldives-blue-glass-sea-hoodie",
-        "path": "/de-at/products/maldives-blue-glass-sea-hoodie",
+        "url": "https://printswithpassion.com/en-ca/policies/refund-policy",
+        "path": "/en-ca/policies/refund-policy",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-09-21T12:20:56Z",
-        "googleCanonical": "https://printswithpassion.com/de-at/products/maldives-blue-glass-sea-hoodie",
-        "userCanonical": "https://printswithpassion.com/de-at/products/maldives-blue-glass-sea-hoodie"
+        "lastCrawlTime": "2026-10-29T13:57:37Z",
+        "googleCanonical": "https://printswithpassion.com/en-ca/policies/refund-policy",
+        "userCanonical": "https://printswithpassion.com/en-ca/policies/refund-policy"
       },
       {
-        "url": "https://printswithpassion.com/de-at/products/sossusvlei-namibia-adventure-bottle",
-        "path": "/de-at/products/sossusvlei-namibia-adventure-bottle",
+        "url": "https://printswithpassion.com/en-cy/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom",
+        "path": "/en-cy/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-03T05:20:03Z",
+        "googleCanonical": "https://printswithpassion.com/en-cy/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom",
+        "userCanonical": "https://printswithpassion.com/en-cy/blogs/news/the-top-10-disney-princesses-why-they-reign-supreme-in-the-magical-kingdom"
+      },
+      {
+        "url": "https://printswithpassion.com/en-cy/products/autumn-foliage-wildflowers-botanical-plush-fleece-throw-blanket",
+        "path": "/en-cy/products/autumn-foliage-wildflowers-botanical-plush-fleece-throw-blanket",
         "verdict": "NEUTRAL",
         "coverageState": "Blocked by robots.txt",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-11-09T02:46:33Z",
+        "lastCrawlTime": "2026-11-04T15:39:58Z",
         "googleCanonical": null,
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/de-ch/pages/size-guide",
-        "path": "/de-ch/pages/size-guide",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-29T16:20:53Z",
-        "googleCanonical": "https://printswithpassion.com/de-ch/pages/size-guide",
-        "userCanonical": "https://printswithpassion.com/de-ch/pages/size-guide"
-      },
-      {
-        "url": "https://printswithpassion.com/de-de/products/aitutaki-paradise-unveiled",
-        "path": "/de-de/products/aitutaki-paradise-unveiled",
+        "url": "https://printswithpassion.com/en-cy/products/colorful-spyro-watercolor-tee",
+        "path": "/en-cy/products/colorful-spyro-watercolor-tee",
         "verdict": "NEUTRAL",
-        "coverageState": "Not found (404)",
+        "coverageState": "Duplicate, Google chose different canonical than user",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-18T13:50:37Z",
+        "googleCanonical": "https://printswithpassion.com/en-cy/products/colorful-spyro-watercolor-tee",
+        "userCanonical": "https://printswithpassion.com/en-cy/products/colorful-spyro-watercolor-tee"
+      },
+      {
+        "url": "https://printswithpassion.com/en-cy/products/copy-of-george-michael-neon-dreams-watercolor-cap",
+        "path": "/en-cy/products/copy-of-george-michael-neon-dreams-watercolor-cap",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-10-26T00:13:49Z",
+        "lastCrawlTime": "NEVER",
         "googleCanonical": null,
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/de-de/products/copy-of-churchills-war-room-desk-mat",
-        "path": "/de-de/products/copy-of-churchills-war-room-desk-mat",
+        "url": "https://printswithpassion.com/en-cy/products/copy-of-tile-pattern-bath-mat",
+        "path": "/en-cy/products/copy-of-tile-pattern-bath-mat",
         "verdict": "NEUTRAL",
         "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-08-05T15:06:44Z",
-        "googleCanonical": "https://printswithpassion.com/de-de/products/copy-of-churchills-war-room-desk-mat",
-        "userCanonical": "https://printswithpassion.com/de-de/products/copy-of-churchills-war-room-desk-mat"
+        "lastCrawlTime": "2026-10-16T16:56:02Z",
+        "googleCanonical": "https://printswithpassion.com/en-cy/products/copy-of-tile-pattern-bath-mat",
+        "userCanonical": "https://printswithpassion.com/en-cy/products/copy-of-tile-pattern-bath-mat"
+      },
+      {
+        "url": "https://printswithpassion.com/en-cy/products/darth-maul-power-mouse-pad",
+        "path": "/en-cy/products/darth-maul-power-mouse-pad",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-20T06:59:22Z",
+        "googleCanonical": "https://printswithpassion.com/en-cy/products/darth-maul-power-mouse-pad",
+        "userCanonical": "https://printswithpassion.com/en-cy/products/darth-maul-power-mouse-pad"
+      },
+      {
+        "url": "https://printswithpassion.com/en-cy/products/drogba-goal-celebration-pillowcase",
+        "path": "/en-cy/products/drogba-goal-celebration-pillowcase",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/en-cy/products/galactic-tie-fighter-hoodie-join-the-dark-side",
+        "path": "/en-cy/products/galactic-tie-fighter-hoodie-join-the-dark-side",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-20T03:52:46Z",
+        "googleCanonical": "https://printswithpassion.com/en-cy/products/galactic-tie-fighter-hoodie-join-the-dark-side",
+        "userCanonical": "https://printswithpassion.com/en-cy/products/galactic-tie-fighter-hoodie-join-the-dark-side"
       }
     ]
   }
