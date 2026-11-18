@@ -1,6 +1,6 @@
 # Prints With Passion — Catalog Uniqueness & Active SEO Lint Quality Gate Log
 
-- **Last Audited:** `2026-11-18T13:22:46.413Z`
+- **Last Audited:** `2026-11-18T15:29:10.479Z`
 - **Total Active Products in Store:** `1500` (Target: `~1,500` distinct non-IP products)
 - **Sampled Active Products Checked:** `202`
 - **Collections Checked:** `73`
@@ -18,7 +18,7 @@
 - **Deprecated Inline FAQPage/HowTo Schemas Scrubbed:** `0`
 - **Legacy 30-Day Return Policy References Normalized to 14-Day:** `0`
 - **Internal Printify Blueprint Codes (`BP #`) Scrubbed:** `0`
-- **PDP Uniqueness Floor (`>= 45%` Unique Content Target):** `7%` average uniqueness | `15` thin PDPs enriched this run | `170` thin PDPs remaining in queue
+- **PDP Uniqueness Floor (`>= 45%` Unique Content Target):** `7%` average uniqueness | `15` thin PDPs enriched this run | `155` thin PDPs remaining in queue
 - **AI-Cliché Phrases Flagged (`seo lint` rules):** `0`
 - **Items Actively Auto-Sanitized via GraphQL This Run:** `0`
 
@@ -35,5 +35,5 @@
 - **Deprecated Inline Schemas (`FAQPage`/`HowTo`):** PASS (0 detected storewide)
 - **Return Policy Window (`14-Day` Standard):** PASS (0 legacy 30-day references)
 - **Internal Blueprint Codes (`BP #`):** PASS (0 leaked factory codes)
-- **PDP Uniqueness Floor (`>= 45%`):** ENRICHING (+15 thin PDPs upgraded; 170 queued)
+- **PDP Uniqueness Floor (`>= 45%`):** ENRICHING (+15 thin PDPs upgraded; 155 queued)
 - **AI-Pattern Phrases:** PASS (0 AI clichés detected)
