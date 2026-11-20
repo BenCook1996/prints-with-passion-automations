@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T13:47:08.513Z",
+  "capturedAt": "2026-11-20T13:35:15.631Z",
   "gscRows": [
     {
       "keys": [
@@ -937,10 +937,10 @@
   "gscProperty": "https://printswithpassion.com/",
   "ga4PropertyId": "363520144",
   "storewideSummary": {
-    "impressions28d": 218,
-    "clicks28d": 5,
-    "ctr28d": 0.0229,
-    "averagePosition28d": 33.64,
+    "impressions28d": 221,
+    "clicks28d": 7,
+    "ctr28d": 0.0317,
+    "averagePosition28d": 35.2,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -958,9 +958,9 @@
     "blockedByRobotsTxt": 24880,
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
-    "clicks7d": 3,
-    "impressions7d": 51,
-    "averagePosition7d": 39.43,
+    "clicks7d": 5,
+    "impressions7d": 49,
+    "averagePosition7d": 47.31,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
@@ -970,7 +970,7 @@
       "clicks28d": 3,
       "ctr": 0.0326,
       "averagePosition": 16.8,
-      "ga4Views28d": 56,
+      "ga4Views28d": 60,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1024,7 +1024,7 @@
       "clicks28d": 1,
       "ctr": 0.0357,
       "averagePosition": 14.8,
-      "ga4Views28d": 19,
+      "ga4Views28d": 20,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1050,7 +1050,7 @@
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 236,
+      "ga4Views28d": 253,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1334,11 +1334,11 @@
       }
     },
     "/": {
-      "impressions28d": 37,
+      "impressions28d": 36,
       "clicks28d": 1,
-      "ctr": 0.027,
-      "averagePosition": 18.49,
-      "ga4Views28d": 490,
+      "ctr": 0.0278,
+      "averagePosition": 14.83,
+      "ga4Views28d": 495,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1462,7 +1462,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 9,
-      "ga4Views28d": 185,
+      "ga4Views28d": 186,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1601,10 +1601,10 @@
       }
     },
     "/collections/duffle-bags": {
-      "impressions28d": 7,
+      "impressions28d": 8,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 43.57,
+      "averagePosition": 46.63,
       "urlInspection": {
         "inspectedAt": "2026-11-16T14:23:30.677Z",
         "verdict": "PASS",
@@ -1624,11 +1624,11 @@
       }
     },
     "/collections/hoodies": {
-      "impressions28d": 1,
-      "clicks28d": 1,
-      "ctr": 1,
-      "averagePosition": 175,
-      "ga4Views28d": 90,
+      "impressions28d": 5,
+      "clicks28d": 3,
+      "ctr": 0.6,
+      "averagePosition": 173.2,
+      "ga4Views28d": 94,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -2619,19 +2619,66 @@
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 48
+      "averagePosition": 48,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:28:50.888Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Duplicate, Google chose different canonical than user",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-28T05:16:15Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/canvas-prints",
+        "userCanonical": "https://printswithpassion.com/en-fr/blogs/news/uk-student-room-rental-flat-decor-guide",
+        "canonicalOverride": true,
+        "referringUrls": [
+          "/blogs/news/uk-student-room-rental-flat-decor-guide",
+          "/en-fr/blogs/news/mechanical-keyboard-desk-mat-acoustics-sizing-uk-guide"
+        ]
+      }
     },
     "/en-fr/products/ahsoka-tano-star-wars-blanket": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:28:57.512Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-12T06:33:03Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/ahsoka-tano-star-wars-blanket",
+        "userCanonical": "https://printswithpassion.com/en-fr/products/ahsoka-tano-star-wars-blanket",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-fr/products/ahsoka-tano-star-wars-blanket?_pos=11036&_sid=d91499dc6&_ss=r"
+        ]
+      }
     },
     "/en-fr/products/alpine-adventure-coaster-swiss-delight": {
       "impressions28d": 4,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 9
+      "averagePosition": 9,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:29:04.114Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-15T01:28:29Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/alpine-adventure-coaster-swiss-delight",
+        "userCanonical": "https://printswithpassion.com/en-fr/products/alpine-adventure-coaster-swiss-delight",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-fr/products/alpine-adventure-coaster-swiss-delight?_pos=52&_sid=6803d4c35&_ss=r",
+          "/en-fr/products/alpine-adventure-coaster-swiss-delight?_pos=630&_sid=a69646a41&_ss=r"
+        ]
+      }
     },
     "/en-fr/products/ancient-tree-runes-canvas-art": {
       "impressions28d": 1,
@@ -2643,37 +2690,124 @@
       "impressions28d": 2,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 28.5
+      "averagePosition": 28.5,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:31:47.128Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-17T13:50:28Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/buy-reflective-pyramid-mirror-poster",
+        "userCanonical": "https://printswithpassion.com/en-fr/products/buy-reflective-pyramid-mirror-poster",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-fr/products/buy-reflective-pyramid-mirror-poster?_pos=427&_sid=22904e45c&_ss=r",
+          "/en-fr/products/buy-reflective-pyramid-mirror-poster?_pos=280&_sid=d1ee0f37e&_ss=r"
+        ]
+      }
     },
     "/en-fr/products/galactic-adventure-drinking-bottle": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 61
+      "averagePosition": 61,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:31:53.874Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-fr/products/mo-salah-liverpool-blanket-watercolor-dream": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 63
+      "averagePosition": 63,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:32:00.459Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Not found (404)",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-10-30T19:22:13Z",
+        "pageFetchState": "NOT_FOUND",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-fr/products/mo-salah-liverpool-blanket-watercolor-dream?_pos=857&_sid=4856359bc&_ss=r"
+        ]
+      }
     },
     "/en-fr/products/retro-anime-vibes-coffee-mug": {
       "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 3.67
+      "averagePosition": 3.67,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:32:07.098Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-23T13:24:17Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/retro-anime-vibes-coffee-mug",
+        "userCanonical": "https://printswithpassion.com/en-fr/products/retro-anime-vibes-coffee-mug",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-fr/products/retro-anime-vibes-coffee-mug?_pos=919&_sid=1a5141061&_ss=r"
+        ]
+      }
     },
     "/en-fr/products/winston-churchill-cigar-tee-shirt": {
       "impressions28d": 4,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 24.75
+      "averagePosition": 24.75,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:32:13.672Z",
+        "verdict": "PASS",
+        "coverageState": "Indexed, though blocked by robots.txt",
+        "robotsTxtState": "DISALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-16T12:20:17Z",
+        "pageFetchState": "BLOCKED_ROBOTS_TXT",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/winston-churchill-cigar-tee-shirt",
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-cy/products/winston-churchill-cigar-tee-shirt"
+        ]
+      }
     },
     "/en-gr/products/luscious-lips-mouse-pad-playful-and-unique": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 75
+      "averagePosition": 75,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:32:47.279Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-gr/products/mountain-nightscape-gallery-wrapped-stretched-canvas-wall-art-24-16": {
       "impressions28d": 4,
@@ -2685,25 +2819,84 @@
       "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 7.33
+      "averagePosition": 7.33,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:34:54.283Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-18T02:08:34Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-it/products/force-filled-obi-wan-rug",
+        "userCanonical": "https://printswithpassion.com/en-it/products/force-filled-obi-wan-rug",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-it/products/force-filled-obi-wan-rug?_pos=383&_sid=c238f2a38&_ss=r"
+        ]
+      }
     },
     "/en-it/products/star-wars-bath-mat-ezra": {
       "impressions28d": 2,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2
+      "averagePosition": 2,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:35:00.908Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-18T02:20:16Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-it/products/star-wars-bath-mat-ezra",
+        "userCanonical": "https://printswithpassion.com/en-it/products/star-wars-bath-mat-ezra",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-it/products/star-wars-bath-mat-ezra?_pos=379&_sid=c238f2a38&_ss=r"
+        ]
+      }
     },
     "/en-it/products/sunset-wave-beach-blanket-cozy-ocean-bliss": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 50
+      "averagePosition": 50,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:35:07.653Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-22T02:34:57Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-it/products/sunset-wave-beach-blanket-cozy-ocean-bliss",
+        "userCanonical": "https://printswithpassion.com/en-it/products/sunset-wave-beach-blanket-cozy-ocean-bliss",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-it/products/sunset-wave-beach-blanket-cozy-ocean-bliss?_pos=288&_sid=8710b0635&_ss=r",
+          "/en-us/products/sunset-wave-beach-blanket-cozy-ocean-bliss?_pos=11117&_sid=2bff9d148&_ss=r"
+        ]
+      }
     },
     "/en-it/products/unique-hourglass-design-t-shirt-stream": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 43
+      "averagePosition": 43,
+      "urlInspection": {
+        "inspectedAt": "2026-11-20T13:35:14.824Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-pl/products/amsterdam-canals-painted-hoodie": {
       "impressions28d": 2,
@@ -3373,7 +3566,7 @@
           "/products/and-gold-abstract-design-that-will-make-you-stand-out-on-the-beach-whether-youre-lounging-by-the-pool-or-catching-some-waves-in-the-ocean?variant=55127866802549&country=GB&currency=GBP"
         ]
       },
-      "ga4Views28d": 180,
+      "ga4Views28d": 187,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3398,7 +3591,7 @@
           "/"
         ]
       },
-      "ga4Views28d": 102,
+      "ga4Views28d": 106,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3452,7 +3645,7 @@
           "/pages/desk-setup-hardware-compatibility-guide"
         ]
       },
-      "ga4Views28d": 71,
+      "ga4Views28d": 73,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3581,7 +3774,7 @@
           "/pages/trade-and-bulk-orders"
         ]
       },
-      "ga4Views28d": 137,
+      "ga4Views28d": 138,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -4295,46 +4488,92 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 10
+    },
+    "/products/hand-drawn-graphic-unisex-college-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/products/nature-wildlife-silhouette-deer-graphic-unisex-college-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
     }
   },
   "urlInspectionHealth": {
-    "lastRunAt": "2026-11-19T13:47:07.865Z",
-    "cursor": 120,
+    "lastRunAt": "2026-11-20T13:35:14.824Z",
+    "cursor": 135,
     "batchSize": 15,
     "totalInspected": 15,
-    "submittedAndIndexedCount": 6,
+    "submittedAndIndexedCount": 7,
     "discoveredNotIndexedCount": 0,
-    "crawledNotIndexedCount": 1,
-    "urlUnknownCount": 1,
-    "otherCount": 7,
-    "errorCount": 0,
-    "canonicalOverridesCount": 2,
-    "indexedRatio": 0.4,
-    "indexedRatioDisplay": "40.0%",
+    "crawledNotIndexedCount": 0,
+    "urlUnknownCount": 3,
+    "otherCount": 5,
+    "errorCount": 2,
+    "canonicalOverridesCount": 1,
+    "indexedRatio": 0.4667,
+    "indexedRatioDisplay": "46.7%",
     "coverageBreakdown": {
-      "URL is unknown to Google": 1,
+      "Duplicate, Google chose different canonical than user": 1,
+      "Submitted and indexed": 7,
+      "URL is unknown to Google": 3,
       "Not found (404)": 1,
-      "Blocked by robots.txt": 3,
-      "Submitted and indexed": 6,
-      "Duplicate, Google chose different canonical than user": 3,
-      "Crawled - currently not indexed": 1
+      "Indexed, though blocked by robots.txt": 1
     },
     "canonicalOverrides": [
       {
-        "url": "https://printswithpassion.com/en-es/products/moonlit-starry-night-hoodie",
-        "userCanonical": "https://printswithpassion.com/en-es/products/moonlit-starry-night-hoodie",
-        "googleCanonical": "https://printswithpassion.com/products/moonlit-starry-night-hoodie"
-      },
-      {
-        "url": "https://printswithpassion.com/en-es/products/starry-eyed-explorer-tee",
-        "userCanonical": "https://printswithpassion.com/en-es/products/starry-eyed-explorer-tee",
-        "googleCanonical": "https://printswithpassion.com/products/starry-eyed-explorer-tee"
+        "url": "https://printswithpassion.com/en-fr/blogs/news/uk-student-room-rental-flat-decor-guide",
+        "userCanonical": "https://printswithpassion.com/en-fr/blogs/news/uk-student-room-rental-flat-decor-guide",
+        "googleCanonical": "https://printswithpassion.com/collections/canvas-prints"
       }
     ],
     "batchResults": [
       {
-        "url": "https://printswithpassion.com/en-cy/products/glowing-lightbulb-hoodie-illuminate-your-style",
-        "path": "/en-cy/products/glowing-lightbulb-hoodie-illuminate-your-style",
+        "url": "https://printswithpassion.com/en-fr/blogs/news/uk-student-room-rental-flat-decor-guide",
+        "path": "/en-fr/blogs/news/uk-student-room-rental-flat-decor-guide",
+        "verdict": "NEUTRAL",
+        "coverageState": "Duplicate, Google chose different canonical than user",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-28T05:16:15Z",
+        "googleCanonical": "https://printswithpassion.com/collections/canvas-prints",
+        "userCanonical": "https://printswithpassion.com/en-fr/blogs/news/uk-student-room-rental-flat-decor-guide"
+      },
+      {
+        "url": "https://printswithpassion.com/en-fr/products/ahsoka-tano-star-wars-blanket",
+        "path": "/en-fr/products/ahsoka-tano-star-wars-blanket",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-12T06:33:03Z",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/ahsoka-tano-star-wars-blanket",
+        "userCanonical": "https://printswithpassion.com/en-fr/products/ahsoka-tano-star-wars-blanket"
+      },
+      {
+        "url": "https://printswithpassion.com/en-fr/products/alpine-adventure-coaster-swiss-delight",
+        "path": "/en-fr/products/alpine-adventure-coaster-swiss-delight",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-15T01:28:29Z",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/alpine-adventure-coaster-swiss-delight",
+        "userCanonical": "https://printswithpassion.com/en-fr/products/alpine-adventure-coaster-swiss-delight"
+      },
+      {
+        "url": "https://printswithpassion.com/en-fr/products/buy-reflective-pyramid-mirror-poster",
+        "path": "/en-fr/products/buy-reflective-pyramid-mirror-poster",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-17T13:50:28Z",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/buy-reflective-pyramid-mirror-poster",
+        "userCanonical": "https://printswithpassion.com/en-fr/products/buy-reflective-pyramid-mirror-poster"
+      },
+      {
+        "url": "https://printswithpassion.com/en-fr/products/galactic-adventure-drinking-bottle",
+        "path": "/en-fr/products/galactic-adventure-drinking-bottle",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -4343,144 +4582,84 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/en-cy/products/inspirational-typographic-mouse-pad",
-        "path": "/en-cy/products/inspirational-typographic-mouse-pad",
+        "url": "https://printswithpassion.com/en-fr/products/mo-salah-liverpool-blanket-watercolor-dream",
+        "path": "/en-fr/products/mo-salah-liverpool-blanket-watercolor-dream",
         "verdict": "NEUTRAL",
         "coverageState": "Not found (404)",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-10-29T23:44:51Z",
+        "lastCrawlTime": "2026-10-30T19:22:13Z",
         "googleCanonical": null,
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/en-cy/products/luxury-olivachloey-animal-skin-mat",
-        "path": "/en-cy/products/luxury-olivachloey-animal-skin-mat",
+        "url": "https://printswithpassion.com/en-fr/products/retro-anime-vibes-coffee-mug",
+        "path": "/en-fr/products/retro-anime-vibes-coffee-mug",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-23T13:24:17Z",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/retro-anime-vibes-coffee-mug",
+        "userCanonical": "https://printswithpassion.com/en-fr/products/retro-anime-vibes-coffee-mug"
+      },
+      {
+        "url": "https://printswithpassion.com/en-fr/products/winston-churchill-cigar-tee-shirt",
+        "path": "/en-fr/products/winston-churchill-cigar-tee-shirt",
+        "verdict": "PASS",
+        "coverageState": "Indexed, though blocked by robots.txt",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-16T12:20:17Z",
+        "googleCanonical": "https://printswithpassion.com/en-fr/products/winston-churchill-cigar-tee-shirt",
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/en-gr/products/luscious-lips-mouse-pad-playful-and-unique",
+        "path": "/en-gr/products/luscious-lips-mouse-pad-playful-and-unique",
         "verdict": "NEUTRAL",
-        "coverageState": "Blocked by robots.txt",
+        "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-11-03T23:14:26Z",
+        "lastCrawlTime": "NEVER",
         "googleCanonical": null,
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/en-cy/products/radiant-kylie-beauty-in-motion",
-        "path": "/en-cy/products/radiant-kylie-beauty-in-motion",
+        "url": "https://printswithpassion.com/en-it/products/force-filled-obi-wan-rug",
+        "path": "/en-it/products/force-filled-obi-wan-rug",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-02T02:39:06Z",
-        "googleCanonical": "https://printswithpassion.com/en-cy/products/radiant-kylie-beauty-in-motion",
-        "userCanonical": "https://printswithpassion.com/en-cy/products/radiant-kylie-beauty-in-motion"
+        "lastCrawlTime": "2026-10-18T02:08:34Z",
+        "googleCanonical": "https://printswithpassion.com/en-it/products/force-filled-obi-wan-rug",
+        "userCanonical": "https://printswithpassion.com/en-it/products/force-filled-obi-wan-rug"
       },
       {
-        "url": "https://printswithpassion.com/en-cy/products/sapa-countryside-painting-round-rug",
-        "path": "/en-cy/products/sapa-countryside-painting-round-rug",
-        "verdict": "NEUTRAL",
-        "coverageState": "Duplicate, Google chose different canonical than user",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-23T12:31:08Z",
-        "googleCanonical": null,
-        "userCanonical": "https://printswithpassion.com/en-cy/products/sapa-countryside-painting-round-rug"
-      },
-      {
-        "url": "https://printswithpassion.com/en-cy/products/seaside-serenity-coastal-city-mug",
-        "path": "/en-cy/products/seaside-serenity-coastal-city-mug",
+        "url": "https://printswithpassion.com/en-it/products/star-wars-bath-mat-ezra",
+        "path": "/en-it/products/star-wars-bath-mat-ezra",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-11T20:25:01Z",
-        "googleCanonical": "https://printswithpassion.com/en-cy/products/seaside-serenity-coastal-city-mug",
-        "userCanonical": "https://printswithpassion.com/en-cy/products/seaside-serenity-coastal-city-mug"
+        "lastCrawlTime": "2026-10-18T02:20:16Z",
+        "googleCanonical": "https://printswithpassion.com/en-it/products/star-wars-bath-mat-ezra",
+        "userCanonical": "https://printswithpassion.com/en-it/products/star-wars-bath-mat-ezra"
       },
       {
-        "url": "https://printswithpassion.com/en-cy/products/sultry-seduction-of-shyla-stylez",
-        "path": "/en-cy/products/sultry-seduction-of-shyla-stylez",
+        "url": "https://printswithpassion.com/en-it/products/sunset-wave-beach-blanket-cozy-ocean-bliss",
+        "path": "/en-it/products/sunset-wave-beach-blanket-cozy-ocean-bliss",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-14T10:56:32Z",
-        "googleCanonical": "https://printswithpassion.com/en-cy/products/sultry-seduction-of-shyla-stylez",
-        "userCanonical": "https://printswithpassion.com/en-cy/products/sultry-seduction-of-shyla-stylez"
+        "lastCrawlTime": "2026-10-22T02:34:57Z",
+        "googleCanonical": "https://printswithpassion.com/en-it/products/sunset-wave-beach-blanket-cozy-ocean-bliss",
+        "userCanonical": "https://printswithpassion.com/en-it/products/sunset-wave-beach-blanket-cozy-ocean-bliss"
       },
       {
-        "url": "https://printswithpassion.com/en-cy/products/supercharged-magnetic-water-bottle",
-        "path": "/en-cy/products/supercharged-magnetic-water-bottle",
+        "url": "https://printswithpassion.com/en-it/products/unique-hourglass-design-t-shirt-stream",
+        "path": "/en-it/products/unique-hourglass-design-t-shirt-stream",
         "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-16T18:57:18Z",
-        "googleCanonical": "https://printswithpassion.com/en-cy/products/supercharged-magnetic-water-bottle",
-        "userCanonical": "https://printswithpassion.com/en-cy/products/supercharged-magnetic-water-bottle"
-      },
-      {
-        "url": "https://printswithpassion.com/en-cy/products/twilight-splendor-mouse-pad",
-        "path": "/en-cy/products/twilight-splendor-mouse-pad",
-        "verdict": "NEUTRAL",
-        "coverageState": "Blocked by robots.txt",
+        "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-11-10T07:57:53Z",
+        "lastCrawlTime": "NEVER",
         "googleCanonical": null,
         "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-es/collections/canvas-prints",
-        "path": "/en-es/collections/canvas-prints",
-        "verdict": "NEUTRAL",
-        "coverageState": "Blocked by robots.txt",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-11-11T10:24:20Z",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-es/pages/free-4k-wallpapers",
-        "path": "/en-es/pages/free-4k-wallpapers",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-29T03:01:27Z",
-        "googleCanonical": "https://printswithpassion.com/en-es/pages/free-4k-wallpapers",
-        "userCanonical": "https://printswithpassion.com/en-es/pages/free-4k-wallpapers"
-      },
-      {
-        "url": "https://printswithpassion.com/en-es/products/moonlit-starry-night-hoodie",
-        "path": "/en-es/products/moonlit-starry-night-hoodie",
-        "verdict": "NEUTRAL",
-        "coverageState": "Duplicate, Google chose different canonical than user",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-09-24T20:37:28Z",
-        "googleCanonical": "https://printswithpassion.com/products/moonlit-starry-night-hoodie",
-        "userCanonical": "https://printswithpassion.com/en-es/products/moonlit-starry-night-hoodie"
-      },
-      {
-        "url": "https://printswithpassion.com/en-es/products/starry-eyed-explorer-tee",
-        "path": "/en-es/products/starry-eyed-explorer-tee",
-        "verdict": "NEUTRAL",
-        "coverageState": "Duplicate, Google chose different canonical than user",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-19T13:06:50Z",
-        "googleCanonical": "https://printswithpassion.com/products/starry-eyed-explorer-tee",
-        "userCanonical": "https://printswithpassion.com/en-es/products/starry-eyed-explorer-tee"
-      },
-      {
-        "url": "https://printswithpassion.com/en-fr/blogs/news/felt-vs-rubber-desk-mats-keystroke-acoustics-uk",
-        "path": "/en-fr/blogs/news/felt-vs-rubber-desk-mats-keystroke-acoustics-uk",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-30T00:35:18Z",
-        "googleCanonical": "https://printswithpassion.com/en-fr/blogs/news/felt-vs-rubber-desk-mats-keystroke-acoustics-uk",
-        "userCanonical": "https://printswithpassion.com/en-fr/blogs/news/felt-vs-rubber-desk-mats-keystroke-acoustics-uk"
-      },
-      {
-        "url": "https://printswithpassion.com/en-fr/blogs/news/tagged/edwardian-living-room",
-        "path": "/en-fr/blogs/news/tagged/edwardian-living-room",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-03T18:39:03Z",
-        "googleCanonical": "https://printswithpassion.com/en-fr/blogs/news/tagged/edwardian-living-room",
-        "userCanonical": "https://printswithpassion.com/en-fr/blogs/news/tagged/edwardian-living-room"
       }
     ]
   }
