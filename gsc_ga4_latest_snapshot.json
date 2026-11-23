@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-21T12:57:29.746Z",
+  "capturedAt": "2026-11-23T15:14:09.135Z",
   "gscRows": [
     {
       "keys": [
@@ -937,10 +937,10 @@
   "gscProperty": "https://printswithpassion.com/",
   "ga4PropertyId": "363520144",
   "storewideSummary": {
-    "impressions28d": 229,
-    "clicks28d": 7,
-    "ctr28d": 0.0306,
-    "averagePosition28d": 35.48,
+    "impressions28d": 217,
+    "clicks28d": 8,
+    "ctr28d": 0.0369,
+    "averagePosition28d": 37.47,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -958,9 +958,9 @@
     "blockedByRobotsTxt": 24880,
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
-    "clicks7d": 5,
-    "impressions7d": 59,
-    "averagePosition7d": 46.29,
+    "clicks7d": 6,
+    "impressions7d": 66,
+    "averagePosition7d": 46.09,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
@@ -970,7 +970,7 @@
       "clicks28d": 3,
       "ctr": 0.0326,
       "averagePosition": 16.8,
-      "ga4Views28d": 64,
+      "ga4Views28d": 67,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1024,7 +1024,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 66.17,
-      "ga4Views28d": 23,
+      "ga4Views28d": 30,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1050,7 +1050,7 @@
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 268,
+      "ga4Views28d": 282,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1078,7 +1078,7 @@
       "clicks28d": 1,
       "ctr": 0.0256,
       "averagePosition": 14.2,
-      "ga4Views28d": 49,
+      "ga4Views28d": 58,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1287,11 +1287,11 @@
       }
     },
     "/en-us": {
-      "impressions28d": 19,
+      "impressions28d": 13,
       "clicks28d": 2,
-      "ctr": 0.1053,
-      "averagePosition": 15.11,
-      "ga4Views28d": 67,
+      "ctr": 0.1538,
+      "averagePosition": 21.46,
+      "ga4Views28d": 58,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1335,10 +1335,10 @@
     },
     "/": {
       "impressions28d": 37,
-      "clicks28d": 1,
-      "ctr": 0.027,
-      "averagePosition": 14.51,
-      "ga4Views28d": 495,
+      "clicks28d": 2,
+      "ctr": 0.0541,
+      "averagePosition": 14.38,
+      "ga4Views28d": 503,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1462,7 +1462,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 9,
-      "ga4Views28d": 193,
+      "ga4Views28d": 208,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1533,10 +1533,10 @@
       }
     },
     "/collections/clothing": {
-      "impressions28d": 15,
+      "impressions28d": 9,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 4.67,
+      "averagePosition": 5.44,
       "urlInspection": {
         "inspectedAt": "2026-11-16T14:23:17.455Z",
         "verdict": "PASS",
@@ -1554,7 +1554,11 @@
           "/collections/all/Colorful?page=2",
           "/it-it/collections/clothing"
         ]
-      }
+      },
+      "ga4Views28d": 9,
+      "ga4AddToCarts28d": 0,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
     },
     "/collections/coastal-ocean-botanical-bath-mats": {
       "impressions28d": 1,
@@ -1601,10 +1605,10 @@
       }
     },
     "/collections/duffle-bags": {
-      "impressions28d": 9,
+      "impressions28d": 10,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 42,
+      "averagePosition": 47.1,
       "urlInspection": {
         "inspectedAt": "2026-11-16T14:23:30.677Z",
         "verdict": "PASS",
@@ -1628,7 +1632,7 @@
       "clicks28d": 3,
       "ctr": 0.6,
       "averagePosition": 173.2,
-      "ga4Views28d": 102,
+      "ga4Views28d": 106,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1652,10 +1656,10 @@
       }
     },
     "/collections/laundry-bags": {
-      "impressions28d": 4,
+      "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 80.75,
+      "averagePosition": 79.67,
       "urlInspection": {
         "inspectedAt": "2026-11-17T13:45:25.153Z",
         "verdict": "NEUTRAL",
@@ -1699,10 +1703,10 @@
       }
     },
     "/collections/phone-cases": {
-      "impressions28d": 17,
+      "impressions28d": 10,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2.47,
+      "averagePosition": 2.7,
       "urlInspection": {
         "inspectedAt": "2026-11-17T13:45:38.554Z",
         "verdict": "PASS",
@@ -1722,10 +1726,10 @@
       }
     },
     "/collections/plush-blankets": {
-      "impressions28d": 12,
+      "impressions28d": 5,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 5.67,
+      "averagePosition": 6,
       "urlInspection": {
         "inspectedAt": "2026-11-17T13:45:45.128Z",
         "verdict": "NEUTRAL",
@@ -1877,10 +1881,10 @@
       }
     },
     "/de-at/products/sossusvlei-namibia-adventure-bottle": {
-      "impressions28d": 2,
+      "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 6.5,
+      "averagePosition": 7,
       "urlInspection": {
         "inspectedAt": "2026-11-17T13:46:31.794Z",
         "verdict": "NEUTRAL",
@@ -2770,10 +2774,10 @@
       }
     },
     "/en-fr/products/winston-churchill-cigar-tee-shirt": {
-      "impressions28d": 4,
+      "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 24.75,
+      "averagePosition": 30.33,
       "urlInspection": {
         "inspectedAt": "2026-11-20T13:32:13.672Z",
         "verdict": "PASS",
@@ -2899,10 +2903,10 @@
       }
     },
     "/en-pl/products/amsterdam-canals-painted-hoodie": {
-      "impressions28d": 2,
+      "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 7.5,
+      "averagePosition": 8,
       "urlInspection": {
         "inspectedAt": "2026-11-21T12:55:57.756Z",
         "verdict": "NEUTRAL",
@@ -3202,43 +3206,137 @@
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 5
+      "averagePosition": 5,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:12:36.389Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-us/products/comfortable-and-stylish-8": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 10
+      "averagePosition": 10,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:12:43.036Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-us/products/love-struck-hoodie-minimalist-hearts": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 56
+      "averagePosition": 56,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:12:49.466Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-us/products/shine-bright-illuminating-darkness-tee": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 8
+      "averagePosition": 8,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:12:56.089Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-us/products/swiss-alps-hoodie": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 11
+      "averagePosition": 11,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:13:02.510Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 58
+      "averagePosition": 58,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:13:09.094Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-27T13:54:33Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16",
+        "userCanonical": "https://printswithpassion.com/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16",
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/fr-ca/blogs/news/tagged/mechanical-keyboards": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 70
+      "averagePosition": 70,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:13:15.891Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-30T01:04:38Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/fr-ca/blogs/news/tagged/mechanical-keyboards",
+        "userCanonical": "https://printswithpassion.com/fr-ca/blogs/news/tagged/mechanical-keyboards",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/fr-ca/blogs/news/uk-desk-mat-size-guide-60x35-xl-vs-80x40-xxl-compared",
+          "/fr-ca/blogs/news?page=4"
+        ]
+      }
     },
     "/pages/delivery-return": {
       "impressions28d": 9,
@@ -3267,49 +3365,174 @@
       "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 5.67
+      "averagePosition": 5.67,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:13:22.549Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-26T02:10:41Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/pages/free-4k-wallpapers",
+        "userCanonical": "https://printswithpassion.com/pages/free-4k-wallpapers",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-ca/blogs/news/tagged/king-size-bed-wall-art",
+          "/en-pl/pages/free-4k-wallpapers"
+        ]
+      }
     },
     "/policies/privacy-policy": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 3
+      "averagePosition": 3,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:13:29.212Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-18T07:09:54Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/policies/privacy-policy",
+        "userCanonical": "https://printswithpassion.com/policies/privacy-policy",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/de-at/products/astronaut-witnesses-distant-supernova-explosion",
+          "/en-it/collections/all?constraint=italian",
+          "/en-pt/products/roaring-fire-whiskey-flask-adventure-ready",
+          "/"
+        ]
+      }
     },
     "/policies/shipping-policy": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 7
+      "averagePosition": 7,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:13:35.872Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-21T22:15:48Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/policies/shipping-policy",
+        "userCanonical": "https://printswithpassion.com/policies/shipping-policy",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/data-stream-flowing-into-hourglass-graphic-unisex-softstyle-t-shirt-1?variant=57696347324789",
+          "/products/provence-botanical-lavender-seamless-plush-fleece-throw-blanket",
+          "/?page=8&q=Printify"
+        ]
+      }
     },
     "/products/aitutaki-cook-islands-oasis-bottle": {
       "impressions28d": 5,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 8.6
+      "averagePosition": 8.6,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:13:42.480Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Not found (404)",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-10-26T15:18:27Z",
+        "pageFetchState": "NOT_FOUND",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/beyonce-merch-hoodie": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 3
+      "averagePosition": 3,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:13:49.216Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-26T19:18:31Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/beyonce-merch-hoodie",
+        "userCanonical": "https://printswithpassion.com/products/beyonce-merch-hoodie",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/nl-nl/products/beyonce-merch-hoodie"
+        ]
+      }
     },
     "/products/brasilian-pride-flag-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:13:55.654Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/british-pride-union-jack-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:14:02.052Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-22T22:57:13Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/british-pride-union-jack-cap",
+        "userCanonical": "https://printswithpassion.com/products/british-pride-union-jack-cap",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/british-pride-union-jack-cap?_pos=171&_sid=a8801ebd7&_ss=r",
+          "/products/around-the-world-a-vintage-airplane-adventure?variant=49142804480311"
+        ]
+      }
     },
     "/products/clooney-crown-the-ultimate-george-clooney-baseball-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T15:14:08.429Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-05T06:42:57Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/clooney-crown-the-ultimate-george-clooney-baseball-cap",
+        "userCanonical": "https://printswithpassion.com/products/clooney-crown-the-ultimate-george-clooney-baseball-cap",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/all/unisex?page=8",
+          "/products/clooney-crown-the-ultimate-george-clooney-baseball-cap?_pos=952&_sid=edc4d3765&_ss=r",
+          "/en-us/products/clooney-crown-the-ultimate-george-clooney-baseball-cap?_pos=274&_sid=c93c435b8&_ss=r"
+        ]
+      }
     },
     "/products/commander-in-chief-cap-the-barack-obama-edition": {
       "impressions28d": 1,
@@ -3480,10 +3703,10 @@
       "averagePosition": 3
     },
     "/products/legendary-messi-dribble-mouse-pad": {
-      "impressions28d": 12,
+      "impressions28d": 5,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 6.92
+      "averagePosition": 7.6
     },
     "/products/leonardo-da-vinci-in-his-renaissance-graphic-unisex-softstyle-t-shirt": {
       "impressions28d": 1,
@@ -3540,10 +3763,10 @@
       "averagePosition": 7
     },
     "/products/mongolian-gerbil-mouse-pad-adorable-gerbil-art": {
-      "impressions28d": 2,
+      "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 9.5
+      "averagePosition": 10
     },
     "/products/moody-sunrise-hoodie-fujifilm-collection": {
       "impressions28d": 1,
@@ -3612,16 +3835,16 @@
       "averagePosition": 10
     },
     "/products/sossusvlei-sand-dunes-round-rug": {
-      "impressions28d": 8,
+      "impressions28d": 2,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 8
+      "averagePosition": 8.5
     },
     "/products/sossusvlei-sandstorm-round-rug": {
-      "impressions28d": 11,
+      "impressions28d": 5,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 5
+      "averagePosition": 5.6
     },
     "/products/speed-demon-lamborghini-cap": {
       "impressions28d": 1,
@@ -3636,10 +3859,10 @@
       "averagePosition": 5
     },
     "/products/surreal-s-vhs-mouse-pad": {
-      "impressions28d": 7,
+      "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 9.43
+      "averagePosition": 6
     },
     "/products/the-leo-signature-cap": {
       "impressions28d": 1,
@@ -3676,7 +3899,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 1,
-      "ga4Views28d": 60,
+      "ga4Views28d": 62,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3776,7 +3999,7 @@
           "/products/and-gold-abstract-design-that-will-make-you-stand-out-on-the-beach-whether-youre-lounging-by-the-pool-or-catching-some-waves-in-the-ocean?variant=55127866802549&country=GB&currency=GBP"
         ]
       },
-      "ga4Views28d": 192,
+      "ga4Views28d": 214,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3801,7 +4024,7 @@
           "/"
         ]
       },
-      "ga4Views28d": 121,
+      "ga4Views28d": 146,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3855,7 +4078,7 @@
           "/pages/desk-setup-hardware-compatibility-guide"
         ]
       },
-      "ga4Views28d": 81,
+      "ga4Views28d": 104,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -3984,14 +4207,14 @@
           "/pages/trade-and-bulk-orders"
         ]
       },
-      "ga4Views28d": 142,
+      "ga4Views28d": 148,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
-      "impressions28d": 1,
+      "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 69
+      "averagePosition": 74.67
     },
     "/collections/botanical-floral-coastal-canvas-wall-art": {
       "urlInspection": {
@@ -4732,50 +4955,75 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 1
+    },
+    "/collections/japanese-asian-art": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 84
+    },
+    "/en-us/collections/all": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 76
+    },
+    "/es-es/blogs/news/corner-sectional-sofa-throw-blanket-styling-uk": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 3
+    },
+    "/products/colorful-parrot-in-tropical-setting-graphic-unisex-college-hoodie": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/nightmare-on-desktop-freddy-mousepad": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 15
+    },
+    "/products/volcano-made-of-molten-crystals-graphic-unisex-softstyle-t-shirt": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
+    },
+    "/products/wolf-wall-street-insulated-bottle": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2
     }
   },
   "urlInspectionHealth": {
-    "lastRunAt": "2026-11-21T12:57:28.998Z",
-    "cursor": 150,
+    "lastRunAt": "2026-11-23T15:14:08.429Z",
+    "cursor": 165,
     "batchSize": 15,
     "totalInspected": 15,
-    "submittedAndIndexedCount": 2,
+    "submittedAndIndexedCount": 5,
     "discoveredNotIndexedCount": 0,
-    "crawledNotIndexedCount": 1,
-    "urlUnknownCount": 9,
-    "otherCount": 3,
+    "crawledNotIndexedCount": 3,
+    "urlUnknownCount": 6,
+    "otherCount": 1,
     "errorCount": 0,
-    "canonicalOverridesCount": 1,
-    "indexedRatio": 0.1333,
-    "indexedRatioDisplay": "13.3%",
+    "canonicalOverridesCount": 0,
+    "indexedRatio": 0.3333,
+    "indexedRatioDisplay": "33.3%",
     "coverageBreakdown": {
-      "Blocked by robots.txt": 2,
-      "URL is unknown to Google": 9,
-      "Crawled - currently not indexed": 1,
-      "Duplicate, Google chose different canonical than user": 1,
-      "Submitted and indexed": 2
+      "URL is unknown to Google": 6,
+      "Submitted and indexed": 5,
+      "Not found (404)": 1,
+      "Crawled - currently not indexed": 3
     },
-    "canonicalOverrides": [
-      {
-        "url": "https://printswithpassion.com/en-pl/products/kung-fu-panda-graphic-unisex-college-hoodie",
-        "userCanonical": "https://printswithpassion.com/en-pl/products/kung-fu-panda-graphic-unisex-college-hoodie",
-        "googleCanonical": "https://printswithpassion.com/products/kung-fu-panda-graphic-unisex-college-hoodie"
-      }
-    ],
+    "canonicalOverrides": [],
     "batchResults": [
       {
-        "url": "https://printswithpassion.com/en-pl/products/amsterdam-canals-painted-hoodie",
-        "path": "/en-pl/products/amsterdam-canals-painted-hoodie",
-        "verdict": "NEUTRAL",
-        "coverageState": "Blocked by robots.txt",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-11-04T07:30:27Z",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-pl/products/copy-of-antarctic-expedition-iceberg-research-vessel-phone-case",
-        "path": "/en-pl/products/copy-of-antarctic-expedition-iceberg-research-vessel-phone-case",
+        "url": "https://printswithpassion.com/en-us/collections/all/Printswithpassion",
+        "path": "/en-us/collections/all/Printswithpassion",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -4784,8 +5032,8 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/en-pl/products/dalmatian-delight-mouse-pad",
-        "path": "/en-pl/products/dalmatian-delight-mouse-pad",
+        "url": "https://printswithpassion.com/en-us/products/comfortable-and-stylish-8",
+        "path": "/en-us/products/comfortable-and-stylish-8",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -4794,8 +5042,8 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/en-pl/products/ferret-leaf-vector-mouse-pad",
-        "path": "/en-pl/products/ferret-leaf-vector-mouse-pad",
+        "url": "https://printswithpassion.com/en-us/products/love-struck-hoodie-minimalist-hearts",
+        "path": "/en-us/products/love-struck-hoodie-minimalist-hearts",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -4804,114 +5052,124 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/en-pl/products/heart-of-africas-vibrant-soul",
-        "path": "/en-pl/products/heart-of-africas-vibrant-soul",
+        "url": "https://printswithpassion.com/en-us/products/shine-bright-illuminating-darkness-tee",
+        "path": "/en-us/products/shine-bright-illuminating-darkness-tee",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/en-us/products/swiss-alps-hoodie",
+        "path": "/en-us/products/swiss-alps-hoodie",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16",
+        "path": "/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-27T13:54:33Z",
+        "googleCanonical": "https://printswithpassion.com/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16",
+        "userCanonical": "https://printswithpassion.com/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16"
+      },
+      {
+        "url": "https://printswithpassion.com/fr-ca/blogs/news/tagged/mechanical-keyboards",
+        "path": "/fr-ca/blogs/news/tagged/mechanical-keyboards",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-30T01:04:38Z",
+        "googleCanonical": "https://printswithpassion.com/fr-ca/blogs/news/tagged/mechanical-keyboards",
+        "userCanonical": "https://printswithpassion.com/fr-ca/blogs/news/tagged/mechanical-keyboards"
+      },
+      {
+        "url": "https://printswithpassion.com/pages/free-4k-wallpapers",
+        "path": "/pages/free-4k-wallpapers",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-26T02:10:41Z",
+        "googleCanonical": "https://printswithpassion.com/pages/free-4k-wallpapers",
+        "userCanonical": "https://printswithpassion.com/pages/free-4k-wallpapers"
+      },
+      {
+        "url": "https://printswithpassion.com/policies/privacy-policy",
+        "path": "/policies/privacy-policy",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-18T07:09:54Z",
+        "googleCanonical": "https://printswithpassion.com/policies/privacy-policy",
+        "userCanonical": "https://printswithpassion.com/policies/privacy-policy"
+      },
+      {
+        "url": "https://printswithpassion.com/policies/shipping-policy",
+        "path": "/policies/shipping-policy",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-21T22:15:48Z",
+        "googleCanonical": "https://printswithpassion.com/policies/shipping-policy",
+        "userCanonical": "https://printswithpassion.com/policies/shipping-policy"
+      },
+      {
+        "url": "https://printswithpassion.com/products/aitutaki-cook-islands-oasis-bottle",
+        "path": "/products/aitutaki-cook-islands-oasis-bottle",
+        "verdict": "NEUTRAL",
+        "coverageState": "Not found (404)",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-10-26T15:18:27Z",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/products/beyonce-merch-hoodie",
+        "path": "/products/beyonce-merch-hoodie",
         "verdict": "NEUTRAL",
         "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-06-22T22:02:25Z",
-        "googleCanonical": "https://printswithpassion.com/en-pl/products/heart-of-africas-vibrant-soul",
-        "userCanonical": "https://printswithpassion.com/en-pl/products/heart-of-africas-vibrant-soul"
+        "lastCrawlTime": "2026-09-26T19:18:31Z",
+        "googleCanonical": "https://printswithpassion.com/products/beyonce-merch-hoodie",
+        "userCanonical": "https://printswithpassion.com/products/beyonce-merch-hoodie"
       },
       {
-        "url": "https://printswithpassion.com/en-pl/products/kung-fu-panda-graphic-unisex-college-hoodie",
-        "path": "/en-pl/products/kung-fu-panda-graphic-unisex-college-hoodie",
+        "url": "https://printswithpassion.com/products/brasilian-pride-flag-cap",
+        "path": "/products/brasilian-pride-flag-cap",
         "verdict": "NEUTRAL",
-        "coverageState": "Duplicate, Google chose different canonical than user",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/products/british-pride-union-jack-cap",
+        "path": "/products/british-pride-union-jack-cap",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-28T00:51:17Z",
-        "googleCanonical": "https://printswithpassion.com/products/kung-fu-panda-graphic-unisex-college-hoodie",
-        "userCanonical": "https://printswithpassion.com/en-pl/products/kung-fu-panda-graphic-unisex-college-hoodie"
+        "lastCrawlTime": "2026-10-22T22:57:13Z",
+        "googleCanonical": "https://printswithpassion.com/products/british-pride-union-jack-cap",
+        "userCanonical": "https://printswithpassion.com/products/british-pride-union-jack-cap"
       },
       {
-        "url": "https://printswithpassion.com/en-pl/products/make-a-statement-this-summer-with-the-rammstein-patch-graphic-beach-towel-featuring-vibrant-colors-and-bold-designs",
-        "path": "/en-pl/products/make-a-statement-this-summer-with-the-rammstein-patch-graphic-beach-towel-featuring-vibrant-colors-and-bold-designs",
+        "url": "https://printswithpassion.com/products/clooney-crown-the-ultimate-george-clooney-baseball-cap",
+        "path": "/products/clooney-crown-the-ultimate-george-clooney-baseball-cap",
         "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-pl/products/mirror-maze-reflective-dimensions-canvas",
-        "path": "/en-pl/products/mirror-maze-reflective-dimensions-canvas",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
+        "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-18T03:02:03Z",
-        "googleCanonical": "https://printswithpassion.com/en-pl/products/mirror-maze-reflective-dimensions-canvas",
-        "userCanonical": "https://printswithpassion.com/en-pl/products/mirror-maze-reflective-dimensions-canvas"
-      },
-      {
-        "url": "https://printswithpassion.com/en-pl/products/parallel-universe-mirror-canvas-print",
-        "path": "/en-pl/products/parallel-universe-mirror-canvas-print",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-pl/products/tesla-titan-hoodie-elon-musk",
-        "path": "/en-pl/products/tesla-titan-hoodie-elon-musk",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-pl/products/traveler-hoodie-timeless-comfort",
-        "path": "/en-pl/products/traveler-hoodie-timeless-comfort",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-pl/products/vintage-vibes-lana-del-rey-desk-mat",
-        "path": "/en-pl/products/vintage-vibes-lana-del-rey-desk-mat",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-pt/products/maldives-blue-glass-mouse-pad",
-        "path": "/en-pt/products/maldives-blue-glass-mouse-pad",
-        "verdict": "NEUTRAL",
-        "coverageState": "Blocked by robots.txt",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-11-14T04:09:07Z",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-sk/products/part-man-part-machine-all-cop-a-robocop-t-shirt",
-        "path": "/en-sk/products/part-man-part-machine-all-cop-a-robocop-t-shirt",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-us/blogs/news/how-to-style-throw-blanket-on-sofa-uk-guide",
-        "path": "/en-us/blogs/news/how-to-style-throw-blanket-on-sofa-uk-guide",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-27T15:16:19Z",
-        "googleCanonical": "https://printswithpassion.com/en-us/blogs/news/how-to-style-throw-blanket-on-sofa-uk-guide",
-        "userCanonical": "https://printswithpassion.com/en-us/blogs/news/how-to-style-throw-blanket-on-sofa-uk-guide"
+        "lastCrawlTime": "2026-09-05T06:42:57Z",
+        "googleCanonical": "https://printswithpassion.com/products/clooney-crown-the-ultimate-george-clooney-baseball-cap",
+        "userCanonical": "https://printswithpassion.com/products/clooney-crown-the-ultimate-george-clooney-baseball-cap"
       }
     ]
   }

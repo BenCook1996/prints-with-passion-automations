@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-20T13:39:14.319Z",
+  "generatedAt": "2026-11-23T15:17:19.387Z",
   "scoringVersion": "2.0.0-multi-agent",
   "summary": {
     "totalCandidatesEvaluated": 289,
     "totalSubCollectionsCovered": 48,
     "liveSerpInspectionsRun": 10,
-    "topOpportunityScore": 93.8
+    "topOpportunityScore": 92
   },
   "bySubCollection": {
     "japanese-anime-desk-mats": [
@@ -8815,21 +8815,21 @@
         "collectionAnchorText": "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 88.1,
+        "opportunityScore": 89,
         "transactionalScore": 98,
-        "competitionScore": 21,
+        "competitionScore": 18,
         "forecastEstimates": {
           "estimatedMonthlyVolume": 739,
-          "keywordDifficultyScore": 21,
-          "estimatedDaysToRank": 35,
+          "keywordDifficultyScore": 18,
+          "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 88.1,
+          "compositeOpportunityScore": 89,
           "demandScore": 86,
           "transactionalIntentScore": 98,
-          "lowCompetitionScore": 79
+          "lowCompetitionScore": 82
         },
         "secondaryLongTailModifiers": [
           "heavyweight japanese ukiyo-e graphic t-shirt for streetwear layering outfit",
@@ -8851,16 +8851,12 @@
           }
         ],
         "serpGapAnalysis": {
-          "engine": "yahoo_ssr_live",
+          "engine": "structural_heuristic",
           "exactModifierTitleMatchesInTop10": 0,
-          "weakForumCountInTop10": 2,
+          "weakForumCountInTop10": 0,
           "missingDualUnitSpecsInSerp": true,
           "missingMaterialGsmOrThicknessInSerp": true,
-          "topCompetitorTitles": [
-            "etsy.com: Ukiyo E Streetwear Tshirt - Etsy",
-            "etsy.com: T Shirt Ukiyo E - Etsy",
-            "amazon.com: Amazon.com: Japanese Tees"
-          ],
+          "topCompetitorTitles": [],
           "competitorWeaknesses": [
             "0/10 competing titles combine \"japanese ukiyo-e\" + \"for streetwear layering outfit\" with dual CM & Inch sizing tables",
             "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
@@ -9037,21 +9033,21 @@
         "collectionAnchorText": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/cyberpunk-sci-fi-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 93.8,
+        "opportunityScore": 89,
         "transactionalScore": 98,
-        "competitionScore": 2,
+        "competitionScore": 18,
         "forecastEstimates": {
           "estimatedMonthlyVolume": 739,
-          "keywordDifficultyScore": 8,
-          "estimatedDaysToRank": 14,
+          "keywordDifficultyScore": 18,
+          "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 93.8,
+          "compositeOpportunityScore": 89,
           "demandScore": 86,
           "transactionalIntentScore": 98,
-          "lowCompetitionScore": 98
+          "lowCompetitionScore": 82
         },
         "secondaryLongTailModifiers": [
           "heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
@@ -9073,16 +9069,12 @@
           }
         ],
         "serpGapAnalysis": {
-          "engine": "yahoo_ssr_live",
+          "engine": "structural_heuristic",
           "exactModifierTitleMatchesInTop10": 0,
-          "weakForumCountInTop10": 4,
+          "weakForumCountInTop10": 0,
           "missingDualUnitSpecsInSerp": true,
           "missingMaterialGsmOrThicknessInSerp": true,
-          "topCompetitorTitles": [
-            "etsy.com: Heavyweight Cyberpunk T-shirt, Biomechanical Spine Graphic ...",
-            "etsy.com: Neon Cyberpunk Heavyweight AOP T-Shirt, Glitchcore Rave ...",
-            "amazon.com: IKKAN Chaos Neon Cyberpunk Gas Mask Shirts Heavyweight ..."
-          ],
+          "topCompetitorTitles": [],
           "competitorWeaknesses": [
             "0/10 competing titles combine \"cyberpunk neon city\" + \"for relaxed boxy summer fit\" with dual CM & Inch sizing tables",
             "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
@@ -9259,21 +9251,21 @@
         "collectionAnchorText": "Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 93.8,
+        "opportunityScore": 89,
         "transactionalScore": 98,
-        "competitionScore": 2,
+        "competitionScore": 18,
         "forecastEstimates": {
           "estimatedMonthlyVolume": 739,
-          "keywordDifficultyScore": 8,
-          "estimatedDaysToRank": 14,
+          "keywordDifficultyScore": 18,
+          "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 93.8,
+          "compositeOpportunityScore": 89,
           "demandScore": 86,
           "transactionalIntentScore": 98,
-          "lowCompetitionScore": 98
+          "lowCompetitionScore": 82
         },
         "secondaryLongTailModifiers": [
           "heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
@@ -9295,16 +9287,12 @@
           }
         ],
         "serpGapAnalysis": {
-          "engine": "yahoo_ssr_live",
+          "engine": "structural_heuristic",
           "exactModifierTitleMatchesInTop10": 0,
-          "weakForumCountInTop10": 4,
+          "weakForumCountInTop10": 0,
           "missingDualUnitSpecsInSerp": true,
           "missingMaterialGsmOrThicknessInSerp": true,
-          "topCompetitorTitles": [
-            "etsy.com: Nebula Space Shirts - Etsy",
-            "etsy.com: Nebula Tshirt - Etsy",
-            "amazon.com: Blue Nebula Galaxy Space Stars Cosmic Universe Art Comfort ..."
-          ],
+          "topCompetitorTitles": [],
           "competitorWeaknesses": [
             "0/10 competing titles combine \"deep space nebula\" + \"for everyday studio streetwear\" with dual CM & Inch sizing tables",
             "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
@@ -9481,21 +9469,21 @@
         "collectionAnchorText": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 92.3,
+        "opportunityScore": 89,
         "transactionalScore": 98,
-        "competitionScore": 7,
+        "competitionScore": 18,
         "forecastEstimates": {
           "estimatedMonthlyVolume": 739,
-          "keywordDifficultyScore": 8,
-          "estimatedDaysToRank": 14,
+          "keywordDifficultyScore": 18,
+          "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 92.3,
+          "compositeOpportunityScore": 89,
           "demandScore": 86,
           "transactionalIntentScore": 98,
-          "lowCompetitionScore": 93
+          "lowCompetitionScore": 82
         },
         "secondaryLongTailModifiers": [
           "heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
@@ -9517,16 +9505,12 @@
           }
         ],
         "serpGapAnalysis": {
-          "engine": "yahoo_ssr_live",
+          "engine": "structural_heuristic",
           "exactModifierTitleMatchesInTop10": 0,
-          "weakForumCountInTop10": 4,
+          "weakForumCountInTop10": 0,
           "missingDualUnitSpecsInSerp": true,
           "missingMaterialGsmOrThicknessInSerp": true,
-          "topCompetitorTitles": [
-            "etsy.com: Synthwave Tshirt - Etsy",
-            "etsy.com: Retrowave Synthwave Tshirt - Etsy",
-            "amazon.com: Amazon.com: Synthwave Tshirt"
-          ],
+          "topCompetitorTitles": [],
           "competitorWeaknesses": [
             "0/10 competing titles combine \"80s retro synthwave sunset\" + \"for anime and gaming convention fit\" with dual CM & Inch sizing tables",
             "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
@@ -9690,82 +9674,6 @@
     ],
     "japanese-ukiyo-e-graphic-hoodies": [
       {
-        "clusterId": "kw_japanese_ukiyo_e_graphic_hoodies_1",
-        "subCollectionHandle": "japanese-ukiyo-e-graphic-hoodies",
-        "subCollectionUrl": "/collections/japanese-ukiyo-e-graphic-hoodies",
-        "productType": "Hoodies",
-        "themeTag": "Japanese & Asian Art",
-        "primaryKeyword": "best 310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
-        "keyword": "best 310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
-        "shortAnchor": "Japanese Ukiyo-E Unisex Heavyweight Graphic Hoodie",
-        "recommendedSlug": "best-310gsm-japanese-ukiyo-e-heavyweight-graphic-hoodie-for-autumn-winte",
-        "recommendedTitle": "Best 310gsm Japanese Ukiyo-E Heavyweight Graphic Hoodie for Autumn Winter Streetwear Layering: Dual CM & Inch Sizing & Spec Guide (2026)",
-        "collectionAnchorText": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
-        "targetUrl": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
-        "intentType": "transactional_setup_comparison",
-        "opportunityScore": 91.7,
-        "transactionalScore": 98,
-        "competitionScore": 9,
-        "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
-          "keywordDifficultyScore": 9,
-          "estimatedDaysToRank": 15,
-          "substrateMultiplier": 1,
-          "volumeRealizationMultiplier": 1
-        },
-        "scores": {
-          "compositeOpportunityScore": 91.7,
-          "demandScore": 86,
-          "transactionalIntentScore": 98,
-          "lowCompetitionScore": 91
-        },
-        "secondaryLongTailModifiers": [
-          "310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
-          "great wave kanagawa streetwear pullover hoodie for heavyweight streetwear outfit",
-          "washable archival japanese ukiyo-e heavyweight graphic hoodie with free tracked shipping"
-        ],
-        "buyerFaqQuestions": [
-          {
-            "question": "What size Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies fits best for autumn winter streetwear layering in CM and Inches?",
-            "answerHint": "Our Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) and undefined studio proportions are engineered to span 60%–75% of your autumn winter streetwear layering footprint, ensuring balanced visual symmetry and ergonomic clearance."
-          },
-          {
-            "question": "How does Prints With Passion construct its Japanese & Asian Art Hoodies?",
-            "answerHint": "Every piece uses 310gsm ring-spun cotton-fleece blend (S–3XL) w/ double-lined hood & crack-resistant DTG print (£36.99–£48.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
-          },
-          {
-            "question": "Can I pair Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies with matching room decor and save on multi-item studio sets?",
-            "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
-          }
-        ],
-        "serpGapAnalysis": {
-          "engine": "yahoo_ssr_live",
-          "exactModifierTitleMatchesInTop10": 0,
-          "weakForumCountInTop10": 3,
-          "missingDualUnitSpecsInSerp": true,
-          "missingMaterialGsmOrThicknessInSerp": true,
-          "topCompetitorTitles": [
-            "etsy.com: Ukiyo E Hoodies - Etsy",
-            "etsy.com: Hoodie Ukiyo E - Etsy",
-            "amazon.com: Amazon.com: Japanese Hoodie: Clothing, Shoes &amp; Jewelry"
-          ],
-          "competitorWeaknesses": [
-            "0/10 competing titles combine \"japanese ukiyo-e\" + \"for autumn winter streetwear layering\" with dual CM & Inch sizing tables",
-            "Top forum/marketplace threads omit 310gsm ring-spun cotton-fleece blend construction specs"
-          ]
-        },
-        "modifiers": {
-          "size": "Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) & undefined",
-          "hardwareCompatibility": "Autumn Winter Streetwear Layering",
-          "roomPlacement": "Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
-          "wallpaperQuery": "Japanese Ukiyo-E 4K UHD Streetwear & Studio Apparel Aesthetic Wallpaper",
-          "pinterestAesthetic": "Japanese Ukiyo-E — Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
-          "gmcTitleBadge": "Unisex 310gsm Heavyweight Fleece Graphic Hoodie (S–3XL)"
-        },
-        "status": "queued",
-        "assignedArticleHandle": null
-      },
-      {
         "clusterId": "kw_japanese_ukiyo_e_graphic_hoodies_3",
         "subCollectionHandle": "japanese-ukiyo-e-graphic-hoodies",
         "subCollectionUrl": "/collections/japanese-ukiyo-e-graphic-hoodies",
@@ -9901,6 +9809,78 @@
         "modifiers": {
           "size": "Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) & undefined",
           "hardwareCompatibility": "Cozy Gaming Studio Loungewear",
+          "roomPlacement": "Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
+          "wallpaperQuery": "Japanese Ukiyo-E 4K UHD Streetwear & Studio Apparel Aesthetic Wallpaper",
+          "pinterestAesthetic": "Japanese Ukiyo-E — Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
+          "gmcTitleBadge": "Unisex 310gsm Heavyweight Fleece Graphic Hoodie (S–3XL)"
+        },
+        "status": "queued",
+        "assignedArticleHandle": null
+      },
+      {
+        "clusterId": "kw_japanese_ukiyo_e_graphic_hoodies_1",
+        "subCollectionHandle": "japanese-ukiyo-e-graphic-hoodies",
+        "subCollectionUrl": "/collections/japanese-ukiyo-e-graphic-hoodies",
+        "productType": "Hoodies",
+        "themeTag": "Japanese & Asian Art",
+        "primaryKeyword": "best 310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
+        "keyword": "best 310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
+        "shortAnchor": "Japanese Ukiyo-E Unisex Heavyweight Graphic Hoodie",
+        "recommendedSlug": "best-310gsm-japanese-ukiyo-e-heavyweight-graphic-hoodie-for-autumn-winte",
+        "recommendedTitle": "Best 310gsm Japanese Ukiyo-E Heavyweight Graphic Hoodie for Autumn Winter Streetwear Layering: Dual CM & Inch Sizing & Spec Guide (2026)",
+        "collectionAnchorText": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
+        "targetUrl": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
+        "intentType": "transactional_setup_comparison",
+        "opportunityScore": 89,
+        "transactionalScore": 98,
+        "competitionScore": 18,
+        "forecastEstimates": {
+          "estimatedMonthlyVolume": 739,
+          "keywordDifficultyScore": 18,
+          "estimatedDaysToRank": 30,
+          "substrateMultiplier": 1,
+          "volumeRealizationMultiplier": 1
+        },
+        "scores": {
+          "compositeOpportunityScore": 89,
+          "demandScore": 86,
+          "transactionalIntentScore": 98,
+          "lowCompetitionScore": 82
+        },
+        "secondaryLongTailModifiers": [
+          "310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
+          "great wave kanagawa streetwear pullover hoodie for heavyweight streetwear outfit",
+          "washable archival japanese ukiyo-e heavyweight graphic hoodie with free tracked shipping"
+        ],
+        "buyerFaqQuestions": [
+          {
+            "question": "What size Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies fits best for autumn winter streetwear layering in CM and Inches?",
+            "answerHint": "Our Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) and undefined studio proportions are engineered to span 60%–75% of your autumn winter streetwear layering footprint, ensuring balanced visual symmetry and ergonomic clearance."
+          },
+          {
+            "question": "How does Prints With Passion construct its Japanese & Asian Art Hoodies?",
+            "answerHint": "Every piece uses 310gsm ring-spun cotton-fleece blend (S–3XL) w/ double-lined hood & crack-resistant DTG print (£36.99–£48.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
+          },
+          {
+            "question": "Can I pair Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies with matching room decor and save on multi-item studio sets?",
+            "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
+          }
+        ],
+        "serpGapAnalysis": {
+          "engine": "structural_heuristic",
+          "exactModifierTitleMatchesInTop10": 0,
+          "weakForumCountInTop10": 0,
+          "missingDualUnitSpecsInSerp": true,
+          "missingMaterialGsmOrThicknessInSerp": true,
+          "topCompetitorTitles": [],
+          "competitorWeaknesses": [
+            "0/10 competing titles combine \"japanese ukiyo-e\" + \"for autumn winter streetwear layering\" with dual CM & Inch sizing tables",
+            "Top forum/marketplace threads omit 310gsm ring-spun cotton-fleece blend construction specs"
+          ]
+        },
+        "modifiers": {
+          "size": "Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) & undefined",
+          "hardwareCompatibility": "Autumn Winter Streetwear Layering",
           "roomPlacement": "Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
           "wallpaperQuery": "Japanese Ukiyo-E 4K UHD Streetwear & Studio Apparel Aesthetic Wallpaper",
           "pinterestAesthetic": "Japanese Ukiyo-E — Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
@@ -10287,21 +10267,21 @@
         "collectionAnchorText": "Fantasy, Dragon, Gothic & Mythology Heavyweight Hoodies",
         "targetUrl": "https://printswithpassion.com/collections/fantasy-dragon-graphic-hoodies",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 88.1,
+        "opportunityScore": 89,
         "transactionalScore": 98,
-        "competitionScore": 21,
+        "competitionScore": 18,
         "forecastEstimates": {
           "estimatedMonthlyVolume": 739,
-          "keywordDifficultyScore": 21,
-          "estimatedDaysToRank": 35,
+          "keywordDifficultyScore": 18,
+          "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 88.1,
+          "compositeOpportunityScore": 89,
           "demandScore": 86,
           "transactionalIntentScore": 98,
-          "lowCompetitionScore": 79
+          "lowCompetitionScore": 82
         },
         "secondaryLongTailModifiers": [
           "310gsm mythic dragon dark fantasy heavyweight graphic hoodie for relaxed drop shoulder fit",
@@ -10323,16 +10303,12 @@
           }
         ],
         "serpGapAnalysis": {
-          "engine": "yahoo_ssr_live",
+          "engine": "structural_heuristic",
           "exactModifierTitleMatchesInTop10": 0,
-          "weakForumCountInTop10": 2,
+          "weakForumCountInTop10": 0,
           "missingDualUnitSpecsInSerp": true,
           "missingMaterialGsmOrThicknessInSerp": true,
-          "topCompetitorTitles": [
-            "hoodielab.com: Mythic Dragon Hoodie - Artist Designed | Hoodie Lab",
-            "etsy.com: Men's Dragon Hoodie, Dark Fantasy Pullover, Gothic ... - Etsy",
-            "amazon.com: Amazon.com: Mythical Lunar Red Dragon Flying Fantasy Art ..."
-          ],
+          "topCompetitorTitles": [],
           "competitorWeaknesses": [
             "0/10 competing titles combine \"mythic dragon dark fantasy\" + \"for relaxed drop shoulder fit\" with dual CM & Inch sizing tables",
             "Top forum/marketplace threads omit 310gsm ring-spun cotton-fleece blend construction specs"
@@ -10571,234 +10547,6 @@
   },
   "keywords": [
     {
-      "clusterId": "kw_cyberpunk_sci_fi_graphic_t_shirts_1",
-      "subCollectionHandle": "cyberpunk-sci-fi-graphic-t-shirts",
-      "subCollectionUrl": "/collections/cyberpunk-sci-fi-graphic-t-shirts",
-      "productType": "Graphic T-Shirts",
-      "themeTag": "Sci-Fi & Cyberpunk",
-      "primaryKeyword": "best heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
-      "keyword": "best heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
-      "shortAnchor": "Cyberpunk Neon City Unisex Graphic T-Shirt",
-      "recommendedSlug": "best-heavyweight-cyberpunk-neon-city-graphic-t-shirt-for-relaxed-boxy-su",
-      "recommendedTitle": "Best Heavyweight Cyberpunk Neon City Graphic T-Shirt for Relaxed Boxy Summer Fit: Dual CM & Inch Sizing & Spec Guide (2026)",
-      "collectionAnchorText": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
-      "targetUrl": "https://printswithpassion.com/collections/cyberpunk-sci-fi-graphic-t-shirts",
-      "intentType": "transactional_setup_comparison",
-      "opportunityScore": 93.8,
-      "transactionalScore": 98,
-      "competitionScore": 2,
-      "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
-        "keywordDifficultyScore": 8,
-        "estimatedDaysToRank": 14,
-        "substrateMultiplier": 1,
-        "volumeRealizationMultiplier": 1
-      },
-      "scores": {
-        "compositeOpportunityScore": 93.8,
-        "demandScore": 86,
-        "transactionalIntentScore": 98,
-        "lowCompetitionScore": 98
-      },
-      "secondaryLongTailModifiers": [
-        "heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
-        "futuristic synthwave oversized graphic tee for streetwear layering outfit",
-        "washable archival cyberpunk neon city graphic t-shirt with free tracked shipping"
-      ],
-      "buyerFaqQuestions": [
-        {
-          "question": "What size Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts fits best for relaxed boxy summer fit in CM and Inches?",
-          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your relaxed boxy summer fit footprint, ensuring balanced visual symmetry and ergonomic clearance."
-        },
-        {
-          "question": "How does Prints With Passion construct its Sci-Fi & Cyberpunk Graphic T-Shirts?",
-          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
-        },
-        {
-          "question": "Can I pair Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
-          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
-        }
-      ],
-      "serpGapAnalysis": {
-        "engine": "yahoo_ssr_live",
-        "exactModifierTitleMatchesInTop10": 0,
-        "weakForumCountInTop10": 4,
-        "missingDualUnitSpecsInSerp": true,
-        "missingMaterialGsmOrThicknessInSerp": true,
-        "topCompetitorTitles": [
-          "etsy.com: Heavyweight Cyberpunk T-shirt, Biomechanical Spine Graphic ...",
-          "etsy.com: Neon Cyberpunk Heavyweight AOP T-Shirt, Glitchcore Rave ...",
-          "amazon.com: IKKAN Chaos Neon Cyberpunk Gas Mask Shirts Heavyweight ..."
-        ],
-        "competitorWeaknesses": [
-          "0/10 competing titles combine \"cyberpunk neon city\" + \"for relaxed boxy summer fit\" with dual CM & Inch sizing tables",
-          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
-        ]
-      },
-      "modifiers": {
-        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
-        "hardwareCompatibility": "Relaxed Boxy Summer Fit",
-        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "wallpaperQuery": "Cyberpunk Neon City 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
-        "pinterestAesthetic": "Cyberpunk Neon City — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
-      },
-      "status": "queued",
-      "assignedArticleHandle": null
-    },
-    {
-      "clusterId": "kw_space_galaxy_graphic_t_shirts_1",
-      "subCollectionHandle": "space-galaxy-graphic-t-shirts",
-      "subCollectionUrl": "/collections/space-galaxy-graphic-t-shirts",
-      "productType": "Graphic T-Shirts",
-      "themeTag": "Space & Cosmic",
-      "primaryKeyword": "best heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
-      "keyword": "best heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
-      "shortAnchor": "Deep Space Nebula Unisex Graphic T-Shirt",
-      "recommendedSlug": "best-heavyweight-deep-space-nebula-graphic-t-shirt-for-everyday-studio-s",
-      "recommendedTitle": "Best Heavyweight Deep Space Nebula Graphic T-Shirt for Everyday Studio Streetwear: Dual CM & Inch Sizing & Spec Guide (2026)",
-      "collectionAnchorText": "Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts",
-      "targetUrl": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts",
-      "intentType": "transactional_setup_comparison",
-      "opportunityScore": 93.8,
-      "transactionalScore": 98,
-      "competitionScore": 2,
-      "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
-        "keywordDifficultyScore": 8,
-        "estimatedDaysToRank": 14,
-        "substrateMultiplier": 1,
-        "volumeRealizationMultiplier": 1
-      },
-      "scores": {
-        "compositeOpportunityScore": 93.8,
-        "demandScore": 86,
-        "transactionalIntentScore": 98,
-        "lowCompetitionScore": 98
-      },
-      "secondaryLongTailModifiers": [
-        "heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
-        "cosmic galaxy astronaut oversized graphic tee for relaxed boxy summer fit",
-        "washable archival deep space nebula graphic t-shirt with free tracked shipping"
-      ],
-      "buyerFaqQuestions": [
-        {
-          "question": "What size Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts fits best for everyday studio streetwear in CM and Inches?",
-          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your everyday studio streetwear footprint, ensuring balanced visual symmetry and ergonomic clearance."
-        },
-        {
-          "question": "How does Prints With Passion construct its Space & Cosmic Graphic T-Shirts?",
-          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
-        },
-        {
-          "question": "Can I pair Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
-          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
-        }
-      ],
-      "serpGapAnalysis": {
-        "engine": "yahoo_ssr_live",
-        "exactModifierTitleMatchesInTop10": 0,
-        "weakForumCountInTop10": 4,
-        "missingDualUnitSpecsInSerp": true,
-        "missingMaterialGsmOrThicknessInSerp": true,
-        "topCompetitorTitles": [
-          "etsy.com: Nebula Space Shirts - Etsy",
-          "etsy.com: Nebula Tshirt - Etsy",
-          "amazon.com: Blue Nebula Galaxy Space Stars Cosmic Universe Art Comfort ..."
-        ],
-        "competitorWeaknesses": [
-          "0/10 competing titles combine \"deep space nebula\" + \"for everyday studio streetwear\" with dual CM & Inch sizing tables",
-          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
-        ]
-      },
-      "modifiers": {
-        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
-        "hardwareCompatibility": "Everyday Studio Streetwear",
-        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "wallpaperQuery": "Deep Space Nebula 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
-        "pinterestAesthetic": "Deep Space Nebula — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
-      },
-      "status": "queued",
-      "assignedArticleHandle": null
-    },
-    {
-      "clusterId": "kw_retro_synthwave_graphic_t_shirts_1",
-      "subCollectionHandle": "retro-synthwave-graphic-t-shirts",
-      "subCollectionUrl": "/collections/retro-synthwave-graphic-t-shirts",
-      "productType": "Graphic T-Shirts",
-      "themeTag": "Retro & Vintage",
-      "primaryKeyword": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
-      "keyword": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
-      "shortAnchor": "80s Retro Synthwave Sunset Unisex Graphic T-Shirt",
-      "recommendedSlug": "best-heavyweight-80s-retro-synthwave-sunset-graphic-t-shirt-for-anime-an",
-      "recommendedTitle": "Best Heavyweight 80s Retro Synthwave Sunset Graphic T-Shirt for Anime and Gaming Convention Fit: Dual CM & Inch Sizing & Spec Guide (2026)",
-      "collectionAnchorText": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
-      "targetUrl": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
-      "intentType": "transactional_setup_comparison",
-      "opportunityScore": 92.3,
-      "transactionalScore": 98,
-      "competitionScore": 7,
-      "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
-        "keywordDifficultyScore": 8,
-        "estimatedDaysToRank": 14,
-        "substrateMultiplier": 1,
-        "volumeRealizationMultiplier": 1
-      },
-      "scores": {
-        "compositeOpportunityScore": 92.3,
-        "demandScore": 86,
-        "transactionalIntentScore": 98,
-        "lowCompetitionScore": 93
-      },
-      "secondaryLongTailModifiers": [
-        "heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
-        "70s groovy mid century oversized graphic tee for everyday studio streetwear",
-        "washable archival 80s retro synthwave sunset graphic t-shirt with free tracked shipping"
-      ],
-      "buyerFaqQuestions": [
-        {
-          "question": "What size Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts fits best for anime and gaming convention fit in CM and Inches?",
-          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your anime and gaming convention fit footprint, ensuring balanced visual symmetry and ergonomic clearance."
-        },
-        {
-          "question": "How does Prints With Passion construct its Retro & Vintage Graphic T-Shirts?",
-          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
-        },
-        {
-          "question": "Can I pair Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
-          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
-        }
-      ],
-      "serpGapAnalysis": {
-        "engine": "yahoo_ssr_live",
-        "exactModifierTitleMatchesInTop10": 0,
-        "weakForumCountInTop10": 4,
-        "missingDualUnitSpecsInSerp": true,
-        "missingMaterialGsmOrThicknessInSerp": true,
-        "topCompetitorTitles": [
-          "etsy.com: Synthwave Tshirt - Etsy",
-          "etsy.com: Retrowave Synthwave Tshirt - Etsy",
-          "amazon.com: Amazon.com: Synthwave Tshirt"
-        ],
-        "competitorWeaknesses": [
-          "0/10 competing titles combine \"80s retro synthwave sunset\" + \"for anime and gaming convention fit\" with dual CM & Inch sizing tables",
-          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
-        ]
-      },
-      "modifiers": {
-        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
-        "hardwareCompatibility": "Anime and Gaming Convention Fit",
-        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "wallpaperQuery": "80s Retro Synthwave Sunset 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
-        "pinterestAesthetic": "80s Retro Synthwave Sunset — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
-      },
-      "status": "queued",
-      "assignedArticleHandle": null
-    },
-    {
       "clusterId": "kw_retro_vintage_synthwave_desk_mats_1",
       "subCollectionHandle": "retro-vintage-synthwave-desk-mats",
       "subCollectionUrl": "/collections/retro-vintage-synthwave-desk-mats",
@@ -10870,82 +10618,6 @@
         "wallpaperQuery": "80s Retro Synthwave Sunset 4K UHD 3840×2160 & 21:9 Ultrawide 3440×1440 Battlestation Wallpaper",
         "pinterestAesthetic": "80s Retro Synthwave Sunset — Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
         "gmcTitleBadge": "XXL 90×40cm 4mm Stitched Gaming Desk Mat & Mouse Pad"
-      },
-      "status": "queued",
-      "assignedArticleHandle": null
-    },
-    {
-      "clusterId": "kw_japanese_ukiyo_e_graphic_hoodies_1",
-      "subCollectionHandle": "japanese-ukiyo-e-graphic-hoodies",
-      "subCollectionUrl": "/collections/japanese-ukiyo-e-graphic-hoodies",
-      "productType": "Hoodies",
-      "themeTag": "Japanese & Asian Art",
-      "primaryKeyword": "best 310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
-      "keyword": "best 310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
-      "shortAnchor": "Japanese Ukiyo-E Unisex Heavyweight Graphic Hoodie",
-      "recommendedSlug": "best-310gsm-japanese-ukiyo-e-heavyweight-graphic-hoodie-for-autumn-winte",
-      "recommendedTitle": "Best 310gsm Japanese Ukiyo-E Heavyweight Graphic Hoodie for Autumn Winter Streetwear Layering: Dual CM & Inch Sizing & Spec Guide (2026)",
-      "collectionAnchorText": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
-      "targetUrl": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
-      "intentType": "transactional_setup_comparison",
-      "opportunityScore": 91.7,
-      "transactionalScore": 98,
-      "competitionScore": 9,
-      "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
-        "keywordDifficultyScore": 9,
-        "estimatedDaysToRank": 15,
-        "substrateMultiplier": 1,
-        "volumeRealizationMultiplier": 1
-      },
-      "scores": {
-        "compositeOpportunityScore": 91.7,
-        "demandScore": 86,
-        "transactionalIntentScore": 98,
-        "lowCompetitionScore": 91
-      },
-      "secondaryLongTailModifiers": [
-        "310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
-        "great wave kanagawa streetwear pullover hoodie for heavyweight streetwear outfit",
-        "washable archival japanese ukiyo-e heavyweight graphic hoodie with free tracked shipping"
-      ],
-      "buyerFaqQuestions": [
-        {
-          "question": "What size Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies fits best for autumn winter streetwear layering in CM and Inches?",
-          "answerHint": "Our Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) and undefined studio proportions are engineered to span 60%–75% of your autumn winter streetwear layering footprint, ensuring balanced visual symmetry and ergonomic clearance."
-        },
-        {
-          "question": "How does Prints With Passion construct its Japanese & Asian Art Hoodies?",
-          "answerHint": "Every piece uses 310gsm ring-spun cotton-fleece blend (S–3XL) w/ double-lined hood & crack-resistant DTG print (£36.99–£48.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
-        },
-        {
-          "question": "Can I pair Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies with matching room decor and save on multi-item studio sets?",
-          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
-        }
-      ],
-      "serpGapAnalysis": {
-        "engine": "yahoo_ssr_live",
-        "exactModifierTitleMatchesInTop10": 0,
-        "weakForumCountInTop10": 3,
-        "missingDualUnitSpecsInSerp": true,
-        "missingMaterialGsmOrThicknessInSerp": true,
-        "topCompetitorTitles": [
-          "etsy.com: Ukiyo E Hoodies - Etsy",
-          "etsy.com: Hoodie Ukiyo E - Etsy",
-          "amazon.com: Amazon.com: Japanese Hoodie: Clothing, Shoes &amp; Jewelry"
-        ],
-        "competitorWeaknesses": [
-          "0/10 competing titles combine \"japanese ukiyo-e\" + \"for autumn winter streetwear layering\" with dual CM & Inch sizing tables",
-          "Top forum/marketplace threads omit 310gsm ring-spun cotton-fleece blend construction specs"
-        ]
-      },
-      "modifiers": {
-        "size": "Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) & undefined",
-        "hardwareCompatibility": "Autumn Winter Streetwear Layering",
-        "roomPlacement": "Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
-        "wallpaperQuery": "Japanese Ukiyo-E 4K UHD Streetwear & Studio Apparel Aesthetic Wallpaper",
-        "pinterestAesthetic": "Japanese Ukiyo-E — Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
-        "gmcTitleBadge": "Unisex 310gsm Heavyweight Fleece Graphic Hoodie (S–3XL)"
       },
       "status": "queued",
       "assignedArticleHandle": null
@@ -11090,6 +10762,78 @@
         "wallpaperQuery": "Cyberpunk Neon City 4K UHD 3840×2160 & 21:9 Ultrawide 3440×1440 Battlestation Wallpaper",
         "pinterestAesthetic": "Cyberpunk Neon City — Gaming Battlestation, Ultrawide Monitor & Mechanical Keyboard Desk Setup",
         "gmcTitleBadge": "XXL 90×40cm 4mm Stitched Gaming Desk Mat & Mouse Pad"
+      },
+      "status": "queued",
+      "assignedArticleHandle": null
+    },
+    {
+      "clusterId": "kw_japanese_ukiyo_e_graphic_hoodies_3",
+      "subCollectionHandle": "japanese-ukiyo-e-graphic-hoodies",
+      "subCollectionUrl": "/collections/japanese-ukiyo-e-graphic-hoodies",
+      "productType": "Hoodies",
+      "themeTag": "Japanese & Asian Art",
+      "primaryKeyword": "best japanese ukiyo-e heavyweight graphic hoodie vs generic heavyweight graphic hoodie for autumn winter streetwear layering",
+      "keyword": "best japanese ukiyo-e heavyweight graphic hoodie vs generic heavyweight graphic hoodie for autumn winter streetwear layering",
+      "shortAnchor": "Japanese Ukiyo-E Unisex Heavyweight Graphic Hoodie",
+      "recommendedSlug": "best-japanese-ukiyo-e-heavyweight-graphic-hoodie-vs-generic-heavyweight",
+      "recommendedTitle": "Best Japanese Ukiyo-E Heavyweight Graphic Hoodie vs Generic Heavyweight Graphic Hoodie for Autumn Winter Streetwear Layering: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "collectionAnchorText": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
+      "targetUrl": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
+      "intentType": "transactional_setup_comparison",
+      "opportunityScore": 90.2,
+      "transactionalScore": 98,
+      "competitionScore": 14,
+      "forecastEstimates": {
+        "estimatedMonthlyVolume": 739,
+        "keywordDifficultyScore": 14,
+        "estimatedDaysToRank": 23,
+        "substrateMultiplier": 1,
+        "volumeRealizationMultiplier": 1
+      },
+      "scores": {
+        "compositeOpportunityScore": 90.2,
+        "demandScore": 86,
+        "transactionalIntentScore": 98,
+        "lowCompetitionScore": 86
+      },
+      "secondaryLongTailModifiers": [
+        "310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
+        "great wave kanagawa streetwear pullover hoodie for heavyweight streetwear outfit",
+        "washable archival japanese ukiyo-e heavyweight graphic hoodie with free tracked shipping"
+      ],
+      "buyerFaqQuestions": [
+        {
+          "question": "What size Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies fits best for autumn winter streetwear layering in CM and Inches?",
+          "answerHint": "Our Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) and undefined studio proportions are engineered to span 60%–75% of your autumn winter streetwear layering footprint, ensuring balanced visual symmetry and ergonomic clearance."
+        },
+        {
+          "question": "How does Prints With Passion construct its Japanese & Asian Art Hoodies?",
+          "answerHint": "Every piece uses 310gsm ring-spun cotton-fleece blend (S–3XL) w/ double-lined hood & crack-resistant DTG print (£36.99–£48.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
+        },
+        {
+          "question": "Can I pair Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies with matching room decor and save on multi-item studio sets?",
+          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
+        }
+      ],
+      "serpGapAnalysis": {
+        "engine": "cached_or_structural",
+        "exactModifierTitleMatchesInTop10": 0,
+        "weakForumCountInTop10": 4,
+        "missingDualUnitSpecsInSerp": true,
+        "missingMaterialGsmOrThicknessInSerp": true,
+        "topCompetitorTitles": [],
+        "competitorWeaknesses": [
+          "0/10 competing titles combine \"japanese ukiyo-e\" + \"for autumn winter streetwear layering\" with dual CM & Inch sizing tables",
+          "Top forum/marketplace threads omit 310gsm ring-spun cotton-fleece blend construction specs"
+        ]
+      },
+      "modifiers": {
+        "size": "Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) & undefined",
+        "hardwareCompatibility": "Autumn Winter Streetwear Layering",
+        "roomPlacement": "Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
+        "wallpaperQuery": "Japanese Ukiyo-E 4K UHD Streetwear & Studio Apparel Aesthetic Wallpaper",
+        "pinterestAesthetic": "Japanese Ukiyo-E — Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
+        "gmcTitleBadge": "Unisex 310gsm Heavyweight Fleece Graphic Hoodie (S–3XL)"
       },
       "status": "queued",
       "assignedArticleHandle": null
@@ -11306,6 +11050,294 @@
         "wallpaperQuery": "Misty Alpine Mountain Forest 4K UHD Streetwear & Studio Apparel Aesthetic Wallpaper",
         "pinterestAesthetic": "Misty Alpine Mountain Forest — Relaxed Drop-Shoulder Streetwear Layering & Gamer Loungewear Aesthetic",
         "gmcTitleBadge": "Unisex 310gsm Heavyweight Fleece Graphic Hoodie (S–3XL)"
+      },
+      "status": "queued",
+      "assignedArticleHandle": null
+    },
+    {
+      "clusterId": "kw_japanese_anime_graphic_t_shirts_1",
+      "subCollectionHandle": "japanese-anime-graphic-t-shirts",
+      "subCollectionUrl": "/collections/japanese-anime-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "themeTag": "Japanese & Asian Art",
+      "primaryKeyword": "best heavyweight japanese ukiyo-e graphic t-shirt for streetwear layering outfit",
+      "keyword": "best heavyweight japanese ukiyo-e graphic t-shirt for streetwear layering outfit",
+      "shortAnchor": "Japanese Ukiyo-E Unisex Graphic T-Shirt",
+      "recommendedSlug": "best-heavyweight-japanese-ukiyo-e-graphic-t-shirt-for-streetwear-layerin",
+      "recommendedTitle": "Best Heavyweight Japanese Ukiyo-E Graphic T-Shirt for Streetwear Layering Outfit: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "collectionAnchorText": "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
+      "targetUrl": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
+      "intentType": "transactional_setup_comparison",
+      "opportunityScore": 89,
+      "transactionalScore": 98,
+      "competitionScore": 18,
+      "forecastEstimates": {
+        "estimatedMonthlyVolume": 739,
+        "keywordDifficultyScore": 18,
+        "estimatedDaysToRank": 30,
+        "substrateMultiplier": 1,
+        "volumeRealizationMultiplier": 1
+      },
+      "scores": {
+        "compositeOpportunityScore": 89,
+        "demandScore": 86,
+        "transactionalIntentScore": 98,
+        "lowCompetitionScore": 82
+      },
+      "secondaryLongTailModifiers": [
+        "heavyweight japanese ukiyo-e graphic t-shirt for streetwear layering outfit",
+        "great wave kanagawa oversized graphic tee for anime and gaming convention fit",
+        "washable archival japanese ukiyo-e graphic t-shirt with free tracked shipping"
+      ],
+      "buyerFaqQuestions": [
+        {
+          "question": "What size Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts fits best for streetwear layering outfit in CM and Inches?",
+          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your streetwear layering outfit footprint, ensuring balanced visual symmetry and ergonomic clearance."
+        },
+        {
+          "question": "How does Prints With Passion construct its Japanese & Asian Art Graphic T-Shirts?",
+          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
+        },
+        {
+          "question": "Can I pair Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
+          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
+        }
+      ],
+      "serpGapAnalysis": {
+        "engine": "structural_heuristic",
+        "exactModifierTitleMatchesInTop10": 0,
+        "weakForumCountInTop10": 0,
+        "missingDualUnitSpecsInSerp": true,
+        "missingMaterialGsmOrThicknessInSerp": true,
+        "topCompetitorTitles": [],
+        "competitorWeaknesses": [
+          "0/10 competing titles combine \"japanese ukiyo-e\" + \"for streetwear layering outfit\" with dual CM & Inch sizing tables",
+          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
+        ]
+      },
+      "modifiers": {
+        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
+        "hardwareCompatibility": "Streetwear Layering Outfit",
+        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "wallpaperQuery": "Japanese Ukiyo-E 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
+        "pinterestAesthetic": "Japanese Ukiyo-E — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
+      },
+      "status": "queued",
+      "assignedArticleHandle": null
+    },
+    {
+      "clusterId": "kw_cyberpunk_sci_fi_graphic_t_shirts_1",
+      "subCollectionHandle": "cyberpunk-sci-fi-graphic-t-shirts",
+      "subCollectionUrl": "/collections/cyberpunk-sci-fi-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "themeTag": "Sci-Fi & Cyberpunk",
+      "primaryKeyword": "best heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
+      "keyword": "best heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
+      "shortAnchor": "Cyberpunk Neon City Unisex Graphic T-Shirt",
+      "recommendedSlug": "best-heavyweight-cyberpunk-neon-city-graphic-t-shirt-for-relaxed-boxy-su",
+      "recommendedTitle": "Best Heavyweight Cyberpunk Neon City Graphic T-Shirt for Relaxed Boxy Summer Fit: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "collectionAnchorText": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
+      "targetUrl": "https://printswithpassion.com/collections/cyberpunk-sci-fi-graphic-t-shirts",
+      "intentType": "transactional_setup_comparison",
+      "opportunityScore": 89,
+      "transactionalScore": 98,
+      "competitionScore": 18,
+      "forecastEstimates": {
+        "estimatedMonthlyVolume": 739,
+        "keywordDifficultyScore": 18,
+        "estimatedDaysToRank": 30,
+        "substrateMultiplier": 1,
+        "volumeRealizationMultiplier": 1
+      },
+      "scores": {
+        "compositeOpportunityScore": 89,
+        "demandScore": 86,
+        "transactionalIntentScore": 98,
+        "lowCompetitionScore": 82
+      },
+      "secondaryLongTailModifiers": [
+        "heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
+        "futuristic synthwave oversized graphic tee for streetwear layering outfit",
+        "washable archival cyberpunk neon city graphic t-shirt with free tracked shipping"
+      ],
+      "buyerFaqQuestions": [
+        {
+          "question": "What size Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts fits best for relaxed boxy summer fit in CM and Inches?",
+          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your relaxed boxy summer fit footprint, ensuring balanced visual symmetry and ergonomic clearance."
+        },
+        {
+          "question": "How does Prints With Passion construct its Sci-Fi & Cyberpunk Graphic T-Shirts?",
+          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
+        },
+        {
+          "question": "Can I pair Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
+          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
+        }
+      ],
+      "serpGapAnalysis": {
+        "engine": "structural_heuristic",
+        "exactModifierTitleMatchesInTop10": 0,
+        "weakForumCountInTop10": 0,
+        "missingDualUnitSpecsInSerp": true,
+        "missingMaterialGsmOrThicknessInSerp": true,
+        "topCompetitorTitles": [],
+        "competitorWeaknesses": [
+          "0/10 competing titles combine \"cyberpunk neon city\" + \"for relaxed boxy summer fit\" with dual CM & Inch sizing tables",
+          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
+        ]
+      },
+      "modifiers": {
+        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
+        "hardwareCompatibility": "Relaxed Boxy Summer Fit",
+        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "wallpaperQuery": "Cyberpunk Neon City 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
+        "pinterestAesthetic": "Cyberpunk Neon City — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
+      },
+      "status": "queued",
+      "assignedArticleHandle": null
+    },
+    {
+      "clusterId": "kw_space_galaxy_graphic_t_shirts_1",
+      "subCollectionHandle": "space-galaxy-graphic-t-shirts",
+      "subCollectionUrl": "/collections/space-galaxy-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "themeTag": "Space & Cosmic",
+      "primaryKeyword": "best heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
+      "keyword": "best heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
+      "shortAnchor": "Deep Space Nebula Unisex Graphic T-Shirt",
+      "recommendedSlug": "best-heavyweight-deep-space-nebula-graphic-t-shirt-for-everyday-studio-s",
+      "recommendedTitle": "Best Heavyweight Deep Space Nebula Graphic T-Shirt for Everyday Studio Streetwear: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "collectionAnchorText": "Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts",
+      "targetUrl": "https://printswithpassion.com/collections/space-galaxy-graphic-t-shirts",
+      "intentType": "transactional_setup_comparison",
+      "opportunityScore": 89,
+      "transactionalScore": 98,
+      "competitionScore": 18,
+      "forecastEstimates": {
+        "estimatedMonthlyVolume": 739,
+        "keywordDifficultyScore": 18,
+        "estimatedDaysToRank": 30,
+        "substrateMultiplier": 1,
+        "volumeRealizationMultiplier": 1
+      },
+      "scores": {
+        "compositeOpportunityScore": 89,
+        "demandScore": 86,
+        "transactionalIntentScore": 98,
+        "lowCompetitionScore": 82
+      },
+      "secondaryLongTailModifiers": [
+        "heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
+        "cosmic galaxy astronaut oversized graphic tee for relaxed boxy summer fit",
+        "washable archival deep space nebula graphic t-shirt with free tracked shipping"
+      ],
+      "buyerFaqQuestions": [
+        {
+          "question": "What size Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts fits best for everyday studio streetwear in CM and Inches?",
+          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your everyday studio streetwear footprint, ensuring balanced visual symmetry and ergonomic clearance."
+        },
+        {
+          "question": "How does Prints With Passion construct its Space & Cosmic Graphic T-Shirts?",
+          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
+        },
+        {
+          "question": "Can I pair Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
+          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
+        }
+      ],
+      "serpGapAnalysis": {
+        "engine": "structural_heuristic",
+        "exactModifierTitleMatchesInTop10": 0,
+        "weakForumCountInTop10": 0,
+        "missingDualUnitSpecsInSerp": true,
+        "missingMaterialGsmOrThicknessInSerp": true,
+        "topCompetitorTitles": [],
+        "competitorWeaknesses": [
+          "0/10 competing titles combine \"deep space nebula\" + \"for everyday studio streetwear\" with dual CM & Inch sizing tables",
+          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
+        ]
+      },
+      "modifiers": {
+        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
+        "hardwareCompatibility": "Everyday Studio Streetwear",
+        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "wallpaperQuery": "Deep Space Nebula 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
+        "pinterestAesthetic": "Deep Space Nebula — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
+      },
+      "status": "queued",
+      "assignedArticleHandle": null
+    },
+    {
+      "clusterId": "kw_retro_synthwave_graphic_t_shirts_1",
+      "subCollectionHandle": "retro-synthwave-graphic-t-shirts",
+      "subCollectionUrl": "/collections/retro-synthwave-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "themeTag": "Retro & Vintage",
+      "primaryKeyword": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
+      "keyword": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
+      "shortAnchor": "80s Retro Synthwave Sunset Unisex Graphic T-Shirt",
+      "recommendedSlug": "best-heavyweight-80s-retro-synthwave-sunset-graphic-t-shirt-for-anime-an",
+      "recommendedTitle": "Best Heavyweight 80s Retro Synthwave Sunset Graphic T-Shirt for Anime and Gaming Convention Fit: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "collectionAnchorText": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
+      "targetUrl": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
+      "intentType": "transactional_setup_comparison",
+      "opportunityScore": 89,
+      "transactionalScore": 98,
+      "competitionScore": 18,
+      "forecastEstimates": {
+        "estimatedMonthlyVolume": 739,
+        "keywordDifficultyScore": 18,
+        "estimatedDaysToRank": 30,
+        "substrateMultiplier": 1,
+        "volumeRealizationMultiplier": 1
+      },
+      "scores": {
+        "compositeOpportunityScore": 89,
+        "demandScore": 86,
+        "transactionalIntentScore": 98,
+        "lowCompetitionScore": 82
+      },
+      "secondaryLongTailModifiers": [
+        "heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
+        "70s groovy mid century oversized graphic tee for everyday studio streetwear",
+        "washable archival 80s retro synthwave sunset graphic t-shirt with free tracked shipping"
+      ],
+      "buyerFaqQuestions": [
+        {
+          "question": "What size Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts fits best for anime and gaming convention fit in CM and Inches?",
+          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your anime and gaming convention fit footprint, ensuring balanced visual symmetry and ergonomic clearance."
+        },
+        {
+          "question": "How does Prints With Passion construct its Retro & Vintage Graphic T-Shirts?",
+          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
+        },
+        {
+          "question": "Can I pair Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
+          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
+        }
+      ],
+      "serpGapAnalysis": {
+        "engine": "structural_heuristic",
+        "exactModifierTitleMatchesInTop10": 0,
+        "weakForumCountInTop10": 0,
+        "missingDualUnitSpecsInSerp": true,
+        "missingMaterialGsmOrThicknessInSerp": true,
+        "topCompetitorTitles": [],
+        "competitorWeaknesses": [
+          "0/10 competing titles combine \"80s retro synthwave sunset\" + \"for anime and gaming convention fit\" with dual CM & Inch sizing tables",
+          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
+        ]
+      },
+      "modifiers": {
+        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
+        "hardwareCompatibility": "Anime and Gaming Convention Fit",
+        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "wallpaperQuery": "80s Retro Synthwave Sunset 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
+        "pinterestAesthetic": "80s Retro Synthwave Sunset — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
       },
       "status": "queued",
       "assignedArticleHandle": null
@@ -13619,82 +13651,6 @@
       "assignedArticleHandle": null
     },
     {
-      "clusterId": "kw_japanese_anime_graphic_t_shirts_1",
-      "subCollectionHandle": "japanese-anime-graphic-t-shirts",
-      "subCollectionUrl": "/collections/japanese-anime-graphic-t-shirts",
-      "productType": "Graphic T-Shirts",
-      "themeTag": "Japanese & Asian Art",
-      "primaryKeyword": "best heavyweight japanese ukiyo-e graphic t-shirt for streetwear layering outfit",
-      "keyword": "best heavyweight japanese ukiyo-e graphic t-shirt for streetwear layering outfit",
-      "shortAnchor": "Japanese Ukiyo-E Unisex Graphic T-Shirt",
-      "recommendedSlug": "best-heavyweight-japanese-ukiyo-e-graphic-t-shirt-for-streetwear-layerin",
-      "recommendedTitle": "Best Heavyweight Japanese Ukiyo-E Graphic T-Shirt for Streetwear Layering Outfit: Dual CM & Inch Sizing & Spec Guide (2026)",
-      "collectionAnchorText": "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
-      "targetUrl": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
-      "intentType": "transactional_setup_comparison",
-      "opportunityScore": 88.1,
-      "transactionalScore": 98,
-      "competitionScore": 21,
-      "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
-        "keywordDifficultyScore": 21,
-        "estimatedDaysToRank": 35,
-        "substrateMultiplier": 1,
-        "volumeRealizationMultiplier": 1
-      },
-      "scores": {
-        "compositeOpportunityScore": 88.1,
-        "demandScore": 86,
-        "transactionalIntentScore": 98,
-        "lowCompetitionScore": 79
-      },
-      "secondaryLongTailModifiers": [
-        "heavyweight japanese ukiyo-e graphic t-shirt for streetwear layering outfit",
-        "great wave kanagawa oversized graphic tee for anime and gaming convention fit",
-        "washable archival japanese ukiyo-e graphic t-shirt with free tracked shipping"
-      ],
-      "buyerFaqQuestions": [
-        {
-          "question": "What size Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts fits best for streetwear layering outfit in CM and Inches?",
-          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your streetwear layering outfit footprint, ensuring balanced visual symmetry and ergonomic clearance."
-        },
-        {
-          "question": "How does Prints With Passion construct its Japanese & Asian Art Graphic T-Shirts?",
-          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
-        },
-        {
-          "question": "Can I pair Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
-          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
-        }
-      ],
-      "serpGapAnalysis": {
-        "engine": "yahoo_ssr_live",
-        "exactModifierTitleMatchesInTop10": 0,
-        "weakForumCountInTop10": 2,
-        "missingDualUnitSpecsInSerp": true,
-        "missingMaterialGsmOrThicknessInSerp": true,
-        "topCompetitorTitles": [
-          "etsy.com: Ukiyo E Streetwear Tshirt - Etsy",
-          "etsy.com: T Shirt Ukiyo E - Etsy",
-          "amazon.com: Amazon.com: Japanese Tees"
-        ],
-        "competitorWeaknesses": [
-          "0/10 competing titles combine \"japanese ukiyo-e\" + \"for streetwear layering outfit\" with dual CM & Inch sizing tables",
-          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
-        ]
-      },
-      "modifiers": {
-        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
-        "hardwareCompatibility": "Streetwear Layering Outfit",
-        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "wallpaperQuery": "Japanese Ukiyo-E 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
-        "pinterestAesthetic": "Japanese Ukiyo-E — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
-      },
-      "status": "queued",
-      "assignedArticleHandle": null
-    },
-    {
       "clusterId": "kw_world_travel_paris_european_throw_blankets_1",
       "subCollectionHandle": "world-travel-paris-european-throw-blankets",
       "subCollectionUrl": "/collections/world-travel-paris-european-throw-blankets",
@@ -14073,48 +14029,6 @@
   ],
   "top10DailyAiCitationQueries": [
     {
-      "query": "best heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
-      "subCollectionHandle": "cyberpunk-sci-fi-graphic-t-shirts",
-      "productType": "Graphic T-Shirts",
-      "recommendedDimension": "Unisex S–3XL Regular & Boxy Oversized Fit or undefined",
-      "materialAndPriceSpec": "100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99)",
-      "targetCollectionUrl": "/collections/cyberpunk-sci-fi-graphic-t-shirts",
-      "targetCollectionAnchor": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
-      "matchingBlogUrl": "/blogs/news/cyberpunk-sci-fi-graphic-tee-streetwear-uk",
-      "plannedBlogSlug": "/blogs/news/best-heavyweight-cyberpunk-neon-city-graphic-t-shirt-for-relaxed-boxy-su",
-      "serpWeakSpotsInTop10": 4,
-      "exactTitleMatchesInTop10": 0,
-      "compositeScore": 93.8
-    },
-    {
-      "query": "best heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
-      "subCollectionHandle": "space-galaxy-graphic-t-shirts",
-      "productType": "Graphic T-Shirts",
-      "recommendedDimension": "Unisex S–3XL Regular & Boxy Oversized Fit or undefined",
-      "materialAndPriceSpec": "100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99)",
-      "targetCollectionUrl": "/collections/space-galaxy-graphic-t-shirts",
-      "targetCollectionAnchor": "Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts",
-      "matchingBlogUrl": "/blogs/news/how-to-style-unisex-graphic-t-shirts-uk-fit-guide",
-      "plannedBlogSlug": "/blogs/news/best-heavyweight-deep-space-nebula-graphic-t-shirt-for-everyday-studio-s",
-      "serpWeakSpotsInTop10": 4,
-      "exactTitleMatchesInTop10": 0,
-      "compositeScore": 93.8
-    },
-    {
-      "query": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
-      "subCollectionHandle": "retro-synthwave-graphic-t-shirts",
-      "productType": "Graphic T-Shirts",
-      "recommendedDimension": "Unisex S–3XL Regular & Boxy Oversized Fit or undefined",
-      "materialAndPriceSpec": "100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99)",
-      "targetCollectionUrl": "/collections/retro-synthwave-graphic-t-shirts",
-      "targetCollectionAnchor": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
-      "matchingBlogUrl": "/blogs/news/vintage-japanese-anime-kaiju-graphic-t-shirts-uk",
-      "plannedBlogSlug": "/blogs/news/best-heavyweight-80s-retro-synthwave-sunset-graphic-t-shirt-for-anime-an",
-      "serpWeakSpotsInTop10": 4,
-      "exactTitleMatchesInTop10": 0,
-      "compositeScore": 92.3
-    },
-    {
       "query": "best 90x40 80s retro synthwave sunset desk mat for home office setup",
       "subCollectionHandle": "retro-vintage-synthwave-desk-mats",
       "productType": "Desk Mats",
@@ -14127,20 +14041,6 @@
       "serpWeakSpotsInTop10": 6,
       "exactTitleMatchesInTop10": 0,
       "compositeScore": 92
-    },
-    {
-      "query": "best 310gsm japanese ukiyo-e heavyweight graphic hoodie for autumn winter streetwear layering",
-      "subCollectionHandle": "japanese-ukiyo-e-graphic-hoodies",
-      "productType": "Hoodies",
-      "recommendedDimension": "Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) or undefined",
-      "materialAndPriceSpec": "310gsm ring-spun cotton-fleece blend (S–3XL) w/ double-lined hood & crack-resistant DTG print (£36.99–£48.99)",
-      "targetCollectionUrl": "/collections/japanese-ukiyo-e-graphic-hoodies",
-      "targetCollectionAnchor": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
-      "matchingBlogUrl": "/blogs/news/best-24x36-japanese-ukiyo-e-canvas-wall-art-for-home-office-video-backdrop",
-      "plannedBlogSlug": "/blogs/news/best-310gsm-japanese-ukiyo-e-heavyweight-graphic-hoodie-for-autumn-winte",
-      "serpWeakSpotsInTop10": 3,
-      "exactTitleMatchesInTop10": 0,
-      "compositeScore": 91.7
     },
     {
       "query": "best 90x40 japanese ukiyo-e desk mat for walnut desk",
@@ -14166,6 +14066,20 @@
       "targetCollectionAnchor": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
       "matchingBlogUrl": "/blogs/news/cyberpunk-fantasy-gaming-desk-setup-ideas-uk",
       "plannedBlogSlug": "/blogs/news/best-80x40-mecha-sci-fi-neon-extended-mouse-pad-for-ultrawide-monitor-de",
+      "serpWeakSpotsInTop10": 4,
+      "exactTitleMatchesInTop10": 0,
+      "compositeScore": 90.2
+    },
+    {
+      "query": "best japanese ukiyo-e heavyweight graphic hoodie vs generic heavyweight graphic hoodie for autumn winter streetwear layering",
+      "subCollectionHandle": "japanese-ukiyo-e-graphic-hoodies",
+      "productType": "Hoodies",
+      "recommendedDimension": "Unisex S–3XL Relaxed Drop-Shoulder Fit (310 GSM) or undefined",
+      "materialAndPriceSpec": "310gsm ring-spun cotton-fleece blend (S–3XL) w/ double-lined hood & crack-resistant DTG print (£36.99–£48.99)",
+      "targetCollectionUrl": "/collections/japanese-ukiyo-e-graphic-hoodies",
+      "targetCollectionAnchor": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
+      "matchingBlogUrl": "/blogs/news/best-24x36-japanese-ukiyo-e-canvas-wall-art-for-home-office-video-backdrop",
+      "plannedBlogSlug": "/blogs/news/best-japanese-ukiyo-e-heavyweight-graphic-hoodie-vs-generic-heavyweight",
       "serpWeakSpotsInTop10": 4,
       "exactTitleMatchesInTop10": 0,
       "compositeScore": 90.2
@@ -14211,6 +14125,48 @@
       "serpWeakSpotsInTop10": 4,
       "exactTitleMatchesInTop10": 0,
       "compositeScore": 90.2
+    },
+    {
+      "query": "best heavyweight japanese ukiyo-e graphic t-shirt for streetwear layering outfit",
+      "subCollectionHandle": "japanese-anime-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "recommendedDimension": "Unisex S–3XL Regular & Boxy Oversized Fit or undefined",
+      "materialAndPriceSpec": "100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99)",
+      "targetCollectionUrl": "/collections/japanese-anime-graphic-t-shirts",
+      "targetCollectionAnchor": "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
+      "matchingBlogUrl": "/blogs/news/vintage-japanese-anime-kaiju-graphic-t-shirts-uk",
+      "plannedBlogSlug": "/blogs/news/best-heavyweight-japanese-ukiyo-e-graphic-t-shirt-for-streetwear-layerin",
+      "serpWeakSpotsInTop10": 0,
+      "exactTitleMatchesInTop10": 0,
+      "compositeScore": 89
+    },
+    {
+      "query": "best heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
+      "subCollectionHandle": "cyberpunk-sci-fi-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "recommendedDimension": "Unisex S–3XL Regular & Boxy Oversized Fit or undefined",
+      "materialAndPriceSpec": "100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99)",
+      "targetCollectionUrl": "/collections/cyberpunk-sci-fi-graphic-t-shirts",
+      "targetCollectionAnchor": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
+      "matchingBlogUrl": "/blogs/news/cyberpunk-sci-fi-graphic-tee-streetwear-uk",
+      "plannedBlogSlug": "/blogs/news/best-heavyweight-cyberpunk-neon-city-graphic-t-shirt-for-relaxed-boxy-su",
+      "serpWeakSpotsInTop10": 0,
+      "exactTitleMatchesInTop10": 0,
+      "compositeScore": 89
+    },
+    {
+      "query": "best heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
+      "subCollectionHandle": "space-galaxy-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "recommendedDimension": "Unisex S–3XL Regular & Boxy Oversized Fit or undefined",
+      "materialAndPriceSpec": "100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99)",
+      "targetCollectionUrl": "/collections/space-galaxy-graphic-t-shirts",
+      "targetCollectionAnchor": "Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts",
+      "matchingBlogUrl": "/blogs/news/how-to-style-unisex-graphic-t-shirts-uk-fit-guide",
+      "plannedBlogSlug": "/blogs/news/best-heavyweight-deep-space-nebula-graphic-t-shirt-for-everyday-studio-s",
+      "serpWeakSpotsInTop10": 0,
+      "exactTitleMatchesInTop10": 0,
+      "compositeScore": 89
     }
   ]
 }
