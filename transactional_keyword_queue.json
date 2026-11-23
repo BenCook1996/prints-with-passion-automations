@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T15:17:19.387Z",
+  "generatedAt": "2026-11-23T16:57:36.245Z",
   "scoringVersion": "2.0.0-multi-agent",
   "summary": {
     "totalCandidatesEvaluated": 289,
@@ -23,19 +23,19 @@
         "collectionAnchorText": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
         "targetUrl": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 90.4,
+        "opportunityScore": 91.4,
         "transactionalScore": 98,
         "competitionScore": 18,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 765,
+          "estimatedMonthlyVolume": 785,
           "keywordDifficultyScore": 18,
           "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 90.4,
-          "demandScore": 90,
+          "compositeOpportunityScore": 91.4,
+          "demandScore": 93,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 82
         },
@@ -95,19 +95,19 @@
         "collectionAnchorText": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
         "targetUrl": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 90.2,
+        "opportunityScore": 91.2,
         "transactionalScore": 98,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 90.2,
-          "demandScore": 86,
+          "compositeOpportunityScore": 91.2,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 86
         },
@@ -167,19 +167,19 @@
         "collectionAnchorText": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
         "targetUrl": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 90.2,
+        "opportunityScore": 91.2,
         "transactionalScore": 98,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 90.2,
-          "demandScore": 86,
+          "compositeOpportunityScore": 91.2,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 86
         },
@@ -241,19 +241,19 @@
         "collectionAnchorText": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
         "targetUrl": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 90.2,
+        "opportunityScore": 91.2,
         "transactionalScore": 98,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 90.2,
-          "demandScore": 86,
+          "compositeOpportunityScore": 91.2,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 86
         },
@@ -313,19 +313,19 @@
         "collectionAnchorText": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
         "targetUrl": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 90.2,
+        "opportunityScore": 91.2,
         "transactionalScore": 98,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 90.2,
-          "demandScore": 86,
+          "compositeOpportunityScore": 91.2,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 86
         },
@@ -385,19 +385,19 @@
         "collectionAnchorText": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
         "targetUrl": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 89,
+        "opportunityScore": 90,
         "transactionalScore": 98,
         "competitionScore": 18,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 18,
           "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 89,
-          "demandScore": 86,
+          "compositeOpportunityScore": 90,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 82
         },
@@ -8815,19 +8815,19 @@
         "collectionAnchorText": "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 89,
+        "opportunityScore": 90,
         "transactionalScore": 98,
         "competitionScore": 18,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 18,
           "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 89,
-          "demandScore": 86,
+          "compositeOpportunityScore": 90,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 82
         },
@@ -8887,19 +8887,19 @@
         "collectionAnchorText": "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 82.5,
+        "opportunityScore": 83.5,
         "transactionalScore": 76,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 82.5,
-          "demandScore": 86,
+          "compositeOpportunityScore": 83.5,
+          "demandScore": 89,
           "transactionalIntentScore": 76,
           "lowCompetitionScore": 86
         },
@@ -8959,19 +8959,19 @@
         "collectionAnchorText": "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 81.8,
+        "opportunityScore": 82.8,
         "transactionalScore": 74,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 81.8,
-          "demandScore": 86,
+          "compositeOpportunityScore": 82.8,
+          "demandScore": 89,
           "transactionalIntentScore": 74,
           "lowCompetitionScore": 86
         },
@@ -9033,19 +9033,19 @@
         "collectionAnchorText": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/cyberpunk-sci-fi-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 89,
+        "opportunityScore": 90,
         "transactionalScore": 98,
         "competitionScore": 18,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 18,
           "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 89,
-          "demandScore": 86,
+          "compositeOpportunityScore": 90,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 82
         },
@@ -9105,19 +9105,19 @@
         "collectionAnchorText": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/cyberpunk-sci-fi-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 83.9,
+        "opportunityScore": 84.9,
         "transactionalScore": 76,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 765,
+          "estimatedMonthlyVolume": 785,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 83.9,
-          "demandScore": 90,
+          "compositeOpportunityScore": 84.9,
+          "demandScore": 93,
           "transactionalIntentScore": 76,
           "lowCompetitionScore": 86
         },
@@ -9177,19 +9177,19 @@
         "collectionAnchorText": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/cyberpunk-sci-fi-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 81.8,
+        "opportunityScore": 82.8,
         "transactionalScore": 74,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 81.8,
-          "demandScore": 86,
+          "compositeOpportunityScore": 82.8,
+          "demandScore": 89,
           "transactionalIntentScore": 74,
           "lowCompetitionScore": 86
         },
@@ -9469,19 +9469,19 @@
         "collectionAnchorText": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 89,
+        "opportunityScore": 90,
         "transactionalScore": 98,
         "competitionScore": 18,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 18,
           "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 89,
-          "demandScore": 86,
+          "compositeOpportunityScore": 90,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 82
         },
@@ -9541,19 +9541,19 @@
         "collectionAnchorText": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 82.5,
+        "opportunityScore": 83.5,
         "transactionalScore": 76,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 82.5,
-          "demandScore": 86,
+          "compositeOpportunityScore": 83.5,
+          "demandScore": 89,
           "transactionalIntentScore": 76,
           "lowCompetitionScore": 86
         },
@@ -9613,19 +9613,19 @@
         "collectionAnchorText": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
         "targetUrl": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 81.8,
+        "opportunityScore": 82.8,
         "transactionalScore": 74,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 81.8,
-          "demandScore": 86,
+          "compositeOpportunityScore": 82.8,
+          "demandScore": 89,
           "transactionalIntentScore": 74,
           "lowCompetitionScore": 86
         },
@@ -9687,19 +9687,19 @@
         "collectionAnchorText": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
         "targetUrl": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 90.2,
+        "opportunityScore": 91.2,
         "transactionalScore": 98,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 90.2,
-          "demandScore": 86,
+          "compositeOpportunityScore": 91.2,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 86
         },
@@ -9759,19 +9759,19 @@
         "collectionAnchorText": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
         "targetUrl": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 90.2,
+        "opportunityScore": 91.2,
         "transactionalScore": 98,
         "competitionScore": 14,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 14,
           "estimatedDaysToRank": 23,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 90.2,
-          "demandScore": 86,
+          "compositeOpportunityScore": 91.2,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 86
         },
@@ -9831,19 +9831,19 @@
         "collectionAnchorText": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
         "targetUrl": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
         "intentType": "transactional_setup_comparison",
-        "opportunityScore": 89,
+        "opportunityScore": 90,
         "transactionalScore": 98,
         "competitionScore": 18,
         "forecastEstimates": {
-          "estimatedMonthlyVolume": 739,
+          "estimatedMonthlyVolume": 759,
           "keywordDifficultyScore": 18,
           "estimatedDaysToRank": 30,
           "substrateMultiplier": 1,
           "volumeRealizationMultiplier": 1
         },
         "scores": {
-          "compositeOpportunityScore": 89,
-          "demandScore": 86,
+          "compositeOpportunityScore": 90,
+          "demandScore": 89,
           "transactionalIntentScore": 98,
           "lowCompetitionScore": 82
         },
@@ -10636,19 +10636,19 @@
       "collectionAnchorText": "Japanese, Samurai, Sakura & Ukiyo-e Extended Desk Mats",
       "targetUrl": "https://printswithpassion.com/collections/japanese-anime-desk-mats",
       "intentType": "transactional_setup_comparison",
-      "opportunityScore": 90.4,
+      "opportunityScore": 91.4,
       "transactionalScore": 98,
       "competitionScore": 18,
       "forecastEstimates": {
-        "estimatedMonthlyVolume": 765,
+        "estimatedMonthlyVolume": 785,
         "keywordDifficultyScore": 18,
         "estimatedDaysToRank": 30,
         "substrateMultiplier": 1,
         "volumeRealizationMultiplier": 1
       },
       "scores": {
-        "compositeOpportunityScore": 90.4,
-        "demandScore": 90,
+        "compositeOpportunityScore": 91.4,
+        "demandScore": 93,
         "transactionalIntentScore": 98,
         "lowCompetitionScore": 82
       },
@@ -10708,19 +10708,19 @@
       "collectionAnchorText": "Sci-Fi, Cyberpunk & Synthwave XXL Gaming Desk Mats",
       "targetUrl": "https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats",
       "intentType": "transactional_setup_comparison",
-      "opportunityScore": 90.2,
+      "opportunityScore": 91.2,
       "transactionalScore": 98,
       "competitionScore": 14,
       "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
+        "estimatedMonthlyVolume": 759,
         "keywordDifficultyScore": 14,
         "estimatedDaysToRank": 23,
         "substrateMultiplier": 1,
         "volumeRealizationMultiplier": 1
       },
       "scores": {
-        "compositeOpportunityScore": 90.2,
-        "demandScore": 86,
+        "compositeOpportunityScore": 91.2,
+        "demandScore": 89,
         "transactionalIntentScore": 98,
         "lowCompetitionScore": 86
       },
@@ -10780,19 +10780,19 @@
       "collectionAnchorText": "Japanese Samurai, Great Wave & Sakura Heavyweight Hoodies",
       "targetUrl": "https://printswithpassion.com/collections/japanese-ukiyo-e-graphic-hoodies",
       "intentType": "transactional_setup_comparison",
-      "opportunityScore": 90.2,
+      "opportunityScore": 91.2,
       "transactionalScore": 98,
       "competitionScore": 14,
       "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
+        "estimatedMonthlyVolume": 759,
         "keywordDifficultyScore": 14,
         "estimatedDaysToRank": 23,
         "substrateMultiplier": 1,
         "volumeRealizationMultiplier": 1
       },
       "scores": {
-        "compositeOpportunityScore": 90.2,
-        "demandScore": 86,
+        "compositeOpportunityScore": 91.2,
+        "demandScore": 89,
         "transactionalIntentScore": 98,
         "lowCompetitionScore": 86
       },
@@ -11068,19 +11068,19 @@
       "collectionAnchorText": "Japanese Ukiyo-e, Samurai & Sakura Graphic Cotton T-Shirts",
       "targetUrl": "https://printswithpassion.com/collections/japanese-anime-graphic-t-shirts",
       "intentType": "transactional_setup_comparison",
-      "opportunityScore": 89,
+      "opportunityScore": 90,
       "transactionalScore": 98,
       "competitionScore": 18,
       "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
+        "estimatedMonthlyVolume": 759,
         "keywordDifficultyScore": 18,
         "estimatedDaysToRank": 30,
         "substrateMultiplier": 1,
         "volumeRealizationMultiplier": 1
       },
       "scores": {
-        "compositeOpportunityScore": 89,
-        "demandScore": 86,
+        "compositeOpportunityScore": 90,
+        "demandScore": 89,
         "transactionalIntentScore": 98,
         "lowCompetitionScore": 82
       },
@@ -11140,19 +11140,19 @@
       "collectionAnchorText": "Sci-Fi, Cyberpunk & Neon Futuristic Graphic Cotton T-Shirts",
       "targetUrl": "https://printswithpassion.com/collections/cyberpunk-sci-fi-graphic-t-shirts",
       "intentType": "transactional_setup_comparison",
-      "opportunityScore": 89,
+      "opportunityScore": 90,
       "transactionalScore": 98,
       "competitionScore": 18,
       "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
+        "estimatedMonthlyVolume": 759,
         "keywordDifficultyScore": 18,
         "estimatedDaysToRank": 30,
         "substrateMultiplier": 1,
         "volumeRealizationMultiplier": 1
       },
       "scores": {
-        "compositeOpportunityScore": 89,
-        "demandScore": 86,
+        "compositeOpportunityScore": 90,
+        "demandScore": 89,
         "transactionalIntentScore": 98,
         "lowCompetitionScore": 82
       },
@@ -11193,6 +11193,78 @@
         "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
         "wallpaperQuery": "Cyberpunk Neon City 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
         "pinterestAesthetic": "Cyberpunk Neon City — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
+      },
+      "status": "queued",
+      "assignedArticleHandle": null
+    },
+    {
+      "clusterId": "kw_retro_synthwave_graphic_t_shirts_1",
+      "subCollectionHandle": "retro-synthwave-graphic-t-shirts",
+      "subCollectionUrl": "/collections/retro-synthwave-graphic-t-shirts",
+      "productType": "Graphic T-Shirts",
+      "themeTag": "Retro & Vintage",
+      "primaryKeyword": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
+      "keyword": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
+      "shortAnchor": "80s Retro Synthwave Sunset Unisex Graphic T-Shirt",
+      "recommendedSlug": "best-heavyweight-80s-retro-synthwave-sunset-graphic-t-shirt-for-anime-an",
+      "recommendedTitle": "Best Heavyweight 80s Retro Synthwave Sunset Graphic T-Shirt for Anime and Gaming Convention Fit: Dual CM & Inch Sizing & Spec Guide (2026)",
+      "collectionAnchorText": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
+      "targetUrl": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
+      "intentType": "transactional_setup_comparison",
+      "opportunityScore": 90,
+      "transactionalScore": 98,
+      "competitionScore": 18,
+      "forecastEstimates": {
+        "estimatedMonthlyVolume": 759,
+        "keywordDifficultyScore": 18,
+        "estimatedDaysToRank": 30,
+        "substrateMultiplier": 1,
+        "volumeRealizationMultiplier": 1
+      },
+      "scores": {
+        "compositeOpportunityScore": 90,
+        "demandScore": 89,
+        "transactionalIntentScore": 98,
+        "lowCompetitionScore": 82
+      },
+      "secondaryLongTailModifiers": [
+        "heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
+        "70s groovy mid century oversized graphic tee for everyday studio streetwear",
+        "washable archival 80s retro synthwave sunset graphic t-shirt with free tracked shipping"
+      ],
+      "buyerFaqQuestions": [
+        {
+          "question": "What size Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts fits best for anime and gaming convention fit in CM and Inches?",
+          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your anime and gaming convention fit footprint, ensuring balanced visual symmetry and ergonomic clearance."
+        },
+        {
+          "question": "How does Prints With Passion construct its Retro & Vintage Graphic T-Shirts?",
+          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
+        },
+        {
+          "question": "Can I pair Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
+          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
+        }
+      ],
+      "serpGapAnalysis": {
+        "engine": "structural_heuristic",
+        "exactModifierTitleMatchesInTop10": 0,
+        "weakForumCountInTop10": 0,
+        "missingDualUnitSpecsInSerp": true,
+        "missingMaterialGsmOrThicknessInSerp": true,
+        "topCompetitorTitles": [],
+        "competitorWeaknesses": [
+          "0/10 competing titles combine \"80s retro synthwave sunset\" + \"for anime and gaming convention fit\" with dual CM & Inch sizing tables",
+          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
+        ]
+      },
+      "modifiers": {
+        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
+        "hardwareCompatibility": "Anime and Gaming Convention Fit",
+        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
+        "wallpaperQuery": "80s Retro Synthwave Sunset 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
+        "pinterestAesthetic": "80s Retro Synthwave Sunset — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
         "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
       },
       "status": "queued",
@@ -11265,78 +11337,6 @@
         "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
         "wallpaperQuery": "Deep Space Nebula 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
         "pinterestAesthetic": "Deep Space Nebula — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
-      },
-      "status": "queued",
-      "assignedArticleHandle": null
-    },
-    {
-      "clusterId": "kw_retro_synthwave_graphic_t_shirts_1",
-      "subCollectionHandle": "retro-synthwave-graphic-t-shirts",
-      "subCollectionUrl": "/collections/retro-synthwave-graphic-t-shirts",
-      "productType": "Graphic T-Shirts",
-      "themeTag": "Retro & Vintage",
-      "primaryKeyword": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
-      "keyword": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
-      "shortAnchor": "80s Retro Synthwave Sunset Unisex Graphic T-Shirt",
-      "recommendedSlug": "best-heavyweight-80s-retro-synthwave-sunset-graphic-t-shirt-for-anime-an",
-      "recommendedTitle": "Best Heavyweight 80s Retro Synthwave Sunset Graphic T-Shirt for Anime and Gaming Convention Fit: Dual CM & Inch Sizing & Spec Guide (2026)",
-      "collectionAnchorText": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
-      "targetUrl": "https://printswithpassion.com/collections/retro-synthwave-graphic-t-shirts",
-      "intentType": "transactional_setup_comparison",
-      "opportunityScore": 89,
-      "transactionalScore": 98,
-      "competitionScore": 18,
-      "forecastEstimates": {
-        "estimatedMonthlyVolume": 739,
-        "keywordDifficultyScore": 18,
-        "estimatedDaysToRank": 30,
-        "substrateMultiplier": 1,
-        "volumeRealizationMultiplier": 1
-      },
-      "scores": {
-        "compositeOpportunityScore": 89,
-        "demandScore": 86,
-        "transactionalIntentScore": 98,
-        "lowCompetitionScore": 82
-      },
-      "secondaryLongTailModifiers": [
-        "heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
-        "70s groovy mid century oversized graphic tee for everyday studio streetwear",
-        "washable archival 80s retro synthwave sunset graphic t-shirt with free tracked shipping"
-      ],
-      "buyerFaqQuestions": [
-        {
-          "question": "What size Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts fits best for anime and gaming convention fit in CM and Inches?",
-          "answerHint": "Our Unisex S–3XL Regular & Boxy Oversized Fit and undefined studio proportions are engineered to span 60%–75% of your anime and gaming convention fit footprint, ensuring balanced visual symmetry and ergonomic clearance."
-        },
-        {
-          "question": "How does Prints With Passion construct its Retro & Vintage Graphic T-Shirts?",
-          "answerHint": "Every piece uses 100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99) with 100-year archival UV/sublimation pigments that resist fading and edge wear."
-        },
-        {
-          "question": "Can I pair Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts with matching room decor and save on multi-item studio sets?",
-          "answerHint": "Yes—apply code STUDIO15 at checkout for 15% OFF any 2+ coordinated substrates (Desk Mats, Stretched Canvas Wall Art, Cushions, Throws & Apparel) with 100% Free Tracked UK, US, CA, AU & EU Delivery."
-        }
-      ],
-      "serpGapAnalysis": {
-        "engine": "structural_heuristic",
-        "exactModifierTitleMatchesInTop10": 0,
-        "weakForumCountInTop10": 0,
-        "missingDualUnitSpecsInSerp": true,
-        "missingMaterialGsmOrThicknessInSerp": true,
-        "topCompetitorTitles": [],
-        "competitorWeaknesses": [
-          "0/10 competing titles combine \"80s retro synthwave sunset\" + \"for anime and gaming convention fit\" with dual CM & Inch sizing tables",
-          "Top forum/marketplace threads omit 100% combed ring-spun heavyweight cotton construction specs"
-        ]
-      },
-      "modifiers": {
-        "size": "Unisex S–3XL Regular & Boxy Oversized Fit & undefined",
-        "hardwareCompatibility": "Anime and Gaming Convention Fit",
-        "roomPlacement": "Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
-        "wallpaperQuery": "80s Retro Synthwave Sunset 4K UHD Streetwear & Graphic Art Desktop Wallpaper",
-        "pinterestAesthetic": "80s Retro Synthwave Sunset — Unisex Heavyweight Streetwear Outfit & Everyday Graphic Aesthetic",
         "gmcTitleBadge": "Unisex Heavyweight Ring-Spun Graphic Cotton T-Shirt (S–3XL)"
       },
       "status": "queued",
@@ -14054,7 +14054,7 @@
       "plannedBlogSlug": "/blogs/news/best-90x40-japanese-ukiyo-e-desk-mat-for-walnut-desk",
       "serpWeakSpotsInTop10": 0,
       "exactTitleMatchesInTop10": 0,
-      "compositeScore": 90.4
+      "compositeScore": 91.4
     },
     {
       "query": "best 80x40 mecha sci-fi neon extended mouse pad for ultrawide monitor desk",
@@ -14068,7 +14068,7 @@
       "plannedBlogSlug": "/blogs/news/best-80x40-mecha-sci-fi-neon-extended-mouse-pad-for-ultrawide-monitor-de",
       "serpWeakSpotsInTop10": 4,
       "exactTitleMatchesInTop10": 0,
-      "compositeScore": 90.2
+      "compositeScore": 91.2
     },
     {
       "query": "best japanese ukiyo-e heavyweight graphic hoodie vs generic heavyweight graphic hoodie for autumn winter streetwear layering",
@@ -14082,7 +14082,7 @@
       "plannedBlogSlug": "/blogs/news/best-japanese-ukiyo-e-heavyweight-graphic-hoodie-vs-generic-heavyweight",
       "serpWeakSpotsInTop10": 4,
       "exactTitleMatchesInTop10": 0,
-      "compositeScore": 90.2
+      "compositeScore": 91.2
     },
     {
       "query": "best cyberpunk neon city heavyweight graphic hoodie vs generic heavyweight graphic hoodie for cozy gaming studio loungewear",
@@ -14138,7 +14138,7 @@
       "plannedBlogSlug": "/blogs/news/best-heavyweight-japanese-ukiyo-e-graphic-t-shirt-for-streetwear-layerin",
       "serpWeakSpotsInTop10": 0,
       "exactTitleMatchesInTop10": 0,
-      "compositeScore": 89
+      "compositeScore": 90
     },
     {
       "query": "best heavyweight cyberpunk neon city graphic t-shirt for relaxed boxy summer fit",
@@ -14152,21 +14152,21 @@
       "plannedBlogSlug": "/blogs/news/best-heavyweight-cyberpunk-neon-city-graphic-t-shirt-for-relaxed-boxy-su",
       "serpWeakSpotsInTop10": 0,
       "exactTitleMatchesInTop10": 0,
-      "compositeScore": 89
+      "compositeScore": 90
     },
     {
-      "query": "best heavyweight deep space nebula graphic t-shirt for everyday studio streetwear",
-      "subCollectionHandle": "space-galaxy-graphic-t-shirts",
+      "query": "best heavyweight 80s retro synthwave sunset graphic t-shirt for anime and gaming convention fit",
+      "subCollectionHandle": "retro-synthwave-graphic-t-shirts",
       "productType": "Graphic T-Shirts",
       "recommendedDimension": "Unisex S–3XL Regular & Boxy Oversized Fit or undefined",
       "materialAndPriceSpec": "100% combed ring-spun heavyweight cotton (S–3XL) w/ breathable archival DTG print (£21.99–£29.99)",
-      "targetCollectionUrl": "/collections/space-galaxy-graphic-t-shirts",
-      "targetCollectionAnchor": "Space, Astronaut, Nebula & Celestial Graphic Cotton T-Shirts",
-      "matchingBlogUrl": "/blogs/news/how-to-style-unisex-graphic-t-shirts-uk-fit-guide",
-      "plannedBlogSlug": "/blogs/news/best-heavyweight-deep-space-nebula-graphic-t-shirt-for-everyday-studio-s",
+      "targetCollectionUrl": "/collections/retro-synthwave-graphic-t-shirts",
+      "targetCollectionAnchor": "Retro 80s Synthwave, Vintage & Abstract Graphic Cotton T-Shirts",
+      "matchingBlogUrl": "/blogs/news/vintage-japanese-anime-kaiju-graphic-t-shirts-uk",
+      "plannedBlogSlug": "/blogs/news/best-heavyweight-80s-retro-synthwave-sunset-graphic-t-shirt-for-anime-an",
       "serpWeakSpotsInTop10": 0,
       "exactTitleMatchesInTop10": 0,
-      "compositeScore": 89
+      "compositeScore": 90
     }
   ]
 }

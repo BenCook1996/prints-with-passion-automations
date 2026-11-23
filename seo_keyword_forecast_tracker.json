@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "2.1.0-closed-loop",
-  "updatedAt": "2026-11-16T14:23:37.966Z",
+  "updatedAt": "2026-11-23T16:57:39.497Z",
   "trackingCadence": "bi-weekly",
   "storeDomain": "https://printswithpassion.com",
   "storewideMetrics": {
@@ -73,22 +73,30 @@
           "ctr": 0.0326,
           "averagePosition": 16.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 92,
         "clicks28d": 3,
         "ctr": 0.0326,
         "averagePosition": 16.8,
-        "ga4Views28d": 42,
+        "ga4Views28d": 68,
         "ga4AddToCarts28d": 0,
         "ga4Purchases28d": 0,
         "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-001-BASELINE",
@@ -103,7 +111,7 @@
             "averagePosition": 18.4
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
@@ -138,7 +146,7 @@
             "ga4Purchases28d": 2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
@@ -153,11 +161,33 @@
             "deltaImpressions28d": 0
           },
           "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-001-57533",
+          "timestamp": "2026-11-23T16:57:37.533Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 16.8) Competitor Spec Title/Meta upgrade for \"xxl desk mat uk\"",
+          "previousTitle": "XXL Gaming Desk Mats & Large Mouse Pads | 4mm Stitched",
+          "newTitle": "Desk Mats XXL Desk Mats | 900x400x4mm Stitched Pad",
+          "previousMeta": "Precision XXL gaming desk mats engineered with 4mm non-slip rubber, 360° anti-fray stitched borders & smooth glide cloth. Free tracked UK delivery.",
+          "newMeta": "Explore curated Desk Mats desk mats: 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth. Free UK delivery.",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-23",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": null,
+          "attributionDelta": null,
+          "verdict": "PENDING_7D_WINDOW"
         }
       ],
-      "lastModifiedAt": "2026-11-08T17:29:12.495Z",
+      "lastModifiedAt": "2026-11-23T16:57:37.533Z",
       "lastModifiedType": "TITLE_META_CTR_REWRITE",
-      "lastTitleChangeAt": "2026-11-08T17:29:12.495Z"
+      "lastTitleChangeAt": "2026-11-23T16:57:37.533Z"
     },
     {
       "id": "KW-002",
@@ -218,22 +248,30 @@
           "ctr": 0.0326,
           "averagePosition": 16.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 92,
         "clicks28d": 3,
         "ctr": 0.0326,
         "averagePosition": 16.8,
-        "ga4Views28d": 42,
+        "ga4Views28d": 68,
         "ga4AddToCarts28d": 0,
         "ga4Purchases28d": 0,
         "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-002-BASELINE",
@@ -248,7 +286,7 @@
             "averagePosition": 16.2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
@@ -283,7 +321,7 @@
             "ga4Purchases28d": 2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
@@ -298,11 +336,33 @@
             "deltaImpressions28d": 0
           },
           "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-002-57533",
+          "timestamp": "2026-11-23T16:57:37.533Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 16.8) Competitor Spec Title/Meta upgrade for \"xxl desk mat uk\"",
+          "previousTitle": "XXL Gaming Desk Mats & Large Mouse Pads | 4mm Stitched",
+          "newTitle": "Desk Mats XXL Desk Mats | 900x400x4mm Stitched Pad",
+          "previousMeta": "Precision XXL gaming desk mats engineered with 4mm non-slip rubber, 360° anti-fray stitched borders & smooth glide cloth. Free tracked UK delivery.",
+          "newMeta": "Explore curated Desk Mats desk mats: 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth. Free UK delivery.",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-23",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": null,
+          "attributionDelta": null,
+          "verdict": "PENDING_7D_WINDOW"
         }
       ],
-      "lastModifiedAt": "2026-11-08T17:29:12.495Z",
+      "lastModifiedAt": "2026-11-23T16:57:37.533Z",
       "lastModifiedType": "TITLE_META_CTR_REWRITE",
-      "lastTitleChangeAt": "2026-11-08T17:29:12.495Z"
+      "lastTitleChangeAt": "2026-11-23T16:57:37.533Z"
     },
     {
       "id": "KW-003",
@@ -363,11 +423,19 @@
           "ctr": 0.0741,
           "averagePosition": 9.6,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 54,
+          "clicks28d": 4,
+          "ctr": 0.0741,
+          "averagePosition": 9.6,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 54,
         "clicks28d": 4,
         "ctr": 0.0741,
@@ -378,7 +446,7 @@
         "ga4RevenueGbp28d": 39.99
       },
       "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-003-BASELINE",
@@ -393,7 +461,7 @@
             "averagePosition": 11.2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 54,
             "clicks28d": 4,
             "ctr": 0.0741,
@@ -428,7 +496,7 @@
             "ga4Purchases28d": 1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 54,
             "clicks28d": 4,
             "ctr": 0.0741,
@@ -507,11 +575,19 @@
           "ctr": 0.0556,
           "averagePosition": 8.2,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 108,
+          "clicks28d": 6,
+          "ctr": 0.0556,
+          "averagePosition": 8.2,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 108,
         "clicks28d": 6,
         "ctr": 0.0556,
@@ -522,7 +598,7 @@
         "ga4RevenueGbp28d": 63.98
       },
       "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-004-BASELINE",
@@ -537,7 +613,7 @@
             "averagePosition": 9.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 108,
             "clicks28d": 6,
             "ctr": 0.0556,
@@ -572,7 +648,7 @@
             "ga4Purchases28d": 1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 108,
             "clicks28d": 6,
             "ctr": 0.0556,
@@ -587,11 +663,33 @@
             "deltaImpressions28d": 0
           },
           "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-004-56927",
+          "timestamp": "2026-11-23T16:57:36.927Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 8.2) summary/CTR upgrade for \"desk mat thickness 2mm vs 4mm\"",
+          "previousTitle": "Desk Mat Thickness Guide: 2mm vs 4mm Compared",
+          "newTitle": "Desk Mat Thickness Guide: 2mm vs 4mm Compared",
+          "previousMeta": "Explore 2mm, 3mm, 4mm, and 5mm desk mat thickness comparison for UK workstations. Acoustic dampening, wrist comfort, and mouse sensor precision tested.",
+          "newMeta": "Desk Mat Thickness 2mm Vs 4mm engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm & ",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-23",
+            "impressions28d": 108,
+            "clicks28d": 6,
+            "ctr": 0.0556,
+            "averagePosition": 8.2,
+            "ga4AddToCarts28d": 3,
+            "ga4Purchases28d": 1
+          },
+          "postChangeSnapshot": null,
+          "attributionDelta": null,
+          "verdict": "PENDING_7D_WINDOW"
         }
       ],
-      "lastModifiedAt": "2026-11-08T17:29:12.020Z",
+      "lastModifiedAt": "2026-11-23T16:57:36.927Z",
       "lastModifiedType": "TITLE_META_CTR_REWRITE",
-      "lastTitleChangeAt": "2026-11-08T17:29:12.020Z"
+      "lastTitleChangeAt": "2026-11-23T16:57:36.927Z"
     },
     {
       "id": "KW-005",
@@ -652,22 +750,30 @@
           "ctr": 0.0435,
           "averagePosition": 12.9,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 3,
+          "clicks28d": 0,
+          "ctr": 0,
+          "averagePosition": 49.67,
+          "notes": "Early Indexing (>Pos 25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
-        "impressions28d": 46,
-        "clicks28d": 2,
-        "ctr": 0.0435,
-        "averagePosition": 12.9,
+        "checkedAt": "2026-11-23",
+        "impressions28d": 3,
+        "clicks28d": 0,
+        "ctr": 0,
+        "averagePosition": 49.67,
         "ga4Views28d": 54,
         "ga4AddToCarts28d": 5,
         "ga4Purchases28d": 1,
         "ga4RevenueGbp28d": 39.99
       },
-      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
-      "titleCooldownActive": true,
+      "strikeZoneStatus": "Early Indexing (>Pos 25)",
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-005-BASELINE",
@@ -682,21 +788,21 @@
             "averagePosition": 14.5
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
-            "impressions28d": 46,
-            "clicks28d": 2,
-            "ctr": 0.0435,
-            "averagePosition": 12.9,
+            "checkedAt": "2026-11-23",
+            "impressions28d": 3,
+            "clicks28d": 0,
+            "ctr": 0,
+            "averagePosition": 49.67,
             "ga4AddToCarts28d": 5,
             "ga4Purchases28d": 1
           },
           "attributionDelta": {
-            "deltaPosition": 1.6,
-            "deltaCtrBp": 172,
-            "deltaClicks28d": 1,
-            "deltaImpressions28d": 8
+            "deltaPosition": -35.17,
+            "deltaCtrBp": -263,
+            "deltaClicks28d": -1,
+            "deltaImpressions28d": -35
           },
-          "verdict": "WIN — Rank/CTR Improved"
+          "verdict": "ITERATE — Needs Internal Link & Spec Boost"
         },
         {
           "eventId": "EVT-KW-005-56092",
@@ -717,21 +823,21 @@
             "ga4Purchases28d": 1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
-            "impressions28d": 46,
-            "clicks28d": 2,
-            "ctr": 0.0435,
-            "averagePosition": 12.9,
+            "checkedAt": "2026-11-23",
+            "impressions28d": 3,
+            "clicks28d": 0,
+            "ctr": 0,
+            "averagePosition": 49.67,
             "ga4AddToCarts28d": 5,
             "ga4Purchases28d": 1
           },
           "attributionDelta": {
-            "deltaPosition": 0,
-            "deltaCtrBp": 0,
-            "deltaClicks28d": 0,
-            "deltaImpressions28d": 0
+            "deltaPosition": -36.77,
+            "deltaCtrBp": -435,
+            "deltaClicks28d": -2,
+            "deltaImpressions28d": -43
           },
-          "verdict": "HOLD — Accumulating Impressions"
+          "verdict": "ITERATE — Needs Internal Link & Spec Boost"
         }
       ],
       "lastModifiedAt": "2026-11-09T03:37:36.092Z",
@@ -797,22 +903,30 @@
           "ctr": 0.0326,
           "averagePosition": 16.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 92,
         "clicks28d": 3,
         "ctr": 0.0326,
         "averagePosition": 16.8,
-        "ga4Views28d": 42,
+        "ga4Views28d": 68,
         "ga4AddToCarts28d": 0,
         "ga4Purchases28d": 0,
         "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-006-BASELINE",
@@ -827,7 +941,7 @@
             "averagePosition": 21
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
@@ -862,7 +976,7 @@
             "ga4Purchases28d": 2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
@@ -877,11 +991,33 @@
             "deltaImpressions28d": 0
           },
           "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-006-57533",
+          "timestamp": "2026-11-23T16:57:37.533Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 16.8) Competitor Spec Title/Meta upgrade for \"xxl desk mat uk\"",
+          "previousTitle": "XXL Gaming Desk Mats & Large Mouse Pads | 4mm Stitched",
+          "newTitle": "Desk Mats XXL Desk Mats | 900x400x4mm Stitched Pad",
+          "previousMeta": "Precision XXL gaming desk mats engineered with 4mm non-slip rubber, 360° anti-fray stitched borders & smooth glide cloth. Free tracked UK delivery.",
+          "newMeta": "Explore curated Desk Mats desk mats: 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth. Free UK delivery.",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-23",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": null,
+          "attributionDelta": null,
+          "verdict": "PENDING_7D_WINDOW"
         }
       ],
-      "lastModifiedAt": "2026-11-08T17:29:12.495Z",
+      "lastModifiedAt": "2026-11-23T16:57:37.533Z",
       "lastModifiedType": "TITLE_META_CTR_REWRITE",
-      "lastTitleChangeAt": "2026-11-08T17:29:12.495Z"
+      "lastTitleChangeAt": "2026-11-23T16:57:37.533Z"
     },
     {
       "id": "KW-007",
@@ -942,16 +1078,24 @@
           "ctr": 0.0253,
           "averagePosition": 21.4,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 79,
+          "clicks28d": 2,
+          "ctr": 0.0253,
+          "averagePosition": 21.4,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 79,
         "clicks28d": 2,
         "ctr": 0.0253,
         "averagePosition": 21.4,
-        "ga4Views28d": 182,
+        "ga4Views28d": 283,
         "ga4AddToCarts28d": 0,
         "ga4Purchases28d": 0,
         "ga4RevenueGbp28d": 0
@@ -972,7 +1116,7 @@
             "averagePosition": 24.5
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 79,
             "clicks28d": 2,
             "ctr": 0.0253,
@@ -1050,11 +1194,19 @@
           "ctr": 0.0492,
           "averagePosition": 10.8,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 61,
+          "clicks28d": 3,
+          "ctr": 0.0492,
+          "averagePosition": 10.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 61,
         "clicks28d": 3,
         "ctr": 0.0492,
@@ -1065,7 +1217,7 @@
         "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-008-BASELINE",
@@ -1080,7 +1232,7 @@
             "averagePosition": 12.1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 61,
             "clicks28d": 3,
             "ctr": 0.0492,
@@ -1115,7 +1267,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 61,
             "clicks28d": 3,
             "ctr": 0.0492,
@@ -1130,11 +1282,33 @@
             "deltaImpressions28d": 0
           },
           "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-008-59497",
+          "timestamp": "2026-11-23T16:57:39.497Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 10.8) summary/CTR upgrade for \"large canvas wall art above sofa\"",
+          "previousTitle": "How to Choose the Right Canvas Wall Art Size Above a UK Sofa or Bed",
+          "newTitle": "How to Choose the Right Canvas Wall Art Size Above a UK Sofa or Bed",
+          "previousMeta": "Complete UK interior design sizing guide for hanging 24×16 inch (60×40 cm) and 30×20 inch (76×50 cm) stretched canvas wall art above UK sofas and beds.",
+          "newMeta": "Large Canvas Wall Art Above Sofa printed on 400gsm matte cotton-poly canvas over 1.25\" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sofa/bed width",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-23",
+            "impressions28d": 61,
+            "clicks28d": 3,
+            "ctr": 0.0492,
+            "averagePosition": 10.8,
+            "ga4AddToCarts28d": 2,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": null,
+          "attributionDelta": null,
+          "verdict": "PENDING_7D_WINDOW"
         }
       ],
-      "lastModifiedAt": "2026-11-08T17:29:14.622Z",
+      "lastModifiedAt": "2026-11-23T16:57:39.497Z",
       "lastModifiedType": "TITLE_META_CTR_REWRITE",
-      "lastTitleChangeAt": "2026-11-08T17:29:14.622Z"
+      "lastTitleChangeAt": "2026-11-23T16:57:39.497Z"
     },
     {
       "id": "KW-009",
@@ -1194,11 +1368,19 @@
           "ctr": 0.0556,
           "averagePosition": 6.8,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 72,
+          "clicks28d": 4,
+          "ctr": 0.0556,
+          "averagePosition": 6.8,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 72,
         "clicks28d": 4,
         "ctr": 0.0556,
@@ -1209,7 +1391,7 @@
         "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-009-BASELINE",
@@ -1224,7 +1406,7 @@
             "averagePosition": 7.4
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 72,
             "clicks28d": 4,
             "ctr": 0.0556,
@@ -1259,7 +1441,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 72,
             "clicks28d": 4,
             "ctr": 0.0556,
@@ -1274,11 +1456,33 @@
             "deltaImpressions28d": 0
           },
           "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-009-58712",
+          "timestamp": "2026-11-23T16:57:38.712Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 6.8) summary/CTR upgrade for \"canvas wall art hanging height 57 inch rule\"",
+          "previousTitle": "Canvas Wall Art Placement Height Guide UK: The 57-Inch Rule",
+          "newTitle": "Canvas Wall Art Placement Height Guide UK: The 57-Inch Rule",
+          "previousMeta": "Master the 57-inch (145 cm) gallery hanging rule for UK hallways, home offices &amp; bedrooms. Exact CM &amp; inch heights for 60x40cm and 76x50cm canvases.",
+          "newMeta": "Canvas Wall Art Hanging Height 57 Inch Rule printed on 400gsm matte cotton-poly canvas over 1.25\" (32mm) kiln-dried pine stretcher bars. Sized for 60%–75% sof",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-23",
+            "impressions28d": 72,
+            "clicks28d": 4,
+            "ctr": 0.0556,
+            "averagePosition": 6.8,
+            "ga4AddToCarts28d": 1,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": null,
+          "attributionDelta": null,
+          "verdict": "PENDING_7D_WINDOW"
         }
       ],
-      "lastModifiedAt": "2026-11-08T17:29:14.113Z",
+      "lastModifiedAt": "2026-11-23T16:57:38.712Z",
       "lastModifiedType": "TITLE_META_CTR_REWRITE",
-      "lastTitleChangeAt": "2026-11-08T17:29:14.113Z"
+      "lastTitleChangeAt": "2026-11-23T16:57:38.712Z"
     },
     {
       "id": "KW-010",
@@ -1339,22 +1543,30 @@
           "ctr": 0.0256,
           "averagePosition": 14.2,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 39,
+          "clicks28d": 1,
+          "ctr": 0.0256,
+          "averagePosition": 14.2,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 39,
         "clicks28d": 1,
         "ctr": 0.0256,
         "averagePosition": 14.2,
-        "ga4Views28d": 48,
+        "ga4Views28d": 58,
         "ga4AddToCarts28d": 0,
         "ga4Purchases28d": 0,
         "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-010-BASELINE",
@@ -1369,7 +1581,7 @@
             "averagePosition": 15.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 39,
             "clicks28d": 1,
             "ctr": 0.0256,
@@ -1404,7 +1616,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 39,
             "clicks28d": 1,
             "ctr": 0.0256,
@@ -1484,11 +1696,19 @@
           "ctr": 0.0417,
           "averagePosition": 8.9,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 48,
+          "clicks28d": 2,
+          "ctr": 0.0417,
+          "averagePosition": 8.9,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 48,
         "clicks28d": 2,
         "ctr": 0.0417,
@@ -1499,7 +1719,7 @@
         "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-011-BASELINE",
@@ -1514,7 +1734,7 @@
             "averagePosition": 8.9
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 48,
             "clicks28d": 2,
             "ctr": 0.0417,
@@ -1549,7 +1769,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 48,
             "clicks28d": 2,
             "ctr": 0.0417,
@@ -1630,11 +1850,19 @@
           "ctr": 0.0494,
           "averagePosition": 9.1,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 81,
+          "clicks28d": 4,
+          "ctr": 0.0494,
+          "averagePosition": 9.1,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 81,
         "clicks28d": 4,
         "ctr": 0.0494,
@@ -1645,7 +1873,7 @@
         "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Page-1 Winner (Pos 4–10 Strike-Zone)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-012-BASELINE",
@@ -1660,7 +1888,7 @@
             "averagePosition": 9.1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 81,
             "clicks28d": 4,
             "ctr": 0.0494,
@@ -1695,7 +1923,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 81,
             "clicks28d": 4,
             "ctr": 0.0494,
@@ -1710,11 +1938,33 @@
             "deltaImpressions28d": 0
           },
           "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-012-58184",
+          "timestamp": "2026-11-23T16:57:38.184Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone Buyer Guide (Pos 9.1) summary/CTR upgrade for \"how to clean stitched desk mat\"",
+          "previousTitle": "How to Clean & Wash an Extended Gaming Desk Mat Without Fraying",
+          "newTitle": "How to Clean & Wash an Extended Gaming Desk Mat Without Fraying",
+          "previousMeta": "Step-by-step UK guide to hand-washing and deep cleaning XL &amp; XXL cloth gaming desk mats safely without fraying stitched edges or ruining rubber backing.",
+          "newMeta": "How To Clean Stitched Desk Mat engineered with a 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth in 90×40cm, 80×30cm &",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-23",
+            "impressions28d": 81,
+            "clicks28d": 4,
+            "ctr": 0.0494,
+            "averagePosition": 9.1,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": null,
+          "attributionDelta": null,
+          "verdict": "PENDING_7D_WINDOW"
         }
       ],
-      "lastModifiedAt": "2026-11-08T17:29:13.662Z",
+      "lastModifiedAt": "2026-11-23T16:57:38.184Z",
       "lastModifiedType": "TITLE_META_CTR_REWRITE",
-      "lastTitleChangeAt": "2026-11-08T17:29:13.662Z"
+      "lastTitleChangeAt": "2026-11-23T16:57:38.184Z"
     },
     {
       "id": "KW-013",
@@ -1775,22 +2025,30 @@
           "ctr": 0.0326,
           "averagePosition": 16.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 92,
+          "clicks28d": 3,
+          "ctr": 0.0326,
+          "averagePosition": 16.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 92,
         "clicks28d": 3,
         "ctr": 0.0326,
         "averagePosition": 16.8,
-        "ga4Views28d": 42,
+        "ga4Views28d": 68,
         "ga4AddToCarts28d": 0,
         "ga4Purchases28d": 0,
         "ga4RevenueGbp28d": 0
       },
       "strikeZoneStatus": "Climbing (Pos 16–25)",
-      "titleCooldownActive": true,
+      "titleCooldownActive": false,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-013-BASELINE",
@@ -1805,7 +2063,7 @@
             "averagePosition": 19.3
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
@@ -1840,7 +2098,7 @@
             "ga4Purchases28d": 2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 92,
             "clicks28d": 3,
             "ctr": 0.0326,
@@ -1855,11 +2113,33 @@
             "deltaImpressions28d": 0
           },
           "verdict": "HOLD — Accumulating Impressions"
+        },
+        {
+          "eventId": "EVT-KW-013-57533",
+          "timestamp": "2026-11-23T16:57:37.533Z",
+          "changeType": "TITLE_META_CTR_REWRITE",
+          "summary": "Strike-Zone (Pos 16.8) Competitor Spec Title/Meta upgrade for \"xxl desk mat uk\"",
+          "previousTitle": "XXL Gaming Desk Mats & Large Mouse Pads | 4mm Stitched",
+          "newTitle": "Desk Mats XXL Desk Mats | 900x400x4mm Stitched Pad",
+          "previousMeta": "Precision XXL gaming desk mats engineered with 4mm non-slip rubber, 360° anti-fray stitched borders & smooth glide cloth. Free tracked UK delivery.",
+          "newMeta": "Explore curated Desk Mats desk mats: 4mm high-density natural rubber base, 360° anti-fray stitched edges & micro-woven cloth. Free UK delivery.",
+          "preChangeSnapshot": {
+            "recordedAt": "2026-11-23",
+            "impressions28d": 92,
+            "clicks28d": 3,
+            "ctr": 0.0326,
+            "averagePosition": 16.8,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "postChangeSnapshot": null,
+          "attributionDelta": null,
+          "verdict": "PENDING_7D_WINDOW"
         }
       ],
-      "lastModifiedAt": "2026-11-08T17:29:12.495Z",
+      "lastModifiedAt": "2026-11-23T16:57:37.533Z",
       "lastModifiedType": "TITLE_META_CTR_REWRITE",
-      "lastTitleChangeAt": "2026-11-08T17:29:12.495Z"
+      "lastTitleChangeAt": "2026-11-23T16:57:37.533Z"
     },
     {
       "id": "KW-014",
@@ -1919,11 +2199,19 @@
           "ctr": 0.0278,
           "averagePosition": 11.4,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 36,
+          "clicks28d": 1,
+          "ctr": 0.0278,
+          "averagePosition": 11.4,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 36,
         "clicks28d": 1,
         "ctr": 0.0278,
@@ -1949,7 +2237,7 @@
             "averagePosition": 11.4
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -1984,7 +2272,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -2063,11 +2351,19 @@
           "ctr": 0.0357,
           "averagePosition": 13.8,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 28,
+          "clicks28d": 1,
+          "ctr": 0.0357,
+          "averagePosition": 13.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 28,
         "clicks28d": 1,
         "ctr": 0.0357,
@@ -2093,7 +2389,7 @@
             "averagePosition": 13.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 28,
             "clicks28d": 1,
             "ctr": 0.0357,
@@ -2128,7 +2424,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 28,
             "clicks28d": 1,
             "ctr": 0.0357,
@@ -2208,22 +2504,30 @@
           "ctr": 0.0357,
           "averagePosition": 14.8,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 6,
+          "clicks28d": 0,
+          "ctr": 0,
+          "averagePosition": 66.17,
+          "notes": "Early Indexing (>Pos 25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
-        "impressions28d": 28,
-        "clicks28d": 1,
-        "ctr": 0.0357,
-        "averagePosition": 14.8,
-        "ga4Views28d": 18,
+        "checkedAt": "2026-11-23",
+        "impressions28d": 6,
+        "clicks28d": 0,
+        "ctr": 0,
+        "averagePosition": 66.17,
+        "ga4Views28d": 30,
         "ga4AddToCarts28d": 0,
         "ga4Purchases28d": 0,
         "ga4RevenueGbp28d": 0
       },
-      "strikeZoneStatus": "Strike-Zone (Pos 11–15 Page-2 Top)",
-      "titleCooldownActive": false,
+      "strikeZoneStatus": "Early Indexing (>Pos 25)",
+      "titleCooldownActive": true,
       "optimizationEvents": [
         {
           "eventId": "EVT-KW-016-BASELINE",
@@ -2238,21 +2542,21 @@
             "averagePosition": 17.1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
-            "impressions28d": 28,
-            "clicks28d": 1,
-            "ctr": 0.0357,
-            "averagePosition": 14.8,
+            "checkedAt": "2026-11-23",
+            "impressions28d": 6,
+            "clicks28d": 0,
+            "ctr": 0,
+            "averagePosition": 66.17,
             "ga4AddToCarts28d": 0,
             "ga4Purchases28d": 0
           },
           "attributionDelta": {
-            "deltaPosition": 2.3,
-            "deltaCtrBp": 357,
-            "deltaClicks28d": 1,
-            "deltaImpressions28d": 6
+            "deltaPosition": -49.07,
+            "deltaCtrBp": 0,
+            "deltaClicks28d": 0,
+            "deltaImpressions28d": -16
           },
-          "verdict": "WIN — Rank/CTR Improved"
+          "verdict": "ITERATE — Needs Internal Link & Spec Boost"
         },
         {
           "eventId": "EVT-KW-016-17966",
@@ -2272,9 +2576,22 @@
             "ga4AddToCarts28d": 0,
             "ga4Purchases28d": 0
           },
-          "postChangeSnapshot": null,
-          "attributionDelta": null,
-          "verdict": "PENDING_7D_WINDOW"
+          "postChangeSnapshot": {
+            "checkedAt": "2026-11-23",
+            "impressions28d": 6,
+            "clicks28d": 0,
+            "ctr": 0,
+            "averagePosition": 66.17,
+            "ga4AddToCarts28d": 0,
+            "ga4Purchases28d": 0
+          },
+          "attributionDelta": {
+            "deltaPosition": -51.37,
+            "deltaCtrBp": -357,
+            "deltaClicks28d": -1,
+            "deltaImpressions28d": -22
+          },
+          "verdict": "ITERATE — Needs Internal Link & Spec Boost"
         }
       ],
       "lastModifiedAt": "2026-11-16T14:23:37.966Z",
@@ -2340,11 +2657,19 @@
           "ctr": 0.0278,
           "averagePosition": 19.8,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 36,
+          "clicks28d": 1,
+          "ctr": 0.0278,
+          "averagePosition": 19.8,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 36,
         "clicks28d": 1,
         "ctr": 0.0278,
@@ -2370,7 +2695,7 @@
             "averagePosition": 22.3
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -2405,7 +2730,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -2440,7 +2765,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 36,
             "clicks28d": 1,
             "ctr": 0.0278,
@@ -2518,11 +2843,19 @@
           "ctr": 0.0256,
           "averagePosition": 10.6,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 39,
+          "clicks28d": 1,
+          "ctr": 0.0256,
+          "averagePosition": 10.6,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 39,
         "clicks28d": 1,
         "ctr": 0.0256,
@@ -2548,7 +2881,7 @@
             "averagePosition": 10.6
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 39,
             "clicks28d": 1,
             "ctr": 0.0256,
@@ -2583,7 +2916,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 39,
             "clicks28d": 1,
             "ctr": 0.0256,
@@ -2662,11 +2995,19 @@
           "ctr": 0.0455,
           "averagePosition": 11.8,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 44,
+          "clicks28d": 2,
+          "ctr": 0.0455,
+          "averagePosition": 11.8,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 44,
         "clicks28d": 2,
         "ctr": 0.0455,
@@ -2692,7 +3033,7 @@
             "averagePosition": 11.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 44,
             "clicks28d": 2,
             "ctr": 0.0455,
@@ -2768,11 +3109,19 @@
           "ctr": 0.04,
           "averagePosition": 14.1,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 25,
+          "clicks28d": 1,
+          "ctr": 0.04,
+          "averagePosition": 14.1,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 25,
         "clicks28d": 1,
         "ctr": 0.04,
@@ -2798,7 +3147,7 @@
             "averagePosition": 14.1
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 25,
             "clicks28d": 1,
             "ctr": 0.04,
@@ -2874,16 +3223,24 @@
           "ctr": 0.0253,
           "averagePosition": 21.4,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 79,
+          "clicks28d": 2,
+          "ctr": 0.0253,
+          "averagePosition": 21.4,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 79,
         "clicks28d": 2,
         "ctr": 0.0253,
         "averagePosition": 21.4,
-        "ga4Views28d": 182,
+        "ga4Views28d": 283,
         "ga4AddToCarts28d": 0,
         "ga4Purchases28d": 0,
         "ga4RevenueGbp28d": 0
@@ -2904,7 +3261,7 @@
             "averagePosition": 26.8
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 79,
             "clicks28d": 2,
             "ctr": 0.0253,
@@ -2980,11 +3337,19 @@
           "ctr": 0.0476,
           "averagePosition": 8.5,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 21,
+          "clicks28d": 1,
+          "ctr": 0.0476,
+          "averagePosition": 8.5,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 21,
         "clicks28d": 1,
         "ctr": 0.0476,
@@ -3010,7 +3375,7 @@
             "averagePosition": 8.5
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 21,
             "clicks28d": 1,
             "ctr": 0.0476,
@@ -3086,11 +3451,19 @@
           "ctr": 0.0286,
           "averagePosition": 17.5,
           "notes": "Climbing (Pos 16–25)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 35,
+          "clicks28d": 1,
+          "ctr": 0.0286,
+          "averagePosition": 17.5,
+          "notes": "Climbing (Pos 16–25)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 35,
         "clicks28d": 1,
         "ctr": 0.0286,
@@ -3116,7 +3489,7 @@
             "averagePosition": 17.5
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 35,
             "clicks28d": 1,
             "ctr": 0.0286,
@@ -3151,7 +3524,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 35,
             "clicks28d": 1,
             "ctr": 0.0286,
@@ -3186,7 +3559,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 35,
             "clicks28d": 1,
             "ctr": 0.0286,
@@ -3264,11 +3637,19 @@
           "ctr": 0.0667,
           "averagePosition": 12.3,
           "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 15,
+          "clicks28d": 1,
+          "ctr": 0.0667,
+          "averagePosition": 12.3,
+          "notes": "Strike-Zone (Pos 11–15 Page-2 Top)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 15,
         "clicks28d": 1,
         "ctr": 0.0667,
@@ -3294,7 +3675,7 @@
             "averagePosition": 12.3
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 15,
             "clicks28d": 1,
             "ctr": 0.0667,
@@ -3370,11 +3751,19 @@
           "ctr": 0.0588,
           "averagePosition": 9.4,
           "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
+        },
+        {
+          "checkedAt": "2026-11-23",
+          "impressions28d": 34,
+          "clicks28d": 2,
+          "ctr": 0.0588,
+          "averagePosition": 9.4,
+          "notes": "Page-1 Winner (Pos 4–10 Strike-Zone)"
         }
       ],
       "status": "active",
       "latestActual": {
-        "checkedAt": "2026-11-16",
+        "checkedAt": "2026-11-23",
         "impressions28d": 34,
         "clicks28d": 2,
         "ctr": 0.0588,
@@ -3400,7 +3789,7 @@
             "averagePosition": 10.2
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 34,
             "clicks28d": 2,
             "ctr": 0.0588,
@@ -3435,7 +3824,7 @@
             "ga4Purchases28d": 0
           },
           "postChangeSnapshot": {
-            "checkedAt": "2026-11-16",
+            "checkedAt": "2026-11-23",
             "impressions28d": 34,
             "clicks28d": 2,
             "ctr": 0.0588,
@@ -3458,10 +3847,10 @@
     }
   ],
   "storewideLatestGscGa4": {
-    "impressions28d": 220,
-    "clicks28d": 3,
-    "ctr28d": 0.0136,
-    "averagePosition28d": 33.55,
+    "impressions28d": 217,
+    "clicks28d": 8,
+    "ctr28d": 0.0369,
+    "averagePosition28d": 37.47,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -3479,19 +3868,19 @@
     "blockedByRobotsTxt": 24880,
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
-    "clicks7d": 1,
-    "impressions7d": 43,
-    "averagePosition7d": 40.02,
+    "clicks7d": 6,
+    "impressions7d": 66,
+    "averagePosition7d": 46.09,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
   "calibrationState": {
-    "calibratedAt": "2026-11-16T14:23:31.548Z",
+    "calibratedAt": "2026-11-23T16:57:31.400Z",
     "sampleSize": 25,
-    "volumeRealizationMultiplier": 0.674,
-    "daysPerDifficultyPoint": 1.555,
+    "volumeRealizationMultiplier": 0.673,
+    "daysPerDifficultyPoint": 1.626,
     "substrateConversionMultipliers": {
-      "Desk Mats": 1.123,
+      "Desk Mats": 1.138,
       "Canvas Wall Art": 1.05,
       "Ecosystem": 1.25
     }

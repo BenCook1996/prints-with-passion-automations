@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-23T15:14:09.135Z",
+  "capturedAt": "2026-11-23T16:57:31.335Z",
   "gscRows": [
     {
       "keys": [
@@ -970,7 +970,7 @@
       "clicks28d": 3,
       "ctr": 0.0326,
       "averagePosition": 16.8,
-      "ga4Views28d": 67,
+      "ga4Views28d": 68,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1050,7 +1050,7 @@
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 282,
+      "ga4Views28d": 283,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1632,7 +1632,7 @@
       "clicks28d": 3,
       "ctr": 0.6,
       "averagePosition": 173.2,
-      "ga4Views28d": 106,
+      "ga4Views28d": 107,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -3538,91 +3538,313 @@
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:00.552Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/copy-of-alpine-peak-adventure-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 7
+      "averagePosition": 7,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:06.870Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-04T20:12:20Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-alpine-peak-adventure-cap",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-alpine-peak-adventure-cap",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/all/Adventure?page=2",
+          "/collections/all?constraint=Travel%20Accessories",
+          "/de-at/products/copy-of-alpine-peak-adventure-cap?_pos=129&_sid=b6259b80e&_ss=r",
+          "/products/copy-of-alpine-peak-adventure-cap?variant=49309886087479&currency=GBP"
+        ]
+      }
     },
     "/products/copy-of-caesar-neon-dream-baseball-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 4
+      "averagePosition": 4,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:13.252Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-06-07T21:25:51Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-caesar-neon-dream-baseball-cap",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-caesar-neon-dream-baseball-cap",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/copy-of-caesar-neon-dream-baseball-cap?_pos=277&_sid=e6e4960d0&_ss=r",
+          "/collections/types?page=3&q=hats"
+        ]
+      }
     },
     "/products/copy-of-classic-diner-tote-bag": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2
+      "averagePosition": 2,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:19.582Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-30T22:28:37Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-classic-diner-tote-bag",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-classic-diner-tote-bag",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/copy-of-classic-diner-tote-bag?_pos=87&_sid=cd39dd26a&_ss=r",
+          "/products/copy-of-classic-diner-tote-bag?variant=49197278396727&currency=GBP"
+        ]
+      }
     },
     "/products/copy-of-fiji-mask-art-beach-towel": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 8
+      "averagePosition": 8,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:25.982Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-07T09:50:30Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-fiji-mask-art-beach-towel",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-fiji-mask-art-beach-towel",
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/copy-of-leos-legacy-lionel-messi-signature-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:32.374Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-08-20T13:54:49Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-leos-legacy-lionel-messi-signature-cap",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-leos-legacy-lionel-messi-signature-cap",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/copy-of-leos-legacy-lionel-messi-signature-cap?_pos=223&_sid=fb853c49d&_ss=r",
+          "/de-at/products/copy-of-leos-legacy-lionel-messi-signature-cap?_pos=288&_sid=a5fd2d960&_ss=r"
+        ]
+      }
     },
     "/products/copy-of-lost-city-explorer-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:38.805Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/copy-of-retro-camper-van-jigsaw-puzzle": {
       "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 6.33
+      "averagePosition": 6.33,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:45.375Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Not found (404)",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-11-16T09:02:25Z",
+        "pageFetchState": "NOT_FOUND",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/copy-of-retro-camper-van-jigsaw-puzzle?variant=55127879876981",
+          "/en-cy/products/copy-of-retro-camper-van-jigsaw-puzzle?_pos=661&_sid=101cdac3c&_ss=r"
+        ]
+      }
     },
     "/products/copy-of-star-wars-millennium-falcon-embroidered-baseball-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:51.817Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/copy-of-sun-moon-mandala-tote-bag": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:56:58.232Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/copy-of-tom-hardy-jigsaw-puzzle-kit": {
       "impressions28d": 2,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 9
+      "averagePosition": 9,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:57:04.797Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Not found (404)",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-10-27T19:18:36Z",
+        "pageFetchState": "NOT_FOUND",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/copy-of-wild-tasmanian-wilderness-wildlife-baseball-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2
+      "averagePosition": 2,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:57:11.209Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/cozy-cloud-plush-blanket": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 49
+      "averagePosition": 49,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:57:17.551Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-23T21:29:37Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/cozy-cloud-plush-blanket",
+        "userCanonical": "https://printswithpassion.com/products/cozy-cloud-plush-blanket",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/cozy-cloud-plush-blanket?_pos=788&_sid=2e85f2058&_ss=r",
+          "/collections/all/tiktok?page=42"
+        ]
+      }
     },
     "/products/cr7-juventus-king-of-turin": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2
+      "averagePosition": 2,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:57:24.021Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-06-15T12:28:20Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/cr7-juventus-king-of-turin",
+        "userCanonical": "https://printswithpassion.com/products/cr7-juventus-king-of-turin",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/en-pl/products/cr7-juventus-king-of-turin",
+          "/de-de/products/cr7-juventus-king-of-turin"
+        ]
+      }
     },
     "/products/de-niro-signature-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-23T16:57:30.372Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-08-21T10:43:56Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/de-niro-signature-cap",
+        "userCanonical": "https://printswithpassion.com/products/de-niro-signature-cap",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/de-niro-signature-cap?variant=54934699540853&country=GB&currency=GBP",
+          "/collections/all/hat?page=5",
+          "/products/ascent-to-the-roof-of-africa?variant=48339615744311"
+        ]
+      }
     },
     "/products/digital-eclipse-cyber-city-t-shirt": {
       "impressions28d": 1,
@@ -4024,7 +4246,7 @@
           "/"
         ]
       },
-      "ga4Views28d": 146,
+      "ga4Views28d": 147,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -4078,7 +4300,7 @@
           "/pages/desk-setup-hardware-compatibility-guide"
         ]
       },
-      "ga4Views28d": 104,
+      "ga4Views28d": 105,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -5000,30 +5222,30 @@
     }
   },
   "urlInspectionHealth": {
-    "lastRunAt": "2026-11-23T15:14:08.429Z",
-    "cursor": 165,
+    "lastRunAt": "2026-11-23T16:57:30.372Z",
+    "cursor": 180,
     "batchSize": 15,
     "totalInspected": 15,
-    "submittedAndIndexedCount": 5,
+    "submittedAndIndexedCount": 1,
     "discoveredNotIndexedCount": 0,
-    "crawledNotIndexedCount": 3,
-    "urlUnknownCount": 6,
-    "otherCount": 1,
+    "crawledNotIndexedCount": 7,
+    "urlUnknownCount": 5,
+    "otherCount": 2,
     "errorCount": 0,
     "canonicalOverridesCount": 0,
-    "indexedRatio": 0.3333,
-    "indexedRatioDisplay": "33.3%",
+    "indexedRatio": 0.0667,
+    "indexedRatioDisplay": "6.7%",
     "coverageBreakdown": {
-      "URL is unknown to Google": 6,
-      "Submitted and indexed": 5,
-      "Not found (404)": 1,
-      "Crawled - currently not indexed": 3
+      "URL is unknown to Google": 5,
+      "Crawled - currently not indexed": 7,
+      "Submitted and indexed": 1,
+      "Not found (404)": 2
     },
     "canonicalOverrides": [],
     "batchResults": [
       {
-        "url": "https://printswithpassion.com/en-us/collections/all/Printswithpassion",
-        "path": "/en-us/collections/all/Printswithpassion",
+        "url": "https://printswithpassion.com/products/commander-in-chief-cap-the-barack-obama-edition",
+        "path": "/products/commander-in-chief-cap-the-barack-obama-edition",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -5032,8 +5254,58 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/en-us/products/comfortable-and-stylish-8",
-        "path": "/en-us/products/comfortable-and-stylish-8",
+        "url": "https://printswithpassion.com/products/copy-of-alpine-peak-adventure-cap",
+        "path": "/products/copy-of-alpine-peak-adventure-cap",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-04T20:12:20Z",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-alpine-peak-adventure-cap",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-alpine-peak-adventure-cap"
+      },
+      {
+        "url": "https://printswithpassion.com/products/copy-of-caesar-neon-dream-baseball-cap",
+        "path": "/products/copy-of-caesar-neon-dream-baseball-cap",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-06-07T21:25:51Z",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-caesar-neon-dream-baseball-cap",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-caesar-neon-dream-baseball-cap"
+      },
+      {
+        "url": "https://printswithpassion.com/products/copy-of-classic-diner-tote-bag",
+        "path": "/products/copy-of-classic-diner-tote-bag",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-30T22:28:37Z",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-classic-diner-tote-bag",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-classic-diner-tote-bag"
+      },
+      {
+        "url": "https://printswithpassion.com/products/copy-of-fiji-mask-art-beach-towel",
+        "path": "/products/copy-of-fiji-mask-art-beach-towel",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-07T09:50:30Z",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-fiji-mask-art-beach-towel",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-fiji-mask-art-beach-towel"
+      },
+      {
+        "url": "https://printswithpassion.com/products/copy-of-leos-legacy-lionel-messi-signature-cap",
+        "path": "/products/copy-of-leos-legacy-lionel-messi-signature-cap",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-08-20T13:54:49Z",
+        "googleCanonical": "https://printswithpassion.com/products/copy-of-leos-legacy-lionel-messi-signature-cap",
+        "userCanonical": "https://printswithpassion.com/products/copy-of-leos-legacy-lionel-messi-signature-cap"
+      },
+      {
+        "url": "https://printswithpassion.com/products/copy-of-lost-city-explorer-cap",
+        "path": "/products/copy-of-lost-city-explorer-cap",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -5042,108 +5314,18 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/en-us/products/love-struck-hoodie-minimalist-hearts",
-        "path": "/en-us/products/love-struck-hoodie-minimalist-hearts",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-us/products/shine-bright-illuminating-darkness-tee",
-        "path": "/en-us/products/shine-bright-illuminating-darkness-tee",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-us/products/swiss-alps-hoodie",
-        "path": "/en-us/products/swiss-alps-hoodie",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16",
-        "path": "/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-27T13:54:33Z",
-        "googleCanonical": "https://printswithpassion.com/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16",
-        "userCanonical": "https://printswithpassion.com/en-us/products/tatooine-star-wars-gallery-wrapped-stretched-canvas-wall-art-24-16"
-      },
-      {
-        "url": "https://printswithpassion.com/fr-ca/blogs/news/tagged/mechanical-keyboards",
-        "path": "/fr-ca/blogs/news/tagged/mechanical-keyboards",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-30T01:04:38Z",
-        "googleCanonical": "https://printswithpassion.com/fr-ca/blogs/news/tagged/mechanical-keyboards",
-        "userCanonical": "https://printswithpassion.com/fr-ca/blogs/news/tagged/mechanical-keyboards"
-      },
-      {
-        "url": "https://printswithpassion.com/pages/free-4k-wallpapers",
-        "path": "/pages/free-4k-wallpapers",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-26T02:10:41Z",
-        "googleCanonical": "https://printswithpassion.com/pages/free-4k-wallpapers",
-        "userCanonical": "https://printswithpassion.com/pages/free-4k-wallpapers"
-      },
-      {
-        "url": "https://printswithpassion.com/policies/privacy-policy",
-        "path": "/policies/privacy-policy",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-18T07:09:54Z",
-        "googleCanonical": "https://printswithpassion.com/policies/privacy-policy",
-        "userCanonical": "https://printswithpassion.com/policies/privacy-policy"
-      },
-      {
-        "url": "https://printswithpassion.com/policies/shipping-policy",
-        "path": "/policies/shipping-policy",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-11-21T22:15:48Z",
-        "googleCanonical": "https://printswithpassion.com/policies/shipping-policy",
-        "userCanonical": "https://printswithpassion.com/policies/shipping-policy"
-      },
-      {
-        "url": "https://printswithpassion.com/products/aitutaki-cook-islands-oasis-bottle",
-        "path": "/products/aitutaki-cook-islands-oasis-bottle",
+        "url": "https://printswithpassion.com/products/copy-of-retro-camper-van-jigsaw-puzzle",
+        "path": "/products/copy-of-retro-camper-van-jigsaw-puzzle",
         "verdict": "NEUTRAL",
         "coverageState": "Not found (404)",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-10-26T15:18:27Z",
+        "lastCrawlTime": "2026-11-16T09:02:25Z",
         "googleCanonical": null,
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/products/beyonce-merch-hoodie",
-        "path": "/products/beyonce-merch-hoodie",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-09-26T19:18:31Z",
-        "googleCanonical": "https://printswithpassion.com/products/beyonce-merch-hoodie",
-        "userCanonical": "https://printswithpassion.com/products/beyonce-merch-hoodie"
-      },
-      {
-        "url": "https://printswithpassion.com/products/brasilian-pride-flag-cap",
-        "path": "/products/brasilian-pride-flag-cap",
+        "url": "https://printswithpassion.com/products/copy-of-star-wars-millennium-falcon-embroidered-baseball-cap",
+        "path": "/products/copy-of-star-wars-millennium-falcon-embroidered-baseball-cap",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -5152,24 +5334,64 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/products/british-pride-union-jack-cap",
-        "path": "/products/british-pride-union-jack-cap",
+        "url": "https://printswithpassion.com/products/copy-of-sun-moon-mandala-tote-bag",
+        "path": "/products/copy-of-sun-moon-mandala-tote-bag",
         "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-22T22:57:13Z",
-        "googleCanonical": "https://printswithpassion.com/products/british-pride-union-jack-cap",
-        "userCanonical": "https://printswithpassion.com/products/british-pride-union-jack-cap"
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/products/clooney-crown-the-ultimate-george-clooney-baseball-cap",
-        "path": "/products/clooney-crown-the-ultimate-george-clooney-baseball-cap",
+        "url": "https://printswithpassion.com/products/copy-of-tom-hardy-jigsaw-puzzle-kit",
+        "path": "/products/copy-of-tom-hardy-jigsaw-puzzle-kit",
+        "verdict": "NEUTRAL",
+        "coverageState": "Not found (404)",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-10-27T19:18:36Z",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/products/copy-of-wild-tasmanian-wilderness-wildlife-baseball-cap",
+        "path": "/products/copy-of-wild-tasmanian-wilderness-wildlife-baseball-cap",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/products/cozy-cloud-plush-blanket",
+        "path": "/products/cozy-cloud-plush-blanket",
         "verdict": "NEUTRAL",
         "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-09-05T06:42:57Z",
-        "googleCanonical": "https://printswithpassion.com/products/clooney-crown-the-ultimate-george-clooney-baseball-cap",
-        "userCanonical": "https://printswithpassion.com/products/clooney-crown-the-ultimate-george-clooney-baseball-cap"
+        "lastCrawlTime": "2026-09-23T21:29:37Z",
+        "googleCanonical": "https://printswithpassion.com/products/cozy-cloud-plush-blanket",
+        "userCanonical": "https://printswithpassion.com/products/cozy-cloud-plush-blanket"
+      },
+      {
+        "url": "https://printswithpassion.com/products/cr7-juventus-king-of-turin",
+        "path": "/products/cr7-juventus-king-of-turin",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-06-15T12:28:20Z",
+        "googleCanonical": "https://printswithpassion.com/products/cr7-juventus-king-of-turin",
+        "userCanonical": "https://printswithpassion.com/products/cr7-juventus-king-of-turin"
+      },
+      {
+        "url": "https://printswithpassion.com/products/de-niro-signature-cap",
+        "path": "/products/de-niro-signature-cap",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-08-21T10:43:56Z",
+        "googleCanonical": "https://printswithpassion.com/products/de-niro-signature-cap",
+        "userCanonical": "https://printswithpassion.com/products/de-niro-signature-cap"
       }
     ]
   }

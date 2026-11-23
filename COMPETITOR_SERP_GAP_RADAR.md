@@ -1,6 +1,6 @@
 # Prints With Passion — Weekly Competitor SERP Diff & Content-Gap Radar
 
-- **Last Audited:** `2026-11-16T14:23:41.760Z`
+- **Last Audited:** `2026-11-23T16:57:42.209Z`
 - **Benchmark Competitors:** Kinetic Labs (`kineticlabs.com`), Deskr (`deskr.co`), Wallfillers (`wallfillers.co.uk`), Akua Home (`akuahome.co.uk`)
 - **Forecasted Transactional Targets Tracked:** `25`
 
@@ -17,11 +17,11 @@
 
 | Live PWP URL | HTTP | HTML Payload | Internal Links | Collection FAQ Spam | Promo Code Repeats | Competitor Parity Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| `/collections/desk-mats` | `200` | `1023 KB` | `111` | `Clean (0)` | `0` | **ACTION NEEDED (De-Bloat)** |
+| `/collections/desk-mats` | `200` | `1022 KB` | `111` | `Clean (0)` | `0` | **ACTION NEEDED (De-Bloat)** |
 | `/collections/japanese-anime-desk-mats` | `200` | `892 KB` | `56` | `Clean (0)` | `0` | **ACTION NEEDED (De-Bloat)** |
-| `/collections/canvas-prints` | `200` | `1022 KB` | `111` | `Clean (0)` | `0` | **ACTION NEEDED (De-Bloat)** |
-| `/collections/abstract-minimalist-bauhaus-canvas-wall-art` | `200` | `1095 KB` | `66` | `Clean (0)` | `0` | **ACTION NEEDED (De-Bloat)** |
-| `/products/table-mountain-cape-town-xxl-desk-mat` | `200` | `799 KB` | `47` | `Clean (0)` | `0` | **ACTION NEEDED (De-Bloat)** |
+| `/collections/canvas-prints` | `200` | `1021 KB` | `111` | `Clean (0)` | `0` | **ACTION NEEDED (De-Bloat)** |
+| `/collections/abstract-minimalist-bauhaus-canvas-wall-art` | `200` | `1094 KB` | `66` | `Clean (0)` | `0` | **ACTION NEEDED (De-Bloat)** |
+| `/products/table-mountain-cape-town-xxl-desk-mat` | `200` | `798 KB` | `47` | `Clean (0)` | `0` | **ACTION NEEDED (De-Bloat)** |
 
 ## 3. Prioritized Weekly Replication Actions
 1. **Collection Above-the-Fold Spec Density (Kinetic Labs / Deskr Pattern):** Keep collection intro copy between **120–200 human words** focused on physical dimensions (`900x400x4mm` / `35.4"x15.7"`, `1.25" kiln-dried pine stretcher bars`, `300 GSM coral fleece`) with zero injected `FAQPage` JSON-LD.
