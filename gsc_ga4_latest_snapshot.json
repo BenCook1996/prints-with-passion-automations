@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-23T16:57:31.335Z",
+  "capturedAt": "2026-11-24T15:12:19.686Z",
   "gscRows": [
     {
       "keys": [
@@ -937,10 +937,10 @@
   "gscProperty": "https://printswithpassion.com/",
   "ga4PropertyId": "363520144",
   "storewideSummary": {
-    "impressions28d": 217,
+    "impressions28d": 218,
     "clicks28d": 8,
-    "ctr28d": 0.0369,
-    "averagePosition28d": 37.47,
+    "ctr28d": 0.0367,
+    "averagePosition28d": 37.83,
     "indexedUrls": 1148,
     "notIndexedUrls": 24120,
     "ga4OrganicSessions28d": 412,
@@ -958,9 +958,9 @@
     "blockedByRobotsTxt": 24880,
     "notFound404": 6899,
     "indexedThoughBlockedByRobotsTxt": 101,
-    "clicks7d": 6,
-    "impressions7d": 66,
-    "averagePosition7d": 46.09,
+    "clicks7d": 5,
+    "impressions7d": 59,
+    "averagePosition7d": 48.69,
     "activeCatalogSize": 1500,
     "publishedBuyerGuides": 25
   },
@@ -970,7 +970,7 @@
       "clicks28d": 3,
       "ctr": 0.0326,
       "averagePosition": 16.8,
-      "ga4Views28d": 68,
+      "ga4Views28d": 82,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1024,7 +1024,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 66.17,
-      "ga4Views28d": 30,
+      "ga4Views28d": 31,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1050,7 +1050,7 @@
       "clicks28d": 2,
       "ctr": 0.0253,
       "averagePosition": 21.4,
-      "ga4Views28d": 283,
+      "ga4Views28d": 306,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1078,7 +1078,7 @@
       "clicks28d": 1,
       "ctr": 0.0256,
       "averagePosition": 14.2,
-      "ga4Views28d": 58,
+      "ga4Views28d": 60,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1291,7 +1291,7 @@
       "clicks28d": 2,
       "ctr": 0.1538,
       "averagePosition": 21.46,
-      "ga4Views28d": 58,
+      "ga4Views28d": 50,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1334,11 +1334,11 @@
       }
     },
     "/": {
-      "impressions28d": 37,
+      "impressions28d": 36,
       "clicks28d": 2,
-      "ctr": 0.0541,
-      "averagePosition": 14.38,
-      "ga4Views28d": 503,
+      "ctr": 0.0556,
+      "averagePosition": 13.56,
+      "ga4Views28d": 512,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1433,7 +1433,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 2,
-      "ga4Views28d": 16,
+      "ga4Views28d": 17,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1462,7 +1462,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 9,
-      "ga4Views28d": 208,
+      "ga4Views28d": 215,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1608,7 +1608,7 @@
       "impressions28d": 10,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 47.1,
+      "averagePosition": 47.5,
       "urlInspection": {
         "inspectedAt": "2026-11-16T14:23:30.677Z",
         "verdict": "PASS",
@@ -1632,7 +1632,7 @@
       "clicks28d": 3,
       "ctr": 0.6,
       "averagePosition": 173.2,
-      "ga4Views28d": 107,
+      "ga4Views28d": 119,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
@@ -1703,10 +1703,10 @@
       }
     },
     "/collections/phone-cases": {
-      "impressions28d": 10,
+      "impressions28d": 9,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2.7,
+      "averagePosition": 2.89,
       "urlInspection": {
         "inspectedAt": "2026-11-17T13:45:38.554Z",
         "verdict": "PASS",
@@ -1726,10 +1726,10 @@
       }
     },
     "/collections/plush-blankets": {
-      "impressions28d": 5,
+      "impressions28d": 4,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 6,
+      "averagePosition": 7,
       "urlInspection": {
         "inspectedAt": "2026-11-17T13:45:45.128Z",
         "verdict": "NEUTRAL",
@@ -2774,10 +2774,10 @@
       }
     },
     "/en-fr/products/winston-churchill-cigar-tee-shirt": {
-      "impressions28d": 3,
+      "impressions28d": 2,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 30.33,
+      "averagePosition": 41,
       "urlInspection": {
         "inspectedAt": "2026-11-20T13:32:13.672Z",
         "verdict": "PASS",
@@ -3850,91 +3850,312 @@
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 75
+      "averagePosition": 75,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:10:47.007Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-07-12T13:04:11Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/digital-eclipse-cyber-city-t-shirt",
+        "userCanonical": "https://printswithpassion.com/products/digital-eclipse-cyber-city-t-shirt",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/digital-eclipse-cyber-city-t-shirt?_pos=22&_sid=6363eede9&_ss=r",
+          "/en-pl/products/digital-eclipse-cyber-city-t-shirt?_pos=866&_sid=34321d644&_ss=r"
+        ]
+      }
     },
     "/products/discover-fijis-dazzling-underwater-treasures": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 9
+      "averagePosition": 9,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:10:53.690Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-08-30T13:29:01Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/discover-fijis-dazzling-underwater-treasures",
+        "userCanonical": "https://printswithpassion.com/products/discover-fijis-dazzling-underwater-treasures",
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/endless-desert-road-sign-t-shirt": {
       "impressions28d": 2,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2
+      "averagePosition": 2,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:00.246Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-05T08:02:09Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/endless-desert-road-sign-t-shirt",
+        "userCanonical": "https://printswithpassion.com/products/endless-desert-road-sign-t-shirt",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/endless-desert-road-sign-t-shirt?variant=55299899588981&country=GB&currency=GBP",
+          "/en-cy/products/endless-desert-road-sign-t-shirt?_pos=120&_sid=54877ee7b&_ss=r"
+        ]
+      }
     },
     "/products/explorers-amazon-adventure-baseball-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:06.778Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-22T22:09:04Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/explorers-amazon-adventure-baseball-cap",
+        "userCanonical": "https://printswithpassion.com/products/explorers-amazon-adventure-baseball-cap",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/collections/hats",
+          "/en-cy/products/explorers-amazon-adventure-baseball-cap?_pos=271&_sid=077f16f58&_ss=r",
+          "/collections/clothing"
+        ]
+      }
     },
     "/products/forest-wind-spirits-tshirt-nature": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 45
+      "averagePosition": 45,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:13.354Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-09T04:54:07Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/forest-wind-spirits-tshirt-nature",
+        "userCanonical": "https://printswithpassion.com/products/forest-wind-spirits-tshirt-nature",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/forest-wind-spirits-tshirt-nature?_pos=14&_sid=05a312d7a&_ss=r",
+          "/en-fr/products/forest-wind-spirits-tshirt-nature?_pos=879&_sid=aa0fbed9c&_ss=r"
+        ]
+      }
     },
     "/products/free-spirits-flight-a-bohemian-feather-rhapsody": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 57
+      "averagePosition": 57,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:19.910Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Not found (404)",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-11-24T09:03:20Z",
+        "pageFetchState": "NOT_FOUND",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/free-spirits-flight-a-bohemian-feather-rhapsody?_pos=95&_sid=c5196f22f&_ss=r",
+          "/products/free-spirits-flight-a-bohemian-feather-rhapsody?variant=49144074273079&currency=GBP"
+        ]
+      }
     },
     "/products/galapagos-explorer-baseball-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:26.448Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/george-michael-neon-dreams-watercolor-cap": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 11
+      "averagePosition": 11,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:32.989Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-09-04T17:17:56Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/george-michael-neon-dreams-watercolor-cap?_pos=727&_sid=0874d52f8&_ss=r"
+        ]
+      }
     },
     "/products/green-lantern-graphic-unisex-college-hoodie": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1
+      "averagePosition": 1,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:39.526Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Page with redirect",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-09T13:10:31Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/collections/hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/hoodies",
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/green-skull-biohazard-hoodie-toxic-chic": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2
+      "averagePosition": 2,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:46.059Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-08-08T23:43:18Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/green-skull-biohazard-hoodie-toxic-chic",
+        "userCanonical": "https://printswithpassion.com/products/green-skull-biohazard-hoodie-toxic-chic",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/green-skull-biohazard-hoodie-toxic-chic?_pos=171&_sid=b43f9ea58&_ss=r",
+          "/products/green-skull-biohazard-hoodie-toxic-chic?variant=54968127652213&country=GB&currency=GBP"
+        ]
+      }
     },
     "/products/katara": {
       "impressions28d": 3,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 1.33
+      "averagePosition": 1.33,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:52.700Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/king-mufasa-majestic-lion-portrait": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 52
+      "averagePosition": 52,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:11:59.309Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-30T19:59:11Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/king-mufasa-majestic-lion-portrait",
+        "userCanonical": "https://printswithpassion.com/products/king-mufasa-majestic-lion-portrait",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/products/king-mufasa-majestic-lion-portrait?_pos=95&_sid=b3c04b833&_ss=r",
+          "/en-cy/products/king-mufasa-majestic-lion-portrait?_pos=1563&_sid=eb6086c88&_ss=r&variant=55144153383285"
+        ]
+      }
     },
     "/products/kylie-jenner-graphic-unisex-college-hoodie": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 3
+      "averagePosition": 3,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:12:05.858Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/legendary-messi-dribble-mouse-pad": {
-      "impressions28d": 5,
+      "impressions28d": 4,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 7.6
+      "averagePosition": 8.25,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:12:12.466Z",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-05T17:24:39Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://printswithpassion.com/products/legendary-messi-dribble-mouse-pad",
+        "userCanonical": "https://printswithpassion.com/products/legendary-messi-dribble-mouse-pad",
+        "canonicalOverride": false,
+        "referringUrls": [
+          "/de-at/products/legendary-messi-dribble-mouse-pad"
+        ]
+      }
     },
     "/products/leonardo-da-vinci-in-his-renaissance-graphic-unisex-softstyle-t-shirt": {
       "impressions28d": 1,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 2
+      "averagePosition": 2,
+      "urlInspection": {
+        "inspectedAt": "2026-11-24T15:12:19.002Z",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "canonicalOverride": false,
+        "referringUrls": []
+      }
     },
     "/products/leos-legendary-cap-lionel-messi-signature-collection": {
       "impressions28d": 2,
@@ -4033,10 +4254,10 @@
       "averagePosition": 3
     },
     "/products/shyla-stylez-classic-tee": {
-      "impressions28d": 3,
+      "impressions28d": 2,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 6.33
+      "averagePosition": 7.5
     },
     "/products/shyla-stylez-sultry-superstar-seduction": {
       "impressions28d": 1,
@@ -4121,7 +4342,7 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 1,
-      "ga4Views28d": 62,
+      "ga4Views28d": 63,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -4221,7 +4442,7 @@
           "/products/and-gold-abstract-design-that-will-make-you-stand-out-on-the-beach-whether-youre-lounging-by-the-pool-or-catching-some-waves-in-the-ocean?variant=55127866802549&country=GB&currency=GBP"
         ]
       },
-      "ga4Views28d": 214,
+      "ga4Views28d": 216,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -4246,7 +4467,7 @@
           "/"
         ]
       },
-      "ga4Views28d": 147,
+      "ga4Views28d": 166,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -4300,7 +4521,7 @@
           "/pages/desk-setup-hardware-compatibility-guide"
         ]
       },
-      "ga4Views28d": 105,
+      "ga4Views28d": 110,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0
@@ -4429,14 +4650,14 @@
           "/pages/trade-and-bulk-orders"
         ]
       },
-      "ga4Views28d": 148,
+      "ga4Views28d": 150,
       "ga4AddToCarts28d": 0,
       "ga4Purchases28d": 0,
       "ga4RevenueGbp28d": 0,
-      "impressions28d": 3,
+      "impressions28d": 4,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 74.67
+      "averagePosition": 75.25
     },
     "/collections/botanical-floral-coastal-canvas-wall-art": {
       "urlInspection": {
@@ -5179,10 +5400,10 @@
       "averagePosition": 1
     },
     "/collections/japanese-asian-art": {
-      "impressions28d": 1,
+      "impressions28d": 2,
       "clicks28d": 0,
       "ctr": 0,
-      "averagePosition": 84
+      "averagePosition": 82.5
     },
     "/en-us/collections/all": {
       "impressions28d": 1,
@@ -5219,113 +5440,110 @@
       "clicks28d": 0,
       "ctr": 0,
       "averagePosition": 2
+    },
+    "/products/constellation-stars-graphic-unisex-softstyle-t-shirt": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 2,
+      "ga4Views28d": 15,
+      "ga4AddToCarts28d": 0,
+      "ga4Purchases28d": 0,
+      "ga4RevenueGbp28d": 0
+    },
+    "/products/while-the-eye-catching-design-will-bring-a-smile-to-your-face-whether-youre-a-proud-border-collie-owner": {
+      "impressions28d": 1,
+      "clicks28d": 0,
+      "ctr": 0,
+      "averagePosition": 1
     }
   },
   "urlInspectionHealth": {
-    "lastRunAt": "2026-11-23T16:57:30.372Z",
-    "cursor": 180,
+    "lastRunAt": "2026-11-24T15:12:19.002Z",
+    "cursor": 195,
     "batchSize": 15,
     "totalInspected": 15,
-    "submittedAndIndexedCount": 1,
+    "submittedAndIndexedCount": 3,
     "discoveredNotIndexedCount": 0,
-    "crawledNotIndexedCount": 7,
-    "urlUnknownCount": 5,
+    "crawledNotIndexedCount": 6,
+    "urlUnknownCount": 4,
     "otherCount": 2,
     "errorCount": 0,
     "canonicalOverridesCount": 0,
-    "indexedRatio": 0.0667,
-    "indexedRatioDisplay": "6.7%",
+    "indexedRatio": 0.2,
+    "indexedRatioDisplay": "20.0%",
     "coverageBreakdown": {
-      "URL is unknown to Google": 5,
-      "Crawled - currently not indexed": 7,
-      "Submitted and indexed": 1,
-      "Not found (404)": 2
+      "Crawled - currently not indexed": 6,
+      "Submitted and indexed": 3,
+      "Not found (404)": 1,
+      "URL is unknown to Google": 4,
+      "Page with redirect": 1
     },
     "canonicalOverrides": [],
     "batchResults": [
       {
-        "url": "https://printswithpassion.com/products/commander-in-chief-cap-the-barack-obama-edition",
-        "path": "/products/commander-in-chief-cap-the-barack-obama-edition",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
-      },
-      {
-        "url": "https://printswithpassion.com/products/copy-of-alpine-peak-adventure-cap",
-        "path": "/products/copy-of-alpine-peak-adventure-cap",
+        "url": "https://printswithpassion.com/products/digital-eclipse-cyber-city-t-shirt",
+        "path": "/products/digital-eclipse-cyber-city-t-shirt",
         "verdict": "NEUTRAL",
         "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-09-04T20:12:20Z",
-        "googleCanonical": "https://printswithpassion.com/products/copy-of-alpine-peak-adventure-cap",
-        "userCanonical": "https://printswithpassion.com/products/copy-of-alpine-peak-adventure-cap"
+        "lastCrawlTime": "2026-07-12T13:04:11Z",
+        "googleCanonical": "https://printswithpassion.com/products/digital-eclipse-cyber-city-t-shirt",
+        "userCanonical": "https://printswithpassion.com/products/digital-eclipse-cyber-city-t-shirt"
       },
       {
-        "url": "https://printswithpassion.com/products/copy-of-caesar-neon-dream-baseball-cap",
-        "path": "/products/copy-of-caesar-neon-dream-baseball-cap",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-06-07T21:25:51Z",
-        "googleCanonical": "https://printswithpassion.com/products/copy-of-caesar-neon-dream-baseball-cap",
-        "userCanonical": "https://printswithpassion.com/products/copy-of-caesar-neon-dream-baseball-cap"
-      },
-      {
-        "url": "https://printswithpassion.com/products/copy-of-classic-diner-tote-bag",
-        "path": "/products/copy-of-classic-diner-tote-bag",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-09-30T22:28:37Z",
-        "googleCanonical": "https://printswithpassion.com/products/copy-of-classic-diner-tote-bag",
-        "userCanonical": "https://printswithpassion.com/products/copy-of-classic-diner-tote-bag"
-      },
-      {
-        "url": "https://printswithpassion.com/products/copy-of-fiji-mask-art-beach-towel",
-        "path": "/products/copy-of-fiji-mask-art-beach-towel",
+        "url": "https://printswithpassion.com/products/discover-fijis-dazzling-underwater-treasures",
+        "path": "/products/discover-fijis-dazzling-underwater-treasures",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-10-07T09:50:30Z",
-        "googleCanonical": "https://printswithpassion.com/products/copy-of-fiji-mask-art-beach-towel",
-        "userCanonical": "https://printswithpassion.com/products/copy-of-fiji-mask-art-beach-towel"
+        "lastCrawlTime": "2026-08-30T13:29:01Z",
+        "googleCanonical": "https://printswithpassion.com/products/discover-fijis-dazzling-underwater-treasures",
+        "userCanonical": "https://printswithpassion.com/products/discover-fijis-dazzling-underwater-treasures"
       },
       {
-        "url": "https://printswithpassion.com/products/copy-of-leos-legacy-lionel-messi-signature-cap",
-        "path": "/products/copy-of-leos-legacy-lionel-messi-signature-cap",
+        "url": "https://printswithpassion.com/products/endless-desert-road-sign-t-shirt",
+        "path": "/products/endless-desert-road-sign-t-shirt",
         "verdict": "NEUTRAL",
         "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-08-20T13:54:49Z",
-        "googleCanonical": "https://printswithpassion.com/products/copy-of-leos-legacy-lionel-messi-signature-cap",
-        "userCanonical": "https://printswithpassion.com/products/copy-of-leos-legacy-lionel-messi-signature-cap"
+        "lastCrawlTime": "2026-10-05T08:02:09Z",
+        "googleCanonical": "https://printswithpassion.com/products/endless-desert-road-sign-t-shirt",
+        "userCanonical": "https://printswithpassion.com/products/endless-desert-road-sign-t-shirt"
       },
       {
-        "url": "https://printswithpassion.com/products/copy-of-lost-city-explorer-cap",
-        "path": "/products/copy-of-lost-city-explorer-cap",
+        "url": "https://printswithpassion.com/products/explorers-amazon-adventure-baseball-cap",
+        "path": "/products/explorers-amazon-adventure-baseball-cap",
         "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "NEVER",
-        "googleCanonical": null,
-        "userCanonical": null
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-22T22:09:04Z",
+        "googleCanonical": "https://printswithpassion.com/products/explorers-amazon-adventure-baseball-cap",
+        "userCanonical": "https://printswithpassion.com/products/explorers-amazon-adventure-baseball-cap"
       },
       {
-        "url": "https://printswithpassion.com/products/copy-of-retro-camper-van-jigsaw-puzzle",
-        "path": "/products/copy-of-retro-camper-van-jigsaw-puzzle",
+        "url": "https://printswithpassion.com/products/forest-wind-spirits-tshirt-nature",
+        "path": "/products/forest-wind-spirits-tshirt-nature",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-09T04:54:07Z",
+        "googleCanonical": "https://printswithpassion.com/products/forest-wind-spirits-tshirt-nature",
+        "userCanonical": "https://printswithpassion.com/products/forest-wind-spirits-tshirt-nature"
+      },
+      {
+        "url": "https://printswithpassion.com/products/free-spirits-flight-a-bohemian-feather-rhapsody",
+        "path": "/products/free-spirits-flight-a-bohemian-feather-rhapsody",
         "verdict": "NEUTRAL",
         "coverageState": "Not found (404)",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-11-16T09:02:25Z",
+        "lastCrawlTime": "2026-11-24T09:03:20Z",
         "googleCanonical": null,
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/products/copy-of-star-wars-millennium-falcon-embroidered-baseball-cap",
-        "path": "/products/copy-of-star-wars-millennium-falcon-embroidered-baseball-cap",
+        "url": "https://printswithpassion.com/products/galapagos-explorer-baseball-cap",
+        "path": "/products/galapagos-explorer-baseball-cap",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -5334,8 +5552,38 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/products/copy-of-sun-moon-mandala-tote-bag",
-        "path": "/products/copy-of-sun-moon-mandala-tote-bag",
+        "url": "https://printswithpassion.com/products/george-michael-neon-dreams-watercolor-cap",
+        "path": "/products/george-michael-neon-dreams-watercolor-cap",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "2026-09-04T17:17:56Z",
+        "googleCanonical": null,
+        "userCanonical": null
+      },
+      {
+        "url": "https://printswithpassion.com/products/green-lantern-graphic-unisex-college-hoodie",
+        "path": "/products/green-lantern-graphic-unisex-college-hoodie",
+        "verdict": "NEUTRAL",
+        "coverageState": "Page with redirect",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-09T13:10:31Z",
+        "googleCanonical": "https://printswithpassion.com/collections/hoodies",
+        "userCanonical": "https://printswithpassion.com/collections/hoodies"
+      },
+      {
+        "url": "https://printswithpassion.com/products/green-skull-biohazard-hoodie-toxic-chic",
+        "path": "/products/green-skull-biohazard-hoodie-toxic-chic",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-08-08T23:43:18Z",
+        "googleCanonical": "https://printswithpassion.com/products/green-skull-biohazard-hoodie-toxic-chic",
+        "userCanonical": "https://printswithpassion.com/products/green-skull-biohazard-hoodie-toxic-chic"
+      },
+      {
+        "url": "https://printswithpassion.com/products/katara",
+        "path": "/products/katara",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -5344,18 +5592,18 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/products/copy-of-tom-hardy-jigsaw-puzzle-kit",
-        "path": "/products/copy-of-tom-hardy-jigsaw-puzzle-kit",
-        "verdict": "NEUTRAL",
-        "coverageState": "Not found (404)",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "lastCrawlTime": "2026-10-27T19:18:36Z",
-        "googleCanonical": null,
-        "userCanonical": null
+        "url": "https://printswithpassion.com/products/king-mufasa-majestic-lion-portrait",
+        "path": "/products/king-mufasa-majestic-lion-portrait",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-30T19:59:11Z",
+        "googleCanonical": "https://printswithpassion.com/products/king-mufasa-majestic-lion-portrait",
+        "userCanonical": "https://printswithpassion.com/products/king-mufasa-majestic-lion-portrait"
       },
       {
-        "url": "https://printswithpassion.com/products/copy-of-wild-tasmanian-wilderness-wildlife-baseball-cap",
-        "path": "/products/copy-of-wild-tasmanian-wilderness-wildlife-baseball-cap",
+        "url": "https://printswithpassion.com/products/kylie-jenner-graphic-unisex-college-hoodie",
+        "path": "/products/kylie-jenner-graphic-unisex-college-hoodie",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
@@ -5364,34 +5612,24 @@
         "userCanonical": null
       },
       {
-        "url": "https://printswithpassion.com/products/cozy-cloud-plush-blanket",
-        "path": "/products/cozy-cloud-plush-blanket",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
+        "url": "https://printswithpassion.com/products/legendary-messi-dribble-mouse-pad",
+        "path": "/products/legendary-messi-dribble-mouse-pad",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-09-23T21:29:37Z",
-        "googleCanonical": "https://printswithpassion.com/products/cozy-cloud-plush-blanket",
-        "userCanonical": "https://printswithpassion.com/products/cozy-cloud-plush-blanket"
+        "lastCrawlTime": "2026-10-05T17:24:39Z",
+        "googleCanonical": "https://printswithpassion.com/products/legendary-messi-dribble-mouse-pad",
+        "userCanonical": "https://printswithpassion.com/products/legendary-messi-dribble-mouse-pad"
       },
       {
-        "url": "https://printswithpassion.com/products/cr7-juventus-king-of-turin",
-        "path": "/products/cr7-juventus-king-of-turin",
+        "url": "https://printswithpassion.com/products/leonardo-da-vinci-in-his-renaissance-graphic-unisex-softstyle-t-shirt",
+        "path": "/products/leonardo-da-vinci-in-his-renaissance-graphic-unisex-softstyle-t-shirt",
         "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-06-15T12:28:20Z",
-        "googleCanonical": "https://printswithpassion.com/products/cr7-juventus-king-of-turin",
-        "userCanonical": "https://printswithpassion.com/products/cr7-juventus-king-of-turin"
-      },
-      {
-        "url": "https://printswithpassion.com/products/de-niro-signature-cap",
-        "path": "/products/de-niro-signature-cap",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "lastCrawlTime": "2026-08-21T10:43:56Z",
-        "googleCanonical": "https://printswithpassion.com/products/de-niro-signature-cap",
-        "userCanonical": "https://printswithpassion.com/products/de-niro-signature-cap"
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": "NEVER",
+        "googleCanonical": null,
+        "userCanonical": null
       }
     ]
   }
