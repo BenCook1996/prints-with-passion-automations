@@ -1,104 +1,109 @@
 # Weekly Editorial Companion & Earned Authority Queue
 
-- **Generated At:** `2026-11-17T11:24:26.090Z`
-- **Cadence Status:** `2` total runs logged (max `2` runs per rolling 7 days, minimum `60h` spacing)
+- **Generated At:** `2026-11-24T19:10:40.849Z`
+- **Cadence Status:** `3` total runs logged (max `2` runs per rolling 7 days, minimum `60h` spacing)
 - **Originality & Link Gate:** 100% Enforced (`600–1,000` prose words, `1–2` hub links max, `< 0.05` 4-gram Jaccard overlap vs `/blogs/news`, `0` blocked/de-indexed domains)
 
 ---
 
 ## 1. Automated Cloud API Publication (**DEV.to** `dofollow` / Optional **Hashnode**)
 
-- **Target Blueprint:** `tech-mechanical-keyboard-acoustics-4mm-rubber`
-- **DEV.to Status:** LIVE PUBLISHED: https://dev.to/ben_cook_cb678276c0095db0/mechanical-keyboard-acoustics-why-4mm-natural-rubber-outperforms-thin-foam-pads-3mkk
+- **Target Blueprint:** `tech-low-cpi-ultrawide-mouse-geometry`
+- **DEV.to Status:** LIVE PUBLISHED: https://dev.to/ben_cook_cb678276c0095db0/low-sensitivity-mouse-cpi-geometry-on-ultrawide-dual-monitor-developer-desks-4mcn
 - **Hashnode Status:** READY_AWAITING_API_KEY (optional HASHNODE_PAT)
-- **Title:** `Mechanical Keyboard Acoustics: Why 4mm Natural Rubber Outperforms Thin Foam Pads`
-- **Tags (`devto`):** `hardware, productivity, ergonomics, acoustics`
-- **Verified Prose Word Count:** `627` words
-- **4-Gram Similarity vs Live `/blogs/news`:** `0.0007` (threshold `< 0.05`)
-- **Verified Priority Links (`2`):** `https://printswithpassion.com/collections/desk-mats`, `https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats`
+- **Title:** `Low-Sensitivity Mouse CPI Geometry on Ultrawide Dual-Monitor Developer Desks`
+- **Tags (`devto`):** `ergonomics, hardware, productivity, tooling`
+- **Verified Prose Word Count:** `658` words
+- **4-Gram Similarity vs Live `/blogs/news`:** `0.0006` (threshold `< 0.05`)
+- **Verified Priority Links (`2`):** `https://printswithpassion.com/collections/space-galaxy-nebula-desk-mats`, `https://printswithpassion.com/pages/desk-size-visualizer`
 
 ### Ready Markdown (if posting manually before `DEVTO_API_KEY` is added)
 
 ```markdown
-# Mechanical Keyboard Acoustics: Why 4mm Natural Rubber Outperforms Thin Foam Pads
+# Low-Sensitivity Mouse CPI Geometry on Ultrawide Dual-Monitor Developer Desks
 
-Solid butcher-block worktops and hollow honeycomb particleboard desks share an annoying acoustic flaw: they behave like low-efficiency drumheads whenever stiff tactile or clicky mechanical switches bottom out. Even expensive CNC aluminum keyboard cases with gasket mounts and switch film modifications often sound hollow or metallic if the underlying desk surface radiates broadband vibration back toward the microphone boom.
+Running dual monitors or a thirty-four-inch ultrawide panel alongside a rotated vertical code terminal completely changes cursor physics. Developers who migrate from a single laptop trackpad or compact display onto five thousand horizontal pixels frequently compensate by jacking mouse CPI past thirty-two hundred just to jump between terminals and Slack windows. Unfortunately, ultra-high pointer sensitivity turns precision text selection, breakpoint dragging, and vector node snapping into tiring micro-wrist strain.
 
-### Understanding Desk Surface Impedance and Vibrational Transfer
+### Calculating Real-World Inches-Per-Full-Sweep Geometry
 
-Every keystroke imparts a short impulse containing energy across two hundred hertz to four kilohertz. On bare oak, walnut, or laminate tops, impedance mismatch between hard keycaps, rubber keyboard feet, and rigid timber allows flexural waves to travel laterally across the slab, amplifying mid-bass boominess and crisp top-out clack. Hollow paper-honeycomb core office slabs exaggerate this effect dramatically because thin upper fiberboard skins vibrate almost like acoustic guitar tops right beneath heavy keyboard spacebars.
+Better wrist comfort starts with keeping native desktop sensitivity moderate—typically between eight hundred and twelve hundred CPI with OS pointer acceleration switched off—and calculating actual physical distance required to span an entire multi-screen canvas. Keeping acceleration disabled preserves consistent muscle memory so visual hand movement matches pointer displacement linearly during rapid refactoring sessions.
 
-Inserting an elastomer interface changes the coupling boundary between chassis feet and tabletop. However, thickness and shore hardness matter significantly more than brand logos:
+Consider a horizontal canvas totaling six thousand eighty pixels (3440px ultrawide main plus 2560px landscape secondary, or an equivalent vertical array plus gap). At one thousand native CPI with neutral 1:1 raw input scaling, traversing across full width linearly needs 6.08 inches (15.4 cm). Once you factor diagonal resets, comfortable shoulder neutral stance, and occasional edge sweeps during multi-window debugging, cramped twenty-five-centimeter legacy mousepads force repeated mouse liftoffs against wooden edges.
 
-- **Ultra-thin two-millimeter neoprene pads:** Compress instantly under heavy aluminum boards (2.2 kg or more), effectively short-circuiting vibrational isolation so chassis feet bottom nearly through to timber.
-- **Closed-cell cheap EVA foam mats:** Reflect sharper frequencies inconsistently and develop permanent compression dimples beneath weighted brass plates after several weeks of continuous typing.
-- **High-density four-millimeter open-cell natural rubber bases:** Maintain elastic travel beneath heavy keyboards while converting kinetic keystroke energy into negligible thermal dissipation inside microscopic rubber pores.
+Running this simple browser calculation before configuring desk layout reveals how much clean lateral pad space your peripherals genuinely require:
 
-### Woven Micro-Texture Top Cloth vs Hard Polycarbonate Speed Surfaces
+```javascript
+function minPadWidthCm(totalHorizontalPx, mouseCpi, tklKeyboardWidthCm = 36) {
+  const fullSpanCm = (totalHorizontalPx / mouseCpi) * 2.54;
+  const ergonomicSweepCm = fullSpanCm * 1.65;
+  const edgeBufferCm = 12;
+  return Math.ceil(tklKeyboardWidthCm + ergonomicSweepCm + edgeBufferCm);
+}
+```
 
-Noise isolation works hand in hand with upper textile weave choice. Rigid polycarbonate or glass skids amplify mouse-skate scraping hiss right beside condenser cardioid microphones during pair programming or late-night calls. Conversely, a tight jacquard cloth weave bonded cleanly over thick rubber softens glide noise while keeping initial static friction predictable for fine pixel cursor edits inside code editors and Figma frames.
+At eight hundred CPI across dual high-resolution displays, `minPadWidthCm(5120, 800, 36)` lands right around eighty centimeters total breadth—explaining why standard medium mousepads frustrate ultrawide users while extended formats solve edge-bumping instantly. Running even lower six-hundred-CPI precision rates during Figma vector editing pushes ideal pad width neatly toward ninety centimeters.
 
-Checking stitch height around perimeter edges also pays ergonomic dividends. Overlock perimeter stitching recessed flush with the fabric face prevents sharp nylon ridges from digging into ulnar wrists during long debugging sessions. Look equally carefully at weave alignment: tight heat-sublimated polyester threads avoid peeling along outer bevels even after gentle warm-water soap washes every quarter.
+### Keyboard Form Factor Directly Governs Usable Mousing Room
 
-### Measuring Effective Sound Isolation in a Small Home Office
+Switching from a bulky full-size one-hundred-and-four-key keyboard (44–46 cm wide) down to a seventy-five-percent or tenkeyless chassis immediately hands nine to eleven centimeters back to right-hand wrist rotation. On an eighty-by-forty-centimeter or ninety-by-forty-centimeter continuous surface, that extra clearance keeps your shoulder blade naturally neutral directly in front of your torso rather than externally rotated outward.
 
-While formal anechoic testing belongs in acoustic labs, software developers can benchmark desk upgrades reproducibly at home using a fixed-gain USB condenser microphone positioned forty centimeters above home row without touching preamp knobs between passes:
+Left-hand numpad users or split-ergonomic keyboard builders gain even clearer benefits from continuous uniform surfaces. Placing separated halves thirty-five centimeters apart leaves room in the middle for trackpads, rotary encoders, or analog notebooks on continuous stitched fabric rather than hopping across uneven gaps. Keeping one unbroken padded plane under wrists, elbows, and both halves prevents frustrating sensor tracking stutters right across split gaps.
 
-1. Record ten consecutive rapid phrases on a bare desk surface and capture RMS plus peak waveform amplitude in Audacity.
-2. Add a standard two-millimeter speed mat and repeat identical typing cadence at steady seated distance.
-3. Swap to a dense four-millimeter rubberized extended mat spanning both keyboard and mouse zones, then align peak envelopes and examine spectral plots above one kilohertz.
+### Avoiding Vertical Drop-Off and Diagonal Reset Fatigue
 
-Across hollow laminated tops in particular, the dense thicker base consistently trims sharp high-mid ringing and tightens low-end thock without needing sticky silicone strips underneath the keyboard itself. Even subtle bottom-out echoes near return keys drop cleanly when heavy rubber cushions both rear flip-out stands and forward chassis edges. When matching workspace color palettes alongside heavy aluminum kits, browsing full [stitched XXL desk mat formats](https://printswithpassion.com/collections/desk-mats) helps keep keyboard and mouse zones unified cleanly under one acoustic blanket.
+Screen layouts aren't purely horizontal anymore; developers running stacked ultrawides or 32-inch 4K monitors paired with vertical log windows sweep diagonally upwards across forty centimeters of height as often as left-to-right. Short thirty-centimeter deep strips leave palm bases sliding directly off rear corners whenever pointers travel toward menu bars. Stepping up to forty-centimeter fore-aft surface depth cushions palm heels safely across full diagonal resets without hitting slick wooden grain.
 
-### Integrating Matching Desktop Surfaces With Dual Monitors
+Equally important is wrist angle consistency across an eight-hour sprint. Thick stitched perimeter binding that sits flush with four millimeters of natural open-cell rubber foam prevents hard plastic table edges from pressing across carpal tunnels while your hand settles onto keyboard shortcuts or trackballs. Keep desk surface depth generous enough that elbows hang relaxed directly beneath shoulders rather than reaching tightly forward toward stiff table lips.
 
-Coverage area dictates acoustic consistency as much as rubber density. Choosing an undersized mousepad leaves the left keyboard stabilizer floating directly on exposed timber while only cushioning right-hand mouse movement—producing uneven acoustic pitch between modifiers and spacebars. Covering the entire eighty-by-forty-centimeter or ninety-by-forty-centimeter typing envelope under [cyberpunk and neon workstation pads](https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats) anchors both stabilizers on matching cushioned impedance so your typing profile stays clean across every key without sacrificing wrist support.
+### Verifying Monitor-Stand Depth and Cable-Routing Clearance
+
+Width is only half of spatial desk planning. Large curved ultrawides with stock V-shaped factory legs routinely jut twenty-eight to thirty-two centimeters forward from rear desk edges. Measuring real stand clearance beforehand stops front mat borders from puckering up over plastic monitor feet.
+
+Mounting heavy panels on rear C-clamp gas-spring arms reclaims twelve to fifteen centimeters of valuable fore-aft depth, allowing deeper forearm planting across [space-themed extended desk mats](https://printswithpassion.com/collections/space-galaxy-nebula-desk-mats) with full elbow support. If you want to test exact monitor-foot cutouts against keyboard footprints visually before rearranging cables, check interactive layout overlays inside our [2D desk setup geometry visualizer](https://printswithpassion.com/pages/desk-size-visualizer) to map real millimeter tolerances ahead of time without sliding tape measures around cluttered worktops.
 ```
 
 ---
 
-## 2. Primary Web Editorial Companion Pack — **`HOMIFY_UK`**
+## 2. Primary Web Editorial Companion Pack — **`SUBSTACK`**
 
-- **Target Blueprint:** `ed-homify-victorian-alcove-proportion`
-- **Platform Link Equity:** **UK Interior Authority Ideabook (Indexable)**
-- **Suggested Headline:** `Sizing Statement Wall Art & Soft Textiles for Narrow UK Victorian Terraces & Alcoves`
-- **Subtitle:** `Homify UK Ideabook: Bringing luminous depth and tactile calm into chimney-breast alcoves and slim front lounges.`
-- **Verified Prose Word Count:** `629` words
-- **4-Gram Similarity vs Live `/blogs/news`:** `0`
-- **Verified Priority Links (`2`):** `https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art`, `https://printswithpassion.com/collections/pillow-cases`
+- **Target Blueprint:** `ed-substack-tactile-acoustic-softening`
+- **Platform Link Equity:** **Dofollow + Google Indexable**
+- **Suggested Headline:** `Tactile Acoustic Softening in Open-Plan Timber & Hard-Floor Modern Apartments`
+- **Subtitle:** `Why clean minimalist rooms feel cold on echo alone—and how layered textiles and deep stretched canvases fix room warmth quietly.`
+- **Verified Prose Word Count:** `606` words
+- **4-Gram Similarity vs Live `/blogs/news`:** `0.0008`
+- **Verified Priority Links (`2`):** `https://printswithpassion.com/collections/canvas-prints`, `https://printswithpassion.com/collections/blankets`
 
 ### Copy-Ready Article Body
 
 ```markdown
-British Victorian and Edwardian terraces deliver generous ceiling height and period cornicing, yet pair those lovely bones with famously narrow chimney-breast alcoves (95–125 cm wide) and compact front reception rooms. Decorating tall narrow bays often pushes homeowners toward either cluttering shelves with fiddly trinkets or leaving cold white plaster staring straight beside low armchairs. Treating alcove geometry deliberately turns tight spatial niches into calm architectural highlights.
+Modern open-plan apartment conversions look calm in architectural listing photographs—sleek herringbone oak flooring, expansive triple-glazed glass sliders, crisp plaster walls, and low-slung minimal linen sofas. Yet move inside on day one and a quiet problem announces itself the moment you unpack: rooms feel oddly hollow. Forks clatter sharply across kitchen islands, zoom audio picks up slap-echo, and evening relaxation feels faintly clinical rather than enveloping. Fixing room tone does not mean compromising crisp contemporary lines; intentional material layering handles sound absorption quietly in plain sight.
 
-### Balancing Vertical Ceiling Height Inside Chimneys and Alcove Bays
+### Why Visual Minimalism Accidentally Amplifies Harsh Room Acoustics
 
-Standard terrace chimneys protrude forty to fifty centimeters into room floorspace, slicing long sightlines into tidy recessed pockets. Because eye height settles naturally lower when seated across fireside armchairs, orienting tall portrait artwork inside those side recesses respects vertical timber frames without crowding narrow widths. Running identical vertical symmetry on flanking twin alcoves calmly frames antique chimney stonework without busy gallery grids competing visually with original tiled surrounds.
+Sound waves bounce cleanly off parallel hard surfaces like ping-pong balls. When dining tables, engineered hardwood planks, crisp drywall ceilings, and bare picture windows sit opposite one another with little soft upholstery in between, ambient frequencies between five hundred hertz and four kilohertz linger noticeably longer before decaying (RT60 reverberation time creeps upward). Even soft voices carry unexpectedly far across shared kitchen-living rooms whenever no soft surfaces sit along parallel boundary walls.
 
-Keep twenty to twenty-five percent crisp breathing plaster border clear on both left and right edges inside each alcove:
+Fixing hollow room echo never requires sticking ugly grey studio foam pyramids onto stylish dining walls. True residential acoustic comfort comes cleanly from mixing varied porous organic layers across three distinct height planes: underfoot flat weaves, mid-seat upholstery, and ear-level wall surfaces.
 
-1. For ninety-five-to-one-hundred-centimeter narrow bays, a vertical forty-by-fifty-centimeter (16×20") portrait print centers harmoniously above low media credenzas or freestanding log baskets.
-2. Inside wider hundred-and-twenty-centimeter Edwardian alcoves, vertical fifty-by-seventy-centimeter (20×28") canvases stand tall enough to converse evenly with flanking hearth stonework without colliding with floating oak shelves.
-3. Above mantels themselves, always leave ten to fifteen centimeters vertical margin clear above hearth shelves before centering horizontally against chimney-breast corners rather than overall wall span.
+### Breaking Early Side-Wall Reflections Using Deep Stretched Textile Canvases
 
-### Floating Cabinetry & Cable Discretion in Narrow Parlors
+Bare plaster sitting directly across from hard television consoles or dining benches bounces direct mid-range voices right back into conversational space. Mounting deep one-and-a-quarter-inch pine-stretched cotton canvases introduces natural micro-diffusion across smooth drywall without ruining sleek architectural minimalism:
 
-Recessed oak cabinets built cleanly into lower alcove thirds elevate tight parlors rapidly by hiding internet routers and television power bars cleanly behind crisp flush joinery. Leaving twenty centimeters calm vertical gap above flat cupboard tops before starting bottom pine canvas stretcher edges keeps wall-mounted artwork integrated neatly into cabinetry sightlines rather than floating high beneath decorative Victorian ceiling roses.
+- **Porous woven textile face:** Heavy cotton-poly canvas breaks harsh surface stiffness far better than flat shiny poster vinyl behind slick acrylic sheets.
+- **Hidden rear timber pocket:** That deep thirty-millimeter recessed pine stretcher cavity subtly traps edge boundary wavelengths along flat walls, softening high-mid slap-echo naturally.
+- **Eye-level placement (145 cm center hang):** Places diffusive textile directly along standing and seated mouth-to-ear paths where room brightness bothers listeners most during casual dinners.
 
-### Softening Echo and Sharp Plaster Lines With Coordinated Cushions
+### Layering Heavy Coral-Fleece Throws Over Low Minimal Sofas
 
-Older period terraces fitted with stripped original pine floorboards carry crisp reverberant acoustics—every teacup clink and conversation echoes slightly against smooth lime plaster and tall sash glass. Soft upholstered textiles soak up sharp high-frequency slap-back immediately while tying crisp architectural canvas lines effortlessly back toward cosy seating corners.
+Floor rugs soften footfalls, yet upper seating zones still bounce crisp vocal reflections off tight leather or densely woven contemporary wool upholstery. Draping breathable heavyweight coral-fleece throw blankets cleanly across back lounge cushions and exposed sofa arms introduces immediate porous loft right at ear level. Beyond tangible thermal comfort on chilly evenings, soft high-pile folds visibly break rigid square furniture silhouettes—introducing relaxed drape without adding messy throw pillows or cluttered decorative trays onto coffee tables. Keeping one folded deep-piled textile permanently resting along sofa corner backs creates effortless soft mass all year round.
 
-Rather than tossing five clashing scatter styles across slim terrace settees, practice restrained tone echoing. Pull one subtle accent hue out of your alcove artwork—deep forest pine, muted terracotta ochre, or Prussian slate—and echo that shade cleanly across crisp double-sided forty-by-forty-centimeter cushions positioned toward outer sofa arms. Textured matte textiles break stiff symmetry gently while keeping compact rooms uncluttered and calm without crowding narrow bay seats.
+### Quiet Nighttime Acoustics Near Hard Dining Chairs
 
-### Lighting Deep North-Facing UK Front Rooms Without Visual Noise
+Dining alcoves tucked beside smooth quartz countertops amplify sharp plate noise far more than deep lounge sofas. Pairing calm unframed cotton textiles directly beside timber dining chairs balances high kitchen surfaces cleanly without hanging heavy curtains that block natural flat views.
 
-Many British terraced reception rooms face north or east along shaded street facades, turning bare neutral paint chilly slate blue through winter months. Choosing artwork carrying warm geometric clarity—soft ochre cream paper tones, crisp Bauhaus terracotta arcs, or gentle architectural warm linen contrasts—warms shadow pockets instantly without demanding bright halogen overhead spotlights.
+Remember open hallway entries right beside front doors too: narrow plastered vestibules act like megaphones echoing footsteps straight back into living corners whenever left completely empty. Hanging one medium vertical canvas down an interior corridor wall breaks flutter echo between opposing painted studwork before sound ever enters seating areas. Maintenance stays simple when soft pieces work hard everyday—cold delicate machine washes inside mesh bags keep coral-fleece pile lofty and breathable season after season without matted synthetic clumping.
 
-Respect original wooden picture rails when judging top canvas height too. Leaving ten to twelve centimeters clear plaster between top stretcher edges and decorative dado or picture moldings maintains traditional Victorian proportions effortlessly. For listed or rented period terraces where hammering steel nails straight into historic lime plaster risks hairline cracking, suspend lightweight pine stretchers quietly from solid brass rail hooks and clear perlon cords for completely drill-free symmetry. Meanwhile, keeping heavy velvet bay curtains slightly clear along side casing frames maximizes fleeting morning sunlight across deep front rooms before closing curtains snugly against evening street chill.
-
-Hanging matte [Bauhaus and minimalist canvas prints](https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art) ensures zero distracting glass reflection opposite street-facing bay windows, while grounding nearby armchairs with coordinated [double-sided geometric cushion covers](https://printswithpassion.com/collections/pillow-cases) pulls tight Victorian proportions together into calm, airy living spaces effortlessly.
+Matching soft drape textures alongside natural serene horizons keeps minimalism restful rather than austere. Pairing crisp wide-span [framed archival wall art](https://printswithpassion.com/collections/canvas-prints) opposite dining alcoves alongside tactile [plush fleece throw blankets](https://printswithpassion.com/collections/blankets) over streamlined sofas settles harsh open-plan echo quickly—preserving pure clean room lines while restoring genuine physical warmth at home without bulky renovations.
 ```
 
 ---
@@ -107,16 +112,16 @@ Hanging matte [Bauhaus and minimalist canvas prints](https://printswithpassion.c
 
 | # | Pin Title | High-Res Shopify CDN Image | Source Link (`rel="external"` target) | Pin Caption |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | Soft Pastel Bauhaus Geometric Pattern — Ultra-Soft Plush Coral Fleece Throw Blanket | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/13579944976931971705_2048.jpg?v=1740928658` | `https://printswithpassion.com/collections/blankets` | Soft Pastel Bauhaus Geometric Pattern — Ultra-Soft Plush Coral Fleece Throw Blanket — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
-| 2 | Vortex Above Mountain Peak — Double-Sided Square Cushion Cover (40 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/vortex-above-mountain-peak-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089215` | `https://printswithpassion.com/collections/pillow-cases` | Vortex Above Mountain Peak — Double-Sided Square Cushion Cover (40 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
-| 3 | Tribal Mask Morphing into Galaxy — Double-Sided Square Cushion Cover (40 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/tribal-mask-morphing-into-galaxy-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089215` | `https://printswithpassion.com/collections/pillow-cases` | Tribal Mask Morphing into Galaxy — Double-Sided Square Cushion Cover (40 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
-| 4 | Time Vortex with Melting Numbers — Double-Sided Square Cushion Cover (40 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/time-vortex-with-melting-numbers-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089220` | `https://printswithpassion.com/collections/pillow-cases` | Time Vortex with Melting Numbers — Double-Sided Square Cushion Cover (40 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
+| 1 | Table Mountain Sunset — XXL Extended Gaming Desk Mat (80 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/11543335830592184801_2048_e5399ac1-288c-421d-a31d-25fb8c61c0a6.jpg?v=1740925013` | `https://printswithpassion.com/collections/desk-mats` | Table Mountain Sunset — XXL Extended Gaming Desk Mat (80 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
+| 2 | Cybernetic Tree in Digital Swamp — Double-Sided Square Cushion Cover (40 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/cybernetic-tree-in-digital-swamp-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089216` | `https://printswithpassion.com/collections/pillow-cases` | Cybernetic Tree in Digital Swamp — Double-Sided Square Cushion Cover (40 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
+| 3 | Sunrise Reflecting on Infinity Mirror — Double-Sided Square Cushion Cover (40 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/sunrise-reflecting-on-infinity-mirror-double-sided-square-cushion-cover-40--front.jpg?v=1793089217` | `https://printswithpassion.com/collections/pillow-cases` | Sunrise Reflecting on Infinity Mirror — Double-Sided Square Cushion Cover (40 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
+| 4 | Stormy Ocean with Levitating Rocks — Double-Sided Square Cushion Cover (40 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/stormy-ocean-with-levitating-rocks-double-sided-square-cushion-cover-40-40--front.jpg?v=1793089215` | `https://printswithpassion.com/collections/pillow-cases` | Stormy Ocean with Levitating Rocks — Double-Sided Square Cushion Cover (40 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
 
 ---
 
 ## 4. KeebTalk (Community Feedback Log — Non-Promotional)
 
-- **Suggested Topic Title:** `[Setup Notes] Comparing 4mm Natural Rubber vs Thin Neoprene Desk Mat Acoustics (tech-mechanical-keyboard-acoustics-4mm-rubber)`
+- **Suggested Topic Title:** `[Setup Notes] Comparing 4mm Natural Rubber vs Thin Neoprene Desk Mat Acoustics (tech-low-cpi-ultrawide-mouse-geometry)`
 
 ```markdown
 Hey folks — wanted to share a couple measurements from testing different desk pad thicknesses under a heavy gasket-mounted 75% board on a hollow veneer desk.
