@@ -1,9 +1,9 @@
 # Prints With Passion — Hub-and-Spoke Internal Link Equity Audit (Active GraphQL Sculpting)
 
-- **Last Audited:** `2026-11-18T15:28:58.632Z`
+- **Last Audited:** `2026-11-25T17:01:52.807Z`
 - **Active Live Catalog Size:** `1500` products
 - **Published Pillar Buyer Guides Audited:** `26` articles
-- **Distinct Collections Receiving Editorial Links:** `42`
+- **Distinct Collections Receiving Editorial Links:** `45`
 - **Distinct Products Receiving Direct Editorial Links:** `70`
 - **301-Redirected Internal Links Auto-Healed In-Place:** `0`
 - **Under-Linked Strike-Zone Collections Sculpted This Run:** `0`
