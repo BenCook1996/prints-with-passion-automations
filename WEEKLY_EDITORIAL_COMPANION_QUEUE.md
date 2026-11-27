@@ -1,109 +1,96 @@
 # Weekly Editorial Companion & Earned Authority Queue
 
-- **Generated At:** `2026-11-24T19:10:40.849Z`
-- **Cadence Status:** `3` total runs logged (max `2` runs per rolling 7 days, minimum `60h` spacing)
+- **Generated At:** `2026-11-27T17:42:29.205Z`
+- **Cadence Status:** `4` total runs logged (max `2` runs per rolling 7 days, minimum `60h` spacing)
 - **Originality & Link Gate:** 100% Enforced (`600–1,000` prose words, `1–2` hub links max, `< 0.05` 4-gram Jaccard overlap vs `/blogs/news`, `0` blocked/de-indexed domains)
 
 ---
 
 ## 1. Automated Cloud API Publication (**DEV.to** `dofollow` / Optional **Hashnode**)
 
-- **Target Blueprint:** `tech-low-cpi-ultrawide-mouse-geometry`
-- **DEV.to Status:** LIVE PUBLISHED: https://dev.to/ben_cook_cb678276c0095db0/low-sensitivity-mouse-cpi-geometry-on-ultrawide-dual-monitor-developer-desks-4mcn
+- **Target Blueprint:** `tech-oled-glare-control-matte-canvas-surfaces`
+- **DEV.to Status:** LIVE PUBLISHED: https://dev.to/ben_cook_cb678276c0095db0/eliminating-glare-behind-34-inch-oled-ips-monitors-with-matte-studio-surfaces-2p8b
 - **Hashnode Status:** READY_AWAITING_API_KEY (optional HASHNODE_PAT)
-- **Title:** `Low-Sensitivity Mouse CPI Geometry on Ultrawide Dual-Monitor Developer Desks`
-- **Tags (`devto`):** `ergonomics, hardware, productivity, tooling`
-- **Verified Prose Word Count:** `658` words
-- **4-Gram Similarity vs Live `/blogs/news`:** `0.0006` (threshold `< 0.05`)
-- **Verified Priority Links (`2`):** `https://printswithpassion.com/collections/space-galaxy-nebula-desk-mats`, `https://printswithpassion.com/pages/desk-size-visualizer`
+- **Title:** `Eliminating Glare Behind 34-Inch OLED & IPS Monitors With Matte Studio Surfaces`
+- **Tags (`devto`):** `display, workspace, architecture, design`
+- **Verified Prose Word Count:** `631` words
+- **4-Gram Similarity vs Live `/blogs/news`:** `0.0008` (threshold `< 0.05`)
+- **Verified Priority Links (`2`):** `https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art`, `https://printswithpassion.com/collections/minimalist-abstract-geometric-desk-mats`
 
 ### Ready Markdown (if posting manually before `DEVTO_API_KEY` is added)
 
 ```markdown
-# Low-Sensitivity Mouse CPI Geometry on Ultrawide Dual-Monitor Developer Desks
+# Eliminating Glare Behind 34-Inch OLED & IPS Monitors With Matte Studio Surfaces
 
-Running dual monitors or a thirty-four-inch ultrawide panel alongside a rotated vertical code terminal completely changes cursor physics. Developers who migrate from a single laptop trackpad or compact display onto five thousand horizontal pixels frequently compensate by jacking mouse CPI past thirty-two hundred just to jump between terminals and Slack windows. Unfortunately, ultra-high pointer sensitivity turns precision text selection, breakpoint dragging, and vector node snapping into tiring micro-wrist strain.
+Upgrading to a glossy QD-OLED or high-contrast dark-mode IDE setup exposes every lighting mistake inside a room. Even when indirect bias LEDs wash the rear wall softly, framed glass posters or glossy laminated wall prints behind a chair act like giant secondary mirrors—bouncing bright afternoon windows straight back onto black editor backgrounds and creating subtle eye fatigue within an hour of afternoon code review.
 
-### Calculating Real-World Inches-Per-Full-Sweep Geometry
+### Gloss Specular Reflection vs Matte Lambertian Diffusion
 
-Better wrist comfort starts with keeping native desktop sensitivity moderate—typically between eight hundred and twelve hundred CPI with OS pointer acceleration switched off—and calculating actual physical distance required to span an entire multi-screen canvas. Keeping acceleration disabled preserves consistent muscle memory so visual hand movement matches pointer displacement linearly during rapid refactoring sessions.
+Optical discomfort behind modern developer monitors comes down to specular versus diffuse light bounce. Standard picture frame acrylic and tempered glass carry high specular reflectance: incoming overhead bulb rays or daylight shafts reflect cleanly at equal angles directly onto monitor anti-reflective coatings, forming milky purple-grey haze patches over dark theme syntax colors. Even non-glare etched glass introduces hazy contrast smear whenever directional sunlight clips an angled frame corner.
 
-Consider a horizontal canvas totaling six thousand eighty pixels (3440px ultrawide main plus 2560px landscape secondary, or an equivalent vertical array plus gap). At one thousand native CPI with neutral 1:1 raw input scaling, traversing across full width linearly needs 6.08 inches (15.4 cm). Once you factor diagonal resets, comfortable shoulder neutral stance, and occasional edge sweeps during multi-window debugging, cramped twenty-five-centimeter legacy mousepads force repeated mouse liftoffs against wooden edges.
+Choosing unglazed, tight-weave cotton-poly canvas changes the boundary optics completely. Woven textile threads scatter incoming photons across wide micro-angles (approaching Lambertian diffusion) instead of bouncing sharp mirror beams. Hanging deep one-and-a-quarter-inch pine stretcher frames eliminates clear glass sheets entirely, letting bold artwork sit cleanly within peripheral camera views during daily standups without turning into a glaring mirror.
 
-Running this simple browser calculation before configuring desk layout reveals how much clean lateral pad space your peripherals genuinely require:
+### Managing Background Luminance Ratios During Long Work Blocks
 
-```javascript
-function minPadWidthCm(totalHorizontalPx, mouseCpi, tklKeyboardWidthCm = 36) {
-  const fullSpanCm = (totalHorizontalPx / mouseCpi) * 2.54;
-  const ergonomicSweepCm = fullSpanCm * 1.65;
-  const edgeBufferCm = 12;
-  return Math.ceil(tklKeyboardWidthCm + ergonomicSweepCm + edgeBufferCm);
-}
-```
+Ergonomic lighting standards generally recommend keeping wall luminance directly behind displays roughly one-third to one-half as bright as screen output. Harsh stark-white drywall behind an OLED screen running one hundred and eighty nits forces pupils to constrict slightly whenever peripheral vision glances outward, exaggerating contrast strain. Conversely, pitch-black painted drywall makes bright window chrome feel piercing across darkened bedrooms late at night.
 
-At eight hundred CPI across dual high-resolution displays, `minPadWidthCm(5120, 800, 36)` lands right around eighty centimeters total breadth—explaining why standard medium mousepads frustrate ultrawide users while extended formats solve edge-bumping instantly. Running even lower six-hundred-CPI precision rates during Figma vector editing pushes ideal pad width neatly toward ninety centimeters.
+Introducing mid-tone archival prints behind monitors or opposite room walls bridges that brightness delta naturally:
 
-### Keyboard Form Factor Directly Governs Usable Mousing Room
+- **Muted warm greys, architectural linework, and desaturated ochre tones** anchor rear wall contrast gently around forty percent reflectance without screaming for attention mid-compile.
+- **Satin-free cotton inks** preserve deep blacks on high-contrast illustrations without glossy glare spots under warm desk task lamps or angled skylight windows.
+- **Horizontal landscape proportions** align naturally with ultrawide monitor top bezels when mounted twenty centimeters clear of upper display edges.
 
-Switching from a bulky full-size one-hundred-and-four-key keyboard (44–46 cm wide) down to a seventy-five-percent or tenkeyless chassis immediately hands nine to eleven centimeters back to right-hand wrist rotation. On an eighty-by-forty-centimeter or ninety-by-forty-centimeter continuous surface, that extra clearance keeps your shoulder blade naturally neutral directly in front of your torso rather than externally rotated outward.
+### Checking Peripheral Reflections on Curved Displays Specifically
 
-Left-hand numpad users or split-ergonomic keyboard builders gain even clearer benefits from continuous uniform surfaces. Placing separated halves thirty-five centimeters apart leaves room in the middle for trackpads, rotary encoders, or analog notebooks on continuous stitched fabric rather than hopping across uneven gaps. Keeping one unbroken padded plane under wrists, elbows, and both halves prevents frustrating sensor tracking stutters right across split gaps.
+Curved ultrawide displays (1000R and 1800R radii) gather reflections across a noticeably wider rear-wall arc than flat IPS screens. Because concave screen edges angle inward slightly toward seating positions, side windows and bright glossy frames located sixty degrees off-axis behind your shoulder routinely project blurry pale streaks squarely along side terminal panes. Covering opposite side walls in matte unglazed textiles rather than glass poster clips removes those oblique reflections without requiring blackout roller blinds during bright British mornings.
 
-### Avoiding Vertical Drop-Off and Diagonal Reset Fatigue
+### Framing Proportions Around Camera Fields of View
 
-Screen layouts aren't purely horizontal anymore; developers running stacked ultrawides or 32-inch 4K monitors paired with vertical log windows sweep diagonally upwards across forty centimeters of height as often as left-to-right. Short thirty-centimeter deep strips leave palm bases sliding directly off rear corners whenever pointers travel toward menu bars. Stepping up to forty-centimeter fore-aft surface depth cushions palm heels safely across full diagonal resets without hitting slick wooden grain.
+Remote engineers also notice immediately how wall framing alters webcam exposure metering. Standard ninety-degree wide-angle webcams overexpose empty white walls, dropping exposure onto faces until everyone looks shadowy during architecture reviews. Breaking up large blank background rectangles with intentional visual anchors helps auto-exposure algorithms lock steady white balance across changing overcast daylight. Adding subtle horizontal depth directly behind the chair gives video streams natural room separation without distracting artificial background blur.
 
-Equally important is wrist angle consistency across an eight-hour sprint. Thick stitched perimeter binding that sits flush with four millimeters of natural open-cell rubber foam prevents hard plastic table edges from pressing across carpal tunnels while your hand settles onto keyboard shortcuts or trackballs. Keep desk surface depth generous enough that elbows hang relaxed directly beneath shoulders rather than reaching tightly forward toward stiff table lips.
+Placement height matters just as clearly when balancing sit-stand postures. Mounting wall pieces so lower timber stretcher bars sit near seated shoulder height prevents cropped frame edges from floating awkwardly around your hairline on camera calls. Meanwhile, stepping matte artwork thirty centimeters clear of desk rear rails leaves clean airflow space for articulated boom microphones, warm bookshelf speakers, and adjustable camera key lights without casting harsh shadows directly onto cotton fabric grain.
 
-### Verifying Monitor-Stand Depth and Cable-Routing Clearance
-
-Width is only half of spatial desk planning. Large curved ultrawides with stock V-shaped factory legs routinely jut twenty-eight to thirty-two centimeters forward from rear desk edges. Measuring real stand clearance beforehand stops front mat borders from puckering up over plastic monitor feet.
-
-Mounting heavy panels on rear C-clamp gas-spring arms reclaims twelve to fifteen centimeters of valuable fore-aft depth, allowing deeper forearm planting across [space-themed extended desk mats](https://printswithpassion.com/collections/space-galaxy-nebula-desk-mats) with full elbow support. If you want to test exact monitor-foot cutouts against keyboard footprints visually before rearranging cables, check interactive layout overlays inside our [2D desk setup geometry visualizer](https://printswithpassion.com/pages/desk-size-visualizer) to map real millimeter tolerances ahead of time without sliding tape measures around cluttered worktops.
+Exploring [minimalist Bauhaus and geometric canvas prints](https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art) provides structured low-glare backdrop anchors that stay visually calm rather than noisy on 1080p video streams. Pairing clean matte wall surfaces with coordinated [geometric studio desk mats](https://printswithpassion.com/collections/minimalist-abstract-geometric-desk-mats) unifies desk and background geometry around calm peripheral sightlines without harsh visual clutter or eye strain.
 ```
 
 ---
 
-## 2. Primary Web Editorial Companion Pack — **`SUBSTACK`**
+## 2. Primary Web Editorial Companion Pack — **`INSTRUCTABLES`**
 
-- **Target Blueprint:** `ed-substack-tactile-acoustic-softening`
-- **Platform Link Equity:** **Dofollow + Google Indexable**
-- **Suggested Headline:** `Tactile Acoustic Softening in Open-Plan Timber & Hard-Floor Modern Apartments`
-- **Subtitle:** `Why clean minimalist rooms feel cold on echo alone—and how layered textiles and deep stretched canvases fix room warmth quietly.`
-- **Verified Prose Word Count:** `606` words
-- **4-Gram Similarity vs Live `/blogs/news`:** `0.0008`
-- **Verified Priority Links (`2`):** `https://printswithpassion.com/collections/canvas-prints`, `https://printswithpassion.com/collections/blankets`
+- **Target Blueprint:** `ed-instructables-gallery-wall-145cm`
+- **Platform Link Equity:** **Living/DIY Step Guide (Indexable)**
+- **Suggested Headline:** `How to Measure, Paper-Template & Hang a Balanced Gallery Wall at 145cm Eye Level`
+- **Subtitle:** `Step-by-step zero-guesswork geometry guide for hanging clean multi-frame clusters without turning plaster walls into Swiss cheese.`
+- **Verified Prose Word Count:** `609` words
+- **4-Gram Similarity vs Live `/blogs/news`:** `0.0033`
+- **Verified Priority Links (`2`):** `https://printswithpassion.com/pages/desk-size-visualizer`, `https://printswithpassion.com/collections/botanical-floral-coastal-canvas-wall-art`
 
 ### Copy-Ready Article Body
 
 ```markdown
-Modern open-plan apartment conversions look calm in architectural listing photographs—sleek herringbone oak flooring, expansive triple-glazed glass sliders, crisp plaster walls, and low-slung minimal linen sofas. Yet move inside on day one and a quiet problem announces itself the moment you unpack: rooms feel oddly hollow. Forks clatter sharply across kitchen islands, zoom audio picks up slap-echo, and evening relaxation feels faintly clinical rather than enveloping. Fixing room tone does not mean compromising crisp contemporary lines; intentional material layering handles sound absorption quietly in plain sight.
+Hanging a multi-piece canvas arrangement freehand looks easy until step three leaves pencil smudge arcs across fresh emulsion and four misaligned rawlplug holes sitting behind the wrong frame corner. Rather than eyeballing heights from across the hallway, using museum gallery baseline geometry alongside thirty-pence brown kraft paper templates guarantees level margins and effortless symmetry before lifting a hammer once. Keeping all adjustments exclusively on paper saves rented drywall deposits effortlessly.
 
-### Why Visual Minimalism Accidentally Amplifies Harsh Room Acoustics
+### Step 1: Lock Total Outer Footprint Before Cutting Paper
 
-Sound waves bounce cleanly off parallel hard surfaces like ping-pong balls. When dining tables, engineered hardwood planks, crisp drywall ceilings, and bare picture windows sit opposite one another with little soft upholstery in between, ambient frequencies between five hundred hertz and four kilohertz linger noticeably longer before decaying (RT60 reverberation time creeps upward). Even soft voices carry unexpectedly far across shared kitchen-living rooms whenever no soft surfaces sit along parallel boundary walls.
+Treat multi-canvas groupings as a single unified rectangle rather than scattered standalone frames. Pick outer edge limits strictly around anchor furniture widths underneath—leaving roughly two-thirds total couch width covered across your cluster—and pre-verify frame sizes cleanly inside our [2D wall art proportion visualizer](https://printswithpassion.com/pages/desk-size-visualizer) before printing templates. Consistently preserving tight five-to-seven-centimeter clean air gutters between neighboring canvas sides prevents clusters from scattering awkwardly across blank rooms and locks strong architectural cohesion.
 
-Fixing hollow room echo never requires sticking ugly grey studio foam pyramids onto stylish dining walls. True residential acoustic comfort comes cleanly from mixing varied porous organic layers across three distinct height planes: underfoot flat weaves, mid-seat upholstery, and ear-level wall surfaces.
+### Step 2: Trace Full-Scale Kraft Paper Cutouts & Mark Hanging Brackets
 
-### Breaking Early Side-Wall Reflections Using Deep Stretched Textile Canvases
+Unroll kraft butcher paper or old taped newspaper sheets onto a flat floor, lay every actual stretched pine canvas face-down atop sheets, and trace exact outer edges cleanly with carpenter pencils. Cut silhouettes precisely with scissors. Next comes the crucial accuracy check most DIY blogs omit: flip each canvas back onto its paper cutout, measure exact vertical drop from upper timber wood rim down to interior serrated hanger notches or wire apex under light tension, and pierce clear dot markers onto matching paper faces cleanly. Labeling each paper sheet neatly (Left, Center, Right) stops mixed-up mirror flips once stood upward against plaster.
 
-Bare plaster sitting directly across from hard television consoles or dining benches bounces direct mid-range voices right back into conversational space. Mounting deep one-and-a-quarter-inch pine-stretched cotton canvases introduces natural micro-diffusion across smooth drywall without ruining sleek architectural minimalism:
+### Step 3: Establish the Universal 145cm Museum Eye-Level Datum
 
-- **Porous woven textile face:** Heavy cotton-poly canvas breaks harsh surface stiffness far better than flat shiny poster vinyl behind slick acrylic sheets.
-- **Hidden rear timber pocket:** That deep thirty-millimeter recessed pine stretcher cavity subtly traps edge boundary wavelengths along flat walls, softening high-mid slap-echo naturally.
-- **Eye-level placement (145 cm center hang):** Places diffusive textile directly along standing and seated mouth-to-ear paths where room brightness bothers listeners most during casual dinners.
+Professional curators hang cohesive residential sightlines consistently around fifty-seven inches (145 cm) measured strictly from finished flooring right up to horizontal cluster center—not upper frame rims! Measure seventy-two point five centimeters downward from ceiling moldings? Never—rooms settle unevenly across older plaster cornices while finished hardwood floors hold truer reference planes. Using this steady floor-measured datum keeps corridors, bedrooms, and open-plan seating flowing along one calm continuous horizon without dizzying rollercoaster stair-stepping. When hanging directly above furniture backrests instead of bare hallway plaster, adjust datum smoothly so lowest frame rims clear upper sofa pillows by fifteen to twenty centimeters neatly.
 
-### Layering Heavy Coral-Fleece Throws Over Low Minimal Sofas
+### Step 4: Tape Cutouts, Step Back Four Meters, and Adjust Freely
 
-Floor rugs soften footfalls, yet upper seating zones still bounce crisp vocal reflections off tight leather or densely woven contemporary wool upholstery. Draping breathable heavyweight coral-fleece throw blankets cleanly across back lounge cushions and exposed sofa arms introduces immediate porous loft right at ear level. Beyond tangible thermal comfort on chilly evenings, soft high-pile folds visibly break rigid square furniture silhouettes—introducing relaxed drape without adding messy throw pillows or cluttered decorative trays onto coffee tables. Keeping one folded deep-piled textile permanently resting along sofa corner backs creates effortless soft mass all year round.
+Fix light kraft paper cutouts onto walls using low-tack painter's blue masking tape so paint stays unblemished. Leave cutouts resting overnight if possible; seeing geometric blocks shift under crisp morning sun versus evening warm lamps reveals spacing tweaks immediately without committing single nail holes. Adjust horizontal gaps by sliding light templates three millimeters apart using scrap cardboard spacer blocks held directly between adjacent paper rims while leveling top edges cleanly against spirit-level bubbles.
 
-### Quiet Nighttime Acoustics Near Hard Dining Chairs
+When hanging mixed horizontal and vertical formats inside an asymmetrical triptych, align imaginary center axes quietly rather than forcing unequal top borders to match strictly. Consistent gutter intervals between neighboring outer edges trick human perception into reading diverse portrait and landscape shapes as one cohesive composition without stiffening relaxed modern rooms.
 
-Dining alcoves tucked beside smooth quartz countertops amplify sharp plate noise far more than deep lounge sofas. Pairing calm unframed cotton textiles directly beside timber dining chairs balances high kitchen surfaces cleanly without hanging heavy curtains that block natural flat views.
+### Step 5: Tap Nails Straight Through Paper Targets & Pull Clean
 
-Remember open hallway entries right beside front doors too: narrow plastered vestibules act like megaphones echoing footsteps straight back into living corners whenever left completely empty. Hanging one medium vertical canvas down an interior corridor wall breaks flutter echo between opposing painted studwork before sound ever enters seating areas. Maintenance stays simple when soft pieces work hard everyday—cold delicate machine washes inside mesh bags keep coral-fleece pile lofty and breathable season after season without matted synthetic clumping.
-
-Matching soft drape textures alongside natural serene horizons keeps minimalism restful rather than austere. Pairing crisp wide-span [framed archival wall art](https://printswithpassion.com/collections/canvas-prints) opposite dining alcoves alongside tactile [plush fleece throw blankets](https://printswithpassion.com/collections/blankets) over streamlined sofas settles harsh open-plan echo quickly—preserving pure clean room lines while restoring genuine physical warmth at home without bulky renovations.
+Inspect masonry versus hollow plasterboard behind marked dots with subtle finger knocks or digital stud sensors so screws hold fast without slipping inside hollow gypsum pockets. Once visual rhythm passes inspection from across the room, drive picture pins or heavy drywall anchors squarely through marked hanger dots directly through paper sheets, tear kraft cutouts softly clear around protruding nail heads, and drop deep pine stretcher frames solidly into lock. Finishing delicate plaster work with cohesive [botanical and coastal canvas wall art](https://printswithpassion.com/collections/botanical-floral-coastal-canvas-wall-art) creates airy gallery serenity cleanly on your very first attempt.
 ```
 
 ---
@@ -112,16 +99,16 @@ Matching soft drape textures alongside natural serene horizons keeps minimalism 
 
 | # | Pin Title | High-Res Shopify CDN Image | Source Link (`rel="external"` target) | Pin Caption |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | Table Mountain Sunset — XXL Extended Gaming Desk Mat (80 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/11543335830592184801_2048_e5399ac1-288c-421d-a31d-25fb8c61c0a6.jpg?v=1740925013` | `https://printswithpassion.com/collections/desk-mats` | Table Mountain Sunset — XXL Extended Gaming Desk Mat (80 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
-| 2 | Cybernetic Tree in Digital Swamp — Double-Sided Square Cushion Cover (40 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/cybernetic-tree-in-digital-swamp-double-sided-square-cushion-cover-40-40-cm-front.jpg?v=1793089216` | `https://printswithpassion.com/collections/pillow-cases` | Cybernetic Tree in Digital Swamp — Double-Sided Square Cushion Cover (40 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
-| 3 | Sunrise Reflecting on Infinity Mirror — Double-Sided Square Cushion Cover (40 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/sunrise-reflecting-on-infinity-mirror-double-sided-square-cushion-cover-40--front.jpg?v=1793089217` | `https://printswithpassion.com/collections/pillow-cases` | Sunrise Reflecting on Infinity Mirror — Double-Sided Square Cushion Cover (40 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
-| 4 | Stormy Ocean with Levitating Rocks — Double-Sided Square Cushion Cover (40 × 40 cm) | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/stormy-ocean-with-levitating-rocks-double-sided-square-cushion-cover-40-40--front.jpg?v=1793089215` | `https://printswithpassion.com/collections/pillow-cases` | Stormy Ocean with Levitating Rocks — Double-Sided Square Cushion Cover (40 × 40 cm) — Printed studio edition crafted for distraction-free contemporary interiors & clean workstation styling. |
+| 1 | Minimalist Bauhaus & Architectural Canvas Collection | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/3503744772965030654_2048.jpg` | `https://printswithpassion.com/collections/abstract-minimalist-bauhaus-canvas-wall-art` | Archival matte cotton canvas wall art on 1.25" kiln-dried European pine frames for calm glare-free living rooms. |
+| 2 | Japanese Ukiyo-e & Indigo Studio Setup Surface | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/8938931774220653533_2048.jpg` | `https://printswithpassion.com/collections/japanese-anime-desk-mats` | 4mm natural rubber stitched extended desk mat engineered for mechanical keyboard acoustics and low-CPI sweeps. |
+| 3 | Sci-Fi & Cyberpunk Dark-Mode Battlestation Surface | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/9857735080610781536_2048.jpg` | `https://printswithpassion.com/collections/cyberpunk-neon-gaming-desk-mats` | Full 90x40cm stitched XXL desk surface pairing cleanly under ultrawide OLED coding & gaming rigs. |
+| 4 | Botanical & Coastal Cushion Accent Textures | `https://cdn.shopify.com/s/files/1/0726/5039/1863/files/3503744772965030654_2048.jpg` | `https://printswithpassion.com/collections/botanical-floral-garden-cushion-covers` | Double-sided velvet square cushion covers bringing organic tone warmth to hard-floor interiors. |
 
 ---
 
 ## 4. KeebTalk (Community Feedback Log — Non-Promotional)
 
-- **Suggested Topic Title:** `[Setup Notes] Comparing 4mm Natural Rubber vs Thin Neoprene Desk Mat Acoustics (tech-low-cpi-ultrawide-mouse-geometry)`
+- **Suggested Topic Title:** `[Setup Notes] Comparing 4mm Natural Rubber vs Thin Neoprene Desk Mat Acoustics (tech-oled-glare-control-matte-canvas-surfaces)`
 
 ```markdown
 Hey folks — wanted to share a couple measurements from testing different desk pad thicknesses under a heavy gasket-mounted 75% board on a hollow veneer desk.
